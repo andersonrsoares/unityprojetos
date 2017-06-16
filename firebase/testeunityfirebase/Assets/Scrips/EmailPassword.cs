@@ -1,10 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Firebase.Auth;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System;
+using Firebase;
+using Firebase.Auth;
+using Firebase.Database;
+using Firebase.Unity.Editor;
 
 public class EmailPassword : MonoBehaviour
 {
@@ -14,6 +17,8 @@ public class EmailPassword : MonoBehaviour
     public Button SignupButton, LoginButton;
     public Text ErrorText;
 
+	DependencyStatus dependencyStatus = DependencyStatus.UnavailableOther;
+	ArrayList leaderBoard;
     void Start()
     {
         auth = FirebaseAuth.DefaultInstance;
@@ -23,8 +28,64 @@ public class EmailPassword : MonoBehaviour
 
         SignupButton.onClick.AddListener(() => Signup(UserNameInput.text, PasswordInput.text));
         LoginButton.onClick.AddListener(() => Login(UserNameInput.text, PasswordInput.text));
+
+
+
+		dependencyStatus = FirebaseApp.CheckDependencies();
+		if (dependencyStatus != DependencyStatus.Available) {
+			FirebaseApp.FixDependenciesAsync().ContinueWith(task => {
+				dependencyStatus = FirebaseApp.CheckDependencies();
+				if (dependencyStatus == DependencyStatus.Available) {
+					InitializeFirebase(null);
+				} else {
+					Debug.LogError(
+						"Could not resolve all Firebase dependencies: " + dependencyStatus);
+				}
+			});
+		} else {
+			InitializeFirebase(null);
+		}
     }
 
+	// Initialize the Firebase database:
+	void InitializeFirebase(FirebaseUser user) {
+		FirebaseApp app = FirebaseApp.DefaultInstance;
+		app.SetEditorDatabaseUrl("https://fir-functions-6e6b0.firebaseio.com/");
+		if (app.Options.DatabaseUrl != null) 
+			app.SetEditorDatabaseUrl(app.Options.DatabaseUrl);
+
+		//app.SetEditorAuthUserId (user.UserId);
+		//app.SetEditorServiceAccountEmail (user.Email);
+	
+
+		FirebaseDatabase.DefaultInstance
+			.GetReference ("posts").SetRawJsonValueAsync("{ body=\"teste\",title=\"teste titulo\"}");
+
+		/*leaderBoard = new ArrayList();
+		FirebaseDatabase.DefaultInstance
+			.GetReference("Leaders").OrderByChild("score")
+			.ValueChanged += (object sender2, ValueChangedEventArgs e2) => {
+			if (e2.DatabaseError != null) {
+				Debug.LogError(e2.DatabaseError.Message);
+				return;
+			}
+			string title = leaderBoard[0].ToString();
+			leaderBoard.Clear();
+			leaderBoard.Add(title);
+			if (e2.Snapshot != null && e2.Snapshot.ChildrenCount > 0) {
+				foreach (var childSnapshot in e2.Snapshot.Children) {
+					if (childSnapshot.Child("score") == null
+						|| childSnapshot.Child("score").Value == null) {
+						Debug.LogError("Bad data in sample.  Did you forget to call SetEditorDatabaseUrl with your project id?");
+						break;
+					} else {
+						leaderBoard.Insert(1, childSnapshot.Child("score").Value.ToString()
+							+ "  " + childSnapshot.Child("email").Value.ToString());
+					}
+				}
+			}
+		};*/
+	}
 
     public void Signup(string email, string password)
     {
@@ -84,6 +145,8 @@ public class EmailPassword : MonoBehaviour
             }
 
             FirebaseUser user = task.Result;
+				//
+			//InitializeFirebase(user);
             Debug.LogFormat("User signed in successfully: {0} ({1})",
                 user.DisplayName, user.UserId);
 
