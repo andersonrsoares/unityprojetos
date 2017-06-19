@@ -36,30 +36,49 @@ public class EmailPassword : MonoBehaviour
 			FirebaseApp.FixDependenciesAsync().ContinueWith(task => {
 				dependencyStatus = FirebaseApp.CheckDependencies();
 				if (dependencyStatus == DependencyStatus.Available) {
-					InitializeFirebase(null);
+					//InitializeFirebase(null);
 				} else {
 					Debug.LogError(
 						"Could not resolve all Firebase dependencies: " + dependencyStatus);
 				}
 			});
 		} else {
-			InitializeFirebase(null);
+			 //InitializeFirebase(null);
 		}
     }
 
 	// Initialize the Firebase database:
-	void InitializeFirebase(FirebaseUser user) {
+	 void InitializeFirebase(FirebaseUser user) {
 		FirebaseApp app = FirebaseApp.DefaultInstance;
 		app.SetEditorDatabaseUrl("https://fir-functions-6e6b0.firebaseio.com/");
 		if (app.Options.DatabaseUrl != null) 
 			app.SetEditorDatabaseUrl(app.Options.DatabaseUrl);
 
-		//app.SetEditorAuthUserId (user.UserId);
+		app.SetEditorAuthUserId (user.UserId);
 		//app.SetEditorServiceAccountEmail (user.Email);
 	
 
-		FirebaseDatabase.DefaultInstance
-			.GetReference ("posts").SetRawJsonValueAsync("{ body=\"teste\",title=\"teste titulo\"}");
+		Debug.Log(app.Options.DatabaseUrl);
+//		FirebaseDatabase.GetInstance ("https://fir-functions-6e6b0.firebaseio.com/").RootReference.SetRawJsonValueAsync ("{ body=\"teste\",title=\"teste titulo\"}");
+		Debug.Log("before save database: ");
+		DatabaseReference reference = FirebaseDatabase.DefaultInstance.RootReference;
+		reference.Child("posts").SetRawJsonValueAsync("{\"body\": \"teste\",\"title\": \"teste titulo\"}").ContinueWith(task => 
+			{
+				Debug.Log("after save database: ");
+				if (task.IsCanceled)
+				{
+					Debug.LogError("SetRawJsonValueAsync canceled.");
+					return;
+				}
+				if (task.IsFaulted)
+				{
+					Debug.LogError("SetRawJsonValueAsync error: " + task.Exception);
+					if (task.Exception.InnerExceptions.Count > 0)
+						UpdateErrorMessage(task.Exception.InnerExceptions[0].Message);
+					return;
+				}
+			
+			});
 
 		/*leaderBoard = new ArrayList();
 		FirebaseDatabase.DefaultInstance
@@ -146,7 +165,7 @@ public class EmailPassword : MonoBehaviour
 
             FirebaseUser user = task.Result;
 				//
-			//InitializeFirebase(user);
+			InitializeFirebase(user);
             Debug.LogFormat("User signed in successfully: {0} ({1})",
                 user.DisplayName, user.UserId);
 

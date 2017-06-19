@@ -1,0 +1,19416 @@
+﻿#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+#include <cstring>
+#include <string.h>
+#include <stdio.h>
+#include <cmath>
+#include <limits>
+#include <assert.h>
+
+#include "class-internals.h"
+#include "codegen/il2cpp-codegen.h"
+#include "mscorlib_System_Array3829468939.h"
+#include "System_System_Net_NetworkInformation_IPStatus1105460603.h"
+#include "System_System_Net_NetworkInformation_IPv4Interface1411071681.h"
+#include "mscorlib_System_Void1841601450.h"
+#include "mscorlib_System_Object2689449295.h"
+#include "System_System_Net_NetworkInformation_IPv4Interface3946458365.h"
+#include "System_System_Net_NetworkInformation_IPv6Interface1930412363.h"
+#include "System_System_Net_NetworkInformation_LinuxArpHardw4257672401.h"
+#include "System_System_Net_NetworkInformation_LinuxGatewayI2323845969.h"
+#include "mscorlib_System_Boolean3825574718.h"
+#include "System_System_Net_NetworkInformation_GatewayIPAddr3537717171.h"
+#include "System_System_Net_NetworkInformation_IPAddressColl2986660307.h"
+#include "System_System_Net_IPAddress1399971723.h"
+#include "System_System_Net_NetworkInformation_GatewayIPAddre565141533.h"
+#include "System_System_Net_NetworkInformation_GatewayIPAddre153474369.h"
+#include "System_System_Net_NetworkInformation_LinuxIPInterf3318447793.h"
+#include "System_System_Net_NetworkInformation_LinuxNetworkI3864470295.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen769092855.h"
+#include "System_System_Net_NetworkInformation_UnixNetworkIn1000704527.h"
+#include "System_System_Net_NetworkInformation_UnixIPInterfa2418091637.h"
+#include "System_System_Net_NetworkInformation_LinuxIPv4Inte1534034571.h"
+#include "System_System_Net_NetworkInformation_UnixIPv4Interf179777771.h"
+#include "mscorlib_System_String2029220233.h"
+#include "mscorlib_System_Int322071877448.h"
+#include "System_System_Net_NetworkInformation_LinuxIPv4Inte1133266275.h"
+#include "mscorlib_System_Int64909078037.h"
+#include "mscorlib_System_IntPtr2504060609.h"
+#include "System_System_Net_NetworkInformation_NetworkInterfac63927633.h"
+#include "mscorlib_System_RuntimeTypeHandle2330101084.h"
+#include "mscorlib_System_Type1303803226.h"
+#include "System_System_Net_NetworkInformation_NetworkInterf4226883065.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_V3170815025.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_V3968042187.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g1484282261.h"
+#include "System_System_Net_NetworkInformation_ifaddrs2532459533.h"
+#include "mscorlib_System_Byte3683104436.h"
+#include "System_System_Net_NetworkInformation_sockaddr_in1277740973.h"
+#include "System_System_Net_NetworkInformation_sockaddr_in62899168071.h"
+#include "System_System_Net_NetworkInformation_sockaddr_ll1681025498.h"
+#include "mscorlib_System_SystemException3877406272.h"
+#include "mscorlib_System_UInt16986882611.h"
+#include "System_System_Net_NetworkInformation_in6_addr4035827331.h"
+#include "mscorlib_System_UInt322149682021.h"
+#include "mscorlib_System_IO_TextWriter4027217640.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_Va187342104.h"
+#include "System_System_Net_NetworkInformation_IPInterfacePr3986609851.h"
+#include "System_System_Net_NetworkInformation_OperationalSt2833345236.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g3986656710.h"
+#include "mscorlib_System_Globalization_NumberStyles3408984435.h"
+#include "mscorlib_System_UInt642909196914.h"
+#include "mscorlib_System_Char3454481338.h"
+#include "System_System_Net_NetworkInformation_LinuxUnicastIP870378058.h"
+#include "System_System_Net_NetworkInformation_UnicastIPAddr2919786644.h"
+#include "mscorlib_System_NotImplementedException2785117854.h"
+#include "System_System_Net_NetworkInformation_DuplicateAddr3969562151.h"
+#include "System_System_Net_NetworkInformation_PrefixOrigin2896511548.h"
+#include "System_System_Net_NetworkInformation_SuffixOrigin2288602937.h"
+#include "System_System_Net_NetworkInformation_MacOsArpHardwa650784048.h"
+#include "System_System_Net_NetworkInformation_MacOsIPInterf3101377296.h"
+#include "System_System_Net_NetworkInformation_MacOsNetworkI1454185290.h"
+#include "System_System_Net_NetworkInformation_MacOsIPv4Inte2988669134.h"
+#include "System_System_Net_NetworkInformation_MacOsIPv4Inte4240794432.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_Va760530020.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g3368964552.h"
+#include "System_System_Net_NetworkInformation_MacOsStructs_i937751619.h"
+#include "System_System_Net_NetworkInformation_MacOsStructs_3329842375.h"
+#include "System_System_Net_NetworkInformation_MacOsStructs_s834146887.h"
+#include "System_System_Net_NetworkInformation_MacOsStructs_2792443317.h"
+#include "System_System_Net_NetworkInformation_MacOsStructs_3955242742.h"
+#include "System_System_Net_NetworkInformation_MacOsStructs_1014645363.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_V2072024395.h"
+#include "System_System_Net_NetworkInformation_MibIcmpV4Stat1600715310.h"
+#include "System_System_Collections_Specialized_StringDictio1070889667.h"
+#include "System_System_Net_NetworkInformation_IcmpV4Statist1794928690.h"
+#include "mscorlib_System_Globalization_NumberFormatInfo104580544.h"
+#include "System_System_Net_NetworkInformation_MibIcmpV6Stat1370511724.h"
+#include "System_System_Net_NetworkInformation_IcmpV6Statistic86748584.h"
+#include "System_System_Net_NetworkInformation_MibIPGlobalPr4104985615.h"
+#include "System_System_Net_NetworkInformation_IPGlobalProper430107897.h"
+#include "mscorlib_System_Text_Encoding663144255.h"
+#include "mscorlib_System_IO_StreamReader2360341767.h"
+#include "mscorlib_System_Exception1927440687.h"
+#include "System_System_Net_NetworkInformation_NetworkInform1863186723.h"
+#include "mscorlib_System_InvalidOperationException721527559.h"
+#include "System_System_Net_IPEndPoint2615413766.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1011507104.h"
+#include "mscorlib_System_StringSplitOptions2996162939.h"
+#include "System_System_Net_NetworkInformation_TcpConnection3392050187.h"
+#include "System_System_Net_NetworkInformation_TcpState3539676666.h"
+#include "System_System_Net_NetworkInformation_TcpConnection1274605263.h"
+#include "System_System_Net_NetworkInformation_IPGlobalStatis106289253.h"
+#include "System_System_Net_NetworkInformation_MibIPGlobalSt1312635647.h"
+#include "System_System_Net_NetworkInformation_TcpStatistics2119642186.h"
+#include "System_System_Net_NetworkInformation_MibTcpStatist1080480462.h"
+#include "System_System_Net_NetworkInformation_UdpStatistics3170871206.h"
+#include "System_System_Net_NetworkInformation_MibUdpStatist1268103182.h"
+#include "System_System_Net_NetworkInformation_NetBiosNodeTy2005148930.h"
+#include "System_System_Net_NetworkInformation_MulticastIPAd1580768453.h"
+#include "System_System_Net_NetworkInformation_IPAddressInfor732454853.h"
+#include "System_System_Net_NetworkInformation_MulticastIPAd2350102231.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen949889585.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumerat484619259.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumera1593300101.h"
+#include "mscorlib_System_NotSupportedException1793819818.h"
+#include "System_System_Net_NetworkInformation_MulticastIPAd2980279617.h"
+#include "System_System_Net_NetworkInformation_MulticastIPAd3355839275.h"
+#include "System_System_Net_NetworkInformation_Win32_SOCKET_1093973396.h"
+#include "System_System_Net_NetworkInformation_Win32LengthFl1910118479.h"
+#include "System_System_Net_NetworkInformation_Win32_IP_ADAP2877128995.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumerat303822529.h"
+#include "System_System_Net_NetworkInformation_NetworkAddres2528401652.h"
+#include "mscorlib_System_EventArgs3289624707.h"
+#include "mscorlib_System_AsyncCallback163412349.h"
+#include "System_System_Net_NetworkInformation_NetworkAvaila3480120991.h"
+#include "System_System_Net_NetworkInformation_NetworkAvailab182009988.h"
+#include "System_System_Net_NetworkInformation_NetworkChange971476440.h"
+#include "mscorlib_System_Delegate3022476291.h"
+#include "System_System_Net_NetworkInformation_NetworkInform1344064408.h"
+#include "System_System_ComponentModel_Win32Exception1708275760.h"
+#include "mscorlib_System_Runtime_Serialization_Serialization228987430.h"
+#include "mscorlib_System_Runtime_Serialization_StreamingCon1417235061.h"
+#include "System_System_Net_NetworkInformation_NetworkInform3395913791.h"
+#include "mscorlib_System_Security_Permissions_PermissionSta3557289502.h"
+#include "mscorlib_System_Security_CodeAccessPermission3468021764.h"
+#include "mscorlib_System_Security_SecurityElement2325568386.h"
+#include "System_System_Net_NetworkInformation_NetworkInforma852696539.h"
+#include "mscorlib_System_Security_Permissions_SecurityAction446643378.h"
+#include "mscorlib_System_Security_Permissions_CodeAccessSec3161344859.h"
+#include "mscorlib_System_ArgumentException3259014390.h"
+#include "mscorlib_System_PlatformID1006634368.h"
+#include "mscorlib_System_Version1755874712.h"
+#include "mscorlib_System_OperatingSystem290860502.h"
+#include "mscorlib_System_IO_Stream3255436806.h"
+#include "mscorlib_System_IO_FileStream1695958676.h"
+#include "System_System_Net_NetworkInformation_NetworkInterf2376191102.h"
+#include "System_System_Net_NetworkInformation_PhysicalAddre1613893277.h"
+#include "mscorlib_System_FormatException2948921286.h"
+#include "mscorlib_System_IndexOutOfRangeException3527622107.h"
+#include "mscorlib_System_Text_StringBuilder1221177846.h"
+#include "System_System_Net_NetworkInformation_Ping3611444498.h"
+#include "System_System_ComponentModel_Component2826673791.h"
+#include "mscorlib_System_Security_Principal_WindowsIdentity373339331.h"
+#include "System_System_Net_NetworkInformation_PingCompleted1044526567.h"
+#include "System_System_Net_NetworkInformation_Ping_cap_user1012002510.h"
+#include "System_System_Net_NetworkInformation_Ping_cap_user2417848831.h"
+#include "System_System_Net_NetworkInformation_PingCompletedE841787612.h"
+#include "System_System_ComponentModel_BackgroundWorker4230068110.h"
+#include "System_System_Net_NetworkInformation_PingReply1978568794.h"
+#include "System_System_Net_NetworkInformation_PingOptions1261881264.h"
+#include "System_System_Net_IPHostEntry994738509.h"
+#include "mscorlib_System_ArgumentNullException628810857.h"
+#include "mscorlib_System_ArgumentOutOfRangeException279959794.h"
+#include "System_System_Net_Sockets_AddressFamily303362630.h"
+#include "System_System_Net_Sockets_SocketType1143498533.h"
+#include "System_System_Net_Sockets_ProtocolType2178963134.h"
+#include "System_System_Net_Sockets_SocketFlags2353657790.h"
+#include "System_System_Net_EndPoint4156119363.h"
+#include "mscorlib_System_DateTime693205669.h"
+#include "mscorlib_System_TimeSpan3430258949.h"
+#include "System_System_Net_Sockets_Socket3821512045.h"
+#include "System_System_Net_NetworkInformation_Ping_IcmpMessa482998463.h"
+#include "mscorlib_System_Int164041245914.h"
+#include "mscorlib_System_Double4078015681.h"
+#include "System_System_Diagnostics_Process1448008787.h"
+#include "System_System_Diagnostics_ProcessStartInfo2898458543.h"
+#include "System_System_ComponentModel_DoWorkEventHandler941110040.h"
+#include "System_System_ComponentModel_RunWorkerCompletedEve2492476920.h"
+#include "System_System_Net_NetworkInformation_Ping_U3CSendA2153546882.h"
+#include "System_System_ComponentModel_DoWorkEventArgs62745097.h"
+#include "System_System_ComponentModel_RunWorkerCompletedEve3512304465.h"
+#include "mscorlib_System_Globalization_CultureInfo3500843524.h"
+#include "System_System_ComponentModel_AsyncCompletedEventArgs83270938.h"
+#include "System_System_Net_NetworkInformation_PingException4091918533.h"
+#include "System_System_Net_NetworkInformation_UnicastIPAddre347163204.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen2288907776.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumera1823637450.h"
+#include "System_System_Net_NetworkInformation_UnicastIPAddre771061202.h"
+#include "System_System_Net_NetworkInformation_Win32_IP_ADAP1884414946.h"
+#include "System_System_Net_NetworkInformation_Win32UnicastI1388218403.h"
+#include "System_System_Text_RegularExpressions_Regex1803876613.h"
+#include "mscorlib_System_StringComparison2376310518.h"
+#include "System_System_Text_RegularExpressions_Match3164245899.h"
+#include "System_System_Text_RegularExpressions_Group3761430853.h"
+#include "System_System_Text_RegularExpressions_GroupCollecti939014605.h"
+#include "System_System_Text_RegularExpressions_Capture4157900610.h"
+#include "System_System_Net_NetworkInformation_IPAddressInfo3688726299.h"
+#include "System_System_Net_NetworkInformation_IPAddressInfo1702846383.h"
+#include "System_System_Net_NetworkInformation_Win32_FIXED_I1371335919.h"
+#include "System_System_Net_NetworkInformation_Win32_IP_ADDR2646152127.h"
+#include "System_System_Net_NetworkInformation_Win32_IP_ADAPT680756680.h"
+#include "System_System_Net_NetworkInformation_AlignmentUnion707470070.h"
+#include "System_System_Net_NetworkInformation_Win32_IP_ADAP2340726006.h"
+#include "System_System_Net_NetworkInformation_Win32_IP_ADAP2512883708.h"
+#include "System_System_Net_NetworkInformation_Win32_IP_ADAP2310876292.h"
+#include "System_System_Net_NetworkInformation_Win32_IP_PER_1280460216.h"
+#include "System_System_Net_NetworkInformation_Win32_MIB_ICM2748725486.h"
+#include "System_System_Net_NetworkInformation_Win32_MIBICMP3893422550.h"
+#include "System_System_Net_NetworkInformation_Win32_MIB_IFR4215928996.h"
+#include "System_System_Net_NetworkInformation_Win32_MIB_IPS1777025181.h"
+#include "System_System_Net_NetworkInformation_Win32_MIB_TCP1219941615.h"
+#include "System_System_Net_NetworkInformation_Win32_MIB_UDP4063826601.h"
+#include "System_System_Net_NetworkInformation_Win32_MIBICMP3825151335.h"
+#include "System_System_Net_NetworkInformation_Win32_MIBICMPS683952994.h"
+#include "System_System_Net_NetworkInformation_Win32_SOCKADD1606057231.h"
+#include "System_System_Net_NetworkInformation_Win32GatewayIP710370590.h"
+#include "System_System_Net_NetworkInformation_Win32IcmpV4St1426867275.h"
+#include "System_System_Net_NetworkInformation_Win32IcmpV6St1196663689.h"
+#include "System_System_Net_NetworkInformation_Win32IPAddres2117998352.h"
+#include "System_System_Net_NetworkInformation_Win32IPGlobal2393043454.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen2724853207.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen3376276681.h"
+#include "System_System_Net_NetworkInformation_Win32IPGlobal3355732075.h"
+#include "System_System_Net_NetworkInformation_Win32IPGlobal4007155549.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1984534898.h"
+#include "System_System_Net_NetworkInformation_Win32IPGlobal3234258897.h"
+#include "System_System_Net_NetworkInformation_Win32IPGlobal2989424443.h"
+#include "System_System_Net_NetworkInformation_Win32IPGlobal3349972664.h"
+#include "System_System_Net_NetworkInformation_Win32TcpStati3798324233.h"
+#include "System_System_Net_NetworkInformation_Win32UdpStatis477239559.h"
+#include "System_System_Net_NetworkInformation_Win32IPGlobal3054921274.h"
+
+// System.Net.NetworkInformation.IPv4InterfaceProperties
+struct IPv4InterfaceProperties_t1411071681;
+// System.Object
+struct Il2CppObject;
+// System.Net.NetworkInformation.IPv4InterfaceStatistics
+struct IPv4InterfaceStatistics_t3946458365;
+// System.Net.NetworkInformation.IPv6InterfaceProperties
+struct IPv6InterfaceProperties_t1930412363;
+// System.Net.NetworkInformation.LinuxGatewayIPAddressInformationCollection
+struct LinuxGatewayIPAddressInformationCollection_t2323845969;
+// System.Net.NetworkInformation.GatewayIPAddressInformationCollection
+struct GatewayIPAddressInformationCollection_t3537717171;
+// System.Net.NetworkInformation.IPAddressCollection
+struct IPAddressCollection_t2986660307;
+// System.Net.NetworkInformation.GatewayIPAddressInformationImpl
+struct GatewayIPAddressInformationImpl_t565141533;
+// System.Net.IPAddress
+struct IPAddress_t1399971723;
+// System.Net.NetworkInformation.LinuxIPInterfaceProperties
+struct LinuxIPInterfaceProperties_t3318447793;
+// System.Net.NetworkInformation.LinuxNetworkInterface
+struct LinuxNetworkInterface_t3864470295;
+// System.Collections.Generic.List`1<System.Net.IPAddress>
+struct List_1_t769092855;
+// System.Net.NetworkInformation.UnixIPInterfaceProperties
+struct UnixIPInterfaceProperties_t2418091637;
+// System.Net.NetworkInformation.UnixNetworkInterface
+struct UnixNetworkInterface_t1000704527;
+// System.Net.NetworkInformation.LinuxIPv4InterfaceProperties
+struct LinuxIPv4InterfaceProperties_t1534034571;
+// System.Net.NetworkInformation.UnixIPv4InterfaceProperties
+struct UnixIPv4InterfaceProperties_t179777771;
+// System.String
+struct String_t;
+// System.Net.NetworkInformation.LinuxIPv4InterfaceStatistics
+struct LinuxIPv4InterfaceStatistics_t1133266275;
+// System.Net.NetworkInformation.NetworkInterface[]
+struct NetworkInterfaceU5BU5D_t4157644364;
+// System.Net.NetworkInformation.NetworkInterface
+struct NetworkInterface_t63927633;
+// System.Collections.Generic.Dictionary`2<System.String,System.Net.NetworkInformation.LinuxNetworkInterface>
+struct Dictionary_2_t1484282261;
+// System.Collections.Generic.Dictionary`2<System.Object,System.Object>
+struct Dictionary_2_t2281509423;
+// System.SystemException
+struct SystemException_t3877406272;
+// System.Type
+struct Type_t;
+// System.Byte[]
+struct ByteU5BU5D_t3397334013;
+// System.IO.TextWriter
+struct TextWriter_t4027217640;
+// System.Array
+struct Il2CppArray;
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Net.NetworkInformation.LinuxNetworkInterface>
+struct ValueCollection_t187342104;
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Object>
+struct ValueCollection_t984569266;
+// System.Net.NetworkInformation.IPInterfaceProperties
+struct IPInterfaceProperties_t3986609851;
+// System.Collections.Generic.Dictionary`2<System.String,System.Int32>
+struct Dictionary_2_t3986656710;
+// System.Collections.Generic.Dictionary`2<System.Object,System.Int32>
+struct Dictionary_2_t1663937576;
+// System.Net.NetworkInformation.LinuxUnicastIPAddressInformation
+struct LinuxUnicastIPAddressInformation_t870378058;
+// System.Net.NetworkInformation.UnicastIPAddressInformation
+struct UnicastIPAddressInformation_t2919786644;
+// System.NotImplementedException
+struct NotImplementedException_t2785117854;
+// System.Net.NetworkInformation.MacOsIPInterfaceProperties
+struct MacOsIPInterfaceProperties_t3101377296;
+// System.Net.NetworkInformation.MacOsNetworkInterface
+struct MacOsNetworkInterface_t1454185290;
+// System.Net.NetworkInformation.MacOsIPv4InterfaceProperties
+struct MacOsIPv4InterfaceProperties_t2988669134;
+// System.Net.NetworkInformation.MacOsIPv4InterfaceStatistics
+struct MacOsIPv4InterfaceStatistics_t4240794432;
+// System.Collections.Generic.Dictionary`2<System.String,System.Net.NetworkInformation.MacOsNetworkInterface>
+struct Dictionary_2_t3368964552;
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Net.NetworkInformation.MacOsNetworkInterface>
+struct ValueCollection_t2072024395;
+// System.Net.NetworkInformation.MacOsStructs.in6_addr
+struct in6_addr_t1014645363;
+// System.Net.NetworkInformation.MibIcmpV4Statistics
+struct MibIcmpV4Statistics_t1600715310;
+// System.Collections.Specialized.StringDictionary
+struct StringDictionary_t1070889667;
+// System.Net.NetworkInformation.IcmpV4Statistics
+struct IcmpV4Statistics_t1794928690;
+// System.Globalization.NumberFormatInfo
+struct NumberFormatInfo_t104580544;
+// System.IFormatProvider
+struct IFormatProvider_t2849799027;
+// System.Net.NetworkInformation.MibIcmpV6Statistics
+struct MibIcmpV6Statistics_t1370511724;
+// System.Net.NetworkInformation.IcmpV6Statistics
+struct IcmpV6Statistics_t86748584;
+// System.Net.NetworkInformation.MibIPGlobalProperties
+struct MibIPGlobalProperties_t4104985615;
+// System.Net.NetworkInformation.IPGlobalProperties
+struct IPGlobalProperties_t430107897;
+// System.Text.Encoding
+struct Encoding_t663144255;
+// System.IO.StreamReader
+struct StreamReader_t2360341767;
+// System.String[]
+struct StringU5BU5D_t1642385972;
+// System.Char[]
+struct CharU5BU5D_t1328083999;
+// System.Exception
+struct Exception_t1927440687;
+// System.Net.NetworkInformation.NetworkInformationException
+struct NetworkInformationException_t1863186723;
+// System.InvalidOperationException
+struct InvalidOperationException_t721527559;
+// System.Net.IPEndPoint[]
+struct IPEndPointU5BU5D_t294524195;
+// System.Collections.Generic.List`1<System.String[]>
+struct List_1_t1011507104;
+// System.Net.IPEndPoint
+struct IPEndPoint_t2615413766;
+// System.Collections.Generic.List`1<System.Object>
+struct List_1_t2058570427;
+// System.Net.NetworkInformation.TcpConnectionInformation[]
+struct TcpConnectionInformationU5BU5D_t910531434;
+// System.Net.NetworkInformation.TcpConnectionInformation
+struct TcpConnectionInformation_t3392050187;
+// System.Net.NetworkInformation.TcpConnectionInformationImpl
+struct TcpConnectionInformationImpl_t1274605263;
+// System.Net.NetworkInformation.IPGlobalStatistics
+struct IPGlobalStatistics_t106289253;
+// System.Net.NetworkInformation.MibIPGlobalStatistics
+struct MibIPGlobalStatistics_t1312635647;
+// System.Net.NetworkInformation.TcpStatistics
+struct TcpStatistics_t2119642186;
+// System.Net.NetworkInformation.MibTcpStatistics
+struct MibTcpStatistics_t1080480462;
+// System.Net.NetworkInformation.UdpStatistics
+struct UdpStatistics_t3170871206;
+// System.Net.NetworkInformation.MibUdpStatistics
+struct MibUdpStatistics_t1268103182;
+// System.Net.NetworkInformation.MulticastIPAddressInformation
+struct MulticastIPAddressInformation_t1580768453;
+// System.Net.NetworkInformation.IPAddressInformation
+struct IPAddressInformation_t732454853;
+// System.Net.NetworkInformation.MulticastIPAddressInformationCollection
+struct MulticastIPAddressInformationCollection_t2350102231;
+// System.Collections.Generic.List`1<System.Net.NetworkInformation.MulticastIPAddressInformation>
+struct List_1_t949889585;
+// System.Collections.IEnumerator
+struct IEnumerator_t1466026749;
+// System.NotSupportedException
+struct NotSupportedException_t1793819818;
+// System.Net.NetworkInformation.MulticastIPAddressInformation[]
+struct MulticastIPAddressInformationU5BU5D_t302302856;
+// System.Object[]
+struct ObjectU5BU5D_t3614634134;
+// System.Collections.Generic.IEnumerator`1<System.Net.NetworkInformation.MulticastIPAddressInformation>
+struct IEnumerator_1_t3351259576;
+// System.Net.NetworkInformation.MulticastIPAddressInformationImpl
+struct MulticastIPAddressInformationImpl_t2980279617;
+// System.Net.NetworkInformation.MulticastIPAddressInformationImplCollection
+struct MulticastIPAddressInformationImplCollection_t3355839275;
+// System.Net.NetworkInformation.NetworkAddressChangedEventHandler
+struct NetworkAddressChangedEventHandler_t2528401652;
+// System.EventArgs
+struct EventArgs_t3289624707;
+// System.IAsyncResult
+struct IAsyncResult_t1999651008;
+// System.AsyncCallback
+struct AsyncCallback_t163412349;
+// System.Net.NetworkInformation.NetworkAvailabilityChangedEventHandler
+struct NetworkAvailabilityChangedEventHandler_t3480120991;
+// System.Net.NetworkInformation.NetworkAvailabilityEventArgs
+struct NetworkAvailabilityEventArgs_t182009988;
+// System.Net.NetworkInformation.NetworkChange
+struct NetworkChange_t971476440;
+// System.Delegate
+struct Delegate_t3022476291;
+// System.ComponentModel.Win32Exception
+struct Win32Exception_t1708275760;
+// System.Runtime.Serialization.SerializationInfo
+struct SerializationInfo_t228987430;
+// System.Net.NetworkInformation.NetworkInformationPermission
+struct NetworkInformationPermission_t3395913791;
+// System.Security.CodeAccessPermission
+struct CodeAccessPermission_t3468021764;
+// System.Security.IPermission
+struct IPermission_t182075948;
+// System.Security.SecurityElement
+struct SecurityElement_t2325568386;
+// System.Net.NetworkInformation.NetworkInformationPermissionAttribute
+struct NetworkInformationPermissionAttribute_t852696539;
+// System.Security.Permissions.CodeAccessSecurityAttribute
+struct CodeAccessSecurityAttribute_t3161344859;
+// System.ArgumentException
+struct ArgumentException_t3259014390;
+// System.Version
+struct Version_t1755874712;
+// System.OperatingSystem
+struct OperatingSystem_t290860502;
+// System.IO.FileStream
+struct FileStream_t1695958676;
+// System.IO.Stream
+struct Stream_t3255436806;
+// System.Net.NetworkInformation.PhysicalAddress
+struct PhysicalAddress_t1613893277;
+// System.FormatException
+struct FormatException_t2948921286;
+// System.IndexOutOfRangeException
+struct IndexOutOfRangeException_t3527622107;
+// System.Text.StringBuilder
+struct StringBuilder_t1221177846;
+// System.Net.NetworkInformation.Ping
+struct Ping_t3611444498;
+// System.ComponentModel.Component
+struct Component_t2826673791;
+// System.Security.Principal.WindowsIdentity
+struct WindowsIdentity_t373339331;
+// System.Net.NetworkInformation.PingCompletedEventHandler
+struct PingCompletedEventHandler_t1044526567;
+// System.Net.NetworkInformation.PingCompletedEventArgs
+struct PingCompletedEventArgs_t841787612;
+// System.Net.NetworkInformation.PingReply
+struct PingReply_t1978568794;
+// System.Net.NetworkInformation.PingOptions
+struct PingOptions_t1261881264;
+// System.Net.IPAddress[]
+struct IPAddressU5BU5D_t4087230954;
+// System.Net.IPHostEntry
+struct IPHostEntry_t994738509;
+// System.ArgumentNullException
+struct ArgumentNullException_t628810857;
+// System.ArgumentOutOfRangeException
+struct ArgumentOutOfRangeException_t279959794;
+// System.Net.Sockets.Socket
+struct Socket_t3821512045;
+// System.Net.NetworkInformation.Ping/IcmpMessage
+struct IcmpMessage_t482998463;
+// System.Net.EndPoint
+struct EndPoint_t4156119363;
+// System.Diagnostics.Process
+struct Process_t1448008787;
+// System.Diagnostics.ProcessStartInfo
+struct ProcessStartInfo_t2898458543;
+// System.Net.NetworkInformation.Ping/<SendAsync>c__AnonStorey6
+struct U3CSendAsyncU3Ec__AnonStorey6_t2153546882;
+// System.ComponentModel.BackgroundWorker
+struct BackgroundWorker_t4230068110;
+// System.ComponentModel.DoWorkEventHandler
+struct DoWorkEventHandler_t941110040;
+// System.ComponentModel.RunWorkerCompletedEventHandler
+struct RunWorkerCompletedEventHandler_t2492476920;
+// System.Globalization.CultureInfo
+struct CultureInfo_t3500843524;
+// System.ComponentModel.DoWorkEventArgs
+struct DoWorkEventArgs_t62745097;
+// System.ComponentModel.RunWorkerCompletedEventArgs
+struct RunWorkerCompletedEventArgs_t3512304465;
+// System.ComponentModel.AsyncCompletedEventArgs
+struct AsyncCompletedEventArgs_t83270938;
+// System.Net.NetworkInformation.PingException
+struct PingException_t4091918533;
+// System.Net.NetworkInformation.in6_addr
+struct in6_addr_t4035827331;
+// System.Net.NetworkInformation.UnicastIPAddressInformationCollection
+struct UnicastIPAddressInformationCollection_t347163204;
+// System.Collections.Generic.List`1<System.Net.NetworkInformation.UnicastIPAddressInformation>
+struct List_1_t2288907776;
+// System.Net.NetworkInformation.UnicastIPAddressInformation[]
+struct UnicastIPAddressInformationU5BU5D_t2212961949;
+// System.Collections.Generic.IEnumerator`1<System.Net.NetworkInformation.UnicastIPAddressInformation>
+struct IEnumerator_1_t395310471;
+// System.Net.NetworkInformation.UnicastIPAddressInformationImplCollection
+struct UnicastIPAddressInformationImplCollection_t771061202;
+// System.Net.NetworkInformation.Win32UnicastIPAddressInformation
+struct Win32UnicastIPAddressInformation_t1388218403;
+// System.Text.RegularExpressions.Regex
+struct Regex_t1803876613;
+// System.Text.RegularExpressions.Match
+struct Match_t3164245899;
+// System.Text.RegularExpressions.Group
+struct Group_t3761430853;
+// System.Text.RegularExpressions.GroupCollection
+struct GroupCollection_t939014605;
+// System.Text.RegularExpressions.Capture
+struct Capture_t4157900610;
+// System.Net.NetworkInformation.IPAddressInformationCollection
+struct IPAddressInformationCollection_t3688726299;
+// System.Net.NetworkInformation.IPAddressInformationImplCollection
+struct IPAddressInformationImplCollection_t1702846383;
+// System.Collections.Generic.IList`1<System.Net.IPAddress>
+struct IList_1_t1940912324;
+// System.Net.NetworkInformation.Win32_IP_ADDR_STRING
+struct Win32_IP_ADDR_STRING_t2646152127;
+// System.Net.NetworkInformation.Win32_FIXED_INFO
+struct Win32_FIXED_INFO_t1371335919;
+// System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES
+struct Win32_IP_ADAPTER_ADDRESSES_t680756680;
+// System.Net.NetworkInformation.Win32_IP_ADAPTER_INFO
+struct Win32_IP_ADAPTER_INFO_t2310876292;
+// System.Net.NetworkInformation.Win32_IP_PER_ADAPTER_INFO
+struct Win32_IP_PER_ADAPTER_INFO_t1280460216;
+// System.Net.NetworkInformation.Win32_MIBICMPSTATS_EX
+struct Win32_MIBICMPSTATS_EX_t3893422550;
+// System.Net.NetworkInformation.Win32GatewayIPAddressInformationCollection
+struct Win32GatewayIPAddressInformationCollection_t710370590;
+// System.Net.NetworkInformation.Win32_IP_ADDR_STRING[]
+struct Win32_IP_ADDR_STRINGU5BU5D_t945341030;
+// System.Net.NetworkInformation.Win32IcmpV4Statistics
+struct Win32IcmpV4Statistics_t1426867275;
+// System.Net.NetworkInformation.Win32IcmpV6Statistics
+struct Win32IcmpV6Statistics_t1196663689;
+// System.Net.NetworkInformation.Win32IPAddressCollection
+struct Win32IPAddressCollection_t2117998352;
+// System.IntPtr[]
+struct IntPtrU5BU5D_t169632028;
+// System.Net.NetworkInformation.Win32IPGlobalProperties
+struct Win32IPGlobalProperties_t2393043454;
+// System.Collections.Generic.List`1<System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCPROW>
+struct List_1_t2724853207;
+// System.Collections.Generic.List`1<System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCP6ROW>
+struct List_1_t3376276681;
+// System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCPROW
+struct Win32_MIB_TCPROW_t3355732075;
+// System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCP6ROW
+struct Win32_MIB_TCP6ROW_t4007155549;
+// System.Collections.Generic.List`1<System.Net.IPEndPoint>
+struct List_1_t1984534898;
+// System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_UDPROW
+struct Win32_MIB_UDPROW_t3234258897;
+// System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_UDP6ROW
+struct Win32_MIB_UDP6ROW_t2989424443;
+// System.Net.NetworkInformation.Win32IPGlobalStatistics
+struct Win32IPGlobalStatistics_t3349972664;
+// System.Net.NetworkInformation.Win32TcpStatistics
+struct Win32TcpStatistics_t3798324233;
+// System.Net.NetworkInformation.Win32UdpStatistics
+struct Win32UdpStatistics_t477239559;
+// System.Net.NetworkInformation.Win32_MIB_ICMP_EX
+struct Win32_MIB_ICMP_EX_t2748725486;
+// System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_IN6_ADDR
+struct Win32_IN6_ADDR_t3054921274;
+extern Il2CppClass* IEnumerator_1_t3170462846_il2cpp_TypeInfo_var;
+extern Il2CppClass* GatewayIPAddressInformationImpl_t565141533_il2cpp_TypeInfo_var;
+extern Il2CppClass* IEnumerator_t1466026749_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
+extern const uint32_t LinuxGatewayIPAddressInformationCollection__ctor_m165845022_MetadataUsageId;
+extern Il2CppClass* LinuxGatewayIPAddressInformationCollection_t2323845969_il2cpp_TypeInfo_var;
+extern const uint32_t LinuxGatewayIPAddressInformationCollection__cctor_m3656361370_MetadataUsageId;
+extern Il2CppClass* UnixIPInterfaceProperties_t2418091637_il2cpp_TypeInfo_var;
+extern const uint32_t LinuxIPInterfaceProperties__ctor_m280597575_MetadataUsageId;
+extern Il2CppClass* LinuxNetworkInterface_t3864470295_il2cpp_TypeInfo_var;
+extern Il2CppClass* LinuxIPv4InterfaceProperties_t1534034571_il2cpp_TypeInfo_var;
+extern const uint32_t LinuxIPInterfaceProperties_GetIPv4Properties_m703170405_MetadataUsageId;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* NetworkInterface_t63927633_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3757029923;
+extern Il2CppCodeGenString* _stringLiteral3312742832;
+extern Il2CppCodeGenString* _stringLiteral372029326;
+extern const uint32_t LinuxIPv4InterfaceProperties_get_IsForwardingEnabled_m336773314_MetadataUsageId;
+extern Il2CppClass* Il2CppObject_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3875251506;
+extern const uint32_t LinuxIPv4InterfaceProperties_get_Mtu_m4036506946_MetadataUsageId;
+extern const uint32_t LinuxIPv4InterfaceStatistics_Read_m2653521628_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2932206796;
+extern const uint32_t LinuxIPv4InterfaceStatistics_get_BytesReceived_m1677725307_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2256200898;
+extern const uint32_t LinuxIPv4InterfaceStatistics_get_BytesSent_m4260072414_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral836883871;
+extern const uint32_t LinuxIPv4InterfaceStatistics_get_IncomingPacketsDiscarded_m3700980703_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral698146182;
+extern const uint32_t LinuxIPv4InterfaceStatistics_get_IncomingPacketsWithErrors_m1961321409_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2901813132;
+extern const uint32_t LinuxIPv4InterfaceStatistics_get_NonUnicastPacketsReceived_m2128324005_MetadataUsageId;
+extern const uint32_t LinuxIPv4InterfaceStatistics_get_NonUnicastPacketsSent_m3703858820_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1813337025;
+extern const uint32_t LinuxIPv4InterfaceStatistics_get_OutgoingPacketsDiscarded_m2826633739_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3079317800;
+extern const uint32_t LinuxIPv4InterfaceStatistics_get_OutgoingPacketsWithErrors_m1154923977_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1375479510;
+extern const uint32_t LinuxIPv4InterfaceStatistics_get_UnicastPacketsReceived_m805357122_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1463001720;
+extern const uint32_t LinuxIPv4InterfaceStatistics_get_UnicastPacketsSent_m3847585725_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3234253388;
+extern Il2CppCodeGenString* _stringLiteral372029315;
+extern Il2CppCodeGenString* _stringLiteral3698814043;
+extern Il2CppCodeGenString* _stringLiteral1420226295;
+extern const uint32_t LinuxNetworkInterface__ctor_m4238128715_MetadataUsageId;
+extern const uint32_t LinuxNetworkInterface__cctor_m1423821048_MetadataUsageId;
+extern const Il2CppType* ifaddrs_t2532459533_0_0_0_var;
+extern const Il2CppType* sockaddr_in_t1277740973_0_0_0_var;
+extern const Il2CppType* sockaddr_in6_t2899168071_0_0_0_var;
+extern const Il2CppType* sockaddr_ll_t1681025498_0_0_0_var;
+extern const Il2CppType* LinuxArpHardware_t4257672401_0_0_0_var;
+extern Il2CppClass* Dictionary_2_t1484282261_il2cpp_TypeInfo_var;
+extern Il2CppClass* SystemException_t3877406272_il2cpp_TypeInfo_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Marshal_t785896760_il2cpp_TypeInfo_var;
+extern Il2CppClass* ifaddrs_t2532459533_il2cpp_TypeInfo_var;
+extern Il2CppClass* IPAddress_t1399971723_il2cpp_TypeInfo_var;
+extern Il2CppClass* IntPtr_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* sockaddr_in_t1277740973_il2cpp_TypeInfo_var;
+extern Il2CppClass* sockaddr_in6_t2899168071_il2cpp_TypeInfo_var;
+extern Il2CppClass* sockaddr_ll_t1681025498_il2cpp_TypeInfo_var;
+extern Il2CppClass* Console_t2311202731_il2cpp_TypeInfo_var;
+extern Il2CppClass* Byte_t3683104436_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enum_t2459695545_il2cpp_TypeInfo_var;
+extern Il2CppClass* NetworkInterfaceU5BU5D_t4157644364_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t3170815025_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2978195796_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_TryGetValue_m1993610529_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_Add_m3707596572_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Count_m2058765928_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Values_m2443513886_MethodInfo_var;
+extern const MethodInfo* ValueCollection_GetEnumerator_m4002148082_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3838915172_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m1097850751_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral547345107;
+extern Il2CppCodeGenString* _stringLiteral2501114699;
+extern Il2CppCodeGenString* _stringLiteral371857151;
+extern Il2CppCodeGenString* _stringLiteral1314260986;
+extern const uint32_t LinuxNetworkInterface_ImplGetAllNetworkInterfaces_m2182664942_MetadataUsageId;
+extern Il2CppClass* LinuxIPInterfaceProperties_t3318447793_il2cpp_TypeInfo_var;
+extern const uint32_t LinuxNetworkInterface_GetIPProperties_m4275696067_MetadataUsageId;
+extern Il2CppClass* LinuxIPv4InterfaceStatistics_t1133266275_il2cpp_TypeInfo_var;
+extern const uint32_t LinuxNetworkInterface_GetIPv4Statistics_m2897446963_MetadataUsageId;
+extern Il2CppClass* Dictionary_2_t3986656710_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2118310873_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_Add_m1209957957_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_TryGetValue_m2977303364_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2845190196;
+extern Il2CppCodeGenString* _stringLiteral2928044950;
+extern Il2CppCodeGenString* _stringLiteral1367190538;
+extern Il2CppCodeGenString* _stringLiteral728246024;
+extern Il2CppCodeGenString* _stringLiteral2591132398;
+extern Il2CppCodeGenString* _stringLiteral452243667;
+extern Il2CppCodeGenString* _stringLiteral1543969241;
+extern const uint32_t LinuxNetworkInterface_get_OperationalStatus_m1075747317_MetadataUsageId;
+extern const uint32_t LinuxNetworkInterface_get_SupportsMulticast_m1900895388_MetadataUsageId;
+extern Il2CppClass* NotImplementedException_t2785117854_il2cpp_TypeInfo_var;
+extern const uint32_t LinuxUnicastIPAddressInformation_get_AddressPreferredLifetime_m3659061278_MetadataUsageId;
+extern const uint32_t LinuxUnicastIPAddressInformation_get_AddressValidLifetime_m2643415969_MetadataUsageId;
+extern const uint32_t LinuxUnicastIPAddressInformation_get_DhcpLeaseLifetime_m4129451082_MetadataUsageId;
+extern const uint32_t LinuxUnicastIPAddressInformation_get_DuplicateAddressDetectionState_m2117221258_MetadataUsageId;
+extern const uint32_t LinuxUnicastIPAddressInformation_get_IPv4Mask_m2730788940_MetadataUsageId;
+extern const uint32_t LinuxUnicastIPAddressInformation_get_PrefixOrigin_m57173032_MetadataUsageId;
+extern const uint32_t LinuxUnicastIPAddressInformation_get_SuffixOrigin_m1148039026_MetadataUsageId;
+extern const uint32_t MacOsIPInterfaceProperties__ctor_m4272031495_MetadataUsageId;
+extern Il2CppClass* MacOsNetworkInterface_t1454185290_il2cpp_TypeInfo_var;
+extern Il2CppClass* MacOsIPv4InterfaceProperties_t2988669134_il2cpp_TypeInfo_var;
+extern const uint32_t MacOsIPInterfaceProperties_GetIPv4Properties_m7097410_MetadataUsageId;
+extern const Il2CppType* ifaddrs_t937751619_0_0_0_var;
+extern const Il2CppType* sockaddr_t3329842375_0_0_0_var;
+extern const Il2CppType* sockaddr_in6_t834146887_0_0_0_var;
+extern const Il2CppType* sockaddr_in_t2792443317_0_0_0_var;
+extern const Il2CppType* sockaddr_dl_t3955242742_0_0_0_var;
+extern const Il2CppType* MacOsArpHardware_t650784048_0_0_0_var;
+extern Il2CppClass* Dictionary_2_t3368964552_il2cpp_TypeInfo_var;
+extern Il2CppClass* ifaddrs_t937751619_il2cpp_TypeInfo_var;
+extern Il2CppClass* sockaddr_t3329842375_il2cpp_TypeInfo_var;
+extern Il2CppClass* sockaddr_in6_t834146887_il2cpp_TypeInfo_var;
+extern Il2CppClass* sockaddr_in_t2792443317_il2cpp_TypeInfo_var;
+extern Il2CppClass* sockaddr_dl_t3955242742_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t760530020_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m1475182665_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_TryGetValue_m2306111192_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_Add_m1882884369_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Count_m3715009865_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Values_m2529882243_MethodInfo_var;
+extern const MethodInfo* ValueCollection_GetEnumerator_m862288733_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m1462122755_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m323052256_MethodInfo_var;
+extern const uint32_t MacOsNetworkInterface_ImplGetAllNetworkInterfaces_m4010227571_MetadataUsageId;
+extern Il2CppClass* MacOsIPInterfaceProperties_t3101377296_il2cpp_TypeInfo_var;
+extern const uint32_t MacOsNetworkInterface_GetIPProperties_m1108478090_MetadataUsageId;
+extern Il2CppClass* MacOsIPv4InterfaceStatistics_t4240794432_il2cpp_TypeInfo_var;
+extern const uint32_t MacOsNetworkInterface_GetIPv4Statistics_m4035202802_MetadataUsageId;
+extern const uint32_t in6_addr_t1014645363_pinvoke_FromNativeMethodDefinition_MetadataUsageId;
+extern const uint32_t in6_addr_t1014645363_com_FromNativeMethodDefinition_MetadataUsageId;
+extern const uint32_t sockaddr_dl_t3955242742_pinvoke_FromNativeMethodDefinition_MetadataUsageId;
+extern const uint32_t sockaddr_dl_t3955242742_com_FromNativeMethodDefinition_MetadataUsageId;
+struct in6_addr_t1014645363_marshaled_pinvoke;
+struct in6_addr_t1014645363;;
+struct in6_addr_t1014645363_marshaled_pinvoke;;
+struct in6_addr_t1014645363_marshaled_com;
+struct in6_addr_t1014645363_marshaled_com;;
+extern Il2CppClass* NumberFormatInfo_t104580544_il2cpp_TypeInfo_var;
+extern const uint32_t MibIcmpV4Statistics_Get_m1074348219_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral480623162;
+extern const uint32_t MibIcmpV4Statistics_get_AddressMaskRepliesReceived_m2272566823_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2703477121;
+extern const uint32_t MibIcmpV4Statistics_get_AddressMaskRepliesSent_m3890173446_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2048766231;
+extern const uint32_t MibIcmpV4Statistics_get_AddressMaskRequestsReceived_m196704061_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral129660378;
+extern const uint32_t MibIcmpV4Statistics_get_AddressMaskRequestsSent_m656090670_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral481057562;
+extern const uint32_t MibIcmpV4Statistics_get_DestinationUnreachableMessagesReceived_m2087778725_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3416438177;
+extern const uint32_t MibIcmpV4Statistics_get_DestinationUnreachableMessagesSent_m3941997572_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3322198136;
+extern const uint32_t MibIcmpV4Statistics_get_EchoRepliesReceived_m1871628186_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3065864543;
+extern const uint32_t MibIcmpV4Statistics_get_EchoRepliesSent_m376302091_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral4264415381;
+extern const uint32_t MibIcmpV4Statistics_get_EchoRequestsReceived_m3325916988_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2754830968;
+extern const uint32_t MibIcmpV4Statistics_get_EchoRequestsSent_m4265034717_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2592097282;
+extern const uint32_t MibIcmpV4Statistics_get_ErrorsReceived_m2429713180_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3135183897;
+extern const uint32_t MibIcmpV4Statistics_get_ErrorsSent_m1571272249_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3014378269;
+extern const uint32_t MibIcmpV4Statistics_get_MessagesReceived_m2198249393_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1691344384;
+extern const uint32_t MibIcmpV4Statistics_get_MessagesSent_m4185205838_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral4181999125;
+extern const uint32_t MibIcmpV4Statistics_get_ParameterProblemsReceived_m3936961906_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1011400504;
+extern const uint32_t MibIcmpV4Statistics_get_ParameterProblemsSent_m551922295_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1742432518;
+extern const uint32_t MibIcmpV4Statistics_get_RedirectsReceived_m174258144_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral368176311;
+extern const uint32_t MibIcmpV4Statistics_get_RedirectsSent_m1098532059_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1946619360;
+extern const uint32_t MibIcmpV4Statistics_get_SourceQuenchesReceived_m578091944_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2212119015;
+extern const uint32_t MibIcmpV4Statistics_get_SourceQuenchesSent_m2065838793_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral542956871;
+extern const uint32_t MibIcmpV4Statistics_get_TimeExceededMessagesReceived_m9497927_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1241889562;
+extern const uint32_t MibIcmpV4Statistics_get_TimeExceededMessagesSent_m157112614_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3268651149;
+extern const uint32_t MibIcmpV4Statistics_get_TimestampRepliesReceived_m1824523987_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral781168986;
+extern const uint32_t MibIcmpV4Statistics_get_TimestampRepliesSent_m956181430_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3801034456;
+extern const uint32_t MibIcmpV4Statistics_get_TimestampRequestsReceived_m2314810269_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3840174991;
+extern const uint32_t MibIcmpV4Statistics_get_TimestampRequestsSent_m206725794_MetadataUsageId;
+extern const uint32_t MibIcmpV6Statistics_Get_m427207417_MetadataUsageId;
+extern const uint32_t MibIcmpV6Statistics_get_DestinationUnreachableMessagesReceived_m2032482595_MetadataUsageId;
+extern const uint32_t MibIcmpV6Statistics_get_DestinationUnreachableMessagesSent_m372667270_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1808548848;
+extern const uint32_t MibIcmpV6Statistics_get_EchoRepliesReceived_m1033183128_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1643827031;
+extern const uint32_t MibIcmpV6Statistics_get_EchoRepliesSent_m505691145_MetadataUsageId;
+extern const uint32_t MibIcmpV6Statistics_get_EchoRequestsReceived_m2389880830_MetadataUsageId;
+extern const uint32_t MibIcmpV6Statistics_get_EchoRequestsSent_m3940770971_MetadataUsageId;
+extern const uint32_t MibIcmpV6Statistics_get_ErrorsReceived_m1277709338_MetadataUsageId;
+extern const uint32_t MibIcmpV6Statistics_get_ErrorsSent_m2264350523_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2457731739;
+extern const uint32_t MibIcmpV6Statistics_get_MembershipQueriesReceived_m3575324905_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2865900120;
+extern const uint32_t MibIcmpV6Statistics_get_MembershipQueriesSent_m3585929178_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral576674316;
+extern const uint32_t MibIcmpV6Statistics_get_MembershipReductionsReceived_m3551407739_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3569695605;
+extern const uint32_t MibIcmpV6Statistics_get_MembershipReductionsSent_m116871002_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral279625757;
+extern const uint32_t MibIcmpV6Statistics_get_MembershipReportsReceived_m4023495244_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral399515240;
+extern const uint32_t MibIcmpV6Statistics_get_MembershipReportsSent_m3959393095_MetadataUsageId;
+extern const uint32_t MibIcmpV6Statistics_get_MessagesReceived_m3876426351_MetadataUsageId;
+extern const uint32_t MibIcmpV6Statistics_get_MessagesSent_m1023694608_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral816224351;
+extern const uint32_t MibIcmpV6Statistics_get_NeighborAdvertisementsReceived_m78873411_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3767232162;
+extern const uint32_t MibIcmpV6Statistics_get_NeighborAdvertisementsSent_m2886425568_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2939352381;
+extern const uint32_t MibIcmpV6Statistics_get_NeighborSolicitsReceived_m4120695513_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2003281640;
+extern const uint32_t MibIcmpV6Statistics_get_NeighborSolicitsSent_m1553136378_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2660435815;
+extern const uint32_t MibIcmpV6Statistics_get_PacketTooBigMessagesReceived_m27687215_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral827357034;
+extern const uint32_t MibIcmpV6Statistics_get_PacketTooBigMessagesSent_m625339600_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral4243323797;
+extern const uint32_t MibIcmpV6Statistics_get_ParameterProblemsReceived_m3496752436_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3877581008;
+extern const uint32_t MibIcmpV6Statistics_get_ParameterProblemsSent_m776323641_MetadataUsageId;
+extern const uint32_t MibIcmpV6Statistics_get_RedirectsReceived_m3689408286_MetadataUsageId;
+extern const uint32_t MibIcmpV6Statistics_get_RedirectsSent_m1776176153_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1831447386;
+extern const uint32_t MibIcmpV6Statistics_get_RouterAdvertisementsReceived_m236068322_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1474441203;
+extern const uint32_t MibIcmpV6Statistics_get_RouterAdvertisementsSent_m1646723653_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral4036285884;
+extern const uint32_t MibIcmpV6Statistics_get_RouterSolicitsReceived_m2593464716_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3911299821;
+extern const uint32_t MibIcmpV6Statistics_get_RouterSolicitsSent_m3573538539_MetadataUsageId;
+extern const uint32_t MibIcmpV6Statistics_get_TimeExceededMessagesReceived_m3104633605_MetadataUsageId;
+extern const uint32_t MibIcmpV6Statistics_get_TimeExceededMessagesSent_m3405830120_MetadataUsageId;
+extern Il2CppClass* Path_t41728875_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3218792566;
+extern Il2CppCodeGenString* _stringLiteral1311995084;
+extern Il2CppCodeGenString* _stringLiteral3969737655;
+extern Il2CppCodeGenString* _stringLiteral1639412253;
+extern Il2CppCodeGenString* _stringLiteral2403653745;
+extern Il2CppCodeGenString* _stringLiteral617775371;
+extern const uint32_t MibIPGlobalProperties__ctor_m430621723_MetadataUsageId;
+extern Il2CppClass* CharU5BU5D_t1328083999_il2cpp_TypeInfo_var;
+extern Il2CppClass* MibIPGlobalProperties_t4104985615_il2cpp_TypeInfo_var;
+extern const uint32_t MibIPGlobalProperties__cctor_m2444323008_MetadataUsageId;
+extern Il2CppClass* Encoding_t663144255_il2cpp_TypeInfo_var;
+extern Il2CppClass* StreamReader_t2360341767_il2cpp_TypeInfo_var;
+extern Il2CppClass* StringDictionary_t1070889667_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral811305496;
+extern Il2CppCodeGenString* _stringLiteral3786453447;
+extern Il2CppCodeGenString* _stringLiteral1063432371;
+extern Il2CppCodeGenString* _stringLiteral2556604853;
+extern const uint32_t MibIPGlobalProperties_GetProperties4_m1198230711_MetadataUsageId;
+extern Il2CppClass* NetworkInformationException_t1863186723_il2cpp_TypeInfo_var;
+extern const uint32_t MibIPGlobalProperties_GetProperties6_m971278125_MetadataUsageId;
+extern Il2CppClass* InvalidOperationException_t721527559_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral713017656;
+extern const uint32_t MibIPGlobalProperties_CreateException_m3913674693_MetadataUsageId;
+extern Il2CppClass* IPEndPointU5BU5D_t294524195_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Count_m1793389146_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m1223066663_MethodInfo_var;
+extern const uint32_t MibIPGlobalProperties_GetLocalAddresses_m2542146985_MetadataUsageId;
+extern Il2CppClass* IPEndPoint_t2615413766_il2cpp_TypeInfo_var;
+extern const uint32_t MibIPGlobalProperties_ToEndpoint_m3884964026_MetadataUsageId;
+extern const MethodInfo* List_1_Add_m1658147026_MethodInfo_var;
+extern const uint32_t MibIPGlobalProperties_GetRows_m1488792644_MetadataUsageId;
+extern Il2CppClass* List_1_t1011507104_il2cpp_TypeInfo_var;
+extern Il2CppClass* TcpConnectionInformationU5BU5D_t910531434_il2cpp_TypeInfo_var;
+extern Il2CppClass* TcpConnectionInformationImpl_t1274605263_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m809050190_MethodInfo_var;
+extern const uint32_t MibIPGlobalProperties_GetActiveTcpConnections_m211120631_MetadataUsageId;
+extern const uint32_t MibIPGlobalProperties_GetActiveTcpListeners_m3116098048_MetadataUsageId;
+extern const uint32_t MibIPGlobalProperties_GetActiveUdpListeners_m241792296_MetadataUsageId;
+extern Il2CppClass* MibIcmpV4Statistics_t1600715310_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral896650255;
+extern const uint32_t MibIPGlobalProperties_GetIcmpV4Statistics_m1990024040_MetadataUsageId;
+extern Il2CppClass* MibIcmpV6Statistics_t1370511724_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1084238885;
+extern const uint32_t MibIPGlobalProperties_GetIcmpV6Statistics_m1269538736_MetadataUsageId;
+extern Il2CppClass* MibIPGlobalStatistics_t1312635647_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1543969269;
+extern const uint32_t MibIPGlobalProperties_GetIPv4GlobalStatistics_m580546156_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1549653859;
+extern const uint32_t MibIPGlobalProperties_GetIPv6GlobalStatistics_m1768324706_MetadataUsageId;
+extern Il2CppClass* MibTcpStatistics_t1080480462_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3828198783;
+extern const uint32_t MibIPGlobalProperties_GetTcpIPv4Statistics_m1408643689_MetadataUsageId;
+extern const uint32_t MibIPGlobalProperties_GetTcpIPv6Statistics_m2875161651_MetadataUsageId;
+extern Il2CppClass* MibUdpStatistics_t1268103182_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral292746149;
+extern const uint32_t MibIPGlobalProperties_GetUdpIPv4Statistics_m3412424425_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2402125395;
+extern const uint32_t MibIPGlobalProperties_GetUdpIPv6Statistics_m3947793075_MetadataUsageId;
+extern const uint32_t MibIPGlobalProperties_get_DhcpScopeName_m3340112871_MetadataUsageId;
+extern const MethodInfo* Array_IndexOf_TisByte_t3683104436_m2497625856_MethodInfo_var;
+extern const uint32_t MibIPGlobalProperties_get_DomainName_m3102224640_MetadataUsageId;
+extern const uint32_t MibIPGlobalProperties_get_HostName_m3734744658_MetadataUsageId;
+extern const uint32_t MibIPGlobalStatistics_Get_m3128267552_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3639532731;
+extern const uint32_t MibIPGlobalStatistics_get_DefaultTtl_m3006801389_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral771414943;
+extern const uint32_t MibIPGlobalStatistics_get_ForwardingEnabled_m1551972828_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2952851933;
+extern const uint32_t MibIPGlobalStatistics_get_NumberOfInterfaces_m3562833578_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2369980345;
+extern const uint32_t MibIPGlobalStatistics_get_NumberOfIPAddresses_m2586398133_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2479003528;
+extern const uint32_t MibIPGlobalStatistics_get_NumberOfRoutes_m1821288780_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1564586200;
+extern const uint32_t MibIPGlobalStatistics_get_OutputPacketRequests_m2380312046_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral645355377;
+extern const uint32_t MibIPGlobalStatistics_get_OutputPacketRoutingDiscards_m2753119879_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3164534335;
+extern const uint32_t MibIPGlobalStatistics_get_OutputPacketsDiscarded_m2885242688_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3978444901;
+extern const uint32_t MibIPGlobalStatistics_get_OutputPacketsWithNoRoute_m1590783279_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3019709871;
+extern const uint32_t MibIPGlobalStatistics_get_PacketFragmentFailures_m3669752950_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral549863369;
+extern const uint32_t MibIPGlobalStatistics_get_PacketReassembliesRequired_m1142784995_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2393500673;
+extern const uint32_t MibIPGlobalStatistics_get_PacketReassemblyFailures_m1426074803_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1870237815;
+extern const uint32_t MibIPGlobalStatistics_get_PacketReassemblyTimeout_m2336767899_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1083424901;
+extern const uint32_t MibIPGlobalStatistics_get_PacketsFragmented_m2884165147_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral43107099;
+extern const uint32_t MibIPGlobalStatistics_get_PacketsReassembled_m4124427799_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1978669783;
+extern const uint32_t MibIPGlobalStatistics_get_ReceivedPackets_m84609397_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral4160383541;
+extern const uint32_t MibIPGlobalStatistics_get_ReceivedPacketsDelivered_m3123715317_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3748767902;
+extern const uint32_t MibIPGlobalStatistics_get_ReceivedPacketsDiscarded_m3883624658_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1638683774;
+extern const uint32_t MibIPGlobalStatistics_get_ReceivedPacketsForwarded_m981875931_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3503987627;
+extern const uint32_t MibIPGlobalStatistics_get_ReceivedPacketsWithAddressErrors_m3137063190_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1376773674;
+extern const uint32_t MibIPGlobalStatistics_get_ReceivedPacketsWithHeadersErrors_m410999892_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1972418914;
+extern const uint32_t MibIPGlobalStatistics_get_ReceivedPacketsWithUnknownProtocol_m2448992057_MetadataUsageId;
+extern const uint32_t MibTcpStatistics_Get_m1869682757_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2751156204;
+extern const uint32_t MibTcpStatistics_get_ConnectionsAccepted_m672387978_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3671798563;
+extern const uint32_t MibTcpStatistics_get_ConnectionsInitiated_m241249354_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral16648845;
+extern const uint32_t MibTcpStatistics_get_CumulativeConnections_m4034249650_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral452633239;
+extern const uint32_t MibTcpStatistics_get_CurrentConnections_m2844368750_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2873216045;
+extern const uint32_t MibTcpStatistics_get_ErrorsReceived_m1522404656_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2708803964;
+extern const uint32_t MibTcpStatistics_get_FailedConnectionAttempts_m2322169227_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral858923966;
+extern const uint32_t MibTcpStatistics_get_MaximumConnections_m2669104669_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1348842925;
+extern const uint32_t MibTcpStatistics_get_MaximumTransmissionTimeout_m3133190033_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1799181611;
+extern const uint32_t MibTcpStatistics_get_MinimumTransmissionTimeout_m1762355779_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3097005199;
+extern const uint32_t MibTcpStatistics_get_ResetConnections_m5271556_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2389992012;
+extern const uint32_t MibTcpStatistics_get_ResetsSent_m1968024098_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1098713289;
+extern const uint32_t MibTcpStatistics_get_SegmentsReceived_m484212707_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral292092879;
+extern const uint32_t MibTcpStatistics_get_SegmentsResent_m1690935503_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1395206588;
+extern const uint32_t MibTcpStatistics_get_SegmentsSent_m3905308392_MetadataUsageId;
+extern const uint32_t MibUdpStatistics_Get_m3318110531_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3240307789;
+extern const uint32_t MibUdpStatistics_get_DatagramsReceived_m1813908635_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1483358026;
+extern const uint32_t MibUdpStatistics_get_DatagramsSent_m1851983544_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1542679279;
+extern const uint32_t MibUdpStatistics_get_IncomingDatagramsDiscarded_m1042293413_MetadataUsageId;
+extern const uint32_t MibUdpStatistics_get_IncomingDatagramsWithErrors_m566983427_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral736532494;
+extern const uint32_t MibUdpStatistics_get_UdpListeners_m1687826613_MetadataUsageId;
+extern Il2CppClass* List_1_t949889585_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m550076461_MethodInfo_var;
+extern const uint32_t MulticastIPAddressInformationCollection__ctor_m1414811733_MetadataUsageId;
+extern Il2CppClass* Enumerator_t484619259_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m4255577862_MethodInfo_var;
+extern const uint32_t MulticastIPAddressInformationCollection_System_Collections_IEnumerable_GetEnumerator_m1268559216_MetadataUsageId;
+extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_Add_m3893951401_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1786440010;
+extern const uint32_t MulticastIPAddressInformationCollection_Add_m3943762897_MetadataUsageId;
+extern const MethodInfo* List_1_Clear_m3655007666_MethodInfo_var;
+extern const uint32_t MulticastIPAddressInformationCollection_Clear_m3849867846_MetadataUsageId;
+extern const MethodInfo* List_1_Contains_m3532462127_MethodInfo_var;
+extern const uint32_t MulticastIPAddressInformationCollection_Contains_m1526068195_MetadataUsageId;
+extern const MethodInfo* List_1_CopyTo_m1147215253_MethodInfo_var;
+extern const uint32_t MulticastIPAddressInformationCollection_CopyTo_m906862261_MetadataUsageId;
+extern Il2CppClass* IEnumerable_1_t1872895498_il2cpp_TypeInfo_var;
+extern const uint32_t MulticastIPAddressInformationCollection_GetEnumerator_m2785022822_MetadataUsageId;
+extern const MethodInfo* List_1_Remove_m1486242092_MethodInfo_var;
+extern const uint32_t MulticastIPAddressInformationCollection_Remove_m3144414348_MetadataUsageId;
+extern const MethodInfo* List_1_get_Count_m3462333589_MethodInfo_var;
+extern const uint32_t MulticastIPAddressInformationCollection_get_Count_m1993095393_MetadataUsageId;
+extern const MethodInfo* List_1_get_Item_m1443081034_MethodInfo_var;
+extern const uint32_t MulticastIPAddressInformationCollection_get_Item_m2205037162_MetadataUsageId;
+extern Il2CppClass* MulticastIPAddressInformationImplCollection_t3355839275_il2cpp_TypeInfo_var;
+extern const uint32_t MulticastIPAddressInformationImplCollection__cctor_m3213676548_MetadataUsageId;
+extern const Il2CppType* Win32_IP_ADAPTER_MULTICAST_ADDRESS_t2877128995_0_0_0_var;
+extern Il2CppClass* Win32_IP_ADAPTER_MULTICAST_ADDRESS_t2877128995_il2cpp_TypeInfo_var;
+extern Il2CppClass* MulticastIPAddressInformationImpl_t2980279617_il2cpp_TypeInfo_var;
+extern const uint32_t MulticastIPAddressInformationImplCollection_Win32FromMulticast_m3092549902_MetadataUsageId;
+extern Il2CppClass* Enumerator_t303822529_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m689108514_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m1324985930_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m1308422700_MethodInfo_var;
+extern const uint32_t MulticastIPAddressInformationImplCollection_LinuxFromList_m2160439574_MetadataUsageId;
+extern Il2CppClass* EventArgs_t3289624707_il2cpp_TypeInfo_var;
+extern const uint32_t NetworkAvailabilityEventArgs__ctor_m4183954163_MetadataUsageId;
+extern Il2CppClass* NetworkChange_t971476440_il2cpp_TypeInfo_var;
+extern Il2CppClass* NetworkAddressChangedEventHandler_t2528401652_il2cpp_TypeInfo_var;
+extern const uint32_t NetworkChange_add_NetworkAddressChanged_m1715626088_MetadataUsageId;
+extern const uint32_t NetworkChange_remove_NetworkAddressChanged_m1155329143_MetadataUsageId;
+extern Il2CppClass* NetworkAvailabilityChangedEventHandler_t3480120991_il2cpp_TypeInfo_var;
+extern const uint32_t NetworkChange_add_NetworkAvailabilityChanged_m1510511970_MetadataUsageId;
+extern const uint32_t NetworkChange_remove_NetworkAvailabilityChanged_m4109781723_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral597941125;
+extern const uint32_t NetworkInformationException__ctor_m418377596_MetadataUsageId;
+extern const Il2CppType* NetworkInformationPermission_t3395913791_0_0_0_var;
+extern const uint32_t NetworkInformationPermission_ToXml_m1668743603_MetadataUsageId;
+extern Il2CppClass* NetworkInformationPermissionAttribute_t852696539_il2cpp_TypeInfo_var;
+extern Il2CppClass* NetworkInformationPermission_t3395913791_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral4136223338;
+extern Il2CppCodeGenString* _stringLiteral1743625051;
+extern const uint32_t NetworkInformationPermissionAttribute_CreatePermission_m2819911358_MetadataUsageId;
+extern Il2CppClass* ArgumentException_t3259014390_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1414246128;
+extern Il2CppCodeGenString* _stringLiteral3426093580;
+extern const uint32_t NetworkInformationPermissionAttribute_set_Access_m1225446602_MetadataUsageId;
+extern Il2CppClass* Version_t1755874712_il2cpp_TypeInfo_var;
+extern const uint32_t NetworkInterface__cctor_m1286606608_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral563939211;
+extern const uint32_t NetworkInterface_GetAllNetworkInterfaces_m3928187668_MetadataUsageId;
+extern const uint32_t NetworkInterface_ReadLine_m2401631100_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1496915067;
+extern const uint32_t NetworkInterface_get_LoopbackInterfaceIndex_m735292204_MetadataUsageId;
+extern Il2CppClass* PhysicalAddress_t1613893277_il2cpp_TypeInfo_var;
+extern const uint32_t PhysicalAddress__cctor_m2138612856_MetadataUsageId;
+extern const uint32_t PhysicalAddress_ParseEthernet_m3382743567_MetadataUsageId;
+extern Il2CppClass* FormatException_t2948921286_il2cpp_TypeInfo_var;
+extern Il2CppClass* StringU5BU5D_t1642385972_il2cpp_TypeInfo_var;
+extern Il2CppClass* IndexOutOfRangeException_t3527622107_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral167988534;
+extern const uint32_t PhysicalAddress_Parse_m2487937992_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3263659244;
+extern const uint32_t PhysicalAddress_GetValue_m3049694083_MetadataUsageId;
+extern const uint32_t PhysicalAddress_Equals_m1853614880_MetadataUsageId;
+extern Il2CppClass* StringBuilder_t1221177846_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral6500422;
+extern const uint32_t PhysicalAddress_ToString_m3706599766_MetadataUsageId;
+extern Il2CppClass* Ping_t3611444498_il2cpp_TypeInfo_var;
+extern Il2CppClass* WindowsIdentity_t373339331_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1663282389;
+extern Il2CppCodeGenString* _stringLiteral940972654;
+extern Il2CppCodeGenString* _stringLiteral2798829313;
+extern Il2CppCodeGenString* _stringLiteral3485719803;
+extern Il2CppCodeGenString* _stringLiteral3430668174;
+extern const uint32_t Ping__cctor_m2539700127_MetadataUsageId;
+extern Il2CppClass* PingCompletedEventHandler_t1044526567_il2cpp_TypeInfo_var;
+extern const uint32_t Ping_add_PingCompleted_m2647862356_MetadataUsageId;
+extern const uint32_t Ping_remove_PingCompleted_m1847751419_MetadataUsageId;
+extern Il2CppClass* cap_user_header_t_t1012002510_il2cpp_TypeInfo_var;
+extern Il2CppClass* cap_user_data_t_t2417848831_il2cpp_TypeInfo_var;
+extern Il2CppClass* Exception_t1927440687_il2cpp_TypeInfo_var;
+extern const uint32_t Ping_CheckLinuxCapabilities_m207690028_MetadataUsageId;
+extern const uint32_t Ping_Send_m670222487_MetadataUsageId;
+extern Il2CppClass* PingOptions_t1261881264_il2cpp_TypeInfo_var;
+extern const uint32_t Ping_Send_m3957161110_MetadataUsageId;
+extern const uint32_t Ping_Send_m430078730_MetadataUsageId;
+extern const uint32_t Ping_Send_m2863308795_MetadataUsageId;
+extern Il2CppClass* Dns_t1335526197_il2cpp_TypeInfo_var;
+extern const uint32_t Ping_Send_m3904038265_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1086742700;
+extern const uint32_t Ping_GetNonLoopbackIP_m1361729525_MetadataUsageId;
+extern Il2CppClass* ArgumentNullException_t628810857_il2cpp_TypeInfo_var;
+extern Il2CppClass* ArgumentOutOfRangeException_t279959794_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3134679062;
+extern Il2CppCodeGenString* _stringLiteral1144299859;
+extern Il2CppCodeGenString* _stringLiteral3424039786;
+extern Il2CppCodeGenString* _stringLiteral2713104920;
+extern const uint32_t Ping_Send_m1870041180_MetadataUsageId;
+extern Il2CppClass* Socket_t3821512045_il2cpp_TypeInfo_var;
+extern Il2CppClass* IcmpMessage_t482998463_il2cpp_TypeInfo_var;
+extern Il2CppClass* DateTime_t693205669_il2cpp_TypeInfo_var;
+extern Il2CppClass* PingReply_t1978568794_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral255786470;
+extern const uint32_t Ping_SendPrivileged_m4224171413_MetadataUsageId;
+extern Il2CppClass* Process_t1448008787_il2cpp_TypeInfo_var;
+extern const uint32_t Ping_SendUnprivileged_m782055654_MetadataUsageId;
+extern const uint32_t Ping_SendAsync_m191990203_MetadataUsageId;
+extern const uint32_t Ping_SendAsync_m615991308_MetadataUsageId;
+extern const uint32_t Ping_SendAsync_m1874741654_MetadataUsageId;
+extern const uint32_t Ping_SendAsync_m3737224288_MetadataUsageId;
+extern const uint32_t Ping_SendAsync_m3495096443_MetadataUsageId;
+extern Il2CppClass* U3CSendAsyncU3Ec__AnonStorey6_t2153546882_il2cpp_TypeInfo_var;
+extern Il2CppClass* BackgroundWorker_t4230068110_il2cpp_TypeInfo_var;
+extern Il2CppClass* DoWorkEventHandler_t941110040_il2cpp_TypeInfo_var;
+extern Il2CppClass* RunWorkerCompletedEventHandler_t2492476920_il2cpp_TypeInfo_var;
+extern const MethodInfo* U3CSendAsyncU3Ec__AnonStorey6_U3CU3Em__7_m1611672524_MethodInfo_var;
+extern const MethodInfo* U3CSendAsyncU3Ec__AnonStorey6_U3CU3Em__8_m541316235_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1434815168;
+extern const uint32_t Ping_SendAsync_m1654762621_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3029204072;
+extern const uint32_t Ping_SendAsyncCancel_m3674919158_MetadataUsageId;
+extern Il2CppClass* CultureInfo_t3500843524_il2cpp_TypeInfo_var;
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* UInt32_t2149682021_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3360871283;
+extern Il2CppCodeGenString* _stringLiteral641283391;
+extern Il2CppCodeGenString* _stringLiteral1502598259;
+extern Il2CppCodeGenString* _stringLiteral3618211333;
+extern Il2CppCodeGenString* _stringLiteral3162788717;
+extern const uint32_t Ping_BuildPingArgs_m2981963704_MetadataUsageId;
+extern const uint32_t U3CSendAsyncU3Ec__AnonStorey6_U3CU3Em__7_m1611672524_MetadataUsageId;
+extern Il2CppClass* PingCompletedEventArgs_t841787612_il2cpp_TypeInfo_var;
+extern const uint32_t U3CSendAsyncU3Ec__AnonStorey6_U3CU3Em__8_m541316235_MetadataUsageId;
+extern const uint32_t IcmpMessage__ctor_m621024584_MetadataUsageId;
+extern const uint32_t IcmpMessage__ctor_m1671930572_MetadataUsageId;
+extern const uint32_t IcmpMessage_get_Data_m672939050_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral634448309;
+extern Il2CppCodeGenString* _stringLiteral3875251730;
+extern const uint32_t PingOptions__ctor_m3631407070_MetadataUsageId;
+struct in6_addr_t4035827331_marshaled_pinvoke;
+struct in6_addr_t4035827331;;
+struct in6_addr_t4035827331_marshaled_pinvoke;;
+struct in6_addr_t4035827331_marshaled_com;
+struct in6_addr_t4035827331_marshaled_com;;
+extern const uint32_t sockaddr_ll_t1681025498_pinvoke_FromNativeMethodDefinition_MetadataUsageId;
+extern const uint32_t sockaddr_ll_t1681025498_com_FromNativeMethodDefinition_MetadataUsageId;
+extern Il2CppClass* List_1_t2288907776_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m3812740292_MethodInfo_var;
+extern const uint32_t UnicastIPAddressInformationCollection__ctor_m500961486_MetadataUsageId;
+extern Il2CppClass* Enumerator_t1823637450_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m2913846283_MethodInfo_var;
+extern const uint32_t UnicastIPAddressInformationCollection_System_Collections_IEnumerable_GetEnumerator_m3449718895_MetadataUsageId;
+extern const MethodInfo* List_1_Add_m2100542328_MethodInfo_var;
+extern const uint32_t UnicastIPAddressInformationCollection_Add_m2110524769_MetadataUsageId;
+extern const MethodInfo* List_1_Clear_m4085170383_MethodInfo_var;
+extern const uint32_t UnicastIPAddressInformationCollection_Clear_m1162245895_MetadataUsageId;
+extern const MethodInfo* List_1_Contains_m2139646116_MethodInfo_var;
+extern const uint32_t UnicastIPAddressInformationCollection_Contains_m1525796803_MetadataUsageId;
+extern const MethodInfo* List_1_CopyTo_m3489746252_MethodInfo_var;
+extern const uint32_t UnicastIPAddressInformationCollection_CopyTo_m1030130837_MetadataUsageId;
+extern Il2CppClass* IEnumerable_1_t3211913689_il2cpp_TypeInfo_var;
+extern const uint32_t UnicastIPAddressInformationCollection_GetEnumerator_m552485924_MetadataUsageId;
+extern const MethodInfo* List_1_Remove_m3154269749_MethodInfo_var;
+extern const uint32_t UnicastIPAddressInformationCollection_Remove_m2029630316_MetadataUsageId;
+extern const MethodInfo* List_1_get_Count_m154813260_MethodInfo_var;
+extern const uint32_t UnicastIPAddressInformationCollection_get_Count_m1732095102_MetadataUsageId;
+extern const MethodInfo* List_1_get_Item_m1309064713_MethodInfo_var;
+extern const uint32_t UnicastIPAddressInformationCollection_get_Item_m2205241642_MetadataUsageId;
+extern Il2CppClass* UnicastIPAddressInformationImplCollection_t771061202_il2cpp_TypeInfo_var;
+extern const uint32_t UnicastIPAddressInformationImplCollection__cctor_m1203684985_MetadataUsageId;
+extern const Il2CppType* Win32_IP_ADAPTER_UNICAST_ADDRESS_t1884414946_0_0_0_var;
+extern Il2CppClass* Win32_IP_ADAPTER_UNICAST_ADDRESS_t1884414946_il2cpp_TypeInfo_var;
+extern Il2CppClass* Win32UnicastIPAddressInformation_t1388218403_il2cpp_TypeInfo_var;
+extern const uint32_t UnicastIPAddressInformationImplCollection_Win32FromUnicast_m2628548674_MetadataUsageId;
+extern Il2CppClass* LinuxUnicastIPAddressInformation_t870378058_il2cpp_TypeInfo_var;
+extern const uint32_t UnicastIPAddressInformationImplCollection_LinuxFromList_m1985813080_MetadataUsageId;
+extern Il2CppClass* Regex_t1803876613_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3624238401;
+extern Il2CppCodeGenString* _stringLiteral1267201139;
+extern const uint32_t UnixIPInterfaceProperties__cctor_m2472170512_MetadataUsageId;
+extern const uint32_t UnixIPInterfaceProperties_GetIPv6Properties_m2980625829_MetadataUsageId;
+extern Il2CppClass* IPAddressCollection_t2986660307_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1573162903;
+extern const uint32_t UnixIPInterfaceProperties_ParseRouteInfo_m3187707635_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3066551757;
+extern Il2CppCodeGenString* _stringLiteral3774104446;
+extern const uint32_t UnixIPInterfaceProperties_ParseResolvConf_m1769674119_MetadataUsageId;
+extern Il2CppClass* List_1_t769092855_il2cpp_TypeInfo_var;
+extern Il2CppClass* IPAddressInformationImplCollection_t1702846383_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m1201304789_MethodInfo_var;
+extern const uint32_t UnixIPInterfaceProperties_get_AnycastAddresses_m1185663977_MetadataUsageId;
+extern const uint32_t UnixIPInterfaceProperties_get_DhcpServerAddresses_m3828064994_MetadataUsageId;
+extern const uint32_t UnixIPInterfaceProperties_get_GatewayAddresses_m2871647616_MetadataUsageId;
+extern const MethodInfo* List_1_Add_m1891959289_MethodInfo_var;
+extern const uint32_t UnixIPInterfaceProperties_get_MulticastAddresses_m3342849016_MetadataUsageId;
+extern const uint32_t UnixIPInterfaceProperties_get_UnicastAddresses_m3939955578_MetadataUsageId;
+extern const uint32_t UnixIPInterfaceProperties_get_WinsServersAddresses_m3441214819_MetadataUsageId;
+extern const uint32_t UnixNetworkInterface__ctor_m1628672279_MetadataUsageId;
+extern const uint32_t UnixNetworkInterface_AddAddress_m1147233883_MetadataUsageId;
+extern const uint32_t UnixNetworkInterface_GetPhysicalAddress_m850246500_MetadataUsageId;
+extern const uint32_t UnixNetworkInterface_Supports_m4255863179_MetadataUsageId;
+struct Win32_IP_ADDR_STRING_t2646152127_marshaled_pinvoke;
+struct Win32_IP_ADDR_STRING_t2646152127;;
+struct Win32_IP_ADDR_STRING_t2646152127_marshaled_pinvoke;;
+struct Win32_IP_ADDR_STRING_t2646152127_marshaled_com;
+struct Win32_IP_ADDR_STRING_t2646152127_marshaled_com;;
+extern Il2CppClass* Win32_FIXED_INFO_t1371335919_il2cpp_TypeInfo_var;
+extern const uint32_t Win32_FIXED_INFO_get_Instance_m1048441613_MetadataUsageId;
+extern const uint32_t Win32_FIXED_INFO_GetInstance_m1739170628_MetadataUsageId;
+extern Il2CppClass* UInt32U5BU5D_t59386216_il2cpp_TypeInfo_var;
+extern const uint32_t Win32_IP_ADAPTER_ADDRESSES_t680756680_pinvoke_FromNativeMethodDefinition_MetadataUsageId;
+extern const uint32_t Win32_IP_ADAPTER_ADDRESSES_t680756680_com_FromNativeMethodDefinition_MetadataUsageId;
+extern const uint32_t Win32_IP_ADAPTER_INFO_t2310876292_pinvoke_FromNativeMethodDefinition_MetadataUsageId;
+extern const uint32_t Win32_IP_ADAPTER_INFO_t2310876292_com_FromNativeMethodDefinition_MetadataUsageId;
+struct Win32_MIBICMPSTATS_EX_t3893422550_marshaled_pinvoke;
+struct Win32_MIBICMPSTATS_EX_t3893422550;;
+struct Win32_MIBICMPSTATS_EX_t3893422550_marshaled_pinvoke;;
+struct Win32_MIBICMPSTATS_EX_t3893422550_marshaled_com;
+struct Win32_MIBICMPSTATS_EX_t3893422550_marshaled_com;;
+extern const uint32_t Win32_MIB_IFROW_t4215928996_pinvoke_FromNativeMethodDefinition_MetadataUsageId;
+extern const uint32_t Win32_MIB_IFROW_t4215928996_com_FromNativeMethodDefinition_MetadataUsageId;
+extern const uint32_t Win32_MIBICMPSTATS_EX_t3893422550_pinvoke_FromNativeMethodDefinition_MetadataUsageId;
+extern const uint32_t Win32_MIBICMPSTATS_EX_t3893422550_com_FromNativeMethodDefinition_MetadataUsageId;
+extern const uint32_t Win32_SOCKADDR_t1606057231_pinvoke_FromNativeMethodDefinition_MetadataUsageId;
+extern const uint32_t Win32_SOCKADDR_t1606057231_com_FromNativeMethodDefinition_MetadataUsageId;
+extern const Il2CppType* Win32_SOCKADDR_t1606057231_0_0_0_var;
+extern Il2CppClass* Win32_SOCKADDR_t1606057231_il2cpp_TypeInfo_var;
+extern const uint32_t Win32_SOCKET_ADDRESS_GetIPAddress_m3946757953_MetadataUsageId;
+extern const uint32_t Win32GatewayIPAddressInformationCollection__ctor_m6106881_MetadataUsageId;
+extern Il2CppClass* Win32GatewayIPAddressInformationCollection_t710370590_il2cpp_TypeInfo_var;
+extern const uint32_t Win32GatewayIPAddressInformationCollection__cctor_m3298758315_MetadataUsageId;
+extern const Il2CppType* Win32_IP_ADDR_STRING_t2646152127_0_0_0_var;
+extern Il2CppClass* Win32_IP_ADDR_STRING_t2646152127_il2cpp_TypeInfo_var;
+extern const uint32_t Win32GatewayIPAddressInformationCollection_AddSubsequently_m2327122963_MetadataUsageId;
+extern const uint32_t Win32IPAddressCollection__ctor_m650508369_MetadataUsageId;
+extern Il2CppClass* IntPtrU5BU5D_t169632028_il2cpp_TypeInfo_var;
+extern Il2CppClass* Win32IPAddressCollection_t2117998352_il2cpp_TypeInfo_var;
+extern const uint32_t Win32IPAddressCollection__cctor_m3111236827_MetadataUsageId;
+extern const Il2CppType* Win32_IP_ADAPTER_ANYCAST_ADDRESS_t2340726006_0_0_0_var;
+extern Il2CppClass* Win32_IP_ADAPTER_ANYCAST_ADDRESS_t2340726006_il2cpp_TypeInfo_var;
+extern const uint32_t Win32IPAddressCollection_FromAnycast_m1524412602_MetadataUsageId;
+extern const Il2CppType* Win32_IP_ADAPTER_DNS_SERVER_ADDRESS_t2512883708_0_0_0_var;
+extern Il2CppClass* Win32_IP_ADAPTER_DNS_SERVER_ADDRESS_t2512883708_il2cpp_TypeInfo_var;
+extern const uint32_t Win32IPAddressCollection_FromDnsServer_m2919194501_MetadataUsageId;
+extern const uint32_t Win32IPAddressCollection_AddSubsequentlyString_m1145585782_MetadataUsageId;
+extern const Il2CppType* Win32_MIB_TCPROW_t3355732075_0_0_0_var;
+extern const Il2CppType* Win32_MIB_TCP6ROW_t4007155549_0_0_0_var;
+extern Il2CppClass* List_1_t2724853207_il2cpp_TypeInfo_var;
+extern Il2CppClass* Win32_MIB_TCPROW_t3355732075_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t3376276681_il2cpp_TypeInfo_var;
+extern Il2CppClass* Win32_MIB_TCP6ROW_t4007155549_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m4288364965_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m1555671329_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m1467367531_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m3965016095_MethodInfo_var;
+extern const uint32_t Win32IPGlobalProperties_FillTcpTable_m2144837742_MetadataUsageId;
+extern const MethodInfo* List_1_get_Count_m2442351193_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m463442927_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m2292054464_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m2611997358_MethodInfo_var;
+extern const uint32_t Win32IPGlobalProperties_GetActiveTcpConnections_m221955250_MetadataUsageId;
+extern Il2CppClass* List_1_t1984534898_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m162370532_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m2203530992_MethodInfo_var;
+extern const MethodInfo* List_1_ToArray_m3968493512_MethodInfo_var;
+extern const uint32_t Win32IPGlobalProperties_GetActiveTcpListeners_m809282811_MetadataUsageId;
+extern const Il2CppType* Win32_MIB_UDPROW_t3234258897_0_0_0_var;
+extern const Il2CppType* Win32_MIB_UDP6ROW_t2989424443_0_0_0_var;
+extern Il2CppClass* Win32_MIB_UDPROW_t3234258897_il2cpp_TypeInfo_var;
+extern Il2CppClass* Win32_MIB_UDP6ROW_t2989424443_il2cpp_TypeInfo_var;
+extern const uint32_t Win32IPGlobalProperties_GetActiveUdpListeners_m1370130597_MetadataUsageId;
+extern Il2CppClass* Win32IcmpV4Statistics_t1426867275_il2cpp_TypeInfo_var;
+extern const uint32_t Win32IPGlobalProperties_GetIcmpV4Statistics_m3731117025_MetadataUsageId;
+extern Il2CppClass* Win32IcmpV6Statistics_t1196663689_il2cpp_TypeInfo_var;
+extern const uint32_t Win32IPGlobalProperties_GetIcmpV6Statistics_m4275780693_MetadataUsageId;
+extern Il2CppClass* Win32IPGlobalStatistics_t3349972664_il2cpp_TypeInfo_var;
+extern const uint32_t Win32IPGlobalProperties_GetIPv4GlobalStatistics_m3603207259_MetadataUsageId;
+extern const uint32_t Win32IPGlobalProperties_GetIPv6GlobalStatistics_m955328869_MetadataUsageId;
+extern Il2CppClass* Win32TcpStatistics_t3798324233_il2cpp_TypeInfo_var;
+extern const uint32_t Win32IPGlobalProperties_GetTcpIPv4Statistics_m189676462_MetadataUsageId;
+extern const uint32_t Win32IPGlobalProperties_GetTcpIPv6Statistics_m1656194424_MetadataUsageId;
+extern Il2CppClass* Win32UdpStatistics_t477239559_il2cpp_TypeInfo_var;
+extern const uint32_t Win32IPGlobalProperties_GetUdpIPv4Statistics_m3671362926_MetadataUsageId;
+extern const uint32_t Win32IPGlobalProperties_GetUdpIPv6Statistics_m842913592_MetadataUsageId;
+struct Win32_MIB_ICMP_EX_t2748725486_marshaled_pinvoke;
+struct Win32_MIB_ICMP_EX_t2748725486;;
+struct Win32_MIB_ICMP_EX_t2748725486_marshaled_pinvoke;;
+extern const uint32_t Win32_IN6_ADDR_t3054921274_pinvoke_FromNativeMethodDefinition_MetadataUsageId;
+extern const uint32_t Win32_IN6_ADDR_t3054921274_com_FromNativeMethodDefinition_MetadataUsageId;
+struct Win32_IN6_ADDR_t3054921274_marshaled_pinvoke;
+struct Win32_IN6_ADDR_t3054921274;;
+struct Win32_IN6_ADDR_t3054921274_marshaled_pinvoke;;
+struct Win32_IN6_ADDR_t3054921274_marshaled_com;
+struct Win32_IN6_ADDR_t3054921274_marshaled_com;;
+extern const uint32_t Win32_MIB_TCP6ROW_get_LocalEndPoint_m1499831341_MetadataUsageId;
+extern const uint32_t Win32_MIB_TCP6ROW_get_RemoteEndPoint_m1504756156_MetadataUsageId;
+extern const uint32_t Win32_MIB_TCP6ROW_get_TcpInfo_m3318259821_MetadataUsageId;
+extern const uint32_t Win32_MIB_TCPROW_get_LocalEndPoint_m719139803_MetadataUsageId;
+extern const uint32_t Win32_MIB_TCPROW_get_RemoteEndPoint_m2700283260_MetadataUsageId;
+extern const uint32_t Win32_MIB_TCPROW_get_TcpInfo_m3741336739_MetadataUsageId;
+extern const uint32_t Win32_MIB_UDP6ROW_get_LocalEndPoint_m18977863_MetadataUsageId;
+
+// System.Net.NetworkInformation.NetworkInterface[]
+struct NetworkInterfaceU5BU5D_t4157644364  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) NetworkInterface_t63927633 * m_Items[1];
+
+public:
+	inline NetworkInterface_t63927633 * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline NetworkInterface_t63927633 ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, NetworkInterface_t63927633 * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline NetworkInterface_t63927633 * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline NetworkInterface_t63927633 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, NetworkInterface_t63927633 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// System.Byte[]
+struct ByteU5BU5D_t3397334013  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+public:
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.Char[]
+struct CharU5BU5D_t1328083999  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) Il2CppChar m_Items[1];
+
+public:
+	inline Il2CppChar GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Il2CppChar* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Il2CppChar value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Il2CppChar GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Il2CppChar* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Il2CppChar value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.String[]
+struct StringU5BU5D_t1642385972  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) String_t* m_Items[1];
+
+public:
+	inline String_t* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, String_t* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline String_t* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, String_t* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// System.Net.IPEndPoint[]
+struct IPEndPointU5BU5D_t294524195  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) IPEndPoint_t2615413766 * m_Items[1];
+
+public:
+	inline IPEndPoint_t2615413766 * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline IPEndPoint_t2615413766 ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, IPEndPoint_t2615413766 * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline IPEndPoint_t2615413766 * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline IPEndPoint_t2615413766 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, IPEndPoint_t2615413766 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// System.Net.NetworkInformation.TcpConnectionInformation[]
+struct TcpConnectionInformationU5BU5D_t910531434  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) TcpConnectionInformation_t3392050187 * m_Items[1];
+
+public:
+	inline TcpConnectionInformation_t3392050187 * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline TcpConnectionInformation_t3392050187 ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, TcpConnectionInformation_t3392050187 * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline TcpConnectionInformation_t3392050187 * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline TcpConnectionInformation_t3392050187 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, TcpConnectionInformation_t3392050187 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// System.Net.NetworkInformation.MulticastIPAddressInformation[]
+struct MulticastIPAddressInformationU5BU5D_t302302856  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) MulticastIPAddressInformation_t1580768453 * m_Items[1];
+
+public:
+	inline MulticastIPAddressInformation_t1580768453 * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline MulticastIPAddressInformation_t1580768453 ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, MulticastIPAddressInformation_t1580768453 * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline MulticastIPAddressInformation_t1580768453 * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline MulticastIPAddressInformation_t1580768453 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, MulticastIPAddressInformation_t1580768453 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// System.Net.IPAddress[]
+struct IPAddressU5BU5D_t4087230954  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) IPAddress_t1399971723 * m_Items[1];
+
+public:
+	inline IPAddress_t1399971723 * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline IPAddress_t1399971723 ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, IPAddress_t1399971723 * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline IPAddress_t1399971723 * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline IPAddress_t1399971723 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, IPAddress_t1399971723 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// System.Object[]
+struct ObjectU5BU5D_t3614634134  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) Il2CppObject * m_Items[1];
+
+public:
+	inline Il2CppObject * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Il2CppObject ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Il2CppObject * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline Il2CppObject * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Il2CppObject ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Il2CppObject * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// System.Net.NetworkInformation.UnicastIPAddressInformation[]
+struct UnicastIPAddressInformationU5BU5D_t2212961949  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) UnicastIPAddressInformation_t2919786644 * m_Items[1];
+
+public:
+	inline UnicastIPAddressInformation_t2919786644 * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline UnicastIPAddressInformation_t2919786644 ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, UnicastIPAddressInformation_t2919786644 * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline UnicastIPAddressInformation_t2919786644 * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline UnicastIPAddressInformation_t2919786644 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, UnicastIPAddressInformation_t2919786644 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// System.UInt32[]
+struct UInt32U5BU5D_t59386216  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) uint32_t m_Items[1];
+
+public:
+	inline uint32_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint32_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint32_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint32_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint32_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint32_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.Net.NetworkInformation.Win32_IP_ADDR_STRING[]
+struct Win32_IP_ADDR_STRINGU5BU5D_t945341030  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) Win32_IP_ADDR_STRING_t2646152127  m_Items[1];
+
+public:
+	inline Win32_IP_ADDR_STRING_t2646152127  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Win32_IP_ADDR_STRING_t2646152127 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Win32_IP_ADDR_STRING_t2646152127  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Win32_IP_ADDR_STRING_t2646152127  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Win32_IP_ADDR_STRING_t2646152127 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Win32_IP_ADDR_STRING_t2646152127  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.IntPtr[]
+struct IntPtrU5BU5D_t169632028  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) IntPtr_t m_Items[1];
+
+public:
+	inline IntPtr_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline IntPtr_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, IntPtr_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline IntPtr_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline IntPtr_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, IntPtr_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+
+extern "C" void in6_addr_t1014645363_marshal_pinvoke(const in6_addr_t1014645363& unmarshaled, in6_addr_t1014645363_marshaled_pinvoke& marshaled);
+extern "C" void in6_addr_t1014645363_marshal_pinvoke_back(const in6_addr_t1014645363_marshaled_pinvoke& marshaled, in6_addr_t1014645363& unmarshaled);
+extern "C" void in6_addr_t1014645363_marshal_pinvoke_cleanup(in6_addr_t1014645363_marshaled_pinvoke& marshaled);
+extern "C" void in6_addr_t1014645363_marshal_com(const in6_addr_t1014645363& unmarshaled, in6_addr_t1014645363_marshaled_com& marshaled);
+extern "C" void in6_addr_t1014645363_marshal_com_back(const in6_addr_t1014645363_marshaled_com& marshaled, in6_addr_t1014645363& unmarshaled);
+extern "C" void in6_addr_t1014645363_marshal_com_cleanup(in6_addr_t1014645363_marshaled_com& marshaled);
+extern "C" void in6_addr_t4035827331_marshal_pinvoke(const in6_addr_t4035827331& unmarshaled, in6_addr_t4035827331_marshaled_pinvoke& marshaled);
+extern "C" void in6_addr_t4035827331_marshal_pinvoke_back(const in6_addr_t4035827331_marshaled_pinvoke& marshaled, in6_addr_t4035827331& unmarshaled);
+extern "C" void in6_addr_t4035827331_marshal_pinvoke_cleanup(in6_addr_t4035827331_marshaled_pinvoke& marshaled);
+extern "C" void in6_addr_t4035827331_marshal_com(const in6_addr_t4035827331& unmarshaled, in6_addr_t4035827331_marshaled_com& marshaled);
+extern "C" void in6_addr_t4035827331_marshal_com_back(const in6_addr_t4035827331_marshaled_com& marshaled, in6_addr_t4035827331& unmarshaled);
+extern "C" void in6_addr_t4035827331_marshal_com_cleanup(in6_addr_t4035827331_marshaled_com& marshaled);
+extern "C" void Win32_IP_ADDR_STRING_t2646152127_marshal_pinvoke(const Win32_IP_ADDR_STRING_t2646152127& unmarshaled, Win32_IP_ADDR_STRING_t2646152127_marshaled_pinvoke& marshaled);
+extern "C" void Win32_IP_ADDR_STRING_t2646152127_marshal_pinvoke_back(const Win32_IP_ADDR_STRING_t2646152127_marshaled_pinvoke& marshaled, Win32_IP_ADDR_STRING_t2646152127& unmarshaled);
+extern "C" void Win32_IP_ADDR_STRING_t2646152127_marshal_pinvoke_cleanup(Win32_IP_ADDR_STRING_t2646152127_marshaled_pinvoke& marshaled);
+extern "C" void Win32_IP_ADDR_STRING_t2646152127_marshal_com(const Win32_IP_ADDR_STRING_t2646152127& unmarshaled, Win32_IP_ADDR_STRING_t2646152127_marshaled_com& marshaled);
+extern "C" void Win32_IP_ADDR_STRING_t2646152127_marshal_com_back(const Win32_IP_ADDR_STRING_t2646152127_marshaled_com& marshaled, Win32_IP_ADDR_STRING_t2646152127& unmarshaled);
+extern "C" void Win32_IP_ADDR_STRING_t2646152127_marshal_com_cleanup(Win32_IP_ADDR_STRING_t2646152127_marshaled_com& marshaled);
+extern "C" void Win32_MIBICMPSTATS_EX_t3893422550_marshal_pinvoke(const Win32_MIBICMPSTATS_EX_t3893422550& unmarshaled, Win32_MIBICMPSTATS_EX_t3893422550_marshaled_pinvoke& marshaled);
+extern "C" void Win32_MIBICMPSTATS_EX_t3893422550_marshal_pinvoke_back(const Win32_MIBICMPSTATS_EX_t3893422550_marshaled_pinvoke& marshaled, Win32_MIBICMPSTATS_EX_t3893422550& unmarshaled);
+extern "C" void Win32_MIBICMPSTATS_EX_t3893422550_marshal_pinvoke_cleanup(Win32_MIBICMPSTATS_EX_t3893422550_marshaled_pinvoke& marshaled);
+extern "C" void Win32_MIBICMPSTATS_EX_t3893422550_marshal_com(const Win32_MIBICMPSTATS_EX_t3893422550& unmarshaled, Win32_MIBICMPSTATS_EX_t3893422550_marshaled_com& marshaled);
+extern "C" void Win32_MIBICMPSTATS_EX_t3893422550_marshal_com_back(const Win32_MIBICMPSTATS_EX_t3893422550_marshaled_com& marshaled, Win32_MIBICMPSTATS_EX_t3893422550& unmarshaled);
+extern "C" void Win32_MIBICMPSTATS_EX_t3893422550_marshal_com_cleanup(Win32_MIBICMPSTATS_EX_t3893422550_marshaled_com& marshaled);
+extern "C" void Win32_MIB_ICMP_EX_t2748725486_marshal_pinvoke(const Win32_MIB_ICMP_EX_t2748725486& unmarshaled, Win32_MIB_ICMP_EX_t2748725486_marshaled_pinvoke& marshaled);
+extern "C" void Win32_MIB_ICMP_EX_t2748725486_marshal_pinvoke_back(const Win32_MIB_ICMP_EX_t2748725486_marshaled_pinvoke& marshaled, Win32_MIB_ICMP_EX_t2748725486& unmarshaled);
+extern "C" void Win32_MIB_ICMP_EX_t2748725486_marshal_pinvoke_cleanup(Win32_MIB_ICMP_EX_t2748725486_marshaled_pinvoke& marshaled);
+extern "C" void Win32_IN6_ADDR_t3054921274_marshal_pinvoke(const Win32_IN6_ADDR_t3054921274& unmarshaled, Win32_IN6_ADDR_t3054921274_marshaled_pinvoke& marshaled);
+extern "C" void Win32_IN6_ADDR_t3054921274_marshal_pinvoke_back(const Win32_IN6_ADDR_t3054921274_marshaled_pinvoke& marshaled, Win32_IN6_ADDR_t3054921274& unmarshaled);
+extern "C" void Win32_IN6_ADDR_t3054921274_marshal_pinvoke_cleanup(Win32_IN6_ADDR_t3054921274_marshaled_pinvoke& marshaled);
+extern "C" void Win32_IN6_ADDR_t3054921274_marshal_com(const Win32_IN6_ADDR_t3054921274& unmarshaled, Win32_IN6_ADDR_t3054921274_marshaled_com& marshaled);
+extern "C" void Win32_IN6_ADDR_t3054921274_marshal_com_back(const Win32_IN6_ADDR_t3054921274_marshaled_com& marshaled, Win32_IN6_ADDR_t3054921274& unmarshaled);
+extern "C" void Win32_IN6_ADDR_t3054921274_marshal_com_cleanup(Win32_IN6_ADDR_t3054921274_marshaled_com& marshaled);
+
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::.ctor()
+extern "C"  void Dictionary_2__ctor_m584589095_gshared (Dictionary_2_t2281509423 * __this, const MethodInfo* method);
+// System.Boolean System.Collections.Generic.Dictionary`2<System.Object,System.Object>::TryGetValue(!0,!1&)
+extern "C"  bool Dictionary_2_TryGetValue_m3975825838_gshared (Dictionary_2_t2281509423 * __this, Il2CppObject * p0, Il2CppObject ** p1, const MethodInfo* method);
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::Add(!0,!1)
+extern "C"  void Dictionary_2_Add_m4209421183_gshared (Dictionary_2_t2281509423 * __this, Il2CppObject * p0, Il2CppObject * p1, const MethodInfo* method);
+// System.Int32 System.Collections.Generic.Dictionary`2<System.Object,System.Object>::get_Count()
+extern "C"  int32_t Dictionary_2_get_Count_m3636113691_gshared (Dictionary_2_t2281509423 * __this, const MethodInfo* method);
+// System.Collections.Generic.Dictionary`2/ValueCollection<!0,!1> System.Collections.Generic.Dictionary`2<System.Object,System.Object>::get_Values()
+extern "C"  ValueCollection_t984569266 * Dictionary_2_get_Values_m2233445381_gshared (Dictionary_2_t2281509423 * __this, const MethodInfo* method);
+// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<!0,!1> System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Object>::GetEnumerator()
+extern "C"  Enumerator_t3968042187  ValueCollection_GetEnumerator_m379930731_gshared (ValueCollection_t984569266 * __this, const MethodInfo* method);
+// !1 System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Object>::get_Current()
+extern "C"  Il2CppObject * Enumerator_get_Current_m1976109889_gshared (Enumerator_t3968042187 * __this, const MethodInfo* method);
+// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Object>::MoveNext()
+extern "C"  bool Enumerator_MoveNext_m335649778_gshared (Enumerator_t3968042187 * __this, const MethodInfo* method);
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::.ctor(System.Int32)
+extern "C"  void Dictionary_2__ctor_m3043033341_gshared (Dictionary_2_t1663937576 * __this, int32_t p0, const MethodInfo* method);
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::Add(!0,!1)
+extern "C"  void Dictionary_2_Add_m790520409_gshared (Dictionary_2_t1663937576 * __this, Il2CppObject * p0, int32_t p1, const MethodInfo* method);
+// System.Boolean System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::TryGetValue(!0,!1&)
+extern "C"  bool Dictionary_2_TryGetValue_m2330758874_gshared (Dictionary_2_t1663937576 * __this, Il2CppObject * p0, int32_t* p1, const MethodInfo* method);
+// System.Int32 System.Collections.Generic.List`1<System.Object>::get_Count()
+extern "C"  int32_t List_1_get_Count_m2375293942_gshared (List_1_t2058570427 * __this, const MethodInfo* method);
+// !0 System.Collections.Generic.List`1<System.Object>::get_Item(System.Int32)
+extern "C"  Il2CppObject * List_1_get_Item_m2062981835_gshared (List_1_t2058570427 * __this, int32_t p0, const MethodInfo* method);
+// System.Void System.Collections.Generic.List`1<System.Object>::Add(!0)
+extern "C"  void List_1_Add_m4157722533_gshared (List_1_t2058570427 * __this, Il2CppObject * p0, const MethodInfo* method);
+// System.Void System.Collections.Generic.List`1<System.Object>::.ctor()
+extern "C"  void List_1__ctor_m310736118_gshared (List_1_t2058570427 * __this, const MethodInfo* method);
+// System.Int32 System.Array::IndexOf<System.Byte>(!!0[],!!0)
+extern "C"  int32_t Array_IndexOf_TisByte_t3683104436_m2497625856_gshared (Il2CppObject * __this /* static, unused */, ByteU5BU5D_t3397334013* p0, uint8_t p1, const MethodInfo* method);
+// System.Collections.Generic.List`1/Enumerator<!0> System.Collections.Generic.List`1<System.Object>::GetEnumerator()
+extern "C"  Enumerator_t1593300101  List_1_GetEnumerator_m2837081829_gshared (List_1_t2058570427 * __this, const MethodInfo* method);
+// System.Void System.Collections.Generic.List`1<System.Object>::Clear()
+extern "C"  void List_1_Clear_m4254626809_gshared (List_1_t2058570427 * __this, const MethodInfo* method);
+// System.Boolean System.Collections.Generic.List`1<System.Object>::Contains(!0)
+extern "C"  bool List_1_Contains_m1658838094_gshared (List_1_t2058570427 * __this, Il2CppObject * p0, const MethodInfo* method);
+// System.Void System.Collections.Generic.List`1<System.Object>::CopyTo(!0[],System.Int32)
+extern "C"  void List_1_CopyTo_m2123980726_gshared (List_1_t2058570427 * __this, ObjectU5BU5D_t3614634134* p0, int32_t p1, const MethodInfo* method);
+// System.Boolean System.Collections.Generic.List`1<System.Object>::Remove(!0)
+extern "C"  bool List_1_Remove_m3164383811_gshared (List_1_t2058570427 * __this, Il2CppObject * p0, const MethodInfo* method);
+// !0 System.Collections.Generic.List`1/Enumerator<System.Object>::get_Current()
+extern "C"  Il2CppObject * Enumerator_get_Current_m2577424081_gshared (Enumerator_t1593300101 * __this, const MethodInfo* method);
+// System.Boolean System.Collections.Generic.List`1/Enumerator<System.Object>::MoveNext()
+extern "C"  bool Enumerator_MoveNext_m44995089_gshared (Enumerator_t1593300101 * __this, const MethodInfo* method);
+// !0[] System.Collections.Generic.List`1<System.Object>::ToArray()
+extern "C"  ObjectU5BU5D_t3614634134* List_1_ToArray_m546658539_gshared (List_1_t2058570427 * __this, const MethodInfo* method);
+
+// System.Void System.Object::.ctor()
+extern "C"  void Object__ctor_m2551263788 (Il2CppObject * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.GatewayIPAddressInformationCollection::.ctor()
+extern "C"  void GatewayIPAddressInformationCollection__ctor_m3427578889 (GatewayIPAddressInformationCollection_t3537717171 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.GatewayIPAddressInformationImpl::.ctor(System.Net.IPAddress)
+extern "C"  void GatewayIPAddressInformationImpl__ctor_m1701918754 (GatewayIPAddressInformationImpl_t565141533 * __this, IPAddress_t1399971723 * ___address0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.LinuxGatewayIPAddressInformationCollection::.ctor(System.Boolean)
+extern "C"  void LinuxGatewayIPAddressInformationCollection__ctor_m2547854322 (LinuxGatewayIPAddressInformationCollection_t2323845969 * __this, bool ___isReadOnly0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.UnixIPInterfaceProperties::.ctor(System.Net.NetworkInformation.UnixNetworkInterface,System.Collections.Generic.List`1<System.Net.IPAddress>)
+extern "C"  void UnixIPInterfaceProperties__ctor_m2539088987 (UnixIPInterfaceProperties_t2418091637 * __this, UnixNetworkInterface_t1000704527 * ___iface0, List_1_t769092855 * ___addresses1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.LinuxIPv4InterfaceProperties::.ctor(System.Net.NetworkInformation.LinuxNetworkInterface)
+extern "C"  void LinuxIPv4InterfaceProperties__ctor_m1190628452 (LinuxIPv4InterfaceProperties_t1534034571 * __this, LinuxNetworkInterface_t3864470295 * ___iface0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.UnixIPv4InterfaceProperties::.ctor(System.Net.NetworkInformation.UnixNetworkInterface)
+extern "C"  void UnixIPv4InterfaceProperties__ctor_m796527670 (UnixIPv4InterfaceProperties_t179777771 * __this, UnixNetworkInterface_t1000704527 * ___iface0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.String::Concat(System.String,System.String,System.String)
+extern "C"  String_t* String_Concat_m612901809 (Il2CppObject * __this /* static, unused */, String_t* p0, String_t* p1, String_t* p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.IO.File::Exists(System.String)
+extern "C"  bool File_Exists_m1685968367 (Il2CppObject * __this /* static, unused */, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.Net.NetworkInformation.NetworkInterface::ReadLine(System.String)
+extern "C"  String_t* NetworkInterface_ReadLine_m2401631100 (Il2CppObject * __this /* static, unused */, String_t* ___path0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.String::op_Inequality(System.String,System.String)
+extern "C"  bool String_op_Inequality_m304203149 (Il2CppObject * __this /* static, unused */, String_t* p0, String_t* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.Net.NetworkInformation.LinuxNetworkInterface::get_IfacePath()
+extern "C"  String_t* LinuxNetworkInterface_get_IfacePath_m3341314018 (LinuxNetworkInterface_t3864470295 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.String::Concat(System.String,System.String)
+extern "C"  String_t* String_Concat_m2596409543 (Il2CppObject * __this /* static, unused */, String_t* p0, String_t* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Int32::Parse(System.String)
+extern "C"  int32_t Int32_Parse_m3683414232 (Il2CppObject * __this /* static, unused */, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.IPv4InterfaceStatistics::.ctor()
+extern "C"  void IPv4InterfaceStatistics__ctor_m2429547659 (IPv4InterfaceStatistics_t3946458365 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int64 System.Int64::Parse(System.String)
+extern "C"  int64_t Int64_Parse_m3063055274 (Il2CppObject * __this /* static, unused */, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int64 System.Net.NetworkInformation.LinuxIPv4InterfaceStatistics::Read(System.String)
+extern "C"  int64_t LinuxIPv4InterfaceStatistics_Read_m2653521628 (LinuxIPv4InterfaceStatistics_t1133266275 * __this, String_t* ___file0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.UnixNetworkInterface::.ctor(System.String)
+extern "C"  void UnixNetworkInterface__ctor_m1628672279 (UnixNetworkInterface_t1000704527 * __this, String_t* ___name0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.LinuxNetworkInterface::InitializeInterfaceAddresses()
+extern "C"  void LinuxNetworkInterface_InitializeInterfaceAddresses_m1157063254 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.Dictionary`2<System.String,System.Net.NetworkInformation.LinuxNetworkInterface>::.ctor()
+#define Dictionary_2__ctor_m2978195796(__this, method) ((  void (*) (Dictionary_2_t1484282261 *, const MethodInfo*))Dictionary_2__ctor_m584589095_gshared)(__this, method)
+// System.Int32 System.Net.NetworkInformation.LinuxNetworkInterface::GetInterfaceAddresses(System.IntPtr&)
+extern "C"  int32_t LinuxNetworkInterface_GetInterfaceAddresses_m3586817114 (Il2CppObject * __this /* static, unused */, IntPtr_t* ___ifap0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.SystemException::.ctor(System.String)
+extern "C"  void SystemException__ctor_m4001391027 (SystemException_t3877406272 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Type System.Type::GetTypeFromHandle(System.RuntimeTypeHandle)
+extern "C"  Type_t * Type_GetTypeFromHandle_m432505302 (Il2CppObject * __this /* static, unused */, RuntimeTypeHandle_t2330101084  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Object System.Runtime.InteropServices.Marshal::PtrToStructure(System.IntPtr,System.Type)
+extern "C"  Il2CppObject * Marshal_PtrToStructure_m673412918 (Il2CppObject * __this /* static, unused */, IntPtr_t p0, Type_t * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.IntPtr::op_Inequality(System.IntPtr,System.IntPtr)
+extern "C"  bool IntPtr_op_Inequality_m3044532593 (Il2CppObject * __this /* static, unused */, IntPtr_t p0, IntPtr_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.IPAddress::.ctor(System.Byte[],System.Int64)
+extern "C"  void IPAddress__ctor_m3025538646 (IPAddress_t1399971723 * __this, ByteU5BU5D_t3397334013* ___address0, int64_t ___scopeId1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.IPAddress::.ctor(System.Int64)
+extern "C"  void IPAddress__ctor_m4294749317 (IPAddress_t1399971723 * __this, int64_t ___addr0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.IO.TextWriter System.Console::get_Error()
+extern "C"  TextWriter_t4027217640 * Console_get_Error_m2313154535 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Array::Copy(System.Array,System.Int32,System.Array,System.Int32,System.Int32)
+extern "C"  void Array_Copy_m3808317496 (Il2CppObject * __this /* static, unused */, Il2CppArray * p0, int32_t p1, Il2CppArray * p2, int32_t p3, int32_t p4, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Enum::IsDefined(System.Type,System.Object)
+extern "C"  bool Enum_IsDefined_m92789062 (Il2CppObject * __this /* static, unused */, Type_t * p0, Il2CppObject * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.String::IsNullOrEmpty(System.String)
+extern "C"  bool String_IsNullOrEmpty_m2802126737 (Il2CppObject * __this /* static, unused */, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.Int32::ToString()
+extern "C"  String_t* Int32_ToString_m2960866144 (int32_t* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Net.NetworkInformation.LinuxNetworkInterface>::TryGetValue(!0,!1&)
+#define Dictionary_2_TryGetValue_m1993610529(__this, p0, p1, method) ((  bool (*) (Dictionary_2_t1484282261 *, String_t*, LinuxNetworkInterface_t3864470295 **, const MethodInfo*))Dictionary_2_TryGetValue_m3975825838_gshared)(__this, p0, p1, method)
+// System.Void System.Net.NetworkInformation.LinuxNetworkInterface::.ctor(System.String)
+extern "C"  void LinuxNetworkInterface__ctor_m4238128715 (LinuxNetworkInterface_t3864470295 * __this, String_t* ___name0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.Dictionary`2<System.String,System.Net.NetworkInformation.LinuxNetworkInterface>::Add(!0,!1)
+#define Dictionary_2_Add_m3707596572(__this, p0, p1, method) ((  void (*) (Dictionary_2_t1484282261 *, String_t*, LinuxNetworkInterface_t3864470295 *, const MethodInfo*))Dictionary_2_Add_m4209421183_gshared)(__this, p0, p1, method)
+// System.Void System.Net.NetworkInformation.UnixNetworkInterface::AddAddress(System.Net.IPAddress)
+extern "C"  void UnixNetworkInterface_AddAddress_m1147233883 (UnixNetworkInterface_t1000704527 * __this, IPAddress_t1399971723 * ___address0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.IO.Directory::Exists(System.String)
+extern "C"  bool Directory_Exists_m2663601042 (Il2CppObject * __this /* static, unused */, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.UnixNetworkInterface::SetLinkLayerInfo(System.Int32,System.Byte[],System.Net.NetworkInformation.NetworkInterfaceType)
+extern "C"  void UnixNetworkInterface_SetLinkLayerInfo_m963974689 (UnixNetworkInterface_t1000704527 * __this, int32_t ___index0, ByteU5BU5D_t3397334013* ___macAddress1, int32_t ___type2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.LinuxNetworkInterface::FreeInterfaceAddresses(System.IntPtr)
+extern "C"  void LinuxNetworkInterface_FreeInterfaceAddresses_m1820854136 (Il2CppObject * __this /* static, unused */, IntPtr_t ___ifap0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Collections.Generic.Dictionary`2<System.String,System.Net.NetworkInformation.LinuxNetworkInterface>::get_Count()
+#define Dictionary_2_get_Count_m2058765928(__this, method) ((  int32_t (*) (Dictionary_2_t1484282261 *, const MethodInfo*))Dictionary_2_get_Count_m3636113691_gshared)(__this, method)
+// System.Collections.Generic.Dictionary`2/ValueCollection<!0,!1> System.Collections.Generic.Dictionary`2<System.String,System.Net.NetworkInformation.LinuxNetworkInterface>::get_Values()
+#define Dictionary_2_get_Values_m2443513886(__this, method) ((  ValueCollection_t187342104 * (*) (Dictionary_2_t1484282261 *, const MethodInfo*))Dictionary_2_get_Values_m2233445381_gshared)(__this, method)
+// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<!0,!1> System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Net.NetworkInformation.LinuxNetworkInterface>::GetEnumerator()
+#define ValueCollection_GetEnumerator_m4002148082(__this, method) ((  Enumerator_t3170815025  (*) (ValueCollection_t187342104 *, const MethodInfo*))ValueCollection_GetEnumerator_m379930731_gshared)(__this, method)
+// !1 System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.String,System.Net.NetworkInformation.LinuxNetworkInterface>::get_Current()
+#define Enumerator_get_Current_m3838915172(__this, method) ((  LinuxNetworkInterface_t3864470295 * (*) (Enumerator_t3170815025 *, const MethodInfo*))Enumerator_get_Current_m1976109889_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.String,System.Net.NetworkInformation.LinuxNetworkInterface>::MoveNext()
+#define Enumerator_MoveNext_m1097850751(__this, method) ((  bool (*) (Enumerator_t3170815025 *, const MethodInfo*))Enumerator_MoveNext_m335649778_gshared)(__this, method)
+// System.Void System.Net.NetworkInformation.LinuxIPInterfaceProperties::.ctor(System.Net.NetworkInformation.LinuxNetworkInterface,System.Collections.Generic.List`1<System.Net.IPAddress>)
+extern "C"  void LinuxIPInterfaceProperties__ctor_m280597575 (LinuxIPInterfaceProperties_t3318447793 * __this, LinuxNetworkInterface_t3864470295 * ___iface0, List_1_t769092855 * ___addresses1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.LinuxIPv4InterfaceStatistics::.ctor(System.Net.NetworkInformation.LinuxNetworkInterface)
+extern "C"  void LinuxIPv4InterfaceStatistics__ctor_m1804543410 (LinuxIPv4InterfaceStatistics_t1133266275 * __this, LinuxNetworkInterface_t3864470295 * ___parent0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::.ctor(System.Int32)
+#define Dictionary_2__ctor_m2118310873(__this, p0, method) ((  void (*) (Dictionary_2_t3986656710 *, int32_t, const MethodInfo*))Dictionary_2__ctor_m3043033341_gshared)(__this, p0, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1)
+#define Dictionary_2_Add_m1209957957(__this, p0, p1, method) ((  void (*) (Dictionary_2_t3986656710 *, String_t*, int32_t, const MethodInfo*))Dictionary_2_Add_m790520409_gshared)(__this, p0, p1, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Int32>::TryGetValue(!0,!1&)
+#define Dictionary_2_TryGetValue_m2977303364(__this, p0, p1, method) ((  bool (*) (Dictionary_2_t3986656710 *, String_t*, int32_t*, const MethodInfo*))Dictionary_2_TryGetValue_m2330758874_gshared)(__this, p0, p1, method)
+// System.Int32 System.String::get_Length()
+extern "C"  int32_t String_get_Length_m1606060069 (String_t* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Char System.String::get_Chars(System.Int32)
+extern "C"  Il2CppChar String_get_Chars_m4230566705 (String_t* __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.String::Substring(System.Int32)
+extern "C"  String_t* String_Substring_m2032624251 (String_t* __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.UInt64 System.UInt64::Parse(System.String,System.Globalization.NumberStyles)
+extern "C"  uint64_t UInt64_Parse_m1319153771 (Il2CppObject * __this /* static, unused */, String_t* p0, int32_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.UnicastIPAddressInformation::.ctor()
+extern "C"  void UnicastIPAddressInformation__ctor_m1145245090 (UnicastIPAddressInformation_t2919786644 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Byte[] System.Net.IPAddress::GetAddressBytes()
+extern "C"  ByteU5BU5D_t3397334013* IPAddress_GetAddressBytes_m3037024450 (IPAddress_t1399971723 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.NotImplementedException::.ctor()
+extern "C"  void NotImplementedException__ctor_m808189835 (NotImplementedException_t2785117854 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.MacOsIPv4InterfaceProperties::.ctor(System.Net.NetworkInformation.MacOsNetworkInterface)
+extern "C"  void MacOsIPv4InterfaceProperties__ctor_m1569035652 (MacOsIPv4InterfaceProperties_t2988669134 * __this, MacOsNetworkInterface_t1454185290 * ___iface0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.Dictionary`2<System.String,System.Net.NetworkInformation.MacOsNetworkInterface>::.ctor()
+#define Dictionary_2__ctor_m1475182665(__this, method) ((  void (*) (Dictionary_2_t3368964552 *, const MethodInfo*))Dictionary_2__ctor_m584589095_gshared)(__this, method)
+// System.Int32 System.Net.NetworkInformation.MacOsNetworkInterface::getifaddrs(System.IntPtr&)
+extern "C"  int32_t MacOsNetworkInterface_getifaddrs_m2468800431 (Il2CppObject * __this /* static, unused */, IntPtr_t* ___ifap0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Math::Min(System.Int32,System.Int32)
+extern "C"  int32_t Math_Min_m4290821911 (Il2CppObject * __this /* static, unused */, int32_t p0, int32_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Net.NetworkInformation.MacOsNetworkInterface>::TryGetValue(!0,!1&)
+#define Dictionary_2_TryGetValue_m2306111192(__this, p0, p1, method) ((  bool (*) (Dictionary_2_t3368964552 *, String_t*, MacOsNetworkInterface_t1454185290 **, const MethodInfo*))Dictionary_2_TryGetValue_m3975825838_gshared)(__this, p0, p1, method)
+// System.Void System.Net.NetworkInformation.MacOsNetworkInterface::.ctor(System.String)
+extern "C"  void MacOsNetworkInterface__ctor_m1351908890 (MacOsNetworkInterface_t1454185290 * __this, String_t* ___name0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.Dictionary`2<System.String,System.Net.NetworkInformation.MacOsNetworkInterface>::Add(!0,!1)
+#define Dictionary_2_Add_m1882884369(__this, p0, p1, method) ((  void (*) (Dictionary_2_t3368964552 *, String_t*, MacOsNetworkInterface_t1454185290 *, const MethodInfo*))Dictionary_2_Add_m4209421183_gshared)(__this, p0, p1, method)
+// System.Void System.Net.NetworkInformation.MacOsNetworkInterface::freeifaddrs(System.IntPtr)
+extern "C"  void MacOsNetworkInterface_freeifaddrs_m3490628521 (Il2CppObject * __this /* static, unused */, IntPtr_t ___ifap0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Collections.Generic.Dictionary`2<System.String,System.Net.NetworkInformation.MacOsNetworkInterface>::get_Count()
+#define Dictionary_2_get_Count_m3715009865(__this, method) ((  int32_t (*) (Dictionary_2_t3368964552 *, const MethodInfo*))Dictionary_2_get_Count_m3636113691_gshared)(__this, method)
+// System.Collections.Generic.Dictionary`2/ValueCollection<!0,!1> System.Collections.Generic.Dictionary`2<System.String,System.Net.NetworkInformation.MacOsNetworkInterface>::get_Values()
+#define Dictionary_2_get_Values_m2529882243(__this, method) ((  ValueCollection_t2072024395 * (*) (Dictionary_2_t3368964552 *, const MethodInfo*))Dictionary_2_get_Values_m2233445381_gshared)(__this, method)
+// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<!0,!1> System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Net.NetworkInformation.MacOsNetworkInterface>::GetEnumerator()
+#define ValueCollection_GetEnumerator_m862288733(__this, method) ((  Enumerator_t760530020  (*) (ValueCollection_t2072024395 *, const MethodInfo*))ValueCollection_GetEnumerator_m379930731_gshared)(__this, method)
+// !1 System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.String,System.Net.NetworkInformation.MacOsNetworkInterface>::get_Current()
+#define Enumerator_get_Current_m1462122755(__this, method) ((  MacOsNetworkInterface_t1454185290 * (*) (Enumerator_t760530020 *, const MethodInfo*))Enumerator_get_Current_m1976109889_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.String,System.Net.NetworkInformation.MacOsNetworkInterface>::MoveNext()
+#define Enumerator_MoveNext_m323052256(__this, method) ((  bool (*) (Enumerator_t760530020 *, const MethodInfo*))Enumerator_MoveNext_m335649778_gshared)(__this, method)
+// System.Void System.Net.NetworkInformation.MacOsIPInterfaceProperties::.ctor(System.Net.NetworkInformation.MacOsNetworkInterface,System.Collections.Generic.List`1<System.Net.IPAddress>)
+extern "C"  void MacOsIPInterfaceProperties__ctor_m4272031495 (MacOsIPInterfaceProperties_t3101377296 * __this, MacOsNetworkInterface_t1454185290 * ___iface0, List_1_t769092855 * ___addresses1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.MacOsIPv4InterfaceStatistics::.ctor(System.Net.NetworkInformation.MacOsNetworkInterface)
+extern "C"  void MacOsIPv4InterfaceStatistics__ctor_m3293870546 (MacOsIPv4InterfaceStatistics_t4240794432 * __this, MacOsNetworkInterface_t1454185290 * ___parent0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.IcmpV4Statistics::.ctor()
+extern "C"  void IcmpV4Statistics__ctor_m695427374 (IcmpV4Statistics_t1794928690 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Globalization.NumberFormatInfo System.Globalization.NumberFormatInfo::get_InvariantInfo()
+extern "C"  NumberFormatInfo_t104580544 * NumberFormatInfo_get_InvariantInfo_m2658215204 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int64 System.Int64::Parse(System.String,System.IFormatProvider)
+extern "C"  int64_t Int64_Parse_m3031608982 (Il2CppObject * __this /* static, unused */, String_t* p0, Il2CppObject * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int64 System.Net.NetworkInformation.MibIcmpV4Statistics::Get(System.String)
+extern "C"  int64_t MibIcmpV4Statistics_Get_m1074348219 (MibIcmpV4Statistics_t1600715310 * __this, String_t* ___name0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.IcmpV6Statistics::.ctor()
+extern "C"  void IcmpV6Statistics__ctor_m2955825516 (IcmpV6Statistics_t86748584 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int64 System.Net.NetworkInformation.MibIcmpV6Statistics::Get(System.String)
+extern "C"  int64_t MibIcmpV6Statistics_Get_m427207417 (MibIcmpV6Statistics_t1370511724 * __this, String_t* ___name0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.IPGlobalProperties::.ctor()
+extern "C"  void IPGlobalProperties__ctor_m1928017271 (IPGlobalProperties_t430107897 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.IO.Path::Combine(System.String,System.String)
+extern "C"  String_t* Path_Combine_m3185811654 (Il2CppObject * __this /* static, unused */, String_t* p0, String_t* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Text.Encoding System.Text.Encoding::get_ASCII()
+extern "C"  Encoding_t663144255 * Encoding_get_ASCII_m2727409419 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.IO.StreamReader::.ctor(System.String,System.Text.Encoding)
+extern "C"  void StreamReader__ctor_m3499795391 (StreamReader_t2360341767 * __this, String_t* p0, Encoding_t663144255 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.String::CompareOrdinal(System.String,System.Int32,System.String,System.Int32,System.Int32)
+extern "C"  int32_t String_CompareOrdinal_m244070001 (Il2CppObject * __this /* static, unused */, String_t* p0, int32_t p1, String_t* p2, int32_t p3, int32_t p4, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String[] System.String::Split(System.Char[])
+extern "C"  StringU5BU5D_t1642385972* String_Split_m3326265864 (String_t* __this, CharU5BU5D_t1328083999* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.String::Format(System.String,System.Object)
+extern "C"  String_t* String_Format_m2024975688 (Il2CppObject * __this /* static, unused */, String_t* p0, Il2CppObject * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Exception System.Net.NetworkInformation.MibIPGlobalProperties::CreateException(System.String,System.String)
+extern "C"  Exception_t1927440687 * MibIPGlobalProperties_CreateException_m3913674693 (MibIPGlobalProperties_t4104985615 * __this, String_t* ___file0, String_t* ___msg1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.IO.StreamReader::get_EndOfStream()
+extern "C"  bool StreamReader_get_EndOfStream_m997398933 (StreamReader_t2360341767 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Specialized.StringDictionary::.ctor()
+extern "C"  void StringDictionary__ctor_m270184480 (StringDictionary_t1070889667 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.NetworkInformationException::.ctor()
+extern "C"  void NetworkInformationException__ctor_m3720732489 (NetworkInformationException_t1863186723 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.String::IndexOfAny(System.Char[],System.Int32)
+extern "C"  int32_t String_IndexOfAny_m2027595557 (String_t* __this, CharU5BU5D_t1328083999* p0, int32_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.String::Substring(System.Int32,System.Int32)
+extern "C"  String_t* String_Substring_m12482732 (String_t* __this, int32_t p0, int32_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.String::Trim(System.Char[])
+extern "C"  String_t* String_Trim_m3982520224 (String_t* __this, CharU5BU5D_t1328083999* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.InvalidOperationException::.ctor(System.String)
+extern "C"  void InvalidOperationException__ctor_m2801133788 (InvalidOperationException_t721527559 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Collections.Generic.List`1<System.String[]>::get_Count()
+#define List_1_get_Count_m1793389146(__this, method) ((  int32_t (*) (List_1_t1011507104 *, const MethodInfo*))List_1_get_Count_m2375293942_gshared)(__this, method)
+// !0 System.Collections.Generic.List`1<System.String[]>::get_Item(System.Int32)
+#define List_1_get_Item_m1223066663(__this, p0, method) ((  StringU5BU5D_t1642385972* (*) (List_1_t1011507104 *, int32_t, const MethodInfo*))List_1_get_Item_m2062981835_gshared)(__this, p0, method)
+// System.Net.IPEndPoint System.Net.NetworkInformation.MibIPGlobalProperties::ToEndpoint(System.String)
+extern "C"  IPEndPoint_t2615413766 * MibIPGlobalProperties_ToEndpoint_m3884964026 (MibIPGlobalProperties_t4104985615 * __this, String_t* ___s0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.String::IndexOf(System.Char)
+extern "C"  int32_t String_IndexOf_m2358239236 (String_t* __this, Il2CppChar p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Int32::Parse(System.String,System.Globalization.NumberStyles)
+extern "C"  int32_t Int32_Parse_m837442623 (Il2CppObject * __this /* static, unused */, String_t* p0, int32_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int64 System.Int64::Parse(System.String,System.Globalization.NumberStyles)
+extern "C"  int64_t Int64_Parse_m902970227 (Il2CppObject * __this /* static, unused */, String_t* p0, int32_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.IPEndPoint::.ctor(System.Int64,System.Int32)
+extern "C"  void IPEndPoint__ctor_m403419585 (IPEndPoint_t2615413766 * __this, int64_t ___iaddr0, int32_t ___port1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Byte System.Byte::Parse(System.String,System.Globalization.NumberStyles)
+extern "C"  uint8_t Byte_Parse_m4137294155 (Il2CppObject * __this /* static, unused */, String_t* p0, int32_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.IPAddress::.ctor(System.Byte[])
+extern "C"  void IPAddress__ctor_m1440892504 (IPAddress_t1399971723 * __this, ByteU5BU5D_t3397334013* ___address0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.IPEndPoint::.ctor(System.Net.IPAddress,System.Int32)
+extern "C"  void IPEndPoint__ctor_m3477723888 (IPEndPoint_t2615413766 * __this, IPAddress_t1399971723 * ___address0, int32_t ___port1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String[] System.String::Split(System.Char[],System.StringSplitOptions)
+extern "C"  StringU5BU5D_t1642385972* String_Split_m631480578 (String_t* __this, CharU5BU5D_t1328083999* p0, int32_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.List`1<System.String[]>::Add(!0)
+#define List_1_Add_m1658147026(__this, p0, method) ((  void (*) (List_1_t1011507104 *, StringU5BU5D_t1642385972*, const MethodInfo*))List_1_Add_m4157722533_gshared)(__this, p0, method)
+// System.Void System.Collections.Generic.List`1<System.String[]>::.ctor()
+#define List_1__ctor_m809050190(__this, method) ((  void (*) (List_1_t1011507104 *, const MethodInfo*))List_1__ctor_m310736118_gshared)(__this, method)
+// System.Void System.Net.NetworkInformation.MibIPGlobalProperties::GetRows(System.String,System.Collections.Generic.List`1<System.String[]>)
+extern "C"  void MibIPGlobalProperties_GetRows_m1488792644 (MibIPGlobalProperties_t4104985615 * __this, String_t* ___file0, List_1_t1011507104 * ___list1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.TcpConnectionInformationImpl::.ctor(System.Net.IPEndPoint,System.Net.IPEndPoint,System.Net.NetworkInformation.TcpState)
+extern "C"  void TcpConnectionInformationImpl__ctor_m3967055251 (TcpConnectionInformationImpl_t1274605263 * __this, IPEndPoint_t2615413766 * ___local0, IPEndPoint_t2615413766 * ___remote1, int32_t ___state2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Net.IPEndPoint[] System.Net.NetworkInformation.MibIPGlobalProperties::GetLocalAddresses(System.Collections.Generic.List`1<System.String[]>)
+extern "C"  IPEndPointU5BU5D_t294524195* MibIPGlobalProperties_GetLocalAddresses_m2542146985 (MibIPGlobalProperties_t4104985615 * __this, List_1_t1011507104 * ___list0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Collections.Specialized.StringDictionary System.Net.NetworkInformation.MibIPGlobalProperties::GetProperties4(System.String)
+extern "C"  StringDictionary_t1070889667 * MibIPGlobalProperties_GetProperties4_m1198230711 (MibIPGlobalProperties_t4104985615 * __this, String_t* ___item0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.MibIcmpV4Statistics::.ctor(System.Collections.Specialized.StringDictionary)
+extern "C"  void MibIcmpV4Statistics__ctor_m3067100210 (MibIcmpV4Statistics_t1600715310 * __this, StringDictionary_t1070889667 * ___dic0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Collections.Specialized.StringDictionary System.Net.NetworkInformation.MibIPGlobalProperties::GetProperties6(System.String)
+extern "C"  StringDictionary_t1070889667 * MibIPGlobalProperties_GetProperties6_m971278125 (MibIPGlobalProperties_t4104985615 * __this, String_t* ___item0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.MibIcmpV6Statistics::.ctor(System.Collections.Specialized.StringDictionary)
+extern "C"  void MibIcmpV6Statistics__ctor_m501899560 (MibIcmpV6Statistics_t1370511724 * __this, StringDictionary_t1070889667 * ___dic0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.MibIPGlobalStatistics::.ctor(System.Collections.Specialized.StringDictionary)
+extern "C"  void MibIPGlobalStatistics__ctor_m3307751309 (MibIPGlobalStatistics_t1312635647 * __this, StringDictionary_t1070889667 * ___dic0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.MibTcpStatistics::.ctor(System.Collections.Specialized.StringDictionary)
+extern "C"  void MibTcpStatistics__ctor_m732861916 (MibTcpStatistics_t1080480462 * __this, StringDictionary_t1070889667 * ___dic0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.MibUdpStatistics::.ctor(System.Collections.Specialized.StringDictionary)
+extern "C"  void MibUdpStatistics__ctor_m1456306180 (MibUdpStatistics_t1268103182 * __this, StringDictionary_t1070889667 * ___dic0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Net.NetworkInformation.MibIPGlobalProperties::getdomainname(System.Byte[],System.Int32)
+extern "C"  int32_t MibIPGlobalProperties_getdomainname_m3135005392 (Il2CppObject * __this /* static, unused */, ByteU5BU5D_t3397334013* ___name0, int32_t ___len1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Array::IndexOf<System.Byte>(!!0[],!!0)
+#define Array_IndexOf_TisByte_t3683104436_m2497625856(__this /* static, unused */, p0, p1, method) ((  int32_t (*) (Il2CppObject * /* static, unused */, ByteU5BU5D_t3397334013*, uint8_t, const MethodInfo*))Array_IndexOf_TisByte_t3683104436_m2497625856_gshared)(__this /* static, unused */, p0, p1, method)
+// System.Int32 System.Net.NetworkInformation.MibIPGlobalProperties::gethostname(System.Byte[],System.Int32)
+extern "C"  int32_t MibIPGlobalProperties_gethostname_m3411141186 (Il2CppObject * __this /* static, unused */, ByteU5BU5D_t3397334013* ___name0, int32_t ___len1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.IPGlobalStatistics::.ctor()
+extern "C"  void IPGlobalStatistics__ctor_m277027423 (IPGlobalStatistics_t106289253 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int64 System.Net.NetworkInformation.MibIPGlobalStatistics::Get(System.String)
+extern "C"  int64_t MibIPGlobalStatistics_Get_m3128267552 (MibIPGlobalStatistics_t1312635647 * __this, String_t* ___name0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.TcpStatistics::.ctor()
+extern "C"  void TcpStatistics__ctor_m3717319940 (TcpStatistics_t2119642186 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int64 System.Net.NetworkInformation.MibTcpStatistics::Get(System.String)
+extern "C"  int64_t MibTcpStatistics_Get_m1869682757 (MibTcpStatistics_t1080480462 * __this, String_t* ___name0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.UdpStatistics::.ctor()
+extern "C"  void UdpStatistics__ctor_m2683603744 (UdpStatistics_t3170871206 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int64 System.Net.NetworkInformation.MibUdpStatistics::Get(System.String)
+extern "C"  int64_t MibUdpStatistics_Get_m3318110531 (MibUdpStatistics_t1268103182 * __this, String_t* ___name0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.IPAddressInformation::.ctor()
+extern "C"  void IPAddressInformation__ctor_m217182671 (IPAddressInformation_t732454853 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.List`1<System.Net.NetworkInformation.MulticastIPAddressInformation>::.ctor()
+#define List_1__ctor_m550076461(__this, method) ((  void (*) (List_1_t949889585 *, const MethodInfo*))List_1__ctor_m310736118_gshared)(__this, method)
+// System.Collections.Generic.List`1/Enumerator<!0> System.Collections.Generic.List`1<System.Net.NetworkInformation.MulticastIPAddressInformation>::GetEnumerator()
+#define List_1_GetEnumerator_m4255577862(__this, method) ((  Enumerator_t484619259  (*) (List_1_t949889585 *, const MethodInfo*))List_1_GetEnumerator_m2837081829_gshared)(__this, method)
+// System.Void System.NotSupportedException::.ctor(System.String)
+extern "C"  void NotSupportedException__ctor_m836173213 (NotSupportedException_t1793819818 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.List`1<System.Net.NetworkInformation.MulticastIPAddressInformation>::Add(!0)
+#define List_1_Add_m3893951401(__this, p0, method) ((  void (*) (List_1_t949889585 *, MulticastIPAddressInformation_t1580768453 *, const MethodInfo*))List_1_Add_m4157722533_gshared)(__this, p0, method)
+// System.Void System.Collections.Generic.List`1<System.Net.NetworkInformation.MulticastIPAddressInformation>::Clear()
+#define List_1_Clear_m3655007666(__this, method) ((  void (*) (List_1_t949889585 *, const MethodInfo*))List_1_Clear_m4254626809_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1<System.Net.NetworkInformation.MulticastIPAddressInformation>::Contains(!0)
+#define List_1_Contains_m3532462127(__this, p0, method) ((  bool (*) (List_1_t949889585 *, MulticastIPAddressInformation_t1580768453 *, const MethodInfo*))List_1_Contains_m1658838094_gshared)(__this, p0, method)
+// System.Void System.Collections.Generic.List`1<System.Net.NetworkInformation.MulticastIPAddressInformation>::CopyTo(!0[],System.Int32)
+#define List_1_CopyTo_m1147215253(__this, p0, p1, method) ((  void (*) (List_1_t949889585 *, MulticastIPAddressInformationU5BU5D_t302302856*, int32_t, const MethodInfo*))List_1_CopyTo_m2123980726_gshared)(__this, p0, p1, method)
+// System.Boolean System.Collections.Generic.List`1<System.Net.NetworkInformation.MulticastIPAddressInformation>::Remove(!0)
+#define List_1_Remove_m1486242092(__this, p0, method) ((  bool (*) (List_1_t949889585 *, MulticastIPAddressInformation_t1580768453 *, const MethodInfo*))List_1_Remove_m3164383811_gshared)(__this, p0, method)
+// System.Int32 System.Collections.Generic.List`1<System.Net.NetworkInformation.MulticastIPAddressInformation>::get_Count()
+#define List_1_get_Count_m3462333589(__this, method) ((  int32_t (*) (List_1_t949889585 *, const MethodInfo*))List_1_get_Count_m2375293942_gshared)(__this, method)
+// !0 System.Collections.Generic.List`1<System.Net.NetworkInformation.MulticastIPAddressInformation>::get_Item(System.Int32)
+#define List_1_get_Item_m1443081034(__this, p0, method) ((  MulticastIPAddressInformation_t1580768453 * (*) (List_1_t949889585 *, int32_t, const MethodInfo*))List_1_get_Item_m2062981835_gshared)(__this, p0, method)
+// System.Void System.Net.NetworkInformation.MulticastIPAddressInformation::.ctor()
+extern "C"  void MulticastIPAddressInformation__ctor_m2164891807 (MulticastIPAddressInformation_t1580768453 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.MulticastIPAddressInformationCollection::.ctor()
+extern "C"  void MulticastIPAddressInformationCollection__ctor_m1414811733 (MulticastIPAddressInformationCollection_t2350102231 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.MulticastIPAddressInformationImplCollection::.ctor(System.Boolean)
+extern "C"  void MulticastIPAddressInformationImplCollection__ctor_m41943456 (MulticastIPAddressInformationImplCollection_t3355839275 * __this, bool ___isReadOnly0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Net.IPAddress System.Net.NetworkInformation.Win32_SOCKET_ADDRESS::GetIPAddress()
+extern "C"  IPAddress_t1399971723 * Win32_SOCKET_ADDRESS_GetIPAddress_m3946757953 (Win32_SOCKET_ADDRESS_t1093973396 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Net.NetworkInformation.Win32LengthFlagsUnion::get_IsDnsEligible()
+extern "C"  bool Win32LengthFlagsUnion_get_IsDnsEligible_m1710307390 (Win32LengthFlagsUnion_t1910118479 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Net.NetworkInformation.Win32LengthFlagsUnion::get_IsTransient()
+extern "C"  bool Win32LengthFlagsUnion_get_IsTransient_m3516609582 (Win32LengthFlagsUnion_t1910118479 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.MulticastIPAddressInformationImpl::.ctor(System.Net.IPAddress,System.Boolean,System.Boolean)
+extern "C"  void MulticastIPAddressInformationImpl__ctor_m2727907124 (MulticastIPAddressInformationImpl_t2980279617 * __this, IPAddress_t1399971723 * ___address0, bool ___isDnsEligible1, bool ___isTransient2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Collections.Generic.List`1/Enumerator<!0> System.Collections.Generic.List`1<System.Net.IPAddress>::GetEnumerator()
+#define List_1_GetEnumerator_m689108514(__this, method) ((  Enumerator_t303822529  (*) (List_1_t769092855 *, const MethodInfo*))List_1_GetEnumerator_m2837081829_gshared)(__this, method)
+// !0 System.Collections.Generic.List`1/Enumerator<System.Net.IPAddress>::get_Current()
+#define Enumerator_get_Current_m1324985930(__this, method) ((  IPAddress_t1399971723 * (*) (Enumerator_t303822529 *, const MethodInfo*))Enumerator_get_Current_m2577424081_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1/Enumerator<System.Net.IPAddress>::MoveNext()
+#define Enumerator_MoveNext_m1308422700(__this, method) ((  bool (*) (Enumerator_t303822529 *, const MethodInfo*))Enumerator_MoveNext_m44995089_gshared)(__this, method)
+// System.Void System.Net.NetworkInformation.NetworkAddressChangedEventHandler::Invoke(System.Object,System.EventArgs)
+extern "C"  void NetworkAddressChangedEventHandler_Invoke_m4011478512 (NetworkAddressChangedEventHandler_t2528401652 * __this, Il2CppObject * ___sender0, EventArgs_t3289624707 * ___e1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.NetworkAvailabilityChangedEventHandler::Invoke(System.Object,System.Net.NetworkInformation.NetworkAvailabilityEventArgs)
+extern "C"  void NetworkAvailabilityChangedEventHandler_Invoke_m225164653 (NetworkAvailabilityChangedEventHandler_t3480120991 * __this, Il2CppObject * ___sender0, NetworkAvailabilityEventArgs_t182009988 * ___e1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.EventArgs::.ctor()
+extern "C"  void EventArgs__ctor_m3696060910 (EventArgs_t3289624707 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Delegate System.Delegate::Combine(System.Delegate,System.Delegate)
+extern "C"  Delegate_t3022476291 * Delegate_Combine_m3791207084 (Il2CppObject * __this /* static, unused */, Delegate_t3022476291 * p0, Delegate_t3022476291 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Delegate System.Delegate::Remove(System.Delegate,System.Delegate)
+extern "C"  Delegate_t3022476291 * Delegate_Remove_m2626518725 (Il2CppObject * __this /* static, unused */, Delegate_t3022476291 * p0, Delegate_t3022476291 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.ComponentModel.Win32Exception::.ctor()
+extern "C"  void Win32Exception__ctor_m1919801717 (Win32Exception_t1708275760 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.ComponentModel.Win32Exception::.ctor(System.Int32)
+extern "C"  void Win32Exception__ctor_m1153504280 (Win32Exception_t1708275760 * __this, int32_t ___error0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.ComponentModel.Win32Exception::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+extern "C"  void Win32Exception__ctor_m3886439846 (Win32Exception_t1708275760 * __this, SerializationInfo_t228987430 * ___info0, StreamingContext_t1417235061  ___context1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Runtime.Serialization.SerializationInfo::GetInt32(System.String)
+extern "C"  int32_t SerializationInfo_GetInt32_m4039439501 (SerializationInfo_t228987430 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Security.CodeAccessPermission::.ctor()
+extern "C"  void CodeAccessPermission__ctor_m2285259037 (CodeAccessPermission_t3468021764 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Security.SecurityElement System.Security.Permissions.PermissionHelper::Element(System.Type,System.Int32)
+extern "C"  SecurityElement_t2325568386 * PermissionHelper_Element_m688627752 (Il2CppObject * __this /* static, unused */, Type_t * ___type0, int32_t ___version1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Security.Permissions.CodeAccessSecurityAttribute::.ctor(System.Security.Permissions.SecurityAction)
+extern "C"  void CodeAccessSecurityAttribute__ctor_m2096829899 (CodeAccessSecurityAttribute_t3161344859 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.Net.NetworkInformation.NetworkInformationPermissionAttribute::get_Access()
+extern "C"  String_t* NetworkInformationPermissionAttribute_get_Access_m299846485 (NetworkInformationPermissionAttribute_t852696539 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.NetworkInformationPermission::.ctor(System.Net.NetworkInformation.NetworkInformationAccess)
+extern "C"  void NetworkInformationPermission__ctor_m3263913285 (NetworkInformationPermission_t3395913791 * __this, int32_t ___access0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.ArgumentException::.ctor(System.String)
+extern "C"  void ArgumentException__ctor_m3739475201 (ArgumentException_t3259014390 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Version::.ctor(System.Int32,System.Int32)
+extern "C"  void Version__ctor_m2035466001 (Version_t1755874712 * __this, int32_t p0, int32_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.OperatingSystem System.Environment::get_OSVersion()
+extern "C"  OperatingSystem_t290860502 * Environment_get_OSVersion_m1247315981 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.PlatformID System.OperatingSystem::get_Platform()
+extern "C"  int32_t OperatingSystem_get_Platform_m2260343279 (OperatingSystem_t290860502 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr System.Runtime.InteropServices.Marshal::AllocHGlobal(System.Int32)
+extern "C"  IntPtr_t Marshal_AllocHGlobal_m4258042074 (Il2CppObject * __this /* static, unused */, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Net.NetworkInformation.NetworkInterface::uname(System.IntPtr)
+extern "C"  int32_t NetworkInterface_uname_m3953961313 (Il2CppObject * __this /* static, unused */, IntPtr_t ___buf0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.Runtime.InteropServices.Marshal::PtrToStringAnsi(System.IntPtr)
+extern "C"  String_t* Marshal_PtrToStringAnsi_m2970070000 (Il2CppObject * __this /* static, unused */, IntPtr_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.String::op_Equality(System.String,System.String)
+extern "C"  bool String_op_Equality_m1790663636 (Il2CppObject * __this /* static, unused */, String_t* p0, String_t* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Runtime.InteropServices.Marshal::FreeHGlobal(System.IntPtr)
+extern "C"  void Marshal_FreeHGlobal_m2238467479 (Il2CppObject * __this /* static, unused */, IntPtr_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Net.NetworkInformation.NetworkInterface[] System.Net.NetworkInformation.MacOsNetworkInterface::ImplGetAllNetworkInterfaces()
+extern "C"  NetworkInterfaceU5BU5D_t4157644364* MacOsNetworkInterface_ImplGetAllNetworkInterfaces_m4010227571 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Net.NetworkInformation.NetworkInterface[] System.Net.NetworkInformation.LinuxNetworkInterface::ImplGetAllNetworkInterfaces()
+extern "C"  NetworkInterfaceU5BU5D_t4157644364* LinuxNetworkInterface_ImplGetAllNetworkInterfaces_m2182664942 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Version System.OperatingSystem::get_Version()
+extern "C"  Version_t1755874712 * OperatingSystem_get_Version_m2896234424 (OperatingSystem_t290860502 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Version::op_GreaterThanOrEqual(System.Version,System.Version)
+extern "C"  bool Version_op_GreaterThanOrEqual_m2750794633 (Il2CppObject * __this /* static, unused */, Version_t1755874712 * p0, Version_t1755874712 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Net.NetworkInformation.NetworkInterface[] System.Net.NetworkInformation.Win32NetworkInterface2::ImplGetAllNetworkInterfaces()
+extern "C"  NetworkInterfaceU5BU5D_t4157644364* Win32NetworkInterface2_ImplGetAllNetworkInterfaces_m536256451 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.IO.FileStream System.IO.File::OpenRead(System.String)
+extern "C"  FileStream_t1695958676 * File_OpenRead_m132329087 (Il2CppObject * __this /* static, unused */, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.IO.StreamReader::.ctor(System.IO.Stream)
+extern "C"  void StreamReader__ctor_m1780435609 (StreamReader_t2360341767 * __this, Stream_t3255436806 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Net.NetworkInformation.UnixNetworkInterface::IfNameToIndex(System.String)
+extern "C"  int32_t UnixNetworkInterface_IfNameToIndex_m2220849490 (Il2CppObject * __this /* static, unused */, String_t* ___ifname0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.PhysicalAddress::.ctor(System.Byte[])
+extern "C"  void PhysicalAddress__ctor_m3260893292 (PhysicalAddress_t1613893277 * __this, ByteU5BU5D_t3397334013* ___address0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.FormatException::.ctor(System.String)
+extern "C"  void FormatException__ctor_m1466217969 (FormatException_t2948921286 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.IndexOutOfRangeException::.ctor(System.String)
+extern "C"  void IndexOutOfRangeException__ctor_m1847153122 (IndexOutOfRangeException_t3527622107 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Byte System.Net.NetworkInformation.PhysicalAddress::GetValue(System.Char)
+extern "C"  uint8_t PhysicalAddress_GetValue_m3049694083 (Il2CppObject * __this /* static, unused */, Il2CppChar ___c0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Text.StringBuilder::.ctor()
+extern "C"  void StringBuilder__ctor_m3946851802 (StringBuilder_t1221177846 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Text.StringBuilder System.Text.StringBuilder::AppendFormat(System.String,System.Object)
+extern "C"  StringBuilder_t1221177846 * StringBuilder_AppendFormat_m3265503696 (StringBuilder_t1221177846 * __this, String_t* p0, Il2CppObject * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.Text.StringBuilder::ToString()
+extern "C"  String_t* StringBuilder_ToString_m1507807375 (StringBuilder_t1221177846 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.ComponentModel.Component::.ctor()
+extern "C"  void Component__ctor_m685180076 (Component_t2826673791 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.Ping::CheckLinuxCapabilities()
+extern "C"  void Ping_CheckLinuxCapabilities_m207690028 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Security.Principal.WindowsIdentity System.Security.Principal.WindowsIdentity::GetCurrent()
+extern "C"  WindowsIdentity_t373339331 * WindowsIdentity_GetCurrent_m4268738482 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Net.NetworkInformation.Ping::capget(System.Net.NetworkInformation.Ping/cap_user_header_t&,System.Net.NetworkInformation.Ping/cap_user_data_t&)
+extern "C"  int32_t Ping_capget_m502211985 (Il2CppObject * __this /* static, unused */, cap_user_header_t_t1012002510 * ___header0, cap_user_data_t_t2417848831 * ___data1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.PingCompletedEventHandler::Invoke(System.Object,System.Net.NetworkInformation.PingCompletedEventArgs)
+extern "C"  void PingCompletedEventHandler_Invoke_m2377391675 (PingCompletedEventHandler_t1044526567 * __this, Il2CppObject * ___sender0, PingCompletedEventArgs_t841787612 * ___e1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Net.NetworkInformation.PingReply System.Net.NetworkInformation.Ping::Send(System.Net.IPAddress,System.Int32)
+extern "C"  PingReply_t1978568794 * Ping_Send_m670222487 (Ping_t3611444498 * __this, IPAddress_t1399971723 * ___address0, int32_t ___timeout1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Net.NetworkInformation.PingReply System.Net.NetworkInformation.Ping::Send(System.Net.IPAddress,System.Int32,System.Byte[])
+extern "C"  PingReply_t1978568794 * Ping_Send_m3957161110 (Ping_t3611444498 * __this, IPAddress_t1399971723 * ___address0, int32_t ___timeout1, ByteU5BU5D_t3397334013* ___buffer2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.PingOptions::.ctor()
+extern "C"  void PingOptions__ctor_m1440794514 (PingOptions_t1261881264 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Net.NetworkInformation.PingReply System.Net.NetworkInformation.Ping::Send(System.Net.IPAddress,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions)
+extern "C"  PingReply_t1978568794 * Ping_Send_m1870041180 (Ping_t3611444498 * __this, IPAddress_t1399971723 * ___address0, int32_t ___timeout1, ByteU5BU5D_t3397334013* ___buffer2, PingOptions_t1261881264 * ___options3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Net.NetworkInformation.PingReply System.Net.NetworkInformation.Ping::Send(System.String,System.Int32)
+extern "C"  PingReply_t1978568794 * Ping_Send_m430078730 (Ping_t3611444498 * __this, String_t* ___hostNameOrAddress0, int32_t ___timeout1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Net.NetworkInformation.PingReply System.Net.NetworkInformation.Ping::Send(System.String,System.Int32,System.Byte[])
+extern "C"  PingReply_t1978568794 * Ping_Send_m2863308795 (Ping_t3611444498 * __this, String_t* ___hostNameOrAddress0, int32_t ___timeout1, ByteU5BU5D_t3397334013* ___buffer2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Net.NetworkInformation.PingReply System.Net.NetworkInformation.Ping::Send(System.String,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions)
+extern "C"  PingReply_t1978568794 * Ping_Send_m3904038265 (Ping_t3611444498 * __this, String_t* ___hostNameOrAddress0, int32_t ___timeout1, ByteU5BU5D_t3397334013* ___buffer2, PingOptions_t1261881264 * ___options3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Net.IPAddress[] System.Net.Dns::GetHostAddresses(System.String)
+extern "C"  IPAddressU5BU5D_t4087230954* Dns_GetHostAddresses_m1469938777 (Il2CppObject * __this /* static, unused */, String_t* ___hostNameOrAddress0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.Net.Dns::GetHostName()
+extern "C"  String_t* Dns_GetHostName_m2452666545 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Net.IPHostEntry System.Net.Dns::GetHostByName(System.String)
+extern "C"  IPHostEntry_t994738509 * Dns_GetHostByName_m3673230969 (Il2CppObject * __this /* static, unused */, String_t* ___hostName0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Net.IPAddress[] System.Net.IPHostEntry::get_AddressList()
+extern "C"  IPAddressU5BU5D_t4087230954* IPHostEntry_get_AddressList_m3789532398 (IPHostEntry_t994738509 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Net.IPAddress::IsLoopback(System.Net.IPAddress)
+extern "C"  bool IPAddress_IsLoopback_m2800578891 (Il2CppObject * __this /* static, unused */, IPAddress_t1399971723 * ___addr0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.ArgumentNullException::.ctor(System.String)
+extern "C"  void ArgumentNullException__ctor_m3380712306 (ArgumentNullException_t628810857 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.ArgumentOutOfRangeException::.ctor(System.String,System.String)
+extern "C"  void ArgumentOutOfRangeException__ctor_m4234257711 (ArgumentOutOfRangeException_t279959794 * __this, String_t* p0, String_t* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Net.NetworkInformation.PingReply System.Net.NetworkInformation.Ping::SendPrivileged(System.Net.IPAddress,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions)
+extern "C"  PingReply_t1978568794 * Ping_SendPrivileged_m4224171413 (Ping_t3611444498 * __this, IPAddress_t1399971723 * ___address0, int32_t ___timeout1, ByteU5BU5D_t3397334013* ___buffer2, PingOptions_t1261881264 * ___options3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Net.NetworkInformation.PingReply System.Net.NetworkInformation.Ping::SendUnprivileged(System.Net.IPAddress,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions)
+extern "C"  PingReply_t1978568794 * Ping_SendUnprivileged_m782055654 (Ping_t3611444498 * __this, IPAddress_t1399971723 * ___address0, int32_t ___timeout1, ByteU5BU5D_t3397334013* ___buffer2, PingOptions_t1261881264 * ___options3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Net.IPAddress System.Net.NetworkInformation.Ping::GetNonLoopbackIP()
+extern "C"  IPAddress_t1399971723 * Ping_GetNonLoopbackIP_m1361729525 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.Sockets.Socket::.ctor(System.Net.Sockets.AddressFamily,System.Net.Sockets.SocketType,System.Net.Sockets.ProtocolType)
+extern "C"  void Socket__ctor_m2624772808 (Socket_t3821512045 * __this, int32_t ___family0, int32_t ___type1, int32_t ___proto2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Net.NetworkInformation.PingOptions::get_DontFragment()
+extern "C"  bool PingOptions_get_DontFragment_m1729750106 (PingOptions_t1261881264 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.Sockets.Socket::set_DontFragment(System.Boolean)
+extern "C"  void Socket_set_DontFragment_m3458934082 (Socket_t3821512045 * __this, bool ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Net.NetworkInformation.PingOptions::get_Ttl()
+extern "C"  int32_t PingOptions_get_Ttl_m4280427503 (PingOptions_t1261881264 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.Sockets.Socket::set_Ttl(System.Int16)
+extern "C"  void Socket_set_Ttl_m2059005399 (Socket_t3821512045 * __this, int16_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.Sockets.Socket::set_SendTimeout(System.Int32)
+extern "C"  void Socket_set_SendTimeout_m3917920930 (Socket_t3821512045 * __this, int32_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.Sockets.Socket::set_ReceiveTimeout(System.Int32)
+extern "C"  void Socket_set_ReceiveTimeout_m2929751805 (Socket_t3821512045 * __this, int32_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.Ping/IcmpMessage::.ctor(System.Byte,System.Byte,System.Int16,System.Int16,System.Byte[])
+extern "C"  void IcmpMessage__ctor_m1671930572 (IcmpMessage_t482998463 * __this, uint8_t ___type0, uint8_t ___code1, int16_t ___identifier2, int16_t ___sequence3, ByteU5BU5D_t3397334013* ___data4, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Byte[] System.Net.NetworkInformation.Ping/IcmpMessage::GetBytes()
+extern "C"  ByteU5BU5D_t3397334013* IcmpMessage_GetBytes_m3013486824 (IcmpMessage_t482998463 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.Sockets.Socket::set_SendBufferSize(System.Int32)
+extern "C"  void Socket_set_SendBufferSize_m3462801204 (Socket_t3821512045 * __this, int32_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Net.Sockets.Socket::SendTo(System.Byte[],System.Int32,System.Net.Sockets.SocketFlags,System.Net.EndPoint)
+extern "C"  int32_t Socket_SendTo_m3850742423 (Socket_t3821512045 * __this, ByteU5BU5D_t3397334013* ___buffer0, int32_t ___size1, int32_t ___flags2, EndPoint_t4156119363 * ___remote_end3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.DateTime System.DateTime::get_Now()
+extern "C"  DateTime_t693205669  DateTime_get_Now_m24136300 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Net.Sockets.Socket::ReceiveFrom_nochecks_exc(System.Byte[],System.Int32,System.Int32,System.Net.Sockets.SocketFlags,System.Net.EndPoint&,System.Boolean,System.Int32&)
+extern "C"  int32_t Socket_ReceiveFrom_nochecks_exc_m1933643724 (Socket_t3821512045 * __this, ByteU5BU5D_t3397334013* ___buf0, int32_t ___offset1, int32_t ___size2, int32_t ___flags3, EndPoint_t4156119363 ** ___remote_end4, bool ___throwOnError5, int32_t* ___error6, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.PingReply::.ctor(System.Net.IPAddress,System.Byte[],System.Net.NetworkInformation.PingOptions,System.Int64,System.Net.NetworkInformation.IPStatus)
+extern "C"  void PingReply__ctor_m208657219 (PingReply_t1978568794 * __this, IPAddress_t1399971723 * ___address0, ByteU5BU5D_t3397334013* ___buffer1, PingOptions_t1261881264 * ___options2, int64_t ___roundtripTime3, int32_t ___status4, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.TimeSpan System.DateTime::op_Subtraction(System.DateTime,System.DateTime)
+extern "C"  TimeSpan_t3430258949  DateTime_op_Subtraction_m3246456251 (Il2CppObject * __this /* static, unused */, DateTime_t693205669  p0, DateTime_t693205669  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Double System.TimeSpan::get_TotalMilliseconds()
+extern "C"  double TimeSpan_get_TotalMilliseconds_m51604504 (TimeSpan_t3430258949 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Net.IPAddress System.Net.IPEndPoint::get_Address()
+extern "C"  IPAddress_t1399971723 * IPEndPoint_get_Address_m1772553499 (IPEndPoint_t2615413766 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.Ping/IcmpMessage::.ctor(System.Byte[],System.Int32,System.Int32)
+extern "C"  void IcmpMessage__ctor_m621024584 (IcmpMessage_t482998463 * __this, ByteU5BU5D_t3397334013* ___bytes0, int32_t ___offset1, int32_t ___size2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Byte System.Net.NetworkInformation.Ping/IcmpMessage::get_Identifier()
+extern "C"  uint8_t IcmpMessage_get_Identifier_m2325173215 (IcmpMessage_t482998463 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Byte System.Net.NetworkInformation.Ping/IcmpMessage::get_Type()
+extern "C"  uint8_t IcmpMessage_get_Type_m4132751270 (IcmpMessage_t482998463 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Byte[] System.Net.NetworkInformation.Ping/IcmpMessage::get_Data()
+extern "C"  ByteU5BU5D_t3397334013* IcmpMessage_get_Data_m672939050 (IcmpMessage_t482998463 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Net.NetworkInformation.IPStatus System.Net.NetworkInformation.Ping/IcmpMessage::get_IPStatus()
+extern "C"  int32_t IcmpMessage_get_IPStatus_m2686790847 (IcmpMessage_t482998463 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Diagnostics.Process::.ctor()
+extern "C"  void Process__ctor_m699031546 (Process_t1448008787 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.Net.NetworkInformation.Ping::BuildPingArgs(System.Net.IPAddress,System.Int32,System.Net.NetworkInformation.PingOptions)
+extern "C"  String_t* Ping_BuildPingArgs_m2981963704 (Ping_t3611444498 * __this, IPAddress_t1399971723 * ___address0, int32_t ___timeout1, PingOptions_t1261881264 * ___options2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Diagnostics.ProcessStartInfo System.Diagnostics.Process::get_StartInfo()
+extern "C"  ProcessStartInfo_t2898458543 * Process_get_StartInfo_m308901718 (Process_t1448008787 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Diagnostics.ProcessStartInfo::set_FileName(System.String)
+extern "C"  void ProcessStartInfo_set_FileName_m2980435268 (ProcessStartInfo_t2898458543 * __this, String_t* ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Diagnostics.ProcessStartInfo::set_Arguments(System.String)
+extern "C"  void ProcessStartInfo_set_Arguments_m989314953 (ProcessStartInfo_t2898458543 * __this, String_t* ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Diagnostics.ProcessStartInfo::set_CreateNoWindow(System.Boolean)
+extern "C"  void ProcessStartInfo_set_CreateNoWindow_m2521430833 (ProcessStartInfo_t2898458543 * __this, bool ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Diagnostics.ProcessStartInfo::set_UseShellExecute(System.Boolean)
+extern "C"  void ProcessStartInfo_set_UseShellExecute_m2714645304 (ProcessStartInfo_t2898458543 * __this, bool ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Diagnostics.ProcessStartInfo::set_RedirectStandardOutput(System.Boolean)
+extern "C"  void ProcessStartInfo_set_RedirectStandardOutput_m3148379238 (ProcessStartInfo_t2898458543 * __this, bool ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Diagnostics.ProcessStartInfo::set_RedirectStandardError(System.Boolean)
+extern "C"  void ProcessStartInfo_set_RedirectStandardError_m871400493 (ProcessStartInfo_t2898458543 * __this, bool ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.DateTime System.DateTime::get_UtcNow()
+extern "C"  DateTime_t693205669  DateTime_get_UtcNow_m1309841468 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Diagnostics.Process::Start()
+extern "C"  bool Process_Start_m2737551206 (Process_t1448008787 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Diagnostics.Process::WaitForExit(System.Int32)
+extern "C"  bool Process_WaitForExit_m1230126717 (Process_t1448008787 * __this, int32_t ___milliseconds0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Diagnostics.Process::get_HasExited()
+extern "C"  bool Process_get_HasExited_m594007172 (Process_t1448008787 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Diagnostics.Process::get_ExitCode()
+extern "C"  int32_t Process_get_ExitCode_m1259516068 (Process_t1448008787 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Diagnostics.Process::Kill()
+extern "C"  void Process_Kill_m3560145644 (Process_t1448008787 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.ComponentModel.Component::Dispose()
+extern "C"  void Component_Dispose_m3787380235 (Component_t2826673791 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.Ping::SendAsync(System.Net.IPAddress,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions,System.Object)
+extern "C"  void Ping_SendAsync_m1654762621 (Ping_t3611444498 * __this, IPAddress_t1399971723 * ___address0, int32_t ___timeout1, ByteU5BU5D_t3397334013* ___buffer2, PingOptions_t1261881264 * ___options3, Il2CppObject * ___userToken4, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.Ping::SendAsync(System.Net.IPAddress,System.Int32,System.Byte[],System.Object)
+extern "C"  void Ping_SendAsync_m191990203 (Ping_t3611444498 * __this, IPAddress_t1399971723 * ___address0, int32_t ___timeout1, ByteU5BU5D_t3397334013* ___buffer2, Il2CppObject * ___userToken3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.Ping::SendAsync(System.Net.IPAddress,System.Int32,System.Object)
+extern "C"  void Ping_SendAsync_m615991308 (Ping_t3611444498 * __this, IPAddress_t1399971723 * ___address0, int32_t ___timeout1, Il2CppObject * ___userToken2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.Ping::SendAsync(System.String,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions,System.Object)
+extern "C"  void Ping_SendAsync_m3737224288 (Ping_t3611444498 * __this, String_t* ___hostNameOrAddress0, int32_t ___timeout1, ByteU5BU5D_t3397334013* ___buffer2, PingOptions_t1261881264 * ___options3, Il2CppObject * ___userToken4, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Net.IPHostEntry System.Net.Dns::GetHostEntry(System.String)
+extern "C"  IPHostEntry_t994738509 * Dns_GetHostEntry_m705645829 (Il2CppObject * __this /* static, unused */, String_t* ___hostNameOrAddress0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.Ping::SendAsync(System.String,System.Int32,System.Byte[],System.Object)
+extern "C"  void Ping_SendAsync_m1874741654 (Ping_t3611444498 * __this, String_t* ___hostNameOrAddress0, int32_t ___timeout1, ByteU5BU5D_t3397334013* ___buffer2, Il2CppObject * ___userToken3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.Ping::SendAsync(System.String,System.Int32,System.Object)
+extern "C"  void Ping_SendAsync_m3495096443 (Ping_t3611444498 * __this, String_t* ___hostNameOrAddress0, int32_t ___timeout1, Il2CppObject * ___userToken2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.Ping/<SendAsync>c__AnonStorey6::.ctor()
+extern "C"  void U3CSendAsyncU3Ec__AnonStorey6__ctor_m461735020 (U3CSendAsyncU3Ec__AnonStorey6_t2153546882 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.ComponentModel.BackgroundWorker::.ctor()
+extern "C"  void BackgroundWorker__ctor_m1094278231 (BackgroundWorker_t4230068110 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.ComponentModel.DoWorkEventHandler::.ctor(System.Object,System.IntPtr)
+extern "C"  void DoWorkEventHandler__ctor_m4071938557 (DoWorkEventHandler_t941110040 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.ComponentModel.BackgroundWorker::add_DoWork(System.ComponentModel.DoWorkEventHandler)
+extern "C"  void BackgroundWorker_add_DoWork_m2672114792 (BackgroundWorker_t4230068110 * __this, DoWorkEventHandler_t941110040 * ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.ComponentModel.BackgroundWorker::set_WorkerSupportsCancellation(System.Boolean)
+extern "C"  void BackgroundWorker_set_WorkerSupportsCancellation_m1199182366 (BackgroundWorker_t4230068110 * __this, bool ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.ComponentModel.RunWorkerCompletedEventHandler::.ctor(System.Object,System.IntPtr)
+extern "C"  void RunWorkerCompletedEventHandler__ctor_m844713237 (RunWorkerCompletedEventHandler_t2492476920 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.ComponentModel.BackgroundWorker::add_RunWorkerCompleted(System.ComponentModel.RunWorkerCompletedEventHandler)
+extern "C"  void BackgroundWorker_add_RunWorkerCompleted_m2828676360 (BackgroundWorker_t4230068110 * __this, RunWorkerCompletedEventHandler_t2492476920 * ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.ComponentModel.BackgroundWorker::RunWorkerAsync(System.Object)
+extern "C"  void BackgroundWorker_RunWorkerAsync_m361888218 (BackgroundWorker_t4230068110 * __this, Il2CppObject * ___argument0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.ComponentModel.BackgroundWorker::CancelAsync()
+extern "C"  void BackgroundWorker_CancelAsync_m3954754031 (BackgroundWorker_t4230068110 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Globalization.CultureInfo System.Globalization.CultureInfo::get_InvariantCulture()
+extern "C"  CultureInfo_t3500843524 * CultureInfo_get_InvariantCulture_m398972276 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.UInt32 System.Convert::ToUInt32(System.Double)
+extern "C"  uint32_t Convert_ToUInt32_m1336475941 (Il2CppObject * __this /* static, unused */, double p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Text.StringBuilder System.Text.StringBuilder::AppendFormat(System.IFormatProvider,System.String,System.Object[])
+extern "C"  StringBuilder_t1221177846 * StringBuilder_AppendFormat_m3178887408 (StringBuilder_t1221177846 * __this, Il2CppObject * p0, String_t* p1, ObjectU5BU5D_t3614634134* p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)
+extern "C"  StringBuilder_t1221177846 * StringBuilder_Append_m3636508479 (StringBuilder_t1221177846 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Object System.ComponentModel.DoWorkEventArgs::get_Argument()
+extern "C"  Il2CppObject * DoWorkEventArgs_get_Argument_m2947377065 (DoWorkEventArgs_t62745097 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.ComponentModel.DoWorkEventArgs::set_Result(System.Object)
+extern "C"  void DoWorkEventArgs_set_Result_m3685012216 (DoWorkEventArgs_t62745097 * __this, Il2CppObject * ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Exception System.ComponentModel.AsyncCompletedEventArgs::get_Error()
+extern "C"  Exception_t1927440687 * AsyncCompletedEventArgs_get_Error_m3178619961 (AsyncCompletedEventArgs_t83270938 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.ComponentModel.AsyncCompletedEventArgs::get_Cancelled()
+extern "C"  bool AsyncCompletedEventArgs_get_Cancelled_m1739331837 (AsyncCompletedEventArgs_t83270938 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Object System.ComponentModel.RunWorkerCompletedEventArgs::get_Result()
+extern "C"  Il2CppObject * RunWorkerCompletedEventArgs_get_Result_m76206631 (RunWorkerCompletedEventArgs_t3512304465 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.PingCompletedEventArgs::.ctor(System.Exception,System.Boolean,System.Object,System.Net.NetworkInformation.PingReply)
+extern "C"  void PingCompletedEventArgs__ctor_m2695527771 (PingCompletedEventArgs_t841787612 * __this, Exception_t1927440687 * ___ex0, bool ___cancelled1, Il2CppObject * ___userState2, PingReply_t1978568794 * ___reply3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.Ping::OnPingCompleted(System.Net.NetworkInformation.PingCompletedEventArgs)
+extern "C"  void Ping_OnPingCompleted_m3567368730 (Ping_t3611444498 * __this, PingCompletedEventArgs_t841787612 * ___e0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Buffer::BlockCopy(System.Array,System.Int32,System.Array,System.Int32,System.Int32)
+extern "C"  void Buffer_BlockCopy_m1586717258 (Il2CppObject * __this /* static, unused */, Il2CppArray * p0, int32_t p1, Il2CppArray * p2, int32_t p3, int32_t p4, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.UInt16 System.Net.NetworkInformation.Ping/IcmpMessage::ComputeChecksum(System.Byte[])
+extern "C"  uint16_t IcmpMessage_ComputeChecksum_m565187029 (Il2CppObject * __this /* static, unused */, ByteU5BU5D_t3397334013* ___data0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Byte System.Net.NetworkInformation.Ping/IcmpMessage::get_Code()
+extern "C"  uint8_t IcmpMessage_get_Code_m969897705 (IcmpMessage_t482998463 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.ComponentModel.AsyncCompletedEventArgs::.ctor(System.Exception,System.Boolean,System.Object)
+extern "C"  void AsyncCompletedEventArgs__ctor_m2035203890 (AsyncCompletedEventArgs_t83270938 * __this, Exception_t1927440687 * ___error0, bool ___cancelled1, Il2CppObject * ___userState2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.InvalidOperationException::.ctor(System.String,System.Exception)
+extern "C"  void InvalidOperationException__ctor_m725121084 (InvalidOperationException_t721527559 * __this, String_t* p0, Exception_t1927440687 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.InvalidOperationException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+extern "C"  void InvalidOperationException__ctor_m1817189395 (InvalidOperationException_t721527559 * __this, SerializationInfo_t228987430 * p0, StreamingContext_t1417235061  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.TcpConnectionInformation::.ctor()
+extern "C"  void TcpConnectionInformation__ctor_m323260113 (TcpConnectionInformation_t3392050187 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.List`1<System.Net.NetworkInformation.UnicastIPAddressInformation>::.ctor()
+#define List_1__ctor_m3812740292(__this, method) ((  void (*) (List_1_t2288907776 *, const MethodInfo*))List_1__ctor_m310736118_gshared)(__this, method)
+// System.Collections.Generic.List`1/Enumerator<!0> System.Collections.Generic.List`1<System.Net.NetworkInformation.UnicastIPAddressInformation>::GetEnumerator()
+#define List_1_GetEnumerator_m2913846283(__this, method) ((  Enumerator_t1823637450  (*) (List_1_t2288907776 *, const MethodInfo*))List_1_GetEnumerator_m2837081829_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Net.NetworkInformation.UnicastIPAddressInformation>::Add(!0)
+#define List_1_Add_m2100542328(__this, p0, method) ((  void (*) (List_1_t2288907776 *, UnicastIPAddressInformation_t2919786644 *, const MethodInfo*))List_1_Add_m4157722533_gshared)(__this, p0, method)
+// System.Void System.Collections.Generic.List`1<System.Net.NetworkInformation.UnicastIPAddressInformation>::Clear()
+#define List_1_Clear_m4085170383(__this, method) ((  void (*) (List_1_t2288907776 *, const MethodInfo*))List_1_Clear_m4254626809_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1<System.Net.NetworkInformation.UnicastIPAddressInformation>::Contains(!0)
+#define List_1_Contains_m2139646116(__this, p0, method) ((  bool (*) (List_1_t2288907776 *, UnicastIPAddressInformation_t2919786644 *, const MethodInfo*))List_1_Contains_m1658838094_gshared)(__this, p0, method)
+// System.Void System.Collections.Generic.List`1<System.Net.NetworkInformation.UnicastIPAddressInformation>::CopyTo(!0[],System.Int32)
+#define List_1_CopyTo_m3489746252(__this, p0, p1, method) ((  void (*) (List_1_t2288907776 *, UnicastIPAddressInformationU5BU5D_t2212961949*, int32_t, const MethodInfo*))List_1_CopyTo_m2123980726_gshared)(__this, p0, p1, method)
+// System.Boolean System.Collections.Generic.List`1<System.Net.NetworkInformation.UnicastIPAddressInformation>::Remove(!0)
+#define List_1_Remove_m3154269749(__this, p0, method) ((  bool (*) (List_1_t2288907776 *, UnicastIPAddressInformation_t2919786644 *, const MethodInfo*))List_1_Remove_m3164383811_gshared)(__this, p0, method)
+// System.Int32 System.Collections.Generic.List`1<System.Net.NetworkInformation.UnicastIPAddressInformation>::get_Count()
+#define List_1_get_Count_m154813260(__this, method) ((  int32_t (*) (List_1_t2288907776 *, const MethodInfo*))List_1_get_Count_m2375293942_gshared)(__this, method)
+// !0 System.Collections.Generic.List`1<System.Net.NetworkInformation.UnicastIPAddressInformation>::get_Item(System.Int32)
+#define List_1_get_Item_m1309064713(__this, p0, method) ((  UnicastIPAddressInformation_t2919786644 * (*) (List_1_t2288907776 *, int32_t, const MethodInfo*))List_1_get_Item_m2062981835_gshared)(__this, p0, method)
+// System.Void System.Net.NetworkInformation.UnicastIPAddressInformationCollection::.ctor()
+extern "C"  void UnicastIPAddressInformationCollection__ctor_m500961486 (UnicastIPAddressInformationCollection_t347163204 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.UnicastIPAddressInformationImplCollection::.ctor(System.Boolean)
+extern "C"  void UnicastIPAddressInformationImplCollection__ctor_m712826337 (UnicastIPAddressInformationImplCollection_t771061202 * __this, bool ___isReadOnly0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.Win32UnicastIPAddressInformation::.ctor(System.Int32,System.Net.NetworkInformation.Win32_IP_ADAPTER_UNICAST_ADDRESS)
+extern "C"  void Win32UnicastIPAddressInformation__ctor_m265716656 (Win32UnicastIPAddressInformation_t1388218403 * __this, int32_t ___ifIndex0, Win32_IP_ADAPTER_UNICAST_ADDRESS_t1884414946  ___info1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.LinuxUnicastIPAddressInformation::.ctor(System.Net.IPAddress)
+extern "C"  void LinuxUnicastIPAddressInformation__ctor_m2878236655 (LinuxUnicastIPAddressInformation_t870378058 * __this, IPAddress_t1399971723 * ___address0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.IPInterfaceProperties::.ctor()
+extern "C"  void IPInterfaceProperties__ctor_m2937249457 (IPInterfaceProperties_t3986609851 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Text.RegularExpressions.Regex::.ctor(System.String)
+extern "C"  void Regex__ctor_m2930443103 (Regex_t1803876613 * __this, String_t* ___pattern0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.IPAddressCollection::.ctor()
+extern "C"  void IPAddressCollection__ctor_m3768432617 (IPAddressCollection_t2986660307 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.IO.StreamReader::.ctor(System.String)
+extern "C"  void StreamReader__ctor_m3454466728 (StreamReader_t2360341767 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.String::Trim()
+extern "C"  String_t* String_Trim_m2668767713 (String_t* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.String::Equals(System.String,System.StringComparison)
+extern "C"  bool String_Equals_m1185277978 (String_t* __this, String_t* p0, int32_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Byte::TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Byte&)
+extern "C"  bool Byte_TryParse_m1432549041 (Il2CppObject * __this /* static, unused */, String_t* p0, int32_t p1, Il2CppObject * p2, uint8_t* p3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.DateTime System.IO.File::GetLastWriteTime(System.String)
+extern "C"  DateTime_t693205669  File_GetLastWriteTime_m2692599876 (Il2CppObject * __this /* static, unused */, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.DateTime::op_LessThanOrEqual(System.DateTime,System.DateTime)
+extern "C"  bool DateTime_op_LessThanOrEqual_m2191641069 (Il2CppObject * __this /* static, unused */, DateTime_t693205669  p0, DateTime_t693205669  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Text.RegularExpressions.Match System.Text.RegularExpressions.Regex::Match(System.String)
+extern "C"  Match_t3164245899 * Regex_Match_m3287354872 (Regex_t1803876613 * __this, String_t* ___input0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Text.RegularExpressions.Group::get_Success()
+extern "C"  bool Group_get_Success_m2001463544 (Group_t3761430853 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Text.RegularExpressions.Group System.Text.RegularExpressions.GroupCollection::get_Item(System.String)
+extern "C"  Group_t3761430853 * GroupCollection_get_Item_m1747374437 (GroupCollection_t939014605 * __this, String_t* ___groupName0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.Text.RegularExpressions.Capture::get_Value()
+extern "C"  String_t* Capture_get_Value_m1059492002 (Capture_t4157900610 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Net.IPAddress System.Net.IPAddress::Parse(System.String)
+extern "C"  IPAddress_t1399971723 * IPAddress_Parse_m3374241274 (Il2CppObject * __this /* static, unused */, String_t* ___ipString0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.IPAddressCollection::SetReadOnly()
+extern "C"  void IPAddressCollection_SetReadOnly_m3648147413 (IPAddressCollection_t2986660307 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.List`1<System.Net.IPAddress>::.ctor()
+#define List_1__ctor_m1201304789(__this, method) ((  void (*) (List_1_t769092855 *, const MethodInfo*))List_1__ctor_m310736118_gshared)(__this, method)
+// System.Net.NetworkInformation.IPAddressInformationImplCollection System.Net.NetworkInformation.IPAddressInformationImplCollection::LinuxFromAnycast(System.Collections.Generic.IList`1<System.Net.IPAddress>)
+extern "C"  IPAddressInformationImplCollection_t1702846383 * IPAddressInformationImplCollection_LinuxFromAnycast_m2570784642 (Il2CppObject * __this /* static, unused */, Il2CppObject* ___addresses0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.UnixIPInterfaceProperties::ParseResolvConf()
+extern "C"  void UnixIPInterfaceProperties_ParseResolvConf_m1769674119 (UnixIPInterfaceProperties_t2418091637 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.String::ToString()
+extern "C"  String_t* String_ToString_m3226660001 (String_t* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.UnixIPInterfaceProperties::ParseRouteInfo(System.String)
+extern "C"  void UnixIPInterfaceProperties_ParseRouteInfo_m3187707635 (UnixIPInterfaceProperties_t2418091637 * __this, String_t* ___iface0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.LinuxGatewayIPAddressInformationCollection::.ctor(System.Net.NetworkInformation.IPAddressCollection)
+extern "C"  void LinuxGatewayIPAddressInformationCollection__ctor_m165845022 (LinuxGatewayIPAddressInformationCollection_t2323845969 * __this, IPAddressCollection_t2986660307 * ___col0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.List`1<System.Net.IPAddress>::Add(!0)
+#define List_1_Add_m1891959289(__this, p0, method) ((  void (*) (List_1_t769092855 *, IPAddress_t1399971723 *, const MethodInfo*))List_1_Add_m4157722533_gshared)(__this, p0, method)
+// System.Net.NetworkInformation.MulticastIPAddressInformationImplCollection System.Net.NetworkInformation.MulticastIPAddressInformationImplCollection::LinuxFromList(System.Collections.Generic.List`1<System.Net.IPAddress>)
+extern "C"  MulticastIPAddressInformationImplCollection_t3355839275 * MulticastIPAddressInformationImplCollection_LinuxFromList_m2160439574 (Il2CppObject * __this /* static, unused */, List_1_t769092855 * ___addresses0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Net.Sockets.AddressFamily System.Net.IPAddress::get_AddressFamily()
+extern "C"  int32_t IPAddress_get_AddressFamily_m2727317531 (IPAddress_t1399971723 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Net.IPAddress::get_IsIPv6Multicast()
+extern "C"  bool IPAddress_get_IsIPv6Multicast_m210901837 (IPAddress_t1399971723 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Net.NetworkInformation.UnicastIPAddressInformationCollection System.Net.NetworkInformation.UnicastIPAddressInformationImplCollection::LinuxFromList(System.Collections.Generic.List`1<System.Net.IPAddress>)
+extern "C"  UnicastIPAddressInformationCollection_t347163204 * UnicastIPAddressInformationImplCollection_LinuxFromList_m1985813080 (Il2CppObject * __this /* static, unused */, List_1_t769092855 * ___addresses0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.IPv4InterfaceProperties::.ctor()
+extern "C"  void IPv4InterfaceProperties__ctor_m3167868243 (IPv4InterfaceProperties_t1411071681 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.NetworkInterface::.ctor()
+extern "C"  void NetworkInterface__ctor_m759220571 (NetworkInterface_t63927633 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Net.NetworkInformation.UnixNetworkInterface::if_nametoindex(System.String)
+extern "C"  int32_t UnixNetworkInterface_if_nametoindex_m914101067 (Il2CppObject * __this /* static, unused */, String_t* ___ifname0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Net.NetworkInformation.Win32_FIXED_INFO System.Net.NetworkInformation.Win32_FIXED_INFO::GetInstance()
+extern "C"  Win32_FIXED_INFO_t1371335919 * Win32_FIXED_INFO_GetInstance_m1739170628 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Net.NetworkInformation.Win32_FIXED_INFO::GetNetworkParams(System.Byte[],System.Int32&)
+extern "C"  int32_t Win32_FIXED_INFO_GetNetworkParams_m1190983035 (Il2CppObject * __this /* static, unused */, ByteU5BU5D_t3397334013* ___bytes0, int32_t* ___size1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.Win32_FIXED_INFO::.ctor()
+extern "C"  void Win32_FIXED_INFO__ctor_m1139211445 (Win32_FIXED_INFO_t1371335919 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr System.IntPtr::op_Explicit(System.Void*)
+extern "C"  IntPtr_t IntPtr_op_Explicit_m1401226878 (Il2CppObject * __this /* static, unused */, void* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Runtime.InteropServices.Marshal::PtrToStructure(System.IntPtr,System.Object)
+extern "C"  void Marshal_PtrToStructure_m2894472674 (Il2CppObject * __this /* static, unused */, IntPtr_t p0, Il2CppObject * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.Win32GatewayIPAddressInformationCollection::AddSubsequently(System.IntPtr)
+extern "C"  void Win32GatewayIPAddressInformationCollection_AddSubsequently_m2327122963 (Win32GatewayIPAddressInformationCollection_t710370590 * __this, IntPtr_t ___head0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.Win32GatewayIPAddressInformationCollection::.ctor(System.Boolean)
+extern "C"  void Win32GatewayIPAddressInformationCollection__ctor_m3221980759 (Win32GatewayIPAddressInformationCollection_t710370590 * __this, bool ___isReadOnly0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.Win32IPAddressCollection::AddSubsequentlyString(System.IntPtr)
+extern "C"  void Win32IPAddressCollection_AddSubsequentlyString_m1145585782 (Win32IPAddressCollection_t2117998352 * __this, IntPtr_t ___head0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.Win32IPAddressCollection::.ctor(System.IntPtr[])
+extern "C"  void Win32IPAddressCollection__ctor_m3451302226 (Win32IPAddressCollection_t2117998352 * __this, IntPtrU5BU5D_t169632028* ___heads0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.Win32IPAddressCollection::.ctor()
+extern "C"  void Win32IPAddressCollection__ctor_m3056139024 (Win32IPAddressCollection_t2117998352 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.List`1<System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCPROW>::.ctor()
+#define List_1__ctor_m4288364965(__this, method) ((  void (*) (List_1_t2724853207 *, const MethodInfo*))List_1__ctor_m310736118_gshared)(__this, method)
+// System.Int32 System.Net.NetworkInformation.Win32IPGlobalProperties::GetTcpTable(System.Byte[],System.Int32&,System.Boolean)
+extern "C"  int32_t Win32IPGlobalProperties_GetTcpTable_m418932388 (Il2CppObject * __this /* static, unused */, ByteU5BU5D_t3397334013* ___pTcpTable0, int32_t* ___pdwSize1, bool ___bOrder2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Runtime.InteropServices.Marshal::SizeOf(System.Type)
+extern "C"  int32_t Marshal_SizeOf_m2982427619 (Il2CppObject * __this /* static, unused */, Type_t * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Runtime.InteropServices.Marshal::ReadInt32(System.IntPtr)
+extern "C"  int32_t Marshal_ReadInt32_m1563614062 (Il2CppObject * __this /* static, unused */, IntPtr_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCPROW::.ctor()
+extern "C"  void Win32_MIB_TCPROW__ctor_m631498175 (Win32_MIB_TCPROW_t3355732075 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.List`1<System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCPROW>::Add(!0)
+#define List_1_Add_m1555671329(__this, p0, method) ((  void (*) (List_1_t2724853207 *, Win32_MIB_TCPROW_t3355732075 *, const MethodInfo*))List_1_Add_m4157722533_gshared)(__this, p0, method)
+// System.Void System.Collections.Generic.List`1<System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCP6ROW>::.ctor()
+#define List_1__ctor_m1467367531(__this, method) ((  void (*) (List_1_t3376276681 *, const MethodInfo*))List_1__ctor_m310736118_gshared)(__this, method)
+// System.Int32 System.Version::get_Major()
+extern "C"  int32_t Version_get_Major_m3385239713 (Version_t1755874712 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Net.NetworkInformation.Win32IPGlobalProperties::GetTcp6Table(System.Byte[],System.Int32&,System.Boolean)
+extern "C"  int32_t Win32IPGlobalProperties_GetTcp6Table_m2836257914 (Il2CppObject * __this /* static, unused */, ByteU5BU5D_t3397334013* ___TcpTable0, int32_t* ___SizePointer1, bool ___Order2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCP6ROW::.ctor()
+extern "C"  void Win32_MIB_TCP6ROW__ctor_m1089573993 (Win32_MIB_TCP6ROW_t4007155549 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.List`1<System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCP6ROW>::Add(!0)
+#define List_1_Add_m3965016095(__this, p0, method) ((  void (*) (List_1_t3376276681 *, Win32_MIB_TCP6ROW_t4007155549 *, const MethodInfo*))List_1_Add_m4157722533_gshared)(__this, p0, method)
+// System.Void System.Net.NetworkInformation.Win32IPGlobalProperties::FillTcpTable(System.Collections.Generic.List`1<System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCPROW>&,System.Collections.Generic.List`1<System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCP6ROW>&)
+extern "C"  void Win32IPGlobalProperties_FillTcpTable_m2144837742 (Win32IPGlobalProperties_t2393043454 * __this, List_1_t2724853207 ** ___tab40, List_1_t3376276681 ** ___tab61, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Collections.Generic.List`1<System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCPROW>::get_Count()
+#define List_1_get_Count_m2442351193(__this, method) ((  int32_t (*) (List_1_t2724853207 *, const MethodInfo*))List_1_get_Count_m2375293942_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.List`1<System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCP6ROW>::get_Count()
+#define List_1_get_Count_m463442927(__this, method) ((  int32_t (*) (List_1_t3376276681 *, const MethodInfo*))List_1_get_Count_m2375293942_gshared)(__this, method)
+// !0 System.Collections.Generic.List`1<System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCPROW>::get_Item(System.Int32)
+#define List_1_get_Item_m2292054464(__this, p0, method) ((  Win32_MIB_TCPROW_t3355732075 * (*) (List_1_t2724853207 *, int32_t, const MethodInfo*))List_1_get_Item_m2062981835_gshared)(__this, p0, method)
+// System.Net.NetworkInformation.TcpConnectionInformation System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCPROW::get_TcpInfo()
+extern "C"  TcpConnectionInformation_t3392050187 * Win32_MIB_TCPROW_get_TcpInfo_m3741336739 (Win32_MIB_TCPROW_t3355732075 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !0 System.Collections.Generic.List`1<System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCP6ROW>::get_Item(System.Int32)
+#define List_1_get_Item_m2611997358(__this, p0, method) ((  Win32_MIB_TCP6ROW_t4007155549 * (*) (List_1_t3376276681 *, int32_t, const MethodInfo*))List_1_get_Item_m2062981835_gshared)(__this, p0, method)
+// System.Net.NetworkInformation.TcpConnectionInformation System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCP6ROW::get_TcpInfo()
+extern "C"  TcpConnectionInformation_t3392050187 * Win32_MIB_TCP6ROW_get_TcpInfo_m3318259821 (Win32_MIB_TCP6ROW_t4007155549 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.List`1<System.Net.IPEndPoint>::.ctor()
+#define List_1__ctor_m162370532(__this, method) ((  void (*) (List_1_t1984534898 *, const MethodInfo*))List_1__ctor_m310736118_gshared)(__this, method)
+// System.Boolean System.Net.NetworkInformation.Win32IPGlobalProperties::IsListenerState(System.Net.NetworkInformation.TcpState)
+extern "C"  bool Win32IPGlobalProperties_IsListenerState_m3653644019 (Win32IPGlobalProperties_t2393043454 * __this, int32_t ___state0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Net.IPEndPoint System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCPROW::get_LocalEndPoint()
+extern "C"  IPEndPoint_t2615413766 * Win32_MIB_TCPROW_get_LocalEndPoint_m719139803 (Win32_MIB_TCPROW_t3355732075 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.List`1<System.Net.IPEndPoint>::Add(!0)
+#define List_1_Add_m2203530992(__this, p0, method) ((  void (*) (List_1_t1984534898 *, IPEndPoint_t2615413766 *, const MethodInfo*))List_1_Add_m4157722533_gshared)(__this, p0, method)
+// System.Net.IPEndPoint System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCP6ROW::get_LocalEndPoint()
+extern "C"  IPEndPoint_t2615413766 * Win32_MIB_TCP6ROW_get_LocalEndPoint_m1499831341 (Win32_MIB_TCP6ROW_t4007155549 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !0[] System.Collections.Generic.List`1<System.Net.IPEndPoint>::ToArray()
+#define List_1_ToArray_m3968493512(__this, method) ((  IPEndPointU5BU5D_t294524195* (*) (List_1_t1984534898 *, const MethodInfo*))List_1_ToArray_m546658539_gshared)(__this, method)
+// System.Int32 System.Net.NetworkInformation.Win32IPGlobalProperties::GetUdpTable(System.Byte[],System.Int32&,System.Boolean)
+extern "C"  int32_t Win32IPGlobalProperties_GetUdpTable_m2180292672 (Il2CppObject * __this /* static, unused */, ByteU5BU5D_t3397334013* ___pUdpTable0, int32_t* ___pdwSize1, bool ___bOrder2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_UDPROW::.ctor()
+extern "C"  void Win32_MIB_UDPROW__ctor_m595340541 (Win32_MIB_UDPROW_t3234258897 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Net.IPEndPoint System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_UDPROW::get_LocalEndPoint()
+extern "C"  IPEndPoint_t2615413766 * Win32_MIB_UDPROW_get_LocalEndPoint_m3018648849 (Win32_MIB_UDPROW_t3234258897 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Net.NetworkInformation.Win32IPGlobalProperties::GetUdp6Table(System.Byte[],System.Int32&,System.Boolean)
+extern "C"  int32_t Win32IPGlobalProperties_GetUdp6Table_m3789461194 (Il2CppObject * __this /* static, unused */, ByteU5BU5D_t3397334013* ___Udp6Table0, int32_t* ___SizePointer1, bool ___Order2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_UDP6ROW::.ctor()
+extern "C"  void Win32_MIB_UDP6ROW__ctor_m2302086095 (Win32_MIB_UDP6ROW_t2989424443 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Net.IPEndPoint System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_UDP6ROW::get_LocalEndPoint()
+extern "C"  IPEndPoint_t2615413766 * Win32_MIB_UDP6ROW_get_LocalEndPoint_m18977863 (Win32_MIB_UDP6ROW_t2989424443 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Net.Sockets.Socket::get_SupportsIPv4()
+extern "C"  bool Socket_get_SupportsIPv4_m3333122259 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Net.NetworkInformation.Win32IPGlobalProperties::GetIcmpStatistics(System.Net.NetworkInformation.Win32_MIBICMPINFO&,System.Int32)
+extern "C"  int32_t Win32IPGlobalProperties_GetIcmpStatistics_m923731096 (Il2CppObject * __this /* static, unused */, Win32_MIBICMPINFO_t3825151335 * ___pStats0, int32_t ___dwFamily1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.Win32IcmpV4Statistics::.ctor(System.Net.NetworkInformation.Win32_MIBICMPINFO)
+extern "C"  void Win32IcmpV4Statistics__ctor_m3807461210 (Win32IcmpV4Statistics_t1426867275 * __this, Win32_MIBICMPINFO_t3825151335  ___info0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Net.Sockets.Socket::get_OSSupportsIPv6()
+extern "C"  bool Socket_get_OSSupportsIPv6_m1505031137 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Net.NetworkInformation.Win32IPGlobalProperties::GetIcmpStatisticsEx(System.Net.NetworkInformation.Win32_MIB_ICMP_EX&,System.Int32)
+extern "C"  int32_t Win32IPGlobalProperties_GetIcmpStatisticsEx_m2691449968 (Il2CppObject * __this /* static, unused */, Win32_MIB_ICMP_EX_t2748725486 * ___pStats0, int32_t ___dwFamily1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.Win32IcmpV6Statistics::.ctor(System.Net.NetworkInformation.Win32_MIB_ICMP_EX)
+extern "C"  void Win32IcmpV6Statistics__ctor_m1681651691 (Win32IcmpV6Statistics_t1196663689 * __this, Win32_MIB_ICMP_EX_t2748725486  ___info0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Net.NetworkInformation.Win32IPGlobalProperties::GetIPStatisticsEx(System.Net.NetworkInformation.Win32_MIB_IPSTATS&,System.Int32)
+extern "C"  int32_t Win32IPGlobalProperties_GetIPStatisticsEx_m3796920609 (Il2CppObject * __this /* static, unused */, Win32_MIB_IPSTATS_t1777025181 * ___pStats0, int32_t ___dwFamily1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.Win32IPGlobalStatistics::.ctor(System.Net.NetworkInformation.Win32_MIB_IPSTATS)
+extern "C"  void Win32IPGlobalStatistics__ctor_m980078935 (Win32IPGlobalStatistics_t3349972664 * __this, Win32_MIB_IPSTATS_t1777025181  ___info0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Net.NetworkInformation.Win32IPGlobalProperties::GetTcpStatisticsEx(System.Net.NetworkInformation.Win32_MIB_TCPSTATS&,System.Int32)
+extern "C"  int32_t Win32IPGlobalProperties_GetTcpStatisticsEx_m4139963057 (Il2CppObject * __this /* static, unused */, Win32_MIB_TCPSTATS_t1219941615 * ___pStats0, int32_t ___dwFamily1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.Win32TcpStatistics::.ctor(System.Net.NetworkInformation.Win32_MIB_TCPSTATS)
+extern "C"  void Win32TcpStatistics__ctor_m3362329620 (Win32TcpStatistics_t3798324233 * __this, Win32_MIB_TCPSTATS_t1219941615  ___info0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Net.NetworkInformation.Win32IPGlobalProperties::GetUdpStatisticsEx(System.Net.NetworkInformation.Win32_MIB_UDPSTATS&,System.Int32)
+extern "C"  int32_t Win32IPGlobalProperties_GetUdpStatisticsEx_m1115867121 (Il2CppObject * __this /* static, unused */, Win32_MIB_UDPSTATS_t4063826601 * ___pStats0, int32_t ___dwFamily1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.NetworkInformation.Win32UdpStatistics::.ctor(System.Net.NetworkInformation.Win32_MIB_UDPSTATS)
+extern "C"  void Win32UdpStatistics__ctor_m3687885696 (Win32UdpStatistics_t477239559 * __this, Win32_MIB_UDPSTATS_t4063826601  ___info0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Net.NetworkInformation.Win32_FIXED_INFO System.Net.NetworkInformation.Win32_FIXED_INFO::get_Instance()
+extern "C"  Win32_FIXED_INFO_t1371335919 * Win32_FIXED_INFO_get_Instance_m1048441613 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Net.IPEndPoint System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCP6ROW::get_RemoteEndPoint()
+extern "C"  IPEndPoint_t2615413766 * Win32_MIB_TCP6ROW_get_RemoteEndPoint_m1504756156 (Win32_MIB_TCP6ROW_t4007155549 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Net.IPEndPoint System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCPROW::get_RemoteEndPoint()
+extern "C"  IPEndPoint_t2615413766 * Win32_MIB_TCPROW_get_RemoteEndPoint_m2700283260 (Win32_MIB_TCPROW_t3355732075 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void System.Net.NetworkInformation.IPv4InterfaceProperties::.ctor()
+extern "C"  void IPv4InterfaceProperties__ctor_m3167868243 (IPv4InterfaceProperties_t1411071681 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.IPv4InterfaceStatistics::.ctor()
+extern "C"  void IPv4InterfaceStatistics__ctor_m2429547659 (IPv4InterfaceStatistics_t3946458365 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.IPv6InterfaceProperties::.ctor()
+extern "C"  void IPv6InterfaceProperties__ctor_m1989766357 (IPv6InterfaceProperties_t1930412363 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.LinuxGatewayIPAddressInformationCollection::.ctor(System.Boolean)
+extern "C"  void LinuxGatewayIPAddressInformationCollection__ctor_m2547854322 (LinuxGatewayIPAddressInformationCollection_t2323845969 * __this, bool ___isReadOnly0, const MethodInfo* method)
+{
+	{
+		GatewayIPAddressInformationCollection__ctor_m3427578889(__this, /*hidden argument*/NULL);
+		bool L_0 = ___isReadOnly0;
+		__this->set_is_readonly_2(L_0);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.LinuxGatewayIPAddressInformationCollection::.ctor(System.Net.NetworkInformation.IPAddressCollection)
+extern "C"  void LinuxGatewayIPAddressInformationCollection__ctor_m165845022 (LinuxGatewayIPAddressInformationCollection_t2323845969 * __this, IPAddressCollection_t2986660307 * ___col0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LinuxGatewayIPAddressInformationCollection__ctor_m165845022_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	IPAddress_t1399971723 * V_0 = NULL;
+	Il2CppObject* V_1 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		GatewayIPAddressInformationCollection__ctor_m3427578889(__this, /*hidden argument*/NULL);
+		IPAddressCollection_t2986660307 * L_0 = ___col0;
+		NullCheck(L_0);
+		Il2CppObject* L_1 = VirtFuncInvoker0< Il2CppObject* >::Invoke(17 /* System.Collections.Generic.IEnumerator`1<System.Net.IPAddress> System.Net.NetworkInformation.IPAddressCollection::GetEnumerator() */, L_0);
+		V_1 = L_1;
+	}
+
+IL_000d:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0025;
+		}
+
+IL_0012:
+		{
+			Il2CppObject* L_2 = V_1;
+			NullCheck(L_2);
+			IPAddress_t1399971723 * L_3 = InterfaceFuncInvoker0< IPAddress_t1399971723 * >::Invoke(0 /* !0 System.Collections.Generic.IEnumerator`1<System.Net.IPAddress>::get_Current() */, IEnumerator_1_t3170462846_il2cpp_TypeInfo_var, L_2);
+			V_0 = L_3;
+			IPAddress_t1399971723 * L_4 = V_0;
+			GatewayIPAddressInformationImpl_t565141533 * L_5 = (GatewayIPAddressInformationImpl_t565141533 *)il2cpp_codegen_object_new(GatewayIPAddressInformationImpl_t565141533_il2cpp_TypeInfo_var);
+			GatewayIPAddressInformationImpl__ctor_m1701918754(L_5, L_4, /*hidden argument*/NULL);
+			VirtActionInvoker1< GatewayIPAddressInformation_t153474369 * >::Invoke(13 /* System.Void System.Net.NetworkInformation.GatewayIPAddressInformationCollection::Add(System.Net.NetworkInformation.GatewayIPAddressInformation) */, __this, L_5);
+		}
+
+IL_0025:
+		{
+			Il2CppObject* L_6 = V_1;
+			NullCheck(L_6);
+			bool L_7 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_6);
+			if (L_7)
+			{
+				goto IL_0012;
+			}
+		}
+
+IL_0030:
+		{
+			IL2CPP_LEAVE(0x40, FINALLY_0035);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0035;
+	}
+
+FINALLY_0035:
+	{ // begin finally (depth: 1)
+		{
+			Il2CppObject* L_8 = V_1;
+			if (L_8)
+			{
+				goto IL_0039;
+			}
+		}
+
+IL_0038:
+		{
+			IL2CPP_END_FINALLY(53)
+		}
+
+IL_0039:
+		{
+			Il2CppObject* L_9 = V_1;
+			NullCheck(L_9);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_9);
+			IL2CPP_END_FINALLY(53)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(53)
+	{
+		IL2CPP_JUMP_TBL(0x40, IL_0040)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0040:
+	{
+		__this->set_is_readonly_2((bool)1);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.LinuxGatewayIPAddressInformationCollection::.cctor()
+extern "C"  void LinuxGatewayIPAddressInformationCollection__cctor_m3656361370 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LinuxGatewayIPAddressInformationCollection__cctor_m3656361370_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		LinuxGatewayIPAddressInformationCollection_t2323845969 * L_0 = (LinuxGatewayIPAddressInformationCollection_t2323845969 *)il2cpp_codegen_object_new(LinuxGatewayIPAddressInformationCollection_t2323845969_il2cpp_TypeInfo_var);
+		LinuxGatewayIPAddressInformationCollection__ctor_m2547854322(L_0, (bool)1, /*hidden argument*/NULL);
+		((LinuxGatewayIPAddressInformationCollection_t2323845969_StaticFields*)LinuxGatewayIPAddressInformationCollection_t2323845969_il2cpp_TypeInfo_var->static_fields)->set_Empty_1(L_0);
+		return;
+	}
+}
+// System.Boolean System.Net.NetworkInformation.LinuxGatewayIPAddressInformationCollection::get_IsReadOnly()
+extern "C"  bool LinuxGatewayIPAddressInformationCollection_get_IsReadOnly_m3171501324 (LinuxGatewayIPAddressInformationCollection_t2323845969 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_is_readonly_2();
+		return L_0;
+	}
+}
+// System.Void System.Net.NetworkInformation.LinuxIPInterfaceProperties::.ctor(System.Net.NetworkInformation.LinuxNetworkInterface,System.Collections.Generic.List`1<System.Net.IPAddress>)
+extern "C"  void LinuxIPInterfaceProperties__ctor_m280597575 (LinuxIPInterfaceProperties_t3318447793 * __this, LinuxNetworkInterface_t3864470295 * ___iface0, List_1_t769092855 * ___addresses1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LinuxIPInterfaceProperties__ctor_m280597575_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		LinuxNetworkInterface_t3864470295 * L_0 = ___iface0;
+		List_1_t769092855 * L_1 = ___addresses1;
+		IL2CPP_RUNTIME_CLASS_INIT(UnixIPInterfaceProperties_t2418091637_il2cpp_TypeInfo_var);
+		UnixIPInterfaceProperties__ctor_m2539088987(__this, L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Net.NetworkInformation.IPv4InterfaceProperties System.Net.NetworkInformation.LinuxIPInterfaceProperties::GetIPv4Properties()
+extern "C"  IPv4InterfaceProperties_t1411071681 * LinuxIPInterfaceProperties_GetIPv4Properties_m703170405 (LinuxIPInterfaceProperties_t3318447793 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LinuxIPInterfaceProperties_GetIPv4Properties_m703170405_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IPv4InterfaceProperties_t1411071681 * L_0 = ((UnixIPInterfaceProperties_t2418091637 *)__this)->get_ipv4iface_properties_0();
+		if (L_0)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		UnixNetworkInterface_t1000704527 * L_1 = ((UnixIPInterfaceProperties_t2418091637 *)__this)->get_iface_1();
+		LinuxIPv4InterfaceProperties_t1534034571 * L_2 = (LinuxIPv4InterfaceProperties_t1534034571 *)il2cpp_codegen_object_new(LinuxIPv4InterfaceProperties_t1534034571_il2cpp_TypeInfo_var);
+		LinuxIPv4InterfaceProperties__ctor_m1190628452(L_2, ((LinuxNetworkInterface_t3864470295 *)IsInstClass(L_1, LinuxNetworkInterface_t3864470295_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		((UnixIPInterfaceProperties_t2418091637 *)__this)->set_ipv4iface_properties_0(L_2);
+	}
+
+IL_0021:
+	{
+		IPv4InterfaceProperties_t1411071681 * L_3 = ((UnixIPInterfaceProperties_t2418091637 *)__this)->get_ipv4iface_properties_0();
+		return L_3;
+	}
+}
+// System.Void System.Net.NetworkInformation.LinuxIPv4InterfaceProperties::.ctor(System.Net.NetworkInformation.LinuxNetworkInterface)
+extern "C"  void LinuxIPv4InterfaceProperties__ctor_m1190628452 (LinuxIPv4InterfaceProperties_t1534034571 * __this, LinuxNetworkInterface_t3864470295 * ___iface0, const MethodInfo* method)
+{
+	{
+		LinuxNetworkInterface_t3864470295 * L_0 = ___iface0;
+		UnixIPv4InterfaceProperties__ctor_m796527670(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean System.Net.NetworkInformation.LinuxIPv4InterfaceProperties::get_IsForwardingEnabled()
+extern "C"  bool LinuxIPv4InterfaceProperties_get_IsForwardingEnabled_m336773314 (LinuxIPv4InterfaceProperties_t1534034571 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LinuxIPv4InterfaceProperties_get_IsForwardingEnabled_m336773314_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	String_t* V_1 = NULL;
+	{
+		UnixNetworkInterface_t1000704527 * L_0 = ((UnixIPv4InterfaceProperties_t179777771 *)__this)->get_iface_0();
+		NullCheck(L_0);
+		String_t* L_1 = VirtFuncInvoker0< String_t* >::Invoke(11 /* System.String System.Net.NetworkInformation.UnixNetworkInterface::get_Name() */, L_0);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_2 = String_Concat_m612901809(NULL /*static, unused*/, _stringLiteral3757029923, L_1, _stringLiteral3312742832, /*hidden argument*/NULL);
+		V_0 = L_2;
+		String_t* L_3 = V_0;
+		bool L_4 = File_Exists_m1685968367(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		String_t* L_5 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(NetworkInterface_t63927633_il2cpp_TypeInfo_var);
+		String_t* L_6 = NetworkInterface_ReadLine_m2401631100(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		V_1 = L_6;
+		String_t* L_7 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_8 = String_op_Inequality_m304203149(NULL /*static, unused*/, L_7, _stringLiteral372029326, /*hidden argument*/NULL);
+		return L_8;
+	}
+
+IL_0039:
+	{
+		return (bool)0;
+	}
+}
+// System.Int32 System.Net.NetworkInformation.LinuxIPv4InterfaceProperties::get_Mtu()
+extern "C"  int32_t LinuxIPv4InterfaceProperties_get_Mtu_m4036506946 (LinuxIPv4InterfaceProperties_t1534034571 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LinuxIPv4InterfaceProperties_get_Mtu_m4036506946_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	int32_t V_1 = 0;
+	String_t* V_2 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		UnixNetworkInterface_t1000704527 * L_0 = ((UnixIPv4InterfaceProperties_t179777771 *)__this)->get_iface_0();
+		NullCheck(((LinuxNetworkInterface_t3864470295 *)IsInstClass(L_0, LinuxNetworkInterface_t3864470295_il2cpp_TypeInfo_var)));
+		String_t* L_1 = LinuxNetworkInterface_get_IfacePath_m3341314018(((LinuxNetworkInterface_t3864470295 *)IsInstClass(L_0, LinuxNetworkInterface_t3864470295_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_2 = String_Concat_m2596409543(NULL /*static, unused*/, L_1, _stringLiteral3875251506, /*hidden argument*/NULL);
+		V_0 = L_2;
+		V_1 = 0;
+		String_t* L_3 = V_0;
+		bool L_4 = File_Exists_m1685968367(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		String_t* L_5 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(NetworkInterface_t63927633_il2cpp_TypeInfo_var);
+		String_t* L_6 = NetworkInterface_ReadLine_m2401631100(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		V_2 = L_6;
+	}
+
+IL_002f:
+	try
+	{ // begin try (depth: 1)
+		String_t* L_7 = V_2;
+		int32_t L_8 = Int32_Parse_m3683414232(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		V_1 = L_8;
+		goto IL_0041;
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1927440687 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (Il2CppObject_il2cpp_TypeInfo_var, e.ex->klass))
+			goto CATCH_003b;
+		throw e;
+	}
+
+CATCH_003b:
+	{ // begin catch(System.Object)
+		goto IL_0041;
+	} // end catch (depth: 1)
+
+IL_0041:
+	{
+		int32_t L_9 = V_1;
+		return L_9;
+	}
+}
+// System.Void System.Net.NetworkInformation.LinuxIPv4InterfaceStatistics::.ctor(System.Net.NetworkInformation.LinuxNetworkInterface)
+extern "C"  void LinuxIPv4InterfaceStatistics__ctor_m1804543410 (LinuxIPv4InterfaceStatistics_t1133266275 * __this, LinuxNetworkInterface_t3864470295 * ___parent0, const MethodInfo* method)
+{
+	{
+		IPv4InterfaceStatistics__ctor_m2429547659(__this, /*hidden argument*/NULL);
+		LinuxNetworkInterface_t3864470295 * L_0 = ___parent0;
+		__this->set_linux_0(L_0);
+		return;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.LinuxIPv4InterfaceStatistics::Read(System.String)
+extern "C"  int64_t LinuxIPv4InterfaceStatistics_Read_m2653521628 (LinuxIPv4InterfaceStatistics_t1133266275 * __this, String_t* ___file0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LinuxIPv4InterfaceStatistics_Read_m2653521628_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int64_t V_0 = 0;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+
+IL_0000:
+	try
+	{ // begin try (depth: 1)
+		{
+			LinuxNetworkInterface_t3864470295 * L_0 = __this->get_linux_0();
+			NullCheck(L_0);
+			String_t* L_1 = LinuxNetworkInterface_get_IfacePath_m3341314018(L_0, /*hidden argument*/NULL);
+			String_t* L_2 = ___file0;
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_3 = String_Concat_m2596409543(NULL /*static, unused*/, L_1, L_2, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(NetworkInterface_t63927633_il2cpp_TypeInfo_var);
+			String_t* L_4 = NetworkInterface_ReadLine_m2401631100(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+			int64_t L_5 = Int64_Parse_m3063055274(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+			V_0 = L_5;
+			goto IL_0034;
+		}
+
+IL_0021:
+		{
+			; // IL_0021: leave IL_0034
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1927440687 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (Il2CppObject_il2cpp_TypeInfo_var, e.ex->klass))
+			goto CATCH_0026;
+		throw e;
+	}
+
+CATCH_0026:
+	{ // begin catch(System.Object)
+		{
+			V_0 = (((int64_t)((int64_t)0)));
+			goto IL_0034;
+		}
+
+IL_002f:
+		{
+			; // IL_002f: leave IL_0034
+		}
+	} // end catch (depth: 1)
+
+IL_0034:
+	{
+		int64_t L_6 = V_0;
+		return L_6;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.LinuxIPv4InterfaceStatistics::get_BytesReceived()
+extern "C"  int64_t LinuxIPv4InterfaceStatistics_get_BytesReceived_m1677725307 (LinuxIPv4InterfaceStatistics_t1133266275 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LinuxIPv4InterfaceStatistics_get_BytesReceived_m1677725307_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = LinuxIPv4InterfaceStatistics_Read_m2653521628(__this, _stringLiteral2932206796, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.LinuxIPv4InterfaceStatistics::get_BytesSent()
+extern "C"  int64_t LinuxIPv4InterfaceStatistics_get_BytesSent_m4260072414 (LinuxIPv4InterfaceStatistics_t1133266275 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LinuxIPv4InterfaceStatistics_get_BytesSent_m4260072414_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = LinuxIPv4InterfaceStatistics_Read_m2653521628(__this, _stringLiteral2256200898, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.LinuxIPv4InterfaceStatistics::get_IncomingPacketsDiscarded()
+extern "C"  int64_t LinuxIPv4InterfaceStatistics_get_IncomingPacketsDiscarded_m3700980703 (LinuxIPv4InterfaceStatistics_t1133266275 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LinuxIPv4InterfaceStatistics_get_IncomingPacketsDiscarded_m3700980703_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = LinuxIPv4InterfaceStatistics_Read_m2653521628(__this, _stringLiteral836883871, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.LinuxIPv4InterfaceStatistics::get_IncomingPacketsWithErrors()
+extern "C"  int64_t LinuxIPv4InterfaceStatistics_get_IncomingPacketsWithErrors_m1961321409 (LinuxIPv4InterfaceStatistics_t1133266275 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LinuxIPv4InterfaceStatistics_get_IncomingPacketsWithErrors_m1961321409_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = LinuxIPv4InterfaceStatistics_Read_m2653521628(__this, _stringLiteral698146182, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.LinuxIPv4InterfaceStatistics::get_IncomingUnknownProtocolPackets()
+extern "C"  int64_t LinuxIPv4InterfaceStatistics_get_IncomingUnknownProtocolPackets_m3781418560 (LinuxIPv4InterfaceStatistics_t1133266275 * __this, const MethodInfo* method)
+{
+	{
+		return (((int64_t)((int64_t)0)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.LinuxIPv4InterfaceStatistics::get_NonUnicastPacketsReceived()
+extern "C"  int64_t LinuxIPv4InterfaceStatistics_get_NonUnicastPacketsReceived_m2128324005 (LinuxIPv4InterfaceStatistics_t1133266275 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LinuxIPv4InterfaceStatistics_get_NonUnicastPacketsReceived_m2128324005_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = LinuxIPv4InterfaceStatistics_Read_m2653521628(__this, _stringLiteral2901813132, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.LinuxIPv4InterfaceStatistics::get_NonUnicastPacketsSent()
+extern "C"  int64_t LinuxIPv4InterfaceStatistics_get_NonUnicastPacketsSent_m3703858820 (LinuxIPv4InterfaceStatistics_t1133266275 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LinuxIPv4InterfaceStatistics_get_NonUnicastPacketsSent_m3703858820_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = LinuxIPv4InterfaceStatistics_Read_m2653521628(__this, _stringLiteral2901813132, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.LinuxIPv4InterfaceStatistics::get_OutgoingPacketsDiscarded()
+extern "C"  int64_t LinuxIPv4InterfaceStatistics_get_OutgoingPacketsDiscarded_m2826633739 (LinuxIPv4InterfaceStatistics_t1133266275 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LinuxIPv4InterfaceStatistics_get_OutgoingPacketsDiscarded_m2826633739_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = LinuxIPv4InterfaceStatistics_Read_m2653521628(__this, _stringLiteral1813337025, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.LinuxIPv4InterfaceStatistics::get_OutgoingPacketsWithErrors()
+extern "C"  int64_t LinuxIPv4InterfaceStatistics_get_OutgoingPacketsWithErrors_m1154923977 (LinuxIPv4InterfaceStatistics_t1133266275 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LinuxIPv4InterfaceStatistics_get_OutgoingPacketsWithErrors_m1154923977_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = LinuxIPv4InterfaceStatistics_Read_m2653521628(__this, _stringLiteral3079317800, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.LinuxIPv4InterfaceStatistics::get_OutputQueueLength()
+extern "C"  int64_t LinuxIPv4InterfaceStatistics_get_OutputQueueLength_m3843459815 (LinuxIPv4InterfaceStatistics_t1133266275 * __this, const MethodInfo* method)
+{
+	{
+		return (((int64_t)((int64_t)((int32_t)1024))));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.LinuxIPv4InterfaceStatistics::get_UnicastPacketsReceived()
+extern "C"  int64_t LinuxIPv4InterfaceStatistics_get_UnicastPacketsReceived_m805357122 (LinuxIPv4InterfaceStatistics_t1133266275 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LinuxIPv4InterfaceStatistics_get_UnicastPacketsReceived_m805357122_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = LinuxIPv4InterfaceStatistics_Read_m2653521628(__this, _stringLiteral1375479510, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.LinuxIPv4InterfaceStatistics::get_UnicastPacketsSent()
+extern "C"  int64_t LinuxIPv4InterfaceStatistics_get_UnicastPacketsSent_m3847585725 (LinuxIPv4InterfaceStatistics_t1133266275 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LinuxIPv4InterfaceStatistics_get_UnicastPacketsSent_m3847585725_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = LinuxIPv4InterfaceStatistics_Read_m2653521628(__this, _stringLiteral1463001720, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Void System.Net.NetworkInformation.LinuxNetworkInterface::.ctor(System.String)
+extern "C"  void LinuxNetworkInterface__ctor_m4238128715 (LinuxNetworkInterface_t3864470295 * __this, String_t* ___name0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LinuxNetworkInterface__ctor_m4238128715_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___name0;
+		UnixNetworkInterface__ctor_m1628672279(__this, L_0, /*hidden argument*/NULL);
+		String_t* L_1 = ___name0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_2 = String_Concat_m612901809(NULL /*static, unused*/, _stringLiteral3234253388, L_1, _stringLiteral372029315, /*hidden argument*/NULL);
+		__this->set_iface_path_13(L_2);
+		String_t* L_3 = __this->get_iface_path_13();
+		String_t* L_4 = String_Concat_m2596409543(NULL /*static, unused*/, L_3, _stringLiteral3698814043, /*hidden argument*/NULL);
+		__this->set_iface_operstate_path_14(L_4);
+		String_t* L_5 = __this->get_iface_path_13();
+		String_t* L_6 = String_Concat_m2596409543(NULL /*static, unused*/, L_5, _stringLiteral1420226295, /*hidden argument*/NULL);
+		__this->set_iface_flags_path_15(L_6);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.LinuxNetworkInterface::.cctor()
+extern "C"  void LinuxNetworkInterface__cctor_m1423821048 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LinuxNetworkInterface__cctor_m1423821048_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		LinuxNetworkInterface_InitializeInterfaceAddresses_m1157063254(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.String System.Net.NetworkInformation.LinuxNetworkInterface::get_IfacePath()
+extern "C"  String_t* LinuxNetworkInterface_get_IfacePath_m3341314018 (LinuxNetworkInterface_t3864470295 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get_iface_path_13();
+		return L_0;
+	}
+}
+// System.Void System.Net.NetworkInformation.LinuxNetworkInterface::InitializeInterfaceAddresses()
+extern "C"  void LinuxNetworkInterface_InitializeInterfaceAddresses_m1157063254 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	using namespace il2cpp::icalls;
+	typedef void (*LinuxNetworkInterface_InitializeInterfaceAddresses_m1157063254_ftn) ();
+	 ((LinuxNetworkInterface_InitializeInterfaceAddresses_m1157063254_ftn)System::System::Net::NetworkInformation::LinuxNetworkInterface::InitializeInterfaceAddresses) ();
+}
+// System.Int32 System.Net.NetworkInformation.LinuxNetworkInterface::GetInterfaceAddresses(System.IntPtr&)
+extern "C"  int32_t LinuxNetworkInterface_GetInterfaceAddresses_m3586817114 (Il2CppObject * __this /* static, unused */, IntPtr_t* ___ifap0, const MethodInfo* method)
+{
+	using namespace il2cpp::icalls;
+	typedef int32_t (*LinuxNetworkInterface_GetInterfaceAddresses_m3586817114_ftn) (IntPtr_t*);
+	return  ((LinuxNetworkInterface_GetInterfaceAddresses_m3586817114_ftn)System::System::Net::NetworkInformation::LinuxNetworkInterface::GetInterfaceAddresses) (___ifap0);
+}
+// System.Void System.Net.NetworkInformation.LinuxNetworkInterface::FreeInterfaceAddresses(System.IntPtr)
+extern "C"  void LinuxNetworkInterface_FreeInterfaceAddresses_m1820854136 (Il2CppObject * __this /* static, unused */, IntPtr_t ___ifap0, const MethodInfo* method)
+{
+	using namespace il2cpp::icalls;
+	typedef void (*LinuxNetworkInterface_FreeInterfaceAddresses_m1820854136_ftn) (IntPtr_t);
+	 ((LinuxNetworkInterface_FreeInterfaceAddresses_m1820854136_ftn)System::System::Net::NetworkInformation::LinuxNetworkInterface::FreeInterfaceAddresses) (___ifap0);
+}
+// System.Net.NetworkInformation.NetworkInterface[] System.Net.NetworkInformation.LinuxNetworkInterface::ImplGetAllNetworkInterfaces()
+extern "C"  NetworkInterfaceU5BU5D_t4157644364* LinuxNetworkInterface_ImplGetAllNetworkInterfaces_m2182664942 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LinuxNetworkInterface_ImplGetAllNetworkInterfaces_m2182664942_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Dictionary_2_t1484282261 * V_0 = NULL;
+	IntPtr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	IntPtr_t V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	int32_t V_3 = 0;
+	ifaddrs_t2532459533  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	IPAddress_t1399971723 * V_5 = NULL;
+	String_t* V_6 = NULL;
+	int32_t V_7 = 0;
+	ByteU5BU5D_t3397334013* V_8 = NULL;
+	int32_t V_9 = 0;
+	sockaddr_in_t1277740973  V_10;
+	memset(&V_10, 0, sizeof(V_10));
+	sockaddr_in6_t2899168071  V_11;
+	memset(&V_11, 0, sizeof(V_11));
+	sockaddr_ll_t1681025498  V_12;
+	memset(&V_12, 0, sizeof(V_12));
+	int32_t V_13 = 0;
+	LinuxNetworkInterface_t3864470295 * V_14 = NULL;
+	NetworkInterfaceU5BU5D_t4157644364* V_15 = NULL;
+	int32_t V_16 = 0;
+	NetworkInterface_t63927633 * V_17 = NULL;
+	Enumerator_t3170815025  V_18;
+	memset(&V_18, 0, sizeof(V_18));
+	int32_t V_19 = 0;
+	int32_t V_20 = 0;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Dictionary_2_t1484282261 * L_0 = (Dictionary_2_t1484282261 *)il2cpp_codegen_object_new(Dictionary_2_t1484282261_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m2978195796(L_0, /*hidden argument*/Dictionary_2__ctor_m2978195796_MethodInfo_var);
+		V_0 = L_0;
+		IL2CPP_RUNTIME_CLASS_INIT(LinuxNetworkInterface_t3864470295_il2cpp_TypeInfo_var);
+		int32_t L_1 = LinuxNetworkInterface_GetInterfaceAddresses_m3586817114(NULL /*static, unused*/, (&V_1), /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		SystemException_t3877406272 * L_2 = (SystemException_t3877406272 *)il2cpp_codegen_object_new(SystemException_t3877406272_il2cpp_TypeInfo_var);
+		SystemException__ctor_m4001391027(L_2, _stringLiteral547345107, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_001d:
+	try
+	{ // begin try (depth: 1)
+		{
+			IntPtr_t L_3 = V_1;
+			V_2 = L_3;
+			V_3 = 0;
+			goto IL_032e;
+		}
+
+IL_0026:
+		{
+			IntPtr_t L_4 = V_2;
+			IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+			Type_t * L_5 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(ifaddrs_t2532459533_0_0_0_var), /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+			Il2CppObject * L_6 = Marshal_PtrToStructure_m673412918(NULL /*static, unused*/, L_4, L_5, /*hidden argument*/NULL);
+			V_4 = ((*(ifaddrs_t2532459533 *)((ifaddrs_t2532459533 *)UnBox(L_6, ifaddrs_t2532459533_il2cpp_TypeInfo_var))));
+			IL2CPP_RUNTIME_CLASS_INIT(IPAddress_t1399971723_il2cpp_TypeInfo_var);
+			IPAddress_t1399971723 * L_7 = ((IPAddress_t1399971723_StaticFields*)IPAddress_t1399971723_il2cpp_TypeInfo_var->static_fields)->get_None_7();
+			V_5 = L_7;
+			String_t* L_8 = (&V_4)->get_ifa_name_1();
+			V_6 = L_8;
+			V_7 = (-1);
+			V_8 = (ByteU5BU5D_t3397334013*)NULL;
+			V_9 = 1;
+			IntPtr_t L_9 = (&V_4)->get_ifa_addr_3();
+			IntPtr_t L_10 = ((IntPtr_t_StaticFields*)IntPtr_t_il2cpp_TypeInfo_var->static_fields)->get_Zero_1();
+			bool L_11 = IntPtr_op_Inequality_m3044532593(NULL /*static, unused*/, L_9, L_10, /*hidden argument*/NULL);
+			if (!L_11)
+			{
+				goto IL_027d;
+			}
+		}
+
+IL_006c:
+		{
+			IntPtr_t L_12 = (&V_4)->get_ifa_addr_3();
+			IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+			Type_t * L_13 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(sockaddr_in_t1277740973_0_0_0_var), /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+			Il2CppObject * L_14 = Marshal_PtrToStructure_m673412918(NULL /*static, unused*/, L_12, L_13, /*hidden argument*/NULL);
+			V_10 = ((*(sockaddr_in_t1277740973 *)((sockaddr_in_t1277740973 *)UnBox(L_14, sockaddr_in_t1277740973_il2cpp_TypeInfo_var))));
+			uint16_t L_15 = (&V_10)->get_sin_family_0();
+			if ((!(((uint32_t)L_15) == ((uint32_t)((int32_t)10)))))
+			{
+				goto IL_00d4;
+			}
+		}
+
+IL_0097:
+		{
+			IntPtr_t L_16 = (&V_4)->get_ifa_addr_3();
+			IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+			Type_t * L_17 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(sockaddr_in6_t2899168071_0_0_0_var), /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+			Il2CppObject * L_18 = Marshal_PtrToStructure_m673412918(NULL /*static, unused*/, L_16, L_17, /*hidden argument*/NULL);
+			V_11 = ((*(sockaddr_in6_t2899168071 *)((sockaddr_in6_t2899168071 *)UnBox(L_18, sockaddr_in6_t2899168071_il2cpp_TypeInfo_var))));
+			in6_addr_t4035827331 * L_19 = (&V_11)->get_address_of_sin6_addr_3();
+			ByteU5BU5D_t3397334013* L_20 = L_19->get_u6_addr8_0();
+			uint32_t L_21 = (&V_11)->get_sin6_scope_id_4();
+			IPAddress_t1399971723 * L_22 = (IPAddress_t1399971723 *)il2cpp_codegen_object_new(IPAddress_t1399971723_il2cpp_TypeInfo_var);
+			IPAddress__ctor_m3025538646(L_22, L_20, (((int64_t)((uint64_t)L_21))), /*hidden argument*/NULL);
+			V_5 = L_22;
+			goto IL_027d;
+		}
+
+IL_00d4:
+		{
+			uint16_t L_23 = (&V_10)->get_sin_family_0();
+			if ((!(((uint32_t)L_23) == ((uint32_t)2))))
+			{
+				goto IL_00f5;
+			}
+		}
+
+IL_00e1:
+		{
+			uint32_t L_24 = (&V_10)->get_sin_addr_2();
+			IPAddress_t1399971723 * L_25 = (IPAddress_t1399971723 *)il2cpp_codegen_object_new(IPAddress_t1399971723_il2cpp_TypeInfo_var);
+			IPAddress__ctor_m4294749317(L_25, (((int64_t)((uint64_t)L_24))), /*hidden argument*/NULL);
+			V_5 = L_25;
+			goto IL_027d;
+		}
+
+IL_00f5:
+		{
+			uint16_t L_26 = (&V_10)->get_sin_family_0();
+			if ((!(((uint32_t)L_26) == ((uint32_t)((int32_t)17)))))
+			{
+				goto IL_027d;
+			}
+		}
+
+IL_0103:
+		{
+			IntPtr_t L_27 = (&V_4)->get_ifa_addr_3();
+			IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+			Type_t * L_28 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(sockaddr_ll_t1681025498_0_0_0_var), /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+			Il2CppObject * L_29 = Marshal_PtrToStructure_m673412918(NULL /*static, unused*/, L_27, L_28, /*hidden argument*/NULL);
+			V_12 = ((*(sockaddr_ll_t1681025498 *)((sockaddr_ll_t1681025498 *)UnBox(L_29, sockaddr_ll_t1681025498_il2cpp_TypeInfo_var))));
+			uint8_t L_30 = (&V_12)->get_sll_halen_5();
+			ByteU5BU5D_t3397334013* L_31 = (&V_12)->get_sll_addr_6();
+			NullCheck(L_31);
+			if ((((int32_t)L_30) <= ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_31)->max_length)))))))
+			{
+				goto IL_016b;
+			}
+		}
+
+IL_0135:
+		{
+			IL2CPP_RUNTIME_CLASS_INIT(Console_t2311202731_il2cpp_TypeInfo_var);
+			TextWriter_t4027217640 * L_32 = Console_get_Error_m2313154535(NULL /*static, unused*/, /*hidden argument*/NULL);
+			uint8_t L_33 = (&V_12)->get_sll_halen_5();
+			uint8_t L_34 = L_33;
+			Il2CppObject * L_35 = Box(Byte_t3683104436_il2cpp_TypeInfo_var, &L_34);
+			ByteU5BU5D_t3397334013* L_36 = (&V_12)->get_sll_addr_6();
+			NullCheck(L_36);
+			int32_t L_37 = (((int32_t)((int32_t)(((Il2CppArray *)L_36)->max_length))));
+			Il2CppObject * L_38 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_37);
+			NullCheck(L_32);
+			VirtActionInvoker3< String_t*, Il2CppObject *, Il2CppObject * >::Invoke(26 /* System.Void System.IO.TextWriter::WriteLine(System.String,System.Object,System.Object) */, L_32, _stringLiteral2501114699, L_35, L_38);
+			IntPtr_t L_39 = (&V_4)->get_ifa_next_0();
+			V_2 = L_39;
+			goto IL_032e;
+		}
+
+IL_016b:
+		{
+			uint8_t L_40 = (&V_12)->get_sll_halen_5();
+			V_8 = ((ByteU5BU5D_t3397334013*)SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, (uint32_t)L_40));
+			ByteU5BU5D_t3397334013* L_41 = (&V_12)->get_sll_addr_6();
+			ByteU5BU5D_t3397334013* L_42 = V_8;
+			ByteU5BU5D_t3397334013* L_43 = V_8;
+			NullCheck(L_43);
+			Array_Copy_m3808317496(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_41, 0, (Il2CppArray *)(Il2CppArray *)L_42, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_43)->max_length)))), /*hidden argument*/NULL);
+			int32_t L_44 = (&V_12)->get_sll_ifindex_2();
+			V_7 = L_44;
+			uint16_t L_45 = (&V_12)->get_sll_hatype_3();
+			V_13 = L_45;
+			IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+			Type_t * L_46 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(LinuxArpHardware_t4257672401_0_0_0_var), /*hidden argument*/NULL);
+			int32_t L_47 = V_13;
+			int32_t L_48 = L_47;
+			Il2CppObject * L_49 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_48);
+			IL2CPP_RUNTIME_CLASS_INIT(Enum_t2459695545_il2cpp_TypeInfo_var);
+			bool L_50 = Enum_IsDefined_m92789062(NULL /*static, unused*/, L_46, L_49, /*hidden argument*/NULL);
+			if (!L_50)
+			{
+				goto IL_027d;
+			}
+		}
+
+IL_01ba:
+		{
+			int32_t L_51 = V_13;
+			V_19 = L_51;
+			int32_t L_52 = V_19;
+			switch (((int32_t)((int32_t)L_52-(int32_t)((int32_t)768))))
+			{
+				case 0:
+				{
+					goto IL_0271;
+				}
+				case 1:
+				{
+					goto IL_026c;
+				}
+				case 2:
+				{
+					goto IL_01e7;
+				}
+				case 3:
+				{
+					goto IL_01e7;
+				}
+				case 4:
+				{
+					goto IL_0257;
+				}
+				case 5:
+				{
+					goto IL_01e7;
+				}
+				case 6:
+				{
+					goto IL_0263;
+				}
+			}
+		}
+
+IL_01e7:
+		{
+			int32_t L_53 = V_19;
+			switch (((int32_t)((int32_t)L_53-(int32_t)1)))
+			{
+				case 0:
+				{
+					goto IL_022b;
+				}
+				case 1:
+				{
+					goto IL_0226;
+				}
+				case 2:
+				{
+					goto IL_0200;
+				}
+				case 3:
+				{
+					goto IL_0233;
+				}
+			}
+		}
+
+IL_0200:
+		{
+			int32_t L_54 = V_19;
+			if ((((int32_t)L_54) == ((int32_t)((int32_t)19))))
+			{
+				goto IL_023c;
+			}
+		}
+
+IL_0209:
+		{
+			int32_t L_55 = V_19;
+			if ((((int32_t)L_55) == ((int32_t)((int32_t)256))))
+			{
+				goto IL_0245;
+			}
+		}
+
+IL_0215:
+		{
+			int32_t L_56 = V_19;
+			if ((((int32_t)L_56) == ((int32_t)((int32_t)512))))
+			{
+				goto IL_024e;
+			}
+		}
+
+IL_0221:
+		{
+			goto IL_027d;
+		}
+
+IL_0226:
+		{
+			goto IL_022b;
+		}
+
+IL_022b:
+		{
+			V_9 = 6;
+			goto IL_027d;
+		}
+
+IL_0233:
+		{
+			V_9 = ((int32_t)9);
+			goto IL_027d;
+		}
+
+IL_023c:
+		{
+			V_9 = ((int32_t)37);
+			goto IL_027d;
+		}
+
+IL_0245:
+		{
+			V_9 = ((int32_t)28);
+			goto IL_027d;
+		}
+
+IL_024e:
+		{
+			V_9 = ((int32_t)23);
+			goto IL_027d;
+		}
+
+IL_0257:
+		{
+			V_9 = ((int32_t)24);
+			V_8 = (ByteU5BU5D_t3397334013*)NULL;
+			goto IL_027d;
+		}
+
+IL_0263:
+		{
+			V_9 = ((int32_t)15);
+			goto IL_027d;
+		}
+
+IL_026c:
+		{
+			goto IL_0271;
+		}
+
+IL_0271:
+		{
+			V_9 = ((int32_t)131);
+			goto IL_027d;
+		}
+
+IL_027d:
+		{
+			V_14 = (LinuxNetworkInterface_t3864470295 *)NULL;
+			String_t* L_57 = V_6;
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			bool L_58 = String_IsNullOrEmpty_m2802126737(NULL /*static, unused*/, L_57, /*hidden argument*/NULL);
+			if (!L_58)
+			{
+				goto IL_02a6;
+			}
+		}
+
+IL_028c:
+		{
+			int32_t L_59 = V_3;
+			int32_t L_60 = ((int32_t)((int32_t)L_59+(int32_t)1));
+			V_3 = L_60;
+			V_20 = L_60;
+			String_t* L_61 = Int32_ToString_m2960866144((&V_20), /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_62 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral371857151, L_61, /*hidden argument*/NULL);
+			V_6 = L_62;
+		}
+
+IL_02a6:
+		{
+			Dictionary_2_t1484282261 * L_63 = V_0;
+			String_t* L_64 = V_6;
+			NullCheck(L_63);
+			bool L_65 = Dictionary_2_TryGetValue_m1993610529(L_63, L_64, (&V_14), /*hidden argument*/Dictionary_2_TryGetValue_m1993610529_MethodInfo_var);
+			if (L_65)
+			{
+				goto IL_02c8;
+			}
+		}
+
+IL_02b5:
+		{
+			String_t* L_66 = V_6;
+			LinuxNetworkInterface_t3864470295 * L_67 = (LinuxNetworkInterface_t3864470295 *)il2cpp_codegen_object_new(LinuxNetworkInterface_t3864470295_il2cpp_TypeInfo_var);
+			LinuxNetworkInterface__ctor_m4238128715(L_67, L_66, /*hidden argument*/NULL);
+			V_14 = L_67;
+			Dictionary_2_t1484282261 * L_68 = V_0;
+			String_t* L_69 = V_6;
+			LinuxNetworkInterface_t3864470295 * L_70 = V_14;
+			NullCheck(L_68);
+			Dictionary_2_Add_m3707596572(L_68, L_69, L_70, /*hidden argument*/Dictionary_2_Add_m3707596572_MethodInfo_var);
+		}
+
+IL_02c8:
+		{
+			IPAddress_t1399971723 * L_71 = V_5;
+			IL2CPP_RUNTIME_CLASS_INIT(IPAddress_t1399971723_il2cpp_TypeInfo_var);
+			IPAddress_t1399971723 * L_72 = ((IPAddress_t1399971723_StaticFields*)IPAddress_t1399971723_il2cpp_TypeInfo_var->static_fields)->get_None_7();
+			NullCheck(L_71);
+			bool L_73 = VirtFuncInvoker1< bool, Il2CppObject * >::Invoke(0 /* System.Boolean System.Net.IPAddress::Equals(System.Object) */, L_71, L_72);
+			if (L_73)
+			{
+				goto IL_02e2;
+			}
+		}
+
+IL_02d9:
+		{
+			LinuxNetworkInterface_t3864470295 * L_74 = V_14;
+			IPAddress_t1399971723 * L_75 = V_5;
+			NullCheck(L_74);
+			UnixNetworkInterface_AddAddress_m1147233883(L_74, L_75, /*hidden argument*/NULL);
+		}
+
+IL_02e2:
+		{
+			ByteU5BU5D_t3397334013* L_76 = V_8;
+			if (L_76)
+			{
+				goto IL_02f2;
+			}
+		}
+
+IL_02e9:
+		{
+			int32_t L_77 = V_9;
+			if ((!(((uint32_t)L_77) == ((uint32_t)((int32_t)24)))))
+			{
+				goto IL_0326;
+			}
+		}
+
+IL_02f2:
+		{
+			int32_t L_78 = V_9;
+			if ((!(((uint32_t)L_78) == ((uint32_t)6))))
+			{
+				goto IL_0319;
+			}
+		}
+
+IL_02fa:
+		{
+			LinuxNetworkInterface_t3864470295 * L_79 = V_14;
+			NullCheck(L_79);
+			String_t* L_80 = LinuxNetworkInterface_get_IfacePath_m3341314018(L_79, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_81 = String_Concat_m2596409543(NULL /*static, unused*/, L_80, _stringLiteral1314260986, /*hidden argument*/NULL);
+			bool L_82 = Directory_Exists_m2663601042(NULL /*static, unused*/, L_81, /*hidden argument*/NULL);
+			if (!L_82)
+			{
+				goto IL_0319;
+			}
+		}
+
+IL_0315:
+		{
+			V_9 = ((int32_t)71);
+		}
+
+IL_0319:
+		{
+			LinuxNetworkInterface_t3864470295 * L_83 = V_14;
+			int32_t L_84 = V_7;
+			ByteU5BU5D_t3397334013* L_85 = V_8;
+			int32_t L_86 = V_9;
+			NullCheck(L_83);
+			UnixNetworkInterface_SetLinkLayerInfo_m963974689(L_83, L_84, L_85, L_86, /*hidden argument*/NULL);
+		}
+
+IL_0326:
+		{
+			IntPtr_t L_87 = (&V_4)->get_ifa_next_0();
+			V_2 = L_87;
+		}
+
+IL_032e:
+		{
+			IntPtr_t L_88 = V_2;
+			IntPtr_t L_89 = ((IntPtr_t_StaticFields*)IntPtr_t_il2cpp_TypeInfo_var->static_fields)->get_Zero_1();
+			bool L_90 = IntPtr_op_Inequality_m3044532593(NULL /*static, unused*/, L_88, L_89, /*hidden argument*/NULL);
+			if (L_90)
+			{
+				goto IL_0026;
+			}
+		}
+
+IL_033e:
+		{
+			IL2CPP_LEAVE(0x34A, FINALLY_0343);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0343;
+	}
+
+FINALLY_0343:
+	{ // begin finally (depth: 1)
+		IntPtr_t L_91 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(LinuxNetworkInterface_t3864470295_il2cpp_TypeInfo_var);
+		LinuxNetworkInterface_FreeInterfaceAddresses_m1820854136(NULL /*static, unused*/, L_91, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(835)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(835)
+	{
+		IL2CPP_JUMP_TBL(0x34A, IL_034a)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_034a:
+	{
+		Dictionary_2_t1484282261 * L_92 = V_0;
+		NullCheck(L_92);
+		int32_t L_93 = Dictionary_2_get_Count_m2058765928(L_92, /*hidden argument*/Dictionary_2_get_Count_m2058765928_MethodInfo_var);
+		V_15 = ((NetworkInterfaceU5BU5D_t4157644364*)SZArrayNew(NetworkInterfaceU5BU5D_t4157644364_il2cpp_TypeInfo_var, (uint32_t)L_93));
+		V_16 = 0;
+		Dictionary_2_t1484282261 * L_94 = V_0;
+		NullCheck(L_94);
+		ValueCollection_t187342104 * L_95 = Dictionary_2_get_Values_m2443513886(L_94, /*hidden argument*/Dictionary_2_get_Values_m2443513886_MethodInfo_var);
+		NullCheck(L_95);
+		Enumerator_t3170815025  L_96 = ValueCollection_GetEnumerator_m4002148082(L_95, /*hidden argument*/ValueCollection_GetEnumerator_m4002148082_MethodInfo_var);
+		V_18 = L_96;
+	}
+
+IL_0367:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0382;
+		}
+
+IL_036c:
+		{
+			LinuxNetworkInterface_t3864470295 * L_97 = Enumerator_get_Current_m3838915172((&V_18), /*hidden argument*/Enumerator_get_Current_m3838915172_MethodInfo_var);
+			V_17 = L_97;
+			NetworkInterfaceU5BU5D_t4157644364* L_98 = V_15;
+			int32_t L_99 = V_16;
+			NetworkInterface_t63927633 * L_100 = V_17;
+			NullCheck(L_98);
+			ArrayElementTypeCheck (L_98, L_100);
+			(L_98)->SetAt(static_cast<il2cpp_array_size_t>(L_99), (NetworkInterface_t63927633 *)L_100);
+			int32_t L_101 = V_16;
+			V_16 = ((int32_t)((int32_t)L_101+(int32_t)1));
+		}
+
+IL_0382:
+		{
+			bool L_102 = Enumerator_MoveNext_m1097850751((&V_18), /*hidden argument*/Enumerator_MoveNext_m1097850751_MethodInfo_var);
+			if (L_102)
+			{
+				goto IL_036c;
+			}
+		}
+
+IL_038e:
+		{
+			IL2CPP_LEAVE(0x3A0, FINALLY_0393);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0393;
+	}
+
+FINALLY_0393:
+	{ // begin finally (depth: 1)
+		Enumerator_t3170815025  L_103 = V_18;
+		Enumerator_t3170815025  L_104 = L_103;
+		Il2CppObject * L_105 = Box(Enumerator_t3170815025_il2cpp_TypeInfo_var, &L_104);
+		NullCheck((Il2CppObject *)L_105);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, (Il2CppObject *)L_105);
+		IL2CPP_END_FINALLY(915)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(915)
+	{
+		IL2CPP_JUMP_TBL(0x3A0, IL_03a0)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_03a0:
+	{
+		NetworkInterfaceU5BU5D_t4157644364* L_106 = V_15;
+		return L_106;
+	}
+}
+// System.Net.NetworkInformation.IPInterfaceProperties System.Net.NetworkInformation.LinuxNetworkInterface::GetIPProperties()
+extern "C"  IPInterfaceProperties_t3986609851 * LinuxNetworkInterface_GetIPProperties_m4275696067 (LinuxNetworkInterface_t3864470295 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LinuxNetworkInterface_GetIPProperties_m4275696067_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IPInterfaceProperties_t3986609851 * L_0 = ((UnixNetworkInterface_t1000704527 *)__this)->get_ipproperties_3();
+		if (L_0)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		List_1_t769092855 * L_1 = ((UnixNetworkInterface_t1000704527 *)__this)->get_addresses_6();
+		LinuxIPInterfaceProperties_t3318447793 * L_2 = (LinuxIPInterfaceProperties_t3318447793 *)il2cpp_codegen_object_new(LinuxIPInterfaceProperties_t3318447793_il2cpp_TypeInfo_var);
+		LinuxIPInterfaceProperties__ctor_m280597575(L_2, __this, L_1, /*hidden argument*/NULL);
+		((UnixNetworkInterface_t1000704527 *)__this)->set_ipproperties_3(L_2);
+	}
+
+IL_001d:
+	{
+		IPInterfaceProperties_t3986609851 * L_3 = ((UnixNetworkInterface_t1000704527 *)__this)->get_ipproperties_3();
+		return L_3;
+	}
+}
+// System.Net.NetworkInformation.IPv4InterfaceStatistics System.Net.NetworkInformation.LinuxNetworkInterface::GetIPv4Statistics()
+extern "C"  IPv4InterfaceStatistics_t3946458365 * LinuxNetworkInterface_GetIPv4Statistics_m2897446963 (LinuxNetworkInterface_t3864470295 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LinuxNetworkInterface_GetIPv4Statistics_m2897446963_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IPv4InterfaceStatistics_t3946458365 * L_0 = ((UnixNetworkInterface_t1000704527 *)__this)->get_ipv4stats_2();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		LinuxIPv4InterfaceStatistics_t1133266275 * L_1 = (LinuxIPv4InterfaceStatistics_t1133266275 *)il2cpp_codegen_object_new(LinuxIPv4InterfaceStatistics_t1133266275_il2cpp_TypeInfo_var);
+		LinuxIPv4InterfaceStatistics__ctor_m1804543410(L_1, __this, /*hidden argument*/NULL);
+		((UnixNetworkInterface_t1000704527 *)__this)->set_ipv4stats_2(L_1);
+	}
+
+IL_0017:
+	{
+		IPv4InterfaceStatistics_t3946458365 * L_2 = ((UnixNetworkInterface_t1000704527 *)__this)->get_ipv4stats_2();
+		return L_2;
+	}
+}
+// System.Net.NetworkInformation.OperationalStatus System.Net.NetworkInformation.LinuxNetworkInterface::get_OperationalStatus()
+extern "C"  int32_t LinuxNetworkInterface_get_OperationalStatus_m1075747317 (LinuxNetworkInterface_t3864470295 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LinuxNetworkInterface_get_OperationalStatus_m1075747317_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	String_t* V_1 = NULL;
+	Dictionary_2_t3986656710 * V_2 = NULL;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		String_t* L_0 = __this->get_iface_path_13();
+		bool L_1 = Directory_Exists_m2663601042(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		if (L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return (int32_t)(4);
+	}
+
+IL_0012:
+	try
+	{ // begin try (depth: 1)
+		{
+			String_t* L_2 = __this->get_iface_operstate_path_14();
+			IL2CPP_RUNTIME_CLASS_INIT(NetworkInterface_t63927633_il2cpp_TypeInfo_var);
+			String_t* L_3 = NetworkInterface_ReadLine_m2401631100(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+			V_0 = L_3;
+			String_t* L_4 = V_0;
+			V_1 = L_4;
+			String_t* L_5 = V_1;
+			if (!L_5)
+			{
+				goto IL_0102;
+			}
+		}
+
+IL_0026:
+		{
+			IL2CPP_RUNTIME_CLASS_INIT(LinuxNetworkInterface_t3864470295_il2cpp_TypeInfo_var);
+			Dictionary_2_t3986656710 * L_6 = ((LinuxNetworkInterface_t3864470295_StaticFields*)LinuxNetworkInterface_t3864470295_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__switchU24map12_16();
+			if (L_6)
+			{
+				goto IL_0091;
+			}
+		}
+
+IL_0030:
+		{
+			Dictionary_2_t3986656710 * L_7 = (Dictionary_2_t3986656710 *)il2cpp_codegen_object_new(Dictionary_2_t3986656710_il2cpp_TypeInfo_var);
+			Dictionary_2__ctor_m2118310873(L_7, 7, /*hidden argument*/Dictionary_2__ctor_m2118310873_MethodInfo_var);
+			V_2 = L_7;
+			Dictionary_2_t3986656710 * L_8 = V_2;
+			NullCheck(L_8);
+			Dictionary_2_Add_m1209957957(L_8, _stringLiteral2845190196, 0, /*hidden argument*/Dictionary_2_Add_m1209957957_MethodInfo_var);
+			Dictionary_2_t3986656710 * L_9 = V_2;
+			NullCheck(L_9);
+			Dictionary_2_Add_m1209957957(L_9, _stringLiteral2928044950, 1, /*hidden argument*/Dictionary_2_Add_m1209957957_MethodInfo_var);
+			Dictionary_2_t3986656710 * L_10 = V_2;
+			NullCheck(L_10);
+			Dictionary_2_Add_m1209957957(L_10, _stringLiteral1367190538, 2, /*hidden argument*/Dictionary_2_Add_m1209957957_MethodInfo_var);
+			Dictionary_2_t3986656710 * L_11 = V_2;
+			NullCheck(L_11);
+			Dictionary_2_Add_m1209957957(L_11, _stringLiteral728246024, 3, /*hidden argument*/Dictionary_2_Add_m1209957957_MethodInfo_var);
+			Dictionary_2_t3986656710 * L_12 = V_2;
+			NullCheck(L_12);
+			Dictionary_2_Add_m1209957957(L_12, _stringLiteral2591132398, 4, /*hidden argument*/Dictionary_2_Add_m1209957957_MethodInfo_var);
+			Dictionary_2_t3986656710 * L_13 = V_2;
+			NullCheck(L_13);
+			Dictionary_2_Add_m1209957957(L_13, _stringLiteral452243667, 5, /*hidden argument*/Dictionary_2_Add_m1209957957_MethodInfo_var);
+			Dictionary_2_t3986656710 * L_14 = V_2;
+			NullCheck(L_14);
+			Dictionary_2_Add_m1209957957(L_14, _stringLiteral1543969241, 6, /*hidden argument*/Dictionary_2_Add_m1209957957_MethodInfo_var);
+			Dictionary_2_t3986656710 * L_15 = V_2;
+			IL2CPP_RUNTIME_CLASS_INIT(LinuxNetworkInterface_t3864470295_il2cpp_TypeInfo_var);
+			((LinuxNetworkInterface_t3864470295_StaticFields*)LinuxNetworkInterface_t3864470295_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__switchU24map12_16(L_15);
+		}
+
+IL_0091:
+		{
+			IL2CPP_RUNTIME_CLASS_INIT(LinuxNetworkInterface_t3864470295_il2cpp_TypeInfo_var);
+			Dictionary_2_t3986656710 * L_16 = ((LinuxNetworkInterface_t3864470295_StaticFields*)LinuxNetworkInterface_t3864470295_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__switchU24map12_16();
+			String_t* L_17 = V_1;
+			NullCheck(L_16);
+			bool L_18 = Dictionary_2_TryGetValue_m2977303364(L_16, L_17, (&V_3), /*hidden argument*/Dictionary_2_TryGetValue_m2977303364_MethodInfo_var);
+			if (!L_18)
+			{
+				goto IL_0102;
+			}
+		}
+
+IL_00a3:
+		{
+			int32_t L_19 = V_3;
+			switch (L_19)
+			{
+				case 0:
+				{
+					goto IL_00ca;
+				}
+				case 1:
+				{
+					goto IL_00d2;
+				}
+				case 2:
+				{
+					goto IL_00da;
+				}
+				case 3:
+				{
+					goto IL_00e2;
+				}
+				case 4:
+				{
+					goto IL_00ea;
+				}
+				case 5:
+				{
+					goto IL_00f2;
+				}
+				case 6:
+				{
+					goto IL_00fa;
+				}
+			}
+		}
+
+IL_00c5:
+		{
+			goto IL_0102;
+		}
+
+IL_00ca:
+		{
+			V_4 = 4;
+			goto IL_010f;
+		}
+
+IL_00d2:
+		{
+			V_4 = 6;
+			goto IL_010f;
+		}
+
+IL_00da:
+		{
+			V_4 = 2;
+			goto IL_010f;
+		}
+
+IL_00e2:
+		{
+			V_4 = 7;
+			goto IL_010f;
+		}
+
+IL_00ea:
+		{
+			V_4 = 3;
+			goto IL_010f;
+		}
+
+IL_00f2:
+		{
+			V_4 = 5;
+			goto IL_010f;
+		}
+
+IL_00fa:
+		{
+			V_4 = 1;
+			goto IL_010f;
+		}
+
+IL_0102:
+		{
+			goto IL_010d;
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1927440687 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (Il2CppObject_il2cpp_TypeInfo_var, e.ex->klass))
+			goto CATCH_0107;
+		throw e;
+	}
+
+CATCH_0107:
+	{ // begin catch(System.Object)
+		goto IL_010d;
+	} // end catch (depth: 1)
+
+IL_010d:
+	{
+		return (int32_t)(4);
+	}
+
+IL_010f:
+	{
+		int32_t L_20 = V_4;
+		return L_20;
+	}
+}
+// System.Boolean System.Net.NetworkInformation.LinuxNetworkInterface::get_SupportsMulticast()
+extern "C"  bool LinuxNetworkInterface_get_SupportsMulticast_m1900895388 (LinuxNetworkInterface_t3864470295 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LinuxNetworkInterface_get_SupportsMulticast_m1900895388_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	uint64_t V_1 = 0;
+	bool V_2 = false;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		String_t* L_0 = __this->get_iface_path_13();
+		bool L_1 = Directory_Exists_m2663601042(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		if (L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0012:
+	try
+	{ // begin try (depth: 1)
+		{
+			String_t* L_2 = __this->get_iface_flags_path_15();
+			IL2CPP_RUNTIME_CLASS_INIT(NetworkInterface_t63927633_il2cpp_TypeInfo_var);
+			String_t* L_3 = NetworkInterface_ReadLine_m2401631100(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+			V_0 = L_3;
+			String_t* L_4 = V_0;
+			NullCheck(L_4);
+			int32_t L_5 = String_get_Length_m1606060069(L_4, /*hidden argument*/NULL);
+			if ((((int32_t)L_5) <= ((int32_t)2)))
+			{
+				goto IL_004e;
+			}
+		}
+
+IL_002a:
+		{
+			String_t* L_6 = V_0;
+			NullCheck(L_6);
+			Il2CppChar L_7 = String_get_Chars_m4230566705(L_6, 0, /*hidden argument*/NULL);
+			if ((!(((uint32_t)L_7) == ((uint32_t)((int32_t)48)))))
+			{
+				goto IL_004e;
+			}
+		}
+
+IL_0038:
+		{
+			String_t* L_8 = V_0;
+			NullCheck(L_8);
+			Il2CppChar L_9 = String_get_Chars_m4230566705(L_8, 1, /*hidden argument*/NULL);
+			if ((!(((uint32_t)L_9) == ((uint32_t)((int32_t)120)))))
+			{
+				goto IL_004e;
+			}
+		}
+
+IL_0046:
+		{
+			String_t* L_10 = V_0;
+			NullCheck(L_10);
+			String_t* L_11 = String_Substring_m2032624251(L_10, 2, /*hidden argument*/NULL);
+			V_0 = L_11;
+		}
+
+IL_004e:
+		{
+			String_t* L_12 = V_0;
+			uint64_t L_13 = UInt64_Parse_m1319153771(NULL /*static, unused*/, L_12, ((int32_t)515), /*hidden argument*/NULL);
+			V_1 = L_13;
+			uint64_t L_14 = V_1;
+			V_2 = (bool)((((int64_t)((int64_t)((int64_t)L_14&(int64_t)(((int64_t)((int64_t)((int32_t)4096))))))) == ((int64_t)(((int64_t)((int64_t)((int32_t)4096))))))? 1 : 0);
+			goto IL_0082;
+		}
+
+IL_0070:
+		{
+			; // IL_0070: leave IL_0082
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1927440687 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (Il2CppObject_il2cpp_TypeInfo_var, e.ex->klass))
+			goto CATCH_0075;
+		throw e;
+	}
+
+CATCH_0075:
+	{ // begin catch(System.Object)
+		{
+			V_2 = (bool)0;
+			goto IL_0082;
+		}
+
+IL_007d:
+		{
+			; // IL_007d: leave IL_0082
+		}
+	} // end catch (depth: 1)
+
+IL_0082:
+	{
+		bool L_15 = V_2;
+		return L_15;
+	}
+}
+// System.Void System.Net.NetworkInformation.LinuxUnicastIPAddressInformation::.ctor(System.Net.IPAddress)
+extern "C"  void LinuxUnicastIPAddressInformation__ctor_m2878236655 (LinuxUnicastIPAddressInformation_t870378058 * __this, IPAddress_t1399971723 * ___address0, const MethodInfo* method)
+{
+	{
+		UnicastIPAddressInformation__ctor_m1145245090(__this, /*hidden argument*/NULL);
+		IPAddress_t1399971723 * L_0 = ___address0;
+		__this->set_address_0(L_0);
+		return;
+	}
+}
+// System.Net.IPAddress System.Net.NetworkInformation.LinuxUnicastIPAddressInformation::get_Address()
+extern "C"  IPAddress_t1399971723 * LinuxUnicastIPAddressInformation_get_Address_m3888621915 (LinuxUnicastIPAddressInformation_t870378058 * __this, const MethodInfo* method)
+{
+	{
+		IPAddress_t1399971723 * L_0 = __this->get_address_0();
+		return L_0;
+	}
+}
+// System.Boolean System.Net.NetworkInformation.LinuxUnicastIPAddressInformation::get_IsDnsEligible()
+extern "C"  bool LinuxUnicastIPAddressInformation_get_IsDnsEligible_m3877875601 (LinuxUnicastIPAddressInformation_t870378058 * __this, const MethodInfo* method)
+{
+	ByteU5BU5D_t3397334013* V_0 = NULL;
+	int32_t G_B3_0 = 0;
+	{
+		IPAddress_t1399971723 * L_0 = __this->get_address_0();
+		NullCheck(L_0);
+		ByteU5BU5D_t3397334013* L_1 = IPAddress_GetAddressBytes_m3037024450(L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		ByteU5BU5D_t3397334013* L_2 = V_0;
+		NullCheck(L_2);
+		int32_t L_3 = 0;
+		uint8_t L_4 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		if ((!(((uint32_t)L_4) == ((uint32_t)((int32_t)169)))))
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		ByteU5BU5D_t3397334013* L_5 = V_0;
+		NullCheck(L_5);
+		int32_t L_6 = 1;
+		uint8_t L_7 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		G_B3_0 = ((((int32_t)L_7) == ((int32_t)((int32_t)254)))? 1 : 0);
+		goto IL_0026;
+	}
+
+IL_0025:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0026:
+	{
+		return (bool)((((int32_t)G_B3_0) == ((int32_t)0))? 1 : 0);
+	}
+}
+// System.Boolean System.Net.NetworkInformation.LinuxUnicastIPAddressInformation::get_IsTransient()
+extern "C"  bool LinuxUnicastIPAddressInformation_get_IsTransient_m2253865985 (LinuxUnicastIPAddressInformation_t870378058 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.LinuxUnicastIPAddressInformation::get_AddressPreferredLifetime()
+extern "C"  int64_t LinuxUnicastIPAddressInformation_get_AddressPreferredLifetime_m3659061278 (LinuxUnicastIPAddressInformation_t870378058 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LinuxUnicastIPAddressInformation_get_AddressPreferredLifetime_m3659061278_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotImplementedException_t2785117854 * L_0 = (NotImplementedException_t2785117854 *)il2cpp_codegen_object_new(NotImplementedException_t2785117854_il2cpp_TypeInfo_var);
+		NotImplementedException__ctor_m808189835(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Int64 System.Net.NetworkInformation.LinuxUnicastIPAddressInformation::get_AddressValidLifetime()
+extern "C"  int64_t LinuxUnicastIPAddressInformation_get_AddressValidLifetime_m2643415969 (LinuxUnicastIPAddressInformation_t870378058 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LinuxUnicastIPAddressInformation_get_AddressValidLifetime_m2643415969_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotImplementedException_t2785117854 * L_0 = (NotImplementedException_t2785117854 *)il2cpp_codegen_object_new(NotImplementedException_t2785117854_il2cpp_TypeInfo_var);
+		NotImplementedException__ctor_m808189835(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Int64 System.Net.NetworkInformation.LinuxUnicastIPAddressInformation::get_DhcpLeaseLifetime()
+extern "C"  int64_t LinuxUnicastIPAddressInformation_get_DhcpLeaseLifetime_m4129451082 (LinuxUnicastIPAddressInformation_t870378058 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LinuxUnicastIPAddressInformation_get_DhcpLeaseLifetime_m4129451082_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotImplementedException_t2785117854 * L_0 = (NotImplementedException_t2785117854 *)il2cpp_codegen_object_new(NotImplementedException_t2785117854_il2cpp_TypeInfo_var);
+		NotImplementedException__ctor_m808189835(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Net.NetworkInformation.DuplicateAddressDetectionState System.Net.NetworkInformation.LinuxUnicastIPAddressInformation::get_DuplicateAddressDetectionState()
+extern "C"  int32_t LinuxUnicastIPAddressInformation_get_DuplicateAddressDetectionState_m2117221258 (LinuxUnicastIPAddressInformation_t870378058 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LinuxUnicastIPAddressInformation_get_DuplicateAddressDetectionState_m2117221258_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotImplementedException_t2785117854 * L_0 = (NotImplementedException_t2785117854 *)il2cpp_codegen_object_new(NotImplementedException_t2785117854_il2cpp_TypeInfo_var);
+		NotImplementedException__ctor_m808189835(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Net.IPAddress System.Net.NetworkInformation.LinuxUnicastIPAddressInformation::get_IPv4Mask()
+extern "C"  IPAddress_t1399971723 * LinuxUnicastIPAddressInformation_get_IPv4Mask_m2730788940 (LinuxUnicastIPAddressInformation_t870378058 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LinuxUnicastIPAddressInformation_get_IPv4Mask_m2730788940_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotImplementedException_t2785117854 * L_0 = (NotImplementedException_t2785117854 *)il2cpp_codegen_object_new(NotImplementedException_t2785117854_il2cpp_TypeInfo_var);
+		NotImplementedException__ctor_m808189835(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Net.NetworkInformation.PrefixOrigin System.Net.NetworkInformation.LinuxUnicastIPAddressInformation::get_PrefixOrigin()
+extern "C"  int32_t LinuxUnicastIPAddressInformation_get_PrefixOrigin_m57173032 (LinuxUnicastIPAddressInformation_t870378058 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LinuxUnicastIPAddressInformation_get_PrefixOrigin_m57173032_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotImplementedException_t2785117854 * L_0 = (NotImplementedException_t2785117854 *)il2cpp_codegen_object_new(NotImplementedException_t2785117854_il2cpp_TypeInfo_var);
+		NotImplementedException__ctor_m808189835(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Net.NetworkInformation.SuffixOrigin System.Net.NetworkInformation.LinuxUnicastIPAddressInformation::get_SuffixOrigin()
+extern "C"  int32_t LinuxUnicastIPAddressInformation_get_SuffixOrigin_m1148039026 (LinuxUnicastIPAddressInformation_t870378058 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LinuxUnicastIPAddressInformation_get_SuffixOrigin_m1148039026_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotImplementedException_t2785117854 * L_0 = (NotImplementedException_t2785117854 *)il2cpp_codegen_object_new(NotImplementedException_t2785117854_il2cpp_TypeInfo_var);
+		NotImplementedException__ctor_m808189835(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Net.NetworkInformation.MacOsIPInterfaceProperties::.ctor(System.Net.NetworkInformation.MacOsNetworkInterface,System.Collections.Generic.List`1<System.Net.IPAddress>)
+extern "C"  void MacOsIPInterfaceProperties__ctor_m4272031495 (MacOsIPInterfaceProperties_t3101377296 * __this, MacOsNetworkInterface_t1454185290 * ___iface0, List_1_t769092855 * ___addresses1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MacOsIPInterfaceProperties__ctor_m4272031495_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		MacOsNetworkInterface_t1454185290 * L_0 = ___iface0;
+		List_1_t769092855 * L_1 = ___addresses1;
+		IL2CPP_RUNTIME_CLASS_INIT(UnixIPInterfaceProperties_t2418091637_il2cpp_TypeInfo_var);
+		UnixIPInterfaceProperties__ctor_m2539088987(__this, L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Net.NetworkInformation.IPv4InterfaceProperties System.Net.NetworkInformation.MacOsIPInterfaceProperties::GetIPv4Properties()
+extern "C"  IPv4InterfaceProperties_t1411071681 * MacOsIPInterfaceProperties_GetIPv4Properties_m7097410 (MacOsIPInterfaceProperties_t3101377296 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MacOsIPInterfaceProperties_GetIPv4Properties_m7097410_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IPv4InterfaceProperties_t1411071681 * L_0 = ((UnixIPInterfaceProperties_t2418091637 *)__this)->get_ipv4iface_properties_0();
+		if (L_0)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		UnixNetworkInterface_t1000704527 * L_1 = ((UnixIPInterfaceProperties_t2418091637 *)__this)->get_iface_1();
+		MacOsIPv4InterfaceProperties_t2988669134 * L_2 = (MacOsIPv4InterfaceProperties_t2988669134 *)il2cpp_codegen_object_new(MacOsIPv4InterfaceProperties_t2988669134_il2cpp_TypeInfo_var);
+		MacOsIPv4InterfaceProperties__ctor_m1569035652(L_2, ((MacOsNetworkInterface_t1454185290 *)IsInstClass(L_1, MacOsNetworkInterface_t1454185290_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		((UnixIPInterfaceProperties_t2418091637 *)__this)->set_ipv4iface_properties_0(L_2);
+	}
+
+IL_0021:
+	{
+		IPv4InterfaceProperties_t1411071681 * L_3 = ((UnixIPInterfaceProperties_t2418091637 *)__this)->get_ipv4iface_properties_0();
+		return L_3;
+	}
+}
+// System.Void System.Net.NetworkInformation.MacOsIPv4InterfaceProperties::.ctor(System.Net.NetworkInformation.MacOsNetworkInterface)
+extern "C"  void MacOsIPv4InterfaceProperties__ctor_m1569035652 (MacOsIPv4InterfaceProperties_t2988669134 * __this, MacOsNetworkInterface_t1454185290 * ___iface0, const MethodInfo* method)
+{
+	{
+		MacOsNetworkInterface_t1454185290 * L_0 = ___iface0;
+		UnixIPv4InterfaceProperties__ctor_m796527670(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean System.Net.NetworkInformation.MacOsIPv4InterfaceProperties::get_IsForwardingEnabled()
+extern "C"  bool MacOsIPv4InterfaceProperties_get_IsForwardingEnabled_m353913537 (MacOsIPv4InterfaceProperties_t2988669134 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)0;
+	}
+}
+// System.Int32 System.Net.NetworkInformation.MacOsIPv4InterfaceProperties::get_Mtu()
+extern "C"  int32_t MacOsIPv4InterfaceProperties_get_Mtu_m2928093919 (MacOsIPv4InterfaceProperties_t2988669134 * __this, const MethodInfo* method)
+{
+	{
+		return 0;
+	}
+}
+// System.Void System.Net.NetworkInformation.MacOsIPv4InterfaceStatistics::.ctor(System.Net.NetworkInformation.MacOsNetworkInterface)
+extern "C"  void MacOsIPv4InterfaceStatistics__ctor_m3293870546 (MacOsIPv4InterfaceStatistics_t4240794432 * __this, MacOsNetworkInterface_t1454185290 * ___parent0, const MethodInfo* method)
+{
+	{
+		IPv4InterfaceStatistics__ctor_m2429547659(__this, /*hidden argument*/NULL);
+		MacOsNetworkInterface_t1454185290 * L_0 = ___parent0;
+		__this->set_macos_0(L_0);
+		return;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MacOsIPv4InterfaceStatistics::get_BytesReceived()
+extern "C"  int64_t MacOsIPv4InterfaceStatistics_get_BytesReceived_m4144544576 (MacOsIPv4InterfaceStatistics_t4240794432 * __this, const MethodInfo* method)
+{
+	{
+		return (((int64_t)((int64_t)0)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MacOsIPv4InterfaceStatistics::get_BytesSent()
+extern "C"  int64_t MacOsIPv4InterfaceStatistics_get_BytesSent_m1986669405 (MacOsIPv4InterfaceStatistics_t4240794432 * __this, const MethodInfo* method)
+{
+	{
+		return (((int64_t)((int64_t)0)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MacOsIPv4InterfaceStatistics::get_IncomingPacketsDiscarded()
+extern "C"  int64_t MacOsIPv4InterfaceStatistics_get_IncomingPacketsDiscarded_m864435930 (MacOsIPv4InterfaceStatistics_t4240794432 * __this, const MethodInfo* method)
+{
+	{
+		return (((int64_t)((int64_t)0)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MacOsIPv4InterfaceStatistics::get_IncomingPacketsWithErrors()
+extern "C"  int64_t MacOsIPv4InterfaceStatistics_get_IncomingPacketsWithErrors_m797261570 (MacOsIPv4InterfaceStatistics_t4240794432 * __this, const MethodInfo* method)
+{
+	{
+		return (((int64_t)((int64_t)0)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MacOsIPv4InterfaceStatistics::get_IncomingUnknownProtocolPackets()
+extern "C"  int64_t MacOsIPv4InterfaceStatistics_get_IncomingUnknownProtocolPackets_m3869666651 (MacOsIPv4InterfaceStatistics_t4240794432 * __this, const MethodInfo* method)
+{
+	{
+		return (((int64_t)((int64_t)0)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MacOsIPv4InterfaceStatistics::get_NonUnicastPacketsReceived()
+extern "C"  int64_t MacOsIPv4InterfaceStatistics_get_NonUnicastPacketsReceived_m1795872622 (MacOsIPv4InterfaceStatistics_t4240794432 * __this, const MethodInfo* method)
+{
+	{
+		return (((int64_t)((int64_t)0)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MacOsIPv4InterfaceStatistics::get_NonUnicastPacketsSent()
+extern "C"  int64_t MacOsIPv4InterfaceStatistics_get_NonUnicastPacketsSent_m407275279 (MacOsIPv4InterfaceStatistics_t4240794432 * __this, const MethodInfo* method)
+{
+	{
+		return (((int64_t)((int64_t)0)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MacOsIPv4InterfaceStatistics::get_OutgoingPacketsDiscarded()
+extern "C"  int64_t MacOsIPv4InterfaceStatistics_get_OutgoingPacketsDiscarded_m3134385816 (MacOsIPv4InterfaceStatistics_t4240794432 * __this, const MethodInfo* method)
+{
+	{
+		return (((int64_t)((int64_t)0)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MacOsIPv4InterfaceStatistics::get_OutgoingPacketsWithErrors()
+extern "C"  int64_t MacOsIPv4InterfaceStatistics_get_OutgoingPacketsWithErrors_m1787186192 (MacOsIPv4InterfaceStatistics_t4240794432 * __this, const MethodInfo* method)
+{
+	{
+		return (((int64_t)((int64_t)0)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MacOsIPv4InterfaceStatistics::get_OutputQueueLength()
+extern "C"  int64_t MacOsIPv4InterfaceStatistics_get_OutputQueueLength_m894463868 (MacOsIPv4InterfaceStatistics_t4240794432 * __this, const MethodInfo* method)
+{
+	{
+		return (((int64_t)((int64_t)0)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MacOsIPv4InterfaceStatistics::get_UnicastPacketsReceived()
+extern "C"  int64_t MacOsIPv4InterfaceStatistics_get_UnicastPacketsReceived_m3686900495 (MacOsIPv4InterfaceStatistics_t4240794432 * __this, const MethodInfo* method)
+{
+	{
+		return (((int64_t)((int64_t)0)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MacOsIPv4InterfaceStatistics::get_UnicastPacketsSent()
+extern "C"  int64_t MacOsIPv4InterfaceStatistics_get_UnicastPacketsSent_m2001495326 (MacOsIPv4InterfaceStatistics_t4240794432 * __this, const MethodInfo* method)
+{
+	{
+		return (((int64_t)((int64_t)0)));
+	}
+}
+// System.Void System.Net.NetworkInformation.MacOsNetworkInterface::.ctor(System.String)
+extern "C"  void MacOsNetworkInterface__ctor_m1351908890 (MacOsNetworkInterface_t1454185290 * __this, String_t* ___name0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___name0;
+		UnixNetworkInterface__ctor_m1628672279(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32 System.Net.NetworkInformation.MacOsNetworkInterface::getifaddrs(System.IntPtr&)
+extern "C"  int32_t MacOsNetworkInterface_getifaddrs_m2468800431 (Il2CppObject * __this /* static, unused */, IntPtr_t* ___ifap0, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t*);
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("libc"), "getifaddrs", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+
+		if (il2cppPInvokeFunc == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'getifaddrs'"));
+		}
+	}
+
+	// Marshaling of parameter '___ifap0' to native representation
+	intptr_t ____ifap0_empty = 0;
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(&____ifap0_empty);
+
+	// Marshaling of parameter '___ifap0' back from native representation
+	IntPtr_t ___ifap0_temp;
+	___ifap0_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(____ifap0_empty)));
+	*___ifap0 = ___ifap0_temp;
+
+	return returnValue;
+}
+// System.Void System.Net.NetworkInformation.MacOsNetworkInterface::freeifaddrs(System.IntPtr)
+extern "C"  void MacOsNetworkInterface_freeifaddrs_m3490628521 (Il2CppObject * __this /* static, unused */, IntPtr_t ___ifap0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("libc"), "freeifaddrs", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+
+		if (il2cppPInvokeFunc == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'freeifaddrs'"));
+		}
+	}
+
+	// Native function invocation
+	il2cppPInvokeFunc(reinterpret_cast<intptr_t>((___ifap0).get_m_value_0()));
+
+}
+// System.Net.NetworkInformation.NetworkInterface[] System.Net.NetworkInformation.MacOsNetworkInterface::ImplGetAllNetworkInterfaces()
+extern "C"  NetworkInterfaceU5BU5D_t4157644364* MacOsNetworkInterface_ImplGetAllNetworkInterfaces_m4010227571 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MacOsNetworkInterface_ImplGetAllNetworkInterfaces_m4010227571_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Dictionary_2_t3368964552 * V_0 = NULL;
+	IntPtr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	IntPtr_t V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	ifaddrs_t937751619  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	IPAddress_t1399971723 * V_4 = NULL;
+	String_t* V_5 = NULL;
+	int32_t V_6 = 0;
+	ByteU5BU5D_t3397334013* V_7 = NULL;
+	int32_t V_8 = 0;
+	sockaddr_t3329842375  V_9;
+	memset(&V_9, 0, sizeof(V_9));
+	sockaddr_in6_t834146887  V_10;
+	memset(&V_10, 0, sizeof(V_10));
+	sockaddr_in_t2792443317  V_11;
+	memset(&V_11, 0, sizeof(V_11));
+	sockaddr_dl_t3955242742  V_12;
+	memset(&V_12, 0, sizeof(V_12));
+	int32_t V_13 = 0;
+	MacOsNetworkInterface_t1454185290 * V_14 = NULL;
+	NetworkInterfaceU5BU5D_t4157644364* V_15 = NULL;
+	int32_t V_16 = 0;
+	NetworkInterface_t63927633 * V_17 = NULL;
+	Enumerator_t760530020  V_18;
+	memset(&V_18, 0, sizeof(V_18));
+	int32_t V_19 = 0;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Dictionary_2_t3368964552 * L_0 = (Dictionary_2_t3368964552 *)il2cpp_codegen_object_new(Dictionary_2_t3368964552_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m1475182665(L_0, /*hidden argument*/Dictionary_2__ctor_m1475182665_MethodInfo_var);
+		V_0 = L_0;
+		int32_t L_1 = MacOsNetworkInterface_getifaddrs_m2468800431(NULL /*static, unused*/, (&V_1), /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		SystemException_t3877406272 * L_2 = (SystemException_t3877406272 *)il2cpp_codegen_object_new(SystemException_t3877406272_il2cpp_TypeInfo_var);
+		SystemException__ctor_m4001391027(L_2, _stringLiteral547345107, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_001d:
+	try
+	{ // begin try (depth: 1)
+		{
+			IntPtr_t L_3 = V_1;
+			V_2 = L_3;
+			goto IL_0286;
+		}
+
+IL_0024:
+		{
+			IntPtr_t L_4 = V_2;
+			IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+			Type_t * L_5 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(ifaddrs_t937751619_0_0_0_var), /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+			Il2CppObject * L_6 = Marshal_PtrToStructure_m673412918(NULL /*static, unused*/, L_4, L_5, /*hidden argument*/NULL);
+			V_3 = ((*(ifaddrs_t937751619 *)((ifaddrs_t937751619 *)UnBox(L_6, ifaddrs_t937751619_il2cpp_TypeInfo_var))));
+			IL2CPP_RUNTIME_CLASS_INIT(IPAddress_t1399971723_il2cpp_TypeInfo_var);
+			IPAddress_t1399971723 * L_7 = ((IPAddress_t1399971723_StaticFields*)IPAddress_t1399971723_il2cpp_TypeInfo_var->static_fields)->get_None_7();
+			V_4 = L_7;
+			String_t* L_8 = (&V_3)->get_ifa_name_1();
+			V_5 = L_8;
+			V_6 = (-1);
+			V_7 = (ByteU5BU5D_t3397334013*)NULL;
+			V_8 = 1;
+			IntPtr_t L_9 = (&V_3)->get_ifa_addr_3();
+			IntPtr_t L_10 = ((IntPtr_t_StaticFields*)IntPtr_t_il2cpp_TypeInfo_var->static_fields)->get_Zero_1();
+			bool L_11 = IntPtr_op_Inequality_m3044532593(NULL /*static, unused*/, L_9, L_10, /*hidden argument*/NULL);
+			if (!L_11)
+			{
+				goto IL_0222;
+			}
+		}
+
+IL_0069:
+		{
+			IntPtr_t L_12 = (&V_3)->get_ifa_addr_3();
+			IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+			Type_t * L_13 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(sockaddr_t3329842375_0_0_0_var), /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+			Il2CppObject * L_14 = Marshal_PtrToStructure_m673412918(NULL /*static, unused*/, L_12, L_13, /*hidden argument*/NULL);
+			V_9 = ((*(sockaddr_t3329842375 *)((sockaddr_t3329842375 *)UnBox(L_14, sockaddr_t3329842375_il2cpp_TypeInfo_var))));
+			uint8_t L_15 = (&V_9)->get_sa_family_1();
+			if ((!(((uint32_t)L_15) == ((uint32_t)((int32_t)30)))))
+			{
+				goto IL_00d1;
+			}
+		}
+
+IL_0094:
+		{
+			IntPtr_t L_16 = (&V_3)->get_ifa_addr_3();
+			IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+			Type_t * L_17 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(sockaddr_in6_t834146887_0_0_0_var), /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+			Il2CppObject * L_18 = Marshal_PtrToStructure_m673412918(NULL /*static, unused*/, L_16, L_17, /*hidden argument*/NULL);
+			V_10 = ((*(sockaddr_in6_t834146887 *)((sockaddr_in6_t834146887 *)UnBox(L_18, sockaddr_in6_t834146887_il2cpp_TypeInfo_var))));
+			in6_addr_t1014645363 * L_19 = (&V_10)->get_address_of_sin6_addr_4();
+			ByteU5BU5D_t3397334013* L_20 = L_19->get_u6_addr8_0();
+			uint32_t L_21 = (&V_10)->get_sin6_scope_id_5();
+			IPAddress_t1399971723 * L_22 = (IPAddress_t1399971723 *)il2cpp_codegen_object_new(IPAddress_t1399971723_il2cpp_TypeInfo_var);
+			IPAddress__ctor_m3025538646(L_22, L_20, (((int64_t)((uint64_t)L_21))), /*hidden argument*/NULL);
+			V_4 = L_22;
+			goto IL_0222;
+		}
+
+IL_00d1:
+		{
+			uint8_t L_23 = (&V_9)->get_sa_family_1();
+			if ((!(((uint32_t)L_23) == ((uint32_t)2))))
+			{
+				goto IL_010f;
+			}
+		}
+
+IL_00de:
+		{
+			IntPtr_t L_24 = (&V_3)->get_ifa_addr_3();
+			IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+			Type_t * L_25 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(sockaddr_in_t2792443317_0_0_0_var), /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+			Il2CppObject * L_26 = Marshal_PtrToStructure_m673412918(NULL /*static, unused*/, L_24, L_25, /*hidden argument*/NULL);
+			V_11 = ((*(sockaddr_in_t2792443317 *)((sockaddr_in_t2792443317 *)UnBox(L_26, sockaddr_in_t2792443317_il2cpp_TypeInfo_var))));
+			uint32_t L_27 = (&V_11)->get_sin_addr_3();
+			IPAddress_t1399971723 * L_28 = (IPAddress_t1399971723 *)il2cpp_codegen_object_new(IPAddress_t1399971723_il2cpp_TypeInfo_var);
+			IPAddress__ctor_m4294749317(L_28, (((int64_t)((uint64_t)L_27))), /*hidden argument*/NULL);
+			V_4 = L_28;
+			goto IL_0222;
+		}
+
+IL_010f:
+		{
+			uint8_t L_29 = (&V_9)->get_sa_family_1();
+			if ((!(((uint32_t)L_29) == ((uint32_t)((int32_t)18)))))
+			{
+				goto IL_0222;
+			}
+		}
+
+IL_011d:
+		{
+			IntPtr_t L_30 = (&V_3)->get_ifa_addr_3();
+			IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+			Type_t * L_31 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(sockaddr_dl_t3955242742_0_0_0_var), /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+			Il2CppObject * L_32 = Marshal_PtrToStructure_m673412918(NULL /*static, unused*/, L_30, L_31, /*hidden argument*/NULL);
+			V_12 = ((*(sockaddr_dl_t3955242742 *)((sockaddr_dl_t3955242742 *)UnBox(L_32, sockaddr_dl_t3955242742_il2cpp_TypeInfo_var))));
+			uint8_t L_33 = (&V_12)->get_sdl_alen_5();
+			V_7 = ((ByteU5BU5D_t3397334013*)SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, (uint32_t)L_33));
+			ByteU5BU5D_t3397334013* L_34 = (&V_12)->get_sdl_data_7();
+			uint8_t L_35 = (&V_12)->get_sdl_nlen_4();
+			ByteU5BU5D_t3397334013* L_36 = V_7;
+			ByteU5BU5D_t3397334013* L_37 = V_7;
+			NullCheck(L_37);
+			ByteU5BU5D_t3397334013* L_38 = (&V_12)->get_sdl_data_7();
+			NullCheck(L_38);
+			uint8_t L_39 = (&V_12)->get_sdl_nlen_4();
+			int32_t L_40 = Math_Min_m4290821911(NULL /*static, unused*/, (((int32_t)((int32_t)(((Il2CppArray *)L_37)->max_length)))), ((int32_t)((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_38)->max_length))))-(int32_t)L_39)), /*hidden argument*/NULL);
+			Array_Copy_m3808317496(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_34, L_35, (Il2CppArray *)(Il2CppArray *)L_36, 0, L_40, /*hidden argument*/NULL);
+			uint16_t L_41 = (&V_12)->get_sdl_index_2();
+			V_6 = L_41;
+			uint8_t L_42 = (&V_12)->get_sdl_type_3();
+			V_13 = L_42;
+			Type_t * L_43 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(MacOsArpHardware_t650784048_0_0_0_var), /*hidden argument*/NULL);
+			int32_t L_44 = V_13;
+			int32_t L_45 = L_44;
+			Il2CppObject * L_46 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_45);
+			IL2CPP_RUNTIME_CLASS_INIT(Enum_t2459695545_il2cpp_TypeInfo_var);
+			bool L_47 = Enum_IsDefined_m92789062(NULL /*static, unused*/, L_43, L_46, /*hidden argument*/NULL);
+			if (!L_47)
+			{
+				goto IL_0222;
+			}
+		}
+
+IL_01a5:
+		{
+			int32_t L_48 = V_13;
+			V_19 = L_48;
+			int32_t L_49 = V_19;
+			switch (((int32_t)((int32_t)L_49-(int32_t)((int32_t)23))))
+			{
+				case 0:
+				{
+					goto IL_0204;
+				}
+				case 1:
+				{
+					goto IL_020d;
+				}
+				case 2:
+				{
+					goto IL_01cb;
+				}
+				case 3:
+				{
+					goto IL_01cb;
+				}
+				case 4:
+				{
+					goto IL_01cb;
+				}
+				case 5:
+				{
+					goto IL_01fb;
+				}
+			}
+		}
+
+IL_01cb:
+		{
+			int32_t L_50 = V_19;
+			if ((((int32_t)L_50) == ((int32_t)6)))
+			{
+				goto IL_01ea;
+			}
+		}
+
+IL_01d3:
+		{
+			int32_t L_51 = V_19;
+			if ((((int32_t)L_51) == ((int32_t)((int32_t)15))))
+			{
+				goto IL_0219;
+			}
+		}
+
+IL_01dc:
+		{
+			int32_t L_52 = V_19;
+			if ((((int32_t)L_52) == ((int32_t)((int32_t)37))))
+			{
+				goto IL_01f2;
+			}
+		}
+
+IL_01e5:
+		{
+			goto IL_0222;
+		}
+
+IL_01ea:
+		{
+			V_8 = 6;
+			goto IL_0222;
+		}
+
+IL_01f2:
+		{
+			V_8 = ((int32_t)37);
+			goto IL_0222;
+		}
+
+IL_01fb:
+		{
+			V_8 = ((int32_t)28);
+			goto IL_0222;
+		}
+
+IL_0204:
+		{
+			V_8 = ((int32_t)23);
+			goto IL_0222;
+		}
+
+IL_020d:
+		{
+			V_8 = ((int32_t)24);
+			V_7 = (ByteU5BU5D_t3397334013*)NULL;
+			goto IL_0222;
+		}
+
+IL_0219:
+		{
+			V_8 = ((int32_t)15);
+			goto IL_0222;
+		}
+
+IL_0222:
+		{
+			V_14 = (MacOsNetworkInterface_t1454185290 *)NULL;
+			Dictionary_2_t3368964552 * L_53 = V_0;
+			String_t* L_54 = V_5;
+			NullCheck(L_53);
+			bool L_55 = Dictionary_2_TryGetValue_m2306111192(L_53, L_54, (&V_14), /*hidden argument*/Dictionary_2_TryGetValue_m2306111192_MethodInfo_var);
+			if (L_55)
+			{
+				goto IL_0247;
+			}
+		}
+
+IL_0234:
+		{
+			String_t* L_56 = V_5;
+			MacOsNetworkInterface_t1454185290 * L_57 = (MacOsNetworkInterface_t1454185290 *)il2cpp_codegen_object_new(MacOsNetworkInterface_t1454185290_il2cpp_TypeInfo_var);
+			MacOsNetworkInterface__ctor_m1351908890(L_57, L_56, /*hidden argument*/NULL);
+			V_14 = L_57;
+			Dictionary_2_t3368964552 * L_58 = V_0;
+			String_t* L_59 = V_5;
+			MacOsNetworkInterface_t1454185290 * L_60 = V_14;
+			NullCheck(L_58);
+			Dictionary_2_Add_m1882884369(L_58, L_59, L_60, /*hidden argument*/Dictionary_2_Add_m1882884369_MethodInfo_var);
+		}
+
+IL_0247:
+		{
+			IPAddress_t1399971723 * L_61 = V_4;
+			IL2CPP_RUNTIME_CLASS_INIT(IPAddress_t1399971723_il2cpp_TypeInfo_var);
+			IPAddress_t1399971723 * L_62 = ((IPAddress_t1399971723_StaticFields*)IPAddress_t1399971723_il2cpp_TypeInfo_var->static_fields)->get_None_7();
+			NullCheck(L_61);
+			bool L_63 = VirtFuncInvoker1< bool, Il2CppObject * >::Invoke(0 /* System.Boolean System.Net.IPAddress::Equals(System.Object) */, L_61, L_62);
+			if (L_63)
+			{
+				goto IL_0261;
+			}
+		}
+
+IL_0258:
+		{
+			MacOsNetworkInterface_t1454185290 * L_64 = V_14;
+			IPAddress_t1399971723 * L_65 = V_4;
+			NullCheck(L_64);
+			UnixNetworkInterface_AddAddress_m1147233883(L_64, L_65, /*hidden argument*/NULL);
+		}
+
+IL_0261:
+		{
+			ByteU5BU5D_t3397334013* L_66 = V_7;
+			if (L_66)
+			{
+				goto IL_0271;
+			}
+		}
+
+IL_0268:
+		{
+			int32_t L_67 = V_8;
+			if ((!(((uint32_t)L_67) == ((uint32_t)((int32_t)24)))))
+			{
+				goto IL_027e;
+			}
+		}
+
+IL_0271:
+		{
+			MacOsNetworkInterface_t1454185290 * L_68 = V_14;
+			int32_t L_69 = V_6;
+			ByteU5BU5D_t3397334013* L_70 = V_7;
+			int32_t L_71 = V_8;
+			NullCheck(L_68);
+			UnixNetworkInterface_SetLinkLayerInfo_m963974689(L_68, L_69, L_70, L_71, /*hidden argument*/NULL);
+		}
+
+IL_027e:
+		{
+			IntPtr_t L_72 = (&V_3)->get_ifa_next_0();
+			V_2 = L_72;
+		}
+
+IL_0286:
+		{
+			IntPtr_t L_73 = V_2;
+			IntPtr_t L_74 = ((IntPtr_t_StaticFields*)IntPtr_t_il2cpp_TypeInfo_var->static_fields)->get_Zero_1();
+			bool L_75 = IntPtr_op_Inequality_m3044532593(NULL /*static, unused*/, L_73, L_74, /*hidden argument*/NULL);
+			if (L_75)
+			{
+				goto IL_0024;
+			}
+		}
+
+IL_0296:
+		{
+			IL2CPP_LEAVE(0x2A2, FINALLY_029b);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_029b;
+	}
+
+FINALLY_029b:
+	{ // begin finally (depth: 1)
+		IntPtr_t L_76 = V_1;
+		MacOsNetworkInterface_freeifaddrs_m3490628521(NULL /*static, unused*/, L_76, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(667)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(667)
+	{
+		IL2CPP_JUMP_TBL(0x2A2, IL_02a2)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_02a2:
+	{
+		Dictionary_2_t3368964552 * L_77 = V_0;
+		NullCheck(L_77);
+		int32_t L_78 = Dictionary_2_get_Count_m3715009865(L_77, /*hidden argument*/Dictionary_2_get_Count_m3715009865_MethodInfo_var);
+		V_15 = ((NetworkInterfaceU5BU5D_t4157644364*)SZArrayNew(NetworkInterfaceU5BU5D_t4157644364_il2cpp_TypeInfo_var, (uint32_t)L_78));
+		V_16 = 0;
+		Dictionary_2_t3368964552 * L_79 = V_0;
+		NullCheck(L_79);
+		ValueCollection_t2072024395 * L_80 = Dictionary_2_get_Values_m2529882243(L_79, /*hidden argument*/Dictionary_2_get_Values_m2529882243_MethodInfo_var);
+		NullCheck(L_80);
+		Enumerator_t760530020  L_81 = ValueCollection_GetEnumerator_m862288733(L_80, /*hidden argument*/ValueCollection_GetEnumerator_m862288733_MethodInfo_var);
+		V_18 = L_81;
+	}
+
+IL_02bf:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_02da;
+		}
+
+IL_02c4:
+		{
+			MacOsNetworkInterface_t1454185290 * L_82 = Enumerator_get_Current_m1462122755((&V_18), /*hidden argument*/Enumerator_get_Current_m1462122755_MethodInfo_var);
+			V_17 = L_82;
+			NetworkInterfaceU5BU5D_t4157644364* L_83 = V_15;
+			int32_t L_84 = V_16;
+			NetworkInterface_t63927633 * L_85 = V_17;
+			NullCheck(L_83);
+			ArrayElementTypeCheck (L_83, L_85);
+			(L_83)->SetAt(static_cast<il2cpp_array_size_t>(L_84), (NetworkInterface_t63927633 *)L_85);
+			int32_t L_86 = V_16;
+			V_16 = ((int32_t)((int32_t)L_86+(int32_t)1));
+		}
+
+IL_02da:
+		{
+			bool L_87 = Enumerator_MoveNext_m323052256((&V_18), /*hidden argument*/Enumerator_MoveNext_m323052256_MethodInfo_var);
+			if (L_87)
+			{
+				goto IL_02c4;
+			}
+		}
+
+IL_02e6:
+		{
+			IL2CPP_LEAVE(0x2F8, FINALLY_02eb);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_02eb;
+	}
+
+FINALLY_02eb:
+	{ // begin finally (depth: 1)
+		Enumerator_t760530020  L_88 = V_18;
+		Enumerator_t760530020  L_89 = L_88;
+		Il2CppObject * L_90 = Box(Enumerator_t760530020_il2cpp_TypeInfo_var, &L_89);
+		NullCheck((Il2CppObject *)L_90);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, (Il2CppObject *)L_90);
+		IL2CPP_END_FINALLY(747)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(747)
+	{
+		IL2CPP_JUMP_TBL(0x2F8, IL_02f8)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_02f8:
+	{
+		NetworkInterfaceU5BU5D_t4157644364* L_91 = V_15;
+		return L_91;
+	}
+}
+// System.Net.NetworkInformation.IPInterfaceProperties System.Net.NetworkInformation.MacOsNetworkInterface::GetIPProperties()
+extern "C"  IPInterfaceProperties_t3986609851 * MacOsNetworkInterface_GetIPProperties_m1108478090 (MacOsNetworkInterface_t1454185290 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MacOsNetworkInterface_GetIPProperties_m1108478090_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IPInterfaceProperties_t3986609851 * L_0 = ((UnixNetworkInterface_t1000704527 *)__this)->get_ipproperties_3();
+		if (L_0)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		List_1_t769092855 * L_1 = ((UnixNetworkInterface_t1000704527 *)__this)->get_addresses_6();
+		MacOsIPInterfaceProperties_t3101377296 * L_2 = (MacOsIPInterfaceProperties_t3101377296 *)il2cpp_codegen_object_new(MacOsIPInterfaceProperties_t3101377296_il2cpp_TypeInfo_var);
+		MacOsIPInterfaceProperties__ctor_m4272031495(L_2, __this, L_1, /*hidden argument*/NULL);
+		((UnixNetworkInterface_t1000704527 *)__this)->set_ipproperties_3(L_2);
+	}
+
+IL_001d:
+	{
+		IPInterfaceProperties_t3986609851 * L_3 = ((UnixNetworkInterface_t1000704527 *)__this)->get_ipproperties_3();
+		return L_3;
+	}
+}
+// System.Net.NetworkInformation.IPv4InterfaceStatistics System.Net.NetworkInformation.MacOsNetworkInterface::GetIPv4Statistics()
+extern "C"  IPv4InterfaceStatistics_t3946458365 * MacOsNetworkInterface_GetIPv4Statistics_m4035202802 (MacOsNetworkInterface_t1454185290 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MacOsNetworkInterface_GetIPv4Statistics_m4035202802_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IPv4InterfaceStatistics_t3946458365 * L_0 = ((UnixNetworkInterface_t1000704527 *)__this)->get_ipv4stats_2();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		MacOsIPv4InterfaceStatistics_t4240794432 * L_1 = (MacOsIPv4InterfaceStatistics_t4240794432 *)il2cpp_codegen_object_new(MacOsIPv4InterfaceStatistics_t4240794432_il2cpp_TypeInfo_var);
+		MacOsIPv4InterfaceStatistics__ctor_m3293870546(L_1, __this, /*hidden argument*/NULL);
+		((UnixNetworkInterface_t1000704527 *)__this)->set_ipv4stats_2(L_1);
+	}
+
+IL_0017:
+	{
+		IPv4InterfaceStatistics_t3946458365 * L_2 = ((UnixNetworkInterface_t1000704527 *)__this)->get_ipv4stats_2();
+		return L_2;
+	}
+}
+// System.Net.NetworkInformation.OperationalStatus System.Net.NetworkInformation.MacOsNetworkInterface::get_OperationalStatus()
+extern "C"  int32_t MacOsNetworkInterface_get_OperationalStatus_m1712017450 (MacOsNetworkInterface_t1454185290 * __this, const MethodInfo* method)
+{
+	{
+		return (int32_t)(4);
+	}
+}
+// System.Boolean System.Net.NetworkInformation.MacOsNetworkInterface::get_SupportsMulticast()
+extern "C"  bool MacOsNetworkInterface_get_SupportsMulticast_m3696199701 (MacOsNetworkInterface_t1454185290 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)0;
+	}
+}
+// Conversion methods for marshalling of: System.Net.NetworkInformation.MacOsStructs.ifaddrs
+extern "C" void ifaddrs_t937751619_marshal_pinvoke(const ifaddrs_t937751619& unmarshaled, ifaddrs_t937751619_marshaled_pinvoke& marshaled)
+{
+	marshaled.___ifa_next_0 = reinterpret_cast<intptr_t>((unmarshaled.get_ifa_next_0()).get_m_value_0());
+	marshaled.___ifa_name_1 = il2cpp_codegen_marshal_string(unmarshaled.get_ifa_name_1());
+	marshaled.___ifa_flags_2 = unmarshaled.get_ifa_flags_2();
+	marshaled.___ifa_addr_3 = reinterpret_cast<intptr_t>((unmarshaled.get_ifa_addr_3()).get_m_value_0());
+	marshaled.___ifa_netmask_4 = reinterpret_cast<intptr_t>((unmarshaled.get_ifa_netmask_4()).get_m_value_0());
+	marshaled.___ifa_dstaddr_5 = reinterpret_cast<intptr_t>((unmarshaled.get_ifa_dstaddr_5()).get_m_value_0());
+	marshaled.___ifa_data_6 = reinterpret_cast<intptr_t>((unmarshaled.get_ifa_data_6()).get_m_value_0());
+}
+extern "C" void ifaddrs_t937751619_marshal_pinvoke_back(const ifaddrs_t937751619_marshaled_pinvoke& marshaled, ifaddrs_t937751619& unmarshaled)
+{
+	IntPtr_t unmarshaled_ifa_next_temp_0;
+	memset(&unmarshaled_ifa_next_temp_0, 0, sizeof(unmarshaled_ifa_next_temp_0));
+	IntPtr_t unmarshaled_ifa_next_temp_0_temp;
+	unmarshaled_ifa_next_temp_0_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(marshaled.___ifa_next_0)));
+	unmarshaled_ifa_next_temp_0 = unmarshaled_ifa_next_temp_0_temp;
+	unmarshaled.set_ifa_next_0(unmarshaled_ifa_next_temp_0);
+	unmarshaled.set_ifa_name_1(il2cpp_codegen_marshal_string_result(marshaled.___ifa_name_1));
+	uint32_t unmarshaled_ifa_flags_temp_2 = 0;
+	unmarshaled_ifa_flags_temp_2 = marshaled.___ifa_flags_2;
+	unmarshaled.set_ifa_flags_2(unmarshaled_ifa_flags_temp_2);
+	IntPtr_t unmarshaled_ifa_addr_temp_3;
+	memset(&unmarshaled_ifa_addr_temp_3, 0, sizeof(unmarshaled_ifa_addr_temp_3));
+	IntPtr_t unmarshaled_ifa_addr_temp_3_temp;
+	unmarshaled_ifa_addr_temp_3_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(marshaled.___ifa_addr_3)));
+	unmarshaled_ifa_addr_temp_3 = unmarshaled_ifa_addr_temp_3_temp;
+	unmarshaled.set_ifa_addr_3(unmarshaled_ifa_addr_temp_3);
+	IntPtr_t unmarshaled_ifa_netmask_temp_4;
+	memset(&unmarshaled_ifa_netmask_temp_4, 0, sizeof(unmarshaled_ifa_netmask_temp_4));
+	IntPtr_t unmarshaled_ifa_netmask_temp_4_temp;
+	unmarshaled_ifa_netmask_temp_4_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(marshaled.___ifa_netmask_4)));
+	unmarshaled_ifa_netmask_temp_4 = unmarshaled_ifa_netmask_temp_4_temp;
+	unmarshaled.set_ifa_netmask_4(unmarshaled_ifa_netmask_temp_4);
+	IntPtr_t unmarshaled_ifa_dstaddr_temp_5;
+	memset(&unmarshaled_ifa_dstaddr_temp_5, 0, sizeof(unmarshaled_ifa_dstaddr_temp_5));
+	IntPtr_t unmarshaled_ifa_dstaddr_temp_5_temp;
+	unmarshaled_ifa_dstaddr_temp_5_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(marshaled.___ifa_dstaddr_5)));
+	unmarshaled_ifa_dstaddr_temp_5 = unmarshaled_ifa_dstaddr_temp_5_temp;
+	unmarshaled.set_ifa_dstaddr_5(unmarshaled_ifa_dstaddr_temp_5);
+	IntPtr_t unmarshaled_ifa_data_temp_6;
+	memset(&unmarshaled_ifa_data_temp_6, 0, sizeof(unmarshaled_ifa_data_temp_6));
+	IntPtr_t unmarshaled_ifa_data_temp_6_temp;
+	unmarshaled_ifa_data_temp_6_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(marshaled.___ifa_data_6)));
+	unmarshaled_ifa_data_temp_6 = unmarshaled_ifa_data_temp_6_temp;
+	unmarshaled.set_ifa_data_6(unmarshaled_ifa_data_temp_6);
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.MacOsStructs.ifaddrs
+extern "C" void ifaddrs_t937751619_marshal_pinvoke_cleanup(ifaddrs_t937751619_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_marshal_free(marshaled.___ifa_name_1);
+	marshaled.___ifa_name_1 = NULL;
+}
+// Conversion methods for marshalling of: System.Net.NetworkInformation.MacOsStructs.ifaddrs
+extern "C" void ifaddrs_t937751619_marshal_com(const ifaddrs_t937751619& unmarshaled, ifaddrs_t937751619_marshaled_com& marshaled)
+{
+	marshaled.___ifa_next_0 = reinterpret_cast<intptr_t>((unmarshaled.get_ifa_next_0()).get_m_value_0());
+	marshaled.___ifa_name_1 = il2cpp_codegen_marshal_bstring(unmarshaled.get_ifa_name_1());
+	marshaled.___ifa_flags_2 = unmarshaled.get_ifa_flags_2();
+	marshaled.___ifa_addr_3 = reinterpret_cast<intptr_t>((unmarshaled.get_ifa_addr_3()).get_m_value_0());
+	marshaled.___ifa_netmask_4 = reinterpret_cast<intptr_t>((unmarshaled.get_ifa_netmask_4()).get_m_value_0());
+	marshaled.___ifa_dstaddr_5 = reinterpret_cast<intptr_t>((unmarshaled.get_ifa_dstaddr_5()).get_m_value_0());
+	marshaled.___ifa_data_6 = reinterpret_cast<intptr_t>((unmarshaled.get_ifa_data_6()).get_m_value_0());
+}
+extern "C" void ifaddrs_t937751619_marshal_com_back(const ifaddrs_t937751619_marshaled_com& marshaled, ifaddrs_t937751619& unmarshaled)
+{
+	IntPtr_t unmarshaled_ifa_next_temp_0;
+	memset(&unmarshaled_ifa_next_temp_0, 0, sizeof(unmarshaled_ifa_next_temp_0));
+	IntPtr_t unmarshaled_ifa_next_temp_0_temp;
+	unmarshaled_ifa_next_temp_0_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(marshaled.___ifa_next_0)));
+	unmarshaled_ifa_next_temp_0 = unmarshaled_ifa_next_temp_0_temp;
+	unmarshaled.set_ifa_next_0(unmarshaled_ifa_next_temp_0);
+	unmarshaled.set_ifa_name_1(il2cpp_codegen_marshal_bstring_result(marshaled.___ifa_name_1));
+	uint32_t unmarshaled_ifa_flags_temp_2 = 0;
+	unmarshaled_ifa_flags_temp_2 = marshaled.___ifa_flags_2;
+	unmarshaled.set_ifa_flags_2(unmarshaled_ifa_flags_temp_2);
+	IntPtr_t unmarshaled_ifa_addr_temp_3;
+	memset(&unmarshaled_ifa_addr_temp_3, 0, sizeof(unmarshaled_ifa_addr_temp_3));
+	IntPtr_t unmarshaled_ifa_addr_temp_3_temp;
+	unmarshaled_ifa_addr_temp_3_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(marshaled.___ifa_addr_3)));
+	unmarshaled_ifa_addr_temp_3 = unmarshaled_ifa_addr_temp_3_temp;
+	unmarshaled.set_ifa_addr_3(unmarshaled_ifa_addr_temp_3);
+	IntPtr_t unmarshaled_ifa_netmask_temp_4;
+	memset(&unmarshaled_ifa_netmask_temp_4, 0, sizeof(unmarshaled_ifa_netmask_temp_4));
+	IntPtr_t unmarshaled_ifa_netmask_temp_4_temp;
+	unmarshaled_ifa_netmask_temp_4_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(marshaled.___ifa_netmask_4)));
+	unmarshaled_ifa_netmask_temp_4 = unmarshaled_ifa_netmask_temp_4_temp;
+	unmarshaled.set_ifa_netmask_4(unmarshaled_ifa_netmask_temp_4);
+	IntPtr_t unmarshaled_ifa_dstaddr_temp_5;
+	memset(&unmarshaled_ifa_dstaddr_temp_5, 0, sizeof(unmarshaled_ifa_dstaddr_temp_5));
+	IntPtr_t unmarshaled_ifa_dstaddr_temp_5_temp;
+	unmarshaled_ifa_dstaddr_temp_5_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(marshaled.___ifa_dstaddr_5)));
+	unmarshaled_ifa_dstaddr_temp_5 = unmarshaled_ifa_dstaddr_temp_5_temp;
+	unmarshaled.set_ifa_dstaddr_5(unmarshaled_ifa_dstaddr_temp_5);
+	IntPtr_t unmarshaled_ifa_data_temp_6;
+	memset(&unmarshaled_ifa_data_temp_6, 0, sizeof(unmarshaled_ifa_data_temp_6));
+	IntPtr_t unmarshaled_ifa_data_temp_6_temp;
+	unmarshaled_ifa_data_temp_6_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(marshaled.___ifa_data_6)));
+	unmarshaled_ifa_data_temp_6 = unmarshaled_ifa_data_temp_6_temp;
+	unmarshaled.set_ifa_data_6(unmarshaled_ifa_data_temp_6);
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.MacOsStructs.ifaddrs
+extern "C" void ifaddrs_t937751619_marshal_com_cleanup(ifaddrs_t937751619_marshaled_com& marshaled)
+{
+	il2cpp_codegen_marshal_free_bstring(marshaled.___ifa_name_1);
+	marshaled.___ifa_name_1 = NULL;
+}
+// Conversion methods for marshalling of: System.Net.NetworkInformation.MacOsStructs.in6_addr
+extern "C" void in6_addr_t1014645363_marshal_pinvoke(const in6_addr_t1014645363& unmarshaled, in6_addr_t1014645363_marshaled_pinvoke& marshaled)
+{
+	if (unmarshaled.get_u6_addr8_0() != NULL)
+	{
+		if (16 > (unmarshaled.get_u6_addr8_0())->max_length)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_exception("", "Type could not be marshaled because the length of an embedded array instance does not match the declared length in the layout."));
+		}
+
+		for (int32_t i = 0; i < 16; i++)
+		{
+			(marshaled.___u6_addr8_0)[i] = (unmarshaled.get_u6_addr8_0())->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i));
+		}
+	}
+}
+extern "C" void in6_addr_t1014645363_marshal_pinvoke_back(const in6_addr_t1014645363_marshaled_pinvoke& marshaled, in6_addr_t1014645363& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (in6_addr_t1014645363_pinvoke_FromNativeMethodDefinition_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	unmarshaled.set_u6_addr8_0(reinterpret_cast<ByteU5BU5D_t3397334013*>(SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, 16)));
+	for (int32_t i = 0; i < 16; i++)
+	{
+		(unmarshaled.get_u6_addr8_0())->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), (marshaled.___u6_addr8_0)[i]);
+	}
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.MacOsStructs.in6_addr
+extern "C" void in6_addr_t1014645363_marshal_pinvoke_cleanup(in6_addr_t1014645363_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: System.Net.NetworkInformation.MacOsStructs.in6_addr
+extern "C" void in6_addr_t1014645363_marshal_com(const in6_addr_t1014645363& unmarshaled, in6_addr_t1014645363_marshaled_com& marshaled)
+{
+	if (unmarshaled.get_u6_addr8_0() != NULL)
+	{
+		if (16 > (unmarshaled.get_u6_addr8_0())->max_length)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_exception("", "Type could not be marshaled because the length of an embedded array instance does not match the declared length in the layout."));
+		}
+
+		for (int32_t i = 0; i < 16; i++)
+		{
+			(marshaled.___u6_addr8_0)[i] = (unmarshaled.get_u6_addr8_0())->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i));
+		}
+	}
+}
+extern "C" void in6_addr_t1014645363_marshal_com_back(const in6_addr_t1014645363_marshaled_com& marshaled, in6_addr_t1014645363& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (in6_addr_t1014645363_com_FromNativeMethodDefinition_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	unmarshaled.set_u6_addr8_0(reinterpret_cast<ByteU5BU5D_t3397334013*>(SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, 16)));
+	for (int32_t i = 0; i < 16; i++)
+	{
+		(unmarshaled.get_u6_addr8_0())->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), (marshaled.___u6_addr8_0)[i]);
+	}
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.MacOsStructs.in6_addr
+extern "C" void in6_addr_t1014645363_marshal_com_cleanup(in6_addr_t1014645363_marshaled_com& marshaled)
+{
+}
+// Conversion methods for marshalling of: System.Net.NetworkInformation.MacOsStructs.sockaddr_dl
+extern "C" void sockaddr_dl_t3955242742_marshal_pinvoke(const sockaddr_dl_t3955242742& unmarshaled, sockaddr_dl_t3955242742_marshaled_pinvoke& marshaled)
+{
+	marshaled.___sdl_len_0 = unmarshaled.get_sdl_len_0();
+	marshaled.___sdl_family_1 = unmarshaled.get_sdl_family_1();
+	marshaled.___sdl_index_2 = unmarshaled.get_sdl_index_2();
+	marshaled.___sdl_type_3 = unmarshaled.get_sdl_type_3();
+	marshaled.___sdl_nlen_4 = unmarshaled.get_sdl_nlen_4();
+	marshaled.___sdl_alen_5 = unmarshaled.get_sdl_alen_5();
+	marshaled.___sdl_slen_6 = unmarshaled.get_sdl_slen_6();
+	if (unmarshaled.get_sdl_data_7() != NULL)
+	{
+		if (12 > (unmarshaled.get_sdl_data_7())->max_length)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_exception("", "Type could not be marshaled because the length of an embedded array instance does not match the declared length in the layout."));
+		}
+
+		for (int32_t i = 0; i < 12; i++)
+		{
+			(marshaled.___sdl_data_7)[i] = (unmarshaled.get_sdl_data_7())->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i));
+		}
+	}
+}
+extern "C" void sockaddr_dl_t3955242742_marshal_pinvoke_back(const sockaddr_dl_t3955242742_marshaled_pinvoke& marshaled, sockaddr_dl_t3955242742& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (sockaddr_dl_t3955242742_pinvoke_FromNativeMethodDefinition_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint8_t unmarshaled_sdl_len_temp_0 = 0x0;
+	unmarshaled_sdl_len_temp_0 = marshaled.___sdl_len_0;
+	unmarshaled.set_sdl_len_0(unmarshaled_sdl_len_temp_0);
+	uint8_t unmarshaled_sdl_family_temp_1 = 0x0;
+	unmarshaled_sdl_family_temp_1 = marshaled.___sdl_family_1;
+	unmarshaled.set_sdl_family_1(unmarshaled_sdl_family_temp_1);
+	uint16_t unmarshaled_sdl_index_temp_2 = 0;
+	unmarshaled_sdl_index_temp_2 = marshaled.___sdl_index_2;
+	unmarshaled.set_sdl_index_2(unmarshaled_sdl_index_temp_2);
+	uint8_t unmarshaled_sdl_type_temp_3 = 0x0;
+	unmarshaled_sdl_type_temp_3 = marshaled.___sdl_type_3;
+	unmarshaled.set_sdl_type_3(unmarshaled_sdl_type_temp_3);
+	uint8_t unmarshaled_sdl_nlen_temp_4 = 0x0;
+	unmarshaled_sdl_nlen_temp_4 = marshaled.___sdl_nlen_4;
+	unmarshaled.set_sdl_nlen_4(unmarshaled_sdl_nlen_temp_4);
+	uint8_t unmarshaled_sdl_alen_temp_5 = 0x0;
+	unmarshaled_sdl_alen_temp_5 = marshaled.___sdl_alen_5;
+	unmarshaled.set_sdl_alen_5(unmarshaled_sdl_alen_temp_5);
+	uint8_t unmarshaled_sdl_slen_temp_6 = 0x0;
+	unmarshaled_sdl_slen_temp_6 = marshaled.___sdl_slen_6;
+	unmarshaled.set_sdl_slen_6(unmarshaled_sdl_slen_temp_6);
+	unmarshaled.set_sdl_data_7(reinterpret_cast<ByteU5BU5D_t3397334013*>(SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, 12)));
+	for (int32_t i = 0; i < 12; i++)
+	{
+		(unmarshaled.get_sdl_data_7())->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), (marshaled.___sdl_data_7)[i]);
+	}
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.MacOsStructs.sockaddr_dl
+extern "C" void sockaddr_dl_t3955242742_marshal_pinvoke_cleanup(sockaddr_dl_t3955242742_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: System.Net.NetworkInformation.MacOsStructs.sockaddr_dl
+extern "C" void sockaddr_dl_t3955242742_marshal_com(const sockaddr_dl_t3955242742& unmarshaled, sockaddr_dl_t3955242742_marshaled_com& marshaled)
+{
+	marshaled.___sdl_len_0 = unmarshaled.get_sdl_len_0();
+	marshaled.___sdl_family_1 = unmarshaled.get_sdl_family_1();
+	marshaled.___sdl_index_2 = unmarshaled.get_sdl_index_2();
+	marshaled.___sdl_type_3 = unmarshaled.get_sdl_type_3();
+	marshaled.___sdl_nlen_4 = unmarshaled.get_sdl_nlen_4();
+	marshaled.___sdl_alen_5 = unmarshaled.get_sdl_alen_5();
+	marshaled.___sdl_slen_6 = unmarshaled.get_sdl_slen_6();
+	if (unmarshaled.get_sdl_data_7() != NULL)
+	{
+		if (12 > (unmarshaled.get_sdl_data_7())->max_length)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_exception("", "Type could not be marshaled because the length of an embedded array instance does not match the declared length in the layout."));
+		}
+
+		for (int32_t i = 0; i < 12; i++)
+		{
+			(marshaled.___sdl_data_7)[i] = (unmarshaled.get_sdl_data_7())->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i));
+		}
+	}
+}
+extern "C" void sockaddr_dl_t3955242742_marshal_com_back(const sockaddr_dl_t3955242742_marshaled_com& marshaled, sockaddr_dl_t3955242742& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (sockaddr_dl_t3955242742_com_FromNativeMethodDefinition_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint8_t unmarshaled_sdl_len_temp_0 = 0x0;
+	unmarshaled_sdl_len_temp_0 = marshaled.___sdl_len_0;
+	unmarshaled.set_sdl_len_0(unmarshaled_sdl_len_temp_0);
+	uint8_t unmarshaled_sdl_family_temp_1 = 0x0;
+	unmarshaled_sdl_family_temp_1 = marshaled.___sdl_family_1;
+	unmarshaled.set_sdl_family_1(unmarshaled_sdl_family_temp_1);
+	uint16_t unmarshaled_sdl_index_temp_2 = 0;
+	unmarshaled_sdl_index_temp_2 = marshaled.___sdl_index_2;
+	unmarshaled.set_sdl_index_2(unmarshaled_sdl_index_temp_2);
+	uint8_t unmarshaled_sdl_type_temp_3 = 0x0;
+	unmarshaled_sdl_type_temp_3 = marshaled.___sdl_type_3;
+	unmarshaled.set_sdl_type_3(unmarshaled_sdl_type_temp_3);
+	uint8_t unmarshaled_sdl_nlen_temp_4 = 0x0;
+	unmarshaled_sdl_nlen_temp_4 = marshaled.___sdl_nlen_4;
+	unmarshaled.set_sdl_nlen_4(unmarshaled_sdl_nlen_temp_4);
+	uint8_t unmarshaled_sdl_alen_temp_5 = 0x0;
+	unmarshaled_sdl_alen_temp_5 = marshaled.___sdl_alen_5;
+	unmarshaled.set_sdl_alen_5(unmarshaled_sdl_alen_temp_5);
+	uint8_t unmarshaled_sdl_slen_temp_6 = 0x0;
+	unmarshaled_sdl_slen_temp_6 = marshaled.___sdl_slen_6;
+	unmarshaled.set_sdl_slen_6(unmarshaled_sdl_slen_temp_6);
+	unmarshaled.set_sdl_data_7(reinterpret_cast<ByteU5BU5D_t3397334013*>(SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, 12)));
+	for (int32_t i = 0; i < 12; i++)
+	{
+		(unmarshaled.get_sdl_data_7())->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), (marshaled.___sdl_data_7)[i]);
+	}
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.MacOsStructs.sockaddr_dl
+extern "C" void sockaddr_dl_t3955242742_marshal_com_cleanup(sockaddr_dl_t3955242742_marshaled_com& marshaled)
+{
+}
+
+
+// Conversion methods for marshalling of: System.Net.NetworkInformation.MacOsStructs.sockaddr_in6
+extern "C" void sockaddr_in6_t834146887_marshal_pinvoke(const sockaddr_in6_t834146887& unmarshaled, sockaddr_in6_t834146887_marshaled_pinvoke& marshaled)
+{
+	marshaled.___sin6_len_0 = unmarshaled.get_sin6_len_0();
+	marshaled.___sin6_family_1 = unmarshaled.get_sin6_family_1();
+	marshaled.___sin6_port_2 = unmarshaled.get_sin6_port_2();
+	marshaled.___sin6_flowinfo_3 = unmarshaled.get_sin6_flowinfo_3();
+	in6_addr_t1014645363_marshal_pinvoke(unmarshaled.get_sin6_addr_4(), marshaled.___sin6_addr_4);
+	marshaled.___sin6_scope_id_5 = unmarshaled.get_sin6_scope_id_5();
+}
+extern "C" void sockaddr_in6_t834146887_marshal_pinvoke_back(const sockaddr_in6_t834146887_marshaled_pinvoke& marshaled, sockaddr_in6_t834146887& unmarshaled)
+{
+	uint8_t unmarshaled_sin6_len_temp_0 = 0x0;
+	unmarshaled_sin6_len_temp_0 = marshaled.___sin6_len_0;
+	unmarshaled.set_sin6_len_0(unmarshaled_sin6_len_temp_0);
+	uint8_t unmarshaled_sin6_family_temp_1 = 0x0;
+	unmarshaled_sin6_family_temp_1 = marshaled.___sin6_family_1;
+	unmarshaled.set_sin6_family_1(unmarshaled_sin6_family_temp_1);
+	uint16_t unmarshaled_sin6_port_temp_2 = 0;
+	unmarshaled_sin6_port_temp_2 = marshaled.___sin6_port_2;
+	unmarshaled.set_sin6_port_2(unmarshaled_sin6_port_temp_2);
+	uint32_t unmarshaled_sin6_flowinfo_temp_3 = 0;
+	unmarshaled_sin6_flowinfo_temp_3 = marshaled.___sin6_flowinfo_3;
+	unmarshaled.set_sin6_flowinfo_3(unmarshaled_sin6_flowinfo_temp_3);
+	in6_addr_t1014645363  unmarshaled_sin6_addr_temp_4;
+	memset(&unmarshaled_sin6_addr_temp_4, 0, sizeof(unmarshaled_sin6_addr_temp_4));
+	in6_addr_t1014645363_marshal_pinvoke_back(marshaled.___sin6_addr_4, unmarshaled_sin6_addr_temp_4);
+	unmarshaled.set_sin6_addr_4(unmarshaled_sin6_addr_temp_4);
+	uint32_t unmarshaled_sin6_scope_id_temp_5 = 0;
+	unmarshaled_sin6_scope_id_temp_5 = marshaled.___sin6_scope_id_5;
+	unmarshaled.set_sin6_scope_id_5(unmarshaled_sin6_scope_id_temp_5);
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.MacOsStructs.sockaddr_in6
+extern "C" void sockaddr_in6_t834146887_marshal_pinvoke_cleanup(sockaddr_in6_t834146887_marshaled_pinvoke& marshaled)
+{
+	in6_addr_t1014645363_marshal_pinvoke_cleanup(marshaled.___sin6_addr_4);
+}
+
+
+// Conversion methods for marshalling of: System.Net.NetworkInformation.MacOsStructs.sockaddr_in6
+extern "C" void sockaddr_in6_t834146887_marshal_com(const sockaddr_in6_t834146887& unmarshaled, sockaddr_in6_t834146887_marshaled_com& marshaled)
+{
+	marshaled.___sin6_len_0 = unmarshaled.get_sin6_len_0();
+	marshaled.___sin6_family_1 = unmarshaled.get_sin6_family_1();
+	marshaled.___sin6_port_2 = unmarshaled.get_sin6_port_2();
+	marshaled.___sin6_flowinfo_3 = unmarshaled.get_sin6_flowinfo_3();
+	in6_addr_t1014645363_marshal_com(unmarshaled.get_sin6_addr_4(), marshaled.___sin6_addr_4);
+	marshaled.___sin6_scope_id_5 = unmarshaled.get_sin6_scope_id_5();
+}
+extern "C" void sockaddr_in6_t834146887_marshal_com_back(const sockaddr_in6_t834146887_marshaled_com& marshaled, sockaddr_in6_t834146887& unmarshaled)
+{
+	uint8_t unmarshaled_sin6_len_temp_0 = 0x0;
+	unmarshaled_sin6_len_temp_0 = marshaled.___sin6_len_0;
+	unmarshaled.set_sin6_len_0(unmarshaled_sin6_len_temp_0);
+	uint8_t unmarshaled_sin6_family_temp_1 = 0x0;
+	unmarshaled_sin6_family_temp_1 = marshaled.___sin6_family_1;
+	unmarshaled.set_sin6_family_1(unmarshaled_sin6_family_temp_1);
+	uint16_t unmarshaled_sin6_port_temp_2 = 0;
+	unmarshaled_sin6_port_temp_2 = marshaled.___sin6_port_2;
+	unmarshaled.set_sin6_port_2(unmarshaled_sin6_port_temp_2);
+	uint32_t unmarshaled_sin6_flowinfo_temp_3 = 0;
+	unmarshaled_sin6_flowinfo_temp_3 = marshaled.___sin6_flowinfo_3;
+	unmarshaled.set_sin6_flowinfo_3(unmarshaled_sin6_flowinfo_temp_3);
+	in6_addr_t1014645363  unmarshaled_sin6_addr_temp_4;
+	memset(&unmarshaled_sin6_addr_temp_4, 0, sizeof(unmarshaled_sin6_addr_temp_4));
+	in6_addr_t1014645363_marshal_com_back(marshaled.___sin6_addr_4, unmarshaled_sin6_addr_temp_4);
+	unmarshaled.set_sin6_addr_4(unmarshaled_sin6_addr_temp_4);
+	uint32_t unmarshaled_sin6_scope_id_temp_5 = 0;
+	unmarshaled_sin6_scope_id_temp_5 = marshaled.___sin6_scope_id_5;
+	unmarshaled.set_sin6_scope_id_5(unmarshaled_sin6_scope_id_temp_5);
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.MacOsStructs.sockaddr_in6
+extern "C" void sockaddr_in6_t834146887_marshal_com_cleanup(sockaddr_in6_t834146887_marshaled_com& marshaled)
+{
+	in6_addr_t1014645363_marshal_com_cleanup(marshaled.___sin6_addr_4);
+}
+// System.Void System.Net.NetworkInformation.MibIcmpV4Statistics::.ctor(System.Collections.Specialized.StringDictionary)
+extern "C"  void MibIcmpV4Statistics__ctor_m3067100210 (MibIcmpV4Statistics_t1600715310 * __this, StringDictionary_t1070889667 * ___dic0, const MethodInfo* method)
+{
+	{
+		IcmpV4Statistics__ctor_m695427374(__this, /*hidden argument*/NULL);
+		StringDictionary_t1070889667 * L_0 = ___dic0;
+		__this->set_dic_0(L_0);
+		return;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV4Statistics::Get(System.String)
+extern "C"  int64_t MibIcmpV4Statistics_Get_m1074348219 (MibIcmpV4Statistics_t1600715310 * __this, String_t* ___name0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV4Statistics_Get_m1074348219_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int64_t G_B3_0 = 0;
+	{
+		StringDictionary_t1070889667 * L_0 = __this->get_dic_0();
+		String_t* L_1 = ___name0;
+		NullCheck(L_0);
+		String_t* L_2 = VirtFuncInvoker1< String_t*, String_t* >::Invoke(6 /* System.String System.Collections.Specialized.StringDictionary::get_Item(System.String) */, L_0, L_1);
+		if (!L_2)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		StringDictionary_t1070889667 * L_3 = __this->get_dic_0();
+		String_t* L_4 = ___name0;
+		NullCheck(L_3);
+		String_t* L_5 = VirtFuncInvoker1< String_t*, String_t* >::Invoke(6 /* System.String System.Collections.Specialized.StringDictionary::get_Item(System.String) */, L_3, L_4);
+		IL2CPP_RUNTIME_CLASS_INIT(NumberFormatInfo_t104580544_il2cpp_TypeInfo_var);
+		NumberFormatInfo_t104580544 * L_6 = NumberFormatInfo_get_InvariantInfo_m2658215204(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int64_t L_7 = Int64_Parse_m3031608982(NULL /*static, unused*/, L_5, L_6, /*hidden argument*/NULL);
+		G_B3_0 = L_7;
+		goto IL_002e;
+	}
+
+IL_002c:
+	{
+		G_B3_0 = (((int64_t)((int64_t)0)));
+	}
+
+IL_002e:
+	{
+		return G_B3_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV4Statistics::get_AddressMaskRepliesReceived()
+extern "C"  int64_t MibIcmpV4Statistics_get_AddressMaskRepliesReceived_m2272566823 (MibIcmpV4Statistics_t1600715310 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV4Statistics_get_AddressMaskRepliesReceived_m2272566823_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV4Statistics_Get_m1074348219(__this, _stringLiteral480623162, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV4Statistics::get_AddressMaskRepliesSent()
+extern "C"  int64_t MibIcmpV4Statistics_get_AddressMaskRepliesSent_m3890173446 (MibIcmpV4Statistics_t1600715310 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV4Statistics_get_AddressMaskRepliesSent_m3890173446_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV4Statistics_Get_m1074348219(__this, _stringLiteral2703477121, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV4Statistics::get_AddressMaskRequestsReceived()
+extern "C"  int64_t MibIcmpV4Statistics_get_AddressMaskRequestsReceived_m196704061 (MibIcmpV4Statistics_t1600715310 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV4Statistics_get_AddressMaskRequestsReceived_m196704061_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV4Statistics_Get_m1074348219(__this, _stringLiteral2048766231, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV4Statistics::get_AddressMaskRequestsSent()
+extern "C"  int64_t MibIcmpV4Statistics_get_AddressMaskRequestsSent_m656090670 (MibIcmpV4Statistics_t1600715310 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV4Statistics_get_AddressMaskRequestsSent_m656090670_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV4Statistics_Get_m1074348219(__this, _stringLiteral129660378, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV4Statistics::get_DestinationUnreachableMessagesReceived()
+extern "C"  int64_t MibIcmpV4Statistics_get_DestinationUnreachableMessagesReceived_m2087778725 (MibIcmpV4Statistics_t1600715310 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV4Statistics_get_DestinationUnreachableMessagesReceived_m2087778725_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV4Statistics_Get_m1074348219(__this, _stringLiteral481057562, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV4Statistics::get_DestinationUnreachableMessagesSent()
+extern "C"  int64_t MibIcmpV4Statistics_get_DestinationUnreachableMessagesSent_m3941997572 (MibIcmpV4Statistics_t1600715310 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV4Statistics_get_DestinationUnreachableMessagesSent_m3941997572_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV4Statistics_Get_m1074348219(__this, _stringLiteral3416438177, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV4Statistics::get_EchoRepliesReceived()
+extern "C"  int64_t MibIcmpV4Statistics_get_EchoRepliesReceived_m1871628186 (MibIcmpV4Statistics_t1600715310 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV4Statistics_get_EchoRepliesReceived_m1871628186_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV4Statistics_Get_m1074348219(__this, _stringLiteral3322198136, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV4Statistics::get_EchoRepliesSent()
+extern "C"  int64_t MibIcmpV4Statistics_get_EchoRepliesSent_m376302091 (MibIcmpV4Statistics_t1600715310 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV4Statistics_get_EchoRepliesSent_m376302091_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV4Statistics_Get_m1074348219(__this, _stringLiteral3065864543, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV4Statistics::get_EchoRequestsReceived()
+extern "C"  int64_t MibIcmpV4Statistics_get_EchoRequestsReceived_m3325916988 (MibIcmpV4Statistics_t1600715310 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV4Statistics_get_EchoRequestsReceived_m3325916988_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV4Statistics_Get_m1074348219(__this, _stringLiteral4264415381, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV4Statistics::get_EchoRequestsSent()
+extern "C"  int64_t MibIcmpV4Statistics_get_EchoRequestsSent_m4265034717 (MibIcmpV4Statistics_t1600715310 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV4Statistics_get_EchoRequestsSent_m4265034717_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV4Statistics_Get_m1074348219(__this, _stringLiteral2754830968, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV4Statistics::get_ErrorsReceived()
+extern "C"  int64_t MibIcmpV4Statistics_get_ErrorsReceived_m2429713180 (MibIcmpV4Statistics_t1600715310 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV4Statistics_get_ErrorsReceived_m2429713180_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV4Statistics_Get_m1074348219(__this, _stringLiteral2592097282, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV4Statistics::get_ErrorsSent()
+extern "C"  int64_t MibIcmpV4Statistics_get_ErrorsSent_m1571272249 (MibIcmpV4Statistics_t1600715310 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV4Statistics_get_ErrorsSent_m1571272249_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV4Statistics_Get_m1074348219(__this, _stringLiteral3135183897, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV4Statistics::get_MessagesReceived()
+extern "C"  int64_t MibIcmpV4Statistics_get_MessagesReceived_m2198249393 (MibIcmpV4Statistics_t1600715310 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV4Statistics_get_MessagesReceived_m2198249393_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV4Statistics_Get_m1074348219(__this, _stringLiteral3014378269, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV4Statistics::get_MessagesSent()
+extern "C"  int64_t MibIcmpV4Statistics_get_MessagesSent_m4185205838 (MibIcmpV4Statistics_t1600715310 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV4Statistics_get_MessagesSent_m4185205838_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV4Statistics_Get_m1074348219(__this, _stringLiteral1691344384, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV4Statistics::get_ParameterProblemsReceived()
+extern "C"  int64_t MibIcmpV4Statistics_get_ParameterProblemsReceived_m3936961906 (MibIcmpV4Statistics_t1600715310 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV4Statistics_get_ParameterProblemsReceived_m3936961906_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV4Statistics_Get_m1074348219(__this, _stringLiteral4181999125, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV4Statistics::get_ParameterProblemsSent()
+extern "C"  int64_t MibIcmpV4Statistics_get_ParameterProblemsSent_m551922295 (MibIcmpV4Statistics_t1600715310 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV4Statistics_get_ParameterProblemsSent_m551922295_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV4Statistics_Get_m1074348219(__this, _stringLiteral1011400504, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV4Statistics::get_RedirectsReceived()
+extern "C"  int64_t MibIcmpV4Statistics_get_RedirectsReceived_m174258144 (MibIcmpV4Statistics_t1600715310 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV4Statistics_get_RedirectsReceived_m174258144_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV4Statistics_Get_m1074348219(__this, _stringLiteral1742432518, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV4Statistics::get_RedirectsSent()
+extern "C"  int64_t MibIcmpV4Statistics_get_RedirectsSent_m1098532059 (MibIcmpV4Statistics_t1600715310 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV4Statistics_get_RedirectsSent_m1098532059_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV4Statistics_Get_m1074348219(__this, _stringLiteral368176311, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV4Statistics::get_SourceQuenchesReceived()
+extern "C"  int64_t MibIcmpV4Statistics_get_SourceQuenchesReceived_m578091944 (MibIcmpV4Statistics_t1600715310 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV4Statistics_get_SourceQuenchesReceived_m578091944_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV4Statistics_Get_m1074348219(__this, _stringLiteral1946619360, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV4Statistics::get_SourceQuenchesSent()
+extern "C"  int64_t MibIcmpV4Statistics_get_SourceQuenchesSent_m2065838793 (MibIcmpV4Statistics_t1600715310 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV4Statistics_get_SourceQuenchesSent_m2065838793_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV4Statistics_Get_m1074348219(__this, _stringLiteral2212119015, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV4Statistics::get_TimeExceededMessagesReceived()
+extern "C"  int64_t MibIcmpV4Statistics_get_TimeExceededMessagesReceived_m9497927 (MibIcmpV4Statistics_t1600715310 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV4Statistics_get_TimeExceededMessagesReceived_m9497927_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV4Statistics_Get_m1074348219(__this, _stringLiteral542956871, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV4Statistics::get_TimeExceededMessagesSent()
+extern "C"  int64_t MibIcmpV4Statistics_get_TimeExceededMessagesSent_m157112614 (MibIcmpV4Statistics_t1600715310 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV4Statistics_get_TimeExceededMessagesSent_m157112614_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV4Statistics_Get_m1074348219(__this, _stringLiteral1241889562, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV4Statistics::get_TimestampRepliesReceived()
+extern "C"  int64_t MibIcmpV4Statistics_get_TimestampRepliesReceived_m1824523987 (MibIcmpV4Statistics_t1600715310 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV4Statistics_get_TimestampRepliesReceived_m1824523987_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV4Statistics_Get_m1074348219(__this, _stringLiteral3268651149, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV4Statistics::get_TimestampRepliesSent()
+extern "C"  int64_t MibIcmpV4Statistics_get_TimestampRepliesSent_m956181430 (MibIcmpV4Statistics_t1600715310 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV4Statistics_get_TimestampRepliesSent_m956181430_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV4Statistics_Get_m1074348219(__this, _stringLiteral781168986, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV4Statistics::get_TimestampRequestsReceived()
+extern "C"  int64_t MibIcmpV4Statistics_get_TimestampRequestsReceived_m2314810269 (MibIcmpV4Statistics_t1600715310 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV4Statistics_get_TimestampRequestsReceived_m2314810269_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV4Statistics_Get_m1074348219(__this, _stringLiteral3801034456, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV4Statistics::get_TimestampRequestsSent()
+extern "C"  int64_t MibIcmpV4Statistics_get_TimestampRequestsSent_m206725794 (MibIcmpV4Statistics_t1600715310 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV4Statistics_get_TimestampRequestsSent_m206725794_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV4Statistics_Get_m1074348219(__this, _stringLiteral3840174991, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Void System.Net.NetworkInformation.MibIcmpV6Statistics::.ctor(System.Collections.Specialized.StringDictionary)
+extern "C"  void MibIcmpV6Statistics__ctor_m501899560 (MibIcmpV6Statistics_t1370511724 * __this, StringDictionary_t1070889667 * ___dic0, const MethodInfo* method)
+{
+	{
+		IcmpV6Statistics__ctor_m2955825516(__this, /*hidden argument*/NULL);
+		StringDictionary_t1070889667 * L_0 = ___dic0;
+		__this->set_dic_0(L_0);
+		return;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV6Statistics::Get(System.String)
+extern "C"  int64_t MibIcmpV6Statistics_Get_m427207417 (MibIcmpV6Statistics_t1370511724 * __this, String_t* ___name0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV6Statistics_Get_m427207417_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int64_t G_B3_0 = 0;
+	{
+		StringDictionary_t1070889667 * L_0 = __this->get_dic_0();
+		String_t* L_1 = ___name0;
+		NullCheck(L_0);
+		String_t* L_2 = VirtFuncInvoker1< String_t*, String_t* >::Invoke(6 /* System.String System.Collections.Specialized.StringDictionary::get_Item(System.String) */, L_0, L_1);
+		if (!L_2)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		StringDictionary_t1070889667 * L_3 = __this->get_dic_0();
+		String_t* L_4 = ___name0;
+		NullCheck(L_3);
+		String_t* L_5 = VirtFuncInvoker1< String_t*, String_t* >::Invoke(6 /* System.String System.Collections.Specialized.StringDictionary::get_Item(System.String) */, L_3, L_4);
+		IL2CPP_RUNTIME_CLASS_INIT(NumberFormatInfo_t104580544_il2cpp_TypeInfo_var);
+		NumberFormatInfo_t104580544 * L_6 = NumberFormatInfo_get_InvariantInfo_m2658215204(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int64_t L_7 = Int64_Parse_m3031608982(NULL /*static, unused*/, L_5, L_6, /*hidden argument*/NULL);
+		G_B3_0 = L_7;
+		goto IL_002e;
+	}
+
+IL_002c:
+	{
+		G_B3_0 = (((int64_t)((int64_t)0)));
+	}
+
+IL_002e:
+	{
+		return G_B3_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV6Statistics::get_DestinationUnreachableMessagesReceived()
+extern "C"  int64_t MibIcmpV6Statistics_get_DestinationUnreachableMessagesReceived_m2032482595 (MibIcmpV6Statistics_t1370511724 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV6Statistics_get_DestinationUnreachableMessagesReceived_m2032482595_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV6Statistics_Get_m427207417(__this, _stringLiteral481057562, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV6Statistics::get_DestinationUnreachableMessagesSent()
+extern "C"  int64_t MibIcmpV6Statistics_get_DestinationUnreachableMessagesSent_m372667270 (MibIcmpV6Statistics_t1370511724 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV6Statistics_get_DestinationUnreachableMessagesSent_m372667270_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV6Statistics_Get_m427207417(__this, _stringLiteral3416438177, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV6Statistics::get_EchoRepliesReceived()
+extern "C"  int64_t MibIcmpV6Statistics_get_EchoRepliesReceived_m1033183128 (MibIcmpV6Statistics_t1370511724 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV6Statistics_get_EchoRepliesReceived_m1033183128_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV6Statistics_Get_m427207417(__this, _stringLiteral1808548848, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV6Statistics::get_EchoRepliesSent()
+extern "C"  int64_t MibIcmpV6Statistics_get_EchoRepliesSent_m505691145 (MibIcmpV6Statistics_t1370511724 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV6Statistics_get_EchoRepliesSent_m505691145_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV6Statistics_Get_m427207417(__this, _stringLiteral1643827031, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV6Statistics::get_EchoRequestsReceived()
+extern "C"  int64_t MibIcmpV6Statistics_get_EchoRequestsReceived_m2389880830 (MibIcmpV6Statistics_t1370511724 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV6Statistics_get_EchoRequestsReceived_m2389880830_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV6Statistics_Get_m427207417(__this, _stringLiteral4264415381, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV6Statistics::get_EchoRequestsSent()
+extern "C"  int64_t MibIcmpV6Statistics_get_EchoRequestsSent_m3940770971 (MibIcmpV6Statistics_t1370511724 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV6Statistics_get_EchoRequestsSent_m3940770971_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV6Statistics_Get_m427207417(__this, _stringLiteral2754830968, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV6Statistics::get_ErrorsReceived()
+extern "C"  int64_t MibIcmpV6Statistics_get_ErrorsReceived_m1277709338 (MibIcmpV6Statistics_t1370511724 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV6Statistics_get_ErrorsReceived_m1277709338_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV6Statistics_Get_m427207417(__this, _stringLiteral2592097282, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV6Statistics::get_ErrorsSent()
+extern "C"  int64_t MibIcmpV6Statistics_get_ErrorsSent_m2264350523 (MibIcmpV6Statistics_t1370511724 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV6Statistics_get_ErrorsSent_m2264350523_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV6Statistics_Get_m427207417(__this, _stringLiteral3135183897, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV6Statistics::get_MembershipQueriesReceived()
+extern "C"  int64_t MibIcmpV6Statistics_get_MembershipQueriesReceived_m3575324905 (MibIcmpV6Statistics_t1370511724 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV6Statistics_get_MembershipQueriesReceived_m3575324905_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV6Statistics_Get_m427207417(__this, _stringLiteral2457731739, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV6Statistics::get_MembershipQueriesSent()
+extern "C"  int64_t MibIcmpV6Statistics_get_MembershipQueriesSent_m3585929178 (MibIcmpV6Statistics_t1370511724 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV6Statistics_get_MembershipQueriesSent_m3585929178_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV6Statistics_Get_m427207417(__this, _stringLiteral2865900120, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV6Statistics::get_MembershipReductionsReceived()
+extern "C"  int64_t MibIcmpV6Statistics_get_MembershipReductionsReceived_m3551407739 (MibIcmpV6Statistics_t1370511724 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV6Statistics_get_MembershipReductionsReceived_m3551407739_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV6Statistics_Get_m427207417(__this, _stringLiteral576674316, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV6Statistics::get_MembershipReductionsSent()
+extern "C"  int64_t MibIcmpV6Statistics_get_MembershipReductionsSent_m116871002 (MibIcmpV6Statistics_t1370511724 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV6Statistics_get_MembershipReductionsSent_m116871002_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV6Statistics_Get_m427207417(__this, _stringLiteral3569695605, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV6Statistics::get_MembershipReportsReceived()
+extern "C"  int64_t MibIcmpV6Statistics_get_MembershipReportsReceived_m4023495244 (MibIcmpV6Statistics_t1370511724 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV6Statistics_get_MembershipReportsReceived_m4023495244_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV6Statistics_Get_m427207417(__this, _stringLiteral279625757, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV6Statistics::get_MembershipReportsSent()
+extern "C"  int64_t MibIcmpV6Statistics_get_MembershipReportsSent_m3959393095 (MibIcmpV6Statistics_t1370511724 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV6Statistics_get_MembershipReportsSent_m3959393095_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV6Statistics_Get_m427207417(__this, _stringLiteral399515240, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV6Statistics::get_MessagesReceived()
+extern "C"  int64_t MibIcmpV6Statistics_get_MessagesReceived_m3876426351 (MibIcmpV6Statistics_t1370511724 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV6Statistics_get_MessagesReceived_m3876426351_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV6Statistics_Get_m427207417(__this, _stringLiteral3014378269, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV6Statistics::get_MessagesSent()
+extern "C"  int64_t MibIcmpV6Statistics_get_MessagesSent_m1023694608 (MibIcmpV6Statistics_t1370511724 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV6Statistics_get_MessagesSent_m1023694608_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV6Statistics_Get_m427207417(__this, _stringLiteral1691344384, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV6Statistics::get_NeighborAdvertisementsReceived()
+extern "C"  int64_t MibIcmpV6Statistics_get_NeighborAdvertisementsReceived_m78873411 (MibIcmpV6Statistics_t1370511724 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV6Statistics_get_NeighborAdvertisementsReceived_m78873411_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV6Statistics_Get_m427207417(__this, _stringLiteral816224351, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV6Statistics::get_NeighborAdvertisementsSent()
+extern "C"  int64_t MibIcmpV6Statistics_get_NeighborAdvertisementsSent_m2886425568 (MibIcmpV6Statistics_t1370511724 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV6Statistics_get_NeighborAdvertisementsSent_m2886425568_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV6Statistics_Get_m427207417(__this, _stringLiteral3767232162, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV6Statistics::get_NeighborSolicitsReceived()
+extern "C"  int64_t MibIcmpV6Statistics_get_NeighborSolicitsReceived_m4120695513 (MibIcmpV6Statistics_t1370511724 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV6Statistics_get_NeighborSolicitsReceived_m4120695513_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV6Statistics_Get_m427207417(__this, _stringLiteral2939352381, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV6Statistics::get_NeighborSolicitsSent()
+extern "C"  int64_t MibIcmpV6Statistics_get_NeighborSolicitsSent_m1553136378 (MibIcmpV6Statistics_t1370511724 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV6Statistics_get_NeighborSolicitsSent_m1553136378_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV6Statistics_Get_m427207417(__this, _stringLiteral2003281640, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV6Statistics::get_PacketTooBigMessagesReceived()
+extern "C"  int64_t MibIcmpV6Statistics_get_PacketTooBigMessagesReceived_m27687215 (MibIcmpV6Statistics_t1370511724 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV6Statistics_get_PacketTooBigMessagesReceived_m27687215_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV6Statistics_Get_m427207417(__this, _stringLiteral2660435815, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV6Statistics::get_PacketTooBigMessagesSent()
+extern "C"  int64_t MibIcmpV6Statistics_get_PacketTooBigMessagesSent_m625339600 (MibIcmpV6Statistics_t1370511724 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV6Statistics_get_PacketTooBigMessagesSent_m625339600_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV6Statistics_Get_m427207417(__this, _stringLiteral827357034, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV6Statistics::get_ParameterProblemsReceived()
+extern "C"  int64_t MibIcmpV6Statistics_get_ParameterProblemsReceived_m3496752436 (MibIcmpV6Statistics_t1370511724 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV6Statistics_get_ParameterProblemsReceived_m3496752436_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV6Statistics_Get_m427207417(__this, _stringLiteral4243323797, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV6Statistics::get_ParameterProblemsSent()
+extern "C"  int64_t MibIcmpV6Statistics_get_ParameterProblemsSent_m776323641 (MibIcmpV6Statistics_t1370511724 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV6Statistics_get_ParameterProblemsSent_m776323641_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV6Statistics_Get_m427207417(__this, _stringLiteral3877581008, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV6Statistics::get_RedirectsReceived()
+extern "C"  int64_t MibIcmpV6Statistics_get_RedirectsReceived_m3689408286 (MibIcmpV6Statistics_t1370511724 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV6Statistics_get_RedirectsReceived_m3689408286_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV6Statistics_Get_m427207417(__this, _stringLiteral1742432518, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV6Statistics::get_RedirectsSent()
+extern "C"  int64_t MibIcmpV6Statistics_get_RedirectsSent_m1776176153 (MibIcmpV6Statistics_t1370511724 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV6Statistics_get_RedirectsSent_m1776176153_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV6Statistics_Get_m427207417(__this, _stringLiteral368176311, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV6Statistics::get_RouterAdvertisementsReceived()
+extern "C"  int64_t MibIcmpV6Statistics_get_RouterAdvertisementsReceived_m236068322 (MibIcmpV6Statistics_t1370511724 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV6Statistics_get_RouterAdvertisementsReceived_m236068322_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV6Statistics_Get_m427207417(__this, _stringLiteral1831447386, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV6Statistics::get_RouterAdvertisementsSent()
+extern "C"  int64_t MibIcmpV6Statistics_get_RouterAdvertisementsSent_m1646723653 (MibIcmpV6Statistics_t1370511724 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV6Statistics_get_RouterAdvertisementsSent_m1646723653_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV6Statistics_Get_m427207417(__this, _stringLiteral1474441203, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV6Statistics::get_RouterSolicitsReceived()
+extern "C"  int64_t MibIcmpV6Statistics_get_RouterSolicitsReceived_m2593464716 (MibIcmpV6Statistics_t1370511724 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV6Statistics_get_RouterSolicitsReceived_m2593464716_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV6Statistics_Get_m427207417(__this, _stringLiteral4036285884, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV6Statistics::get_RouterSolicitsSent()
+extern "C"  int64_t MibIcmpV6Statistics_get_RouterSolicitsSent_m3573538539 (MibIcmpV6Statistics_t1370511724 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV6Statistics_get_RouterSolicitsSent_m3573538539_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV6Statistics_Get_m427207417(__this, _stringLiteral3911299821, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV6Statistics::get_TimeExceededMessagesReceived()
+extern "C"  int64_t MibIcmpV6Statistics_get_TimeExceededMessagesReceived_m3104633605 (MibIcmpV6Statistics_t1370511724 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV6Statistics_get_TimeExceededMessagesReceived_m3104633605_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV6Statistics_Get_m427207417(__this, _stringLiteral542956871, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIcmpV6Statistics::get_TimeExceededMessagesSent()
+extern "C"  int64_t MibIcmpV6Statistics_get_TimeExceededMessagesSent_m3405830120 (MibIcmpV6Statistics_t1370511724 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIcmpV6Statistics_get_TimeExceededMessagesSent_m3405830120_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIcmpV6Statistics_Get_m427207417(__this, _stringLiteral1241889562, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Void System.Net.NetworkInformation.MibIPGlobalProperties::.ctor(System.String)
+extern "C"  void MibIPGlobalProperties__ctor_m430621723 (MibIPGlobalProperties_t4104985615 * __this, String_t* ___procDir0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalProperties__ctor_m430621723_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IPGlobalProperties__ctor_m1928017271(__this, /*hidden argument*/NULL);
+		String_t* L_0 = ___procDir0;
+		IL2CPP_RUNTIME_CLASS_INIT(Path_t41728875_il2cpp_TypeInfo_var);
+		String_t* L_1 = Path_Combine_m3185811654(NULL /*static, unused*/, L_0, _stringLiteral3218792566, /*hidden argument*/NULL);
+		__this->set_StatisticsFile_2(L_1);
+		String_t* L_2 = ___procDir0;
+		String_t* L_3 = Path_Combine_m3185811654(NULL /*static, unused*/, L_2, _stringLiteral1311995084, /*hidden argument*/NULL);
+		__this->set_StatisticsFileIPv6_3(L_3);
+		String_t* L_4 = ___procDir0;
+		String_t* L_5 = Path_Combine_m3185811654(NULL /*static, unused*/, L_4, _stringLiteral3969737655, /*hidden argument*/NULL);
+		__this->set_TcpFile_4(L_5);
+		String_t* L_6 = ___procDir0;
+		String_t* L_7 = Path_Combine_m3185811654(NULL /*static, unused*/, L_6, _stringLiteral1639412253, /*hidden argument*/NULL);
+		__this->set_Tcp6File_5(L_7);
+		String_t* L_8 = ___procDir0;
+		String_t* L_9 = Path_Combine_m3185811654(NULL /*static, unused*/, L_8, _stringLiteral2403653745, /*hidden argument*/NULL);
+		__this->set_UdpFile_6(L_9);
+		String_t* L_10 = ___procDir0;
+		String_t* L_11 = Path_Combine_m3185811654(NULL /*static, unused*/, L_10, _stringLiteral617775371, /*hidden argument*/NULL);
+		__this->set_Udp6File_7(L_11);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.MibIPGlobalProperties::.cctor()
+extern "C"  void MibIPGlobalProperties__cctor_m2444323008 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalProperties__cctor_m2444323008_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		CharU5BU5D_t1328083999* L_0 = ((CharU5BU5D_t1328083999*)SZArrayNew(CharU5BU5D_t1328083999_il2cpp_TypeInfo_var, (uint32_t)2));
+		NullCheck(L_0);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)((int32_t)32));
+		CharU5BU5D_t1328083999* L_1 = L_0;
+		NullCheck(L_1);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppChar)((int32_t)9));
+		((MibIPGlobalProperties_t4104985615_StaticFields*)MibIPGlobalProperties_t4104985615_il2cpp_TypeInfo_var->static_fields)->set_wsChars_8(L_1);
+		return;
+	}
+}
+// System.Int32 System.Net.NetworkInformation.MibIPGlobalProperties::gethostname(System.Byte[],System.Int32)
+extern "C"  int32_t MibIPGlobalProperties_gethostname_m3411141186 (Il2CppObject * __this /* static, unused */, ByteU5BU5D_t3397334013* ___name0, int32_t ___len1, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint8_t*, int32_t);
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("libc"), "gethostname", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+
+		if (il2cppPInvokeFunc == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'gethostname'"));
+		}
+	}
+
+	// Marshaling of parameter '___name0' to native representation
+	uint8_t* ____name0_marshaled = NULL;
+	if (___name0 != NULL)
+	{
+		____name0_marshaled = reinterpret_cast<uint8_t*>((___name0)->GetAddressAtUnchecked(0));
+	}
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(____name0_marshaled, ___len1);
+
+	return returnValue;
+}
+// System.Int32 System.Net.NetworkInformation.MibIPGlobalProperties::getdomainname(System.Byte[],System.Int32)
+extern "C"  int32_t MibIPGlobalProperties_getdomainname_m3135005392 (Il2CppObject * __this /* static, unused */, ByteU5BU5D_t3397334013* ___name0, int32_t ___len1, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint8_t*, int32_t);
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("libc"), "getdomainname", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+
+		if (il2cppPInvokeFunc == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'getdomainname'"));
+		}
+	}
+
+	// Marshaling of parameter '___name0' to native representation
+	uint8_t* ____name0_marshaled = NULL;
+	if (___name0 != NULL)
+	{
+		____name0_marshaled = reinterpret_cast<uint8_t*>((___name0)->GetAddressAtUnchecked(0));
+	}
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(____name0_marshaled, ___len1);
+
+	return returnValue;
+}
+// System.Collections.Specialized.StringDictionary System.Net.NetworkInformation.MibIPGlobalProperties::GetProperties4(System.String)
+extern "C"  StringDictionary_t1070889667 * MibIPGlobalProperties_GetProperties4_m1198230711 (MibIPGlobalProperties_t4104985615 * __this, String_t* ___item0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalProperties_GetProperties4_m1198230711_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	String_t* V_1 = NULL;
+	StreamReader_t2360341767 * V_2 = NULL;
+	StringU5BU5D_t1642385972* V_3 = NULL;
+	StringU5BU5D_t1642385972* V_4 = NULL;
+	String_t* V_5 = NULL;
+	StringDictionary_t1070889667 * V_6 = NULL;
+	int32_t V_7 = 0;
+	StringDictionary_t1070889667 * V_8 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		String_t* L_0 = __this->get_StatisticsFile_2();
+		V_0 = L_0;
+		String_t* L_1 = ___item0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_2 = String_Concat_m2596409543(NULL /*static, unused*/, L_1, _stringLiteral811305496, /*hidden argument*/NULL);
+		V_1 = L_2;
+		String_t* L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t663144255_il2cpp_TypeInfo_var);
+		Encoding_t663144255 * L_4 = Encoding_get_ASCII_m2727409419(NULL /*static, unused*/, /*hidden argument*/NULL);
+		StreamReader_t2360341767 * L_5 = (StreamReader_t2360341767 *)il2cpp_codegen_object_new(StreamReader_t2360341767_il2cpp_TypeInfo_var);
+		StreamReader__ctor_m3499795391(L_5, L_3, L_4, /*hidden argument*/NULL);
+		V_2 = L_5;
+	}
+
+IL_001f:
+	try
+	{ // begin try (depth: 1)
+		{
+			V_3 = (StringU5BU5D_t1642385972*)NULL;
+			V_4 = (StringU5BU5D_t1642385972*)NULL;
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_6 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+			V_5 = L_6;
+		}
+
+IL_002b:
+		{
+			StreamReader_t2360341767 * L_7 = V_2;
+			NullCheck(L_7);
+			String_t* L_8 = VirtFuncInvoker0< String_t* >::Invoke(12 /* System.String System.IO.StreamReader::ReadLine() */, L_7);
+			V_5 = L_8;
+			String_t* L_9 = V_5;
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			bool L_10 = String_IsNullOrEmpty_m2802126737(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+			if (!L_10)
+			{
+				goto IL_0044;
+			}
+		}
+
+IL_003f:
+		{
+			goto IL_00d7;
+		}
+
+IL_0044:
+		{
+			String_t* L_11 = V_5;
+			NullCheck(L_11);
+			int32_t L_12 = String_get_Length_m1606060069(L_11, /*hidden argument*/NULL);
+			String_t* L_13 = V_1;
+			NullCheck(L_13);
+			int32_t L_14 = String_get_Length_m1606060069(L_13, /*hidden argument*/NULL);
+			if ((((int32_t)L_12) <= ((int32_t)L_14)))
+			{
+				goto IL_006b;
+			}
+		}
+
+IL_0056:
+		{
+			String_t* L_15 = V_5;
+			String_t* L_16 = V_1;
+			String_t* L_17 = V_1;
+			NullCheck(L_17);
+			int32_t L_18 = String_get_Length_m1606060069(L_17, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			int32_t L_19 = String_CompareOrdinal_m244070001(NULL /*static, unused*/, L_15, 0, L_16, 0, L_18, /*hidden argument*/NULL);
+			if (!L_19)
+			{
+				goto IL_0070;
+			}
+		}
+
+IL_006b:
+		{
+			goto IL_00d7;
+		}
+
+IL_0070:
+		{
+			StringU5BU5D_t1642385972* L_20 = V_3;
+			if (L_20)
+			{
+				goto IL_0099;
+			}
+		}
+
+IL_0076:
+		{
+			String_t* L_21 = V_5;
+			String_t* L_22 = V_1;
+			NullCheck(L_22);
+			int32_t L_23 = String_get_Length_m1606060069(L_22, /*hidden argument*/NULL);
+			NullCheck(L_21);
+			String_t* L_24 = String_Substring_m2032624251(L_21, L_23, /*hidden argument*/NULL);
+			CharU5BU5D_t1328083999* L_25 = ((CharU5BU5D_t1328083999*)SZArrayNew(CharU5BU5D_t1328083999_il2cpp_TypeInfo_var, (uint32_t)1));
+			NullCheck(L_25);
+			(L_25)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)((int32_t)32));
+			NullCheck(L_24);
+			StringU5BU5D_t1642385972* L_26 = String_Split_m3326265864(L_24, L_25, /*hidden argument*/NULL);
+			V_3 = L_26;
+			goto IL_00d7;
+		}
+
+IL_0099:
+		{
+			StringU5BU5D_t1642385972* L_27 = V_4;
+			if (!L_27)
+			{
+				goto IL_00b3;
+			}
+		}
+
+IL_00a0:
+		{
+			String_t* L_28 = V_0;
+			String_t* L_29 = ___item0;
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_30 = String_Format_m2024975688(NULL /*static, unused*/, _stringLiteral3786453447, L_29, /*hidden argument*/NULL);
+			Exception_t1927440687 * L_31 = MibIPGlobalProperties_CreateException_m3913674693(__this, L_28, L_30, /*hidden argument*/NULL);
+			IL2CPP_RAISE_MANAGED_EXCEPTION(L_31);
+		}
+
+IL_00b3:
+		{
+			String_t* L_32 = V_5;
+			String_t* L_33 = V_1;
+			NullCheck(L_33);
+			int32_t L_34 = String_get_Length_m1606060069(L_33, /*hidden argument*/NULL);
+			NullCheck(L_32);
+			String_t* L_35 = String_Substring_m2032624251(L_32, L_34, /*hidden argument*/NULL);
+			CharU5BU5D_t1328083999* L_36 = ((CharU5BU5D_t1328083999*)SZArrayNew(CharU5BU5D_t1328083999_il2cpp_TypeInfo_var, (uint32_t)1));
+			NullCheck(L_36);
+			(L_36)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)((int32_t)32));
+			NullCheck(L_35);
+			StringU5BU5D_t1642385972* L_37 = String_Split_m3326265864(L_35, L_36, /*hidden argument*/NULL);
+			V_4 = L_37;
+			goto IL_00e2;
+		}
+
+IL_00d7:
+		{
+			StreamReader_t2360341767 * L_38 = V_2;
+			NullCheck(L_38);
+			bool L_39 = StreamReader_get_EndOfStream_m997398933(L_38, /*hidden argument*/NULL);
+			if (!L_39)
+			{
+				goto IL_002b;
+			}
+		}
+
+IL_00e2:
+		{
+			StringU5BU5D_t1642385972* L_40 = V_4;
+			if (L_40)
+			{
+				goto IL_00fc;
+			}
+		}
+
+IL_00e9:
+		{
+			String_t* L_41 = V_0;
+			String_t* L_42 = ___item0;
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_43 = String_Format_m2024975688(NULL /*static, unused*/, _stringLiteral1063432371, L_42, /*hidden argument*/NULL);
+			Exception_t1927440687 * L_44 = MibIPGlobalProperties_CreateException_m3913674693(__this, L_41, L_43, /*hidden argument*/NULL);
+			IL2CPP_RAISE_MANAGED_EXCEPTION(L_44);
+		}
+
+IL_00fc:
+		{
+			StringU5BU5D_t1642385972* L_45 = V_3;
+			NullCheck(L_45);
+			StringU5BU5D_t1642385972* L_46 = V_4;
+			NullCheck(L_46);
+			if ((((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_45)->max_length))))) == ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_46)->max_length)))))))
+			{
+				goto IL_011b;
+			}
+		}
+
+IL_0108:
+		{
+			String_t* L_47 = V_0;
+			String_t* L_48 = ___item0;
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_49 = String_Format_m2024975688(NULL /*static, unused*/, _stringLiteral2556604853, L_48, /*hidden argument*/NULL);
+			Exception_t1927440687 * L_50 = MibIPGlobalProperties_CreateException_m3913674693(__this, L_47, L_49, /*hidden argument*/NULL);
+			IL2CPP_RAISE_MANAGED_EXCEPTION(L_50);
+		}
+
+IL_011b:
+		{
+			StringDictionary_t1070889667 * L_51 = (StringDictionary_t1070889667 *)il2cpp_codegen_object_new(StringDictionary_t1070889667_il2cpp_TypeInfo_var);
+			StringDictionary__ctor_m270184480(L_51, /*hidden argument*/NULL);
+			V_6 = L_51;
+			V_7 = 0;
+			goto IL_0140;
+		}
+
+IL_012a:
+		{
+			StringDictionary_t1070889667 * L_52 = V_6;
+			StringU5BU5D_t1642385972* L_53 = V_3;
+			int32_t L_54 = V_7;
+			NullCheck(L_53);
+			int32_t L_55 = L_54;
+			String_t* L_56 = (L_53)->GetAt(static_cast<il2cpp_array_size_t>(L_55));
+			StringU5BU5D_t1642385972* L_57 = V_4;
+			int32_t L_58 = V_7;
+			NullCheck(L_57);
+			int32_t L_59 = L_58;
+			String_t* L_60 = (L_57)->GetAt(static_cast<il2cpp_array_size_t>(L_59));
+			NullCheck(L_52);
+			VirtActionInvoker2< String_t*, String_t* >::Invoke(7 /* System.Void System.Collections.Specialized.StringDictionary::set_Item(System.String,System.String) */, L_52, L_56, L_60);
+			int32_t L_61 = V_7;
+			V_7 = ((int32_t)((int32_t)L_61+(int32_t)1));
+		}
+
+IL_0140:
+		{
+			int32_t L_62 = V_7;
+			StringU5BU5D_t1642385972* L_63 = V_3;
+			NullCheck(L_63);
+			if ((((int32_t)L_62) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_63)->max_length)))))))
+			{
+				goto IL_012a;
+			}
+		}
+
+IL_014a:
+		{
+			StringDictionary_t1070889667 * L_64 = V_6;
+			V_8 = L_64;
+			IL2CPP_LEAVE(0x165, FINALLY_0158);
+		}
+
+IL_0153:
+		{
+			; // IL_0153: leave IL_0165
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0158;
+	}
+
+FINALLY_0158:
+	{ // begin finally (depth: 1)
+		{
+			StreamReader_t2360341767 * L_65 = V_2;
+			if (!L_65)
+			{
+				goto IL_0164;
+			}
+		}
+
+IL_015e:
+		{
+			StreamReader_t2360341767 * L_66 = V_2;
+			NullCheck(L_66);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_66);
+		}
+
+IL_0164:
+		{
+			IL2CPP_END_FINALLY(344)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(344)
+	{
+		IL2CPP_JUMP_TBL(0x165, IL_0165)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0165:
+	{
+		StringDictionary_t1070889667 * L_67 = V_8;
+		return L_67;
+	}
+}
+// System.Collections.Specialized.StringDictionary System.Net.NetworkInformation.MibIPGlobalProperties::GetProperties6(System.String)
+extern "C"  StringDictionary_t1070889667 * MibIPGlobalProperties_GetProperties6_m971278125 (MibIPGlobalProperties_t4104985615 * __this, String_t* ___item0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalProperties_GetProperties6_m971278125_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	String_t* V_1 = NULL;
+	StreamReader_t2360341767 * V_2 = NULL;
+	StringDictionary_t1070889667 * V_3 = NULL;
+	String_t* V_4 = NULL;
+	int32_t V_5 = 0;
+	StringDictionary_t1070889667 * V_6 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		String_t* L_0 = __this->get_StatisticsFileIPv6_3();
+		bool L_1 = File_Exists_m1685968367(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		if (L_1)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		NetworkInformationException_t1863186723 * L_2 = (NetworkInformationException_t1863186723 *)il2cpp_codegen_object_new(NetworkInformationException_t1863186723_il2cpp_TypeInfo_var);
+		NetworkInformationException__ctor_m3720732489(L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_0016:
+	{
+		String_t* L_3 = __this->get_StatisticsFileIPv6_3();
+		V_0 = L_3;
+		String_t* L_4 = ___item0;
+		V_1 = L_4;
+		String_t* L_5 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t663144255_il2cpp_TypeInfo_var);
+		Encoding_t663144255 * L_6 = Encoding_get_ASCII_m2727409419(NULL /*static, unused*/, /*hidden argument*/NULL);
+		StreamReader_t2360341767 * L_7 = (StreamReader_t2360341767 *)il2cpp_codegen_object_new(StreamReader_t2360341767_il2cpp_TypeInfo_var);
+		StreamReader__ctor_m3499795391(L_7, L_5, L_6, /*hidden argument*/NULL);
+		V_2 = L_7;
+	}
+
+IL_002b:
+	try
+	{ // begin try (depth: 1)
+		{
+			StringDictionary_t1070889667 * L_8 = (StringDictionary_t1070889667 *)il2cpp_codegen_object_new(StringDictionary_t1070889667_il2cpp_TypeInfo_var);
+			StringDictionary__ctor_m270184480(L_8, /*hidden argument*/NULL);
+			V_3 = L_8;
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_9 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+			V_4 = L_9;
+		}
+
+IL_0038:
+		{
+			StreamReader_t2360341767 * L_10 = V_2;
+			NullCheck(L_10);
+			String_t* L_11 = VirtFuncInvoker0< String_t* >::Invoke(12 /* System.String System.IO.StreamReader::ReadLine() */, L_10);
+			V_4 = L_11;
+			String_t* L_12 = V_4;
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			bool L_13 = String_IsNullOrEmpty_m2802126737(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
+			if (!L_13)
+			{
+				goto IL_0051;
+			}
+		}
+
+IL_004c:
+		{
+			goto IL_00d3;
+		}
+
+IL_0051:
+		{
+			String_t* L_14 = V_4;
+			NullCheck(L_14);
+			int32_t L_15 = String_get_Length_m1606060069(L_14, /*hidden argument*/NULL);
+			String_t* L_16 = V_1;
+			NullCheck(L_16);
+			int32_t L_17 = String_get_Length_m1606060069(L_16, /*hidden argument*/NULL);
+			if ((((int32_t)L_15) <= ((int32_t)L_17)))
+			{
+				goto IL_0078;
+			}
+		}
+
+IL_0063:
+		{
+			String_t* L_18 = V_4;
+			String_t* L_19 = V_1;
+			String_t* L_20 = V_1;
+			NullCheck(L_20);
+			int32_t L_21 = String_get_Length_m1606060069(L_20, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			int32_t L_22 = String_CompareOrdinal_m244070001(NULL /*static, unused*/, L_18, 0, L_19, 0, L_21, /*hidden argument*/NULL);
+			if (!L_22)
+			{
+				goto IL_007d;
+			}
+		}
+
+IL_0078:
+		{
+			goto IL_00d3;
+		}
+
+IL_007d:
+		{
+			String_t* L_23 = V_4;
+			IL2CPP_RUNTIME_CLASS_INIT(MibIPGlobalProperties_t4104985615_il2cpp_TypeInfo_var);
+			CharU5BU5D_t1328083999* L_24 = ((MibIPGlobalProperties_t4104985615_StaticFields*)MibIPGlobalProperties_t4104985615_il2cpp_TypeInfo_var->static_fields)->get_wsChars_8();
+			String_t* L_25 = V_1;
+			NullCheck(L_25);
+			int32_t L_26 = String_get_Length_m1606060069(L_25, /*hidden argument*/NULL);
+			NullCheck(L_23);
+			int32_t L_27 = String_IndexOfAny_m2027595557(L_23, L_24, L_26, /*hidden argument*/NULL);
+			V_5 = L_27;
+			int32_t L_28 = V_5;
+			if ((((int32_t)L_28) >= ((int32_t)0)))
+			{
+				goto IL_00a2;
+			}
+		}
+
+IL_0099:
+		{
+			String_t* L_29 = V_0;
+			Exception_t1927440687 * L_30 = MibIPGlobalProperties_CreateException_m3913674693(__this, L_29, (String_t*)NULL, /*hidden argument*/NULL);
+			IL2CPP_RAISE_MANAGED_EXCEPTION(L_30);
+		}
+
+IL_00a2:
+		{
+			StringDictionary_t1070889667 * L_31 = V_3;
+			String_t* L_32 = V_4;
+			String_t* L_33 = V_1;
+			NullCheck(L_33);
+			int32_t L_34 = String_get_Length_m1606060069(L_33, /*hidden argument*/NULL);
+			int32_t L_35 = V_5;
+			String_t* L_36 = V_1;
+			NullCheck(L_36);
+			int32_t L_37 = String_get_Length_m1606060069(L_36, /*hidden argument*/NULL);
+			NullCheck(L_32);
+			String_t* L_38 = String_Substring_m12482732(L_32, L_34, ((int32_t)((int32_t)L_35-(int32_t)L_37)), /*hidden argument*/NULL);
+			String_t* L_39 = V_4;
+			int32_t L_40 = V_5;
+			NullCheck(L_39);
+			String_t* L_41 = String_Substring_m2032624251(L_39, ((int32_t)((int32_t)L_40+(int32_t)1)), /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(MibIPGlobalProperties_t4104985615_il2cpp_TypeInfo_var);
+			CharU5BU5D_t1328083999* L_42 = ((MibIPGlobalProperties_t4104985615_StaticFields*)MibIPGlobalProperties_t4104985615_il2cpp_TypeInfo_var->static_fields)->get_wsChars_8();
+			NullCheck(L_41);
+			String_t* L_43 = String_Trim_m3982520224(L_41, L_42, /*hidden argument*/NULL);
+			NullCheck(L_31);
+			VirtActionInvoker2< String_t*, String_t* >::Invoke(7 /* System.Void System.Collections.Specialized.StringDictionary::set_Item(System.String,System.String) */, L_31, L_38, L_43);
+		}
+
+IL_00d3:
+		{
+			StreamReader_t2360341767 * L_44 = V_2;
+			NullCheck(L_44);
+			bool L_45 = StreamReader_get_EndOfStream_m997398933(L_44, /*hidden argument*/NULL);
+			if (!L_45)
+			{
+				goto IL_0038;
+			}
+		}
+
+IL_00de:
+		{
+			StringDictionary_t1070889667 * L_46 = V_3;
+			V_6 = L_46;
+			IL2CPP_LEAVE(0xF8, FINALLY_00eb);
+		}
+
+IL_00e6:
+		{
+			; // IL_00e6: leave IL_00f8
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_00eb;
+	}
+
+FINALLY_00eb:
+	{ // begin finally (depth: 1)
+		{
+			StreamReader_t2360341767 * L_47 = V_2;
+			if (!L_47)
+			{
+				goto IL_00f7;
+			}
+		}
+
+IL_00f1:
+		{
+			StreamReader_t2360341767 * L_48 = V_2;
+			NullCheck(L_48);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_48);
+		}
+
+IL_00f7:
+		{
+			IL2CPP_END_FINALLY(235)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(235)
+	{
+		IL2CPP_JUMP_TBL(0xF8, IL_00f8)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_00f8:
+	{
+		StringDictionary_t1070889667 * L_49 = V_6;
+		return L_49;
+	}
+}
+// System.Exception System.Net.NetworkInformation.MibIPGlobalProperties::CreateException(System.String,System.String)
+extern "C"  Exception_t1927440687 * MibIPGlobalProperties_CreateException_m3913674693 (MibIPGlobalProperties_t4104985615 * __this, String_t* ___file0, String_t* ___msg1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalProperties_CreateException_m3913674693_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___file0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_1 = String_Format_m2024975688(NULL /*static, unused*/, _stringLiteral713017656, L_0, /*hidden argument*/NULL);
+		String_t* L_2 = ___msg1;
+		String_t* L_3 = String_Concat_m2596409543(NULL /*static, unused*/, L_1, L_2, /*hidden argument*/NULL);
+		InvalidOperationException_t721527559 * L_4 = (InvalidOperationException_t721527559 *)il2cpp_codegen_object_new(InvalidOperationException_t721527559_il2cpp_TypeInfo_var);
+		InvalidOperationException__ctor_m2801133788(L_4, L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+// System.Net.IPEndPoint[] System.Net.NetworkInformation.MibIPGlobalProperties::GetLocalAddresses(System.Collections.Generic.List`1<System.String[]>)
+extern "C"  IPEndPointU5BU5D_t294524195* MibIPGlobalProperties_GetLocalAddresses_m2542146985 (MibIPGlobalProperties_t4104985615 * __this, List_1_t1011507104 * ___list0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalProperties_GetLocalAddresses_m2542146985_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	IPEndPointU5BU5D_t294524195* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		List_1_t1011507104 * L_0 = ___list0;
+		NullCheck(L_0);
+		int32_t L_1 = List_1_get_Count_m1793389146(L_0, /*hidden argument*/List_1_get_Count_m1793389146_MethodInfo_var);
+		V_0 = ((IPEndPointU5BU5D_t294524195*)SZArrayNew(IPEndPointU5BU5D_t294524195_il2cpp_TypeInfo_var, (uint32_t)L_1));
+		V_1 = 0;
+		goto IL_0029;
+	}
+
+IL_0013:
+	{
+		IPEndPointU5BU5D_t294524195* L_2 = V_0;
+		int32_t L_3 = V_1;
+		List_1_t1011507104 * L_4 = ___list0;
+		int32_t L_5 = V_1;
+		NullCheck(L_4);
+		StringU5BU5D_t1642385972* L_6 = List_1_get_Item_m1223066663(L_4, L_5, /*hidden argument*/List_1_get_Item_m1223066663_MethodInfo_var);
+		NullCheck(L_6);
+		int32_t L_7 = 1;
+		String_t* L_8 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		IPEndPoint_t2615413766 * L_9 = MibIPGlobalProperties_ToEndpoint_m3884964026(__this, L_8, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		ArrayElementTypeCheck (L_2, L_9);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(L_3), (IPEndPoint_t2615413766 *)L_9);
+		int32_t L_10 = V_1;
+		V_1 = ((int32_t)((int32_t)L_10+(int32_t)1));
+	}
+
+IL_0029:
+	{
+		int32_t L_11 = V_1;
+		IPEndPointU5BU5D_t294524195* L_12 = V_0;
+		NullCheck(L_12);
+		if ((((int32_t)L_11) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_12)->max_length)))))))
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		IPEndPointU5BU5D_t294524195* L_13 = V_0;
+		return L_13;
+	}
+}
+// System.Net.IPEndPoint System.Net.NetworkInformation.MibIPGlobalProperties::ToEndpoint(System.String)
+extern "C"  IPEndPoint_t2615413766 * MibIPGlobalProperties_ToEndpoint_m3884964026 (MibIPGlobalProperties_t4104985615 * __this, String_t* ___s0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalProperties_ToEndpoint_m3884964026_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	ByteU5BU5D_t3397334013* V_2 = NULL;
+	int32_t V_3 = 0;
+	{
+		String_t* L_0 = ___s0;
+		NullCheck(L_0);
+		int32_t L_1 = String_IndexOf_m2358239236(L_0, ((int32_t)58), /*hidden argument*/NULL);
+		V_0 = L_1;
+		String_t* L_2 = ___s0;
+		int32_t L_3 = V_0;
+		NullCheck(L_2);
+		String_t* L_4 = String_Substring_m2032624251(L_2, ((int32_t)((int32_t)L_3+(int32_t)1)), /*hidden argument*/NULL);
+		int32_t L_5 = Int32_Parse_m837442623(NULL /*static, unused*/, L_4, ((int32_t)515), /*hidden argument*/NULL);
+		V_1 = L_5;
+		String_t* L_6 = ___s0;
+		NullCheck(L_6);
+		int32_t L_7 = String_get_Length_m1606060069(L_6, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_7) == ((uint32_t)((int32_t)13)))))
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		String_t* L_8 = ___s0;
+		int32_t L_9 = V_0;
+		NullCheck(L_8);
+		String_t* L_10 = String_Substring_m12482732(L_8, 0, L_9, /*hidden argument*/NULL);
+		int64_t L_11 = Int64_Parse_m902970227(NULL /*static, unused*/, L_10, ((int32_t)515), /*hidden argument*/NULL);
+		int32_t L_12 = V_1;
+		IPEndPoint_t2615413766 * L_13 = (IPEndPoint_t2615413766 *)il2cpp_codegen_object_new(IPEndPoint_t2615413766_il2cpp_TypeInfo_var);
+		IPEndPoint__ctor_m403419585(L_13, L_11, L_12, /*hidden argument*/NULL);
+		return L_13;
+	}
+
+IL_0043:
+	{
+		V_2 = ((ByteU5BU5D_t3397334013*)SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, (uint32_t)((int32_t)16)));
+		V_3 = 0;
+		goto IL_006d;
+	}
+
+IL_0052:
+	{
+		ByteU5BU5D_t3397334013* L_14 = V_2;
+		int32_t L_15 = V_3;
+		String_t* L_16 = ___s0;
+		int32_t L_17 = V_3;
+		NullCheck(L_16);
+		String_t* L_18 = String_Substring_m12482732(L_16, ((int32_t)((int32_t)L_17<<(int32_t)1)), 2, /*hidden argument*/NULL);
+		uint8_t L_19 = Byte_Parse_m4137294155(NULL /*static, unused*/, L_18, ((int32_t)515), /*hidden argument*/NULL);
+		NullCheck(L_14);
+		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(L_15), (uint8_t)L_19);
+		int32_t L_20 = V_3;
+		V_3 = ((int32_t)((int32_t)L_20+(int32_t)1));
+	}
+
+IL_006d:
+	{
+		int32_t L_21 = V_3;
+		int32_t L_22 = V_0;
+		if ((((int32_t)((int32_t)((int32_t)L_21<<(int32_t)1))) < ((int32_t)L_22)))
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		ByteU5BU5D_t3397334013* L_23 = V_2;
+		IPAddress_t1399971723 * L_24 = (IPAddress_t1399971723 *)il2cpp_codegen_object_new(IPAddress_t1399971723_il2cpp_TypeInfo_var);
+		IPAddress__ctor_m1440892504(L_24, L_23, /*hidden argument*/NULL);
+		int32_t L_25 = V_1;
+		IPEndPoint_t2615413766 * L_26 = (IPEndPoint_t2615413766 *)il2cpp_codegen_object_new(IPEndPoint_t2615413766_il2cpp_TypeInfo_var);
+		IPEndPoint__ctor_m3477723888(L_26, L_24, L_25, /*hidden argument*/NULL);
+		return L_26;
+	}
+}
+// System.Void System.Net.NetworkInformation.MibIPGlobalProperties::GetRows(System.String,System.Collections.Generic.List`1<System.String[]>)
+extern "C"  void MibIPGlobalProperties_GetRows_m1488792644 (MibIPGlobalProperties_t4104985615 * __this, String_t* ___file0, List_1_t1011507104 * ___list1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalProperties_GetRows_m1488792644_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	StreamReader_t2360341767 * V_0 = NULL;
+	StringU5BU5D_t1642385972* V_1 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		String_t* L_0 = ___file0;
+		bool L_1 = File_Exists_m1685968367(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		if (L_1)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		String_t* L_2 = ___file0;
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t663144255_il2cpp_TypeInfo_var);
+		Encoding_t663144255 * L_3 = Encoding_get_ASCII_m2727409419(NULL /*static, unused*/, /*hidden argument*/NULL);
+		StreamReader_t2360341767 * L_4 = (StreamReader_t2360341767 *)il2cpp_codegen_object_new(StreamReader_t2360341767_il2cpp_TypeInfo_var);
+		StreamReader__ctor_m3499795391(L_4, L_2, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+	}
+
+IL_0018:
+	try
+	{ // begin try (depth: 1)
+		{
+			StreamReader_t2360341767 * L_5 = V_0;
+			NullCheck(L_5);
+			VirtFuncInvoker0< String_t* >::Invoke(12 /* System.String System.IO.StreamReader::ReadLine() */, L_5);
+			goto IL_004f;
+		}
+
+IL_0024:
+		{
+			StreamReader_t2360341767 * L_6 = V_0;
+			NullCheck(L_6);
+			String_t* L_7 = VirtFuncInvoker0< String_t* >::Invoke(12 /* System.String System.IO.StreamReader::ReadLine() */, L_6);
+			IL2CPP_RUNTIME_CLASS_INIT(MibIPGlobalProperties_t4104985615_il2cpp_TypeInfo_var);
+			CharU5BU5D_t1328083999* L_8 = ((MibIPGlobalProperties_t4104985615_StaticFields*)MibIPGlobalProperties_t4104985615_il2cpp_TypeInfo_var->static_fields)->get_wsChars_8();
+			NullCheck(L_7);
+			StringU5BU5D_t1642385972* L_9 = String_Split_m631480578(L_7, L_8, 1, /*hidden argument*/NULL);
+			V_1 = L_9;
+			StringU5BU5D_t1642385972* L_10 = V_1;
+			NullCheck(L_10);
+			if ((((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_10)->max_length))))) >= ((int32_t)4)))
+			{
+				goto IL_0048;
+			}
+		}
+
+IL_003f:
+		{
+			String_t* L_11 = ___file0;
+			Exception_t1927440687 * L_12 = MibIPGlobalProperties_CreateException_m3913674693(__this, L_11, (String_t*)NULL, /*hidden argument*/NULL);
+			IL2CPP_RAISE_MANAGED_EXCEPTION(L_12);
+		}
+
+IL_0048:
+		{
+			List_1_t1011507104 * L_13 = ___list1;
+			StringU5BU5D_t1642385972* L_14 = V_1;
+			NullCheck(L_13);
+			List_1_Add_m1658147026(L_13, L_14, /*hidden argument*/List_1_Add_m1658147026_MethodInfo_var);
+		}
+
+IL_004f:
+		{
+			StreamReader_t2360341767 * L_15 = V_0;
+			NullCheck(L_15);
+			bool L_16 = StreamReader_get_EndOfStream_m997398933(L_15, /*hidden argument*/NULL);
+			if (!L_16)
+			{
+				goto IL_0024;
+			}
+		}
+
+IL_005a:
+		{
+			IL2CPP_LEAVE(0x6C, FINALLY_005f);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_005f;
+	}
+
+FINALLY_005f:
+	{ // begin finally (depth: 1)
+		{
+			StreamReader_t2360341767 * L_17 = V_0;
+			if (!L_17)
+			{
+				goto IL_006b;
+			}
+		}
+
+IL_0065:
+		{
+			StreamReader_t2360341767 * L_18 = V_0;
+			NullCheck(L_18);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_18);
+		}
+
+IL_006b:
+		{
+			IL2CPP_END_FINALLY(95)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(95)
+	{
+		IL2CPP_JUMP_TBL(0x6C, IL_006c)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_006c:
+	{
+		return;
+	}
+}
+// System.Net.NetworkInformation.TcpConnectionInformation[] System.Net.NetworkInformation.MibIPGlobalProperties::GetActiveTcpConnections()
+extern "C"  TcpConnectionInformationU5BU5D_t910531434* MibIPGlobalProperties_GetActiveTcpConnections_m211120631 (MibIPGlobalProperties_t4104985615 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalProperties_GetActiveTcpConnections_m211120631_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t1011507104 * V_0 = NULL;
+	TcpConnectionInformationU5BU5D_t910531434* V_1 = NULL;
+	int32_t V_2 = 0;
+	IPEndPoint_t2615413766 * V_3 = NULL;
+	IPEndPoint_t2615413766 * V_4 = NULL;
+	int32_t V_5 = 0;
+	{
+		List_1_t1011507104 * L_0 = (List_1_t1011507104 *)il2cpp_codegen_object_new(List_1_t1011507104_il2cpp_TypeInfo_var);
+		List_1__ctor_m809050190(L_0, /*hidden argument*/List_1__ctor_m809050190_MethodInfo_var);
+		V_0 = L_0;
+		String_t* L_1 = __this->get_TcpFile_4();
+		List_1_t1011507104 * L_2 = V_0;
+		MibIPGlobalProperties_GetRows_m1488792644(__this, L_1, L_2, /*hidden argument*/NULL);
+		String_t* L_3 = __this->get_Tcp6File_5();
+		List_1_t1011507104 * L_4 = V_0;
+		MibIPGlobalProperties_GetRows_m1488792644(__this, L_3, L_4, /*hidden argument*/NULL);
+		List_1_t1011507104 * L_5 = V_0;
+		NullCheck(L_5);
+		int32_t L_6 = List_1_get_Count_m1793389146(L_5, /*hidden argument*/List_1_get_Count_m1793389146_MethodInfo_var);
+		V_1 = ((TcpConnectionInformationU5BU5D_t910531434*)SZArrayNew(TcpConnectionInformationU5BU5D_t910531434_il2cpp_TypeInfo_var, (uint32_t)L_6));
+		V_2 = 0;
+		goto IL_007a;
+	}
+
+IL_0033:
+	{
+		List_1_t1011507104 * L_7 = V_0;
+		int32_t L_8 = V_2;
+		NullCheck(L_7);
+		StringU5BU5D_t1642385972* L_9 = List_1_get_Item_m1223066663(L_7, L_8, /*hidden argument*/List_1_get_Item_m1223066663_MethodInfo_var);
+		NullCheck(L_9);
+		int32_t L_10 = 1;
+		String_t* L_11 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
+		IPEndPoint_t2615413766 * L_12 = MibIPGlobalProperties_ToEndpoint_m3884964026(__this, L_11, /*hidden argument*/NULL);
+		V_3 = L_12;
+		List_1_t1011507104 * L_13 = V_0;
+		int32_t L_14 = V_2;
+		NullCheck(L_13);
+		StringU5BU5D_t1642385972* L_15 = List_1_get_Item_m1223066663(L_13, L_14, /*hidden argument*/List_1_get_Item_m1223066663_MethodInfo_var);
+		NullCheck(L_15);
+		int32_t L_16 = 2;
+		String_t* L_17 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		IPEndPoint_t2615413766 * L_18 = MibIPGlobalProperties_ToEndpoint_m3884964026(__this, L_17, /*hidden argument*/NULL);
+		V_4 = L_18;
+		List_1_t1011507104 * L_19 = V_0;
+		int32_t L_20 = V_2;
+		NullCheck(L_19);
+		StringU5BU5D_t1642385972* L_21 = List_1_get_Item_m1223066663(L_19, L_20, /*hidden argument*/List_1_get_Item_m1223066663_MethodInfo_var);
+		NullCheck(L_21);
+		int32_t L_22 = 3;
+		String_t* L_23 = (L_21)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		int32_t L_24 = Int32_Parse_m837442623(NULL /*static, unused*/, L_23, ((int32_t)515), /*hidden argument*/NULL);
+		V_5 = L_24;
+		TcpConnectionInformationU5BU5D_t910531434* L_25 = V_1;
+		int32_t L_26 = V_2;
+		IPEndPoint_t2615413766 * L_27 = V_3;
+		IPEndPoint_t2615413766 * L_28 = V_4;
+		int32_t L_29 = V_5;
+		TcpConnectionInformationImpl_t1274605263 * L_30 = (TcpConnectionInformationImpl_t1274605263 *)il2cpp_codegen_object_new(TcpConnectionInformationImpl_t1274605263_il2cpp_TypeInfo_var);
+		TcpConnectionInformationImpl__ctor_m3967055251(L_30, L_27, L_28, L_29, /*hidden argument*/NULL);
+		NullCheck(L_25);
+		ArrayElementTypeCheck (L_25, L_30);
+		(L_25)->SetAt(static_cast<il2cpp_array_size_t>(L_26), (TcpConnectionInformation_t3392050187 *)L_30);
+		int32_t L_31 = V_2;
+		V_2 = ((int32_t)((int32_t)L_31+(int32_t)1));
+	}
+
+IL_007a:
+	{
+		int32_t L_32 = V_2;
+		TcpConnectionInformationU5BU5D_t910531434* L_33 = V_1;
+		NullCheck(L_33);
+		if ((((int32_t)L_32) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_33)->max_length)))))))
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		TcpConnectionInformationU5BU5D_t910531434* L_34 = V_1;
+		return L_34;
+	}
+}
+// System.Net.IPEndPoint[] System.Net.NetworkInformation.MibIPGlobalProperties::GetActiveTcpListeners()
+extern "C"  IPEndPointU5BU5D_t294524195* MibIPGlobalProperties_GetActiveTcpListeners_m3116098048 (MibIPGlobalProperties_t4104985615 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalProperties_GetActiveTcpListeners_m3116098048_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t1011507104 * V_0 = NULL;
+	{
+		List_1_t1011507104 * L_0 = (List_1_t1011507104 *)il2cpp_codegen_object_new(List_1_t1011507104_il2cpp_TypeInfo_var);
+		List_1__ctor_m809050190(L_0, /*hidden argument*/List_1__ctor_m809050190_MethodInfo_var);
+		V_0 = L_0;
+		String_t* L_1 = __this->get_TcpFile_4();
+		List_1_t1011507104 * L_2 = V_0;
+		MibIPGlobalProperties_GetRows_m1488792644(__this, L_1, L_2, /*hidden argument*/NULL);
+		String_t* L_3 = __this->get_Tcp6File_5();
+		List_1_t1011507104 * L_4 = V_0;
+		MibIPGlobalProperties_GetRows_m1488792644(__this, L_3, L_4, /*hidden argument*/NULL);
+		List_1_t1011507104 * L_5 = V_0;
+		IPEndPointU5BU5D_t294524195* L_6 = MibIPGlobalProperties_GetLocalAddresses_m2542146985(__this, L_5, /*hidden argument*/NULL);
+		return L_6;
+	}
+}
+// System.Net.IPEndPoint[] System.Net.NetworkInformation.MibIPGlobalProperties::GetActiveUdpListeners()
+extern "C"  IPEndPointU5BU5D_t294524195* MibIPGlobalProperties_GetActiveUdpListeners_m241792296 (MibIPGlobalProperties_t4104985615 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalProperties_GetActiveUdpListeners_m241792296_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t1011507104 * V_0 = NULL;
+	{
+		List_1_t1011507104 * L_0 = (List_1_t1011507104 *)il2cpp_codegen_object_new(List_1_t1011507104_il2cpp_TypeInfo_var);
+		List_1__ctor_m809050190(L_0, /*hidden argument*/List_1__ctor_m809050190_MethodInfo_var);
+		V_0 = L_0;
+		String_t* L_1 = __this->get_UdpFile_6();
+		List_1_t1011507104 * L_2 = V_0;
+		MibIPGlobalProperties_GetRows_m1488792644(__this, L_1, L_2, /*hidden argument*/NULL);
+		String_t* L_3 = __this->get_Udp6File_7();
+		List_1_t1011507104 * L_4 = V_0;
+		MibIPGlobalProperties_GetRows_m1488792644(__this, L_3, L_4, /*hidden argument*/NULL);
+		List_1_t1011507104 * L_5 = V_0;
+		IPEndPointU5BU5D_t294524195* L_6 = MibIPGlobalProperties_GetLocalAddresses_m2542146985(__this, L_5, /*hidden argument*/NULL);
+		return L_6;
+	}
+}
+// System.Net.NetworkInformation.IcmpV4Statistics System.Net.NetworkInformation.MibIPGlobalProperties::GetIcmpV4Statistics()
+extern "C"  IcmpV4Statistics_t1794928690 * MibIPGlobalProperties_GetIcmpV4Statistics_m1990024040 (MibIPGlobalProperties_t4104985615 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalProperties_GetIcmpV4Statistics_m1990024040_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		StringDictionary_t1070889667 * L_0 = MibIPGlobalProperties_GetProperties4_m1198230711(__this, _stringLiteral896650255, /*hidden argument*/NULL);
+		MibIcmpV4Statistics_t1600715310 * L_1 = (MibIcmpV4Statistics_t1600715310 *)il2cpp_codegen_object_new(MibIcmpV4Statistics_t1600715310_il2cpp_TypeInfo_var);
+		MibIcmpV4Statistics__ctor_m3067100210(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Net.NetworkInformation.IcmpV6Statistics System.Net.NetworkInformation.MibIPGlobalProperties::GetIcmpV6Statistics()
+extern "C"  IcmpV6Statistics_t86748584 * MibIPGlobalProperties_GetIcmpV6Statistics_m1269538736 (MibIPGlobalProperties_t4104985615 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalProperties_GetIcmpV6Statistics_m1269538736_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		StringDictionary_t1070889667 * L_0 = MibIPGlobalProperties_GetProperties6_m971278125(__this, _stringLiteral1084238885, /*hidden argument*/NULL);
+		MibIcmpV6Statistics_t1370511724 * L_1 = (MibIcmpV6Statistics_t1370511724 *)il2cpp_codegen_object_new(MibIcmpV6Statistics_t1370511724_il2cpp_TypeInfo_var);
+		MibIcmpV6Statistics__ctor_m501899560(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Net.NetworkInformation.IPGlobalStatistics System.Net.NetworkInformation.MibIPGlobalProperties::GetIPv4GlobalStatistics()
+extern "C"  IPGlobalStatistics_t106289253 * MibIPGlobalProperties_GetIPv4GlobalStatistics_m580546156 (MibIPGlobalProperties_t4104985615 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalProperties_GetIPv4GlobalStatistics_m580546156_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		StringDictionary_t1070889667 * L_0 = MibIPGlobalProperties_GetProperties4_m1198230711(__this, _stringLiteral1543969269, /*hidden argument*/NULL);
+		MibIPGlobalStatistics_t1312635647 * L_1 = (MibIPGlobalStatistics_t1312635647 *)il2cpp_codegen_object_new(MibIPGlobalStatistics_t1312635647_il2cpp_TypeInfo_var);
+		MibIPGlobalStatistics__ctor_m3307751309(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Net.NetworkInformation.IPGlobalStatistics System.Net.NetworkInformation.MibIPGlobalProperties::GetIPv6GlobalStatistics()
+extern "C"  IPGlobalStatistics_t106289253 * MibIPGlobalProperties_GetIPv6GlobalStatistics_m1768324706 (MibIPGlobalProperties_t4104985615 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalProperties_GetIPv6GlobalStatistics_m1768324706_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		StringDictionary_t1070889667 * L_0 = MibIPGlobalProperties_GetProperties6_m971278125(__this, _stringLiteral1549653859, /*hidden argument*/NULL);
+		MibIPGlobalStatistics_t1312635647 * L_1 = (MibIPGlobalStatistics_t1312635647 *)il2cpp_codegen_object_new(MibIPGlobalStatistics_t1312635647_il2cpp_TypeInfo_var);
+		MibIPGlobalStatistics__ctor_m3307751309(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Net.NetworkInformation.TcpStatistics System.Net.NetworkInformation.MibIPGlobalProperties::GetTcpIPv4Statistics()
+extern "C"  TcpStatistics_t2119642186 * MibIPGlobalProperties_GetTcpIPv4Statistics_m1408643689 (MibIPGlobalProperties_t4104985615 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalProperties_GetTcpIPv4Statistics_m1408643689_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		StringDictionary_t1070889667 * L_0 = MibIPGlobalProperties_GetProperties4_m1198230711(__this, _stringLiteral3828198783, /*hidden argument*/NULL);
+		MibTcpStatistics_t1080480462 * L_1 = (MibTcpStatistics_t1080480462 *)il2cpp_codegen_object_new(MibTcpStatistics_t1080480462_il2cpp_TypeInfo_var);
+		MibTcpStatistics__ctor_m732861916(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Net.NetworkInformation.TcpStatistics System.Net.NetworkInformation.MibIPGlobalProperties::GetTcpIPv6Statistics()
+extern "C"  TcpStatistics_t2119642186 * MibIPGlobalProperties_GetTcpIPv6Statistics_m2875161651 (MibIPGlobalProperties_t4104985615 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalProperties_GetTcpIPv6Statistics_m2875161651_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		StringDictionary_t1070889667 * L_0 = MibIPGlobalProperties_GetProperties4_m1198230711(__this, _stringLiteral3828198783, /*hidden argument*/NULL);
+		MibTcpStatistics_t1080480462 * L_1 = (MibTcpStatistics_t1080480462 *)il2cpp_codegen_object_new(MibTcpStatistics_t1080480462_il2cpp_TypeInfo_var);
+		MibTcpStatistics__ctor_m732861916(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Net.NetworkInformation.UdpStatistics System.Net.NetworkInformation.MibIPGlobalProperties::GetUdpIPv4Statistics()
+extern "C"  UdpStatistics_t3170871206 * MibIPGlobalProperties_GetUdpIPv4Statistics_m3412424425 (MibIPGlobalProperties_t4104985615 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalProperties_GetUdpIPv4Statistics_m3412424425_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		StringDictionary_t1070889667 * L_0 = MibIPGlobalProperties_GetProperties4_m1198230711(__this, _stringLiteral292746149, /*hidden argument*/NULL);
+		MibUdpStatistics_t1268103182 * L_1 = (MibUdpStatistics_t1268103182 *)il2cpp_codegen_object_new(MibUdpStatistics_t1268103182_il2cpp_TypeInfo_var);
+		MibUdpStatistics__ctor_m1456306180(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Net.NetworkInformation.UdpStatistics System.Net.NetworkInformation.MibIPGlobalProperties::GetUdpIPv6Statistics()
+extern "C"  UdpStatistics_t3170871206 * MibIPGlobalProperties_GetUdpIPv6Statistics_m3947793075 (MibIPGlobalProperties_t4104985615 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalProperties_GetUdpIPv6Statistics_m3947793075_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		StringDictionary_t1070889667 * L_0 = MibIPGlobalProperties_GetProperties6_m971278125(__this, _stringLiteral2402125395, /*hidden argument*/NULL);
+		MibUdpStatistics_t1268103182 * L_1 = (MibUdpStatistics_t1268103182 *)il2cpp_codegen_object_new(MibUdpStatistics_t1268103182_il2cpp_TypeInfo_var);
+		MibUdpStatistics__ctor_m1456306180(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.String System.Net.NetworkInformation.MibIPGlobalProperties::get_DhcpScopeName()
+extern "C"  String_t* MibIPGlobalProperties_get_DhcpScopeName_m3340112871 (MibIPGlobalProperties_t4104985615 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalProperties_get_DhcpScopeName_m3340112871_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		return L_0;
+	}
+}
+// System.String System.Net.NetworkInformation.MibIPGlobalProperties::get_DomainName()
+extern "C"  String_t* MibIPGlobalProperties_get_DomainName_m3102224640 (MibIPGlobalProperties_t4104985615 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalProperties_get_DomainName_m3102224640_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ByteU5BU5D_t3397334013* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t G_B4_0 = 0;
+	ByteU5BU5D_t3397334013* G_B4_1 = NULL;
+	Encoding_t663144255 * G_B4_2 = NULL;
+	int32_t G_B3_0 = 0;
+	ByteU5BU5D_t3397334013* G_B3_1 = NULL;
+	Encoding_t663144255 * G_B3_2 = NULL;
+	int32_t G_B5_0 = 0;
+	int32_t G_B5_1 = 0;
+	ByteU5BU5D_t3397334013* G_B5_2 = NULL;
+	Encoding_t663144255 * G_B5_3 = NULL;
+	{
+		V_0 = ((ByteU5BU5D_t3397334013*)SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, (uint32_t)((int32_t)256)));
+		ByteU5BU5D_t3397334013* L_0 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(MibIPGlobalProperties_t4104985615_il2cpp_TypeInfo_var);
+		int32_t L_1 = MibIPGlobalProperties_getdomainname_m3135005392(NULL /*static, unused*/, L_0, ((int32_t)256), /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		NetworkInformationException_t1863186723 * L_2 = (NetworkInformationException_t1863186723 *)il2cpp_codegen_object_new(NetworkInformationException_t1863186723_il2cpp_TypeInfo_var);
+		NetworkInformationException__ctor_m3720732489(L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_0021:
+	{
+		ByteU5BU5D_t3397334013* L_3 = V_0;
+		int32_t L_4 = Array_IndexOf_TisByte_t3683104436_m2497625856(NULL /*static, unused*/, L_3, (uint8_t)0, /*hidden argument*/Array_IndexOf_TisByte_t3683104436_m2497625856_MethodInfo_var);
+		V_1 = L_4;
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t663144255_il2cpp_TypeInfo_var);
+		Encoding_t663144255 * L_5 = Encoding_get_ASCII_m2727409419(NULL /*static, unused*/, /*hidden argument*/NULL);
+		ByteU5BU5D_t3397334013* L_6 = V_0;
+		int32_t L_7 = V_1;
+		G_B3_0 = 0;
+		G_B3_1 = L_6;
+		G_B3_2 = L_5;
+		if ((((int32_t)L_7) >= ((int32_t)0)))
+		{
+			G_B4_0 = 0;
+			G_B4_1 = L_6;
+			G_B4_2 = L_5;
+			goto IL_0041;
+		}
+	}
+	{
+		G_B5_0 = ((int32_t)256);
+		G_B5_1 = G_B3_0;
+		G_B5_2 = G_B3_1;
+		G_B5_3 = G_B3_2;
+		goto IL_0042;
+	}
+
+IL_0041:
+	{
+		int32_t L_8 = V_1;
+		G_B5_0 = L_8;
+		G_B5_1 = G_B4_0;
+		G_B5_2 = G_B4_1;
+		G_B5_3 = G_B4_2;
+	}
+
+IL_0042:
+	{
+		NullCheck(G_B5_3);
+		String_t* L_9 = VirtFuncInvoker3< String_t*, ByteU5BU5D_t3397334013*, int32_t, int32_t >::Invoke(21 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, G_B5_3, G_B5_2, G_B5_1, G_B5_0);
+		return L_9;
+	}
+}
+// System.String System.Net.NetworkInformation.MibIPGlobalProperties::get_HostName()
+extern "C"  String_t* MibIPGlobalProperties_get_HostName_m3734744658 (MibIPGlobalProperties_t4104985615 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalProperties_get_HostName_m3734744658_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ByteU5BU5D_t3397334013* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t G_B4_0 = 0;
+	ByteU5BU5D_t3397334013* G_B4_1 = NULL;
+	Encoding_t663144255 * G_B4_2 = NULL;
+	int32_t G_B3_0 = 0;
+	ByteU5BU5D_t3397334013* G_B3_1 = NULL;
+	Encoding_t663144255 * G_B3_2 = NULL;
+	int32_t G_B5_0 = 0;
+	int32_t G_B5_1 = 0;
+	ByteU5BU5D_t3397334013* G_B5_2 = NULL;
+	Encoding_t663144255 * G_B5_3 = NULL;
+	{
+		V_0 = ((ByteU5BU5D_t3397334013*)SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, (uint32_t)((int32_t)256)));
+		ByteU5BU5D_t3397334013* L_0 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(MibIPGlobalProperties_t4104985615_il2cpp_TypeInfo_var);
+		int32_t L_1 = MibIPGlobalProperties_gethostname_m3411141186(NULL /*static, unused*/, L_0, ((int32_t)256), /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		NetworkInformationException_t1863186723 * L_2 = (NetworkInformationException_t1863186723 *)il2cpp_codegen_object_new(NetworkInformationException_t1863186723_il2cpp_TypeInfo_var);
+		NetworkInformationException__ctor_m3720732489(L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_0021:
+	{
+		ByteU5BU5D_t3397334013* L_3 = V_0;
+		int32_t L_4 = Array_IndexOf_TisByte_t3683104436_m2497625856(NULL /*static, unused*/, L_3, (uint8_t)0, /*hidden argument*/Array_IndexOf_TisByte_t3683104436_m2497625856_MethodInfo_var);
+		V_1 = L_4;
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t663144255_il2cpp_TypeInfo_var);
+		Encoding_t663144255 * L_5 = Encoding_get_ASCII_m2727409419(NULL /*static, unused*/, /*hidden argument*/NULL);
+		ByteU5BU5D_t3397334013* L_6 = V_0;
+		int32_t L_7 = V_1;
+		G_B3_0 = 0;
+		G_B3_1 = L_6;
+		G_B3_2 = L_5;
+		if ((((int32_t)L_7) >= ((int32_t)0)))
+		{
+			G_B4_0 = 0;
+			G_B4_1 = L_6;
+			G_B4_2 = L_5;
+			goto IL_0041;
+		}
+	}
+	{
+		G_B5_0 = ((int32_t)256);
+		G_B5_1 = G_B3_0;
+		G_B5_2 = G_B3_1;
+		G_B5_3 = G_B3_2;
+		goto IL_0042;
+	}
+
+IL_0041:
+	{
+		int32_t L_8 = V_1;
+		G_B5_0 = L_8;
+		G_B5_1 = G_B4_0;
+		G_B5_2 = G_B4_1;
+		G_B5_3 = G_B4_2;
+	}
+
+IL_0042:
+	{
+		NullCheck(G_B5_3);
+		String_t* L_9 = VirtFuncInvoker3< String_t*, ByteU5BU5D_t3397334013*, int32_t, int32_t >::Invoke(21 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, G_B5_3, G_B5_2, G_B5_1, G_B5_0);
+		return L_9;
+	}
+}
+// System.Boolean System.Net.NetworkInformation.MibIPGlobalProperties::get_IsWinsProxy()
+extern "C"  bool MibIPGlobalProperties_get_IsWinsProxy_m1622703837 (MibIPGlobalProperties_t4104985615 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)0;
+	}
+}
+// System.Net.NetworkInformation.NetBiosNodeType System.Net.NetworkInformation.MibIPGlobalProperties::get_NodeType()
+extern "C"  int32_t MibIPGlobalProperties_get_NodeType_m2054239925 (MibIPGlobalProperties_t4104985615 * __this, const MethodInfo* method)
+{
+	{
+		return (int32_t)(0);
+	}
+}
+// System.Void System.Net.NetworkInformation.MibIPGlobalStatistics::.ctor(System.Collections.Specialized.StringDictionary)
+extern "C"  void MibIPGlobalStatistics__ctor_m3307751309 (MibIPGlobalStatistics_t1312635647 * __this, StringDictionary_t1070889667 * ___dic0, const MethodInfo* method)
+{
+	{
+		IPGlobalStatistics__ctor_m277027423(__this, /*hidden argument*/NULL);
+		StringDictionary_t1070889667 * L_0 = ___dic0;
+		__this->set_dic_0(L_0);
+		return;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIPGlobalStatistics::Get(System.String)
+extern "C"  int64_t MibIPGlobalStatistics_Get_m3128267552 (MibIPGlobalStatistics_t1312635647 * __this, String_t* ___name0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalStatistics_Get_m3128267552_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int64_t G_B3_0 = 0;
+	{
+		StringDictionary_t1070889667 * L_0 = __this->get_dic_0();
+		String_t* L_1 = ___name0;
+		NullCheck(L_0);
+		String_t* L_2 = VirtFuncInvoker1< String_t*, String_t* >::Invoke(6 /* System.String System.Collections.Specialized.StringDictionary::get_Item(System.String) */, L_0, L_1);
+		if (!L_2)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		StringDictionary_t1070889667 * L_3 = __this->get_dic_0();
+		String_t* L_4 = ___name0;
+		NullCheck(L_3);
+		String_t* L_5 = VirtFuncInvoker1< String_t*, String_t* >::Invoke(6 /* System.String System.Collections.Specialized.StringDictionary::get_Item(System.String) */, L_3, L_4);
+		IL2CPP_RUNTIME_CLASS_INIT(NumberFormatInfo_t104580544_il2cpp_TypeInfo_var);
+		NumberFormatInfo_t104580544 * L_6 = NumberFormatInfo_get_InvariantInfo_m2658215204(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int64_t L_7 = Int64_Parse_m3031608982(NULL /*static, unused*/, L_5, L_6, /*hidden argument*/NULL);
+		G_B3_0 = L_7;
+		goto IL_002e;
+	}
+
+IL_002c:
+	{
+		G_B3_0 = (((int64_t)((int64_t)0)));
+	}
+
+IL_002e:
+	{
+		return G_B3_0;
+	}
+}
+// System.Int32 System.Net.NetworkInformation.MibIPGlobalStatistics::get_DefaultTtl()
+extern "C"  int32_t MibIPGlobalStatistics_get_DefaultTtl_m3006801389 (MibIPGlobalStatistics_t1312635647 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalStatistics_get_DefaultTtl_m3006801389_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIPGlobalStatistics_Get_m3128267552(__this, _stringLiteral3639532731, /*hidden argument*/NULL);
+		return (((int32_t)((int32_t)L_0)));
+	}
+}
+// System.Boolean System.Net.NetworkInformation.MibIPGlobalStatistics::get_ForwardingEnabled()
+extern "C"  bool MibIPGlobalStatistics_get_ForwardingEnabled_m1551972828 (MibIPGlobalStatistics_t1312635647 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalStatistics_get_ForwardingEnabled_m1551972828_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIPGlobalStatistics_Get_m3128267552(__this, _stringLiteral771414943, /*hidden argument*/NULL);
+		return (bool)((((int32_t)((((int64_t)L_0) == ((int64_t)(((int64_t)((int64_t)0)))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+	}
+}
+// System.Int32 System.Net.NetworkInformation.MibIPGlobalStatistics::get_NumberOfInterfaces()
+extern "C"  int32_t MibIPGlobalStatistics_get_NumberOfInterfaces_m3562833578 (MibIPGlobalStatistics_t1312635647 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalStatistics_get_NumberOfInterfaces_m3562833578_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIPGlobalStatistics_Get_m3128267552(__this, _stringLiteral2952851933, /*hidden argument*/NULL);
+		return (((int32_t)((int32_t)L_0)));
+	}
+}
+// System.Int32 System.Net.NetworkInformation.MibIPGlobalStatistics::get_NumberOfIPAddresses()
+extern "C"  int32_t MibIPGlobalStatistics_get_NumberOfIPAddresses_m2586398133 (MibIPGlobalStatistics_t1312635647 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalStatistics_get_NumberOfIPAddresses_m2586398133_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIPGlobalStatistics_Get_m3128267552(__this, _stringLiteral2369980345, /*hidden argument*/NULL);
+		return (((int32_t)((int32_t)L_0)));
+	}
+}
+// System.Int32 System.Net.NetworkInformation.MibIPGlobalStatistics::get_NumberOfRoutes()
+extern "C"  int32_t MibIPGlobalStatistics_get_NumberOfRoutes_m1821288780 (MibIPGlobalStatistics_t1312635647 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalStatistics_get_NumberOfRoutes_m1821288780_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIPGlobalStatistics_Get_m3128267552(__this, _stringLiteral2479003528, /*hidden argument*/NULL);
+		return (((int32_t)((int32_t)L_0)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIPGlobalStatistics::get_OutputPacketRequests()
+extern "C"  int64_t MibIPGlobalStatistics_get_OutputPacketRequests_m2380312046 (MibIPGlobalStatistics_t1312635647 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalStatistics_get_OutputPacketRequests_m2380312046_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIPGlobalStatistics_Get_m3128267552(__this, _stringLiteral1564586200, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIPGlobalStatistics::get_OutputPacketRoutingDiscards()
+extern "C"  int64_t MibIPGlobalStatistics_get_OutputPacketRoutingDiscards_m2753119879 (MibIPGlobalStatistics_t1312635647 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalStatistics_get_OutputPacketRoutingDiscards_m2753119879_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIPGlobalStatistics_Get_m3128267552(__this, _stringLiteral645355377, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIPGlobalStatistics::get_OutputPacketsDiscarded()
+extern "C"  int64_t MibIPGlobalStatistics_get_OutputPacketsDiscarded_m2885242688 (MibIPGlobalStatistics_t1312635647 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalStatistics_get_OutputPacketsDiscarded_m2885242688_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIPGlobalStatistics_Get_m3128267552(__this, _stringLiteral3164534335, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIPGlobalStatistics::get_OutputPacketsWithNoRoute()
+extern "C"  int64_t MibIPGlobalStatistics_get_OutputPacketsWithNoRoute_m1590783279 (MibIPGlobalStatistics_t1312635647 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalStatistics_get_OutputPacketsWithNoRoute_m1590783279_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIPGlobalStatistics_Get_m3128267552(__this, _stringLiteral3978444901, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIPGlobalStatistics::get_PacketFragmentFailures()
+extern "C"  int64_t MibIPGlobalStatistics_get_PacketFragmentFailures_m3669752950 (MibIPGlobalStatistics_t1312635647 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalStatistics_get_PacketFragmentFailures_m3669752950_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIPGlobalStatistics_Get_m3128267552(__this, _stringLiteral3019709871, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIPGlobalStatistics::get_PacketReassembliesRequired()
+extern "C"  int64_t MibIPGlobalStatistics_get_PacketReassembliesRequired_m1142784995 (MibIPGlobalStatistics_t1312635647 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalStatistics_get_PacketReassembliesRequired_m1142784995_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIPGlobalStatistics_Get_m3128267552(__this, _stringLiteral549863369, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIPGlobalStatistics::get_PacketReassemblyFailures()
+extern "C"  int64_t MibIPGlobalStatistics_get_PacketReassemblyFailures_m1426074803 (MibIPGlobalStatistics_t1312635647 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalStatistics_get_PacketReassemblyFailures_m1426074803_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIPGlobalStatistics_Get_m3128267552(__this, _stringLiteral2393500673, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIPGlobalStatistics::get_PacketReassemblyTimeout()
+extern "C"  int64_t MibIPGlobalStatistics_get_PacketReassemblyTimeout_m2336767899 (MibIPGlobalStatistics_t1312635647 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalStatistics_get_PacketReassemblyTimeout_m2336767899_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIPGlobalStatistics_Get_m3128267552(__this, _stringLiteral1870237815, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIPGlobalStatistics::get_PacketsFragmented()
+extern "C"  int64_t MibIPGlobalStatistics_get_PacketsFragmented_m2884165147 (MibIPGlobalStatistics_t1312635647 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalStatistics_get_PacketsFragmented_m2884165147_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIPGlobalStatistics_Get_m3128267552(__this, _stringLiteral1083424901, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIPGlobalStatistics::get_PacketsReassembled()
+extern "C"  int64_t MibIPGlobalStatistics_get_PacketsReassembled_m4124427799 (MibIPGlobalStatistics_t1312635647 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalStatistics_get_PacketsReassembled_m4124427799_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIPGlobalStatistics_Get_m3128267552(__this, _stringLiteral43107099, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIPGlobalStatistics::get_ReceivedPackets()
+extern "C"  int64_t MibIPGlobalStatistics_get_ReceivedPackets_m84609397 (MibIPGlobalStatistics_t1312635647 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalStatistics_get_ReceivedPackets_m84609397_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIPGlobalStatistics_Get_m3128267552(__this, _stringLiteral1978669783, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIPGlobalStatistics::get_ReceivedPacketsDelivered()
+extern "C"  int64_t MibIPGlobalStatistics_get_ReceivedPacketsDelivered_m3123715317 (MibIPGlobalStatistics_t1312635647 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalStatistics_get_ReceivedPacketsDelivered_m3123715317_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIPGlobalStatistics_Get_m3128267552(__this, _stringLiteral4160383541, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIPGlobalStatistics::get_ReceivedPacketsDiscarded()
+extern "C"  int64_t MibIPGlobalStatistics_get_ReceivedPacketsDiscarded_m3883624658 (MibIPGlobalStatistics_t1312635647 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalStatistics_get_ReceivedPacketsDiscarded_m3883624658_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIPGlobalStatistics_Get_m3128267552(__this, _stringLiteral3748767902, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIPGlobalStatistics::get_ReceivedPacketsForwarded()
+extern "C"  int64_t MibIPGlobalStatistics_get_ReceivedPacketsForwarded_m981875931 (MibIPGlobalStatistics_t1312635647 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalStatistics_get_ReceivedPacketsForwarded_m981875931_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIPGlobalStatistics_Get_m3128267552(__this, _stringLiteral1638683774, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIPGlobalStatistics::get_ReceivedPacketsWithAddressErrors()
+extern "C"  int64_t MibIPGlobalStatistics_get_ReceivedPacketsWithAddressErrors_m3137063190 (MibIPGlobalStatistics_t1312635647 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalStatistics_get_ReceivedPacketsWithAddressErrors_m3137063190_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIPGlobalStatistics_Get_m3128267552(__this, _stringLiteral3503987627, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIPGlobalStatistics::get_ReceivedPacketsWithHeadersErrors()
+extern "C"  int64_t MibIPGlobalStatistics_get_ReceivedPacketsWithHeadersErrors_m410999892 (MibIPGlobalStatistics_t1312635647 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalStatistics_get_ReceivedPacketsWithHeadersErrors_m410999892_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIPGlobalStatistics_Get_m3128267552(__this, _stringLiteral1376773674, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibIPGlobalStatistics::get_ReceivedPacketsWithUnknownProtocol()
+extern "C"  int64_t MibIPGlobalStatistics_get_ReceivedPacketsWithUnknownProtocol_m2448992057 (MibIPGlobalStatistics_t1312635647 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibIPGlobalStatistics_get_ReceivedPacketsWithUnknownProtocol_m2448992057_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibIPGlobalStatistics_Get_m3128267552(__this, _stringLiteral1972418914, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Void System.Net.NetworkInformation.MibTcpStatistics::.ctor(System.Collections.Specialized.StringDictionary)
+extern "C"  void MibTcpStatistics__ctor_m732861916 (MibTcpStatistics_t1080480462 * __this, StringDictionary_t1070889667 * ___dic0, const MethodInfo* method)
+{
+	{
+		TcpStatistics__ctor_m3717319940(__this, /*hidden argument*/NULL);
+		StringDictionary_t1070889667 * L_0 = ___dic0;
+		__this->set_dic_0(L_0);
+		return;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibTcpStatistics::Get(System.String)
+extern "C"  int64_t MibTcpStatistics_Get_m1869682757 (MibTcpStatistics_t1080480462 * __this, String_t* ___name0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibTcpStatistics_Get_m1869682757_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int64_t G_B3_0 = 0;
+	{
+		StringDictionary_t1070889667 * L_0 = __this->get_dic_0();
+		String_t* L_1 = ___name0;
+		NullCheck(L_0);
+		String_t* L_2 = VirtFuncInvoker1< String_t*, String_t* >::Invoke(6 /* System.String System.Collections.Specialized.StringDictionary::get_Item(System.String) */, L_0, L_1);
+		if (!L_2)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		StringDictionary_t1070889667 * L_3 = __this->get_dic_0();
+		String_t* L_4 = ___name0;
+		NullCheck(L_3);
+		String_t* L_5 = VirtFuncInvoker1< String_t*, String_t* >::Invoke(6 /* System.String System.Collections.Specialized.StringDictionary::get_Item(System.String) */, L_3, L_4);
+		IL2CPP_RUNTIME_CLASS_INIT(NumberFormatInfo_t104580544_il2cpp_TypeInfo_var);
+		NumberFormatInfo_t104580544 * L_6 = NumberFormatInfo_get_InvariantInfo_m2658215204(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int64_t L_7 = Int64_Parse_m3031608982(NULL /*static, unused*/, L_5, L_6, /*hidden argument*/NULL);
+		G_B3_0 = L_7;
+		goto IL_002e;
+	}
+
+IL_002c:
+	{
+		G_B3_0 = (((int64_t)((int64_t)0)));
+	}
+
+IL_002e:
+	{
+		return G_B3_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibTcpStatistics::get_ConnectionsAccepted()
+extern "C"  int64_t MibTcpStatistics_get_ConnectionsAccepted_m672387978 (MibTcpStatistics_t1080480462 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibTcpStatistics_get_ConnectionsAccepted_m672387978_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibTcpStatistics_Get_m1869682757(__this, _stringLiteral2751156204, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibTcpStatistics::get_ConnectionsInitiated()
+extern "C"  int64_t MibTcpStatistics_get_ConnectionsInitiated_m241249354 (MibTcpStatistics_t1080480462 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibTcpStatistics_get_ConnectionsInitiated_m241249354_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibTcpStatistics_Get_m1869682757(__this, _stringLiteral3671798563, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibTcpStatistics::get_CumulativeConnections()
+extern "C"  int64_t MibTcpStatistics_get_CumulativeConnections_m4034249650 (MibTcpStatistics_t1080480462 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibTcpStatistics_get_CumulativeConnections_m4034249650_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibTcpStatistics_Get_m1869682757(__this, _stringLiteral16648845, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibTcpStatistics::get_CurrentConnections()
+extern "C"  int64_t MibTcpStatistics_get_CurrentConnections_m2844368750 (MibTcpStatistics_t1080480462 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibTcpStatistics_get_CurrentConnections_m2844368750_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibTcpStatistics_Get_m1869682757(__this, _stringLiteral452633239, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibTcpStatistics::get_ErrorsReceived()
+extern "C"  int64_t MibTcpStatistics_get_ErrorsReceived_m1522404656 (MibTcpStatistics_t1080480462 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibTcpStatistics_get_ErrorsReceived_m1522404656_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibTcpStatistics_Get_m1869682757(__this, _stringLiteral2873216045, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibTcpStatistics::get_FailedConnectionAttempts()
+extern "C"  int64_t MibTcpStatistics_get_FailedConnectionAttempts_m2322169227 (MibTcpStatistics_t1080480462 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibTcpStatistics_get_FailedConnectionAttempts_m2322169227_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibTcpStatistics_Get_m1869682757(__this, _stringLiteral2708803964, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibTcpStatistics::get_MaximumConnections()
+extern "C"  int64_t MibTcpStatistics_get_MaximumConnections_m2669104669 (MibTcpStatistics_t1080480462 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibTcpStatistics_get_MaximumConnections_m2669104669_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibTcpStatistics_Get_m1869682757(__this, _stringLiteral858923966, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibTcpStatistics::get_MaximumTransmissionTimeout()
+extern "C"  int64_t MibTcpStatistics_get_MaximumTransmissionTimeout_m3133190033 (MibTcpStatistics_t1080480462 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibTcpStatistics_get_MaximumTransmissionTimeout_m3133190033_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibTcpStatistics_Get_m1869682757(__this, _stringLiteral1348842925, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibTcpStatistics::get_MinimumTransmissionTimeout()
+extern "C"  int64_t MibTcpStatistics_get_MinimumTransmissionTimeout_m1762355779 (MibTcpStatistics_t1080480462 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibTcpStatistics_get_MinimumTransmissionTimeout_m1762355779_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibTcpStatistics_Get_m1869682757(__this, _stringLiteral1799181611, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibTcpStatistics::get_ResetConnections()
+extern "C"  int64_t MibTcpStatistics_get_ResetConnections_m5271556 (MibTcpStatistics_t1080480462 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibTcpStatistics_get_ResetConnections_m5271556_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibTcpStatistics_Get_m1869682757(__this, _stringLiteral3097005199, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibTcpStatistics::get_ResetsSent()
+extern "C"  int64_t MibTcpStatistics_get_ResetsSent_m1968024098 (MibTcpStatistics_t1080480462 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibTcpStatistics_get_ResetsSent_m1968024098_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibTcpStatistics_Get_m1869682757(__this, _stringLiteral2389992012, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibTcpStatistics::get_SegmentsReceived()
+extern "C"  int64_t MibTcpStatistics_get_SegmentsReceived_m484212707 (MibTcpStatistics_t1080480462 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibTcpStatistics_get_SegmentsReceived_m484212707_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibTcpStatistics_Get_m1869682757(__this, _stringLiteral1098713289, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibTcpStatistics::get_SegmentsResent()
+extern "C"  int64_t MibTcpStatistics_get_SegmentsResent_m1690935503 (MibTcpStatistics_t1080480462 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibTcpStatistics_get_SegmentsResent_m1690935503_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibTcpStatistics_Get_m1869682757(__this, _stringLiteral292092879, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibTcpStatistics::get_SegmentsSent()
+extern "C"  int64_t MibTcpStatistics_get_SegmentsSent_m3905308392 (MibTcpStatistics_t1080480462 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibTcpStatistics_get_SegmentsSent_m3905308392_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibTcpStatistics_Get_m1869682757(__this, _stringLiteral1395206588, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Void System.Net.NetworkInformation.MibUdpStatistics::.ctor(System.Collections.Specialized.StringDictionary)
+extern "C"  void MibUdpStatistics__ctor_m1456306180 (MibUdpStatistics_t1268103182 * __this, StringDictionary_t1070889667 * ___dic0, const MethodInfo* method)
+{
+	{
+		UdpStatistics__ctor_m2683603744(__this, /*hidden argument*/NULL);
+		StringDictionary_t1070889667 * L_0 = ___dic0;
+		__this->set_dic_0(L_0);
+		return;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibUdpStatistics::Get(System.String)
+extern "C"  int64_t MibUdpStatistics_Get_m3318110531 (MibUdpStatistics_t1268103182 * __this, String_t* ___name0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibUdpStatistics_Get_m3318110531_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int64_t G_B3_0 = 0;
+	{
+		StringDictionary_t1070889667 * L_0 = __this->get_dic_0();
+		String_t* L_1 = ___name0;
+		NullCheck(L_0);
+		String_t* L_2 = VirtFuncInvoker1< String_t*, String_t* >::Invoke(6 /* System.String System.Collections.Specialized.StringDictionary::get_Item(System.String) */, L_0, L_1);
+		if (!L_2)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		StringDictionary_t1070889667 * L_3 = __this->get_dic_0();
+		String_t* L_4 = ___name0;
+		NullCheck(L_3);
+		String_t* L_5 = VirtFuncInvoker1< String_t*, String_t* >::Invoke(6 /* System.String System.Collections.Specialized.StringDictionary::get_Item(System.String) */, L_3, L_4);
+		IL2CPP_RUNTIME_CLASS_INIT(NumberFormatInfo_t104580544_il2cpp_TypeInfo_var);
+		NumberFormatInfo_t104580544 * L_6 = NumberFormatInfo_get_InvariantInfo_m2658215204(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int64_t L_7 = Int64_Parse_m3031608982(NULL /*static, unused*/, L_5, L_6, /*hidden argument*/NULL);
+		G_B3_0 = L_7;
+		goto IL_002e;
+	}
+
+IL_002c:
+	{
+		G_B3_0 = (((int64_t)((int64_t)0)));
+	}
+
+IL_002e:
+	{
+		return G_B3_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibUdpStatistics::get_DatagramsReceived()
+extern "C"  int64_t MibUdpStatistics_get_DatagramsReceived_m1813908635 (MibUdpStatistics_t1268103182 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibUdpStatistics_get_DatagramsReceived_m1813908635_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibUdpStatistics_Get_m3318110531(__this, _stringLiteral3240307789, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibUdpStatistics::get_DatagramsSent()
+extern "C"  int64_t MibUdpStatistics_get_DatagramsSent_m1851983544 (MibUdpStatistics_t1268103182 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibUdpStatistics_get_DatagramsSent_m1851983544_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibUdpStatistics_Get_m3318110531(__this, _stringLiteral1483358026, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibUdpStatistics::get_IncomingDatagramsDiscarded()
+extern "C"  int64_t MibUdpStatistics_get_IncomingDatagramsDiscarded_m1042293413 (MibUdpStatistics_t1268103182 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibUdpStatistics_get_IncomingDatagramsDiscarded_m1042293413_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibUdpStatistics_Get_m3318110531(__this, _stringLiteral1542679279, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MibUdpStatistics::get_IncomingDatagramsWithErrors()
+extern "C"  int64_t MibUdpStatistics_get_IncomingDatagramsWithErrors_m566983427 (MibUdpStatistics_t1268103182 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibUdpStatistics_get_IncomingDatagramsWithErrors_m566983427_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibUdpStatistics_Get_m3318110531(__this, _stringLiteral2592097282, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int32 System.Net.NetworkInformation.MibUdpStatistics::get_UdpListeners()
+extern "C"  int32_t MibUdpStatistics_get_UdpListeners_m1687826613 (MibUdpStatistics_t1268103182 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MibUdpStatistics_get_UdpListeners_m1687826613_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = MibUdpStatistics_Get_m3318110531(__this, _stringLiteral736532494, /*hidden argument*/NULL);
+		return (((int32_t)((int32_t)L_0)));
+	}
+}
+// System.Void System.Net.NetworkInformation.MulticastIPAddressInformation::.ctor()
+extern "C"  void MulticastIPAddressInformation__ctor_m2164891807 (MulticastIPAddressInformation_t1580768453 * __this, const MethodInfo* method)
+{
+	{
+		IPAddressInformation__ctor_m217182671(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.MulticastIPAddressInformationCollection::.ctor()
+extern "C"  void MulticastIPAddressInformationCollection__ctor_m1414811733 (MulticastIPAddressInformationCollection_t2350102231 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MulticastIPAddressInformationCollection__ctor_m1414811733_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t949889585 * L_0 = (List_1_t949889585 *)il2cpp_codegen_object_new(List_1_t949889585_il2cpp_TypeInfo_var);
+		List_1__ctor_m550076461(L_0, /*hidden argument*/List_1__ctor_m550076461_MethodInfo_var);
+		__this->set_list_0(L_0);
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Collections.IEnumerator System.Net.NetworkInformation.MulticastIPAddressInformationCollection::System.Collections.IEnumerable.GetEnumerator()
+extern "C"  Il2CppObject * MulticastIPAddressInformationCollection_System_Collections_IEnumerable_GetEnumerator_m1268559216 (MulticastIPAddressInformationCollection_t2350102231 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MulticastIPAddressInformationCollection_System_Collections_IEnumerable_GetEnumerator_m1268559216_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t949889585 * L_0 = __this->get_list_0();
+		NullCheck(L_0);
+		Enumerator_t484619259  L_1 = List_1_GetEnumerator_m4255577862(L_0, /*hidden argument*/List_1_GetEnumerator_m4255577862_MethodInfo_var);
+		Enumerator_t484619259  L_2 = L_1;
+		Il2CppObject * L_3 = Box(Enumerator_t484619259_il2cpp_TypeInfo_var, &L_2);
+		return (Il2CppObject *)L_3;
+	}
+}
+// System.Void System.Net.NetworkInformation.MulticastIPAddressInformationCollection::Add(System.Net.NetworkInformation.MulticastIPAddressInformation)
+extern "C"  void MulticastIPAddressInformationCollection_Add_m3943762897 (MulticastIPAddressInformationCollection_t2350102231 * __this, MulticastIPAddressInformation_t1580768453 * ___address0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MulticastIPAddressInformationCollection_Add_m3943762897_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = VirtFuncInvoker0< bool >::Invoke(20 /* System.Boolean System.Net.NetworkInformation.MulticastIPAddressInformationCollection::get_IsReadOnly() */, __this);
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		NotSupportedException_t1793819818 * L_1 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m836173213(L_1, _stringLiteral1786440010, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0016:
+	{
+		List_1_t949889585 * L_2 = __this->get_list_0();
+		MulticastIPAddressInformation_t1580768453 * L_3 = ___address0;
+		NullCheck(L_2);
+		List_1_Add_m3893951401(L_2, L_3, /*hidden argument*/List_1_Add_m3893951401_MethodInfo_var);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.MulticastIPAddressInformationCollection::Clear()
+extern "C"  void MulticastIPAddressInformationCollection_Clear_m3849867846 (MulticastIPAddressInformationCollection_t2350102231 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MulticastIPAddressInformationCollection_Clear_m3849867846_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = VirtFuncInvoker0< bool >::Invoke(20 /* System.Boolean System.Net.NetworkInformation.MulticastIPAddressInformationCollection::get_IsReadOnly() */, __this);
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		NotSupportedException_t1793819818 * L_1 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m836173213(L_1, _stringLiteral1786440010, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0016:
+	{
+		List_1_t949889585 * L_2 = __this->get_list_0();
+		NullCheck(L_2);
+		List_1_Clear_m3655007666(L_2, /*hidden argument*/List_1_Clear_m3655007666_MethodInfo_var);
+		return;
+	}
+}
+// System.Boolean System.Net.NetworkInformation.MulticastIPAddressInformationCollection::Contains(System.Net.NetworkInformation.MulticastIPAddressInformation)
+extern "C"  bool MulticastIPAddressInformationCollection_Contains_m1526068195 (MulticastIPAddressInformationCollection_t2350102231 * __this, MulticastIPAddressInformation_t1580768453 * ___address0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MulticastIPAddressInformationCollection_Contains_m1526068195_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t949889585 * L_0 = __this->get_list_0();
+		MulticastIPAddressInformation_t1580768453 * L_1 = ___address0;
+		NullCheck(L_0);
+		bool L_2 = List_1_Contains_m3532462127(L_0, L_1, /*hidden argument*/List_1_Contains_m3532462127_MethodInfo_var);
+		return L_2;
+	}
+}
+// System.Void System.Net.NetworkInformation.MulticastIPAddressInformationCollection::CopyTo(System.Net.NetworkInformation.MulticastIPAddressInformation[],System.Int32)
+extern "C"  void MulticastIPAddressInformationCollection_CopyTo_m906862261 (MulticastIPAddressInformationCollection_t2350102231 * __this, MulticastIPAddressInformationU5BU5D_t302302856* ___array0, int32_t ___offset1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MulticastIPAddressInformationCollection_CopyTo_m906862261_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t949889585 * L_0 = __this->get_list_0();
+		MulticastIPAddressInformationU5BU5D_t302302856* L_1 = ___array0;
+		int32_t L_2 = ___offset1;
+		NullCheck(L_0);
+		List_1_CopyTo_m1147215253(L_0, L_1, L_2, /*hidden argument*/List_1_CopyTo_m1147215253_MethodInfo_var);
+		return;
+	}
+}
+// System.Collections.Generic.IEnumerator`1<System.Net.NetworkInformation.MulticastIPAddressInformation> System.Net.NetworkInformation.MulticastIPAddressInformationCollection::GetEnumerator()
+extern "C"  Il2CppObject* MulticastIPAddressInformationCollection_GetEnumerator_m2785022822 (MulticastIPAddressInformationCollection_t2350102231 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MulticastIPAddressInformationCollection_GetEnumerator_m2785022822_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t949889585 * L_0 = __this->get_list_0();
+		NullCheck(L_0);
+		Il2CppObject* L_1 = InterfaceFuncInvoker0< Il2CppObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<!0> System.Collections.Generic.IEnumerable`1<System.Net.NetworkInformation.MulticastIPAddressInformation>::GetEnumerator() */, IEnumerable_1_t1872895498_il2cpp_TypeInfo_var, L_0);
+		return L_1;
+	}
+}
+// System.Boolean System.Net.NetworkInformation.MulticastIPAddressInformationCollection::Remove(System.Net.NetworkInformation.MulticastIPAddressInformation)
+extern "C"  bool MulticastIPAddressInformationCollection_Remove_m3144414348 (MulticastIPAddressInformationCollection_t2350102231 * __this, MulticastIPAddressInformation_t1580768453 * ___address0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MulticastIPAddressInformationCollection_Remove_m3144414348_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = VirtFuncInvoker0< bool >::Invoke(20 /* System.Boolean System.Net.NetworkInformation.MulticastIPAddressInformationCollection::get_IsReadOnly() */, __this);
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		NotSupportedException_t1793819818 * L_1 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m836173213(L_1, _stringLiteral1786440010, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0016:
+	{
+		List_1_t949889585 * L_2 = __this->get_list_0();
+		MulticastIPAddressInformation_t1580768453 * L_3 = ___address0;
+		NullCheck(L_2);
+		bool L_4 = List_1_Remove_m1486242092(L_2, L_3, /*hidden argument*/List_1_Remove_m1486242092_MethodInfo_var);
+		return L_4;
+	}
+}
+// System.Int32 System.Net.NetworkInformation.MulticastIPAddressInformationCollection::get_Count()
+extern "C"  int32_t MulticastIPAddressInformationCollection_get_Count_m1993095393 (MulticastIPAddressInformationCollection_t2350102231 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MulticastIPAddressInformationCollection_get_Count_m1993095393_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t949889585 * L_0 = __this->get_list_0();
+		NullCheck(L_0);
+		int32_t L_1 = List_1_get_Count_m3462333589(L_0, /*hidden argument*/List_1_get_Count_m3462333589_MethodInfo_var);
+		return L_1;
+	}
+}
+// System.Boolean System.Net.NetworkInformation.MulticastIPAddressInformationCollection::get_IsReadOnly()
+extern "C"  bool MulticastIPAddressInformationCollection_get_IsReadOnly_m2276391092 (MulticastIPAddressInformationCollection_t2350102231 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Net.NetworkInformation.MulticastIPAddressInformation System.Net.NetworkInformation.MulticastIPAddressInformationCollection::get_Item(System.Int32)
+extern "C"  MulticastIPAddressInformation_t1580768453 * MulticastIPAddressInformationCollection_get_Item_m2205037162 (MulticastIPAddressInformationCollection_t2350102231 * __this, int32_t ___index0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MulticastIPAddressInformationCollection_get_Item_m2205037162_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t949889585 * L_0 = __this->get_list_0();
+		int32_t L_1 = ___index0;
+		NullCheck(L_0);
+		MulticastIPAddressInformation_t1580768453 * L_2 = List_1_get_Item_m1443081034(L_0, L_1, /*hidden argument*/List_1_get_Item_m1443081034_MethodInfo_var);
+		return L_2;
+	}
+}
+// System.Void System.Net.NetworkInformation.MulticastIPAddressInformationImpl::.ctor(System.Net.IPAddress,System.Boolean,System.Boolean)
+extern "C"  void MulticastIPAddressInformationImpl__ctor_m2727907124 (MulticastIPAddressInformationImpl_t2980279617 * __this, IPAddress_t1399971723 * ___address0, bool ___isDnsEligible1, bool ___isTransient2, const MethodInfo* method)
+{
+	{
+		MulticastIPAddressInformation__ctor_m2164891807(__this, /*hidden argument*/NULL);
+		IPAddress_t1399971723 * L_0 = ___address0;
+		__this->set_address_0(L_0);
+		bool L_1 = ___isDnsEligible1;
+		__this->set_is_dns_eligible_1(L_1);
+		bool L_2 = ___isTransient2;
+		__this->set_is_transient_2(L_2);
+		return;
+	}
+}
+// System.Net.IPAddress System.Net.NetworkInformation.MulticastIPAddressInformationImpl::get_Address()
+extern "C"  IPAddress_t1399971723 * MulticastIPAddressInformationImpl_get_Address_m862164504 (MulticastIPAddressInformationImpl_t2980279617 * __this, const MethodInfo* method)
+{
+	{
+		IPAddress_t1399971723 * L_0 = __this->get_address_0();
+		return L_0;
+	}
+}
+// System.Boolean System.Net.NetworkInformation.MulticastIPAddressInformationImpl::get_IsDnsEligible()
+extern "C"  bool MulticastIPAddressInformationImpl_get_IsDnsEligible_m3915212820 (MulticastIPAddressInformationImpl_t2980279617 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_is_dns_eligible_1();
+		return L_0;
+	}
+}
+// System.Boolean System.Net.NetworkInformation.MulticastIPAddressInformationImpl::get_IsTransient()
+extern "C"  bool MulticastIPAddressInformationImpl_get_IsTransient_m962771324 (MulticastIPAddressInformationImpl_t2980279617 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_is_transient_2();
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MulticastIPAddressInformationImpl::get_AddressPreferredLifetime()
+extern "C"  int64_t MulticastIPAddressInformationImpl_get_AddressPreferredLifetime_m3586958347 (MulticastIPAddressInformationImpl_t2980279617 * __this, const MethodInfo* method)
+{
+	{
+		return (((int64_t)((int64_t)0)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MulticastIPAddressInformationImpl::get_AddressValidLifetime()
+extern "C"  int64_t MulticastIPAddressInformationImpl_get_AddressValidLifetime_m3308684346 (MulticastIPAddressInformationImpl_t2980279617 * __this, const MethodInfo* method)
+{
+	{
+		return (((int64_t)((int64_t)0)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.MulticastIPAddressInformationImpl::get_DhcpLeaseLifetime()
+extern "C"  int64_t MulticastIPAddressInformationImpl_get_DhcpLeaseLifetime_m2865080213 (MulticastIPAddressInformationImpl_t2980279617 * __this, const MethodInfo* method)
+{
+	{
+		return (((int64_t)((int64_t)0)));
+	}
+}
+// System.Net.NetworkInformation.DuplicateAddressDetectionState System.Net.NetworkInformation.MulticastIPAddressInformationImpl::get_DuplicateAddressDetectionState()
+extern "C"  int32_t MulticastIPAddressInformationImpl_get_DuplicateAddressDetectionState_m2986291083 (MulticastIPAddressInformationImpl_t2980279617 * __this, const MethodInfo* method)
+{
+	{
+		return (int32_t)(0);
+	}
+}
+// System.Net.NetworkInformation.PrefixOrigin System.Net.NetworkInformation.MulticastIPAddressInformationImpl::get_PrefixOrigin()
+extern "C"  int32_t MulticastIPAddressInformationImpl_get_PrefixOrigin_m355792971 (MulticastIPAddressInformationImpl_t2980279617 * __this, const MethodInfo* method)
+{
+	{
+		return (int32_t)(0);
+	}
+}
+// System.Net.NetworkInformation.SuffixOrigin System.Net.NetworkInformation.MulticastIPAddressInformationImpl::get_SuffixOrigin()
+extern "C"  int32_t MulticastIPAddressInformationImpl_get_SuffixOrigin_m1470769515 (MulticastIPAddressInformationImpl_t2980279617 * __this, const MethodInfo* method)
+{
+	{
+		return (int32_t)(0);
+	}
+}
+// System.Void System.Net.NetworkInformation.MulticastIPAddressInformationImplCollection::.ctor(System.Boolean)
+extern "C"  void MulticastIPAddressInformationImplCollection__ctor_m41943456 (MulticastIPAddressInformationImplCollection_t3355839275 * __this, bool ___isReadOnly0, const MethodInfo* method)
+{
+	{
+		MulticastIPAddressInformationCollection__ctor_m1414811733(__this, /*hidden argument*/NULL);
+		bool L_0 = ___isReadOnly0;
+		__this->set_is_readonly_2(L_0);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.MulticastIPAddressInformationImplCollection::.cctor()
+extern "C"  void MulticastIPAddressInformationImplCollection__cctor_m3213676548 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MulticastIPAddressInformationImplCollection__cctor_m3213676548_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		MulticastIPAddressInformationImplCollection_t3355839275 * L_0 = (MulticastIPAddressInformationImplCollection_t3355839275 *)il2cpp_codegen_object_new(MulticastIPAddressInformationImplCollection_t3355839275_il2cpp_TypeInfo_var);
+		MulticastIPAddressInformationImplCollection__ctor_m41943456(L_0, (bool)1, /*hidden argument*/NULL);
+		((MulticastIPAddressInformationImplCollection_t3355839275_StaticFields*)MulticastIPAddressInformationImplCollection_t3355839275_il2cpp_TypeInfo_var->static_fields)->set_Empty_1(L_0);
+		return;
+	}
+}
+// System.Boolean System.Net.NetworkInformation.MulticastIPAddressInformationImplCollection::get_IsReadOnly()
+extern "C"  bool MulticastIPAddressInformationImplCollection_get_IsReadOnly_m1969800290 (MulticastIPAddressInformationImplCollection_t3355839275 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_is_readonly_2();
+		return L_0;
+	}
+}
+// System.Net.NetworkInformation.MulticastIPAddressInformationCollection System.Net.NetworkInformation.MulticastIPAddressInformationImplCollection::Win32FromMulticast(System.IntPtr)
+extern "C"  MulticastIPAddressInformationCollection_t2350102231 * MulticastIPAddressInformationImplCollection_Win32FromMulticast_m3092549902 (Il2CppObject * __this /* static, unused */, IntPtr_t ___ptr0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MulticastIPAddressInformationImplCollection_Win32FromMulticast_m3092549902_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	MulticastIPAddressInformationImplCollection_t3355839275 * V_0 = NULL;
+	Win32_IP_ADAPTER_MULTICAST_ADDRESS_t2877128995  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	IntPtr_t V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	{
+		MulticastIPAddressInformationImplCollection_t3355839275 * L_0 = (MulticastIPAddressInformationImplCollection_t3355839275 *)il2cpp_codegen_object_new(MulticastIPAddressInformationImplCollection_t3355839275_il2cpp_TypeInfo_var);
+		MulticastIPAddressInformationImplCollection__ctor_m41943456(L_0, (bool)0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		IntPtr_t L_1 = ___ptr0;
+		V_2 = L_1;
+		goto IL_005b;
+	}
+
+IL_000e:
+	{
+		IntPtr_t L_2 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_3 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Win32_IP_ADAPTER_MULTICAST_ADDRESS_t2877128995_0_0_0_var), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		Il2CppObject * L_4 = Marshal_PtrToStructure_m673412918(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		V_1 = ((*(Win32_IP_ADAPTER_MULTICAST_ADDRESS_t2877128995 *)((Win32_IP_ADAPTER_MULTICAST_ADDRESS_t2877128995 *)UnBox(L_4, Win32_IP_ADAPTER_MULTICAST_ADDRESS_t2877128995_il2cpp_TypeInfo_var))));
+		MulticastIPAddressInformationImplCollection_t3355839275 * L_5 = V_0;
+		Win32_SOCKET_ADDRESS_t1093973396 * L_6 = (&V_1)->get_address_of_Address_2();
+		IPAddress_t1399971723 * L_7 = Win32_SOCKET_ADDRESS_GetIPAddress_m3946757953(L_6, /*hidden argument*/NULL);
+		Win32LengthFlagsUnion_t1910118479 * L_8 = (&V_1)->get_address_of_LengthFlags_0();
+		bool L_9 = Win32LengthFlagsUnion_get_IsDnsEligible_m1710307390(L_8, /*hidden argument*/NULL);
+		Win32LengthFlagsUnion_t1910118479 * L_10 = (&V_1)->get_address_of_LengthFlags_0();
+		bool L_11 = Win32LengthFlagsUnion_get_IsTransient_m3516609582(L_10, /*hidden argument*/NULL);
+		MulticastIPAddressInformationImpl_t2980279617 * L_12 = (MulticastIPAddressInformationImpl_t2980279617 *)il2cpp_codegen_object_new(MulticastIPAddressInformationImpl_t2980279617_il2cpp_TypeInfo_var);
+		MulticastIPAddressInformationImpl__ctor_m2727907124(L_12, L_7, L_9, L_11, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		VirtActionInvoker1< MulticastIPAddressInformation_t1580768453 * >::Invoke(13 /* System.Void System.Net.NetworkInformation.MulticastIPAddressInformationCollection::Add(System.Net.NetworkInformation.MulticastIPAddressInformation) */, L_5, L_12);
+		IntPtr_t L_13 = (&V_1)->get_Next_1();
+		V_2 = L_13;
+	}
+
+IL_005b:
+	{
+		IntPtr_t L_14 = V_2;
+		IntPtr_t L_15 = ((IntPtr_t_StaticFields*)IntPtr_t_il2cpp_TypeInfo_var->static_fields)->get_Zero_1();
+		bool L_16 = IntPtr_op_Inequality_m3044532593(NULL /*static, unused*/, L_14, L_15, /*hidden argument*/NULL);
+		if (L_16)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		MulticastIPAddressInformationImplCollection_t3355839275 * L_17 = V_0;
+		NullCheck(L_17);
+		L_17->set_is_readonly_2((bool)1);
+		MulticastIPAddressInformationImplCollection_t3355839275 * L_18 = V_0;
+		return L_18;
+	}
+}
+// System.Net.NetworkInformation.MulticastIPAddressInformationImplCollection System.Net.NetworkInformation.MulticastIPAddressInformationImplCollection::LinuxFromList(System.Collections.Generic.List`1<System.Net.IPAddress>)
+extern "C"  MulticastIPAddressInformationImplCollection_t3355839275 * MulticastIPAddressInformationImplCollection_LinuxFromList_m2160439574 (Il2CppObject * __this /* static, unused */, List_1_t769092855 * ___addresses0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MulticastIPAddressInformationImplCollection_LinuxFromList_m2160439574_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	MulticastIPAddressInformationImplCollection_t3355839275 * V_0 = NULL;
+	IPAddress_t1399971723 * V_1 = NULL;
+	Enumerator_t303822529  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		MulticastIPAddressInformationImplCollection_t3355839275 * L_0 = (MulticastIPAddressInformationImplCollection_t3355839275 *)il2cpp_codegen_object_new(MulticastIPAddressInformationImplCollection_t3355839275_il2cpp_TypeInfo_var);
+		MulticastIPAddressInformationImplCollection__ctor_m41943456(L_0, (bool)0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		List_1_t769092855 * L_1 = ___addresses0;
+		NullCheck(L_1);
+		Enumerator_t303822529  L_2 = List_1_GetEnumerator_m689108514(L_1, /*hidden argument*/List_1_GetEnumerator_m689108514_MethodInfo_var);
+		V_2 = L_2;
+	}
+
+IL_000e:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0029;
+		}
+
+IL_0013:
+		{
+			IPAddress_t1399971723 * L_3 = Enumerator_get_Current_m1324985930((&V_2), /*hidden argument*/Enumerator_get_Current_m1324985930_MethodInfo_var);
+			V_1 = L_3;
+			MulticastIPAddressInformationImplCollection_t3355839275 * L_4 = V_0;
+			IPAddress_t1399971723 * L_5 = V_1;
+			MulticastIPAddressInformationImpl_t2980279617 * L_6 = (MulticastIPAddressInformationImpl_t2980279617 *)il2cpp_codegen_object_new(MulticastIPAddressInformationImpl_t2980279617_il2cpp_TypeInfo_var);
+			MulticastIPAddressInformationImpl__ctor_m2727907124(L_6, L_5, (bool)1, (bool)0, /*hidden argument*/NULL);
+			NullCheck(L_4);
+			VirtActionInvoker1< MulticastIPAddressInformation_t1580768453 * >::Invoke(13 /* System.Void System.Net.NetworkInformation.MulticastIPAddressInformationCollection::Add(System.Net.NetworkInformation.MulticastIPAddressInformation) */, L_4, L_6);
+		}
+
+IL_0029:
+		{
+			bool L_7 = Enumerator_MoveNext_m1308422700((&V_2), /*hidden argument*/Enumerator_MoveNext_m1308422700_MethodInfo_var);
+			if (L_7)
+			{
+				goto IL_0013;
+			}
+		}
+
+IL_0035:
+		{
+			IL2CPP_LEAVE(0x46, FINALLY_003a);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_003a;
+	}
+
+FINALLY_003a:
+	{ // begin finally (depth: 1)
+		Enumerator_t303822529  L_8 = V_2;
+		Enumerator_t303822529  L_9 = L_8;
+		Il2CppObject * L_10 = Box(Enumerator_t303822529_il2cpp_TypeInfo_var, &L_9);
+		NullCheck((Il2CppObject *)L_10);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, (Il2CppObject *)L_10);
+		IL2CPP_END_FINALLY(58)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(58)
+	{
+		IL2CPP_JUMP_TBL(0x46, IL_0046)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0046:
+	{
+		MulticastIPAddressInformationImplCollection_t3355839275 * L_11 = V_0;
+		NullCheck(L_11);
+		L_11->set_is_readonly_2((bool)1);
+		MulticastIPAddressInformationImplCollection_t3355839275 * L_12 = V_0;
+		return L_12;
+	}
+}
+// System.Void System.Net.NetworkInformation.NetworkAddressChangedEventHandler::.ctor(System.Object,System.IntPtr)
+extern "C"  void NetworkAddressChangedEventHandler__ctor_m3179012430 (NetworkAddressChangedEventHandler_t2528401652 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method)
+{
+	__this->set_method_ptr_0((Il2CppMethodPointer)((MethodInfo*)___method1.get_m_value_0())->methodPointer);
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void System.Net.NetworkInformation.NetworkAddressChangedEventHandler::Invoke(System.Object,System.EventArgs)
+extern "C"  void NetworkAddressChangedEventHandler_Invoke_m4011478512 (NetworkAddressChangedEventHandler_t2528401652 * __this, Il2CppObject * ___sender0, EventArgs_t3289624707 * ___e1, const MethodInfo* method)
+{
+	if(__this->get_prev_9() != NULL)
+	{
+		NetworkAddressChangedEventHandler_Invoke_m4011478512((NetworkAddressChangedEventHandler_t2528401652 *)__this->get_prev_9(),___sender0, ___e1, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	if (__this->get_m_target_2() != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Il2CppObject *, void* __this, Il2CppObject * ___sender0, EventArgs_t3289624707 * ___e1, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(NULL,__this->get_m_target_2(),___sender0, ___e1,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else if (__this->get_m_target_2() != NULL || ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (void* __this, Il2CppObject * ___sender0, EventArgs_t3289624707 * ___e1, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(__this->get_m_target_2(),___sender0, ___e1,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, EventArgs_t3289624707 * ___e1, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(___sender0, ___e1,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+}
+// System.IAsyncResult System.Net.NetworkInformation.NetworkAddressChangedEventHandler::BeginInvoke(System.Object,System.EventArgs,System.AsyncCallback,System.Object)
+extern "C"  Il2CppObject * NetworkAddressChangedEventHandler_BeginInvoke_m3012450555 (NetworkAddressChangedEventHandler_t2528401652 * __this, Il2CppObject * ___sender0, EventArgs_t3289624707 * ___e1, AsyncCallback_t163412349 * ___callback2, Il2CppObject * ___object3, const MethodInfo* method)
+{
+	void *__d_args[3] = {0};
+	__d_args[0] = ___sender0;
+	__d_args[1] = ___e1;
+	return (Il2CppObject *)il2cpp_codegen_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback2, (Il2CppObject*)___object3);
+}
+// System.Void System.Net.NetworkInformation.NetworkAddressChangedEventHandler::EndInvoke(System.IAsyncResult)
+extern "C"  void NetworkAddressChangedEventHandler_EndInvoke_m474115540 (NetworkAddressChangedEventHandler_t2528401652 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+// System.Void System.Net.NetworkInformation.NetworkAvailabilityChangedEventHandler::.ctor(System.Object,System.IntPtr)
+extern "C"  void NetworkAvailabilityChangedEventHandler__ctor_m50239237 (NetworkAvailabilityChangedEventHandler_t3480120991 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method)
+{
+	__this->set_method_ptr_0((Il2CppMethodPointer)((MethodInfo*)___method1.get_m_value_0())->methodPointer);
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void System.Net.NetworkInformation.NetworkAvailabilityChangedEventHandler::Invoke(System.Object,System.Net.NetworkInformation.NetworkAvailabilityEventArgs)
+extern "C"  void NetworkAvailabilityChangedEventHandler_Invoke_m225164653 (NetworkAvailabilityChangedEventHandler_t3480120991 * __this, Il2CppObject * ___sender0, NetworkAvailabilityEventArgs_t182009988 * ___e1, const MethodInfo* method)
+{
+	if(__this->get_prev_9() != NULL)
+	{
+		NetworkAvailabilityChangedEventHandler_Invoke_m225164653((NetworkAvailabilityChangedEventHandler_t3480120991 *)__this->get_prev_9(),___sender0, ___e1, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	if (__this->get_m_target_2() != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Il2CppObject *, void* __this, Il2CppObject * ___sender0, NetworkAvailabilityEventArgs_t182009988 * ___e1, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(NULL,__this->get_m_target_2(),___sender0, ___e1,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else if (__this->get_m_target_2() != NULL || ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (void* __this, Il2CppObject * ___sender0, NetworkAvailabilityEventArgs_t182009988 * ___e1, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(__this->get_m_target_2(),___sender0, ___e1,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, NetworkAvailabilityEventArgs_t182009988 * ___e1, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(___sender0, ___e1,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+}
+// System.IAsyncResult System.Net.NetworkInformation.NetworkAvailabilityChangedEventHandler::BeginInvoke(System.Object,System.Net.NetworkInformation.NetworkAvailabilityEventArgs,System.AsyncCallback,System.Object)
+extern "C"  Il2CppObject * NetworkAvailabilityChangedEventHandler_BeginInvoke_m244497076 (NetworkAvailabilityChangedEventHandler_t3480120991 * __this, Il2CppObject * ___sender0, NetworkAvailabilityEventArgs_t182009988 * ___e1, AsyncCallback_t163412349 * ___callback2, Il2CppObject * ___object3, const MethodInfo* method)
+{
+	void *__d_args[3] = {0};
+	__d_args[0] = ___sender0;
+	__d_args[1] = ___e1;
+	return (Il2CppObject *)il2cpp_codegen_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback2, (Il2CppObject*)___object3);
+}
+// System.Void System.Net.NetworkInformation.NetworkAvailabilityChangedEventHandler::EndInvoke(System.IAsyncResult)
+extern "C"  void NetworkAvailabilityChangedEventHandler_EndInvoke_m258468495 (NetworkAvailabilityChangedEventHandler_t3480120991 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+// System.Void System.Net.NetworkInformation.NetworkAvailabilityEventArgs::.ctor(System.Boolean)
+extern "C"  void NetworkAvailabilityEventArgs__ctor_m4183954163 (NetworkAvailabilityEventArgs_t182009988 * __this, bool ___available0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NetworkAvailabilityEventArgs__ctor_m4183954163_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(EventArgs_t3289624707_il2cpp_TypeInfo_var);
+		EventArgs__ctor_m3696060910(__this, /*hidden argument*/NULL);
+		bool L_0 = ___available0;
+		__this->set_available_1(L_0);
+		return;
+	}
+}
+// System.Boolean System.Net.NetworkInformation.NetworkAvailabilityEventArgs::get_IsAvailable()
+extern "C"  bool NetworkAvailabilityEventArgs_get_IsAvailable_m1579046116 (NetworkAvailabilityEventArgs_t182009988 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_available_1();
+		return L_0;
+	}
+}
+// System.Void System.Net.NetworkInformation.NetworkChange::.ctor()
+extern "C"  void NetworkChange__ctor_m2342786506 (NetworkChange_t971476440 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.NetworkChange::add_NetworkAddressChanged(System.Net.NetworkInformation.NetworkAddressChangedEventHandler)
+extern "C"  void NetworkChange_add_NetworkAddressChanged_m1715626088 (Il2CppObject * __this /* static, unused */, NetworkAddressChangedEventHandler_t2528401652 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NetworkChange_add_NetworkAddressChanged_m1715626088_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NetworkAddressChangedEventHandler_t2528401652 * L_0 = ((NetworkChange_t971476440_StaticFields*)NetworkChange_t971476440_il2cpp_TypeInfo_var->static_fields)->get_NetworkAddressChanged_0();
+		NetworkAddressChangedEventHandler_t2528401652 * L_1 = ___value0;
+		Delegate_t3022476291 * L_2 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		((NetworkChange_t971476440_StaticFields*)NetworkChange_t971476440_il2cpp_TypeInfo_var->static_fields)->set_NetworkAddressChanged_0(((NetworkAddressChangedEventHandler_t2528401652 *)CastclassSealed(L_2, NetworkAddressChangedEventHandler_t2528401652_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.NetworkChange::remove_NetworkAddressChanged(System.Net.NetworkInformation.NetworkAddressChangedEventHandler)
+extern "C"  void NetworkChange_remove_NetworkAddressChanged_m1155329143 (Il2CppObject * __this /* static, unused */, NetworkAddressChangedEventHandler_t2528401652 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NetworkChange_remove_NetworkAddressChanged_m1155329143_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NetworkAddressChangedEventHandler_t2528401652 * L_0 = ((NetworkChange_t971476440_StaticFields*)NetworkChange_t971476440_il2cpp_TypeInfo_var->static_fields)->get_NetworkAddressChanged_0();
+		NetworkAddressChangedEventHandler_t2528401652 * L_1 = ___value0;
+		Delegate_t3022476291 * L_2 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		((NetworkChange_t971476440_StaticFields*)NetworkChange_t971476440_il2cpp_TypeInfo_var->static_fields)->set_NetworkAddressChanged_0(((NetworkAddressChangedEventHandler_t2528401652 *)CastclassSealed(L_2, NetworkAddressChangedEventHandler_t2528401652_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.NetworkChange::add_NetworkAvailabilityChanged(System.Net.NetworkInformation.NetworkAvailabilityChangedEventHandler)
+extern "C"  void NetworkChange_add_NetworkAvailabilityChanged_m1510511970 (Il2CppObject * __this /* static, unused */, NetworkAvailabilityChangedEventHandler_t3480120991 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NetworkChange_add_NetworkAvailabilityChanged_m1510511970_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NetworkAvailabilityChangedEventHandler_t3480120991 * L_0 = ((NetworkChange_t971476440_StaticFields*)NetworkChange_t971476440_il2cpp_TypeInfo_var->static_fields)->get_NetworkAvailabilityChanged_1();
+		NetworkAvailabilityChangedEventHandler_t3480120991 * L_1 = ___value0;
+		Delegate_t3022476291 * L_2 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		((NetworkChange_t971476440_StaticFields*)NetworkChange_t971476440_il2cpp_TypeInfo_var->static_fields)->set_NetworkAvailabilityChanged_1(((NetworkAvailabilityChangedEventHandler_t3480120991 *)CastclassSealed(L_2, NetworkAvailabilityChangedEventHandler_t3480120991_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.NetworkChange::remove_NetworkAvailabilityChanged(System.Net.NetworkInformation.NetworkAvailabilityChangedEventHandler)
+extern "C"  void NetworkChange_remove_NetworkAvailabilityChanged_m4109781723 (Il2CppObject * __this /* static, unused */, NetworkAvailabilityChangedEventHandler_t3480120991 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NetworkChange_remove_NetworkAvailabilityChanged_m4109781723_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NetworkAvailabilityChangedEventHandler_t3480120991 * L_0 = ((NetworkChange_t971476440_StaticFields*)NetworkChange_t971476440_il2cpp_TypeInfo_var->static_fields)->get_NetworkAvailabilityChanged_1();
+		NetworkAvailabilityChangedEventHandler_t3480120991 * L_1 = ___value0;
+		Delegate_t3022476291 * L_2 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		((NetworkChange_t971476440_StaticFields*)NetworkChange_t971476440_il2cpp_TypeInfo_var->static_fields)->set_NetworkAvailabilityChanged_1(((NetworkAvailabilityChangedEventHandler_t3480120991 *)CastclassSealed(L_2, NetworkAvailabilityChangedEventHandler_t3480120991_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.NetworkInformationException::.ctor()
+extern "C"  void NetworkInformationException__ctor_m3720732489 (NetworkInformationException_t1863186723 * __this, const MethodInfo* method)
+{
+	{
+		Win32Exception__ctor_m1919801717(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.NetworkInformationException::.ctor(System.Int32)
+extern "C"  void NetworkInformationException__ctor_m2722483050 (NetworkInformationException_t1863186723 * __this, int32_t ___errorCode0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___errorCode0;
+		Win32Exception__ctor_m1153504280(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.NetworkInformationException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+extern "C"  void NetworkInformationException__ctor_m418377596 (NetworkInformationException_t1863186723 * __this, SerializationInfo_t228987430 * ___info0, StreamingContext_t1417235061  ___context1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NetworkInformationException__ctor_m418377596_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationInfo_t228987430 * L_0 = ___info0;
+		StreamingContext_t1417235061  L_1 = ___context1;
+		Win32Exception__ctor_m3886439846(__this, L_0, L_1, /*hidden argument*/NULL);
+		SerializationInfo_t228987430 * L_2 = ___info0;
+		NullCheck(L_2);
+		int32_t L_3 = SerializationInfo_GetInt32_m4039439501(L_2, _stringLiteral597941125, /*hidden argument*/NULL);
+		__this->set_error_code_12(L_3);
+		return;
+	}
+}
+// System.Int32 System.Net.NetworkInformation.NetworkInformationException::get_ErrorCode()
+extern "C"  int32_t NetworkInformationException_get_ErrorCode_m3809736359 (NetworkInformationException_t1863186723 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_error_code_12();
+		return L_0;
+	}
+}
+// System.Void System.Net.NetworkInformation.NetworkInformationPermission::.ctor(System.Security.Permissions.PermissionState)
+extern "C"  void NetworkInformationPermission__ctor_m2615010754 (NetworkInformationPermission_t3395913791 * __this, int32_t ___state0, const MethodInfo* method)
+{
+	{
+		CodeAccessPermission__ctor_m2285259037(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.NetworkInformationPermission::.ctor(System.Net.NetworkInformation.NetworkInformationAccess)
+extern "C"  void NetworkInformationPermission__ctor_m3263913285 (NetworkInformationPermission_t3395913791 * __this, int32_t ___access0, const MethodInfo* method)
+{
+	{
+		CodeAccessPermission__ctor_m2285259037(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.NetworkInformationPermission::AddPermission(System.Net.NetworkInformation.NetworkInformationAccess)
+extern "C"  void NetworkInformationPermission_AddPermission_m1158651407 (NetworkInformationPermission_t3395913791 * __this, int32_t ___access0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Security.IPermission System.Net.NetworkInformation.NetworkInformationPermission::Copy()
+extern "C"  Il2CppObject * NetworkInformationPermission_Copy_m788077696 (NetworkInformationPermission_t3395913791 * __this, const MethodInfo* method)
+{
+	{
+		return (Il2CppObject *)NULL;
+	}
+}
+// System.Void System.Net.NetworkInformation.NetworkInformationPermission::FromXml(System.Security.SecurityElement)
+extern "C"  void NetworkInformationPermission_FromXml_m1303003061 (NetworkInformationPermission_t3395913791 * __this, SecurityElement_t2325568386 * ___securityElement0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Security.IPermission System.Net.NetworkInformation.NetworkInformationPermission::Intersect(System.Security.IPermission)
+extern "C"  Il2CppObject * NetworkInformationPermission_Intersect_m3833334179 (NetworkInformationPermission_t3395913791 * __this, Il2CppObject * ___target0, const MethodInfo* method)
+{
+	{
+		return (Il2CppObject *)NULL;
+	}
+}
+// System.Boolean System.Net.NetworkInformation.NetworkInformationPermission::IsSubsetOf(System.Security.IPermission)
+extern "C"  bool NetworkInformationPermission_IsSubsetOf_m1627734185 (NetworkInformationPermission_t3395913791 * __this, Il2CppObject * ___target0, const MethodInfo* method)
+{
+	{
+		return (bool)0;
+	}
+}
+// System.Boolean System.Net.NetworkInformation.NetworkInformationPermission::IsUnrestricted()
+extern "C"  bool NetworkInformationPermission_IsUnrestricted_m4122471965 (NetworkInformationPermission_t3395913791 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)0;
+	}
+}
+// System.Security.SecurityElement System.Net.NetworkInformation.NetworkInformationPermission::ToXml()
+extern "C"  SecurityElement_t2325568386 * NetworkInformationPermission_ToXml_m1668743603 (NetworkInformationPermission_t3395913791 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NetworkInformationPermission_ToXml_m1668743603_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	SecurityElement_t2325568386 * V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(NetworkInformationPermission_t3395913791_0_0_0_var), /*hidden argument*/NULL);
+		SecurityElement_t2325568386 * L_1 = PermissionHelper_Element_m688627752(NULL /*static, unused*/, L_0, 1, /*hidden argument*/NULL);
+		V_0 = L_1;
+		SecurityElement_t2325568386 * L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Security.IPermission System.Net.NetworkInformation.NetworkInformationPermission::Union(System.Security.IPermission)
+extern "C"  Il2CppObject * NetworkInformationPermission_Union_m2834583709 (NetworkInformationPermission_t3395913791 * __this, Il2CppObject * ___target0, const MethodInfo* method)
+{
+	{
+		return (Il2CppObject *)NULL;
+	}
+}
+// System.Net.NetworkInformation.NetworkInformationAccess System.Net.NetworkInformation.NetworkInformationPermission::get_Access()
+extern "C"  int32_t NetworkInformationPermission_get_Access_m1346388771 (NetworkInformationPermission_t3395913791 * __this, const MethodInfo* method)
+{
+	{
+		return (int32_t)(0);
+	}
+}
+// System.Void System.Net.NetworkInformation.NetworkInformationPermissionAttribute::.ctor(System.Security.Permissions.SecurityAction)
+extern "C"  void NetworkInformationPermissionAttribute__ctor_m753147508 (NetworkInformationPermissionAttribute_t852696539 * __this, int32_t ___action0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___action0;
+		CodeAccessSecurityAttribute__ctor_m2096829899(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Security.IPermission System.Net.NetworkInformation.NetworkInformationPermissionAttribute::CreatePermission()
+extern "C"  Il2CppObject * NetworkInformationPermissionAttribute_CreatePermission_m2819911358 (NetworkInformationPermissionAttribute_t852696539 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NetworkInformationPermissionAttribute_CreatePermission_m2819911358_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	String_t* V_1 = NULL;
+	Dictionary_2_t3986656710 * V_2 = NULL;
+	int32_t V_3 = 0;
+	{
+		V_0 = 0;
+		String_t* L_0 = NetworkInformationPermissionAttribute_get_Access_m299846485(__this, /*hidden argument*/NULL);
+		V_1 = L_0;
+		String_t* L_1 = V_1;
+		if (!L_1)
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		Dictionary_2_t3986656710 * L_2 = ((NetworkInformationPermissionAttribute_t852696539_StaticFields*)NetworkInformationPermissionAttribute_t852696539_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__switchU24map11_4();
+		if (L_2)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		Dictionary_2_t3986656710 * L_3 = (Dictionary_2_t3986656710 *)il2cpp_codegen_object_new(Dictionary_2_t3986656710_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m2118310873(L_3, 2, /*hidden argument*/Dictionary_2__ctor_m2118310873_MethodInfo_var);
+		V_2 = L_3;
+		Dictionary_2_t3986656710 * L_4 = V_2;
+		NullCheck(L_4);
+		Dictionary_2_Add_m1209957957(L_4, _stringLiteral4136223338, 0, /*hidden argument*/Dictionary_2_Add_m1209957957_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_5 = V_2;
+		NullCheck(L_5);
+		Dictionary_2_Add_m1209957957(L_5, _stringLiteral1743625051, 1, /*hidden argument*/Dictionary_2_Add_m1209957957_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_6 = V_2;
+		((NetworkInformationPermissionAttribute_t852696539_StaticFields*)NetworkInformationPermissionAttribute_t852696539_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__switchU24map11_4(L_6);
+	}
+
+IL_003e:
+	{
+		Dictionary_2_t3986656710 * L_7 = ((NetworkInformationPermissionAttribute_t852696539_StaticFields*)NetworkInformationPermissionAttribute_t852696539_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__switchU24map11_4();
+		String_t* L_8 = V_1;
+		NullCheck(L_7);
+		bool L_9 = Dictionary_2_TryGetValue_m2977303364(L_7, L_8, (&V_3), /*hidden argument*/Dictionary_2_TryGetValue_m2977303364_MethodInfo_var);
+		if (!L_9)
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		int32_t L_10 = V_3;
+		if (!L_10)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		int32_t L_11 = V_3;
+		if ((((int32_t)L_11) == ((int32_t)1)))
+		{
+			goto IL_0069;
+		}
+	}
+	{
+		goto IL_0070;
+	}
+
+IL_0062:
+	{
+		V_0 = 1;
+		goto IL_0070;
+	}
+
+IL_0069:
+	{
+		V_0 = 5;
+		goto IL_0070;
+	}
+
+IL_0070:
+	{
+		int32_t L_12 = V_0;
+		NetworkInformationPermission_t3395913791 * L_13 = (NetworkInformationPermission_t3395913791 *)il2cpp_codegen_object_new(NetworkInformationPermission_t3395913791_il2cpp_TypeInfo_var);
+		NetworkInformationPermission__ctor_m3263913285(L_13, L_12, /*hidden argument*/NULL);
+		return L_13;
+	}
+}
+// System.String System.Net.NetworkInformation.NetworkInformationPermissionAttribute::get_Access()
+extern "C"  String_t* NetworkInformationPermissionAttribute_get_Access_m299846485 (NetworkInformationPermissionAttribute_t852696539 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get_access_2();
+		return L_0;
+	}
+}
+// System.Void System.Net.NetworkInformation.NetworkInformationPermissionAttribute::set_Access(System.String)
+extern "C"  void NetworkInformationPermissionAttribute_set_Access_m1225446602 (NetworkInformationPermissionAttribute_t852696539 * __this, String_t* ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NetworkInformationPermissionAttribute_set_Access_m1225446602_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	Dictionary_2_t3986656710 * V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		String_t* L_0 = __this->get_access_2();
+		V_0 = L_0;
+		String_t* L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_006a;
+		}
+	}
+	{
+		Dictionary_2_t3986656710 * L_2 = ((NetworkInformationPermissionAttribute_t852696539_StaticFields*)NetworkInformationPermissionAttribute_t852696539_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__switchU24map10_3();
+		if (L_2)
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		Dictionary_2_t3986656710 * L_3 = (Dictionary_2_t3986656710 *)il2cpp_codegen_object_new(Dictionary_2_t3986656710_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m2118310873(L_3, 3, /*hidden argument*/Dictionary_2__ctor_m2118310873_MethodInfo_var);
+		V_1 = L_3;
+		Dictionary_2_t3986656710 * L_4 = V_1;
+		NullCheck(L_4);
+		Dictionary_2_Add_m1209957957(L_4, _stringLiteral4136223338, 0, /*hidden argument*/Dictionary_2_Add_m1209957957_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_5 = V_1;
+		NullCheck(L_5);
+		Dictionary_2_Add_m1209957957(L_5, _stringLiteral1743625051, 0, /*hidden argument*/Dictionary_2_Add_m1209957957_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_6 = V_1;
+		NullCheck(L_6);
+		Dictionary_2_Add_m1209957957(L_6, _stringLiteral1414246128, 0, /*hidden argument*/Dictionary_2_Add_m1209957957_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_7 = V_1;
+		((NetworkInformationPermissionAttribute_t852696539_StaticFields*)NetworkInformationPermissionAttribute_t852696539_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__switchU24map10_3(L_7);
+	}
+
+IL_0048:
+	{
+		Dictionary_2_t3986656710 * L_8 = ((NetworkInformationPermissionAttribute_t852696539_StaticFields*)NetworkInformationPermissionAttribute_t852696539_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__switchU24map10_3();
+		String_t* L_9 = V_0;
+		NullCheck(L_8);
+		bool L_10 = Dictionary_2_TryGetValue_m2977303364(L_8, L_9, (&V_2), /*hidden argument*/Dictionary_2_TryGetValue_m2977303364_MethodInfo_var);
+		if (!L_10)
+		{
+			goto IL_006a;
+		}
+	}
+	{
+		int32_t L_11 = V_2;
+		if (!L_11)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		goto IL_006a;
+	}
+
+IL_0065:
+	{
+		goto IL_0075;
+	}
+
+IL_006a:
+	{
+		ArgumentException_t3259014390 * L_12 = (ArgumentException_t3259014390 *)il2cpp_codegen_object_new(ArgumentException_t3259014390_il2cpp_TypeInfo_var);
+		ArgumentException__ctor_m3739475201(L_12, _stringLiteral3426093580, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_12);
+	}
+
+IL_0075:
+	{
+		String_t* L_13 = ___value0;
+		__this->set_access_2(L_13);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.NetworkInterface::.ctor()
+extern "C"  void NetworkInterface__ctor_m759220571 (NetworkInterface_t63927633 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.NetworkInterface::.cctor()
+extern "C"  void NetworkInterface__cctor_m1286606608 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NetworkInterface__cctor_m1286606608_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Version_t1755874712 * L_0 = (Version_t1755874712 *)il2cpp_codegen_object_new(Version_t1755874712_il2cpp_TypeInfo_var);
+		Version__ctor_m2035466001(L_0, 5, 1, /*hidden argument*/NULL);
+		((NetworkInterface_t63927633_StaticFields*)NetworkInterface_t63927633_il2cpp_TypeInfo_var->static_fields)->set_windowsVer51_0(L_0);
+		OperatingSystem_t290860502 * L_1 = Environment_get_OSVersion_m1247315981(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		int32_t L_2 = OperatingSystem_get_Platform_m2260343279(L_1, /*hidden argument*/NULL);
+		((NetworkInterface_t63927633_StaticFields*)NetworkInterface_t63927633_il2cpp_TypeInfo_var->static_fields)->set_runningOnUnix_1((bool)((((int32_t)L_2) == ((int32_t)4))? 1 : 0));
+		return;
+	}
+}
+// System.Int32 System.Net.NetworkInformation.NetworkInterface::uname(System.IntPtr)
+extern "C"  int32_t NetworkInterface_uname_m3953961313 (Il2CppObject * __this /* static, unused */, IntPtr_t ___buf0, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("libc"), "uname", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+
+		if (il2cppPInvokeFunc == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'uname'"));
+		}
+	}
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(reinterpret_cast<intptr_t>((___buf0).get_m_value_0()));
+
+	return returnValue;
+}
+// System.Net.NetworkInformation.NetworkInterface[] System.Net.NetworkInformation.NetworkInterface::GetAllNetworkInterfaces()
+extern "C"  NetworkInterfaceU5BU5D_t4157644364* NetworkInterface_GetAllNetworkInterfaces_m3928187668 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NetworkInterface_GetAllNetworkInterfaces_m3928187668_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	IntPtr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	String_t* V_2 = NULL;
+	SystemException_t3877406272 * V_3 = NULL;
+	NetworkInterfaceU5BU5D_t4157644364* V_4 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(NetworkInterface_t63927633_il2cpp_TypeInfo_var);
+		bool L_0 = ((NetworkInterface_t63927633_StaticFields*)NetworkInterface_t63927633_il2cpp_TypeInfo_var->static_fields)->get_runningOnUnix_1();
+		if (!L_0)
+		{
+			goto IL_007f;
+		}
+	}
+	{
+		V_0 = (bool)0;
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		IntPtr_t L_1 = Marshal_AllocHGlobal_m4258042074(NULL /*static, unused*/, ((int32_t)8192), /*hidden argument*/NULL);
+		V_1 = L_1;
+		IntPtr_t L_2 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(NetworkInterface_t63927633_il2cpp_TypeInfo_var);
+		int32_t L_3 = NetworkInterface_uname_m3953961313(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		if (L_3)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		IntPtr_t L_4 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		String_t* L_5 = Marshal_PtrToStringAnsi_m2970070000(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		V_2 = L_5;
+		String_t* L_6 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_7 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_6, _stringLiteral563939211, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		V_0 = (bool)1;
+	}
+
+IL_003b:
+	{
+		IntPtr_t L_8 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		Marshal_FreeHGlobal_m2238467479(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+	}
+
+IL_0041:
+	try
+	{ // begin try (depth: 1)
+		{
+			bool L_9 = V_0;
+			if (!L_9)
+			{
+				goto IL_0053;
+			}
+		}
+
+IL_0047:
+		{
+			NetworkInterfaceU5BU5D_t4157644364* L_10 = MacOsNetworkInterface_ImplGetAllNetworkInterfaces_m4010227571(NULL /*static, unused*/, /*hidden argument*/NULL);
+			V_4 = L_10;
+			goto IL_00a5;
+		}
+
+IL_0053:
+		{
+			IL2CPP_RUNTIME_CLASS_INIT(LinuxNetworkInterface_t3864470295_il2cpp_TypeInfo_var);
+			NetworkInterfaceU5BU5D_t4157644364* L_11 = LinuxNetworkInterface_ImplGetAllNetworkInterfaces_m2182664942(NULL /*static, unused*/, /*hidden argument*/NULL);
+			V_4 = L_11;
+			goto IL_00a5;
+		}
+
+IL_005f:
+		{
+			; // IL_005f: leave IL_007f
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1927440687 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (SystemException_t3877406272_il2cpp_TypeInfo_var, e.ex->klass))
+			goto CATCH_0064;
+		if(il2cpp_codegen_class_is_assignable_from (Il2CppObject_il2cpp_TypeInfo_var, e.ex->klass))
+			goto CATCH_006c;
+		throw e;
+	}
+
+CATCH_0064:
+	{ // begin catch(System.SystemException)
+		{
+			V_3 = ((SystemException_t3877406272 *)__exception_local);
+			SystemException_t3877406272 * L_12 = V_3;
+			IL2CPP_RAISE_MANAGED_EXCEPTION(L_12);
+		}
+
+IL_0067:
+		{
+			goto IL_007f;
+		}
+	} // end catch (depth: 1)
+
+CATCH_006c:
+	{ // begin catch(System.Object)
+		{
+			V_4 = ((NetworkInterfaceU5BU5D_t4157644364*)SZArrayNew(NetworkInterfaceU5BU5D_t4157644364_il2cpp_TypeInfo_var, (uint32_t)0));
+			goto IL_00a5;
+		}
+
+IL_007a:
+		{
+			; // IL_007a: leave IL_007f
+		}
+	} // end catch (depth: 1)
+
+IL_007f:
+	{
+		OperatingSystem_t290860502 * L_13 = Environment_get_OSVersion_m1247315981(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		Version_t1755874712 * L_14 = OperatingSystem_get_Version_m2896234424(L_13, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(NetworkInterface_t63927633_il2cpp_TypeInfo_var);
+		Version_t1755874712 * L_15 = ((NetworkInterface_t63927633_StaticFields*)NetworkInterface_t63927633_il2cpp_TypeInfo_var->static_fields)->get_windowsVer51_0();
+		bool L_16 = Version_op_GreaterThanOrEqual_m2750794633(NULL /*static, unused*/, L_14, L_15, /*hidden argument*/NULL);
+		if (!L_16)
+		{
+			goto IL_009e;
+		}
+	}
+	{
+		NetworkInterfaceU5BU5D_t4157644364* L_17 = Win32NetworkInterface2_ImplGetAllNetworkInterfaces_m536256451(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return L_17;
+	}
+
+IL_009e:
+	{
+		return ((NetworkInterfaceU5BU5D_t4157644364*)SZArrayNew(NetworkInterfaceU5BU5D_t4157644364_il2cpp_TypeInfo_var, (uint32_t)0));
+	}
+
+IL_00a5:
+	{
+		NetworkInterfaceU5BU5D_t4157644364* L_18 = V_4;
+		return L_18;
+	}
+}
+// System.Boolean System.Net.NetworkInformation.NetworkInterface::GetIsNetworkAvailable()
+extern "C"  bool NetworkInterface_GetIsNetworkAvailable_m1703330408 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.String System.Net.NetworkInformation.NetworkInterface::ReadLine(System.String)
+extern "C"  String_t* NetworkInterface_ReadLine_m2401631100 (Il2CppObject * __this /* static, unused */, String_t* ___path0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NetworkInterface_ReadLine_m2401631100_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	FileStream_t1695958676 * V_0 = NULL;
+	StreamReader_t2360341767 * V_1 = NULL;
+	String_t* V_2 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		String_t* L_0 = ___path0;
+		FileStream_t1695958676 * L_1 = File_OpenRead_m132329087(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+	}
+
+IL_0007:
+	try
+	{ // begin try (depth: 1)
+		{
+			FileStream_t1695958676 * L_2 = V_0;
+			StreamReader_t2360341767 * L_3 = (StreamReader_t2360341767 *)il2cpp_codegen_object_new(StreamReader_t2360341767_il2cpp_TypeInfo_var);
+			StreamReader__ctor_m1780435609(L_3, L_2, /*hidden argument*/NULL);
+			V_1 = L_3;
+		}
+
+IL_000e:
+		try
+		{ // begin try (depth: 2)
+			{
+				StreamReader_t2360341767 * L_4 = V_1;
+				NullCheck(L_4);
+				String_t* L_5 = VirtFuncInvoker0< String_t* >::Invoke(12 /* System.String System.IO.StreamReader::ReadLine() */, L_4);
+				V_2 = L_5;
+				IL2CPP_LEAVE(0x3E, FINALLY_001f);
+			}
+
+IL_001a:
+			{
+				; // IL_001a: leave IL_002c
+			}
+		} // end try (depth: 2)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+			goto FINALLY_001f;
+		}
+
+FINALLY_001f:
+		{ // begin finally (depth: 2)
+			{
+				StreamReader_t2360341767 * L_6 = V_1;
+				if (!L_6)
+				{
+					goto IL_002b;
+				}
+			}
+
+IL_0025:
+			{
+				StreamReader_t2360341767 * L_7 = V_1;
+				NullCheck(L_7);
+				InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_7);
+			}
+
+IL_002b:
+			{
+				IL2CPP_END_FINALLY(31)
+			}
+		} // end finally (depth: 2)
+		IL2CPP_CLEANUP(31)
+		{
+			IL2CPP_END_CLEANUP(0x3E, FINALLY_0031);
+			IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+		}
+
+IL_002c:
+		{
+			IL2CPP_LEAVE(0x3E, FINALLY_0031);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0031;
+	}
+
+FINALLY_0031:
+	{ // begin finally (depth: 1)
+		{
+			FileStream_t1695958676 * L_8 = V_0;
+			if (!L_8)
+			{
+				goto IL_003d;
+			}
+		}
+
+IL_0037:
+		{
+			FileStream_t1695958676 * L_9 = V_0;
+			NullCheck(L_9);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_9);
+		}
+
+IL_003d:
+		{
+			IL2CPP_END_FINALLY(49)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(49)
+	{
+		IL2CPP_JUMP_TBL(0x3E, IL_003e)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_003e:
+	{
+		String_t* L_10 = V_2;
+		return L_10;
+	}
+}
+// System.Int32 System.Net.NetworkInformation.NetworkInterface::get_LoopbackInterfaceIndex()
+extern "C"  int32_t NetworkInterface_get_LoopbackInterfaceIndex_m735292204 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NetworkInterface_get_LoopbackInterfaceIndex_m735292204_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(NetworkInterface_t63927633_il2cpp_TypeInfo_var);
+		bool L_0 = ((NetworkInterface_t63927633_StaticFields*)NetworkInterface_t63927633_il2cpp_TypeInfo_var->static_fields)->get_runningOnUnix_1();
+		if (!L_0)
+		{
+			goto IL_002c;
+		}
+	}
+
+IL_000a:
+	try
+	{ // begin try (depth: 1)
+		{
+			int32_t L_1 = UnixNetworkInterface_IfNameToIndex_m2220849490(NULL /*static, unused*/, _stringLiteral1496915067, /*hidden argument*/NULL);
+			V_0 = L_1;
+			goto IL_002e;
+		}
+
+IL_001a:
+		{
+			; // IL_001a: leave IL_002c
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1927440687 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (Il2CppObject_il2cpp_TypeInfo_var, e.ex->klass))
+			goto CATCH_001f;
+		throw e;
+	}
+
+CATCH_001f:
+	{ // begin catch(System.Object)
+		{
+			V_0 = 0;
+			goto IL_002e;
+		}
+
+IL_0027:
+		{
+			; // IL_0027: leave IL_002c
+		}
+	} // end catch (depth: 1)
+
+IL_002c:
+	{
+		return 0;
+	}
+
+IL_002e:
+	{
+		int32_t L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Void System.Net.NetworkInformation.PhysicalAddress::.ctor(System.Byte[])
+extern "C"  void PhysicalAddress__ctor_m3260893292 (PhysicalAddress_t1613893277 * __this, ByteU5BU5D_t3397334013* ___address0, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		ByteU5BU5D_t3397334013* L_0 = ___address0;
+		__this->set_bytes_2(L_0);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.PhysicalAddress::.cctor()
+extern "C"  void PhysicalAddress__cctor_m2138612856 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (PhysicalAddress__cctor_m2138612856_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		PhysicalAddress_t1613893277 * L_0 = (PhysicalAddress_t1613893277 *)il2cpp_codegen_object_new(PhysicalAddress_t1613893277_il2cpp_TypeInfo_var);
+		PhysicalAddress__ctor_m3260893292(L_0, ((ByteU5BU5D_t3397334013*)SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		((PhysicalAddress_t1613893277_StaticFields*)PhysicalAddress_t1613893277_il2cpp_TypeInfo_var->static_fields)->set_None_1(L_0);
+		return;
+	}
+}
+// System.Net.NetworkInformation.PhysicalAddress System.Net.NetworkInformation.PhysicalAddress::ParseEthernet(System.String)
+extern "C"  PhysicalAddress_t1613893277 * PhysicalAddress_ParseEthernet_m3382743567 (Il2CppObject * __this /* static, unused */, String_t* ___address0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (PhysicalAddress_ParseEthernet_m3382743567_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringU5BU5D_t1642385972* V_0 = NULL;
+	ByteU5BU5D_t3397334013* V_1 = NULL;
+	int32_t V_2 = 0;
+	String_t* V_3 = NULL;
+	StringU5BU5D_t1642385972* V_4 = NULL;
+	int32_t V_5 = 0;
+	{
+		String_t* L_0 = ___address0;
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(PhysicalAddress_t1613893277_il2cpp_TypeInfo_var);
+		PhysicalAddress_t1613893277 * L_1 = ((PhysicalAddress_t1613893277_StaticFields*)PhysicalAddress_t1613893277_il2cpp_TypeInfo_var->static_fields)->get_None_1();
+		return L_1;
+	}
+
+IL_000c:
+	{
+		String_t* L_2 = ___address0;
+		CharU5BU5D_t1328083999* L_3 = ((CharU5BU5D_t1328083999*)SZArrayNew(CharU5BU5D_t1328083999_il2cpp_TypeInfo_var, (uint32_t)1));
+		NullCheck(L_3);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)((int32_t)58));
+		NullCheck(L_2);
+		StringU5BU5D_t1642385972* L_4 = String_Split_m3326265864(L_2, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		StringU5BU5D_t1642385972* L_5 = V_0;
+		NullCheck(L_5);
+		V_1 = ((ByteU5BU5D_t3397334013*)SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, (uint32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_5)->max_length))))));
+		V_2 = 0;
+		StringU5BU5D_t1642385972* L_6 = V_0;
+		V_4 = L_6;
+		V_5 = 0;
+		goto IL_0052;
+	}
+
+IL_0034:
+	{
+		StringU5BU5D_t1642385972* L_7 = V_4;
+		int32_t L_8 = V_5;
+		NullCheck(L_7);
+		int32_t L_9 = L_8;
+		String_t* L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		V_3 = L_10;
+		ByteU5BU5D_t3397334013* L_11 = V_1;
+		int32_t L_12 = V_2;
+		int32_t L_13 = L_12;
+		V_2 = ((int32_t)((int32_t)L_13+(int32_t)1));
+		String_t* L_14 = V_3;
+		uint8_t L_15 = Byte_Parse_m4137294155(NULL /*static, unused*/, L_14, ((int32_t)515), /*hidden argument*/NULL);
+		NullCheck(L_11);
+		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(L_13), (uint8_t)L_15);
+		int32_t L_16 = V_5;
+		V_5 = ((int32_t)((int32_t)L_16+(int32_t)1));
+	}
+
+IL_0052:
+	{
+		int32_t L_17 = V_5;
+		StringU5BU5D_t1642385972* L_18 = V_4;
+		NullCheck(L_18);
+		if ((((int32_t)L_17) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_18)->max_length)))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		ByteU5BU5D_t3397334013* L_19 = V_1;
+		PhysicalAddress_t1613893277 * L_20 = (PhysicalAddress_t1613893277 *)il2cpp_codegen_object_new(PhysicalAddress_t1613893277_il2cpp_TypeInfo_var);
+		PhysicalAddress__ctor_m3260893292(L_20, L_19, /*hidden argument*/NULL);
+		return L_20;
+	}
+}
+// System.Net.NetworkInformation.PhysicalAddress System.Net.NetworkInformation.PhysicalAddress::Parse(System.String)
+extern "C"  PhysicalAddress_t1613893277 * PhysicalAddress_Parse_m2487937992 (Il2CppObject * __this /* static, unused */, String_t* ___address0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (PhysicalAddress_Parse_m2487937992_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringU5BU5D_t1642385972* V_0 = NULL;
+	int32_t V_1 = 0;
+	String_t* V_2 = NULL;
+	StringU5BU5D_t1642385972* V_3 = NULL;
+	int32_t V_4 = 0;
+	ByteU5BU5D_t3397334013* V_5 = NULL;
+	int32_t V_6 = 0;
+	uint8_t V_7 = 0x0;
+	{
+		String_t* L_0 = ___address0;
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(PhysicalAddress_t1613893277_il2cpp_TypeInfo_var);
+		PhysicalAddress_t1613893277 * L_1 = ((PhysicalAddress_t1613893277_StaticFields*)PhysicalAddress_t1613893277_il2cpp_TypeInfo_var->static_fields)->get_None_1();
+		return L_1;
+	}
+
+IL_000c:
+	{
+		String_t* L_2 = ___address0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_3 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		bool L_4 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		FormatException_t2948921286 * L_5 = (FormatException_t2948921286 *)il2cpp_codegen_object_new(FormatException_t2948921286_il2cpp_TypeInfo_var);
+		FormatException__ctor_m1466217969(L_5, _stringLiteral167988534, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_5);
+	}
+
+IL_0027:
+	{
+		String_t* L_6 = ___address0;
+		CharU5BU5D_t1328083999* L_7 = ((CharU5BU5D_t1328083999*)SZArrayNew(CharU5BU5D_t1328083999_il2cpp_TypeInfo_var, (uint32_t)1));
+		NullCheck(L_7);
+		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)((int32_t)45));
+		NullCheck(L_6);
+		StringU5BU5D_t1642385972* L_8 = String_Split_m3326265864(L_6, L_7, /*hidden argument*/NULL);
+		V_0 = L_8;
+		StringU5BU5D_t1642385972* L_9 = V_0;
+		NullCheck(L_9);
+		if ((!(((uint32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_9)->max_length))))) == ((uint32_t)1))))
+		{
+			goto IL_0082;
+		}
+	}
+	{
+		String_t* L_10 = ___address0;
+		NullCheck(L_10);
+		int32_t L_11 = String_get_Length_m1606060069(L_10, /*hidden argument*/NULL);
+		if ((((int32_t)L_11) == ((int32_t)((int32_t)12))))
+		{
+			goto IL_005a;
+		}
+	}
+	{
+		FormatException_t2948921286 * L_12 = (FormatException_t2948921286 *)il2cpp_codegen_object_new(FormatException_t2948921286_il2cpp_TypeInfo_var);
+		FormatException__ctor_m1466217969(L_12, _stringLiteral167988534, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_12);
+	}
+
+IL_005a:
+	{
+		V_0 = ((StringU5BU5D_t1642385972*)SZArrayNew(StringU5BU5D_t1642385972_il2cpp_TypeInfo_var, (uint32_t)6));
+		V_1 = 0;
+		goto IL_0079;
+	}
+
+IL_0068:
+	{
+		StringU5BU5D_t1642385972* L_13 = V_0;
+		int32_t L_14 = V_1;
+		String_t* L_15 = ___address0;
+		int32_t L_16 = V_1;
+		NullCheck(L_15);
+		String_t* L_17 = String_Substring_m12482732(L_15, ((int32_t)((int32_t)L_16*(int32_t)2)), 2, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		ArrayElementTypeCheck (L_13, L_17);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(L_14), (String_t*)L_17);
+		int32_t L_18 = V_1;
+		V_1 = ((int32_t)((int32_t)L_18+(int32_t)1));
+	}
+
+IL_0079:
+	{
+		int32_t L_19 = V_1;
+		StringU5BU5D_t1642385972* L_20 = V_0;
+		NullCheck(L_20);
+		if ((((int32_t)L_19) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_20)->max_length)))))))
+		{
+			goto IL_0068;
+		}
+	}
+
+IL_0082:
+	{
+		StringU5BU5D_t1642385972* L_21 = V_0;
+		NullCheck(L_21);
+		if ((!(((uint32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_21)->max_length))))) == ((uint32_t)6))))
+		{
+			goto IL_00dd;
+		}
+	}
+	{
+		StringU5BU5D_t1642385972* L_22 = V_0;
+		V_3 = L_22;
+		V_4 = 0;
+		goto IL_00ce;
+	}
+
+IL_0095:
+	{
+		StringU5BU5D_t1642385972* L_23 = V_3;
+		int32_t L_24 = V_4;
+		NullCheck(L_23);
+		int32_t L_25 = L_24;
+		String_t* L_26 = (L_23)->GetAt(static_cast<il2cpp_array_size_t>(L_25));
+		V_2 = L_26;
+		String_t* L_27 = V_2;
+		NullCheck(L_27);
+		int32_t L_28 = String_get_Length_m1606060069(L_27, /*hidden argument*/NULL);
+		if ((((int32_t)L_28) <= ((int32_t)2)))
+		{
+			goto IL_00b1;
+		}
+	}
+	{
+		FormatException_t2948921286 * L_29 = (FormatException_t2948921286 *)il2cpp_codegen_object_new(FormatException_t2948921286_il2cpp_TypeInfo_var);
+		FormatException__ctor_m1466217969(L_29, _stringLiteral167988534, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_29);
+	}
+
+IL_00b1:
+	{
+		String_t* L_30 = V_2;
+		NullCheck(L_30);
+		int32_t L_31 = String_get_Length_m1606060069(L_30, /*hidden argument*/NULL);
+		if ((((int32_t)L_31) >= ((int32_t)2)))
+		{
+			goto IL_00c8;
+		}
+	}
+	{
+		IndexOutOfRangeException_t3527622107 * L_32 = (IndexOutOfRangeException_t3527622107 *)il2cpp_codegen_object_new(IndexOutOfRangeException_t3527622107_il2cpp_TypeInfo_var);
+		IndexOutOfRangeException__ctor_m1847153122(L_32, _stringLiteral167988534, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_32);
+	}
+
+IL_00c8:
+	{
+		int32_t L_33 = V_4;
+		V_4 = ((int32_t)((int32_t)L_33+(int32_t)1));
+	}
+
+IL_00ce:
+	{
+		int32_t L_34 = V_4;
+		StringU5BU5D_t1642385972* L_35 = V_3;
+		NullCheck(L_35);
+		if ((((int32_t)L_34) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_35)->max_length)))))))
+		{
+			goto IL_0095;
+		}
+	}
+	{
+		goto IL_00e8;
+	}
+
+IL_00dd:
+	{
+		FormatException_t2948921286 * L_36 = (FormatException_t2948921286 *)il2cpp_codegen_object_new(FormatException_t2948921286_il2cpp_TypeInfo_var);
+		FormatException__ctor_m1466217969(L_36, _stringLiteral167988534, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_36);
+	}
+
+IL_00e8:
+	{
+		V_5 = ((ByteU5BU5D_t3397334013*)SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, (uint32_t)6));
+		V_6 = 0;
+		goto IL_012e;
+	}
+
+IL_00f8:
+	{
+		StringU5BU5D_t1642385972* L_37 = V_0;
+		int32_t L_38 = V_6;
+		NullCheck(L_37);
+		int32_t L_39 = L_38;
+		String_t* L_40 = (L_37)->GetAt(static_cast<il2cpp_array_size_t>(L_39));
+		NullCheck(L_40);
+		Il2CppChar L_41 = String_get_Chars_m4230566705(L_40, 0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(PhysicalAddress_t1613893277_il2cpp_TypeInfo_var);
+		uint8_t L_42 = PhysicalAddress_GetValue_m3049694083(NULL /*static, unused*/, L_41, /*hidden argument*/NULL);
+		V_7 = (uint8_t)(((int32_t)((uint8_t)((int32_t)((int32_t)L_42<<(int32_t)4)))));
+		uint8_t L_43 = V_7;
+		StringU5BU5D_t1642385972* L_44 = V_0;
+		int32_t L_45 = V_6;
+		NullCheck(L_44);
+		int32_t L_46 = L_45;
+		String_t* L_47 = (L_44)->GetAt(static_cast<il2cpp_array_size_t>(L_46));
+		NullCheck(L_47);
+		Il2CppChar L_48 = String_get_Chars_m4230566705(L_47, 1, /*hidden argument*/NULL);
+		uint8_t L_49 = PhysicalAddress_GetValue_m3049694083(NULL /*static, unused*/, L_48, /*hidden argument*/NULL);
+		V_7 = (uint8_t)(((int32_t)((uint8_t)((int32_t)((int32_t)L_43+(int32_t)L_49)))));
+		ByteU5BU5D_t3397334013* L_50 = V_5;
+		int32_t L_51 = V_6;
+		uint8_t L_52 = V_7;
+		NullCheck(L_50);
+		(L_50)->SetAt(static_cast<il2cpp_array_size_t>(L_51), (uint8_t)L_52);
+		int32_t L_53 = V_6;
+		V_6 = ((int32_t)((int32_t)L_53+(int32_t)1));
+	}
+
+IL_012e:
+	{
+		int32_t L_54 = V_6;
+		if ((((int32_t)L_54) < ((int32_t)6)))
+		{
+			goto IL_00f8;
+		}
+	}
+	{
+		ByteU5BU5D_t3397334013* L_55 = V_5;
+		PhysicalAddress_t1613893277 * L_56 = (PhysicalAddress_t1613893277 *)il2cpp_codegen_object_new(PhysicalAddress_t1613893277_il2cpp_TypeInfo_var);
+		PhysicalAddress__ctor_m3260893292(L_56, L_55, /*hidden argument*/NULL);
+		return L_56;
+	}
+}
+// System.Byte System.Net.NetworkInformation.PhysicalAddress::GetValue(System.Char)
+extern "C"  uint8_t PhysicalAddress_GetValue_m3049694083 (Il2CppObject * __this /* static, unused */, Il2CppChar ___c0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (PhysicalAddress_GetValue_m3049694083_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Il2CppChar L_0 = ___c0;
+		if ((((int32_t)L_0) < ((int32_t)((int32_t)48))))
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		Il2CppChar L_1 = ___c0;
+		if ((((int32_t)L_1) > ((int32_t)((int32_t)57))))
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		Il2CppChar L_2 = ___c0;
+		return (uint8_t)(((int32_t)((uint8_t)((int32_t)((int32_t)L_2-(int32_t)((int32_t)48))))));
+	}
+
+IL_0016:
+	{
+		Il2CppChar L_3 = ___c0;
+		if ((((int32_t)L_3) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		Il2CppChar L_4 = ___c0;
+		if ((((int32_t)L_4) > ((int32_t)((int32_t)102))))
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		Il2CppChar L_5 = ___c0;
+		return (uint8_t)(((int32_t)((uint8_t)((int32_t)((int32_t)((int32_t)((int32_t)L_5-(int32_t)((int32_t)97)))+(int32_t)((int32_t)10))))));
+	}
+
+IL_002f:
+	{
+		Il2CppChar L_6 = ___c0;
+		if ((((int32_t)L_6) < ((int32_t)((int32_t)65))))
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		Il2CppChar L_7 = ___c0;
+		if ((((int32_t)L_7) > ((int32_t)((int32_t)70))))
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		Il2CppChar L_8 = ___c0;
+		return (uint8_t)(((int32_t)((uint8_t)((int32_t)((int32_t)((int32_t)((int32_t)L_8-(int32_t)((int32_t)65)))+(int32_t)((int32_t)10))))));
+	}
+
+IL_0048:
+	{
+		FormatException_t2948921286 * L_9 = (FormatException_t2948921286 *)il2cpp_codegen_object_new(FormatException_t2948921286_il2cpp_TypeInfo_var);
+		FormatException__ctor_m1466217969(L_9, _stringLiteral3263659244, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_9);
+	}
+}
+// System.Boolean System.Net.NetworkInformation.PhysicalAddress::Equals(System.Object)
+extern "C"  bool PhysicalAddress_Equals_m1853614880 (PhysicalAddress_t1613893277 * __this, Il2CppObject * ___comparand0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (PhysicalAddress_Equals_m1853614880_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	PhysicalAddress_t1613893277 * V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		Il2CppObject * L_0 = ___comparand0;
+		V_0 = ((PhysicalAddress_t1613893277 *)IsInstClass(L_0, PhysicalAddress_t1613893277_il2cpp_TypeInfo_var));
+		PhysicalAddress_t1613893277 * L_1 = V_0;
+		if (L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_000f:
+	{
+		ByteU5BU5D_t3397334013* L_2 = __this->get_bytes_2();
+		NullCheck(L_2);
+		PhysicalAddress_t1613893277 * L_3 = V_0;
+		NullCheck(L_3);
+		ByteU5BU5D_t3397334013* L_4 = L_3->get_bytes_2();
+		NullCheck(L_4);
+		if ((((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_2)->max_length))))) == ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_4)->max_length)))))))
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0026:
+	{
+		V_1 = 0;
+		goto IL_0048;
+	}
+
+IL_002d:
+	{
+		ByteU5BU5D_t3397334013* L_5 = __this->get_bytes_2();
+		int32_t L_6 = V_1;
+		NullCheck(L_5);
+		int32_t L_7 = L_6;
+		uint8_t L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		PhysicalAddress_t1613893277 * L_9 = V_0;
+		NullCheck(L_9);
+		ByteU5BU5D_t3397334013* L_10 = L_9->get_bytes_2();
+		int32_t L_11 = V_1;
+		NullCheck(L_10);
+		int32_t L_12 = L_11;
+		uint8_t L_13 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
+		if ((((int32_t)L_8) == ((int32_t)L_13)))
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0044:
+	{
+		int32_t L_14 = V_1;
+		V_1 = ((int32_t)((int32_t)L_14+(int32_t)1));
+	}
+
+IL_0048:
+	{
+		int32_t L_15 = V_1;
+		ByteU5BU5D_t3397334013* L_16 = __this->get_bytes_2();
+		NullCheck(L_16);
+		if ((((int32_t)L_15) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_16)->max_length)))))))
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		return (bool)1;
+	}
+}
+// System.Int32 System.Net.NetworkInformation.PhysicalAddress::GetHashCode()
+extern "C"  int32_t PhysicalAddress_GetHashCode_m228484884 (PhysicalAddress_t1613893277 * __this, const MethodInfo* method)
+{
+	{
+		ByteU5BU5D_t3397334013* L_0 = __this->get_bytes_2();
+		NullCheck(L_0);
+		int32_t L_1 = 5;
+		uint8_t L_2 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_1));
+		ByteU5BU5D_t3397334013* L_3 = __this->get_bytes_2();
+		NullCheck(L_3);
+		int32_t L_4 = 4;
+		uint8_t L_5 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		ByteU5BU5D_t3397334013* L_6 = __this->get_bytes_2();
+		NullCheck(L_6);
+		int32_t L_7 = 3;
+		uint8_t L_8 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		ByteU5BU5D_t3397334013* L_9 = __this->get_bytes_2();
+		NullCheck(L_9);
+		int32_t L_10 = 2;
+		uint8_t L_11 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
+		ByteU5BU5D_t3397334013* L_12 = __this->get_bytes_2();
+		NullCheck(L_12);
+		int32_t L_13 = 1;
+		uint8_t L_14 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
+		ByteU5BU5D_t3397334013* L_15 = __this->get_bytes_2();
+		NullCheck(L_15);
+		int32_t L_16 = 0;
+		uint8_t L_17 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		return ((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_2<<(int32_t)8))^(int32_t)L_5))^(int32_t)((int32_t)((int32_t)L_8<<(int32_t)((int32_t)24)))))^(int32_t)((int32_t)((int32_t)L_11<<(int32_t)((int32_t)16)))))^(int32_t)((int32_t)((int32_t)L_14<<(int32_t)8))))^(int32_t)L_17));
+	}
+}
+// System.Byte[] System.Net.NetworkInformation.PhysicalAddress::GetAddressBytes()
+extern "C"  ByteU5BU5D_t3397334013* PhysicalAddress_GetAddressBytes_m3545084778 (PhysicalAddress_t1613893277 * __this, const MethodInfo* method)
+{
+	{
+		ByteU5BU5D_t3397334013* L_0 = __this->get_bytes_2();
+		return L_0;
+	}
+}
+// System.String System.Net.NetworkInformation.PhysicalAddress::ToString()
+extern "C"  String_t* PhysicalAddress_ToString_m3706599766 (PhysicalAddress_t1613893277 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (PhysicalAddress_ToString_m3706599766_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringBuilder_t1221177846 * V_0 = NULL;
+	uint8_t V_1 = 0x0;
+	ByteU5BU5D_t3397334013* V_2 = NULL;
+	int32_t V_3 = 0;
+	{
+		ByteU5BU5D_t3397334013* L_0 = __this->get_bytes_2();
+		if (L_0)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		return L_1;
+	}
+
+IL_0011:
+	{
+		StringBuilder_t1221177846 * L_2 = (StringBuilder_t1221177846 *)il2cpp_codegen_object_new(StringBuilder_t1221177846_il2cpp_TypeInfo_var);
+		StringBuilder__ctor_m3946851802(L_2, /*hidden argument*/NULL);
+		V_0 = L_2;
+		ByteU5BU5D_t3397334013* L_3 = __this->get_bytes_2();
+		V_2 = L_3;
+		V_3 = 0;
+		goto IL_003f;
+	}
+
+IL_0025:
+	{
+		ByteU5BU5D_t3397334013* L_4 = V_2;
+		int32_t L_5 = V_3;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		uint8_t L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		V_1 = L_7;
+		StringBuilder_t1221177846 * L_8 = V_0;
+		uint8_t L_9 = V_1;
+		uint8_t L_10 = L_9;
+		Il2CppObject * L_11 = Box(Byte_t3683104436_il2cpp_TypeInfo_var, &L_10);
+		NullCheck(L_8);
+		StringBuilder_AppendFormat_m3265503696(L_8, _stringLiteral6500422, L_11, /*hidden argument*/NULL);
+		int32_t L_12 = V_3;
+		V_3 = ((int32_t)((int32_t)L_12+(int32_t)1));
+	}
+
+IL_003f:
+	{
+		int32_t L_13 = V_3;
+		ByteU5BU5D_t3397334013* L_14 = V_2;
+		NullCheck(L_14);
+		if ((((int32_t)L_13) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_14)->max_length)))))))
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		StringBuilder_t1221177846 * L_15 = V_0;
+		NullCheck(L_15);
+		String_t* L_16 = StringBuilder_ToString_m1507807375(L_15, /*hidden argument*/NULL);
+		return L_16;
+	}
+}
+// System.Void System.Net.NetworkInformation.Ping::.ctor()
+extern "C"  void Ping__ctor_m1925477326 (Ping_t3611444498 * __this, const MethodInfo* method)
+{
+	{
+		Component__ctor_m685180076(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.Ping::.cctor()
+extern "C"  void Ping__cctor_m2539700127 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Ping__cctor_m2539700127_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	StringU5BU5D_t1642385972* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		StringU5BU5D_t1642385972* L_0 = ((StringU5BU5D_t1642385972*)SZArrayNew(StringU5BU5D_t1642385972_il2cpp_TypeInfo_var, (uint32_t)4));
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, _stringLiteral1663282389);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral1663282389);
+		StringU5BU5D_t1642385972* L_1 = L_0;
+		NullCheck(L_1);
+		ArrayElementTypeCheck (L_1, _stringLiteral940972654);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteral940972654);
+		StringU5BU5D_t1642385972* L_2 = L_1;
+		NullCheck(L_2);
+		ArrayElementTypeCheck (L_2, _stringLiteral2798829313);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral2798829313);
+		StringU5BU5D_t1642385972* L_3 = L_2;
+		NullCheck(L_3);
+		ArrayElementTypeCheck (L_3, _stringLiteral3485719803);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)_stringLiteral3485719803);
+		((Ping_t3611444498_StaticFields*)Ping_t3611444498_il2cpp_TypeInfo_var->static_fields)->set_PingBinPaths_8(L_3);
+		((Ping_t3611444498_StaticFields*)Ping_t3611444498_il2cpp_TypeInfo_var->static_fields)->set_default_buffer_10(((ByteU5BU5D_t3397334013*)SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, (uint32_t)0)));
+		OperatingSystem_t290860502 * L_4 = Environment_get_OSVersion_m1247315981(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		int32_t L_5 = OperatingSystem_get_Platform_m2260343279(L_4, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_5) == ((uint32_t)4))))
+		{
+			goto IL_00ad;
+		}
+	}
+	{
+		Ping_CheckLinuxCapabilities_m207690028(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_6 = ((Ping_t3611444498_StaticFields*)Ping_t3611444498_il2cpp_TypeInfo_var->static_fields)->get_canSendPrivileged_11();
+		if (L_6)
+		{
+			goto IL_0074;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(WindowsIdentity_t373339331_il2cpp_TypeInfo_var);
+		WindowsIdentity_t373339331 * L_7 = WindowsIdentity_GetCurrent_m4268738482(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		String_t* L_8 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Security.Principal.WindowsIdentity::get_Name() */, L_7);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_9 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_8, _stringLiteral3430668174, /*hidden argument*/NULL);
+		if (!L_9)
+		{
+			goto IL_0074;
+		}
+	}
+	{
+		((Ping_t3611444498_StaticFields*)Ping_t3611444498_il2cpp_TypeInfo_var->static_fields)->set_canSendPrivileged_11((bool)1);
+	}
+
+IL_0074:
+	{
+		StringU5BU5D_t1642385972* L_10 = ((Ping_t3611444498_StaticFields*)Ping_t3611444498_il2cpp_TypeInfo_var->static_fields)->get_PingBinPaths_8();
+		V_1 = L_10;
+		V_2 = 0;
+		goto IL_009f;
+	}
+
+IL_0081:
+	{
+		StringU5BU5D_t1642385972* L_11 = V_1;
+		int32_t L_12 = V_2;
+		NullCheck(L_11);
+		int32_t L_13 = L_12;
+		String_t* L_14 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
+		V_0 = L_14;
+		String_t* L_15 = V_0;
+		bool L_16 = File_Exists_m1685968367(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
+		if (!L_16)
+		{
+			goto IL_009b;
+		}
+	}
+	{
+		String_t* L_17 = V_0;
+		((Ping_t3611444498_StaticFields*)Ping_t3611444498_il2cpp_TypeInfo_var->static_fields)->set_PingBinPath_9(L_17);
+		goto IL_00a8;
+	}
+
+IL_009b:
+	{
+		int32_t L_18 = V_2;
+		V_2 = ((int32_t)((int32_t)L_18+(int32_t)1));
+	}
+
+IL_009f:
+	{
+		int32_t L_19 = V_2;
+		StringU5BU5D_t1642385972* L_20 = V_1;
+		NullCheck(L_20);
+		if ((((int32_t)L_19) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_20)->max_length)))))))
+		{
+			goto IL_0081;
+		}
+	}
+
+IL_00a8:
+	{
+		goto IL_00b3;
+	}
+
+IL_00ad:
+	{
+		((Ping_t3611444498_StaticFields*)Ping_t3611444498_il2cpp_TypeInfo_var->static_fields)->set_canSendPrivileged_11((bool)1);
+	}
+
+IL_00b3:
+	{
+		String_t* L_21 = ((Ping_t3611444498_StaticFields*)Ping_t3611444498_il2cpp_TypeInfo_var->static_fields)->get_PingBinPath_9();
+		if (L_21)
+		{
+			goto IL_00c7;
+		}
+	}
+	{
+		((Ping_t3611444498_StaticFields*)Ping_t3611444498_il2cpp_TypeInfo_var->static_fields)->set_PingBinPath_9(_stringLiteral1663282389);
+	}
+
+IL_00c7:
+	{
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.Ping::add_PingCompleted(System.Net.NetworkInformation.PingCompletedEventHandler)
+extern "C"  void Ping_add_PingCompleted_m2647862356 (Ping_t3611444498 * __this, PingCompletedEventHandler_t1044526567 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Ping_add_PingCompleted_m2647862356_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		PingCompletedEventHandler_t1044526567 * L_0 = __this->get_PingCompleted_14();
+		PingCompletedEventHandler_t1044526567 * L_1 = ___value0;
+		Delegate_t3022476291 * L_2 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set_PingCompleted_14(((PingCompletedEventHandler_t1044526567 *)CastclassSealed(L_2, PingCompletedEventHandler_t1044526567_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.Ping::remove_PingCompleted(System.Net.NetworkInformation.PingCompletedEventHandler)
+extern "C"  void Ping_remove_PingCompleted_m1847751419 (Ping_t3611444498 * __this, PingCompletedEventHandler_t1044526567 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Ping_remove_PingCompleted_m1847751419_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		PingCompletedEventHandler_t1044526567 * L_0 = __this->get_PingCompleted_14();
+		PingCompletedEventHandler_t1044526567 * L_1 = ___value0;
+		Delegate_t3022476291 * L_2 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set_PingCompleted_14(((PingCompletedEventHandler_t1044526567 *)CastclassSealed(L_2, PingCompletedEventHandler_t1044526567_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.Ping::System.IDisposable.Dispose()
+extern "C"  void Ping_System_IDisposable_Dispose_m3184217403 (Ping_t3611444498 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Int32 System.Net.NetworkInformation.Ping::capget(System.Net.NetworkInformation.Ping/cap_user_header_t&,System.Net.NetworkInformation.Ping/cap_user_data_t&)
+extern "C"  int32_t Ping_capget_m502211985 (Il2CppObject * __this /* static, unused */, cap_user_header_t_t1012002510 * ___header0, cap_user_data_t_t2417848831 * ___data1, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (cap_user_header_t_t1012002510 *, cap_user_data_t_t2417848831 *);
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(cap_user_header_t_t1012002510 *) + sizeof(cap_user_data_t_t2417848831 *);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("libc"), "capget", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+
+		if (il2cppPInvokeFunc == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'capget'"));
+		}
+	}
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(___header0, ___data1);
+
+	return returnValue;
+}
+// System.Void System.Net.NetworkInformation.Ping::CheckLinuxCapabilities()
+extern "C"  void Ping_CheckLinuxCapabilities_m207690028 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Ping_CheckLinuxCapabilities_m207690028_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	cap_user_header_t_t1012002510  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	cap_user_data_t_t2417848831  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+
+IL_0000:
+	try
+	{ // begin try (depth: 1)
+		{
+			Initobj (cap_user_header_t_t1012002510_il2cpp_TypeInfo_var, (&V_0));
+			Initobj (cap_user_data_t_t2417848831_il2cpp_TypeInfo_var, (&V_1));
+			(&V_0)->set_version_0(((int32_t)537333798));
+			V_2 = (-1);
+		}
+
+IL_001e:
+		try
+		{ // begin try (depth: 2)
+			IL2CPP_RUNTIME_CLASS_INIT(Ping_t3611444498_il2cpp_TypeInfo_var);
+			int32_t L_0 = Ping_capget_m502211985(NULL /*static, unused*/, (&V_0), (&V_1), /*hidden argument*/NULL);
+			V_2 = L_0;
+			goto IL_0033;
+		} // end try (depth: 2)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__exception_local = (Exception_t1927440687 *)e.ex;
+			if(il2cpp_codegen_class_is_assignable_from (Exception_t1927440687_il2cpp_TypeInfo_var, e.ex->klass))
+				goto CATCH_002d;
+			throw e;
+		}
+
+CATCH_002d:
+		{ // begin catch(System.Exception)
+			goto IL_0033;
+		} // end catch (depth: 2)
+
+IL_0033:
+		{
+			int32_t L_1 = V_2;
+			if ((!(((uint32_t)L_1) == ((uint32_t)(-1)))))
+			{
+				goto IL_003f;
+			}
+		}
+
+IL_003a:
+		{
+			goto IL_0068;
+		}
+
+IL_003f:
+		{
+			uint32_t L_2 = (&V_1)->get_effective_0();
+			IL2CPP_RUNTIME_CLASS_INIT(Ping_t3611444498_il2cpp_TypeInfo_var);
+			((Ping_t3611444498_StaticFields*)Ping_t3611444498_il2cpp_TypeInfo_var->static_fields)->set_canSendPrivileged_11((bool)((((int32_t)((((int32_t)((int32_t)((int32_t)L_2&(int32_t)((int32_t)8192)))) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0));
+			goto IL_0068;
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1927440687 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (Il2CppObject_il2cpp_TypeInfo_var, e.ex->klass))
+			goto CATCH_005c;
+		throw e;
+	}
+
+CATCH_005c:
+	{ // begin catch(System.Object)
+		IL2CPP_RUNTIME_CLASS_INIT(Ping_t3611444498_il2cpp_TypeInfo_var);
+		((Ping_t3611444498_StaticFields*)Ping_t3611444498_il2cpp_TypeInfo_var->static_fields)->set_canSendPrivileged_11((bool)0);
+		goto IL_0068;
+	} // end catch (depth: 1)
+
+IL_0068:
+	{
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.Ping::OnPingCompleted(System.Net.NetworkInformation.PingCompletedEventArgs)
+extern "C"  void Ping_OnPingCompleted_m3567368730 (Ping_t3611444498 * __this, PingCompletedEventArgs_t841787612 * ___e0, const MethodInfo* method)
+{
+	{
+		PingCompletedEventHandler_t1044526567 * L_0 = __this->get_PingCompleted_14();
+		if (!L_0)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		PingCompletedEventHandler_t1044526567 * L_1 = __this->get_PingCompleted_14();
+		PingCompletedEventArgs_t841787612 * L_2 = ___e0;
+		NullCheck(L_1);
+		PingCompletedEventHandler_Invoke_m2377391675(L_1, __this, L_2, /*hidden argument*/NULL);
+	}
+
+IL_0018:
+	{
+		__this->set_user_async_state_13(NULL);
+		__this->set_worker_12((BackgroundWorker_t4230068110 *)NULL);
+		return;
+	}
+}
+// System.Net.NetworkInformation.PingReply System.Net.NetworkInformation.Ping::Send(System.Net.IPAddress)
+extern "C"  PingReply_t1978568794 * Ping_Send_m3045095248 (Ping_t3611444498 * __this, IPAddress_t1399971723 * ___address0, const MethodInfo* method)
+{
+	{
+		IPAddress_t1399971723 * L_0 = ___address0;
+		PingReply_t1978568794 * L_1 = Ping_Send_m670222487(__this, L_0, ((int32_t)4000), /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Net.NetworkInformation.PingReply System.Net.NetworkInformation.Ping::Send(System.Net.IPAddress,System.Int32)
+extern "C"  PingReply_t1978568794 * Ping_Send_m670222487 (Ping_t3611444498 * __this, IPAddress_t1399971723 * ___address0, int32_t ___timeout1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Ping_Send_m670222487_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IPAddress_t1399971723 * L_0 = ___address0;
+		int32_t L_1 = ___timeout1;
+		IL2CPP_RUNTIME_CLASS_INIT(Ping_t3611444498_il2cpp_TypeInfo_var);
+		ByteU5BU5D_t3397334013* L_2 = ((Ping_t3611444498_StaticFields*)Ping_t3611444498_il2cpp_TypeInfo_var->static_fields)->get_default_buffer_10();
+		PingReply_t1978568794 * L_3 = Ping_Send_m3957161110(__this, L_0, L_1, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.Net.NetworkInformation.PingReply System.Net.NetworkInformation.Ping::Send(System.Net.IPAddress,System.Int32,System.Byte[])
+extern "C"  PingReply_t1978568794 * Ping_Send_m3957161110 (Ping_t3611444498 * __this, IPAddress_t1399971723 * ___address0, int32_t ___timeout1, ByteU5BU5D_t3397334013* ___buffer2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Ping_Send_m3957161110_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IPAddress_t1399971723 * L_0 = ___address0;
+		int32_t L_1 = ___timeout1;
+		ByteU5BU5D_t3397334013* L_2 = ___buffer2;
+		PingOptions_t1261881264 * L_3 = (PingOptions_t1261881264 *)il2cpp_codegen_object_new(PingOptions_t1261881264_il2cpp_TypeInfo_var);
+		PingOptions__ctor_m1440794514(L_3, /*hidden argument*/NULL);
+		PingReply_t1978568794 * L_4 = Ping_Send_m1870041180(__this, L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+// System.Net.NetworkInformation.PingReply System.Net.NetworkInformation.Ping::Send(System.String)
+extern "C"  PingReply_t1978568794 * Ping_Send_m2520883769 (Ping_t3611444498 * __this, String_t* ___hostNameOrAddress0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___hostNameOrAddress0;
+		PingReply_t1978568794 * L_1 = Ping_Send_m430078730(__this, L_0, ((int32_t)4000), /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Net.NetworkInformation.PingReply System.Net.NetworkInformation.Ping::Send(System.String,System.Int32)
+extern "C"  PingReply_t1978568794 * Ping_Send_m430078730 (Ping_t3611444498 * __this, String_t* ___hostNameOrAddress0, int32_t ___timeout1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Ping_Send_m430078730_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___hostNameOrAddress0;
+		int32_t L_1 = ___timeout1;
+		IL2CPP_RUNTIME_CLASS_INIT(Ping_t3611444498_il2cpp_TypeInfo_var);
+		ByteU5BU5D_t3397334013* L_2 = ((Ping_t3611444498_StaticFields*)Ping_t3611444498_il2cpp_TypeInfo_var->static_fields)->get_default_buffer_10();
+		PingReply_t1978568794 * L_3 = Ping_Send_m2863308795(__this, L_0, L_1, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.Net.NetworkInformation.PingReply System.Net.NetworkInformation.Ping::Send(System.String,System.Int32,System.Byte[])
+extern "C"  PingReply_t1978568794 * Ping_Send_m2863308795 (Ping_t3611444498 * __this, String_t* ___hostNameOrAddress0, int32_t ___timeout1, ByteU5BU5D_t3397334013* ___buffer2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Ping_Send_m2863308795_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___hostNameOrAddress0;
+		int32_t L_1 = ___timeout1;
+		ByteU5BU5D_t3397334013* L_2 = ___buffer2;
+		PingOptions_t1261881264 * L_3 = (PingOptions_t1261881264 *)il2cpp_codegen_object_new(PingOptions_t1261881264_il2cpp_TypeInfo_var);
+		PingOptions__ctor_m1440794514(L_3, /*hidden argument*/NULL);
+		PingReply_t1978568794 * L_4 = Ping_Send_m3904038265(__this, L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+// System.Net.NetworkInformation.PingReply System.Net.NetworkInformation.Ping::Send(System.String,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions)
+extern "C"  PingReply_t1978568794 * Ping_Send_m3904038265 (Ping_t3611444498 * __this, String_t* ___hostNameOrAddress0, int32_t ___timeout1, ByteU5BU5D_t3397334013* ___buffer2, PingOptions_t1261881264 * ___options3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Ping_Send_m3904038265_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	IPAddressU5BU5D_t4087230954* V_0 = NULL;
+	{
+		String_t* L_0 = ___hostNameOrAddress0;
+		IL2CPP_RUNTIME_CLASS_INIT(Dns_t1335526197_il2cpp_TypeInfo_var);
+		IPAddressU5BU5D_t4087230954* L_1 = Dns_GetHostAddresses_m1469938777(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		IPAddressU5BU5D_t4087230954* L_2 = V_0;
+		NullCheck(L_2);
+		int32_t L_3 = 0;
+		IPAddress_t1399971723 * L_4 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		int32_t L_5 = ___timeout1;
+		ByteU5BU5D_t3397334013* L_6 = ___buffer2;
+		PingOptions_t1261881264 * L_7 = ___options3;
+		PingReply_t1978568794 * L_8 = Ping_Send_m1870041180(__this, L_4, L_5, L_6, L_7, /*hidden argument*/NULL);
+		return L_8;
+	}
+}
+// System.Net.IPAddress System.Net.NetworkInformation.Ping::GetNonLoopbackIP()
+extern "C"  IPAddress_t1399971723 * Ping_GetNonLoopbackIP_m1361729525 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Ping_GetNonLoopbackIP_m1361729525_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	IPAddress_t1399971723 * V_0 = NULL;
+	IPAddressU5BU5D_t4087230954* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Dns_t1335526197_il2cpp_TypeInfo_var);
+		String_t* L_0 = Dns_GetHostName_m2452666545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IPHostEntry_t994738509 * L_1 = Dns_GetHostByName_m3673230969(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		IPAddressU5BU5D_t4087230954* L_2 = IPHostEntry_get_AddressList_m3789532398(L_1, /*hidden argument*/NULL);
+		V_1 = L_2;
+		V_2 = 0;
+		goto IL_002c;
+	}
+
+IL_0017:
+	{
+		IPAddressU5BU5D_t4087230954* L_3 = V_1;
+		int32_t L_4 = V_2;
+		NullCheck(L_3);
+		int32_t L_5 = L_4;
+		IPAddress_t1399971723 * L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		V_0 = L_6;
+		IPAddress_t1399971723 * L_7 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(IPAddress_t1399971723_il2cpp_TypeInfo_var);
+		bool L_8 = IPAddress_IsLoopback_m2800578891(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		if (L_8)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		IPAddress_t1399971723 * L_9 = V_0;
+		return L_9;
+	}
+
+IL_0028:
+	{
+		int32_t L_10 = V_2;
+		V_2 = ((int32_t)((int32_t)L_10+(int32_t)1));
+	}
+
+IL_002c:
+	{
+		int32_t L_11 = V_2;
+		IPAddressU5BU5D_t4087230954* L_12 = V_1;
+		NullCheck(L_12);
+		if ((((int32_t)L_11) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_12)->max_length)))))))
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		InvalidOperationException_t721527559 * L_13 = (InvalidOperationException_t721527559 *)il2cpp_codegen_object_new(InvalidOperationException_t721527559_il2cpp_TypeInfo_var);
+		InvalidOperationException__ctor_m2801133788(L_13, _stringLiteral1086742700, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_13);
+	}
+}
+// System.Net.NetworkInformation.PingReply System.Net.NetworkInformation.Ping::Send(System.Net.IPAddress,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions)
+extern "C"  PingReply_t1978568794 * Ping_Send_m1870041180 (Ping_t3611444498 * __this, IPAddress_t1399971723 * ___address0, int32_t ___timeout1, ByteU5BU5D_t3397334013* ___buffer2, PingOptions_t1261881264 * ___options3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Ping_Send_m1870041180_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IPAddress_t1399971723 * L_0 = ___address0;
+		if (L_0)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		ArgumentNullException_t628810857 * L_1 = (ArgumentNullException_t628810857 *)il2cpp_codegen_object_new(ArgumentNullException_t628810857_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m3380712306(L_1, _stringLiteral3134679062, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0011:
+	{
+		int32_t L_2 = ___timeout1;
+		if ((((int32_t)L_2) >= ((int32_t)0)))
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		ArgumentOutOfRangeException_t279959794 * L_3 = (ArgumentOutOfRangeException_t279959794 *)il2cpp_codegen_object_new(ArgumentOutOfRangeException_t279959794_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m4234257711(L_3, _stringLiteral1144299859, _stringLiteral3424039786, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0028:
+	{
+		ByteU5BU5D_t3397334013* L_4 = ___buffer2;
+		if (L_4)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		ArgumentNullException_t628810857 * L_5 = (ArgumentNullException_t628810857 *)il2cpp_codegen_object_new(ArgumentNullException_t628810857_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m3380712306(L_5, _stringLiteral2713104920, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_5);
+	}
+
+IL_0039:
+	{
+		ByteU5BU5D_t3397334013* L_6 = ___buffer2;
+		NullCheck(L_6);
+		if ((((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_6)->max_length))))) <= ((int32_t)((int32_t)65500))))
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		ArgumentException_t3259014390 * L_7 = (ArgumentException_t3259014390 *)il2cpp_codegen_object_new(ArgumentException_t3259014390_il2cpp_TypeInfo_var);
+		ArgumentException__ctor_m3739475201(L_7, _stringLiteral2713104920, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_7);
+	}
+
+IL_0051:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Ping_t3611444498_il2cpp_TypeInfo_var);
+		bool L_8 = ((Ping_t3611444498_StaticFields*)Ping_t3611444498_il2cpp_TypeInfo_var->static_fields)->get_canSendPrivileged_11();
+		if (!L_8)
+		{
+			goto IL_0067;
+		}
+	}
+	{
+		IPAddress_t1399971723 * L_9 = ___address0;
+		int32_t L_10 = ___timeout1;
+		ByteU5BU5D_t3397334013* L_11 = ___buffer2;
+		PingOptions_t1261881264 * L_12 = ___options3;
+		PingReply_t1978568794 * L_13 = Ping_SendPrivileged_m4224171413(__this, L_9, L_10, L_11, L_12, /*hidden argument*/NULL);
+		return L_13;
+	}
+
+IL_0067:
+	{
+		IPAddress_t1399971723 * L_14 = ___address0;
+		int32_t L_15 = ___timeout1;
+		ByteU5BU5D_t3397334013* L_16 = ___buffer2;
+		PingOptions_t1261881264 * L_17 = ___options3;
+		PingReply_t1978568794 * L_18 = Ping_SendUnprivileged_m782055654(__this, L_14, L_15, L_16, L_17, /*hidden argument*/NULL);
+		return L_18;
+	}
+}
+// System.Net.NetworkInformation.PingReply System.Net.NetworkInformation.Ping::SendPrivileged(System.Net.IPAddress,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions)
+extern "C"  PingReply_t1978568794 * Ping_SendPrivileged_m4224171413 (Ping_t3611444498 * __this, IPAddress_t1399971723 * ___address0, int32_t ___timeout1, ByteU5BU5D_t3397334013* ___buffer2, PingOptions_t1261881264 * ___options3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Ping_SendPrivileged_m4224171413_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	IPEndPoint_t2615413766 * V_0 = NULL;
+	IPEndPoint_t2615413766 * V_1 = NULL;
+	Socket_t3821512045 * V_2 = NULL;
+	IcmpMessage_t482998463 * V_3 = NULL;
+	ByteU5BU5D_t3397334013* V_4 = NULL;
+	DateTime_t693205669  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	EndPoint_t4156119363 * V_6 = NULL;
+	int32_t V_7 = 0;
+	int32_t V_8 = 0;
+	int64_t V_9 = 0;
+	int32_t V_10 = 0;
+	int32_t V_11 = 0;
+	int64_t V_12 = 0;
+	IcmpMessage_t482998463 * V_13 = NULL;
+	int64_t V_14 = 0;
+	PingReply_t1978568794 * V_15 = NULL;
+	TimeSpan_t3430258949  V_16;
+	memset(&V_16, 0, sizeof(V_16));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		IPAddress_t1399971723 * L_0 = ___address0;
+		IPEndPoint_t2615413766 * L_1 = (IPEndPoint_t2615413766 *)il2cpp_codegen_object_new(IPEndPoint_t2615413766_il2cpp_TypeInfo_var);
+		IPEndPoint__ctor_m3477723888(L_1, L_0, 0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Ping_t3611444498_il2cpp_TypeInfo_var);
+		IPAddress_t1399971723 * L_2 = Ping_GetNonLoopbackIP_m1361729525(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IPEndPoint_t2615413766 * L_3 = (IPEndPoint_t2615413766 *)il2cpp_codegen_object_new(IPEndPoint_t2615413766_il2cpp_TypeInfo_var);
+		IPEndPoint__ctor_m3477723888(L_3, L_2, 0, /*hidden argument*/NULL);
+		V_1 = L_3;
+		Socket_t3821512045 * L_4 = (Socket_t3821512045 *)il2cpp_codegen_object_new(Socket_t3821512045_il2cpp_TypeInfo_var);
+		Socket__ctor_m2624772808(L_4, 2, 3, 1, /*hidden argument*/NULL);
+		V_2 = L_4;
+	}
+
+IL_001d:
+	try
+	{ // begin try (depth: 1)
+		{
+			PingOptions_t1261881264 * L_5 = ___options3;
+			if (!L_5)
+			{
+				goto IL_003f;
+			}
+		}
+
+IL_0024:
+		{
+			Socket_t3821512045 * L_6 = V_2;
+			PingOptions_t1261881264 * L_7 = ___options3;
+			NullCheck(L_7);
+			bool L_8 = PingOptions_get_DontFragment_m1729750106(L_7, /*hidden argument*/NULL);
+			NullCheck(L_6);
+			Socket_set_DontFragment_m3458934082(L_6, L_8, /*hidden argument*/NULL);
+			Socket_t3821512045 * L_9 = V_2;
+			PingOptions_t1261881264 * L_10 = ___options3;
+			NullCheck(L_10);
+			int32_t L_11 = PingOptions_get_Ttl_m4280427503(L_10, /*hidden argument*/NULL);
+			NullCheck(L_9);
+			Socket_set_Ttl_m2059005399(L_9, (((int16_t)((int16_t)L_11))), /*hidden argument*/NULL);
+		}
+
+IL_003f:
+		{
+			Socket_t3821512045 * L_12 = V_2;
+			int32_t L_13 = ___timeout1;
+			NullCheck(L_12);
+			Socket_set_SendTimeout_m3917920930(L_12, L_13, /*hidden argument*/NULL);
+			Socket_t3821512045 * L_14 = V_2;
+			int32_t L_15 = ___timeout1;
+			NullCheck(L_14);
+			Socket_set_ReceiveTimeout_m2929751805(L_14, L_15, /*hidden argument*/NULL);
+			ByteU5BU5D_t3397334013* L_16 = ___buffer2;
+			IcmpMessage_t482998463 * L_17 = (IcmpMessage_t482998463 *)il2cpp_codegen_object_new(IcmpMessage_t482998463_il2cpp_TypeInfo_var);
+			IcmpMessage__ctor_m1671930572(L_17, (uint8_t)8, (uint8_t)0, (int16_t)1, (int16_t)0, L_16, /*hidden argument*/NULL);
+			V_3 = L_17;
+			IcmpMessage_t482998463 * L_18 = V_3;
+			NullCheck(L_18);
+			ByteU5BU5D_t3397334013* L_19 = IcmpMessage_GetBytes_m3013486824(L_18, /*hidden argument*/NULL);
+			V_4 = L_19;
+			Socket_t3821512045 * L_20 = V_2;
+			ByteU5BU5D_t3397334013* L_21 = V_4;
+			NullCheck(L_21);
+			NullCheck(L_20);
+			Socket_set_SendBufferSize_m3462801204(L_20, (((int32_t)((int32_t)(((Il2CppArray *)L_21)->max_length)))), /*hidden argument*/NULL);
+			Socket_t3821512045 * L_22 = V_2;
+			ByteU5BU5D_t3397334013* L_23 = V_4;
+			ByteU5BU5D_t3397334013* L_24 = V_4;
+			NullCheck(L_24);
+			IPEndPoint_t2615413766 * L_25 = V_0;
+			NullCheck(L_22);
+			Socket_SendTo_m3850742423(L_22, L_23, (((int32_t)((int32_t)(((Il2CppArray *)L_24)->max_length)))), 0, L_25, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(DateTime_t693205669_il2cpp_TypeInfo_var);
+			DateTime_t693205669  L_26 = DateTime_get_Now_m24136300(NULL /*static, unused*/, /*hidden argument*/NULL);
+			V_5 = L_26;
+			V_4 = ((ByteU5BU5D_t3397334013*)SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, (uint32_t)((int32_t)100)));
+		}
+
+IL_0089:
+		{
+			IPEndPoint_t2615413766 * L_27 = V_1;
+			V_6 = L_27;
+			V_7 = 0;
+			Socket_t3821512045 * L_28 = V_2;
+			ByteU5BU5D_t3397334013* L_29 = V_4;
+			NullCheck(L_28);
+			int32_t L_30 = Socket_ReceiveFrom_nochecks_exc_m1933643724(L_28, L_29, 0, ((int32_t)100), 0, (&V_6), (bool)0, (&V_7), /*hidden argument*/NULL);
+			V_8 = L_30;
+			int32_t L_31 = V_7;
+			if (!L_31)
+			{
+				goto IL_00e8;
+			}
+		}
+
+IL_00a9:
+		{
+			int32_t L_32 = V_7;
+			if ((!(((uint32_t)L_32) == ((uint32_t)((int32_t)10060)))))
+			{
+				goto IL_00d1;
+			}
+		}
+
+IL_00b5:
+		{
+			PingOptions_t1261881264 * L_33 = ___options3;
+			PingReply_t1978568794 * L_34 = (PingReply_t1978568794 *)il2cpp_codegen_object_new(PingReply_t1978568794_il2cpp_TypeInfo_var);
+			PingReply__ctor_m208657219(L_34, (IPAddress_t1399971723 *)NULL, ((ByteU5BU5D_t3397334013*)SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, (uint32_t)0)), L_33, (((int64_t)((int64_t)0))), ((int32_t)11010), /*hidden argument*/NULL);
+			V_15 = L_34;
+			IL2CPP_LEAVE(0x1FF, FINALLY_01f2);
+		}
+
+IL_00d1:
+		{
+			int32_t L_35 = V_7;
+			int32_t L_36 = L_35;
+			Il2CppObject * L_37 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_36);
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_38 = String_Format_m2024975688(NULL /*static, unused*/, _stringLiteral255786470, L_37, /*hidden argument*/NULL);
+			NotSupportedException_t1793819818 * L_39 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+			NotSupportedException__ctor_m836173213(L_39, L_38, /*hidden argument*/NULL);
+			IL2CPP_RAISE_MANAGED_EXCEPTION(L_39);
+		}
+
+IL_00e8:
+		{
+			IL2CPP_RUNTIME_CLASS_INIT(DateTime_t693205669_il2cpp_TypeInfo_var);
+			DateTime_t693205669  L_40 = DateTime_get_Now_m24136300(NULL /*static, unused*/, /*hidden argument*/NULL);
+			DateTime_t693205669  L_41 = V_5;
+			TimeSpan_t3430258949  L_42 = DateTime_op_Subtraction_m3246456251(NULL /*static, unused*/, L_40, L_41, /*hidden argument*/NULL);
+			V_16 = L_42;
+			double L_43 = TimeSpan_get_TotalMilliseconds_m51604504((&V_16), /*hidden argument*/NULL);
+			V_9 = (((int64_t)((int64_t)L_43)));
+			ByteU5BU5D_t3397334013* L_44 = V_4;
+			NullCheck(L_44);
+			int32_t L_45 = 0;
+			uint8_t L_46 = (L_44)->GetAt(static_cast<il2cpp_array_size_t>(L_45));
+			V_10 = ((int32_t)((int32_t)((int32_t)((int32_t)L_46&(int32_t)((int32_t)15)))<<(int32_t)2));
+			int32_t L_47 = V_8;
+			int32_t L_48 = V_10;
+			V_11 = ((int32_t)((int32_t)L_47-(int32_t)L_48));
+			EndPoint_t4156119363 * L_49 = V_6;
+			NullCheck(((IPEndPoint_t2615413766 *)CastclassClass(L_49, IPEndPoint_t2615413766_il2cpp_TypeInfo_var)));
+			IPAddress_t1399971723 * L_50 = IPEndPoint_get_Address_m1772553499(((IPEndPoint_t2615413766 *)CastclassClass(L_49, IPEndPoint_t2615413766_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+			IPEndPoint_t2615413766 * L_51 = V_0;
+			NullCheck(L_51);
+			IPAddress_t1399971723 * L_52 = IPEndPoint_get_Address_m1772553499(L_51, /*hidden argument*/NULL);
+			NullCheck(L_50);
+			bool L_53 = VirtFuncInvoker1< bool, Il2CppObject * >::Invoke(0 /* System.Boolean System.Net.IPAddress::Equals(System.Object) */, L_50, L_52);
+			if (L_53)
+			{
+				goto IL_0168;
+			}
+		}
+
+IL_012e:
+		{
+			int32_t L_54 = ___timeout1;
+			int64_t L_55 = V_9;
+			V_12 = ((int64_t)((int64_t)(((int64_t)((int64_t)L_54)))-(int64_t)L_55));
+			int64_t L_56 = V_12;
+			if ((((int64_t)L_56) > ((int64_t)(((int64_t)((int64_t)0))))))
+			{
+				goto IL_015a;
+			}
+		}
+
+IL_013e:
+		{
+			PingOptions_t1261881264 * L_57 = ___options3;
+			PingReply_t1978568794 * L_58 = (PingReply_t1978568794 *)il2cpp_codegen_object_new(PingReply_t1978568794_il2cpp_TypeInfo_var);
+			PingReply__ctor_m208657219(L_58, (IPAddress_t1399971723 *)NULL, ((ByteU5BU5D_t3397334013*)SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, (uint32_t)0)), L_57, (((int64_t)((int64_t)0))), ((int32_t)11010), /*hidden argument*/NULL);
+			V_15 = L_58;
+			IL2CPP_LEAVE(0x1FF, FINALLY_01f2);
+		}
+
+IL_015a:
+		{
+			Socket_t3821512045 * L_59 = V_2;
+			int64_t L_60 = V_12;
+			NullCheck(L_59);
+			Socket_set_ReceiveTimeout_m2929751805(L_59, (((int32_t)((int32_t)L_60))), /*hidden argument*/NULL);
+			goto IL_01e8;
+		}
+
+IL_0168:
+		{
+			ByteU5BU5D_t3397334013* L_61 = V_4;
+			int32_t L_62 = V_10;
+			int32_t L_63 = V_11;
+			IcmpMessage_t482998463 * L_64 = (IcmpMessage_t482998463 *)il2cpp_codegen_object_new(IcmpMessage_t482998463_il2cpp_TypeInfo_var);
+			IcmpMessage__ctor_m621024584(L_64, L_61, L_62, L_63, /*hidden argument*/NULL);
+			V_13 = L_64;
+			IcmpMessage_t482998463 * L_65 = V_13;
+			NullCheck(L_65);
+			uint8_t L_66 = IcmpMessage_get_Identifier_m2325173215(L_65, /*hidden argument*/NULL);
+			if ((!(((uint32_t)L_66) == ((uint32_t)1))))
+			{
+				goto IL_018f;
+			}
+		}
+
+IL_0182:
+		{
+			IcmpMessage_t482998463 * L_67 = V_13;
+			NullCheck(L_67);
+			uint8_t L_68 = IcmpMessage_get_Type_m4132751270(L_67, /*hidden argument*/NULL);
+			if ((!(((uint32_t)L_68) == ((uint32_t)8))))
+			{
+				goto IL_01c9;
+			}
+		}
+
+IL_018f:
+		{
+			int32_t L_69 = ___timeout1;
+			int64_t L_70 = V_9;
+			V_14 = ((int64_t)((int64_t)(((int64_t)((int64_t)L_69)))-(int64_t)L_70));
+			int64_t L_71 = V_14;
+			if ((((int64_t)L_71) > ((int64_t)(((int64_t)((int64_t)0))))))
+			{
+				goto IL_01bb;
+			}
+		}
+
+IL_019f:
+		{
+			PingOptions_t1261881264 * L_72 = ___options3;
+			PingReply_t1978568794 * L_73 = (PingReply_t1978568794 *)il2cpp_codegen_object_new(PingReply_t1978568794_il2cpp_TypeInfo_var);
+			PingReply__ctor_m208657219(L_73, (IPAddress_t1399971723 *)NULL, ((ByteU5BU5D_t3397334013*)SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, (uint32_t)0)), L_72, (((int64_t)((int64_t)0))), ((int32_t)11010), /*hidden argument*/NULL);
+			V_15 = L_73;
+			IL2CPP_LEAVE(0x1FF, FINALLY_01f2);
+		}
+
+IL_01bb:
+		{
+			Socket_t3821512045 * L_74 = V_2;
+			int64_t L_75 = V_14;
+			NullCheck(L_74);
+			Socket_set_ReceiveTimeout_m2929751805(L_74, (((int32_t)((int32_t)L_75))), /*hidden argument*/NULL);
+			goto IL_01e8;
+		}
+
+IL_01c9:
+		{
+			IPAddress_t1399971723 * L_76 = ___address0;
+			IcmpMessage_t482998463 * L_77 = V_13;
+			NullCheck(L_77);
+			ByteU5BU5D_t3397334013* L_78 = IcmpMessage_get_Data_m672939050(L_77, /*hidden argument*/NULL);
+			PingOptions_t1261881264 * L_79 = ___options3;
+			int64_t L_80 = V_9;
+			IcmpMessage_t482998463 * L_81 = V_13;
+			NullCheck(L_81);
+			int32_t L_82 = IcmpMessage_get_IPStatus_m2686790847(L_81, /*hidden argument*/NULL);
+			PingReply_t1978568794 * L_83 = (PingReply_t1978568794 *)il2cpp_codegen_object_new(PingReply_t1978568794_il2cpp_TypeInfo_var);
+			PingReply__ctor_m208657219(L_83, L_76, L_78, L_79, L_80, L_82, /*hidden argument*/NULL);
+			V_15 = L_83;
+			IL2CPP_LEAVE(0x1FF, FINALLY_01f2);
+		}
+
+IL_01e8:
+		{
+			goto IL_0089;
+		}
+
+IL_01ed:
+		{
+			IL2CPP_LEAVE(0x1FF, FINALLY_01f2);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_01f2;
+	}
+
+FINALLY_01f2:
+	{ // begin finally (depth: 1)
+		{
+			Socket_t3821512045 * L_84 = V_2;
+			if (!L_84)
+			{
+				goto IL_01fe;
+			}
+		}
+
+IL_01f8:
+		{
+			Socket_t3821512045 * L_85 = V_2;
+			NullCheck(L_85);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_85);
+		}
+
+IL_01fe:
+		{
+			IL2CPP_END_FINALLY(498)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(498)
+	{
+		IL2CPP_JUMP_TBL(0x1FF, IL_01ff)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_01ff:
+	{
+		PingReply_t1978568794 * L_86 = V_15;
+		return L_86;
+	}
+}
+// System.Net.NetworkInformation.PingReply System.Net.NetworkInformation.Ping::SendUnprivileged(System.Net.IPAddress,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions)
+extern "C"  PingReply_t1978568794 * Ping_SendUnprivileged_m782055654 (Ping_t3611444498 * __this, IPAddress_t1399971723 * ___address0, int32_t ___timeout1, ByteU5BU5D_t3397334013* ___buffer2, PingOptions_t1261881264 * ___options3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Ping_SendUnprivileged_m782055654_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DateTime_t693205669  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Process_t1448008787 * V_1 = NULL;
+	String_t* V_2 = NULL;
+	int64_t V_3 = 0;
+	DateTime_t693205669  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	TimeSpan_t3430258949  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	PingReply_t1978568794 * V_6 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t693205669_il2cpp_TypeInfo_var);
+		DateTime_t693205669  L_0 = DateTime_get_Now_m24136300(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		Process_t1448008787 * L_1 = (Process_t1448008787 *)il2cpp_codegen_object_new(Process_t1448008787_il2cpp_TypeInfo_var);
+		Process__ctor_m699031546(L_1, /*hidden argument*/NULL);
+		V_1 = L_1;
+		IPAddress_t1399971723 * L_2 = ___address0;
+		int32_t L_3 = ___timeout1;
+		PingOptions_t1261881264 * L_4 = ___options3;
+		String_t* L_5 = Ping_BuildPingArgs_m2981963704(__this, L_2, L_3, L_4, /*hidden argument*/NULL);
+		V_2 = L_5;
+		V_3 = (((int64_t)((int64_t)0)));
+		Process_t1448008787 * L_6 = V_1;
+		NullCheck(L_6);
+		ProcessStartInfo_t2898458543 * L_7 = Process_get_StartInfo_m308901718(L_6, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Ping_t3611444498_il2cpp_TypeInfo_var);
+		String_t* L_8 = ((Ping_t3611444498_StaticFields*)Ping_t3611444498_il2cpp_TypeInfo_var->static_fields)->get_PingBinPath_9();
+		NullCheck(L_7);
+		ProcessStartInfo_set_FileName_m2980435268(L_7, L_8, /*hidden argument*/NULL);
+		Process_t1448008787 * L_9 = V_1;
+		NullCheck(L_9);
+		ProcessStartInfo_t2898458543 * L_10 = Process_get_StartInfo_m308901718(L_9, /*hidden argument*/NULL);
+		String_t* L_11 = V_2;
+		NullCheck(L_10);
+		ProcessStartInfo_set_Arguments_m989314953(L_10, L_11, /*hidden argument*/NULL);
+		Process_t1448008787 * L_12 = V_1;
+		NullCheck(L_12);
+		ProcessStartInfo_t2898458543 * L_13 = Process_get_StartInfo_m308901718(L_12, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		ProcessStartInfo_set_CreateNoWindow_m2521430833(L_13, (bool)1, /*hidden argument*/NULL);
+		Process_t1448008787 * L_14 = V_1;
+		NullCheck(L_14);
+		ProcessStartInfo_t2898458543 * L_15 = Process_get_StartInfo_m308901718(L_14, /*hidden argument*/NULL);
+		NullCheck(L_15);
+		ProcessStartInfo_set_UseShellExecute_m2714645304(L_15, (bool)0, /*hidden argument*/NULL);
+		Process_t1448008787 * L_16 = V_1;
+		NullCheck(L_16);
+		ProcessStartInfo_t2898458543 * L_17 = Process_get_StartInfo_m308901718(L_16, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		ProcessStartInfo_set_RedirectStandardOutput_m3148379238(L_17, (bool)1, /*hidden argument*/NULL);
+		Process_t1448008787 * L_18 = V_1;
+		NullCheck(L_18);
+		ProcessStartInfo_t2898458543 * L_19 = Process_get_StartInfo_m308901718(L_18, /*hidden argument*/NULL);
+		NullCheck(L_19);
+		ProcessStartInfo_set_RedirectStandardError_m871400493(L_19, (bool)1, /*hidden argument*/NULL);
+		DateTime_t693205669  L_20 = DateTime_get_UtcNow_m1309841468(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_4 = L_20;
+	}
+
+IL_006d:
+	try
+	{ // begin try (depth: 1)
+		try
+		{ // begin try (depth: 2)
+			{
+				Process_t1448008787 * L_21 = V_1;
+				NullCheck(L_21);
+				Process_Start_m2737551206(L_21, /*hidden argument*/NULL);
+				IL2CPP_RUNTIME_CLASS_INIT(DateTime_t693205669_il2cpp_TypeInfo_var);
+				DateTime_t693205669  L_22 = DateTime_get_Now_m24136300(NULL /*static, unused*/, /*hidden argument*/NULL);
+				DateTime_t693205669  L_23 = V_0;
+				TimeSpan_t3430258949  L_24 = DateTime_op_Subtraction_m3246456251(NULL /*static, unused*/, L_22, L_23, /*hidden argument*/NULL);
+				V_5 = L_24;
+				double L_25 = TimeSpan_get_TotalMilliseconds_m51604504((&V_5), /*hidden argument*/NULL);
+				V_3 = (((int64_t)((int64_t)L_25)));
+				Process_t1448008787 * L_26 = V_1;
+				int32_t L_27 = ___timeout1;
+				NullCheck(L_26);
+				bool L_28 = Process_WaitForExit_m1230126717(L_26, L_27, /*hidden argument*/NULL);
+				if (!L_28)
+				{
+					goto IL_00ad;
+				}
+			}
+
+IL_0096:
+			{
+				Process_t1448008787 * L_29 = V_1;
+				NullCheck(L_29);
+				bool L_30 = Process_get_HasExited_m594007172(L_29, /*hidden argument*/NULL);
+				if (!L_30)
+				{
+					goto IL_00c3;
+				}
+			}
+
+IL_00a1:
+			{
+				Process_t1448008787 * L_31 = V_1;
+				NullCheck(L_31);
+				int32_t L_32 = Process_get_ExitCode_m1259516068(L_31, /*hidden argument*/NULL);
+				if ((!(((uint32_t)L_32) == ((uint32_t)2))))
+				{
+					goto IL_00c3;
+				}
+			}
+
+IL_00ad:
+			{
+				IPAddress_t1399971723 * L_33 = ___address0;
+				ByteU5BU5D_t3397334013* L_34 = ___buffer2;
+				PingOptions_t1261881264 * L_35 = ___options3;
+				int64_t L_36 = V_3;
+				PingReply_t1978568794 * L_37 = (PingReply_t1978568794 *)il2cpp_codegen_object_new(PingReply_t1978568794_il2cpp_TypeInfo_var);
+				PingReply__ctor_m208657219(L_37, L_33, L_34, L_35, L_36, ((int32_t)11010), /*hidden argument*/NULL);
+				V_6 = L_37;
+				IL2CPP_LEAVE(0x12C, FINALLY_0102);
+			}
+
+IL_00c3:
+			{
+				Process_t1448008787 * L_38 = V_1;
+				NullCheck(L_38);
+				int32_t L_39 = Process_get_ExitCode_m1259516068(L_38, /*hidden argument*/NULL);
+				if ((!(((uint32_t)L_39) == ((uint32_t)1))))
+				{
+					goto IL_00e5;
+				}
+			}
+
+IL_00cf:
+			{
+				IPAddress_t1399971723 * L_40 = ___address0;
+				ByteU5BU5D_t3397334013* L_41 = ___buffer2;
+				PingOptions_t1261881264 * L_42 = ___options3;
+				int64_t L_43 = V_3;
+				PingReply_t1978568794 * L_44 = (PingReply_t1978568794 *)il2cpp_codegen_object_new(PingReply_t1978568794_il2cpp_TypeInfo_var);
+				PingReply__ctor_m208657219(L_44, L_40, L_41, L_42, L_43, ((int32_t)11013), /*hidden argument*/NULL);
+				V_6 = L_44;
+				IL2CPP_LEAVE(0x12C, FINALLY_0102);
+			}
+
+IL_00e5:
+			{
+				IL2CPP_LEAVE(0x120, FINALLY_0102);
+			}
+		} // end try (depth: 2)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__exception_local = (Exception_t1927440687 *)e.ex;
+			if(il2cpp_codegen_class_is_assignable_from (Exception_t1927440687_il2cpp_TypeInfo_var, e.ex->klass))
+				goto CATCH_00ea;
+			throw e;
+		}
+
+CATCH_00ea:
+		{ // begin catch(System.Exception)
+			{
+				IPAddress_t1399971723 * L_45 = ___address0;
+				ByteU5BU5D_t3397334013* L_46 = ___buffer2;
+				PingOptions_t1261881264 * L_47 = ___options3;
+				int64_t L_48 = V_3;
+				PingReply_t1978568794 * L_49 = (PingReply_t1978568794 *)il2cpp_codegen_object_new(PingReply_t1978568794_il2cpp_TypeInfo_var);
+				PingReply__ctor_m208657219(L_49, L_45, L_46, L_47, L_48, (-1), /*hidden argument*/NULL);
+				V_6 = L_49;
+				IL2CPP_LEAVE(0x12C, FINALLY_0102);
+			}
+
+IL_00fd:
+			{
+				; // IL_00fd: leave IL_0120
+			}
+		} // end catch (depth: 2)
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0102;
+	}
+
+FINALLY_0102:
+	{ // begin finally (depth: 1)
+		{
+			Process_t1448008787 * L_50 = V_1;
+			if (!L_50)
+			{
+				goto IL_011f;
+			}
+		}
+
+IL_0108:
+		{
+			Process_t1448008787 * L_51 = V_1;
+			NullCheck(L_51);
+			bool L_52 = Process_get_HasExited_m594007172(L_51, /*hidden argument*/NULL);
+			if (L_52)
+			{
+				goto IL_0119;
+			}
+		}
+
+IL_0113:
+		{
+			Process_t1448008787 * L_53 = V_1;
+			NullCheck(L_53);
+			Process_Kill_m3560145644(L_53, /*hidden argument*/NULL);
+		}
+
+IL_0119:
+		{
+			Process_t1448008787 * L_54 = V_1;
+			NullCheck(L_54);
+			Component_Dispose_m3787380235(L_54, /*hidden argument*/NULL);
+		}
+
+IL_011f:
+		{
+			IL2CPP_END_FINALLY(258)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(258)
+	{
+		IL2CPP_JUMP_TBL(0x12C, IL_012c)
+		IL2CPP_JUMP_TBL(0x120, IL_0120)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0120:
+	{
+		IPAddress_t1399971723 * L_55 = ___address0;
+		ByteU5BU5D_t3397334013* L_56 = ___buffer2;
+		PingOptions_t1261881264 * L_57 = ___options3;
+		int64_t L_58 = V_3;
+		PingReply_t1978568794 * L_59 = (PingReply_t1978568794 *)il2cpp_codegen_object_new(PingReply_t1978568794_il2cpp_TypeInfo_var);
+		PingReply__ctor_m208657219(L_59, L_55, L_56, L_57, L_58, 0, /*hidden argument*/NULL);
+		return L_59;
+	}
+
+IL_012c:
+	{
+		PingReply_t1978568794 * L_60 = V_6;
+		return L_60;
+	}
+}
+// System.Void System.Net.NetworkInformation.Ping::SendAsync(System.Net.IPAddress,System.Int32,System.Byte[],System.Object)
+extern "C"  void Ping_SendAsync_m191990203 (Ping_t3611444498 * __this, IPAddress_t1399971723 * ___address0, int32_t ___timeout1, ByteU5BU5D_t3397334013* ___buffer2, Il2CppObject * ___userToken3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Ping_SendAsync_m191990203_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IPAddress_t1399971723 * L_0 = ___address0;
+		IL2CPP_RUNTIME_CLASS_INIT(Ping_t3611444498_il2cpp_TypeInfo_var);
+		ByteU5BU5D_t3397334013* L_1 = ((Ping_t3611444498_StaticFields*)Ping_t3611444498_il2cpp_TypeInfo_var->static_fields)->get_default_buffer_10();
+		PingOptions_t1261881264 * L_2 = (PingOptions_t1261881264 *)il2cpp_codegen_object_new(PingOptions_t1261881264_il2cpp_TypeInfo_var);
+		PingOptions__ctor_m1440794514(L_2, /*hidden argument*/NULL);
+		Il2CppObject * L_3 = ___userToken3;
+		Ping_SendAsync_m1654762621(__this, L_0, ((int32_t)4000), L_1, L_2, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.Ping::SendAsync(System.Net.IPAddress,System.Int32,System.Object)
+extern "C"  void Ping_SendAsync_m615991308 (Ping_t3611444498 * __this, IPAddress_t1399971723 * ___address0, int32_t ___timeout1, Il2CppObject * ___userToken2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Ping_SendAsync_m615991308_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IPAddress_t1399971723 * L_0 = ___address0;
+		IL2CPP_RUNTIME_CLASS_INIT(Ping_t3611444498_il2cpp_TypeInfo_var);
+		ByteU5BU5D_t3397334013* L_1 = ((Ping_t3611444498_StaticFields*)Ping_t3611444498_il2cpp_TypeInfo_var->static_fields)->get_default_buffer_10();
+		Il2CppObject * L_2 = ___userToken2;
+		Ping_SendAsync_m191990203(__this, L_0, ((int32_t)4000), L_1, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.Ping::SendAsync(System.Net.IPAddress,System.Object)
+extern "C"  void Ping_SendAsync_m2397591729 (Ping_t3611444498 * __this, IPAddress_t1399971723 * ___address0, Il2CppObject * ___userToken1, const MethodInfo* method)
+{
+	{
+		IPAddress_t1399971723 * L_0 = ___address0;
+		Il2CppObject * L_1 = ___userToken1;
+		Ping_SendAsync_m615991308(__this, L_0, ((int32_t)4000), L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.Ping::SendAsync(System.String,System.Int32,System.Byte[],System.Object)
+extern "C"  void Ping_SendAsync_m1874741654 (Ping_t3611444498 * __this, String_t* ___hostNameOrAddress0, int32_t ___timeout1, ByteU5BU5D_t3397334013* ___buffer2, Il2CppObject * ___userToken3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Ping_SendAsync_m1874741654_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___hostNameOrAddress0;
+		int32_t L_1 = ___timeout1;
+		ByteU5BU5D_t3397334013* L_2 = ___buffer2;
+		PingOptions_t1261881264 * L_3 = (PingOptions_t1261881264 *)il2cpp_codegen_object_new(PingOptions_t1261881264_il2cpp_TypeInfo_var);
+		PingOptions__ctor_m1440794514(L_3, /*hidden argument*/NULL);
+		Il2CppObject * L_4 = ___userToken3;
+		Ping_SendAsync_m3737224288(__this, L_0, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.Ping::SendAsync(System.String,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions,System.Object)
+extern "C"  void Ping_SendAsync_m3737224288 (Ping_t3611444498 * __this, String_t* ___hostNameOrAddress0, int32_t ___timeout1, ByteU5BU5D_t3397334013* ___buffer2, PingOptions_t1261881264 * ___options3, Il2CppObject * ___userToken4, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Ping_SendAsync_m3737224288_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	IPAddress_t1399971723 * V_0 = NULL;
+	{
+		String_t* L_0 = ___hostNameOrAddress0;
+		IL2CPP_RUNTIME_CLASS_INIT(Dns_t1335526197_il2cpp_TypeInfo_var);
+		IPHostEntry_t994738509 * L_1 = Dns_GetHostEntry_m705645829(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		IPAddressU5BU5D_t4087230954* L_2 = IPHostEntry_get_AddressList_m3789532398(L_1, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		int32_t L_3 = 0;
+		IPAddress_t1399971723 * L_4 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		V_0 = L_4;
+		IPAddress_t1399971723 * L_5 = V_0;
+		int32_t L_6 = ___timeout1;
+		ByteU5BU5D_t3397334013* L_7 = ___buffer2;
+		PingOptions_t1261881264 * L_8 = ___options3;
+		Il2CppObject * L_9 = ___userToken4;
+		Ping_SendAsync_m1654762621(__this, L_5, L_6, L_7, L_8, L_9, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.Ping::SendAsync(System.String,System.Int32,System.Object)
+extern "C"  void Ping_SendAsync_m3495096443 (Ping_t3611444498 * __this, String_t* ___hostNameOrAddress0, int32_t ___timeout1, Il2CppObject * ___userToken2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Ping_SendAsync_m3495096443_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___hostNameOrAddress0;
+		int32_t L_1 = ___timeout1;
+		IL2CPP_RUNTIME_CLASS_INIT(Ping_t3611444498_il2cpp_TypeInfo_var);
+		ByteU5BU5D_t3397334013* L_2 = ((Ping_t3611444498_StaticFields*)Ping_t3611444498_il2cpp_TypeInfo_var->static_fields)->get_default_buffer_10();
+		Il2CppObject * L_3 = ___userToken2;
+		Ping_SendAsync_m1874741654(__this, L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.Ping::SendAsync(System.String,System.Object)
+extern "C"  void Ping_SendAsync_m3066604804 (Ping_t3611444498 * __this, String_t* ___hostNameOrAddress0, Il2CppObject * ___userToken1, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___hostNameOrAddress0;
+		Il2CppObject * L_1 = ___userToken1;
+		Ping_SendAsync_m3495096443(__this, L_0, ((int32_t)4000), L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.Ping::SendAsync(System.Net.IPAddress,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions,System.Object)
+extern "C"  void Ping_SendAsync_m1654762621 (Ping_t3611444498 * __this, IPAddress_t1399971723 * ___address0, int32_t ___timeout1, ByteU5BU5D_t3397334013* ___buffer2, PingOptions_t1261881264 * ___options3, Il2CppObject * ___userToken4, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Ping_SendAsync_m1654762621_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CSendAsyncU3Ec__AnonStorey6_t2153546882 * V_0 = NULL;
+	{
+		U3CSendAsyncU3Ec__AnonStorey6_t2153546882 * L_0 = (U3CSendAsyncU3Ec__AnonStorey6_t2153546882 *)il2cpp_codegen_object_new(U3CSendAsyncU3Ec__AnonStorey6_t2153546882_il2cpp_TypeInfo_var);
+		U3CSendAsyncU3Ec__AnonStorey6__ctor_m461735020(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CSendAsyncU3Ec__AnonStorey6_t2153546882 * L_1 = V_0;
+		IPAddress_t1399971723 * L_2 = ___address0;
+		NullCheck(L_1);
+		L_1->set_address_0(L_2);
+		U3CSendAsyncU3Ec__AnonStorey6_t2153546882 * L_3 = V_0;
+		int32_t L_4 = ___timeout1;
+		NullCheck(L_3);
+		L_3->set_timeout_1(L_4);
+		U3CSendAsyncU3Ec__AnonStorey6_t2153546882 * L_5 = V_0;
+		ByteU5BU5D_t3397334013* L_6 = ___buffer2;
+		NullCheck(L_5);
+		L_5->set_buffer_2(L_6);
+		U3CSendAsyncU3Ec__AnonStorey6_t2153546882 * L_7 = V_0;
+		PingOptions_t1261881264 * L_8 = ___options3;
+		NullCheck(L_7);
+		L_7->set_options_3(L_8);
+		U3CSendAsyncU3Ec__AnonStorey6_t2153546882 * L_9 = V_0;
+		NullCheck(L_9);
+		L_9->set_U3CU3Ef__this_4(__this);
+		BackgroundWorker_t4230068110 * L_10 = __this->get_worker_12();
+		if (!L_10)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		InvalidOperationException_t721527559 * L_11 = (InvalidOperationException_t721527559 *)il2cpp_codegen_object_new(InvalidOperationException_t721527559_il2cpp_TypeInfo_var);
+		InvalidOperationException__ctor_m2801133788(L_11, _stringLiteral1434815168, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_11);
+	}
+
+IL_0040:
+	{
+		BackgroundWorker_t4230068110 * L_12 = (BackgroundWorker_t4230068110 *)il2cpp_codegen_object_new(BackgroundWorker_t4230068110_il2cpp_TypeInfo_var);
+		BackgroundWorker__ctor_m1094278231(L_12, /*hidden argument*/NULL);
+		__this->set_worker_12(L_12);
+		BackgroundWorker_t4230068110 * L_13 = __this->get_worker_12();
+		U3CSendAsyncU3Ec__AnonStorey6_t2153546882 * L_14 = V_0;
+		IntPtr_t L_15;
+		L_15.set_m_value_0((void*)(void*)U3CSendAsyncU3Ec__AnonStorey6_U3CU3Em__7_m1611672524_MethodInfo_var);
+		DoWorkEventHandler_t941110040 * L_16 = (DoWorkEventHandler_t941110040 *)il2cpp_codegen_object_new(DoWorkEventHandler_t941110040_il2cpp_TypeInfo_var);
+		DoWorkEventHandler__ctor_m4071938557(L_16, L_14, L_15, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		BackgroundWorker_add_DoWork_m2672114792(L_13, L_16, /*hidden argument*/NULL);
+		BackgroundWorker_t4230068110 * L_17 = __this->get_worker_12();
+		NullCheck(L_17);
+		BackgroundWorker_set_WorkerSupportsCancellation_m1199182366(L_17, (bool)1, /*hidden argument*/NULL);
+		BackgroundWorker_t4230068110 * L_18 = __this->get_worker_12();
+		U3CSendAsyncU3Ec__AnonStorey6_t2153546882 * L_19 = V_0;
+		IntPtr_t L_20;
+		L_20.set_m_value_0((void*)(void*)U3CSendAsyncU3Ec__AnonStorey6_U3CU3Em__8_m541316235_MethodInfo_var);
+		RunWorkerCompletedEventHandler_t2492476920 * L_21 = (RunWorkerCompletedEventHandler_t2492476920 *)il2cpp_codegen_object_new(RunWorkerCompletedEventHandler_t2492476920_il2cpp_TypeInfo_var);
+		RunWorkerCompletedEventHandler__ctor_m844713237(L_21, L_19, L_20, /*hidden argument*/NULL);
+		NullCheck(L_18);
+		BackgroundWorker_add_RunWorkerCompleted_m2828676360(L_18, L_21, /*hidden argument*/NULL);
+		BackgroundWorker_t4230068110 * L_22 = __this->get_worker_12();
+		Il2CppObject * L_23 = ___userToken4;
+		NullCheck(L_22);
+		BackgroundWorker_RunWorkerAsync_m361888218(L_22, L_23, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.Ping::SendAsyncCancel()
+extern "C"  void Ping_SendAsyncCancel_m3674919158 (Ping_t3611444498 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Ping_SendAsyncCancel_m3674919158_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		BackgroundWorker_t4230068110 * L_0 = __this->get_worker_12();
+		if (L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		InvalidOperationException_t721527559 * L_1 = (InvalidOperationException_t721527559 *)il2cpp_codegen_object_new(InvalidOperationException_t721527559_il2cpp_TypeInfo_var);
+		InvalidOperationException__ctor_m2801133788(L_1, _stringLiteral3029204072, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0016:
+	{
+		BackgroundWorker_t4230068110 * L_2 = __this->get_worker_12();
+		NullCheck(L_2);
+		BackgroundWorker_CancelAsync_m3954754031(L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.String System.Net.NetworkInformation.Ping::BuildPingArgs(System.Net.IPAddress,System.Int32,System.Net.NetworkInformation.PingOptions)
+extern "C"  String_t* Ping_BuildPingArgs_m2981963704 (Ping_t3611444498 * __this, IPAddress_t1399971723 * ___address0, int32_t ___timeout1, PingOptions_t1261881264 * ___options2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Ping_BuildPingArgs_m2981963704_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	CultureInfo_t3500843524 * V_0 = NULL;
+	StringBuilder_t1221177846 * V_1 = NULL;
+	uint32_t V_2 = 0;
+	bool V_3 = false;
+	StringBuilder_t1221177846 * G_B6_0 = NULL;
+	StringBuilder_t1221177846 * G_B5_0 = NULL;
+	String_t* G_B7_0 = NULL;
+	StringBuilder_t1221177846 * G_B7_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+		CultureInfo_t3500843524 * L_0 = CultureInfo_get_InvariantCulture_m398972276(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		StringBuilder_t1221177846 * L_1 = (StringBuilder_t1221177846 *)il2cpp_codegen_object_new(StringBuilder_t1221177846_il2cpp_TypeInfo_var);
+		StringBuilder__ctor_m3946851802(L_1, /*hidden argument*/NULL);
+		V_1 = L_1;
+		int32_t L_2 = ___timeout1;
+		double L_3 = floor(((double)((double)(((double)((double)((int32_t)((int32_t)L_2+(int32_t)((int32_t)1000))))))/(double)(1000.0))));
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		uint32_t L_4 = Convert_ToUInt32_m1336475941(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_2 = L_4;
+		OperatingSystem_t290860502 * L_5 = Environment_get_OSVersion_m1247315981(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		int32_t L_6 = OperatingSystem_get_Platform_m2260343279(L_5, /*hidden argument*/NULL);
+		V_3 = (bool)((((int32_t)L_6) == ((int32_t)6))? 1 : 0);
+		bool L_7 = V_3;
+		if (L_7)
+		{
+			goto IL_0075;
+		}
+	}
+	{
+		StringBuilder_t1221177846 * L_8 = V_1;
+		CultureInfo_t3500843524 * L_9 = V_0;
+		ObjectU5BU5D_t3614634134* L_10 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)3));
+		int32_t L_11 = 1;
+		Il2CppObject * L_12 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_11);
+		NullCheck(L_10);
+		ArrayElementTypeCheck (L_10, L_12);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_12);
+		ObjectU5BU5D_t3614634134* L_13 = L_10;
+		uint32_t L_14 = V_2;
+		uint32_t L_15 = L_14;
+		Il2CppObject * L_16 = Box(UInt32_t2149682021_il2cpp_TypeInfo_var, &L_15);
+		NullCheck(L_13);
+		ArrayElementTypeCheck (L_13, L_16);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_16);
+		ObjectU5BU5D_t3614634134* L_17 = L_13;
+		PingOptions_t1261881264 * L_18 = ___options2;
+		NullCheck(L_18);
+		int32_t L_19 = PingOptions_get_Ttl_m4280427503(L_18, /*hidden argument*/NULL);
+		int32_t L_20 = L_19;
+		Il2CppObject * L_21 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_20);
+		NullCheck(L_17);
+		ArrayElementTypeCheck (L_17, L_21);
+		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(2), (Il2CppObject *)L_21);
+		NullCheck(L_8);
+		StringBuilder_AppendFormat_m3178887408(L_8, L_9, _stringLiteral3360871283, L_17, /*hidden argument*/NULL);
+		goto IL_00a8;
+	}
+
+IL_0075:
+	{
+		StringBuilder_t1221177846 * L_22 = V_1;
+		CultureInfo_t3500843524 * L_23 = V_0;
+		ObjectU5BU5D_t3614634134* L_24 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)3));
+		int32_t L_25 = 1;
+		Il2CppObject * L_26 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_25);
+		NullCheck(L_24);
+		ArrayElementTypeCheck (L_24, L_26);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_26);
+		ObjectU5BU5D_t3614634134* L_27 = L_24;
+		uint32_t L_28 = V_2;
+		uint32_t L_29 = L_28;
+		Il2CppObject * L_30 = Box(UInt32_t2149682021_il2cpp_TypeInfo_var, &L_29);
+		NullCheck(L_27);
+		ArrayElementTypeCheck (L_27, L_30);
+		(L_27)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_30);
+		ObjectU5BU5D_t3614634134* L_31 = L_27;
+		PingOptions_t1261881264 * L_32 = ___options2;
+		NullCheck(L_32);
+		int32_t L_33 = PingOptions_get_Ttl_m4280427503(L_32, /*hidden argument*/NULL);
+		int32_t L_34 = L_33;
+		Il2CppObject * L_35 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_34);
+		NullCheck(L_31);
+		ArrayElementTypeCheck (L_31, L_35);
+		(L_31)->SetAt(static_cast<il2cpp_array_size_t>(2), (Il2CppObject *)L_35);
+		NullCheck(L_22);
+		StringBuilder_AppendFormat_m3178887408(L_22, L_23, _stringLiteral641283391, L_31, /*hidden argument*/NULL);
+	}
+
+IL_00a8:
+	{
+		bool L_36 = V_3;
+		if (L_36)
+		{
+			goto IL_00d4;
+		}
+	}
+	{
+		StringBuilder_t1221177846 * L_37 = V_1;
+		PingOptions_t1261881264 * L_38 = ___options2;
+		NullCheck(L_38);
+		bool L_39 = PingOptions_get_DontFragment_m1729750106(L_38, /*hidden argument*/NULL);
+		G_B5_0 = L_37;
+		if (!L_39)
+		{
+			G_B6_0 = L_37;
+			goto IL_00c4;
+		}
+	}
+	{
+		G_B7_0 = _stringLiteral1502598259;
+		G_B7_1 = G_B5_0;
+		goto IL_00c9;
+	}
+
+IL_00c4:
+	{
+		G_B7_0 = _stringLiteral3618211333;
+		G_B7_1 = G_B6_0;
+	}
+
+IL_00c9:
+	{
+		NullCheck(G_B7_1);
+		StringBuilder_Append_m3636508479(G_B7_1, G_B7_0, /*hidden argument*/NULL);
+		goto IL_00eb;
+	}
+
+IL_00d4:
+	{
+		PingOptions_t1261881264 * L_40 = ___options2;
+		NullCheck(L_40);
+		bool L_41 = PingOptions_get_DontFragment_m1729750106(L_40, /*hidden argument*/NULL);
+		if (!L_41)
+		{
+			goto IL_00eb;
+		}
+	}
+	{
+		StringBuilder_t1221177846 * L_42 = V_1;
+		NullCheck(L_42);
+		StringBuilder_Append_m3636508479(L_42, _stringLiteral3162788717, /*hidden argument*/NULL);
+	}
+
+IL_00eb:
+	{
+		StringBuilder_t1221177846 * L_43 = V_1;
+		IPAddress_t1399971723 * L_44 = ___address0;
+		NullCheck(L_44);
+		String_t* L_45 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Net.IPAddress::ToString() */, L_44);
+		NullCheck(L_43);
+		StringBuilder_Append_m3636508479(L_43, L_45, /*hidden argument*/NULL);
+		StringBuilder_t1221177846 * L_46 = V_1;
+		NullCheck(L_46);
+		String_t* L_47 = StringBuilder_ToString_m1507807375(L_46, /*hidden argument*/NULL);
+		return L_47;
+	}
+}
+// System.Void System.Net.NetworkInformation.Ping/<SendAsync>c__AnonStorey6::.ctor()
+extern "C"  void U3CSendAsyncU3Ec__AnonStorey6__ctor_m461735020 (U3CSendAsyncU3Ec__AnonStorey6_t2153546882 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.Ping/<SendAsync>c__AnonStorey6::<>m__7(System.Object,System.ComponentModel.DoWorkEventArgs)
+extern "C"  void U3CSendAsyncU3Ec__AnonStorey6_U3CU3Em__7_m1611672524 (U3CSendAsyncU3Ec__AnonStorey6_t2153546882 * __this, Il2CppObject * ___o0, DoWorkEventArgs_t62745097 * ___ea1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CSendAsyncU3Ec__AnonStorey6_U3CU3Em__7_m1611672524_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t1927440687 * V_0 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+
+IL_0000:
+	try
+	{ // begin try (depth: 1)
+		Ping_t3611444498 * L_0 = __this->get_U3CU3Ef__this_4();
+		DoWorkEventArgs_t62745097 * L_1 = ___ea1;
+		NullCheck(L_1);
+		Il2CppObject * L_2 = DoWorkEventArgs_get_Argument_m2947377065(L_1, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		L_0->set_user_async_state_13(L_2);
+		DoWorkEventArgs_t62745097 * L_3 = ___ea1;
+		Ping_t3611444498 * L_4 = __this->get_U3CU3Ef__this_4();
+		IPAddress_t1399971723 * L_5 = __this->get_address_0();
+		int32_t L_6 = __this->get_timeout_1();
+		ByteU5BU5D_t3397334013* L_7 = __this->get_buffer_2();
+		PingOptions_t1261881264 * L_8 = __this->get_options_3();
+		NullCheck(L_4);
+		PingReply_t1978568794 * L_9 = Ping_Send_m1870041180(L_4, L_5, L_6, L_7, L_8, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		DoWorkEventArgs_set_Result_m3685012216(L_3, L_9, /*hidden argument*/NULL);
+		goto IL_004c;
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1927440687 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t1927440687_il2cpp_TypeInfo_var, e.ex->klass))
+			goto CATCH_003f;
+		throw e;
+	}
+
+CATCH_003f:
+	{ // begin catch(System.Exception)
+		V_0 = ((Exception_t1927440687 *)__exception_local);
+		DoWorkEventArgs_t62745097 * L_10 = ___ea1;
+		Exception_t1927440687 * L_11 = V_0;
+		NullCheck(L_10);
+		DoWorkEventArgs_set_Result_m3685012216(L_10, L_11, /*hidden argument*/NULL);
+		goto IL_004c;
+	} // end catch (depth: 1)
+
+IL_004c:
+	{
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.Ping/<SendAsync>c__AnonStorey6::<>m__8(System.Object,System.ComponentModel.RunWorkerCompletedEventArgs)
+extern "C"  void U3CSendAsyncU3Ec__AnonStorey6_U3CU3Em__8_m541316235 (U3CSendAsyncU3Ec__AnonStorey6_t2153546882 * __this, Il2CppObject * ___o0, RunWorkerCompletedEventArgs_t3512304465 * ___ea1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CSendAsyncU3Ec__AnonStorey6_U3CU3Em__8_m541316235_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Ping_t3611444498 * L_0 = __this->get_U3CU3Ef__this_4();
+		RunWorkerCompletedEventArgs_t3512304465 * L_1 = ___ea1;
+		NullCheck(L_1);
+		Exception_t1927440687 * L_2 = AsyncCompletedEventArgs_get_Error_m3178619961(L_1, /*hidden argument*/NULL);
+		RunWorkerCompletedEventArgs_t3512304465 * L_3 = ___ea1;
+		NullCheck(L_3);
+		bool L_4 = AsyncCompletedEventArgs_get_Cancelled_m1739331837(L_3, /*hidden argument*/NULL);
+		Ping_t3611444498 * L_5 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_5);
+		Il2CppObject * L_6 = L_5->get_user_async_state_13();
+		RunWorkerCompletedEventArgs_t3512304465 * L_7 = ___ea1;
+		NullCheck(L_7);
+		Il2CppObject * L_8 = RunWorkerCompletedEventArgs_get_Result_m76206631(L_7, /*hidden argument*/NULL);
+		PingCompletedEventArgs_t841787612 * L_9 = (PingCompletedEventArgs_t841787612 *)il2cpp_codegen_object_new(PingCompletedEventArgs_t841787612_il2cpp_TypeInfo_var);
+		PingCompletedEventArgs__ctor_m2695527771(L_9, L_2, L_4, L_6, ((PingReply_t1978568794 *)IsInstClass(L_8, PingReply_t1978568794_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Ping_OnPingCompleted_m3567368730(L_0, L_9, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.Ping/IcmpMessage::.ctor(System.Byte[],System.Int32,System.Int32)
+extern "C"  void IcmpMessage__ctor_m621024584 (IcmpMessage_t482998463 * __this, ByteU5BU5D_t3397334013* ___bytes0, int32_t ___offset1, int32_t ___size2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IcmpMessage__ctor_m621024584_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		int32_t L_0 = ___size2;
+		__this->set_bytes_0(((ByteU5BU5D_t3397334013*)SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, (uint32_t)L_0)));
+		ByteU5BU5D_t3397334013* L_1 = ___bytes0;
+		int32_t L_2 = ___offset1;
+		ByteU5BU5D_t3397334013* L_3 = __this->get_bytes_0();
+		int32_t L_4 = ___size2;
+		Buffer_BlockCopy_m1586717258(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_1, L_2, (Il2CppArray *)(Il2CppArray *)L_3, 0, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.Ping/IcmpMessage::.ctor(System.Byte,System.Byte,System.Int16,System.Int16,System.Byte[])
+extern "C"  void IcmpMessage__ctor_m1671930572 (IcmpMessage_t482998463 * __this, uint8_t ___type0, uint8_t ___code1, int16_t ___identifier2, int16_t ___sequence3, ByteU5BU5D_t3397334013* ___data4, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IcmpMessage__ctor_m1671930572_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint16_t V_0 = 0;
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		ByteU5BU5D_t3397334013* L_0 = ___data4;
+		NullCheck(L_0);
+		__this->set_bytes_0(((ByteU5BU5D_t3397334013*)SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, (uint32_t)((int32_t)((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_0)->max_length))))+(int32_t)8)))));
+		ByteU5BU5D_t3397334013* L_1 = __this->get_bytes_0();
+		uint8_t L_2 = ___type0;
+		NullCheck(L_1);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (uint8_t)L_2);
+		ByteU5BU5D_t3397334013* L_3 = __this->get_bytes_0();
+		uint8_t L_4 = ___code1;
+		NullCheck(L_3);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(1), (uint8_t)L_4);
+		ByteU5BU5D_t3397334013* L_5 = __this->get_bytes_0();
+		int16_t L_6 = ___identifier2;
+		NullCheck(L_5);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(4), (uint8_t)(((int32_t)((uint8_t)((int32_t)((int32_t)L_6&(int32_t)((int32_t)255)))))));
+		ByteU5BU5D_t3397334013* L_7 = __this->get_bytes_0();
+		int16_t L_8 = ___identifier2;
+		NullCheck(L_7);
+		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(5), (uint8_t)(((int32_t)((uint8_t)((int32_t)((int32_t)L_8>>(int32_t)8))))));
+		ByteU5BU5D_t3397334013* L_9 = __this->get_bytes_0();
+		int16_t L_10 = ___sequence3;
+		NullCheck(L_9);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(6), (uint8_t)(((int32_t)((uint8_t)((int32_t)((int32_t)L_10&(int32_t)((int32_t)255)))))));
+		ByteU5BU5D_t3397334013* L_11 = __this->get_bytes_0();
+		int16_t L_12 = ___sequence3;
+		NullCheck(L_11);
+		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(7), (uint8_t)(((int32_t)((uint8_t)((int32_t)((int32_t)L_12>>(int32_t)8))))));
+		ByteU5BU5D_t3397334013* L_13 = ___data4;
+		ByteU5BU5D_t3397334013* L_14 = __this->get_bytes_0();
+		ByteU5BU5D_t3397334013* L_15 = ___data4;
+		NullCheck(L_15);
+		Buffer_BlockCopy_m1586717258(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_13, 0, (Il2CppArray *)(Il2CppArray *)L_14, 8, (((int32_t)((int32_t)(((Il2CppArray *)L_15)->max_length)))), /*hidden argument*/NULL);
+		ByteU5BU5D_t3397334013* L_16 = __this->get_bytes_0();
+		uint16_t L_17 = IcmpMessage_ComputeChecksum_m565187029(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
+		V_0 = L_17;
+		ByteU5BU5D_t3397334013* L_18 = __this->get_bytes_0();
+		uint16_t L_19 = V_0;
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(2), (uint8_t)(((int32_t)((uint8_t)((int32_t)((int32_t)L_19&(int32_t)((int32_t)255)))))));
+		ByteU5BU5D_t3397334013* L_20 = __this->get_bytes_0();
+		uint16_t L_21 = V_0;
+		NullCheck(L_20);
+		(L_20)->SetAt(static_cast<il2cpp_array_size_t>(3), (uint8_t)(((int32_t)((uint8_t)((int32_t)((int32_t)L_21>>(int32_t)8))))));
+		return;
+	}
+}
+// System.Byte System.Net.NetworkInformation.Ping/IcmpMessage::get_Type()
+extern "C"  uint8_t IcmpMessage_get_Type_m4132751270 (IcmpMessage_t482998463 * __this, const MethodInfo* method)
+{
+	{
+		ByteU5BU5D_t3397334013* L_0 = __this->get_bytes_0();
+		NullCheck(L_0);
+		int32_t L_1 = 0;
+		uint8_t L_2 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_1));
+		return L_2;
+	}
+}
+// System.Byte System.Net.NetworkInformation.Ping/IcmpMessage::get_Code()
+extern "C"  uint8_t IcmpMessage_get_Code_m969897705 (IcmpMessage_t482998463 * __this, const MethodInfo* method)
+{
+	{
+		ByteU5BU5D_t3397334013* L_0 = __this->get_bytes_0();
+		NullCheck(L_0);
+		int32_t L_1 = 1;
+		uint8_t L_2 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_1));
+		return L_2;
+	}
+}
+// System.Byte System.Net.NetworkInformation.Ping/IcmpMessage::get_Identifier()
+extern "C"  uint8_t IcmpMessage_get_Identifier_m2325173215 (IcmpMessage_t482998463 * __this, const MethodInfo* method)
+{
+	{
+		ByteU5BU5D_t3397334013* L_0 = __this->get_bytes_0();
+		NullCheck(L_0);
+		int32_t L_1 = 4;
+		uint8_t L_2 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_1));
+		ByteU5BU5D_t3397334013* L_3 = __this->get_bytes_0();
+		NullCheck(L_3);
+		int32_t L_4 = 5;
+		uint8_t L_5 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		return (uint8_t)(((int32_t)((uint8_t)((int32_t)((int32_t)L_2+(int32_t)((int32_t)((int32_t)L_5<<(int32_t)8)))))));
+	}
+}
+// System.Byte System.Net.NetworkInformation.Ping/IcmpMessage::get_Sequence()
+extern "C"  uint8_t IcmpMessage_get_Sequence_m369625479 (IcmpMessage_t482998463 * __this, const MethodInfo* method)
+{
+	{
+		ByteU5BU5D_t3397334013* L_0 = __this->get_bytes_0();
+		NullCheck(L_0);
+		int32_t L_1 = 6;
+		uint8_t L_2 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_1));
+		ByteU5BU5D_t3397334013* L_3 = __this->get_bytes_0();
+		NullCheck(L_3);
+		int32_t L_4 = 7;
+		uint8_t L_5 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		return (uint8_t)(((int32_t)((uint8_t)((int32_t)((int32_t)L_2+(int32_t)((int32_t)((int32_t)L_5<<(int32_t)8)))))));
+	}
+}
+// System.Byte[] System.Net.NetworkInformation.Ping/IcmpMessage::get_Data()
+extern "C"  ByteU5BU5D_t3397334013* IcmpMessage_get_Data_m672939050 (IcmpMessage_t482998463 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IcmpMessage_get_Data_m672939050_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ByteU5BU5D_t3397334013* V_0 = NULL;
+	{
+		ByteU5BU5D_t3397334013* L_0 = __this->get_bytes_0();
+		NullCheck(L_0);
+		V_0 = ((ByteU5BU5D_t3397334013*)SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, (uint32_t)((int32_t)((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_0)->max_length))))-(int32_t)8))));
+		ByteU5BU5D_t3397334013* L_1 = __this->get_bytes_0();
+		ByteU5BU5D_t3397334013* L_2 = V_0;
+		ByteU5BU5D_t3397334013* L_3 = V_0;
+		NullCheck(L_3);
+		Buffer_BlockCopy_m1586717258(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_1, 0, (Il2CppArray *)(Il2CppArray *)L_2, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_3)->max_length)))), /*hidden argument*/NULL);
+		ByteU5BU5D_t3397334013* L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Byte[] System.Net.NetworkInformation.Ping/IcmpMessage::GetBytes()
+extern "C"  ByteU5BU5D_t3397334013* IcmpMessage_GetBytes_m3013486824 (IcmpMessage_t482998463 * __this, const MethodInfo* method)
+{
+	{
+		ByteU5BU5D_t3397334013* L_0 = __this->get_bytes_0();
+		return L_0;
+	}
+}
+// System.UInt16 System.Net.NetworkInformation.Ping/IcmpMessage::ComputeChecksum(System.Byte[])
+extern "C"  uint16_t IcmpMessage_ComputeChecksum_m565187029 (Il2CppObject * __this /* static, unused */, ByteU5BU5D_t3397334013* ___data0, const MethodInfo* method)
+{
+	uint32_t V_0 = 0;
+	int32_t V_1 = 0;
+	uint16_t V_2 = 0;
+	int32_t G_B4_0 = 0;
+	{
+		V_0 = 0;
+		V_1 = 0;
+		goto IL_0034;
+	}
+
+IL_0009:
+	{
+		int32_t L_0 = V_1;
+		ByteU5BU5D_t3397334013* L_1 = ___data0;
+		NullCheck(L_1);
+		if ((((int32_t)((int32_t)((int32_t)L_0+(int32_t)1))) >= ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))))))
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		ByteU5BU5D_t3397334013* L_2 = ___data0;
+		int32_t L_3 = V_1;
+		NullCheck(L_2);
+		int32_t L_4 = ((int32_t)((int32_t)L_3+(int32_t)1));
+		uint8_t L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		G_B4_0 = ((int32_t)(L_5));
+		goto IL_001f;
+	}
+
+IL_001e:
+	{
+		G_B4_0 = 0;
+	}
+
+IL_001f:
+	{
+		V_2 = (uint16_t)G_B4_0;
+		uint16_t L_6 = V_2;
+		V_2 = (uint16_t)(((int32_t)((uint16_t)((int32_t)((int32_t)L_6<<(int32_t)8)))));
+		uint16_t L_7 = V_2;
+		ByteU5BU5D_t3397334013* L_8 = ___data0;
+		int32_t L_9 = V_1;
+		NullCheck(L_8);
+		int32_t L_10 = L_9;
+		uint8_t L_11 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
+		V_2 = (uint16_t)(((int32_t)((uint16_t)((int32_t)((int32_t)L_7+(int32_t)L_11)))));
+		uint32_t L_12 = V_0;
+		uint16_t L_13 = V_2;
+		V_0 = ((int32_t)((int32_t)L_12+(int32_t)L_13));
+		int32_t L_14 = V_1;
+		V_1 = ((int32_t)((int32_t)L_14+(int32_t)2));
+	}
+
+IL_0034:
+	{
+		int32_t L_15 = V_1;
+		ByteU5BU5D_t3397334013* L_16 = ___data0;
+		NullCheck(L_16);
+		if ((((int32_t)L_15) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_16)->max_length)))))))
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		uint32_t L_17 = V_0;
+		uint32_t L_18 = V_0;
+		V_0 = ((int32_t)((int32_t)((int32_t)((uint32_t)L_17>>((int32_t)16)))+(int32_t)((int32_t)((int32_t)L_18&(int32_t)((int32_t)65535)))));
+		uint32_t L_19 = V_0;
+		return (uint16_t)(((int32_t)((uint16_t)((~L_19)))));
+	}
+}
+// System.Net.NetworkInformation.IPStatus System.Net.NetworkInformation.Ping/IcmpMessage::get_IPStatus()
+extern "C"  int32_t IcmpMessage_get_IPStatus_m2686790847 (IcmpMessage_t482998463 * __this, const MethodInfo* method)
+{
+	uint8_t V_0 = 0x0;
+	uint8_t V_1 = 0x0;
+	{
+		uint8_t L_0 = IcmpMessage_get_Type_m4132751270(__this, /*hidden argument*/NULL);
+		V_0 = L_0;
+		uint8_t L_1 = V_0;
+		switch (L_1)
+		{
+			case 0:
+			{
+				goto IL_0042;
+			}
+			case 1:
+			{
+				goto IL_0021;
+			}
+			case 2:
+			{
+				goto IL_0021;
+			}
+			case 3:
+			{
+				goto IL_0044;
+			}
+			case 4:
+			{
+				goto IL_00c8;
+			}
+		}
+	}
+
+IL_0021:
+	{
+		uint8_t L_2 = V_0;
+		switch (((int32_t)((int32_t)L_2-(int32_t)8)))
+		{
+			case 0:
+			{
+				goto IL_00ce;
+			}
+			case 1:
+			{
+				goto IL_00d0;
+			}
+			case 2:
+			{
+				goto IL_00d0;
+			}
+			case 3:
+			{
+				goto IL_0097;
+			}
+			case 4:
+			{
+				goto IL_00c2;
+			}
+		}
+	}
+	{
+		goto IL_00d0;
+	}
+
+IL_0042:
+	{
+		return (int32_t)(0);
+	}
+
+IL_0044:
+	{
+		uint8_t L_3 = IcmpMessage_get_Code_m969897705(__this, /*hidden argument*/NULL);
+		V_1 = L_3;
+		uint8_t L_4 = V_1;
+		switch (L_4)
+		{
+			case 0:
+			{
+				goto IL_006e;
+			}
+			case 1:
+			{
+				goto IL_0074;
+			}
+			case 2:
+			{
+				goto IL_007a;
+			}
+			case 3:
+			{
+				goto IL_0080;
+			}
+			case 4:
+			{
+				goto IL_0086;
+			}
+			case 5:
+			{
+				goto IL_008c;
+			}
+		}
+	}
+	{
+		goto IL_0092;
+	}
+
+IL_006e:
+	{
+		return (int32_t)(((int32_t)11002));
+	}
+
+IL_0074:
+	{
+		return (int32_t)(((int32_t)11003));
+	}
+
+IL_007a:
+	{
+		return (int32_t)(((int32_t)11004));
+	}
+
+IL_0080:
+	{
+		return (int32_t)(((int32_t)11005));
+	}
+
+IL_0086:
+	{
+		return (int32_t)(((int32_t)11007));
+	}
+
+IL_008c:
+	{
+		return (int32_t)(((int32_t)11012));
+	}
+
+IL_0092:
+	{
+		goto IL_00d0;
+	}
+
+IL_0097:
+	{
+		uint8_t L_5 = IcmpMessage_get_Code_m969897705(__this, /*hidden argument*/NULL);
+		V_1 = L_5;
+		uint8_t L_6 = V_1;
+		if ((((int32_t)L_6) == ((int32_t)0)))
+		{
+			goto IL_00b1;
+		}
+	}
+	{
+		uint8_t L_7 = V_1;
+		if ((((int32_t)L_7) == ((int32_t)1)))
+		{
+			goto IL_00b7;
+		}
+	}
+	{
+		goto IL_00bd;
+	}
+
+IL_00b1:
+	{
+		return (int32_t)(((int32_t)11041));
+	}
+
+IL_00b7:
+	{
+		return (int32_t)(((int32_t)11014));
+	}
+
+IL_00bd:
+	{
+		goto IL_00d0;
+	}
+
+IL_00c2:
+	{
+		return (int32_t)(((int32_t)11015));
+	}
+
+IL_00c8:
+	{
+		return (int32_t)(((int32_t)11016));
+	}
+
+IL_00ce:
+	{
+		return (int32_t)(0);
+	}
+
+IL_00d0:
+	{
+		return (int32_t)((-1));
+	}
+}
+// System.Void System.Net.NetworkInformation.PingCompletedEventArgs::.ctor(System.Exception,System.Boolean,System.Object,System.Net.NetworkInformation.PingReply)
+extern "C"  void PingCompletedEventArgs__ctor_m2695527771 (PingCompletedEventArgs_t841787612 * __this, Exception_t1927440687 * ___ex0, bool ___cancelled1, Il2CppObject * ___userState2, PingReply_t1978568794 * ___reply3, const MethodInfo* method)
+{
+	{
+		Exception_t1927440687 * L_0 = ___ex0;
+		bool L_1 = ___cancelled1;
+		Il2CppObject * L_2 = ___userState2;
+		AsyncCompletedEventArgs__ctor_m2035203890(__this, L_0, L_1, L_2, /*hidden argument*/NULL);
+		PingReply_t1978568794 * L_3 = ___reply3;
+		__this->set_reply_4(L_3);
+		return;
+	}
+}
+// System.Net.NetworkInformation.PingReply System.Net.NetworkInformation.PingCompletedEventArgs::get_Reply()
+extern "C"  PingReply_t1978568794 * PingCompletedEventArgs_get_Reply_m4263240260 (PingCompletedEventArgs_t841787612 * __this, const MethodInfo* method)
+{
+	{
+		PingReply_t1978568794 * L_0 = __this->get_reply_4();
+		return L_0;
+	}
+}
+// System.Void System.Net.NetworkInformation.PingCompletedEventHandler::.ctor(System.Object,System.IntPtr)
+extern "C"  void PingCompletedEventHandler__ctor_m917895965 (PingCompletedEventHandler_t1044526567 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method)
+{
+	__this->set_method_ptr_0((Il2CppMethodPointer)((MethodInfo*)___method1.get_m_value_0())->methodPointer);
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void System.Net.NetworkInformation.PingCompletedEventHandler::Invoke(System.Object,System.Net.NetworkInformation.PingCompletedEventArgs)
+extern "C"  void PingCompletedEventHandler_Invoke_m2377391675 (PingCompletedEventHandler_t1044526567 * __this, Il2CppObject * ___sender0, PingCompletedEventArgs_t841787612 * ___e1, const MethodInfo* method)
+{
+	if(__this->get_prev_9() != NULL)
+	{
+		PingCompletedEventHandler_Invoke_m2377391675((PingCompletedEventHandler_t1044526567 *)__this->get_prev_9(),___sender0, ___e1, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	if (__this->get_m_target_2() != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Il2CppObject *, void* __this, Il2CppObject * ___sender0, PingCompletedEventArgs_t841787612 * ___e1, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(NULL,__this->get_m_target_2(),___sender0, ___e1,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else if (__this->get_m_target_2() != NULL || ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (void* __this, Il2CppObject * ___sender0, PingCompletedEventArgs_t841787612 * ___e1, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(__this->get_m_target_2(),___sender0, ___e1,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, PingCompletedEventArgs_t841787612 * ___e1, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(___sender0, ___e1,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+}
+// System.IAsyncResult System.Net.NetworkInformation.PingCompletedEventHandler::BeginInvoke(System.Object,System.Net.NetworkInformation.PingCompletedEventArgs,System.AsyncCallback,System.Object)
+extern "C"  Il2CppObject * PingCompletedEventHandler_BeginInvoke_m3702415020 (PingCompletedEventHandler_t1044526567 * __this, Il2CppObject * ___sender0, PingCompletedEventArgs_t841787612 * ___e1, AsyncCallback_t163412349 * ___callback2, Il2CppObject * ___object3, const MethodInfo* method)
+{
+	void *__d_args[3] = {0};
+	__d_args[0] = ___sender0;
+	__d_args[1] = ___e1;
+	return (Il2CppObject *)il2cpp_codegen_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback2, (Il2CppObject*)___object3);
+}
+// System.Void System.Net.NetworkInformation.PingCompletedEventHandler::EndInvoke(System.IAsyncResult)
+extern "C"  void PingCompletedEventHandler_EndInvoke_m1139170619 (PingCompletedEventHandler_t1044526567 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+// System.Void System.Net.NetworkInformation.PingException::.ctor(System.String)
+extern "C"  void PingException__ctor_m27063097 (PingException_t4091918533 * __this, String_t* ___message0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___message0;
+		InvalidOperationException__ctor_m2801133788(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.PingException::.ctor(System.String,System.Exception)
+extern "C"  void PingException__ctor_m2385930137 (PingException_t4091918533 * __this, String_t* ___message0, Exception_t1927440687 * ___innerException1, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___message0;
+		Exception_t1927440687 * L_1 = ___innerException1;
+		InvalidOperationException__ctor_m725121084(__this, L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.PingException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+extern "C"  void PingException__ctor_m2727984784 (PingException_t4091918533 * __this, SerializationInfo_t228987430 * ___serializationInfo0, StreamingContext_t1417235061  ___streamingContext1, const MethodInfo* method)
+{
+	{
+		SerializationInfo_t228987430 * L_0 = ___serializationInfo0;
+		StreamingContext_t1417235061  L_1 = ___streamingContext1;
+		InvalidOperationException__ctor_m1817189395(__this, L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.PingOptions::.ctor()
+extern "C"  void PingOptions__ctor_m1440794514 (PingOptions_t1261881264 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_ttl_0(((int32_t)128));
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.PingOptions::.ctor(System.Int32,System.Boolean)
+extern "C"  void PingOptions__ctor_m3631407070 (PingOptions_t1261881264 * __this, int32_t ___ttl0, bool ___dontFragment1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (PingOptions__ctor_m3631407070_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_ttl_0(((int32_t)128));
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		int32_t L_0 = ___ttl0;
+		if ((((int32_t)L_0) > ((int32_t)0)))
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		ArgumentOutOfRangeException_t279959794 * L_1 = (ArgumentOutOfRangeException_t279959794 *)il2cpp_codegen_object_new(ArgumentOutOfRangeException_t279959794_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m4234257711(L_1, _stringLiteral634448309, _stringLiteral3875251730, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0028:
+	{
+		int32_t L_2 = ___ttl0;
+		__this->set_ttl_0(L_2);
+		bool L_3 = ___dontFragment1;
+		__this->set_dont_fragment_1(L_3);
+		return;
+	}
+}
+// System.Boolean System.Net.NetworkInformation.PingOptions::get_DontFragment()
+extern "C"  bool PingOptions_get_DontFragment_m1729750106 (PingOptions_t1261881264 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_dont_fragment_1();
+		return L_0;
+	}
+}
+// System.Void System.Net.NetworkInformation.PingOptions::set_DontFragment(System.Boolean)
+extern "C"  void PingOptions_set_DontFragment_m4221405291 (PingOptions_t1261881264 * __this, bool ___value0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___value0;
+		__this->set_dont_fragment_1(L_0);
+		return;
+	}
+}
+// System.Int32 System.Net.NetworkInformation.PingOptions::get_Ttl()
+extern "C"  int32_t PingOptions_get_Ttl_m4280427503 (PingOptions_t1261881264 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_ttl_0();
+		return L_0;
+	}
+}
+// System.Void System.Net.NetworkInformation.PingOptions::set_Ttl(System.Int32)
+extern "C"  void PingOptions_set_Ttl_m2643569608 (PingOptions_t1261881264 * __this, int32_t ___value0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->set_ttl_0(L_0);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.PingReply::.ctor(System.Net.IPAddress,System.Byte[],System.Net.NetworkInformation.PingOptions,System.Int64,System.Net.NetworkInformation.IPStatus)
+extern "C"  void PingReply__ctor_m208657219 (PingReply_t1978568794 * __this, IPAddress_t1399971723 * ___address0, ByteU5BU5D_t3397334013* ___buffer1, PingOptions_t1261881264 * ___options2, int64_t ___roundtripTime3, int32_t ___status4, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		IPAddress_t1399971723 * L_0 = ___address0;
+		__this->set_address_0(L_0);
+		ByteU5BU5D_t3397334013* L_1 = ___buffer1;
+		__this->set_buffer_1(L_1);
+		PingOptions_t1261881264 * L_2 = ___options2;
+		__this->set_options_2(L_2);
+		int64_t L_3 = ___roundtripTime3;
+		__this->set_rtt_3(L_3);
+		int32_t L_4 = ___status4;
+		__this->set_status_4(L_4);
+		return;
+	}
+}
+// System.Net.IPAddress System.Net.NetworkInformation.PingReply::get_Address()
+extern "C"  IPAddress_t1399971723 * PingReply_get_Address_m4130397987 (PingReply_t1978568794 * __this, const MethodInfo* method)
+{
+	{
+		IPAddress_t1399971723 * L_0 = __this->get_address_0();
+		return L_0;
+	}
+}
+// System.Byte[] System.Net.NetworkInformation.PingReply::get_Buffer()
+extern "C"  ByteU5BU5D_t3397334013* PingReply_get_Buffer_m2958119327 (PingReply_t1978568794 * __this, const MethodInfo* method)
+{
+	{
+		ByteU5BU5D_t3397334013* L_0 = __this->get_buffer_1();
+		return L_0;
+	}
+}
+// System.Net.NetworkInformation.PingOptions System.Net.NetworkInformation.PingReply::get_Options()
+extern "C"  PingOptions_t1261881264 * PingReply_get_Options_m471476170 (PingReply_t1978568794 * __this, const MethodInfo* method)
+{
+	{
+		PingOptions_t1261881264 * L_0 = __this->get_options_2();
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.PingReply::get_RoundtripTime()
+extern "C"  int64_t PingReply_get_RoundtripTime_m2294175924 (PingReply_t1978568794 * __this, const MethodInfo* method)
+{
+	{
+		int64_t L_0 = __this->get_rtt_3();
+		return L_0;
+	}
+}
+// System.Net.NetworkInformation.IPStatus System.Net.NetworkInformation.PingReply::get_Status()
+extern "C"  int32_t PingReply_get_Status_m2648230811 (PingReply_t1978568794 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_status_4();
+		return L_0;
+	}
+}
+
+
+// Conversion methods for marshalling of: System.Net.NetworkInformation.sockaddr_in6
+extern "C" void sockaddr_in6_t2899168071_marshal_pinvoke(const sockaddr_in6_t2899168071& unmarshaled, sockaddr_in6_t2899168071_marshaled_pinvoke& marshaled)
+{
+	marshaled.___sin6_family_0 = unmarshaled.get_sin6_family_0();
+	marshaled.___sin6_port_1 = unmarshaled.get_sin6_port_1();
+	marshaled.___sin6_flowinfo_2 = unmarshaled.get_sin6_flowinfo_2();
+	in6_addr_t4035827331_marshal_pinvoke(unmarshaled.get_sin6_addr_3(), marshaled.___sin6_addr_3);
+	marshaled.___sin6_scope_id_4 = unmarshaled.get_sin6_scope_id_4();
+}
+extern "C" void sockaddr_in6_t2899168071_marshal_pinvoke_back(const sockaddr_in6_t2899168071_marshaled_pinvoke& marshaled, sockaddr_in6_t2899168071& unmarshaled)
+{
+	uint16_t unmarshaled_sin6_family_temp_0 = 0;
+	unmarshaled_sin6_family_temp_0 = marshaled.___sin6_family_0;
+	unmarshaled.set_sin6_family_0(unmarshaled_sin6_family_temp_0);
+	uint16_t unmarshaled_sin6_port_temp_1 = 0;
+	unmarshaled_sin6_port_temp_1 = marshaled.___sin6_port_1;
+	unmarshaled.set_sin6_port_1(unmarshaled_sin6_port_temp_1);
+	uint32_t unmarshaled_sin6_flowinfo_temp_2 = 0;
+	unmarshaled_sin6_flowinfo_temp_2 = marshaled.___sin6_flowinfo_2;
+	unmarshaled.set_sin6_flowinfo_2(unmarshaled_sin6_flowinfo_temp_2);
+	in6_addr_t4035827331  unmarshaled_sin6_addr_temp_3;
+	memset(&unmarshaled_sin6_addr_temp_3, 0, sizeof(unmarshaled_sin6_addr_temp_3));
+	in6_addr_t4035827331_marshal_pinvoke_back(marshaled.___sin6_addr_3, unmarshaled_sin6_addr_temp_3);
+	unmarshaled.set_sin6_addr_3(unmarshaled_sin6_addr_temp_3);
+	uint32_t unmarshaled_sin6_scope_id_temp_4 = 0;
+	unmarshaled_sin6_scope_id_temp_4 = marshaled.___sin6_scope_id_4;
+	unmarshaled.set_sin6_scope_id_4(unmarshaled_sin6_scope_id_temp_4);
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.sockaddr_in6
+extern "C" void sockaddr_in6_t2899168071_marshal_pinvoke_cleanup(sockaddr_in6_t2899168071_marshaled_pinvoke& marshaled)
+{
+	in6_addr_t4035827331_marshal_pinvoke_cleanup(marshaled.___sin6_addr_3);
+}
+
+
+// Conversion methods for marshalling of: System.Net.NetworkInformation.sockaddr_in6
+extern "C" void sockaddr_in6_t2899168071_marshal_com(const sockaddr_in6_t2899168071& unmarshaled, sockaddr_in6_t2899168071_marshaled_com& marshaled)
+{
+	marshaled.___sin6_family_0 = unmarshaled.get_sin6_family_0();
+	marshaled.___sin6_port_1 = unmarshaled.get_sin6_port_1();
+	marshaled.___sin6_flowinfo_2 = unmarshaled.get_sin6_flowinfo_2();
+	in6_addr_t4035827331_marshal_com(unmarshaled.get_sin6_addr_3(), marshaled.___sin6_addr_3);
+	marshaled.___sin6_scope_id_4 = unmarshaled.get_sin6_scope_id_4();
+}
+extern "C" void sockaddr_in6_t2899168071_marshal_com_back(const sockaddr_in6_t2899168071_marshaled_com& marshaled, sockaddr_in6_t2899168071& unmarshaled)
+{
+	uint16_t unmarshaled_sin6_family_temp_0 = 0;
+	unmarshaled_sin6_family_temp_0 = marshaled.___sin6_family_0;
+	unmarshaled.set_sin6_family_0(unmarshaled_sin6_family_temp_0);
+	uint16_t unmarshaled_sin6_port_temp_1 = 0;
+	unmarshaled_sin6_port_temp_1 = marshaled.___sin6_port_1;
+	unmarshaled.set_sin6_port_1(unmarshaled_sin6_port_temp_1);
+	uint32_t unmarshaled_sin6_flowinfo_temp_2 = 0;
+	unmarshaled_sin6_flowinfo_temp_2 = marshaled.___sin6_flowinfo_2;
+	unmarshaled.set_sin6_flowinfo_2(unmarshaled_sin6_flowinfo_temp_2);
+	in6_addr_t4035827331  unmarshaled_sin6_addr_temp_3;
+	memset(&unmarshaled_sin6_addr_temp_3, 0, sizeof(unmarshaled_sin6_addr_temp_3));
+	in6_addr_t4035827331_marshal_com_back(marshaled.___sin6_addr_3, unmarshaled_sin6_addr_temp_3);
+	unmarshaled.set_sin6_addr_3(unmarshaled_sin6_addr_temp_3);
+	uint32_t unmarshaled_sin6_scope_id_temp_4 = 0;
+	unmarshaled_sin6_scope_id_temp_4 = marshaled.___sin6_scope_id_4;
+	unmarshaled.set_sin6_scope_id_4(unmarshaled_sin6_scope_id_temp_4);
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.sockaddr_in6
+extern "C" void sockaddr_in6_t2899168071_marshal_com_cleanup(sockaddr_in6_t2899168071_marshaled_com& marshaled)
+{
+	in6_addr_t4035827331_marshal_com_cleanup(marshaled.___sin6_addr_3);
+}
+// Conversion methods for marshalling of: System.Net.NetworkInformation.sockaddr_ll
+extern "C" void sockaddr_ll_t1681025498_marshal_pinvoke(const sockaddr_ll_t1681025498& unmarshaled, sockaddr_ll_t1681025498_marshaled_pinvoke& marshaled)
+{
+	marshaled.___sll_family_0 = unmarshaled.get_sll_family_0();
+	marshaled.___sll_protocol_1 = unmarshaled.get_sll_protocol_1();
+	marshaled.___sll_ifindex_2 = unmarshaled.get_sll_ifindex_2();
+	marshaled.___sll_hatype_3 = unmarshaled.get_sll_hatype_3();
+	marshaled.___sll_pkttype_4 = unmarshaled.get_sll_pkttype_4();
+	marshaled.___sll_halen_5 = unmarshaled.get_sll_halen_5();
+	if (unmarshaled.get_sll_addr_6() != NULL)
+	{
+		if (8 > (unmarshaled.get_sll_addr_6())->max_length)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_exception("", "Type could not be marshaled because the length of an embedded array instance does not match the declared length in the layout."));
+		}
+
+		for (int32_t i = 0; i < 8; i++)
+		{
+			(marshaled.___sll_addr_6)[i] = (unmarshaled.get_sll_addr_6())->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i));
+		}
+	}
+}
+extern "C" void sockaddr_ll_t1681025498_marshal_pinvoke_back(const sockaddr_ll_t1681025498_marshaled_pinvoke& marshaled, sockaddr_ll_t1681025498& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (sockaddr_ll_t1681025498_pinvoke_FromNativeMethodDefinition_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint16_t unmarshaled_sll_family_temp_0 = 0;
+	unmarshaled_sll_family_temp_0 = marshaled.___sll_family_0;
+	unmarshaled.set_sll_family_0(unmarshaled_sll_family_temp_0);
+	uint16_t unmarshaled_sll_protocol_temp_1 = 0;
+	unmarshaled_sll_protocol_temp_1 = marshaled.___sll_protocol_1;
+	unmarshaled.set_sll_protocol_1(unmarshaled_sll_protocol_temp_1);
+	int32_t unmarshaled_sll_ifindex_temp_2 = 0;
+	unmarshaled_sll_ifindex_temp_2 = marshaled.___sll_ifindex_2;
+	unmarshaled.set_sll_ifindex_2(unmarshaled_sll_ifindex_temp_2);
+	uint16_t unmarshaled_sll_hatype_temp_3 = 0;
+	unmarshaled_sll_hatype_temp_3 = marshaled.___sll_hatype_3;
+	unmarshaled.set_sll_hatype_3(unmarshaled_sll_hatype_temp_3);
+	uint8_t unmarshaled_sll_pkttype_temp_4 = 0x0;
+	unmarshaled_sll_pkttype_temp_4 = marshaled.___sll_pkttype_4;
+	unmarshaled.set_sll_pkttype_4(unmarshaled_sll_pkttype_temp_4);
+	uint8_t unmarshaled_sll_halen_temp_5 = 0x0;
+	unmarshaled_sll_halen_temp_5 = marshaled.___sll_halen_5;
+	unmarshaled.set_sll_halen_5(unmarshaled_sll_halen_temp_5);
+	unmarshaled.set_sll_addr_6(reinterpret_cast<ByteU5BU5D_t3397334013*>(SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, 8)));
+	for (int32_t i = 0; i < 8; i++)
+	{
+		(unmarshaled.get_sll_addr_6())->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), (marshaled.___sll_addr_6)[i]);
+	}
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.sockaddr_ll
+extern "C" void sockaddr_ll_t1681025498_marshal_pinvoke_cleanup(sockaddr_ll_t1681025498_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: System.Net.NetworkInformation.sockaddr_ll
+extern "C" void sockaddr_ll_t1681025498_marshal_com(const sockaddr_ll_t1681025498& unmarshaled, sockaddr_ll_t1681025498_marshaled_com& marshaled)
+{
+	marshaled.___sll_family_0 = unmarshaled.get_sll_family_0();
+	marshaled.___sll_protocol_1 = unmarshaled.get_sll_protocol_1();
+	marshaled.___sll_ifindex_2 = unmarshaled.get_sll_ifindex_2();
+	marshaled.___sll_hatype_3 = unmarshaled.get_sll_hatype_3();
+	marshaled.___sll_pkttype_4 = unmarshaled.get_sll_pkttype_4();
+	marshaled.___sll_halen_5 = unmarshaled.get_sll_halen_5();
+	if (unmarshaled.get_sll_addr_6() != NULL)
+	{
+		if (8 > (unmarshaled.get_sll_addr_6())->max_length)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_exception("", "Type could not be marshaled because the length of an embedded array instance does not match the declared length in the layout."));
+		}
+
+		for (int32_t i = 0; i < 8; i++)
+		{
+			(marshaled.___sll_addr_6)[i] = (unmarshaled.get_sll_addr_6())->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i));
+		}
+	}
+}
+extern "C" void sockaddr_ll_t1681025498_marshal_com_back(const sockaddr_ll_t1681025498_marshaled_com& marshaled, sockaddr_ll_t1681025498& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (sockaddr_ll_t1681025498_com_FromNativeMethodDefinition_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint16_t unmarshaled_sll_family_temp_0 = 0;
+	unmarshaled_sll_family_temp_0 = marshaled.___sll_family_0;
+	unmarshaled.set_sll_family_0(unmarshaled_sll_family_temp_0);
+	uint16_t unmarshaled_sll_protocol_temp_1 = 0;
+	unmarshaled_sll_protocol_temp_1 = marshaled.___sll_protocol_1;
+	unmarshaled.set_sll_protocol_1(unmarshaled_sll_protocol_temp_1);
+	int32_t unmarshaled_sll_ifindex_temp_2 = 0;
+	unmarshaled_sll_ifindex_temp_2 = marshaled.___sll_ifindex_2;
+	unmarshaled.set_sll_ifindex_2(unmarshaled_sll_ifindex_temp_2);
+	uint16_t unmarshaled_sll_hatype_temp_3 = 0;
+	unmarshaled_sll_hatype_temp_3 = marshaled.___sll_hatype_3;
+	unmarshaled.set_sll_hatype_3(unmarshaled_sll_hatype_temp_3);
+	uint8_t unmarshaled_sll_pkttype_temp_4 = 0x0;
+	unmarshaled_sll_pkttype_temp_4 = marshaled.___sll_pkttype_4;
+	unmarshaled.set_sll_pkttype_4(unmarshaled_sll_pkttype_temp_4);
+	uint8_t unmarshaled_sll_halen_temp_5 = 0x0;
+	unmarshaled_sll_halen_temp_5 = marshaled.___sll_halen_5;
+	unmarshaled.set_sll_halen_5(unmarshaled_sll_halen_temp_5);
+	unmarshaled.set_sll_addr_6(reinterpret_cast<ByteU5BU5D_t3397334013*>(SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, 8)));
+	for (int32_t i = 0; i < 8; i++)
+	{
+		(unmarshaled.get_sll_addr_6())->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), (marshaled.___sll_addr_6)[i]);
+	}
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.sockaddr_ll
+extern "C" void sockaddr_ll_t1681025498_marshal_com_cleanup(sockaddr_ll_t1681025498_marshaled_com& marshaled)
+{
+}
+// System.Void System.Net.NetworkInformation.TcpConnectionInformation::.ctor()
+extern "C"  void TcpConnectionInformation__ctor_m323260113 (TcpConnectionInformation_t3392050187 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.TcpConnectionInformationImpl::.ctor(System.Net.IPEndPoint,System.Net.IPEndPoint,System.Net.NetworkInformation.TcpState)
+extern "C"  void TcpConnectionInformationImpl__ctor_m3967055251 (TcpConnectionInformationImpl_t1274605263 * __this, IPEndPoint_t2615413766 * ___local0, IPEndPoint_t2615413766 * ___remote1, int32_t ___state2, const MethodInfo* method)
+{
+	{
+		TcpConnectionInformation__ctor_m323260113(__this, /*hidden argument*/NULL);
+		IPEndPoint_t2615413766 * L_0 = ___local0;
+		__this->set_local_0(L_0);
+		IPEndPoint_t2615413766 * L_1 = ___remote1;
+		__this->set_remote_1(L_1);
+		int32_t L_2 = ___state2;
+		__this->set_state_2(L_2);
+		return;
+	}
+}
+// System.Net.IPEndPoint System.Net.NetworkInformation.TcpConnectionInformationImpl::get_LocalEndPoint()
+extern "C"  IPEndPoint_t2615413766 * TcpConnectionInformationImpl_get_LocalEndPoint_m825043921 (TcpConnectionInformationImpl_t1274605263 * __this, const MethodInfo* method)
+{
+	{
+		IPEndPoint_t2615413766 * L_0 = __this->get_local_0();
+		return L_0;
+	}
+}
+// System.Net.IPEndPoint System.Net.NetworkInformation.TcpConnectionInformationImpl::get_RemoteEndPoint()
+extern "C"  IPEndPoint_t2615413766 * TcpConnectionInformationImpl_get_RemoteEndPoint_m1721827324 (TcpConnectionInformationImpl_t1274605263 * __this, const MethodInfo* method)
+{
+	{
+		IPEndPoint_t2615413766 * L_0 = __this->get_remote_1();
+		return L_0;
+	}
+}
+// System.Net.NetworkInformation.TcpState System.Net.NetworkInformation.TcpConnectionInformationImpl::get_State()
+extern "C"  int32_t TcpConnectionInformationImpl_get_State_m3805691512 (TcpConnectionInformationImpl_t1274605263 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_state_2();
+		return L_0;
+	}
+}
+// System.Void System.Net.NetworkInformation.TcpStatistics::.ctor()
+extern "C"  void TcpStatistics__ctor_m3717319940 (TcpStatistics_t2119642186 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.UdpStatistics::.ctor()
+extern "C"  void UdpStatistics__ctor_m2683603744 (UdpStatistics_t3170871206 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.UnicastIPAddressInformation::.ctor()
+extern "C"  void UnicastIPAddressInformation__ctor_m1145245090 (UnicastIPAddressInformation_t2919786644 * __this, const MethodInfo* method)
+{
+	{
+		IPAddressInformation__ctor_m217182671(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.UnicastIPAddressInformationCollection::.ctor()
+extern "C"  void UnicastIPAddressInformationCollection__ctor_m500961486 (UnicastIPAddressInformationCollection_t347163204 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnicastIPAddressInformationCollection__ctor_m500961486_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t2288907776 * L_0 = (List_1_t2288907776 *)il2cpp_codegen_object_new(List_1_t2288907776_il2cpp_TypeInfo_var);
+		List_1__ctor_m3812740292(L_0, /*hidden argument*/List_1__ctor_m3812740292_MethodInfo_var);
+		__this->set_list_0(L_0);
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Collections.IEnumerator System.Net.NetworkInformation.UnicastIPAddressInformationCollection::System.Collections.IEnumerable.GetEnumerator()
+extern "C"  Il2CppObject * UnicastIPAddressInformationCollection_System_Collections_IEnumerable_GetEnumerator_m3449718895 (UnicastIPAddressInformationCollection_t347163204 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnicastIPAddressInformationCollection_System_Collections_IEnumerable_GetEnumerator_m3449718895_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t2288907776 * L_0 = __this->get_list_0();
+		NullCheck(L_0);
+		Enumerator_t1823637450  L_1 = List_1_GetEnumerator_m2913846283(L_0, /*hidden argument*/List_1_GetEnumerator_m2913846283_MethodInfo_var);
+		Enumerator_t1823637450  L_2 = L_1;
+		Il2CppObject * L_3 = Box(Enumerator_t1823637450_il2cpp_TypeInfo_var, &L_2);
+		return (Il2CppObject *)L_3;
+	}
+}
+// System.Void System.Net.NetworkInformation.UnicastIPAddressInformationCollection::Add(System.Net.NetworkInformation.UnicastIPAddressInformation)
+extern "C"  void UnicastIPAddressInformationCollection_Add_m2110524769 (UnicastIPAddressInformationCollection_t347163204 * __this, UnicastIPAddressInformation_t2919786644 * ___address0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnicastIPAddressInformationCollection_Add_m2110524769_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = VirtFuncInvoker0< bool >::Invoke(20 /* System.Boolean System.Net.NetworkInformation.UnicastIPAddressInformationCollection::get_IsReadOnly() */, __this);
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		NotSupportedException_t1793819818 * L_1 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m836173213(L_1, _stringLiteral1786440010, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0016:
+	{
+		List_1_t2288907776 * L_2 = __this->get_list_0();
+		UnicastIPAddressInformation_t2919786644 * L_3 = ___address0;
+		NullCheck(L_2);
+		List_1_Add_m2100542328(L_2, L_3, /*hidden argument*/List_1_Add_m2100542328_MethodInfo_var);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.UnicastIPAddressInformationCollection::Clear()
+extern "C"  void UnicastIPAddressInformationCollection_Clear_m1162245895 (UnicastIPAddressInformationCollection_t347163204 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnicastIPAddressInformationCollection_Clear_m1162245895_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = VirtFuncInvoker0< bool >::Invoke(20 /* System.Boolean System.Net.NetworkInformation.UnicastIPAddressInformationCollection::get_IsReadOnly() */, __this);
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		NotSupportedException_t1793819818 * L_1 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m836173213(L_1, _stringLiteral1786440010, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0016:
+	{
+		List_1_t2288907776 * L_2 = __this->get_list_0();
+		NullCheck(L_2);
+		List_1_Clear_m4085170383(L_2, /*hidden argument*/List_1_Clear_m4085170383_MethodInfo_var);
+		return;
+	}
+}
+// System.Boolean System.Net.NetworkInformation.UnicastIPAddressInformationCollection::Contains(System.Net.NetworkInformation.UnicastIPAddressInformation)
+extern "C"  bool UnicastIPAddressInformationCollection_Contains_m1525796803 (UnicastIPAddressInformationCollection_t347163204 * __this, UnicastIPAddressInformation_t2919786644 * ___address0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnicastIPAddressInformationCollection_Contains_m1525796803_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t2288907776 * L_0 = __this->get_list_0();
+		UnicastIPAddressInformation_t2919786644 * L_1 = ___address0;
+		NullCheck(L_0);
+		bool L_2 = List_1_Contains_m2139646116(L_0, L_1, /*hidden argument*/List_1_Contains_m2139646116_MethodInfo_var);
+		return L_2;
+	}
+}
+// System.Void System.Net.NetworkInformation.UnicastIPAddressInformationCollection::CopyTo(System.Net.NetworkInformation.UnicastIPAddressInformation[],System.Int32)
+extern "C"  void UnicastIPAddressInformationCollection_CopyTo_m1030130837 (UnicastIPAddressInformationCollection_t347163204 * __this, UnicastIPAddressInformationU5BU5D_t2212961949* ___array0, int32_t ___offset1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnicastIPAddressInformationCollection_CopyTo_m1030130837_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t2288907776 * L_0 = __this->get_list_0();
+		UnicastIPAddressInformationU5BU5D_t2212961949* L_1 = ___array0;
+		int32_t L_2 = ___offset1;
+		NullCheck(L_0);
+		List_1_CopyTo_m3489746252(L_0, L_1, L_2, /*hidden argument*/List_1_CopyTo_m3489746252_MethodInfo_var);
+		return;
+	}
+}
+// System.Collections.Generic.IEnumerator`1<System.Net.NetworkInformation.UnicastIPAddressInformation> System.Net.NetworkInformation.UnicastIPAddressInformationCollection::GetEnumerator()
+extern "C"  Il2CppObject* UnicastIPAddressInformationCollection_GetEnumerator_m552485924 (UnicastIPAddressInformationCollection_t347163204 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnicastIPAddressInformationCollection_GetEnumerator_m552485924_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t2288907776 * L_0 = __this->get_list_0();
+		NullCheck(L_0);
+		Il2CppObject* L_1 = InterfaceFuncInvoker0< Il2CppObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<!0> System.Collections.Generic.IEnumerable`1<System.Net.NetworkInformation.UnicastIPAddressInformation>::GetEnumerator() */, IEnumerable_1_t3211913689_il2cpp_TypeInfo_var, L_0);
+		return L_1;
+	}
+}
+// System.Boolean System.Net.NetworkInformation.UnicastIPAddressInformationCollection::Remove(System.Net.NetworkInformation.UnicastIPAddressInformation)
+extern "C"  bool UnicastIPAddressInformationCollection_Remove_m2029630316 (UnicastIPAddressInformationCollection_t347163204 * __this, UnicastIPAddressInformation_t2919786644 * ___address0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnicastIPAddressInformationCollection_Remove_m2029630316_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = VirtFuncInvoker0< bool >::Invoke(20 /* System.Boolean System.Net.NetworkInformation.UnicastIPAddressInformationCollection::get_IsReadOnly() */, __this);
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		NotSupportedException_t1793819818 * L_1 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m836173213(L_1, _stringLiteral1786440010, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0016:
+	{
+		List_1_t2288907776 * L_2 = __this->get_list_0();
+		UnicastIPAddressInformation_t2919786644 * L_3 = ___address0;
+		NullCheck(L_2);
+		bool L_4 = List_1_Remove_m3154269749(L_2, L_3, /*hidden argument*/List_1_Remove_m3154269749_MethodInfo_var);
+		return L_4;
+	}
+}
+// System.Int32 System.Net.NetworkInformation.UnicastIPAddressInformationCollection::get_Count()
+extern "C"  int32_t UnicastIPAddressInformationCollection_get_Count_m1732095102 (UnicastIPAddressInformationCollection_t347163204 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnicastIPAddressInformationCollection_get_Count_m1732095102_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t2288907776 * L_0 = __this->get_list_0();
+		NullCheck(L_0);
+		int32_t L_1 = List_1_get_Count_m154813260(L_0, /*hidden argument*/List_1_get_Count_m154813260_MethodInfo_var);
+		return L_1;
+	}
+}
+// System.Boolean System.Net.NetworkInformation.UnicastIPAddressInformationCollection::get_IsReadOnly()
+extern "C"  bool UnicastIPAddressInformationCollection_get_IsReadOnly_m351891323 (UnicastIPAddressInformationCollection_t347163204 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Net.NetworkInformation.UnicastIPAddressInformation System.Net.NetworkInformation.UnicastIPAddressInformationCollection::get_Item(System.Int32)
+extern "C"  UnicastIPAddressInformation_t2919786644 * UnicastIPAddressInformationCollection_get_Item_m2205241642 (UnicastIPAddressInformationCollection_t347163204 * __this, int32_t ___index0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnicastIPAddressInformationCollection_get_Item_m2205241642_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t2288907776 * L_0 = __this->get_list_0();
+		int32_t L_1 = ___index0;
+		NullCheck(L_0);
+		UnicastIPAddressInformation_t2919786644 * L_2 = List_1_get_Item_m1309064713(L_0, L_1, /*hidden argument*/List_1_get_Item_m1309064713_MethodInfo_var);
+		return L_2;
+	}
+}
+// System.Void System.Net.NetworkInformation.UnicastIPAddressInformationImplCollection::.ctor(System.Boolean)
+extern "C"  void UnicastIPAddressInformationImplCollection__ctor_m712826337 (UnicastIPAddressInformationImplCollection_t771061202 * __this, bool ___isReadOnly0, const MethodInfo* method)
+{
+	{
+		UnicastIPAddressInformationCollection__ctor_m500961486(__this, /*hidden argument*/NULL);
+		bool L_0 = ___isReadOnly0;
+		__this->set_is_readonly_2(L_0);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.UnicastIPAddressInformationImplCollection::.cctor()
+extern "C"  void UnicastIPAddressInformationImplCollection__cctor_m1203684985 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnicastIPAddressInformationImplCollection__cctor_m1203684985_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnicastIPAddressInformationImplCollection_t771061202 * L_0 = (UnicastIPAddressInformationImplCollection_t771061202 *)il2cpp_codegen_object_new(UnicastIPAddressInformationImplCollection_t771061202_il2cpp_TypeInfo_var);
+		UnicastIPAddressInformationImplCollection__ctor_m712826337(L_0, (bool)1, /*hidden argument*/NULL);
+		((UnicastIPAddressInformationImplCollection_t771061202_StaticFields*)UnicastIPAddressInformationImplCollection_t771061202_il2cpp_TypeInfo_var->static_fields)->set_Empty_1(L_0);
+		return;
+	}
+}
+// System.Boolean System.Net.NetworkInformation.UnicastIPAddressInformationImplCollection::get_IsReadOnly()
+extern "C"  bool UnicastIPAddressInformationImplCollection_get_IsReadOnly_m2535568495 (UnicastIPAddressInformationImplCollection_t771061202 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_is_readonly_2();
+		return L_0;
+	}
+}
+// System.Net.NetworkInformation.UnicastIPAddressInformationCollection System.Net.NetworkInformation.UnicastIPAddressInformationImplCollection::Win32FromUnicast(System.Int32,System.IntPtr)
+extern "C"  UnicastIPAddressInformationCollection_t347163204 * UnicastIPAddressInformationImplCollection_Win32FromUnicast_m2628548674 (Il2CppObject * __this /* static, unused */, int32_t ___ifIndex0, IntPtr_t ___ptr1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnicastIPAddressInformationImplCollection_Win32FromUnicast_m2628548674_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	UnicastIPAddressInformationImplCollection_t771061202 * V_0 = NULL;
+	Win32_IP_ADAPTER_UNICAST_ADDRESS_t1884414946  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	IntPtr_t V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	{
+		UnicastIPAddressInformationImplCollection_t771061202 * L_0 = (UnicastIPAddressInformationImplCollection_t771061202 *)il2cpp_codegen_object_new(UnicastIPAddressInformationImplCollection_t771061202_il2cpp_TypeInfo_var);
+		UnicastIPAddressInformationImplCollection__ctor_m712826337(L_0, (bool)0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		IntPtr_t L_1 = ___ptr1;
+		V_2 = L_1;
+		goto IL_0039;
+	}
+
+IL_000e:
+	{
+		IntPtr_t L_2 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_3 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Win32_IP_ADAPTER_UNICAST_ADDRESS_t1884414946_0_0_0_var), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		Il2CppObject * L_4 = Marshal_PtrToStructure_m673412918(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		V_1 = ((*(Win32_IP_ADAPTER_UNICAST_ADDRESS_t1884414946 *)((Win32_IP_ADAPTER_UNICAST_ADDRESS_t1884414946 *)UnBox(L_4, Win32_IP_ADAPTER_UNICAST_ADDRESS_t1884414946_il2cpp_TypeInfo_var))));
+		UnicastIPAddressInformationImplCollection_t771061202 * L_5 = V_0;
+		int32_t L_6 = ___ifIndex0;
+		Win32_IP_ADAPTER_UNICAST_ADDRESS_t1884414946  L_7 = V_1;
+		Win32UnicastIPAddressInformation_t1388218403 * L_8 = (Win32UnicastIPAddressInformation_t1388218403 *)il2cpp_codegen_object_new(Win32UnicastIPAddressInformation_t1388218403_il2cpp_TypeInfo_var);
+		Win32UnicastIPAddressInformation__ctor_m265716656(L_8, L_6, L_7, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		VirtActionInvoker1< UnicastIPAddressInformation_t2919786644 * >::Invoke(13 /* System.Void System.Net.NetworkInformation.UnicastIPAddressInformationCollection::Add(System.Net.NetworkInformation.UnicastIPAddressInformation) */, L_5, L_8);
+		IntPtr_t L_9 = (&V_1)->get_Next_1();
+		V_2 = L_9;
+	}
+
+IL_0039:
+	{
+		IntPtr_t L_10 = V_2;
+		IntPtr_t L_11 = ((IntPtr_t_StaticFields*)IntPtr_t_il2cpp_TypeInfo_var->static_fields)->get_Zero_1();
+		bool L_12 = IntPtr_op_Inequality_m3044532593(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
+		if (L_12)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		UnicastIPAddressInformationImplCollection_t771061202 * L_13 = V_0;
+		NullCheck(L_13);
+		L_13->set_is_readonly_2((bool)1);
+		UnicastIPAddressInformationImplCollection_t771061202 * L_14 = V_0;
+		return L_14;
+	}
+}
+// System.Net.NetworkInformation.UnicastIPAddressInformationCollection System.Net.NetworkInformation.UnicastIPAddressInformationImplCollection::LinuxFromList(System.Collections.Generic.List`1<System.Net.IPAddress>)
+extern "C"  UnicastIPAddressInformationCollection_t347163204 * UnicastIPAddressInformationImplCollection_LinuxFromList_m1985813080 (Il2CppObject * __this /* static, unused */, List_1_t769092855 * ___addresses0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnicastIPAddressInformationImplCollection_LinuxFromList_m1985813080_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	UnicastIPAddressInformationImplCollection_t771061202 * V_0 = NULL;
+	IPAddress_t1399971723 * V_1 = NULL;
+	Enumerator_t303822529  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		UnicastIPAddressInformationImplCollection_t771061202 * L_0 = (UnicastIPAddressInformationImplCollection_t771061202 *)il2cpp_codegen_object_new(UnicastIPAddressInformationImplCollection_t771061202_il2cpp_TypeInfo_var);
+		UnicastIPAddressInformationImplCollection__ctor_m712826337(L_0, (bool)0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		List_1_t769092855 * L_1 = ___addresses0;
+		NullCheck(L_1);
+		Enumerator_t303822529  L_2 = List_1_GetEnumerator_m689108514(L_1, /*hidden argument*/List_1_GetEnumerator_m689108514_MethodInfo_var);
+		V_2 = L_2;
+	}
+
+IL_000e:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0027;
+		}
+
+IL_0013:
+		{
+			IPAddress_t1399971723 * L_3 = Enumerator_get_Current_m1324985930((&V_2), /*hidden argument*/Enumerator_get_Current_m1324985930_MethodInfo_var);
+			V_1 = L_3;
+			UnicastIPAddressInformationImplCollection_t771061202 * L_4 = V_0;
+			IPAddress_t1399971723 * L_5 = V_1;
+			LinuxUnicastIPAddressInformation_t870378058 * L_6 = (LinuxUnicastIPAddressInformation_t870378058 *)il2cpp_codegen_object_new(LinuxUnicastIPAddressInformation_t870378058_il2cpp_TypeInfo_var);
+			LinuxUnicastIPAddressInformation__ctor_m2878236655(L_6, L_5, /*hidden argument*/NULL);
+			NullCheck(L_4);
+			VirtActionInvoker1< UnicastIPAddressInformation_t2919786644 * >::Invoke(13 /* System.Void System.Net.NetworkInformation.UnicastIPAddressInformationCollection::Add(System.Net.NetworkInformation.UnicastIPAddressInformation) */, L_4, L_6);
+		}
+
+IL_0027:
+		{
+			bool L_7 = Enumerator_MoveNext_m1308422700((&V_2), /*hidden argument*/Enumerator_MoveNext_m1308422700_MethodInfo_var);
+			if (L_7)
+			{
+				goto IL_0013;
+			}
+		}
+
+IL_0033:
+		{
+			IL2CPP_LEAVE(0x44, FINALLY_0038);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0038;
+	}
+
+FINALLY_0038:
+	{ // begin finally (depth: 1)
+		Enumerator_t303822529  L_8 = V_2;
+		Enumerator_t303822529  L_9 = L_8;
+		Il2CppObject * L_10 = Box(Enumerator_t303822529_il2cpp_TypeInfo_var, &L_9);
+		NullCheck((Il2CppObject *)L_10);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, (Il2CppObject *)L_10);
+		IL2CPP_END_FINALLY(56)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(56)
+	{
+		IL2CPP_JUMP_TBL(0x44, IL_0044)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0044:
+	{
+		UnicastIPAddressInformationImplCollection_t771061202 * L_11 = V_0;
+		NullCheck(L_11);
+		L_11->set_is_readonly_2((bool)1);
+		UnicastIPAddressInformationImplCollection_t771061202 * L_12 = V_0;
+		return L_12;
+	}
+}
+// System.Void System.Net.NetworkInformation.UnixIPInterfaceProperties::.ctor(System.Net.NetworkInformation.UnixNetworkInterface,System.Collections.Generic.List`1<System.Net.IPAddress>)
+extern "C"  void UnixIPInterfaceProperties__ctor_m2539088987 (UnixIPInterfaceProperties_t2418091637 * __this, UnixNetworkInterface_t1000704527 * ___iface0, List_1_t769092855 * ___addresses1, const MethodInfo* method)
+{
+	{
+		IPInterfaceProperties__ctor_m2937249457(__this, /*hidden argument*/NULL);
+		UnixNetworkInterface_t1000704527 * L_0 = ___iface0;
+		__this->set_iface_1(L_0);
+		List_1_t769092855 * L_1 = ___addresses1;
+		__this->set_addresses_2(L_1);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.UnixIPInterfaceProperties::.cctor()
+extern "C"  void UnixIPInterfaceProperties__cctor_m2472170512 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnixIPInterfaceProperties__cctor_m2472170512_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Regex_t1803876613 * L_0 = (Regex_t1803876613 *)il2cpp_codegen_object_new(Regex_t1803876613_il2cpp_TypeInfo_var);
+		Regex__ctor_m2930443103(L_0, _stringLiteral3624238401, /*hidden argument*/NULL);
+		((UnixIPInterfaceProperties_t2418091637_StaticFields*)UnixIPInterfaceProperties_t2418091637_il2cpp_TypeInfo_var->static_fields)->set_ns_7(L_0);
+		Regex_t1803876613 * L_1 = (Regex_t1803876613 *)il2cpp_codegen_object_new(Regex_t1803876613_il2cpp_TypeInfo_var);
+		Regex__ctor_m2930443103(L_1, _stringLiteral1267201139, /*hidden argument*/NULL);
+		((UnixIPInterfaceProperties_t2418091637_StaticFields*)UnixIPInterfaceProperties_t2418091637_il2cpp_TypeInfo_var->static_fields)->set_search_8(L_1);
+		return;
+	}
+}
+// System.Net.NetworkInformation.IPv6InterfaceProperties System.Net.NetworkInformation.UnixIPInterfaceProperties::GetIPv6Properties()
+extern "C"  IPv6InterfaceProperties_t1930412363 * UnixIPInterfaceProperties_GetIPv6Properties_m2980625829 (UnixIPInterfaceProperties_t2418091637 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnixIPInterfaceProperties_GetIPv6Properties_m2980625829_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotImplementedException_t2785117854 * L_0 = (NotImplementedException_t2785117854 *)il2cpp_codegen_object_new(NotImplementedException_t2785117854_il2cpp_TypeInfo_var);
+		NotImplementedException__ctor_m808189835(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Net.NetworkInformation.UnixIPInterfaceProperties::ParseRouteInfo(System.String)
+extern "C"  void UnixIPInterfaceProperties_ParseRouteInfo_m3187707635 (UnixIPInterfaceProperties_t2418091637 * __this, String_t* ___iface0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnixIPInterfaceProperties_ParseRouteInfo_m3187707635_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	StreamReader_t2360341767 * V_0 = NULL;
+	String_t* V_1 = NULL;
+	String_t* V_2 = NULL;
+	StringU5BU5D_t1642385972* V_3 = NULL;
+	String_t* V_4 = NULL;
+	ByteU5BU5D_t3397334013* V_5 = NULL;
+	int32_t V_6 = 0;
+	IPAddress_t1399971723 * V_7 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+
+IL_0000:
+	try
+	{ // begin try (depth: 1)
+		{
+			IPAddressCollection_t2986660307 * L_0 = (IPAddressCollection_t2986660307 *)il2cpp_codegen_object_new(IPAddressCollection_t2986660307_il2cpp_TypeInfo_var);
+			IPAddressCollection__ctor_m3768432617(L_0, /*hidden argument*/NULL);
+			__this->set_gateways_4(L_0);
+			StreamReader_t2360341767 * L_1 = (StreamReader_t2360341767 *)il2cpp_codegen_object_new(StreamReader_t2360341767_il2cpp_TypeInfo_var);
+			StreamReader__ctor_m3454466728(L_1, _stringLiteral1573162903, /*hidden argument*/NULL);
+			V_0 = L_1;
+		}
+
+IL_0016:
+		try
+		{ // begin try (depth: 2)
+			{
+				StreamReader_t2360341767 * L_2 = V_0;
+				NullCheck(L_2);
+				VirtFuncInvoker0< String_t* >::Invoke(12 /* System.String System.IO.StreamReader::ReadLine() */, L_2);
+				goto IL_00f0;
+			}
+
+IL_0022:
+			{
+				String_t* L_3 = V_2;
+				NullCheck(L_3);
+				String_t* L_4 = String_Trim_m2668767713(L_3, /*hidden argument*/NULL);
+				V_2 = L_4;
+				String_t* L_5 = V_2;
+				NullCheck(L_5);
+				int32_t L_6 = String_get_Length_m1606060069(L_5, /*hidden argument*/NULL);
+				if (L_6)
+				{
+					goto IL_0039;
+				}
+			}
+
+IL_0034:
+			{
+				goto IL_00f0;
+			}
+
+IL_0039:
+			{
+				String_t* L_7 = V_2;
+				CharU5BU5D_t1328083999* L_8 = ((CharU5BU5D_t1328083999*)SZArrayNew(CharU5BU5D_t1328083999_il2cpp_TypeInfo_var, (uint32_t)1));
+				NullCheck(L_8);
+				(L_8)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)((int32_t)9));
+				NullCheck(L_7);
+				StringU5BU5D_t1642385972* L_9 = String_Split_m3326265864(L_7, L_8, /*hidden argument*/NULL);
+				V_3 = L_9;
+				StringU5BU5D_t1642385972* L_10 = V_3;
+				NullCheck(L_10);
+				if ((((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_10)->max_length))))) >= ((int32_t)3)))
+				{
+					goto IL_0059;
+				}
+			}
+
+IL_0054:
+			{
+				goto IL_00f0;
+			}
+
+IL_0059:
+			{
+				StringU5BU5D_t1642385972* L_11 = V_3;
+				NullCheck(L_11);
+				int32_t L_12 = 2;
+				String_t* L_13 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
+				NullCheck(L_13);
+				String_t* L_14 = String_Trim_m2668767713(L_13, /*hidden argument*/NULL);
+				V_4 = L_14;
+				V_5 = ((ByteU5BU5D_t3397334013*)SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, (uint32_t)4));
+				String_t* L_15 = V_4;
+				NullCheck(L_15);
+				int32_t L_16 = String_get_Length_m1606060069(L_15, /*hidden argument*/NULL);
+				if ((!(((uint32_t)L_16) == ((uint32_t)8))))
+				{
+					goto IL_00f0;
+				}
+			}
+
+IL_0078:
+			{
+				String_t* L_17 = ___iface0;
+				StringU5BU5D_t1642385972* L_18 = V_3;
+				NullCheck(L_18);
+				int32_t L_19 = 0;
+				String_t* L_20 = (L_18)->GetAt(static_cast<il2cpp_array_size_t>(L_19));
+				NullCheck(L_17);
+				bool L_21 = String_Equals_m1185277978(L_17, L_20, 5, /*hidden argument*/NULL);
+				if (!L_21)
+				{
+					goto IL_00f0;
+				}
+			}
+
+IL_0087:
+			{
+				V_6 = 0;
+				goto IL_00c1;
+			}
+
+IL_008f:
+			{
+				String_t* L_22 = V_4;
+				int32_t L_23 = V_6;
+				NullCheck(L_22);
+				String_t* L_24 = String_Substring_m12482732(L_22, ((int32_t)((int32_t)L_23*(int32_t)2)), 2, /*hidden argument*/NULL);
+				ByteU5BU5D_t3397334013* L_25 = V_5;
+				int32_t L_26 = V_6;
+				NullCheck(L_25);
+				bool L_27 = Byte_TryParse_m1432549041(NULL /*static, unused*/, L_24, ((int32_t)515), (Il2CppObject *)NULL, ((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)3-(int32_t)L_26))))), /*hidden argument*/NULL);
+				if (L_27)
+				{
+					goto IL_00bb;
+				}
+			}
+
+IL_00b6:
+			{
+				goto IL_00bb;
+			}
+
+IL_00bb:
+			{
+				int32_t L_28 = V_6;
+				V_6 = ((int32_t)((int32_t)L_28+(int32_t)1));
+			}
+
+IL_00c1:
+			{
+				int32_t L_29 = V_6;
+				if ((((int32_t)L_29) < ((int32_t)4)))
+				{
+					goto IL_008f;
+				}
+			}
+
+IL_00c9:
+			{
+				ByteU5BU5D_t3397334013* L_30 = V_5;
+				IPAddress_t1399971723 * L_31 = (IPAddress_t1399971723 *)il2cpp_codegen_object_new(IPAddress_t1399971723_il2cpp_TypeInfo_var);
+				IPAddress__ctor_m1440892504(L_31, L_30, /*hidden argument*/NULL);
+				V_7 = L_31;
+				IPAddress_t1399971723 * L_32 = V_7;
+				IL2CPP_RUNTIME_CLASS_INIT(IPAddress_t1399971723_il2cpp_TypeInfo_var);
+				IPAddress_t1399971723 * L_33 = ((IPAddress_t1399971723_StaticFields*)IPAddress_t1399971723_il2cpp_TypeInfo_var->static_fields)->get_Any_4();
+				NullCheck(L_32);
+				bool L_34 = VirtFuncInvoker1< bool, Il2CppObject * >::Invoke(0 /* System.Boolean System.Net.IPAddress::Equals(System.Object) */, L_32, L_33);
+				if (L_34)
+				{
+					goto IL_00f0;
+				}
+			}
+
+IL_00e3:
+			{
+				IPAddressCollection_t2986660307 * L_35 = __this->get_gateways_4();
+				IPAddress_t1399971723 * L_36 = V_7;
+				NullCheck(L_35);
+				VirtActionInvoker1< IPAddress_t1399971723 * >::Invoke(13 /* System.Void System.Net.NetworkInformation.IPAddressCollection::Add(System.Net.IPAddress) */, L_35, L_36);
+			}
+
+IL_00f0:
+			{
+				StreamReader_t2360341767 * L_37 = V_0;
+				NullCheck(L_37);
+				String_t* L_38 = VirtFuncInvoker0< String_t* >::Invoke(12 /* System.String System.IO.StreamReader::ReadLine() */, L_37);
+				String_t* L_39 = L_38;
+				V_2 = L_39;
+				if (L_39)
+				{
+					goto IL_0022;
+				}
+			}
+
+IL_00fd:
+			{
+				IL2CPP_LEAVE(0x10F, FINALLY_0102);
+			}
+		} // end try (depth: 2)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+			goto FINALLY_0102;
+		}
+
+FINALLY_0102:
+		{ // begin finally (depth: 2)
+			{
+				StreamReader_t2360341767 * L_40 = V_0;
+				if (!L_40)
+				{
+					goto IL_010e;
+				}
+			}
+
+IL_0108:
+			{
+				StreamReader_t2360341767 * L_41 = V_0;
+				NullCheck(L_41);
+				InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_41);
+			}
+
+IL_010e:
+			{
+				IL2CPP_END_FINALLY(258)
+			}
+		} // end finally (depth: 2)
+		IL2CPP_CLEANUP(258)
+		{
+			IL2CPP_JUMP_TBL(0x10F, IL_010f)
+			IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+		}
+
+IL_010f:
+		{
+			goto IL_011a;
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1927440687 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (Il2CppObject_il2cpp_TypeInfo_var, e.ex->klass))
+			goto CATCH_0114;
+		throw e;
+	}
+
+CATCH_0114:
+	{ // begin catch(System.Object)
+		goto IL_011a;
+	} // end catch (depth: 1)
+
+IL_011a:
+	{
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.UnixIPInterfaceProperties::ParseResolvConf()
+extern "C"  void UnixIPInterfaceProperties_ParseResolvConf_m1769674119 (UnixIPInterfaceProperties_t2418091637 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnixIPInterfaceProperties_ParseResolvConf_m1769674119_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DateTime_t693205669  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	StreamReader_t2360341767 * V_1 = NULL;
+	String_t* V_2 = NULL;
+	String_t* V_3 = NULL;
+	Match_t3164245899 * V_4 = NULL;
+	StringU5BU5D_t1642385972* V_5 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+
+IL_0000:
+	try
+	{ // begin try (depth: 1)
+		try
+		{ // begin try (depth: 2)
+			{
+				DateTime_t693205669  L_0 = File_GetLastWriteTime_m2692599876(NULL /*static, unused*/, _stringLiteral3066551757, /*hidden argument*/NULL);
+				V_0 = L_0;
+				DateTime_t693205669  L_1 = V_0;
+				DateTime_t693205669  L_2 = __this->get_last_parse_6();
+				IL2CPP_RUNTIME_CLASS_INIT(DateTime_t693205669_il2cpp_TypeInfo_var);
+				bool L_3 = DateTime_op_LessThanOrEqual_m2191641069(NULL /*static, unused*/, L_1, L_2, /*hidden argument*/NULL);
+				if (!L_3)
+				{
+					goto IL_0021;
+				}
+			}
+
+IL_001c:
+			{
+				IL2CPP_LEAVE(0x153, FINALLY_0147);
+			}
+
+IL_0021:
+			{
+				DateTime_t693205669  L_4 = V_0;
+				__this->set_last_parse_6(L_4);
+				IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+				String_t* L_5 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+				__this->set_dns_suffix_5(L_5);
+				IPAddressCollection_t2986660307 * L_6 = (IPAddressCollection_t2986660307 *)il2cpp_codegen_object_new(IPAddressCollection_t2986660307_il2cpp_TypeInfo_var);
+				IPAddressCollection__ctor_m3768432617(L_6, /*hidden argument*/NULL);
+				__this->set_dns_servers_3(L_6);
+				StreamReader_t2360341767 * L_7 = (StreamReader_t2360341767 *)il2cpp_codegen_object_new(StreamReader_t2360341767_il2cpp_TypeInfo_var);
+				StreamReader__ctor_m3454466728(L_7, _stringLiteral3066551757, /*hidden argument*/NULL);
+				V_1 = L_7;
+			}
+
+IL_0049:
+			try
+			{ // begin try (depth: 3)
+				{
+					goto IL_011d;
+				}
+
+IL_004e:
+				{
+					String_t* L_8 = V_3;
+					NullCheck(L_8);
+					String_t* L_9 = String_Trim_m2668767713(L_8, /*hidden argument*/NULL);
+					V_3 = L_9;
+					String_t* L_10 = V_3;
+					NullCheck(L_10);
+					int32_t L_11 = String_get_Length_m1606060069(L_10, /*hidden argument*/NULL);
+					if (!L_11)
+					{
+						goto IL_006e;
+					}
+				}
+
+IL_0060:
+				{
+					String_t* L_12 = V_3;
+					NullCheck(L_12);
+					Il2CppChar L_13 = String_get_Chars_m4230566705(L_12, 0, /*hidden argument*/NULL);
+					if ((!(((uint32_t)L_13) == ((uint32_t)((int32_t)35)))))
+					{
+						goto IL_0073;
+					}
+				}
+
+IL_006e:
+				{
+					goto IL_011d;
+				}
+
+IL_0073:
+				{
+					IL2CPP_RUNTIME_CLASS_INIT(UnixIPInterfaceProperties_t2418091637_il2cpp_TypeInfo_var);
+					Regex_t1803876613 * L_14 = ((UnixIPInterfaceProperties_t2418091637_StaticFields*)UnixIPInterfaceProperties_t2418091637_il2cpp_TypeInfo_var->static_fields)->get_ns_7();
+					String_t* L_15 = V_3;
+					NullCheck(L_14);
+					Match_t3164245899 * L_16 = Regex_Match_m3287354872(L_14, L_15, /*hidden argument*/NULL);
+					V_4 = L_16;
+					Match_t3164245899 * L_17 = V_4;
+					NullCheck(L_17);
+					bool L_18 = Group_get_Success_m2001463544(L_17, /*hidden argument*/NULL);
+					if (!L_18)
+					{
+						goto IL_00cb;
+					}
+				}
+
+IL_008c:
+				try
+				{ // begin try (depth: 4)
+					Match_t3164245899 * L_19 = V_4;
+					NullCheck(L_19);
+					GroupCollection_t939014605 * L_20 = VirtFuncInvoker0< GroupCollection_t939014605 * >::Invoke(4 /* System.Text.RegularExpressions.GroupCollection System.Text.RegularExpressions.Match::get_Groups() */, L_19);
+					NullCheck(L_20);
+					Group_t3761430853 * L_21 = GroupCollection_get_Item_m1747374437(L_20, _stringLiteral3134679062, /*hidden argument*/NULL);
+					NullCheck(L_21);
+					String_t* L_22 = Capture_get_Value_m1059492002(L_21, /*hidden argument*/NULL);
+					V_2 = L_22;
+					String_t* L_23 = V_2;
+					NullCheck(L_23);
+					String_t* L_24 = String_Trim_m2668767713(L_23, /*hidden argument*/NULL);
+					V_2 = L_24;
+					IPAddressCollection_t2986660307 * L_25 = __this->get_dns_servers_3();
+					String_t* L_26 = V_2;
+					IL2CPP_RUNTIME_CLASS_INIT(IPAddress_t1399971723_il2cpp_TypeInfo_var);
+					IPAddress_t1399971723 * L_27 = IPAddress_Parse_m3374241274(NULL /*static, unused*/, L_26, /*hidden argument*/NULL);
+					NullCheck(L_25);
+					VirtActionInvoker1< IPAddress_t1399971723 * >::Invoke(13 /* System.Void System.Net.NetworkInformation.IPAddressCollection::Add(System.Net.IPAddress) */, L_25, L_27);
+					goto IL_00c6;
+				} // end try (depth: 4)
+				catch(Il2CppExceptionWrapper& e)
+				{
+					__exception_local = (Exception_t1927440687 *)e.ex;
+					if(il2cpp_codegen_class_is_assignable_from (Il2CppObject_il2cpp_TypeInfo_var, e.ex->klass))
+						goto CATCH_00c0;
+					throw e;
+				}
+
+CATCH_00c0:
+				{ // begin catch(System.Object)
+					goto IL_00c6;
+				} // end catch (depth: 4)
+
+IL_00c6:
+				{
+					goto IL_011d;
+				}
+
+IL_00cb:
+				{
+					IL2CPP_RUNTIME_CLASS_INIT(UnixIPInterfaceProperties_t2418091637_il2cpp_TypeInfo_var);
+					Regex_t1803876613 * L_28 = ((UnixIPInterfaceProperties_t2418091637_StaticFields*)UnixIPInterfaceProperties_t2418091637_il2cpp_TypeInfo_var->static_fields)->get_search_8();
+					String_t* L_29 = V_3;
+					NullCheck(L_28);
+					Match_t3164245899 * L_30 = Regex_Match_m3287354872(L_28, L_29, /*hidden argument*/NULL);
+					V_4 = L_30;
+					Match_t3164245899 * L_31 = V_4;
+					NullCheck(L_31);
+					bool L_32 = Group_get_Success_m2001463544(L_31, /*hidden argument*/NULL);
+					if (!L_32)
+					{
+						goto IL_011d;
+					}
+				}
+
+IL_00e4:
+				{
+					Match_t3164245899 * L_33 = V_4;
+					NullCheck(L_33);
+					GroupCollection_t939014605 * L_34 = VirtFuncInvoker0< GroupCollection_t939014605 * >::Invoke(4 /* System.Text.RegularExpressions.GroupCollection System.Text.RegularExpressions.Match::get_Groups() */, L_33);
+					NullCheck(L_34);
+					Group_t3761430853 * L_35 = GroupCollection_get_Item_m1747374437(L_34, _stringLiteral3774104446, /*hidden argument*/NULL);
+					NullCheck(L_35);
+					String_t* L_36 = Capture_get_Value_m1059492002(L_35, /*hidden argument*/NULL);
+					V_2 = L_36;
+					String_t* L_37 = V_2;
+					CharU5BU5D_t1328083999* L_38 = ((CharU5BU5D_t1328083999*)SZArrayNew(CharU5BU5D_t1328083999_il2cpp_TypeInfo_var, (uint32_t)1));
+					NullCheck(L_38);
+					(L_38)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)((int32_t)44));
+					NullCheck(L_37);
+					StringU5BU5D_t1642385972* L_39 = String_Split_m3326265864(L_37, L_38, /*hidden argument*/NULL);
+					V_5 = L_39;
+					StringU5BU5D_t1642385972* L_40 = V_5;
+					NullCheck(L_40);
+					int32_t L_41 = 0;
+					String_t* L_42 = (L_40)->GetAt(static_cast<il2cpp_array_size_t>(L_41));
+					NullCheck(L_42);
+					String_t* L_43 = String_Trim_m2668767713(L_42, /*hidden argument*/NULL);
+					__this->set_dns_suffix_5(L_43);
+				}
+
+IL_011d:
+				{
+					StreamReader_t2360341767 * L_44 = V_1;
+					NullCheck(L_44);
+					String_t* L_45 = VirtFuncInvoker0< String_t* >::Invoke(12 /* System.String System.IO.StreamReader::ReadLine() */, L_44);
+					String_t* L_46 = L_45;
+					V_3 = L_46;
+					if (L_46)
+					{
+						goto IL_004e;
+					}
+				}
+
+IL_012a:
+				{
+					IL2CPP_LEAVE(0x13C, FINALLY_012f);
+				}
+			} // end try (depth: 3)
+			catch(Il2CppExceptionWrapper& e)
+			{
+				__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+				goto FINALLY_012f;
+			}
+
+FINALLY_012f:
+			{ // begin finally (depth: 3)
+				{
+					StreamReader_t2360341767 * L_47 = V_1;
+					if (!L_47)
+					{
+						goto IL_013b;
+					}
+				}
+
+IL_0135:
+				{
+					StreamReader_t2360341767 * L_48 = V_1;
+					NullCheck(L_48);
+					InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_48);
+				}
+
+IL_013b:
+				{
+					IL2CPP_END_FINALLY(303)
+				}
+			} // end finally (depth: 3)
+			IL2CPP_CLEANUP(303)
+			{
+				IL2CPP_JUMP_TBL(0x13C, IL_013c)
+				IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+			}
+
+IL_013c:
+			{
+				IL2CPP_LEAVE(0x153, FINALLY_0147);
+			}
+		} // end try (depth: 2)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__exception_local = (Exception_t1927440687 *)e.ex;
+			if(il2cpp_codegen_class_is_assignable_from (Il2CppObject_il2cpp_TypeInfo_var, e.ex->klass))
+				goto CATCH_0141;
+			throw e;
+		}
+
+CATCH_0141:
+		{ // begin catch(System.Object)
+			IL2CPP_LEAVE(0x153, FINALLY_0147);
+		} // end catch (depth: 2)
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0147;
+	}
+
+FINALLY_0147:
+	{ // begin finally (depth: 1)
+		IPAddressCollection_t2986660307 * L_49 = __this->get_dns_servers_3();
+		NullCheck(L_49);
+		IPAddressCollection_SetReadOnly_m3648147413(L_49, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(327)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(327)
+	{
+		IL2CPP_JUMP_TBL(0x153, IL_0153)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0153:
+	{
+		return;
+	}
+}
+// System.Net.NetworkInformation.IPAddressInformationCollection System.Net.NetworkInformation.UnixIPInterfaceProperties::get_AnycastAddresses()
+extern "C"  IPAddressInformationCollection_t3688726299 * UnixIPInterfaceProperties_get_AnycastAddresses_m1185663977 (UnixIPInterfaceProperties_t2418091637 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnixIPInterfaceProperties_get_AnycastAddresses_m1185663977_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t769092855 * V_0 = NULL;
+	{
+		List_1_t769092855 * L_0 = (List_1_t769092855 *)il2cpp_codegen_object_new(List_1_t769092855_il2cpp_TypeInfo_var);
+		List_1__ctor_m1201304789(L_0, /*hidden argument*/List_1__ctor_m1201304789_MethodInfo_var);
+		V_0 = L_0;
+		List_1_t769092855 * L_1 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(IPAddressInformationImplCollection_t1702846383_il2cpp_TypeInfo_var);
+		IPAddressInformationImplCollection_t1702846383 * L_2 = IPAddressInformationImplCollection_LinuxFromAnycast_m2570784642(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// System.Net.NetworkInformation.IPAddressCollection System.Net.NetworkInformation.UnixIPInterfaceProperties::get_DhcpServerAddresses()
+extern "C"  IPAddressCollection_t2986660307 * UnixIPInterfaceProperties_get_DhcpServerAddresses_m3828064994 (UnixIPInterfaceProperties_t2418091637 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnixIPInterfaceProperties_get_DhcpServerAddresses_m3828064994_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	IPAddressCollection_t2986660307 * V_0 = NULL;
+	{
+		IPAddressCollection_t2986660307 * L_0 = (IPAddressCollection_t2986660307 *)il2cpp_codegen_object_new(IPAddressCollection_t2986660307_il2cpp_TypeInfo_var);
+		IPAddressCollection__ctor_m3768432617(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		IPAddressCollection_t2986660307 * L_1 = V_0;
+		NullCheck(L_1);
+		IPAddressCollection_SetReadOnly_m3648147413(L_1, /*hidden argument*/NULL);
+		IPAddressCollection_t2986660307 * L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Net.NetworkInformation.IPAddressCollection System.Net.NetworkInformation.UnixIPInterfaceProperties::get_DnsAddresses()
+extern "C"  IPAddressCollection_t2986660307 * UnixIPInterfaceProperties_get_DnsAddresses_m2661625179 (UnixIPInterfaceProperties_t2418091637 * __this, const MethodInfo* method)
+{
+	{
+		UnixIPInterfaceProperties_ParseResolvConf_m1769674119(__this, /*hidden argument*/NULL);
+		IPAddressCollection_t2986660307 * L_0 = __this->get_dns_servers_3();
+		return L_0;
+	}
+}
+// System.String System.Net.NetworkInformation.UnixIPInterfaceProperties::get_DnsSuffix()
+extern "C"  String_t* UnixIPInterfaceProperties_get_DnsSuffix_m399310525 (UnixIPInterfaceProperties_t2418091637 * __this, const MethodInfo* method)
+{
+	{
+		UnixIPInterfaceProperties_ParseResolvConf_m1769674119(__this, /*hidden argument*/NULL);
+		String_t* L_0 = __this->get_dns_suffix_5();
+		return L_0;
+	}
+}
+// System.Net.NetworkInformation.GatewayIPAddressInformationCollection System.Net.NetworkInformation.UnixIPInterfaceProperties::get_GatewayAddresses()
+extern "C"  GatewayIPAddressInformationCollection_t3537717171 * UnixIPInterfaceProperties_get_GatewayAddresses_m2871647616 (UnixIPInterfaceProperties_t2418091637 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnixIPInterfaceProperties_get_GatewayAddresses_m2871647616_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnixNetworkInterface_t1000704527 * L_0 = __this->get_iface_1();
+		NullCheck(L_0);
+		String_t* L_1 = VirtFuncInvoker0< String_t* >::Invoke(11 /* System.String System.Net.NetworkInformation.UnixNetworkInterface::get_Name() */, L_0);
+		NullCheck(L_1);
+		String_t* L_2 = String_ToString_m3226660001(L_1, /*hidden argument*/NULL);
+		UnixIPInterfaceProperties_ParseRouteInfo_m3187707635(__this, L_2, /*hidden argument*/NULL);
+		IPAddressCollection_t2986660307 * L_3 = __this->get_gateways_4();
+		NullCheck(L_3);
+		int32_t L_4 = VirtFuncInvoker0< int32_t >::Invoke(19 /* System.Int32 System.Net.NetworkInformation.IPAddressCollection::get_Count() */, L_3);
+		if ((((int32_t)L_4) <= ((int32_t)0)))
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		IPAddressCollection_t2986660307 * L_5 = __this->get_gateways_4();
+		LinuxGatewayIPAddressInformationCollection_t2323845969 * L_6 = (LinuxGatewayIPAddressInformationCollection_t2323845969 *)il2cpp_codegen_object_new(LinuxGatewayIPAddressInformationCollection_t2323845969_il2cpp_TypeInfo_var);
+		LinuxGatewayIPAddressInformationCollection__ctor_m165845022(L_6, L_5, /*hidden argument*/NULL);
+		return L_6;
+	}
+
+IL_0033:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LinuxGatewayIPAddressInformationCollection_t2323845969_il2cpp_TypeInfo_var);
+		LinuxGatewayIPAddressInformationCollection_t2323845969 * L_7 = ((LinuxGatewayIPAddressInformationCollection_t2323845969_StaticFields*)LinuxGatewayIPAddressInformationCollection_t2323845969_il2cpp_TypeInfo_var->static_fields)->get_Empty_1();
+		return L_7;
+	}
+}
+// System.Boolean System.Net.NetworkInformation.UnixIPInterfaceProperties::get_IsDnsEnabled()
+extern "C"  bool UnixIPInterfaceProperties_get_IsDnsEnabled_m1187034728 (UnixIPInterfaceProperties_t2418091637 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Boolean System.Net.NetworkInformation.UnixIPInterfaceProperties::get_IsDynamicDnsEnabled()
+extern "C"  bool UnixIPInterfaceProperties_get_IsDynamicDnsEnabled_m804247561 (UnixIPInterfaceProperties_t2418091637 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)0;
+	}
+}
+// System.Net.NetworkInformation.MulticastIPAddressInformationCollection System.Net.NetworkInformation.UnixIPInterfaceProperties::get_MulticastAddresses()
+extern "C"  MulticastIPAddressInformationCollection_t2350102231 * UnixIPInterfaceProperties_get_MulticastAddresses_m3342849016 (UnixIPInterfaceProperties_t2418091637 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnixIPInterfaceProperties_get_MulticastAddresses_m3342849016_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t769092855 * V_0 = NULL;
+	IPAddress_t1399971723 * V_1 = NULL;
+	Enumerator_t303822529  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	ByteU5BU5D_t3397334013* V_3 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		List_1_t769092855 * L_0 = (List_1_t769092855 *)il2cpp_codegen_object_new(List_1_t769092855_il2cpp_TypeInfo_var);
+		List_1__ctor_m1201304789(L_0, /*hidden argument*/List_1__ctor_m1201304789_MethodInfo_var);
+		V_0 = L_0;
+		List_1_t769092855 * L_1 = __this->get_addresses_2();
+		NullCheck(L_1);
+		Enumerator_t303822529  L_2 = List_1_GetEnumerator_m689108514(L_1, /*hidden argument*/List_1_GetEnumerator_m689108514_MethodInfo_var);
+		V_2 = L_2;
+	}
+
+IL_0012:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0047;
+		}
+
+IL_0017:
+		{
+			IPAddress_t1399971723 * L_3 = Enumerator_get_Current_m1324985930((&V_2), /*hidden argument*/Enumerator_get_Current_m1324985930_MethodInfo_var);
+			V_1 = L_3;
+			IPAddress_t1399971723 * L_4 = V_1;
+			NullCheck(L_4);
+			ByteU5BU5D_t3397334013* L_5 = IPAddress_GetAddressBytes_m3037024450(L_4, /*hidden argument*/NULL);
+			V_3 = L_5;
+			ByteU5BU5D_t3397334013* L_6 = V_3;
+			NullCheck(L_6);
+			int32_t L_7 = 0;
+			uint8_t L_8 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+			if ((((int32_t)L_8) < ((int32_t)((int32_t)224))))
+			{
+				goto IL_0047;
+			}
+		}
+
+IL_0033:
+		{
+			ByteU5BU5D_t3397334013* L_9 = V_3;
+			NullCheck(L_9);
+			int32_t L_10 = 0;
+			uint8_t L_11 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
+			if ((((int32_t)L_11) > ((int32_t)((int32_t)239))))
+			{
+				goto IL_0047;
+			}
+		}
+
+IL_0040:
+		{
+			List_1_t769092855 * L_12 = V_0;
+			IPAddress_t1399971723 * L_13 = V_1;
+			NullCheck(L_12);
+			List_1_Add_m1891959289(L_12, L_13, /*hidden argument*/List_1_Add_m1891959289_MethodInfo_var);
+		}
+
+IL_0047:
+		{
+			bool L_14 = Enumerator_MoveNext_m1308422700((&V_2), /*hidden argument*/Enumerator_MoveNext_m1308422700_MethodInfo_var);
+			if (L_14)
+			{
+				goto IL_0017;
+			}
+		}
+
+IL_0053:
+		{
+			IL2CPP_LEAVE(0x64, FINALLY_0058);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0058;
+	}
+
+FINALLY_0058:
+	{ // begin finally (depth: 1)
+		Enumerator_t303822529  L_15 = V_2;
+		Enumerator_t303822529  L_16 = L_15;
+		Il2CppObject * L_17 = Box(Enumerator_t303822529_il2cpp_TypeInfo_var, &L_16);
+		NullCheck((Il2CppObject *)L_17);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, (Il2CppObject *)L_17);
+		IL2CPP_END_FINALLY(88)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(88)
+	{
+		IL2CPP_JUMP_TBL(0x64, IL_0064)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0064:
+	{
+		List_1_t769092855 * L_18 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(MulticastIPAddressInformationImplCollection_t3355839275_il2cpp_TypeInfo_var);
+		MulticastIPAddressInformationImplCollection_t3355839275 * L_19 = MulticastIPAddressInformationImplCollection_LinuxFromList_m2160439574(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
+		return L_19;
+	}
+}
+// System.Net.NetworkInformation.UnicastIPAddressInformationCollection System.Net.NetworkInformation.UnixIPInterfaceProperties::get_UnicastAddresses()
+extern "C"  UnicastIPAddressInformationCollection_t347163204 * UnixIPInterfaceProperties_get_UnicastAddresses_m3939955578 (UnixIPInterfaceProperties_t2418091637 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnixIPInterfaceProperties_get_UnicastAddresses_m3939955578_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t769092855 * V_0 = NULL;
+	IPAddress_t1399971723 * V_1 = NULL;
+	Enumerator_t303822529  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	uint8_t V_3 = 0x0;
+	int32_t V_4 = 0;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		List_1_t769092855 * L_0 = (List_1_t769092855 *)il2cpp_codegen_object_new(List_1_t769092855_il2cpp_TypeInfo_var);
+		List_1__ctor_m1201304789(L_0, /*hidden argument*/List_1__ctor_m1201304789_MethodInfo_var);
+		V_0 = L_0;
+		List_1_t769092855 * L_1 = __this->get_addresses_2();
+		NullCheck(L_1);
+		Enumerator_t303822529  L_2 = List_1_GetEnumerator_m689108514(L_1, /*hidden argument*/List_1_GetEnumerator_m689108514_MethodInfo_var);
+		V_2 = L_2;
+	}
+
+IL_0012:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0089;
+		}
+
+IL_0017:
+		{
+			IPAddress_t1399971723 * L_3 = Enumerator_get_Current_m1324985930((&V_2), /*hidden argument*/Enumerator_get_Current_m1324985930_MethodInfo_var);
+			V_1 = L_3;
+			IPAddress_t1399971723 * L_4 = V_1;
+			NullCheck(L_4);
+			int32_t L_5 = IPAddress_get_AddressFamily_m2727317531(L_4, /*hidden argument*/NULL);
+			V_4 = L_5;
+			int32_t L_6 = V_4;
+			if ((((int32_t)L_6) == ((int32_t)2)))
+			{
+				goto IL_003d;
+			}
+		}
+
+IL_002f:
+		{
+			int32_t L_7 = V_4;
+			if ((((int32_t)L_7) == ((int32_t)((int32_t)23))))
+			{
+				goto IL_006d;
+			}
+		}
+
+IL_0038:
+		{
+			goto IL_0089;
+		}
+
+IL_003d:
+		{
+			IPAddress_t1399971723 * L_8 = V_1;
+			NullCheck(L_8);
+			ByteU5BU5D_t3397334013* L_9 = IPAddress_GetAddressBytes_m3037024450(L_8, /*hidden argument*/NULL);
+			NullCheck(L_9);
+			int32_t L_10 = 0;
+			uint8_t L_11 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
+			V_3 = L_11;
+			uint8_t L_12 = V_3;
+			if ((((int32_t)L_12) < ((int32_t)((int32_t)224))))
+			{
+				goto IL_0061;
+			}
+		}
+
+IL_0051:
+		{
+			uint8_t L_13 = V_3;
+			if ((((int32_t)L_13) > ((int32_t)((int32_t)239))))
+			{
+				goto IL_0061;
+			}
+		}
+
+IL_005c:
+		{
+			goto IL_0089;
+		}
+
+IL_0061:
+		{
+			List_1_t769092855 * L_14 = V_0;
+			IPAddress_t1399971723 * L_15 = V_1;
+			NullCheck(L_14);
+			List_1_Add_m1891959289(L_14, L_15, /*hidden argument*/List_1_Add_m1891959289_MethodInfo_var);
+			goto IL_0089;
+		}
+
+IL_006d:
+		{
+			IPAddress_t1399971723 * L_16 = V_1;
+			NullCheck(L_16);
+			bool L_17 = IPAddress_get_IsIPv6Multicast_m210901837(L_16, /*hidden argument*/NULL);
+			if (!L_17)
+			{
+				goto IL_007d;
+			}
+		}
+
+IL_0078:
+		{
+			goto IL_0089;
+		}
+
+IL_007d:
+		{
+			List_1_t769092855 * L_18 = V_0;
+			IPAddress_t1399971723 * L_19 = V_1;
+			NullCheck(L_18);
+			List_1_Add_m1891959289(L_18, L_19, /*hidden argument*/List_1_Add_m1891959289_MethodInfo_var);
+			goto IL_0089;
+		}
+
+IL_0089:
+		{
+			bool L_20 = Enumerator_MoveNext_m1308422700((&V_2), /*hidden argument*/Enumerator_MoveNext_m1308422700_MethodInfo_var);
+			if (L_20)
+			{
+				goto IL_0017;
+			}
+		}
+
+IL_0095:
+		{
+			IL2CPP_LEAVE(0xA6, FINALLY_009a);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_009a;
+	}
+
+FINALLY_009a:
+	{ // begin finally (depth: 1)
+		Enumerator_t303822529  L_21 = V_2;
+		Enumerator_t303822529  L_22 = L_21;
+		Il2CppObject * L_23 = Box(Enumerator_t303822529_il2cpp_TypeInfo_var, &L_22);
+		NullCheck((Il2CppObject *)L_23);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, (Il2CppObject *)L_23);
+		IL2CPP_END_FINALLY(154)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(154)
+	{
+		IL2CPP_JUMP_TBL(0xA6, IL_00a6)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_00a6:
+	{
+		List_1_t769092855 * L_24 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnicastIPAddressInformationImplCollection_t771061202_il2cpp_TypeInfo_var);
+		UnicastIPAddressInformationCollection_t347163204 * L_25 = UnicastIPAddressInformationImplCollection_LinuxFromList_m1985813080(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
+		return L_25;
+	}
+}
+// System.Net.NetworkInformation.IPAddressCollection System.Net.NetworkInformation.UnixIPInterfaceProperties::get_WinsServersAddresses()
+extern "C"  IPAddressCollection_t2986660307 * UnixIPInterfaceProperties_get_WinsServersAddresses_m3441214819 (UnixIPInterfaceProperties_t2418091637 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnixIPInterfaceProperties_get_WinsServersAddresses_m3441214819_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IPAddressCollection_t2986660307 * L_0 = (IPAddressCollection_t2986660307 *)il2cpp_codegen_object_new(IPAddressCollection_t2986660307_il2cpp_TypeInfo_var);
+		IPAddressCollection__ctor_m3768432617(L_0, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Void System.Net.NetworkInformation.UnixIPv4InterfaceProperties::.ctor(System.Net.NetworkInformation.UnixNetworkInterface)
+extern "C"  void UnixIPv4InterfaceProperties__ctor_m796527670 (UnixIPv4InterfaceProperties_t179777771 * __this, UnixNetworkInterface_t1000704527 * ___iface0, const MethodInfo* method)
+{
+	{
+		IPv4InterfaceProperties__ctor_m3167868243(__this, /*hidden argument*/NULL);
+		UnixNetworkInterface_t1000704527 * L_0 = ___iface0;
+		__this->set_iface_0(L_0);
+		return;
+	}
+}
+// System.Int32 System.Net.NetworkInformation.UnixIPv4InterfaceProperties::get_Index()
+extern "C"  int32_t UnixIPv4InterfaceProperties_get_Index_m2935970524 (UnixIPv4InterfaceProperties_t179777771 * __this, const MethodInfo* method)
+{
+	{
+		UnixNetworkInterface_t1000704527 * L_0 = __this->get_iface_0();
+		NullCheck(L_0);
+		String_t* L_1 = VirtFuncInvoker0< String_t* >::Invoke(11 /* System.String System.Net.NetworkInformation.UnixNetworkInterface::get_Name() */, L_0);
+		int32_t L_2 = UnixNetworkInterface_IfNameToIndex_m2220849490(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// System.Boolean System.Net.NetworkInformation.UnixIPv4InterfaceProperties::get_IsAutomaticPrivateAddressingActive()
+extern "C"  bool UnixIPv4InterfaceProperties_get_IsAutomaticPrivateAddressingActive_m997945974 (UnixIPv4InterfaceProperties_t179777771 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)0;
+	}
+}
+// System.Boolean System.Net.NetworkInformation.UnixIPv4InterfaceProperties::get_IsAutomaticPrivateAddressingEnabled()
+extern "C"  bool UnixIPv4InterfaceProperties_get_IsAutomaticPrivateAddressingEnabled_m493688961 (UnixIPv4InterfaceProperties_t179777771 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)0;
+	}
+}
+// System.Boolean System.Net.NetworkInformation.UnixIPv4InterfaceProperties::get_IsDhcpEnabled()
+extern "C"  bool UnixIPv4InterfaceProperties_get_IsDhcpEnabled_m1218923620 (UnixIPv4InterfaceProperties_t179777771 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)0;
+	}
+}
+// System.Boolean System.Net.NetworkInformation.UnixIPv4InterfaceProperties::get_UsesWins()
+extern "C"  bool UnixIPv4InterfaceProperties_get_UsesWins_m1680669455 (UnixIPv4InterfaceProperties_t179777771 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)0;
+	}
+}
+// System.Void System.Net.NetworkInformation.UnixNetworkInterface::.ctor(System.String)
+extern "C"  void UnixNetworkInterface__ctor_m1628672279 (UnixNetworkInterface_t1000704527 * __this, String_t* ___name0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnixNetworkInterface__ctor_m1628672279_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(NetworkInterface_t63927633_il2cpp_TypeInfo_var);
+		NetworkInterface__ctor_m759220571(__this, /*hidden argument*/NULL);
+		String_t* L_0 = ___name0;
+		__this->set_name_4(L_0);
+		List_1_t769092855 * L_1 = (List_1_t769092855 *)il2cpp_codegen_object_new(List_1_t769092855_il2cpp_TypeInfo_var);
+		List_1__ctor_m1201304789(L_1, /*hidden argument*/List_1__ctor_m1201304789_MethodInfo_var);
+		__this->set_addresses_6(L_1);
+		return;
+	}
+}
+// System.Int32 System.Net.NetworkInformation.UnixNetworkInterface::if_nametoindex(System.String)
+extern "C"  int32_t UnixNetworkInterface_if_nametoindex_m914101067 (Il2CppObject * __this /* static, unused */, String_t* ___ifname0, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*);
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(char*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("libc"), "if_nametoindex", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+
+		if (il2cppPInvokeFunc == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'if_nametoindex'"));
+		}
+	}
+
+	// Marshaling of parameter '___ifname0' to native representation
+	char* ____ifname0_marshaled = NULL;
+	____ifname0_marshaled = il2cpp_codegen_marshal_string(___ifname0);
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(____ifname0_marshaled);
+
+	// Marshaling cleanup of parameter '___ifname0' native representation
+	il2cpp_codegen_marshal_free(____ifname0_marshaled);
+	____ifname0_marshaled = NULL;
+
+	return returnValue;
+}
+// System.Int32 System.Net.NetworkInformation.UnixNetworkInterface::IfNameToIndex(System.String)
+extern "C"  int32_t UnixNetworkInterface_IfNameToIndex_m2220849490 (Il2CppObject * __this /* static, unused */, String_t* ___ifname0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___ifname0;
+		int32_t L_1 = UnixNetworkInterface_if_nametoindex_m914101067(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Void System.Net.NetworkInformation.UnixNetworkInterface::AddAddress(System.Net.IPAddress)
+extern "C"  void UnixNetworkInterface_AddAddress_m1147233883 (UnixNetworkInterface_t1000704527 * __this, IPAddress_t1399971723 * ___address0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnixNetworkInterface_AddAddress_m1147233883_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t769092855 * L_0 = __this->get_addresses_6();
+		IPAddress_t1399971723 * L_1 = ___address0;
+		NullCheck(L_0);
+		List_1_Add_m1891959289(L_0, L_1, /*hidden argument*/List_1_Add_m1891959289_MethodInfo_var);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.UnixNetworkInterface::SetLinkLayerInfo(System.Int32,System.Byte[],System.Net.NetworkInformation.NetworkInterfaceType)
+extern "C"  void UnixNetworkInterface_SetLinkLayerInfo_m963974689 (UnixNetworkInterface_t1000704527 * __this, int32_t ___index0, ByteU5BU5D_t3397334013* ___macAddress1, int32_t ___type2, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___index0;
+		__this->set_index_5(L_0);
+		ByteU5BU5D_t3397334013* L_1 = ___macAddress1;
+		__this->set_macAddress_7(L_1);
+		int32_t L_2 = ___type2;
+		__this->set_type_8(L_2);
+		return;
+	}
+}
+// System.Net.NetworkInformation.PhysicalAddress System.Net.NetworkInformation.UnixNetworkInterface::GetPhysicalAddress()
+extern "C"  PhysicalAddress_t1613893277 * UnixNetworkInterface_GetPhysicalAddress_m850246500 (UnixNetworkInterface_t1000704527 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnixNetworkInterface_GetPhysicalAddress_m850246500_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ByteU5BU5D_t3397334013* L_0 = __this->get_macAddress_7();
+		if (!L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		ByteU5BU5D_t3397334013* L_1 = __this->get_macAddress_7();
+		PhysicalAddress_t1613893277 * L_2 = (PhysicalAddress_t1613893277 *)il2cpp_codegen_object_new(PhysicalAddress_t1613893277_il2cpp_TypeInfo_var);
+		PhysicalAddress__ctor_m3260893292(L_2, L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+
+IL_0017:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(PhysicalAddress_t1613893277_il2cpp_TypeInfo_var);
+		PhysicalAddress_t1613893277 * L_3 = ((PhysicalAddress_t1613893277_StaticFields*)PhysicalAddress_t1613893277_il2cpp_TypeInfo_var->static_fields)->get_None_1();
+		return L_3;
+	}
+}
+// System.Boolean System.Net.NetworkInformation.UnixNetworkInterface::Supports(System.Net.NetworkInformation.NetworkInterfaceComponent)
+extern "C"  bool UnixNetworkInterface_Supports_m4255863179 (UnixNetworkInterface_t1000704527 * __this, int32_t ___networkInterfaceComponent0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnixNetworkInterface_Supports_m4255863179_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	IPAddress_t1399971723 * V_2 = NULL;
+	Enumerator_t303822529  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	bool V_4 = false;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	int32_t G_B3_0 = 0;
+	{
+		int32_t L_0 = ___networkInterfaceComponent0;
+		V_0 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		G_B3_0 = 0;
+		goto IL_0015;
+	}
+
+IL_0011:
+	{
+		int32_t L_2 = ___networkInterfaceComponent0;
+		G_B3_0 = ((((int32_t)L_2) == ((int32_t)1))? 1 : 0);
+	}
+
+IL_0015:
+	{
+		V_1 = (bool)G_B3_0;
+		List_1_t769092855 * L_3 = __this->get_addresses_6();
+		NullCheck(L_3);
+		Enumerator_t303822529  L_4 = List_1_GetEnumerator_m689108514(L_3, /*hidden argument*/List_1_GetEnumerator_m689108514_MethodInfo_var);
+		V_3 = L_4;
+	}
+
+IL_0022:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0064;
+		}
+
+IL_0027:
+		{
+			IPAddress_t1399971723 * L_5 = Enumerator_get_Current_m1324985930((&V_3), /*hidden argument*/Enumerator_get_Current_m1324985930_MethodInfo_var);
+			V_2 = L_5;
+			bool L_6 = V_0;
+			if (!L_6)
+			{
+				goto IL_0049;
+			}
+		}
+
+IL_0035:
+		{
+			IPAddress_t1399971723 * L_7 = V_2;
+			NullCheck(L_7);
+			int32_t L_8 = IPAddress_get_AddressFamily_m2727317531(L_7, /*hidden argument*/NULL);
+			if ((!(((uint32_t)L_8) == ((uint32_t)2))))
+			{
+				goto IL_0049;
+			}
+		}
+
+IL_0041:
+		{
+			V_4 = (bool)1;
+			IL2CPP_LEAVE(0x83, FINALLY_0075);
+		}
+
+IL_0049:
+		{
+			bool L_9 = V_1;
+			if (!L_9)
+			{
+				goto IL_0064;
+			}
+		}
+
+IL_004f:
+		{
+			IPAddress_t1399971723 * L_10 = V_2;
+			NullCheck(L_10);
+			int32_t L_11 = IPAddress_get_AddressFamily_m2727317531(L_10, /*hidden argument*/NULL);
+			if ((!(((uint32_t)L_11) == ((uint32_t)((int32_t)23)))))
+			{
+				goto IL_0064;
+			}
+		}
+
+IL_005c:
+		{
+			V_4 = (bool)1;
+			IL2CPP_LEAVE(0x83, FINALLY_0075);
+		}
+
+IL_0064:
+		{
+			bool L_12 = Enumerator_MoveNext_m1308422700((&V_3), /*hidden argument*/Enumerator_MoveNext_m1308422700_MethodInfo_var);
+			if (L_12)
+			{
+				goto IL_0027;
+			}
+		}
+
+IL_0070:
+		{
+			IL2CPP_LEAVE(0x81, FINALLY_0075);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0075;
+	}
+
+FINALLY_0075:
+	{ // begin finally (depth: 1)
+		Enumerator_t303822529  L_13 = V_3;
+		Enumerator_t303822529  L_14 = L_13;
+		Il2CppObject * L_15 = Box(Enumerator_t303822529_il2cpp_TypeInfo_var, &L_14);
+		NullCheck((Il2CppObject *)L_15);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, (Il2CppObject *)L_15);
+		IL2CPP_END_FINALLY(117)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(117)
+	{
+		IL2CPP_JUMP_TBL(0x83, IL_0083)
+		IL2CPP_JUMP_TBL(0x81, IL_0081)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0081:
+	{
+		return (bool)0;
+	}
+
+IL_0083:
+	{
+		bool L_16 = V_4;
+		return L_16;
+	}
+}
+// System.String System.Net.NetworkInformation.UnixNetworkInterface::get_Description()
+extern "C"  String_t* UnixNetworkInterface_get_Description_m3343923659 (UnixNetworkInterface_t1000704527 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get_name_4();
+		return L_0;
+	}
+}
+// System.String System.Net.NetworkInformation.UnixNetworkInterface::get_Id()
+extern "C"  String_t* UnixNetworkInterface_get_Id_m1468762350 (UnixNetworkInterface_t1000704527 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get_name_4();
+		return L_0;
+	}
+}
+// System.Boolean System.Net.NetworkInformation.UnixNetworkInterface::get_IsReceiveOnly()
+extern "C"  bool UnixNetworkInterface_get_IsReceiveOnly_m323929921 (UnixNetworkInterface_t1000704527 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)0;
+	}
+}
+// System.String System.Net.NetworkInformation.UnixNetworkInterface::get_Name()
+extern "C"  String_t* UnixNetworkInterface_get_Name_m2233112620 (UnixNetworkInterface_t1000704527 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get_name_4();
+		return L_0;
+	}
+}
+// System.Net.NetworkInformation.NetworkInterfaceType System.Net.NetworkInformation.UnixNetworkInterface::get_NetworkInterfaceType()
+extern "C"  int32_t UnixNetworkInterface_get_NetworkInterfaceType_m637614177 (UnixNetworkInterface_t1000704527 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_type_8();
+		return L_0;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.UnixNetworkInterface::get_Speed()
+extern "C"  int64_t UnixNetworkInterface_get_Speed_m3851562976 (UnixNetworkInterface_t1000704527 * __this, const MethodInfo* method)
+{
+	{
+		return (((int64_t)((int64_t)((int32_t)1000000))));
+	}
+}
+
+
+// Conversion methods for marshalling of: System.Net.NetworkInformation.Win32_FIXED_INFO
+extern "C" void Win32_FIXED_INFO_t1371335919_marshal_pinvoke(const Win32_FIXED_INFO_t1371335919& unmarshaled, Win32_FIXED_INFO_t1371335919_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_marshal_string_fixed(unmarshaled.get_HostName_4(), (char*)&marshaled.___HostName_4, 132);
+	il2cpp_codegen_marshal_string_fixed(unmarshaled.get_DomainName_5(), (char*)&marshaled.___DomainName_5, 132);
+	marshaled.___CurrentDnsServer_6 = reinterpret_cast<intptr_t>((unmarshaled.get_CurrentDnsServer_6()).get_m_value_0());
+	Win32_IP_ADDR_STRING_t2646152127_marshal_pinvoke(unmarshaled.get_DnsServerList_7(), marshaled.___DnsServerList_7);
+	marshaled.___NodeType_8 = unmarshaled.get_NodeType_8();
+	il2cpp_codegen_marshal_string_fixed(unmarshaled.get_ScopeId_9(), (char*)&marshaled.___ScopeId_9, 260);
+	marshaled.___EnableRouting_10 = unmarshaled.get_EnableRouting_10();
+	marshaled.___EnableProxy_11 = unmarshaled.get_EnableProxy_11();
+	marshaled.___EnableDns_12 = unmarshaled.get_EnableDns_12();
+}
+extern "C" void Win32_FIXED_INFO_t1371335919_marshal_pinvoke_back(const Win32_FIXED_INFO_t1371335919_marshaled_pinvoke& marshaled, Win32_FIXED_INFO_t1371335919& unmarshaled)
+{
+	unmarshaled.set_HostName_4(il2cpp_codegen_marshal_string_result(marshaled.___HostName_4));
+	unmarshaled.set_DomainName_5(il2cpp_codegen_marshal_string_result(marshaled.___DomainName_5));
+	IntPtr_t unmarshaled_CurrentDnsServer_temp_2;
+	memset(&unmarshaled_CurrentDnsServer_temp_2, 0, sizeof(unmarshaled_CurrentDnsServer_temp_2));
+	IntPtr_t unmarshaled_CurrentDnsServer_temp_2_temp;
+	unmarshaled_CurrentDnsServer_temp_2_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(marshaled.___CurrentDnsServer_6)));
+	unmarshaled_CurrentDnsServer_temp_2 = unmarshaled_CurrentDnsServer_temp_2_temp;
+	unmarshaled.set_CurrentDnsServer_6(unmarshaled_CurrentDnsServer_temp_2);
+	Win32_IP_ADDR_STRING_t2646152127  unmarshaled_DnsServerList_temp_3;
+	memset(&unmarshaled_DnsServerList_temp_3, 0, sizeof(unmarshaled_DnsServerList_temp_3));
+	Win32_IP_ADDR_STRING_t2646152127_marshal_pinvoke_back(marshaled.___DnsServerList_7, unmarshaled_DnsServerList_temp_3);
+	unmarshaled.set_DnsServerList_7(unmarshaled_DnsServerList_temp_3);
+	int32_t unmarshaled_NodeType_temp_4 = 0;
+	unmarshaled_NodeType_temp_4 = marshaled.___NodeType_8;
+	unmarshaled.set_NodeType_8(unmarshaled_NodeType_temp_4);
+	unmarshaled.set_ScopeId_9(il2cpp_codegen_marshal_string_result(marshaled.___ScopeId_9));
+	uint32_t unmarshaled_EnableRouting_temp_6 = 0;
+	unmarshaled_EnableRouting_temp_6 = marshaled.___EnableRouting_10;
+	unmarshaled.set_EnableRouting_10(unmarshaled_EnableRouting_temp_6);
+	uint32_t unmarshaled_EnableProxy_temp_7 = 0;
+	unmarshaled_EnableProxy_temp_7 = marshaled.___EnableProxy_11;
+	unmarshaled.set_EnableProxy_11(unmarshaled_EnableProxy_temp_7);
+	uint32_t unmarshaled_EnableDns_temp_8 = 0;
+	unmarshaled_EnableDns_temp_8 = marshaled.___EnableDns_12;
+	unmarshaled.set_EnableDns_12(unmarshaled_EnableDns_temp_8);
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.Win32_FIXED_INFO
+extern "C" void Win32_FIXED_INFO_t1371335919_marshal_pinvoke_cleanup(Win32_FIXED_INFO_t1371335919_marshaled_pinvoke& marshaled)
+{
+	Win32_IP_ADDR_STRING_t2646152127_marshal_pinvoke_cleanup(marshaled.___DnsServerList_7);
+}
+
+
+// Conversion methods for marshalling of: System.Net.NetworkInformation.Win32_FIXED_INFO
+extern "C" void Win32_FIXED_INFO_t1371335919_marshal_com(const Win32_FIXED_INFO_t1371335919& unmarshaled, Win32_FIXED_INFO_t1371335919_marshaled_com& marshaled)
+{
+	il2cpp_codegen_marshal_string_fixed(unmarshaled.get_HostName_4(), (char*)&marshaled.___HostName_4, 132);
+	il2cpp_codegen_marshal_string_fixed(unmarshaled.get_DomainName_5(), (char*)&marshaled.___DomainName_5, 132);
+	marshaled.___CurrentDnsServer_6 = reinterpret_cast<intptr_t>((unmarshaled.get_CurrentDnsServer_6()).get_m_value_0());
+	Win32_IP_ADDR_STRING_t2646152127_marshal_com(unmarshaled.get_DnsServerList_7(), marshaled.___DnsServerList_7);
+	marshaled.___NodeType_8 = unmarshaled.get_NodeType_8();
+	il2cpp_codegen_marshal_string_fixed(unmarshaled.get_ScopeId_9(), (char*)&marshaled.___ScopeId_9, 260);
+	marshaled.___EnableRouting_10 = unmarshaled.get_EnableRouting_10();
+	marshaled.___EnableProxy_11 = unmarshaled.get_EnableProxy_11();
+	marshaled.___EnableDns_12 = unmarshaled.get_EnableDns_12();
+}
+extern "C" void Win32_FIXED_INFO_t1371335919_marshal_com_back(const Win32_FIXED_INFO_t1371335919_marshaled_com& marshaled, Win32_FIXED_INFO_t1371335919& unmarshaled)
+{
+	unmarshaled.set_HostName_4(il2cpp_codegen_marshal_string_result(marshaled.___HostName_4));
+	unmarshaled.set_DomainName_5(il2cpp_codegen_marshal_string_result(marshaled.___DomainName_5));
+	IntPtr_t unmarshaled_CurrentDnsServer_temp_2;
+	memset(&unmarshaled_CurrentDnsServer_temp_2, 0, sizeof(unmarshaled_CurrentDnsServer_temp_2));
+	IntPtr_t unmarshaled_CurrentDnsServer_temp_2_temp;
+	unmarshaled_CurrentDnsServer_temp_2_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(marshaled.___CurrentDnsServer_6)));
+	unmarshaled_CurrentDnsServer_temp_2 = unmarshaled_CurrentDnsServer_temp_2_temp;
+	unmarshaled.set_CurrentDnsServer_6(unmarshaled_CurrentDnsServer_temp_2);
+	Win32_IP_ADDR_STRING_t2646152127  unmarshaled_DnsServerList_temp_3;
+	memset(&unmarshaled_DnsServerList_temp_3, 0, sizeof(unmarshaled_DnsServerList_temp_3));
+	Win32_IP_ADDR_STRING_t2646152127_marshal_com_back(marshaled.___DnsServerList_7, unmarshaled_DnsServerList_temp_3);
+	unmarshaled.set_DnsServerList_7(unmarshaled_DnsServerList_temp_3);
+	int32_t unmarshaled_NodeType_temp_4 = 0;
+	unmarshaled_NodeType_temp_4 = marshaled.___NodeType_8;
+	unmarshaled.set_NodeType_8(unmarshaled_NodeType_temp_4);
+	unmarshaled.set_ScopeId_9(il2cpp_codegen_marshal_string_result(marshaled.___ScopeId_9));
+	uint32_t unmarshaled_EnableRouting_temp_6 = 0;
+	unmarshaled_EnableRouting_temp_6 = marshaled.___EnableRouting_10;
+	unmarshaled.set_EnableRouting_10(unmarshaled_EnableRouting_temp_6);
+	uint32_t unmarshaled_EnableProxy_temp_7 = 0;
+	unmarshaled_EnableProxy_temp_7 = marshaled.___EnableProxy_11;
+	unmarshaled.set_EnableProxy_11(unmarshaled_EnableProxy_temp_7);
+	uint32_t unmarshaled_EnableDns_temp_8 = 0;
+	unmarshaled_EnableDns_temp_8 = marshaled.___EnableDns_12;
+	unmarshaled.set_EnableDns_12(unmarshaled_EnableDns_temp_8);
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.Win32_FIXED_INFO
+extern "C" void Win32_FIXED_INFO_t1371335919_marshal_com_cleanup(Win32_FIXED_INFO_t1371335919_marshaled_com& marshaled)
+{
+	Win32_IP_ADDR_STRING_t2646152127_marshal_com_cleanup(marshaled.___DnsServerList_7);
+}
+// System.Void System.Net.NetworkInformation.Win32_FIXED_INFO::.ctor()
+extern "C"  void Win32_FIXED_INFO__ctor_m1139211445 (Win32_FIXED_INFO_t1371335919 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32 System.Net.NetworkInformation.Win32_FIXED_INFO::GetNetworkParams(System.Byte[],System.Int32&)
+extern "C"  int32_t Win32_FIXED_INFO_GetNetworkParams_m1190983035 (Il2CppObject * __this /* static, unused */, ByteU5BU5D_t3397334013* ___bytes0, int32_t* ___size1, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint8_t*, int32_t*);
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*) + sizeof(int32_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("iphlpapi.dll"), "GetNetworkParams", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+
+		if (il2cppPInvokeFunc == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'GetNetworkParams'"));
+		}
+	}
+
+	// Marshaling of parameter '___bytes0' to native representation
+	uint8_t* ____bytes0_marshaled = NULL;
+	if (___bytes0 != NULL)
+	{
+		____bytes0_marshaled = reinterpret_cast<uint8_t*>((___bytes0)->GetAddressAtUnchecked(0));
+	}
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(____bytes0_marshaled, ___size1);
+	il2cpp_codegen_marshal_store_last_error();
+
+	return returnValue;
+}
+// System.Net.NetworkInformation.Win32_FIXED_INFO System.Net.NetworkInformation.Win32_FIXED_INFO::get_Instance()
+extern "C"  Win32_FIXED_INFO_t1371335919 * Win32_FIXED_INFO_get_Instance_m1048441613 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32_FIXED_INFO_get_Instance_m1048441613_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Win32_FIXED_INFO_t1371335919 * L_0 = ((Win32_FIXED_INFO_t1371335919_StaticFields*)Win32_FIXED_INFO_t1371335919_il2cpp_TypeInfo_var->static_fields)->get_fixed_info_3();
+		if (L_0)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Win32_FIXED_INFO_t1371335919 * L_1 = Win32_FIXED_INFO_GetInstance_m1739170628(NULL /*static, unused*/, /*hidden argument*/NULL);
+		((Win32_FIXED_INFO_t1371335919_StaticFields*)Win32_FIXED_INFO_t1371335919_il2cpp_TypeInfo_var->static_fields)->set_fixed_info_3(L_1);
+	}
+
+IL_0014:
+	{
+		Win32_FIXED_INFO_t1371335919 * L_2 = ((Win32_FIXED_INFO_t1371335919_StaticFields*)Win32_FIXED_INFO_t1371335919_il2cpp_TypeInfo_var->static_fields)->get_fixed_info_3();
+		return L_2;
+	}
+}
+// System.Net.NetworkInformation.Win32_FIXED_INFO System.Net.NetworkInformation.Win32_FIXED_INFO::GetInstance()
+extern "C"  Win32_FIXED_INFO_t1371335919 * Win32_FIXED_INFO_GetInstance_m1739170628 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32_FIXED_INFO_GetInstance_m1739170628_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	ByteU5BU5D_t3397334013* V_1 = NULL;
+	Win32_FIXED_INFO_t1371335919 * V_2 = NULL;
+	uint8_t* V_3 = NULL;
+	uintptr_t G_B4_0 = 0;
+	{
+		V_0 = 0;
+		V_1 = (ByteU5BU5D_t3397334013*)NULL;
+		Win32_FIXED_INFO_GetNetworkParams_m1190983035(NULL /*static, unused*/, (ByteU5BU5D_t3397334013*)(ByteU5BU5D_t3397334013*)NULL, (&V_0), /*hidden argument*/NULL);
+		int32_t L_0 = V_0;
+		V_1 = ((ByteU5BU5D_t3397334013*)SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, (uint32_t)L_0));
+		ByteU5BU5D_t3397334013* L_1 = V_1;
+		Win32_FIXED_INFO_GetNetworkParams_m1190983035(NULL /*static, unused*/, L_1, (&V_0), /*hidden argument*/NULL);
+		Win32_FIXED_INFO_t1371335919 * L_2 = (Win32_FIXED_INFO_t1371335919 *)il2cpp_codegen_object_new(Win32_FIXED_INFO_t1371335919_il2cpp_TypeInfo_var);
+		Win32_FIXED_INFO__ctor_m1139211445(L_2, /*hidden argument*/NULL);
+		V_2 = L_2;
+		ByteU5BU5D_t3397334013* L_3 = V_1;
+		if (!L_3)
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		ByteU5BU5D_t3397334013* L_4 = V_1;
+		NullCheck(L_4);
+		if ((((int32_t)((int32_t)(((Il2CppArray *)L_4)->max_length)))))
+		{
+			goto IL_0038;
+		}
+	}
+
+IL_0031:
+	{
+		G_B4_0 = (((uintptr_t)0));
+		goto IL_003f;
+	}
+
+IL_0038:
+	{
+		ByteU5BU5D_t3397334013* L_5 = V_1;
+		NullCheck(L_5);
+		G_B4_0 = ((uintptr_t)(((L_5)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))));
+	}
+
+IL_003f:
+	{
+		V_3 = (uint8_t*)G_B4_0;
+		uint8_t* L_6 = V_3;
+		IntPtr_t L_7 = IntPtr_op_Explicit_m1401226878(NULL /*static, unused*/, (void*)(void*)L_6, /*hidden argument*/NULL);
+		Win32_FIXED_INFO_t1371335919 * L_8 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		Marshal_PtrToStructure_m2894472674(NULL /*static, unused*/, L_7, L_8, /*hidden argument*/NULL);
+		V_3 = (uint8_t*)(((uintptr_t)0));
+		Win32_FIXED_INFO_t1371335919 * L_9 = V_2;
+		return L_9;
+	}
+}
+// Conversion methods for marshalling of: System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES
+extern "C" void Win32_IP_ADAPTER_ADDRESSES_t680756680_marshal_pinvoke(const Win32_IP_ADAPTER_ADDRESSES_t680756680& unmarshaled, Win32_IP_ADAPTER_ADDRESSES_t680756680_marshaled_pinvoke& marshaled)
+{
+	marshaled.___Alignment_4 = unmarshaled.get_Alignment_4();
+	marshaled.___Next_5 = reinterpret_cast<intptr_t>((unmarshaled.get_Next_5()).get_m_value_0());
+	marshaled.___AdapterName_6 = il2cpp_codegen_marshal_string(unmarshaled.get_AdapterName_6());
+	marshaled.___FirstUnicastAddress_7 = reinterpret_cast<intptr_t>((unmarshaled.get_FirstUnicastAddress_7()).get_m_value_0());
+	marshaled.___FirstAnycastAddress_8 = reinterpret_cast<intptr_t>((unmarshaled.get_FirstAnycastAddress_8()).get_m_value_0());
+	marshaled.___FirstMulticastAddress_9 = reinterpret_cast<intptr_t>((unmarshaled.get_FirstMulticastAddress_9()).get_m_value_0());
+	marshaled.___FirstDnsServerAddress_10 = reinterpret_cast<intptr_t>((unmarshaled.get_FirstDnsServerAddress_10()).get_m_value_0());
+	marshaled.___DnsSuffix_11 = il2cpp_codegen_marshal_wstring(unmarshaled.get_DnsSuffix_11());
+	marshaled.___Description_12 = il2cpp_codegen_marshal_wstring(unmarshaled.get_Description_12());
+	marshaled.___FriendlyName_13 = il2cpp_codegen_marshal_wstring(unmarshaled.get_FriendlyName_13());
+	if (unmarshaled.get_PhysicalAddress_14() != NULL)
+	{
+		if (8 > (unmarshaled.get_PhysicalAddress_14())->max_length)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_exception("", "Type could not be marshaled because the length of an embedded array instance does not match the declared length in the layout."));
+		}
+
+		for (int32_t i = 0; i < 8; i++)
+		{
+			(marshaled.___PhysicalAddress_14)[i] = (unmarshaled.get_PhysicalAddress_14())->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i));
+		}
+	}
+	marshaled.___PhysicalAddressLength_15 = unmarshaled.get_PhysicalAddressLength_15();
+	marshaled.___Flags_16 = unmarshaled.get_Flags_16();
+	marshaled.___Mtu_17 = unmarshaled.get_Mtu_17();
+	marshaled.___IfType_18 = unmarshaled.get_IfType_18();
+	marshaled.___OperStatus_19 = unmarshaled.get_OperStatus_19();
+	marshaled.___Ipv6IfIndex_20 = unmarshaled.get_Ipv6IfIndex_20();
+	if (unmarshaled.get_ZoneIndices_21() != NULL)
+	{
+		if (64 > (unmarshaled.get_ZoneIndices_21())->max_length)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_exception("", "Type could not be marshaled because the length of an embedded array instance does not match the declared length in the layout."));
+		}
+
+		for (int32_t i = 0; i < 64; i++)
+		{
+			(marshaled.___ZoneIndices_21)[i] = (unmarshaled.get_ZoneIndices_21())->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i));
+		}
+	}
+}
+extern "C" void Win32_IP_ADAPTER_ADDRESSES_t680756680_marshal_pinvoke_back(const Win32_IP_ADAPTER_ADDRESSES_t680756680_marshaled_pinvoke& marshaled, Win32_IP_ADAPTER_ADDRESSES_t680756680& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32_IP_ADAPTER_ADDRESSES_t680756680_pinvoke_FromNativeMethodDefinition_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	AlignmentUnion_t707470070  unmarshaled_Alignment_temp_0;
+	memset(&unmarshaled_Alignment_temp_0, 0, sizeof(unmarshaled_Alignment_temp_0));
+	unmarshaled_Alignment_temp_0 = marshaled.___Alignment_4;
+	unmarshaled.set_Alignment_4(unmarshaled_Alignment_temp_0);
+	IntPtr_t unmarshaled_Next_temp_1;
+	memset(&unmarshaled_Next_temp_1, 0, sizeof(unmarshaled_Next_temp_1));
+	IntPtr_t unmarshaled_Next_temp_1_temp;
+	unmarshaled_Next_temp_1_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(marshaled.___Next_5)));
+	unmarshaled_Next_temp_1 = unmarshaled_Next_temp_1_temp;
+	unmarshaled.set_Next_5(unmarshaled_Next_temp_1);
+	unmarshaled.set_AdapterName_6(il2cpp_codegen_marshal_string_result(marshaled.___AdapterName_6));
+	IntPtr_t unmarshaled_FirstUnicastAddress_temp_3;
+	memset(&unmarshaled_FirstUnicastAddress_temp_3, 0, sizeof(unmarshaled_FirstUnicastAddress_temp_3));
+	IntPtr_t unmarshaled_FirstUnicastAddress_temp_3_temp;
+	unmarshaled_FirstUnicastAddress_temp_3_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(marshaled.___FirstUnicastAddress_7)));
+	unmarshaled_FirstUnicastAddress_temp_3 = unmarshaled_FirstUnicastAddress_temp_3_temp;
+	unmarshaled.set_FirstUnicastAddress_7(unmarshaled_FirstUnicastAddress_temp_3);
+	IntPtr_t unmarshaled_FirstAnycastAddress_temp_4;
+	memset(&unmarshaled_FirstAnycastAddress_temp_4, 0, sizeof(unmarshaled_FirstAnycastAddress_temp_4));
+	IntPtr_t unmarshaled_FirstAnycastAddress_temp_4_temp;
+	unmarshaled_FirstAnycastAddress_temp_4_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(marshaled.___FirstAnycastAddress_8)));
+	unmarshaled_FirstAnycastAddress_temp_4 = unmarshaled_FirstAnycastAddress_temp_4_temp;
+	unmarshaled.set_FirstAnycastAddress_8(unmarshaled_FirstAnycastAddress_temp_4);
+	IntPtr_t unmarshaled_FirstMulticastAddress_temp_5;
+	memset(&unmarshaled_FirstMulticastAddress_temp_5, 0, sizeof(unmarshaled_FirstMulticastAddress_temp_5));
+	IntPtr_t unmarshaled_FirstMulticastAddress_temp_5_temp;
+	unmarshaled_FirstMulticastAddress_temp_5_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(marshaled.___FirstMulticastAddress_9)));
+	unmarshaled_FirstMulticastAddress_temp_5 = unmarshaled_FirstMulticastAddress_temp_5_temp;
+	unmarshaled.set_FirstMulticastAddress_9(unmarshaled_FirstMulticastAddress_temp_5);
+	IntPtr_t unmarshaled_FirstDnsServerAddress_temp_6;
+	memset(&unmarshaled_FirstDnsServerAddress_temp_6, 0, sizeof(unmarshaled_FirstDnsServerAddress_temp_6));
+	IntPtr_t unmarshaled_FirstDnsServerAddress_temp_6_temp;
+	unmarshaled_FirstDnsServerAddress_temp_6_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(marshaled.___FirstDnsServerAddress_10)));
+	unmarshaled_FirstDnsServerAddress_temp_6 = unmarshaled_FirstDnsServerAddress_temp_6_temp;
+	unmarshaled.set_FirstDnsServerAddress_10(unmarshaled_FirstDnsServerAddress_temp_6);
+	unmarshaled.set_DnsSuffix_11(il2cpp_codegen_marshal_wstring_result(marshaled.___DnsSuffix_11));
+	unmarshaled.set_Description_12(il2cpp_codegen_marshal_wstring_result(marshaled.___Description_12));
+	unmarshaled.set_FriendlyName_13(il2cpp_codegen_marshal_wstring_result(marshaled.___FriendlyName_13));
+	unmarshaled.set_PhysicalAddress_14(reinterpret_cast<ByteU5BU5D_t3397334013*>(SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, 8)));
+	for (int32_t i = 0; i < 8; i++)
+	{
+		(unmarshaled.get_PhysicalAddress_14())->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), (marshaled.___PhysicalAddress_14)[i]);
+	}
+	uint32_t unmarshaled_PhysicalAddressLength_temp_11 = 0;
+	unmarshaled_PhysicalAddressLength_temp_11 = marshaled.___PhysicalAddressLength_15;
+	unmarshaled.set_PhysicalAddressLength_15(unmarshaled_PhysicalAddressLength_temp_11);
+	uint32_t unmarshaled_Flags_temp_12 = 0;
+	unmarshaled_Flags_temp_12 = marshaled.___Flags_16;
+	unmarshaled.set_Flags_16(unmarshaled_Flags_temp_12);
+	uint32_t unmarshaled_Mtu_temp_13 = 0;
+	unmarshaled_Mtu_temp_13 = marshaled.___Mtu_17;
+	unmarshaled.set_Mtu_17(unmarshaled_Mtu_temp_13);
+	int32_t unmarshaled_IfType_temp_14 = 0;
+	unmarshaled_IfType_temp_14 = marshaled.___IfType_18;
+	unmarshaled.set_IfType_18(unmarshaled_IfType_temp_14);
+	int32_t unmarshaled_OperStatus_temp_15 = 0;
+	unmarshaled_OperStatus_temp_15 = marshaled.___OperStatus_19;
+	unmarshaled.set_OperStatus_19(unmarshaled_OperStatus_temp_15);
+	int32_t unmarshaled_Ipv6IfIndex_temp_16 = 0;
+	unmarshaled_Ipv6IfIndex_temp_16 = marshaled.___Ipv6IfIndex_20;
+	unmarshaled.set_Ipv6IfIndex_20(unmarshaled_Ipv6IfIndex_temp_16);
+	unmarshaled.set_ZoneIndices_21(reinterpret_cast<UInt32U5BU5D_t59386216*>(SZArrayNew(UInt32U5BU5D_t59386216_il2cpp_TypeInfo_var, 64)));
+	for (int32_t i = 0; i < 64; i++)
+	{
+		(unmarshaled.get_ZoneIndices_21())->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), (marshaled.___ZoneIndices_21)[i]);
+	}
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES
+extern "C" void Win32_IP_ADAPTER_ADDRESSES_t680756680_marshal_pinvoke_cleanup(Win32_IP_ADAPTER_ADDRESSES_t680756680_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_marshal_free(marshaled.___AdapterName_6);
+	marshaled.___AdapterName_6 = NULL;
+	il2cpp_codegen_marshal_free(marshaled.___DnsSuffix_11);
+	marshaled.___DnsSuffix_11 = NULL;
+	il2cpp_codegen_marshal_free(marshaled.___Description_12);
+	marshaled.___Description_12 = NULL;
+	il2cpp_codegen_marshal_free(marshaled.___FriendlyName_13);
+	marshaled.___FriendlyName_13 = NULL;
+}
+// Conversion methods for marshalling of: System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES
+extern "C" void Win32_IP_ADAPTER_ADDRESSES_t680756680_marshal_com(const Win32_IP_ADAPTER_ADDRESSES_t680756680& unmarshaled, Win32_IP_ADAPTER_ADDRESSES_t680756680_marshaled_com& marshaled)
+{
+	marshaled.___Alignment_4 = unmarshaled.get_Alignment_4();
+	marshaled.___Next_5 = reinterpret_cast<intptr_t>((unmarshaled.get_Next_5()).get_m_value_0());
+	marshaled.___AdapterName_6 = il2cpp_codegen_marshal_string(unmarshaled.get_AdapterName_6());
+	marshaled.___FirstUnicastAddress_7 = reinterpret_cast<intptr_t>((unmarshaled.get_FirstUnicastAddress_7()).get_m_value_0());
+	marshaled.___FirstAnycastAddress_8 = reinterpret_cast<intptr_t>((unmarshaled.get_FirstAnycastAddress_8()).get_m_value_0());
+	marshaled.___FirstMulticastAddress_9 = reinterpret_cast<intptr_t>((unmarshaled.get_FirstMulticastAddress_9()).get_m_value_0());
+	marshaled.___FirstDnsServerAddress_10 = reinterpret_cast<intptr_t>((unmarshaled.get_FirstDnsServerAddress_10()).get_m_value_0());
+	marshaled.___DnsSuffix_11 = il2cpp_codegen_marshal_bstring(unmarshaled.get_DnsSuffix_11());
+	marshaled.___Description_12 = il2cpp_codegen_marshal_bstring(unmarshaled.get_Description_12());
+	marshaled.___FriendlyName_13 = il2cpp_codegen_marshal_bstring(unmarshaled.get_FriendlyName_13());
+	if (unmarshaled.get_PhysicalAddress_14() != NULL)
+	{
+		if (8 > (unmarshaled.get_PhysicalAddress_14())->max_length)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_exception("", "Type could not be marshaled because the length of an embedded array instance does not match the declared length in the layout."));
+		}
+
+		for (int32_t i = 0; i < 8; i++)
+		{
+			(marshaled.___PhysicalAddress_14)[i] = (unmarshaled.get_PhysicalAddress_14())->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i));
+		}
+	}
+	marshaled.___PhysicalAddressLength_15 = unmarshaled.get_PhysicalAddressLength_15();
+	marshaled.___Flags_16 = unmarshaled.get_Flags_16();
+	marshaled.___Mtu_17 = unmarshaled.get_Mtu_17();
+	marshaled.___IfType_18 = unmarshaled.get_IfType_18();
+	marshaled.___OperStatus_19 = unmarshaled.get_OperStatus_19();
+	marshaled.___Ipv6IfIndex_20 = unmarshaled.get_Ipv6IfIndex_20();
+	if (unmarshaled.get_ZoneIndices_21() != NULL)
+	{
+		if (64 > (unmarshaled.get_ZoneIndices_21())->max_length)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_exception("", "Type could not be marshaled because the length of an embedded array instance does not match the declared length in the layout."));
+		}
+
+		for (int32_t i = 0; i < 64; i++)
+		{
+			(marshaled.___ZoneIndices_21)[i] = (unmarshaled.get_ZoneIndices_21())->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i));
+		}
+	}
+}
+extern "C" void Win32_IP_ADAPTER_ADDRESSES_t680756680_marshal_com_back(const Win32_IP_ADAPTER_ADDRESSES_t680756680_marshaled_com& marshaled, Win32_IP_ADAPTER_ADDRESSES_t680756680& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32_IP_ADAPTER_ADDRESSES_t680756680_com_FromNativeMethodDefinition_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	AlignmentUnion_t707470070  unmarshaled_Alignment_temp_0;
+	memset(&unmarshaled_Alignment_temp_0, 0, sizeof(unmarshaled_Alignment_temp_0));
+	unmarshaled_Alignment_temp_0 = marshaled.___Alignment_4;
+	unmarshaled.set_Alignment_4(unmarshaled_Alignment_temp_0);
+	IntPtr_t unmarshaled_Next_temp_1;
+	memset(&unmarshaled_Next_temp_1, 0, sizeof(unmarshaled_Next_temp_1));
+	IntPtr_t unmarshaled_Next_temp_1_temp;
+	unmarshaled_Next_temp_1_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(marshaled.___Next_5)));
+	unmarshaled_Next_temp_1 = unmarshaled_Next_temp_1_temp;
+	unmarshaled.set_Next_5(unmarshaled_Next_temp_1);
+	unmarshaled.set_AdapterName_6(il2cpp_codegen_marshal_string_result(marshaled.___AdapterName_6));
+	IntPtr_t unmarshaled_FirstUnicastAddress_temp_3;
+	memset(&unmarshaled_FirstUnicastAddress_temp_3, 0, sizeof(unmarshaled_FirstUnicastAddress_temp_3));
+	IntPtr_t unmarshaled_FirstUnicastAddress_temp_3_temp;
+	unmarshaled_FirstUnicastAddress_temp_3_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(marshaled.___FirstUnicastAddress_7)));
+	unmarshaled_FirstUnicastAddress_temp_3 = unmarshaled_FirstUnicastAddress_temp_3_temp;
+	unmarshaled.set_FirstUnicastAddress_7(unmarshaled_FirstUnicastAddress_temp_3);
+	IntPtr_t unmarshaled_FirstAnycastAddress_temp_4;
+	memset(&unmarshaled_FirstAnycastAddress_temp_4, 0, sizeof(unmarshaled_FirstAnycastAddress_temp_4));
+	IntPtr_t unmarshaled_FirstAnycastAddress_temp_4_temp;
+	unmarshaled_FirstAnycastAddress_temp_4_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(marshaled.___FirstAnycastAddress_8)));
+	unmarshaled_FirstAnycastAddress_temp_4 = unmarshaled_FirstAnycastAddress_temp_4_temp;
+	unmarshaled.set_FirstAnycastAddress_8(unmarshaled_FirstAnycastAddress_temp_4);
+	IntPtr_t unmarshaled_FirstMulticastAddress_temp_5;
+	memset(&unmarshaled_FirstMulticastAddress_temp_5, 0, sizeof(unmarshaled_FirstMulticastAddress_temp_5));
+	IntPtr_t unmarshaled_FirstMulticastAddress_temp_5_temp;
+	unmarshaled_FirstMulticastAddress_temp_5_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(marshaled.___FirstMulticastAddress_9)));
+	unmarshaled_FirstMulticastAddress_temp_5 = unmarshaled_FirstMulticastAddress_temp_5_temp;
+	unmarshaled.set_FirstMulticastAddress_9(unmarshaled_FirstMulticastAddress_temp_5);
+	IntPtr_t unmarshaled_FirstDnsServerAddress_temp_6;
+	memset(&unmarshaled_FirstDnsServerAddress_temp_6, 0, sizeof(unmarshaled_FirstDnsServerAddress_temp_6));
+	IntPtr_t unmarshaled_FirstDnsServerAddress_temp_6_temp;
+	unmarshaled_FirstDnsServerAddress_temp_6_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(marshaled.___FirstDnsServerAddress_10)));
+	unmarshaled_FirstDnsServerAddress_temp_6 = unmarshaled_FirstDnsServerAddress_temp_6_temp;
+	unmarshaled.set_FirstDnsServerAddress_10(unmarshaled_FirstDnsServerAddress_temp_6);
+	unmarshaled.set_DnsSuffix_11(il2cpp_codegen_marshal_bstring_result(marshaled.___DnsSuffix_11));
+	unmarshaled.set_Description_12(il2cpp_codegen_marshal_bstring_result(marshaled.___Description_12));
+	unmarshaled.set_FriendlyName_13(il2cpp_codegen_marshal_bstring_result(marshaled.___FriendlyName_13));
+	unmarshaled.set_PhysicalAddress_14(reinterpret_cast<ByteU5BU5D_t3397334013*>(SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, 8)));
+	for (int32_t i = 0; i < 8; i++)
+	{
+		(unmarshaled.get_PhysicalAddress_14())->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), (marshaled.___PhysicalAddress_14)[i]);
+	}
+	uint32_t unmarshaled_PhysicalAddressLength_temp_11 = 0;
+	unmarshaled_PhysicalAddressLength_temp_11 = marshaled.___PhysicalAddressLength_15;
+	unmarshaled.set_PhysicalAddressLength_15(unmarshaled_PhysicalAddressLength_temp_11);
+	uint32_t unmarshaled_Flags_temp_12 = 0;
+	unmarshaled_Flags_temp_12 = marshaled.___Flags_16;
+	unmarshaled.set_Flags_16(unmarshaled_Flags_temp_12);
+	uint32_t unmarshaled_Mtu_temp_13 = 0;
+	unmarshaled_Mtu_temp_13 = marshaled.___Mtu_17;
+	unmarshaled.set_Mtu_17(unmarshaled_Mtu_temp_13);
+	int32_t unmarshaled_IfType_temp_14 = 0;
+	unmarshaled_IfType_temp_14 = marshaled.___IfType_18;
+	unmarshaled.set_IfType_18(unmarshaled_IfType_temp_14);
+	int32_t unmarshaled_OperStatus_temp_15 = 0;
+	unmarshaled_OperStatus_temp_15 = marshaled.___OperStatus_19;
+	unmarshaled.set_OperStatus_19(unmarshaled_OperStatus_temp_15);
+	int32_t unmarshaled_Ipv6IfIndex_temp_16 = 0;
+	unmarshaled_Ipv6IfIndex_temp_16 = marshaled.___Ipv6IfIndex_20;
+	unmarshaled.set_Ipv6IfIndex_20(unmarshaled_Ipv6IfIndex_temp_16);
+	unmarshaled.set_ZoneIndices_21(reinterpret_cast<UInt32U5BU5D_t59386216*>(SZArrayNew(UInt32U5BU5D_t59386216_il2cpp_TypeInfo_var, 64)));
+	for (int32_t i = 0; i < 64; i++)
+	{
+		(unmarshaled.get_ZoneIndices_21())->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), (marshaled.___ZoneIndices_21)[i]);
+	}
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES
+extern "C" void Win32_IP_ADAPTER_ADDRESSES_t680756680_marshal_com_cleanup(Win32_IP_ADAPTER_ADDRESSES_t680756680_marshaled_com& marshaled)
+{
+	il2cpp_codegen_marshal_free(marshaled.___AdapterName_6);
+	marshaled.___AdapterName_6 = NULL;
+	il2cpp_codegen_marshal_free_bstring(marshaled.___DnsSuffix_11);
+	marshaled.___DnsSuffix_11 = NULL;
+	il2cpp_codegen_marshal_free_bstring(marshaled.___Description_12);
+	marshaled.___Description_12 = NULL;
+	il2cpp_codegen_marshal_free_bstring(marshaled.___FriendlyName_13);
+	marshaled.___FriendlyName_13 = NULL;
+}
+// System.Void System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES::.ctor()
+extern "C"  void Win32_IP_ADAPTER_ADDRESSES__ctor_m78694120 (Win32_IP_ADAPTER_ADDRESSES_t680756680 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES::get_DdnsEnabled()
+extern "C"  bool Win32_IP_ADAPTER_ADDRESSES_get_DdnsEnabled_m2202105025 (Win32_IP_ADAPTER_ADDRESSES_t680756680 * __this, const MethodInfo* method)
+{
+	{
+		uint32_t L_0 = __this->get_Flags_16();
+		return (bool)((((int32_t)((((int32_t)((int32_t)((int32_t)L_0&(int32_t)1))) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+	}
+}
+// System.Boolean System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES::get_IsReceiveOnly()
+extern "C"  bool Win32_IP_ADAPTER_ADDRESSES_get_IsReceiveOnly_m1669432196 (Win32_IP_ADAPTER_ADDRESSES_t680756680 * __this, const MethodInfo* method)
+{
+	{
+		uint32_t L_0 = __this->get_Flags_16();
+		return (bool)((((int32_t)((((int32_t)((int32_t)((int32_t)L_0&(int32_t)8))) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+	}
+}
+// System.Boolean System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES::get_NoMulticast()
+extern "C"  bool Win32_IP_ADAPTER_ADDRESSES_get_NoMulticast_m1491669100 (Win32_IP_ADAPTER_ADDRESSES_t680756680 * __this, const MethodInfo* method)
+{
+	{
+		uint32_t L_0 = __this->get_Flags_16();
+		return (bool)((((int32_t)((((int32_t)((int32_t)((int32_t)L_0&(int32_t)((int32_t)16)))) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+// Conversion methods for marshalling of: System.Net.NetworkInformation.Win32_IP_ADAPTER_INFO
+extern "C" void Win32_IP_ADAPTER_INFO_t2310876292_marshal_pinvoke(const Win32_IP_ADAPTER_INFO_t2310876292& unmarshaled, Win32_IP_ADAPTER_INFO_t2310876292_marshaled_pinvoke& marshaled)
+{
+	marshaled.___Next_3 = reinterpret_cast<intptr_t>((unmarshaled.get_Next_3()).get_m_value_0());
+	marshaled.___ComboIndex_4 = unmarshaled.get_ComboIndex_4();
+	il2cpp_codegen_marshal_string_fixed(unmarshaled.get_AdapterName_5(), (char*)&marshaled.___AdapterName_5, 260);
+	il2cpp_codegen_marshal_string_fixed(unmarshaled.get_Description_6(), (char*)&marshaled.___Description_6, 132);
+	marshaled.___AddressLength_7 = unmarshaled.get_AddressLength_7();
+	if (unmarshaled.get_Address_8() != NULL)
+	{
+		if (8 > (unmarshaled.get_Address_8())->max_length)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_exception("", "Type could not be marshaled because the length of an embedded array instance does not match the declared length in the layout."));
+		}
+
+		for (int32_t i = 0; i < 8; i++)
+		{
+			(marshaled.___Address_8)[i] = (unmarshaled.get_Address_8())->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i));
+		}
+	}
+	marshaled.___Index_9 = unmarshaled.get_Index_9();
+	marshaled.___Type_10 = unmarshaled.get_Type_10();
+	marshaled.___DhcpEnabled_11 = unmarshaled.get_DhcpEnabled_11();
+	marshaled.___CurrentIpAddress_12 = reinterpret_cast<intptr_t>((unmarshaled.get_CurrentIpAddress_12()).get_m_value_0());
+	Win32_IP_ADDR_STRING_t2646152127_marshal_pinvoke(unmarshaled.get_IpAddressList_13(), marshaled.___IpAddressList_13);
+	Win32_IP_ADDR_STRING_t2646152127_marshal_pinvoke(unmarshaled.get_GatewayList_14(), marshaled.___GatewayList_14);
+	Win32_IP_ADDR_STRING_t2646152127_marshal_pinvoke(unmarshaled.get_DhcpServer_15(), marshaled.___DhcpServer_15);
+	marshaled.___HaveWins_16 = static_cast<int32_t>(unmarshaled.get_HaveWins_16());
+	Win32_IP_ADDR_STRING_t2646152127_marshal_pinvoke(unmarshaled.get_PrimaryWinsServer_17(), marshaled.___PrimaryWinsServer_17);
+	Win32_IP_ADDR_STRING_t2646152127_marshal_pinvoke(unmarshaled.get_SecondaryWinsServer_18(), marshaled.___SecondaryWinsServer_18);
+	marshaled.___LeaseObtained_19 = unmarshaled.get_LeaseObtained_19();
+	marshaled.___LeaseExpires_20 = unmarshaled.get_LeaseExpires_20();
+}
+extern "C" void Win32_IP_ADAPTER_INFO_t2310876292_marshal_pinvoke_back(const Win32_IP_ADAPTER_INFO_t2310876292_marshaled_pinvoke& marshaled, Win32_IP_ADAPTER_INFO_t2310876292& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32_IP_ADAPTER_INFO_t2310876292_pinvoke_FromNativeMethodDefinition_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	IntPtr_t unmarshaled_Next_temp_0;
+	memset(&unmarshaled_Next_temp_0, 0, sizeof(unmarshaled_Next_temp_0));
+	IntPtr_t unmarshaled_Next_temp_0_temp;
+	unmarshaled_Next_temp_0_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(marshaled.___Next_3)));
+	unmarshaled_Next_temp_0 = unmarshaled_Next_temp_0_temp;
+	unmarshaled.set_Next_3(unmarshaled_Next_temp_0);
+	int32_t unmarshaled_ComboIndex_temp_1 = 0;
+	unmarshaled_ComboIndex_temp_1 = marshaled.___ComboIndex_4;
+	unmarshaled.set_ComboIndex_4(unmarshaled_ComboIndex_temp_1);
+	unmarshaled.set_AdapterName_5(il2cpp_codegen_marshal_string_result(marshaled.___AdapterName_5));
+	unmarshaled.set_Description_6(il2cpp_codegen_marshal_string_result(marshaled.___Description_6));
+	uint32_t unmarshaled_AddressLength_temp_4 = 0;
+	unmarshaled_AddressLength_temp_4 = marshaled.___AddressLength_7;
+	unmarshaled.set_AddressLength_7(unmarshaled_AddressLength_temp_4);
+	unmarshaled.set_Address_8(reinterpret_cast<ByteU5BU5D_t3397334013*>(SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, 8)));
+	for (int32_t i = 0; i < 8; i++)
+	{
+		(unmarshaled.get_Address_8())->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), (marshaled.___Address_8)[i]);
+	}
+	uint32_t unmarshaled_Index_temp_6 = 0;
+	unmarshaled_Index_temp_6 = marshaled.___Index_9;
+	unmarshaled.set_Index_9(unmarshaled_Index_temp_6);
+	uint32_t unmarshaled_Type_temp_7 = 0;
+	unmarshaled_Type_temp_7 = marshaled.___Type_10;
+	unmarshaled.set_Type_10(unmarshaled_Type_temp_7);
+	uint32_t unmarshaled_DhcpEnabled_temp_8 = 0;
+	unmarshaled_DhcpEnabled_temp_8 = marshaled.___DhcpEnabled_11;
+	unmarshaled.set_DhcpEnabled_11(unmarshaled_DhcpEnabled_temp_8);
+	IntPtr_t unmarshaled_CurrentIpAddress_temp_9;
+	memset(&unmarshaled_CurrentIpAddress_temp_9, 0, sizeof(unmarshaled_CurrentIpAddress_temp_9));
+	IntPtr_t unmarshaled_CurrentIpAddress_temp_9_temp;
+	unmarshaled_CurrentIpAddress_temp_9_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(marshaled.___CurrentIpAddress_12)));
+	unmarshaled_CurrentIpAddress_temp_9 = unmarshaled_CurrentIpAddress_temp_9_temp;
+	unmarshaled.set_CurrentIpAddress_12(unmarshaled_CurrentIpAddress_temp_9);
+	Win32_IP_ADDR_STRING_t2646152127  unmarshaled_IpAddressList_temp_10;
+	memset(&unmarshaled_IpAddressList_temp_10, 0, sizeof(unmarshaled_IpAddressList_temp_10));
+	Win32_IP_ADDR_STRING_t2646152127_marshal_pinvoke_back(marshaled.___IpAddressList_13, unmarshaled_IpAddressList_temp_10);
+	unmarshaled.set_IpAddressList_13(unmarshaled_IpAddressList_temp_10);
+	Win32_IP_ADDR_STRING_t2646152127  unmarshaled_GatewayList_temp_11;
+	memset(&unmarshaled_GatewayList_temp_11, 0, sizeof(unmarshaled_GatewayList_temp_11));
+	Win32_IP_ADDR_STRING_t2646152127_marshal_pinvoke_back(marshaled.___GatewayList_14, unmarshaled_GatewayList_temp_11);
+	unmarshaled.set_GatewayList_14(unmarshaled_GatewayList_temp_11);
+	Win32_IP_ADDR_STRING_t2646152127  unmarshaled_DhcpServer_temp_12;
+	memset(&unmarshaled_DhcpServer_temp_12, 0, sizeof(unmarshaled_DhcpServer_temp_12));
+	Win32_IP_ADDR_STRING_t2646152127_marshal_pinvoke_back(marshaled.___DhcpServer_15, unmarshaled_DhcpServer_temp_12);
+	unmarshaled.set_DhcpServer_15(unmarshaled_DhcpServer_temp_12);
+	bool unmarshaled_HaveWins_temp_13 = false;
+	unmarshaled_HaveWins_temp_13 = static_cast<bool>(marshaled.___HaveWins_16);
+	unmarshaled.set_HaveWins_16(unmarshaled_HaveWins_temp_13);
+	Win32_IP_ADDR_STRING_t2646152127  unmarshaled_PrimaryWinsServer_temp_14;
+	memset(&unmarshaled_PrimaryWinsServer_temp_14, 0, sizeof(unmarshaled_PrimaryWinsServer_temp_14));
+	Win32_IP_ADDR_STRING_t2646152127_marshal_pinvoke_back(marshaled.___PrimaryWinsServer_17, unmarshaled_PrimaryWinsServer_temp_14);
+	unmarshaled.set_PrimaryWinsServer_17(unmarshaled_PrimaryWinsServer_temp_14);
+	Win32_IP_ADDR_STRING_t2646152127  unmarshaled_SecondaryWinsServer_temp_15;
+	memset(&unmarshaled_SecondaryWinsServer_temp_15, 0, sizeof(unmarshaled_SecondaryWinsServer_temp_15));
+	Win32_IP_ADDR_STRING_t2646152127_marshal_pinvoke_back(marshaled.___SecondaryWinsServer_18, unmarshaled_SecondaryWinsServer_temp_15);
+	unmarshaled.set_SecondaryWinsServer_18(unmarshaled_SecondaryWinsServer_temp_15);
+	int64_t unmarshaled_LeaseObtained_temp_16 = 0;
+	unmarshaled_LeaseObtained_temp_16 = marshaled.___LeaseObtained_19;
+	unmarshaled.set_LeaseObtained_19(unmarshaled_LeaseObtained_temp_16);
+	int64_t unmarshaled_LeaseExpires_temp_17 = 0;
+	unmarshaled_LeaseExpires_temp_17 = marshaled.___LeaseExpires_20;
+	unmarshaled.set_LeaseExpires_20(unmarshaled_LeaseExpires_temp_17);
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.Win32_IP_ADAPTER_INFO
+extern "C" void Win32_IP_ADAPTER_INFO_t2310876292_marshal_pinvoke_cleanup(Win32_IP_ADAPTER_INFO_t2310876292_marshaled_pinvoke& marshaled)
+{
+	Win32_IP_ADDR_STRING_t2646152127_marshal_pinvoke_cleanup(marshaled.___IpAddressList_13);
+	Win32_IP_ADDR_STRING_t2646152127_marshal_pinvoke_cleanup(marshaled.___GatewayList_14);
+	Win32_IP_ADDR_STRING_t2646152127_marshal_pinvoke_cleanup(marshaled.___DhcpServer_15);
+	Win32_IP_ADDR_STRING_t2646152127_marshal_pinvoke_cleanup(marshaled.___PrimaryWinsServer_17);
+	Win32_IP_ADDR_STRING_t2646152127_marshal_pinvoke_cleanup(marshaled.___SecondaryWinsServer_18);
+}
+
+
+
+
+
+
+
+
+
+
+// Conversion methods for marshalling of: System.Net.NetworkInformation.Win32_IP_ADAPTER_INFO
+extern "C" void Win32_IP_ADAPTER_INFO_t2310876292_marshal_com(const Win32_IP_ADAPTER_INFO_t2310876292& unmarshaled, Win32_IP_ADAPTER_INFO_t2310876292_marshaled_com& marshaled)
+{
+	marshaled.___Next_3 = reinterpret_cast<intptr_t>((unmarshaled.get_Next_3()).get_m_value_0());
+	marshaled.___ComboIndex_4 = unmarshaled.get_ComboIndex_4();
+	il2cpp_codegen_marshal_string_fixed(unmarshaled.get_AdapterName_5(), (char*)&marshaled.___AdapterName_5, 260);
+	il2cpp_codegen_marshal_string_fixed(unmarshaled.get_Description_6(), (char*)&marshaled.___Description_6, 132);
+	marshaled.___AddressLength_7 = unmarshaled.get_AddressLength_7();
+	if (unmarshaled.get_Address_8() != NULL)
+	{
+		if (8 > (unmarshaled.get_Address_8())->max_length)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_exception("", "Type could not be marshaled because the length of an embedded array instance does not match the declared length in the layout."));
+		}
+
+		for (int32_t i = 0; i < 8; i++)
+		{
+			(marshaled.___Address_8)[i] = (unmarshaled.get_Address_8())->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i));
+		}
+	}
+	marshaled.___Index_9 = unmarshaled.get_Index_9();
+	marshaled.___Type_10 = unmarshaled.get_Type_10();
+	marshaled.___DhcpEnabled_11 = unmarshaled.get_DhcpEnabled_11();
+	marshaled.___CurrentIpAddress_12 = reinterpret_cast<intptr_t>((unmarshaled.get_CurrentIpAddress_12()).get_m_value_0());
+	Win32_IP_ADDR_STRING_t2646152127_marshal_com(unmarshaled.get_IpAddressList_13(), marshaled.___IpAddressList_13);
+	Win32_IP_ADDR_STRING_t2646152127_marshal_com(unmarshaled.get_GatewayList_14(), marshaled.___GatewayList_14);
+	Win32_IP_ADDR_STRING_t2646152127_marshal_com(unmarshaled.get_DhcpServer_15(), marshaled.___DhcpServer_15);
+	marshaled.___HaveWins_16 = static_cast<int32_t>(unmarshaled.get_HaveWins_16());
+	Win32_IP_ADDR_STRING_t2646152127_marshal_com(unmarshaled.get_PrimaryWinsServer_17(), marshaled.___PrimaryWinsServer_17);
+	Win32_IP_ADDR_STRING_t2646152127_marshal_com(unmarshaled.get_SecondaryWinsServer_18(), marshaled.___SecondaryWinsServer_18);
+	marshaled.___LeaseObtained_19 = unmarshaled.get_LeaseObtained_19();
+	marshaled.___LeaseExpires_20 = unmarshaled.get_LeaseExpires_20();
+}
+extern "C" void Win32_IP_ADAPTER_INFO_t2310876292_marshal_com_back(const Win32_IP_ADAPTER_INFO_t2310876292_marshaled_com& marshaled, Win32_IP_ADAPTER_INFO_t2310876292& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32_IP_ADAPTER_INFO_t2310876292_com_FromNativeMethodDefinition_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	IntPtr_t unmarshaled_Next_temp_0;
+	memset(&unmarshaled_Next_temp_0, 0, sizeof(unmarshaled_Next_temp_0));
+	IntPtr_t unmarshaled_Next_temp_0_temp;
+	unmarshaled_Next_temp_0_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(marshaled.___Next_3)));
+	unmarshaled_Next_temp_0 = unmarshaled_Next_temp_0_temp;
+	unmarshaled.set_Next_3(unmarshaled_Next_temp_0);
+	int32_t unmarshaled_ComboIndex_temp_1 = 0;
+	unmarshaled_ComboIndex_temp_1 = marshaled.___ComboIndex_4;
+	unmarshaled.set_ComboIndex_4(unmarshaled_ComboIndex_temp_1);
+	unmarshaled.set_AdapterName_5(il2cpp_codegen_marshal_string_result(marshaled.___AdapterName_5));
+	unmarshaled.set_Description_6(il2cpp_codegen_marshal_string_result(marshaled.___Description_6));
+	uint32_t unmarshaled_AddressLength_temp_4 = 0;
+	unmarshaled_AddressLength_temp_4 = marshaled.___AddressLength_7;
+	unmarshaled.set_AddressLength_7(unmarshaled_AddressLength_temp_4);
+	unmarshaled.set_Address_8(reinterpret_cast<ByteU5BU5D_t3397334013*>(SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, 8)));
+	for (int32_t i = 0; i < 8; i++)
+	{
+		(unmarshaled.get_Address_8())->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), (marshaled.___Address_8)[i]);
+	}
+	uint32_t unmarshaled_Index_temp_6 = 0;
+	unmarshaled_Index_temp_6 = marshaled.___Index_9;
+	unmarshaled.set_Index_9(unmarshaled_Index_temp_6);
+	uint32_t unmarshaled_Type_temp_7 = 0;
+	unmarshaled_Type_temp_7 = marshaled.___Type_10;
+	unmarshaled.set_Type_10(unmarshaled_Type_temp_7);
+	uint32_t unmarshaled_DhcpEnabled_temp_8 = 0;
+	unmarshaled_DhcpEnabled_temp_8 = marshaled.___DhcpEnabled_11;
+	unmarshaled.set_DhcpEnabled_11(unmarshaled_DhcpEnabled_temp_8);
+	IntPtr_t unmarshaled_CurrentIpAddress_temp_9;
+	memset(&unmarshaled_CurrentIpAddress_temp_9, 0, sizeof(unmarshaled_CurrentIpAddress_temp_9));
+	IntPtr_t unmarshaled_CurrentIpAddress_temp_9_temp;
+	unmarshaled_CurrentIpAddress_temp_9_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(marshaled.___CurrentIpAddress_12)));
+	unmarshaled_CurrentIpAddress_temp_9 = unmarshaled_CurrentIpAddress_temp_9_temp;
+	unmarshaled.set_CurrentIpAddress_12(unmarshaled_CurrentIpAddress_temp_9);
+	Win32_IP_ADDR_STRING_t2646152127  unmarshaled_IpAddressList_temp_10;
+	memset(&unmarshaled_IpAddressList_temp_10, 0, sizeof(unmarshaled_IpAddressList_temp_10));
+	Win32_IP_ADDR_STRING_t2646152127_marshal_com_back(marshaled.___IpAddressList_13, unmarshaled_IpAddressList_temp_10);
+	unmarshaled.set_IpAddressList_13(unmarshaled_IpAddressList_temp_10);
+	Win32_IP_ADDR_STRING_t2646152127  unmarshaled_GatewayList_temp_11;
+	memset(&unmarshaled_GatewayList_temp_11, 0, sizeof(unmarshaled_GatewayList_temp_11));
+	Win32_IP_ADDR_STRING_t2646152127_marshal_com_back(marshaled.___GatewayList_14, unmarshaled_GatewayList_temp_11);
+	unmarshaled.set_GatewayList_14(unmarshaled_GatewayList_temp_11);
+	Win32_IP_ADDR_STRING_t2646152127  unmarshaled_DhcpServer_temp_12;
+	memset(&unmarshaled_DhcpServer_temp_12, 0, sizeof(unmarshaled_DhcpServer_temp_12));
+	Win32_IP_ADDR_STRING_t2646152127_marshal_com_back(marshaled.___DhcpServer_15, unmarshaled_DhcpServer_temp_12);
+	unmarshaled.set_DhcpServer_15(unmarshaled_DhcpServer_temp_12);
+	bool unmarshaled_HaveWins_temp_13 = false;
+	unmarshaled_HaveWins_temp_13 = static_cast<bool>(marshaled.___HaveWins_16);
+	unmarshaled.set_HaveWins_16(unmarshaled_HaveWins_temp_13);
+	Win32_IP_ADDR_STRING_t2646152127  unmarshaled_PrimaryWinsServer_temp_14;
+	memset(&unmarshaled_PrimaryWinsServer_temp_14, 0, sizeof(unmarshaled_PrimaryWinsServer_temp_14));
+	Win32_IP_ADDR_STRING_t2646152127_marshal_com_back(marshaled.___PrimaryWinsServer_17, unmarshaled_PrimaryWinsServer_temp_14);
+	unmarshaled.set_PrimaryWinsServer_17(unmarshaled_PrimaryWinsServer_temp_14);
+	Win32_IP_ADDR_STRING_t2646152127  unmarshaled_SecondaryWinsServer_temp_15;
+	memset(&unmarshaled_SecondaryWinsServer_temp_15, 0, sizeof(unmarshaled_SecondaryWinsServer_temp_15));
+	Win32_IP_ADDR_STRING_t2646152127_marshal_com_back(marshaled.___SecondaryWinsServer_18, unmarshaled_SecondaryWinsServer_temp_15);
+	unmarshaled.set_SecondaryWinsServer_18(unmarshaled_SecondaryWinsServer_temp_15);
+	int64_t unmarshaled_LeaseObtained_temp_16 = 0;
+	unmarshaled_LeaseObtained_temp_16 = marshaled.___LeaseObtained_19;
+	unmarshaled.set_LeaseObtained_19(unmarshaled_LeaseObtained_temp_16);
+	int64_t unmarshaled_LeaseExpires_temp_17 = 0;
+	unmarshaled_LeaseExpires_temp_17 = marshaled.___LeaseExpires_20;
+	unmarshaled.set_LeaseExpires_20(unmarshaled_LeaseExpires_temp_17);
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.Win32_IP_ADAPTER_INFO
+extern "C" void Win32_IP_ADAPTER_INFO_t2310876292_marshal_com_cleanup(Win32_IP_ADAPTER_INFO_t2310876292_marshaled_com& marshaled)
+{
+	Win32_IP_ADDR_STRING_t2646152127_marshal_com_cleanup(marshaled.___IpAddressList_13);
+	Win32_IP_ADDR_STRING_t2646152127_marshal_com_cleanup(marshaled.___GatewayList_14);
+	Win32_IP_ADDR_STRING_t2646152127_marshal_com_cleanup(marshaled.___DhcpServer_15);
+	Win32_IP_ADDR_STRING_t2646152127_marshal_com_cleanup(marshaled.___PrimaryWinsServer_17);
+	Win32_IP_ADDR_STRING_t2646152127_marshal_com_cleanup(marshaled.___SecondaryWinsServer_18);
+}
+// System.Void System.Net.NetworkInformation.Win32_IP_ADAPTER_INFO::.ctor()
+extern "C"  void Win32_IP_ADAPTER_INFO__ctor_m2652271738 (Win32_IP_ADAPTER_INFO_t2310876292 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Conversion methods for marshalling of: System.Net.NetworkInformation.Win32_IP_ADDR_STRING
+extern "C" void Win32_IP_ADDR_STRING_t2646152127_marshal_pinvoke(const Win32_IP_ADDR_STRING_t2646152127& unmarshaled, Win32_IP_ADDR_STRING_t2646152127_marshaled_pinvoke& marshaled)
+{
+	marshaled.___Next_0 = reinterpret_cast<intptr_t>((unmarshaled.get_Next_0()).get_m_value_0());
+	il2cpp_codegen_marshal_string_fixed(unmarshaled.get_IpAddress_1(), (char*)&marshaled.___IpAddress_1, 16);
+	il2cpp_codegen_marshal_string_fixed(unmarshaled.get_IpMask_2(), (char*)&marshaled.___IpMask_2, 16);
+	marshaled.___Context_3 = unmarshaled.get_Context_3();
+}
+extern "C" void Win32_IP_ADDR_STRING_t2646152127_marshal_pinvoke_back(const Win32_IP_ADDR_STRING_t2646152127_marshaled_pinvoke& marshaled, Win32_IP_ADDR_STRING_t2646152127& unmarshaled)
+{
+	IntPtr_t unmarshaled_Next_temp_0;
+	memset(&unmarshaled_Next_temp_0, 0, sizeof(unmarshaled_Next_temp_0));
+	IntPtr_t unmarshaled_Next_temp_0_temp;
+	unmarshaled_Next_temp_0_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(marshaled.___Next_0)));
+	unmarshaled_Next_temp_0 = unmarshaled_Next_temp_0_temp;
+	unmarshaled.set_Next_0(unmarshaled_Next_temp_0);
+	unmarshaled.set_IpAddress_1(il2cpp_codegen_marshal_string_result(marshaled.___IpAddress_1));
+	unmarshaled.set_IpMask_2(il2cpp_codegen_marshal_string_result(marshaled.___IpMask_2));
+	uint32_t unmarshaled_Context_temp_3 = 0;
+	unmarshaled_Context_temp_3 = marshaled.___Context_3;
+	unmarshaled.set_Context_3(unmarshaled_Context_temp_3);
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.Win32_IP_ADDR_STRING
+extern "C" void Win32_IP_ADDR_STRING_t2646152127_marshal_pinvoke_cleanup(Win32_IP_ADDR_STRING_t2646152127_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: System.Net.NetworkInformation.Win32_IP_ADDR_STRING
+extern "C" void Win32_IP_ADDR_STRING_t2646152127_marshal_com(const Win32_IP_ADDR_STRING_t2646152127& unmarshaled, Win32_IP_ADDR_STRING_t2646152127_marshaled_com& marshaled)
+{
+	marshaled.___Next_0 = reinterpret_cast<intptr_t>((unmarshaled.get_Next_0()).get_m_value_0());
+	il2cpp_codegen_marshal_string_fixed(unmarshaled.get_IpAddress_1(), (char*)&marshaled.___IpAddress_1, 16);
+	il2cpp_codegen_marshal_string_fixed(unmarshaled.get_IpMask_2(), (char*)&marshaled.___IpMask_2, 16);
+	marshaled.___Context_3 = unmarshaled.get_Context_3();
+}
+extern "C" void Win32_IP_ADDR_STRING_t2646152127_marshal_com_back(const Win32_IP_ADDR_STRING_t2646152127_marshaled_com& marshaled, Win32_IP_ADDR_STRING_t2646152127& unmarshaled)
+{
+	IntPtr_t unmarshaled_Next_temp_0;
+	memset(&unmarshaled_Next_temp_0, 0, sizeof(unmarshaled_Next_temp_0));
+	IntPtr_t unmarshaled_Next_temp_0_temp;
+	unmarshaled_Next_temp_0_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(marshaled.___Next_0)));
+	unmarshaled_Next_temp_0 = unmarshaled_Next_temp_0_temp;
+	unmarshaled.set_Next_0(unmarshaled_Next_temp_0);
+	unmarshaled.set_IpAddress_1(il2cpp_codegen_marshal_string_result(marshaled.___IpAddress_1));
+	unmarshaled.set_IpMask_2(il2cpp_codegen_marshal_string_result(marshaled.___IpMask_2));
+	uint32_t unmarshaled_Context_temp_3 = 0;
+	unmarshaled_Context_temp_3 = marshaled.___Context_3;
+	unmarshaled.set_Context_3(unmarshaled_Context_temp_3);
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.Win32_IP_ADDR_STRING
+extern "C" void Win32_IP_ADDR_STRING_t2646152127_marshal_com_cleanup(Win32_IP_ADDR_STRING_t2646152127_marshaled_com& marshaled)
+{
+}
+
+
+// Conversion methods for marshalling of: System.Net.NetworkInformation.Win32_IP_PER_ADAPTER_INFO
+extern "C" void Win32_IP_PER_ADAPTER_INFO_t1280460216_marshal_pinvoke(const Win32_IP_PER_ADAPTER_INFO_t1280460216& unmarshaled, Win32_IP_PER_ADAPTER_INFO_t1280460216_marshaled_pinvoke& marshaled)
+{
+	marshaled.___AutoconfigEnabled_0 = unmarshaled.get_AutoconfigEnabled_0();
+	marshaled.___AutoconfigActive_1 = unmarshaled.get_AutoconfigActive_1();
+	marshaled.___CurrentDnsServer_2 = reinterpret_cast<intptr_t>((unmarshaled.get_CurrentDnsServer_2()).get_m_value_0());
+	Win32_IP_ADDR_STRING_t2646152127_marshal_pinvoke(unmarshaled.get_DnsServerList_3(), marshaled.___DnsServerList_3);
+}
+extern "C" void Win32_IP_PER_ADAPTER_INFO_t1280460216_marshal_pinvoke_back(const Win32_IP_PER_ADAPTER_INFO_t1280460216_marshaled_pinvoke& marshaled, Win32_IP_PER_ADAPTER_INFO_t1280460216& unmarshaled)
+{
+	uint32_t unmarshaled_AutoconfigEnabled_temp_0 = 0;
+	unmarshaled_AutoconfigEnabled_temp_0 = marshaled.___AutoconfigEnabled_0;
+	unmarshaled.set_AutoconfigEnabled_0(unmarshaled_AutoconfigEnabled_temp_0);
+	uint32_t unmarshaled_AutoconfigActive_temp_1 = 0;
+	unmarshaled_AutoconfigActive_temp_1 = marshaled.___AutoconfigActive_1;
+	unmarshaled.set_AutoconfigActive_1(unmarshaled_AutoconfigActive_temp_1);
+	IntPtr_t unmarshaled_CurrentDnsServer_temp_2;
+	memset(&unmarshaled_CurrentDnsServer_temp_2, 0, sizeof(unmarshaled_CurrentDnsServer_temp_2));
+	IntPtr_t unmarshaled_CurrentDnsServer_temp_2_temp;
+	unmarshaled_CurrentDnsServer_temp_2_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(marshaled.___CurrentDnsServer_2)));
+	unmarshaled_CurrentDnsServer_temp_2 = unmarshaled_CurrentDnsServer_temp_2_temp;
+	unmarshaled.set_CurrentDnsServer_2(unmarshaled_CurrentDnsServer_temp_2);
+	Win32_IP_ADDR_STRING_t2646152127  unmarshaled_DnsServerList_temp_3;
+	memset(&unmarshaled_DnsServerList_temp_3, 0, sizeof(unmarshaled_DnsServerList_temp_3));
+	Win32_IP_ADDR_STRING_t2646152127_marshal_pinvoke_back(marshaled.___DnsServerList_3, unmarshaled_DnsServerList_temp_3);
+	unmarshaled.set_DnsServerList_3(unmarshaled_DnsServerList_temp_3);
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.Win32_IP_PER_ADAPTER_INFO
+extern "C" void Win32_IP_PER_ADAPTER_INFO_t1280460216_marshal_pinvoke_cleanup(Win32_IP_PER_ADAPTER_INFO_t1280460216_marshaled_pinvoke& marshaled)
+{
+	Win32_IP_ADDR_STRING_t2646152127_marshal_pinvoke_cleanup(marshaled.___DnsServerList_3);
+}
+
+
+// Conversion methods for marshalling of: System.Net.NetworkInformation.Win32_IP_PER_ADAPTER_INFO
+extern "C" void Win32_IP_PER_ADAPTER_INFO_t1280460216_marshal_com(const Win32_IP_PER_ADAPTER_INFO_t1280460216& unmarshaled, Win32_IP_PER_ADAPTER_INFO_t1280460216_marshaled_com& marshaled)
+{
+	marshaled.___AutoconfigEnabled_0 = unmarshaled.get_AutoconfigEnabled_0();
+	marshaled.___AutoconfigActive_1 = unmarshaled.get_AutoconfigActive_1();
+	marshaled.___CurrentDnsServer_2 = reinterpret_cast<intptr_t>((unmarshaled.get_CurrentDnsServer_2()).get_m_value_0());
+	Win32_IP_ADDR_STRING_t2646152127_marshal_com(unmarshaled.get_DnsServerList_3(), marshaled.___DnsServerList_3);
+}
+extern "C" void Win32_IP_PER_ADAPTER_INFO_t1280460216_marshal_com_back(const Win32_IP_PER_ADAPTER_INFO_t1280460216_marshaled_com& marshaled, Win32_IP_PER_ADAPTER_INFO_t1280460216& unmarshaled)
+{
+	uint32_t unmarshaled_AutoconfigEnabled_temp_0 = 0;
+	unmarshaled_AutoconfigEnabled_temp_0 = marshaled.___AutoconfigEnabled_0;
+	unmarshaled.set_AutoconfigEnabled_0(unmarshaled_AutoconfigEnabled_temp_0);
+	uint32_t unmarshaled_AutoconfigActive_temp_1 = 0;
+	unmarshaled_AutoconfigActive_temp_1 = marshaled.___AutoconfigActive_1;
+	unmarshaled.set_AutoconfigActive_1(unmarshaled_AutoconfigActive_temp_1);
+	IntPtr_t unmarshaled_CurrentDnsServer_temp_2;
+	memset(&unmarshaled_CurrentDnsServer_temp_2, 0, sizeof(unmarshaled_CurrentDnsServer_temp_2));
+	IntPtr_t unmarshaled_CurrentDnsServer_temp_2_temp;
+	unmarshaled_CurrentDnsServer_temp_2_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(marshaled.___CurrentDnsServer_2)));
+	unmarshaled_CurrentDnsServer_temp_2 = unmarshaled_CurrentDnsServer_temp_2_temp;
+	unmarshaled.set_CurrentDnsServer_2(unmarshaled_CurrentDnsServer_temp_2);
+	Win32_IP_ADDR_STRING_t2646152127  unmarshaled_DnsServerList_temp_3;
+	memset(&unmarshaled_DnsServerList_temp_3, 0, sizeof(unmarshaled_DnsServerList_temp_3));
+	Win32_IP_ADDR_STRING_t2646152127_marshal_com_back(marshaled.___DnsServerList_3, unmarshaled_DnsServerList_temp_3);
+	unmarshaled.set_DnsServerList_3(unmarshaled_DnsServerList_temp_3);
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.Win32_IP_PER_ADAPTER_INFO
+extern "C" void Win32_IP_PER_ADAPTER_INFO_t1280460216_marshal_com_cleanup(Win32_IP_PER_ADAPTER_INFO_t1280460216_marshaled_com& marshaled)
+{
+	Win32_IP_ADDR_STRING_t2646152127_marshal_com_cleanup(marshaled.___DnsServerList_3);
+}
+// System.Void System.Net.NetworkInformation.Win32_IP_PER_ADAPTER_INFO::.ctor()
+extern "C"  void Win32_IP_PER_ADAPTER_INFO__ctor_m3667990042 (Win32_IP_PER_ADAPTER_INFO_t1280460216 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+
+
+
+
+// Conversion methods for marshalling of: System.Net.NetworkInformation.Win32_MIB_ICMP_EX
+extern "C" void Win32_MIB_ICMP_EX_t2748725486_marshal_pinvoke(const Win32_MIB_ICMP_EX_t2748725486& unmarshaled, Win32_MIB_ICMP_EX_t2748725486_marshaled_pinvoke& marshaled)
+{
+	Win32_MIBICMPSTATS_EX_t3893422550_marshal_pinvoke(unmarshaled.get_InStats_0(), marshaled.___InStats_0);
+	Win32_MIBICMPSTATS_EX_t3893422550_marshal_pinvoke(unmarshaled.get_OutStats_1(), marshaled.___OutStats_1);
+}
+extern "C" void Win32_MIB_ICMP_EX_t2748725486_marshal_pinvoke_back(const Win32_MIB_ICMP_EX_t2748725486_marshaled_pinvoke& marshaled, Win32_MIB_ICMP_EX_t2748725486& unmarshaled)
+{
+	Win32_MIBICMPSTATS_EX_t3893422550  unmarshaled_InStats_temp_0;
+	memset(&unmarshaled_InStats_temp_0, 0, sizeof(unmarshaled_InStats_temp_0));
+	Win32_MIBICMPSTATS_EX_t3893422550_marshal_pinvoke_back(marshaled.___InStats_0, unmarshaled_InStats_temp_0);
+	unmarshaled.set_InStats_0(unmarshaled_InStats_temp_0);
+	Win32_MIBICMPSTATS_EX_t3893422550  unmarshaled_OutStats_temp_1;
+	memset(&unmarshaled_OutStats_temp_1, 0, sizeof(unmarshaled_OutStats_temp_1));
+	Win32_MIBICMPSTATS_EX_t3893422550_marshal_pinvoke_back(marshaled.___OutStats_1, unmarshaled_OutStats_temp_1);
+	unmarshaled.set_OutStats_1(unmarshaled_OutStats_temp_1);
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.Win32_MIB_ICMP_EX
+extern "C" void Win32_MIB_ICMP_EX_t2748725486_marshal_pinvoke_cleanup(Win32_MIB_ICMP_EX_t2748725486_marshaled_pinvoke& marshaled)
+{
+	Win32_MIBICMPSTATS_EX_t3893422550_marshal_pinvoke_cleanup(marshaled.___InStats_0);
+	Win32_MIBICMPSTATS_EX_t3893422550_marshal_pinvoke_cleanup(marshaled.___OutStats_1);
+}
+
+
+
+
+// Conversion methods for marshalling of: System.Net.NetworkInformation.Win32_MIB_ICMP_EX
+extern "C" void Win32_MIB_ICMP_EX_t2748725486_marshal_com(const Win32_MIB_ICMP_EX_t2748725486& unmarshaled, Win32_MIB_ICMP_EX_t2748725486_marshaled_com& marshaled)
+{
+	Win32_MIBICMPSTATS_EX_t3893422550_marshal_com(unmarshaled.get_InStats_0(), marshaled.___InStats_0);
+	Win32_MIBICMPSTATS_EX_t3893422550_marshal_com(unmarshaled.get_OutStats_1(), marshaled.___OutStats_1);
+}
+extern "C" void Win32_MIB_ICMP_EX_t2748725486_marshal_com_back(const Win32_MIB_ICMP_EX_t2748725486_marshaled_com& marshaled, Win32_MIB_ICMP_EX_t2748725486& unmarshaled)
+{
+	Win32_MIBICMPSTATS_EX_t3893422550  unmarshaled_InStats_temp_0;
+	memset(&unmarshaled_InStats_temp_0, 0, sizeof(unmarshaled_InStats_temp_0));
+	Win32_MIBICMPSTATS_EX_t3893422550_marshal_com_back(marshaled.___InStats_0, unmarshaled_InStats_temp_0);
+	unmarshaled.set_InStats_0(unmarshaled_InStats_temp_0);
+	Win32_MIBICMPSTATS_EX_t3893422550  unmarshaled_OutStats_temp_1;
+	memset(&unmarshaled_OutStats_temp_1, 0, sizeof(unmarshaled_OutStats_temp_1));
+	Win32_MIBICMPSTATS_EX_t3893422550_marshal_com_back(marshaled.___OutStats_1, unmarshaled_OutStats_temp_1);
+	unmarshaled.set_OutStats_1(unmarshaled_OutStats_temp_1);
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.Win32_MIB_ICMP_EX
+extern "C" void Win32_MIB_ICMP_EX_t2748725486_marshal_com_cleanup(Win32_MIB_ICMP_EX_t2748725486_marshaled_com& marshaled)
+{
+	Win32_MIBICMPSTATS_EX_t3893422550_marshal_com_cleanup(marshaled.___InStats_0);
+	Win32_MIBICMPSTATS_EX_t3893422550_marshal_com_cleanup(marshaled.___OutStats_1);
+}
+// Conversion methods for marshalling of: System.Net.NetworkInformation.Win32_MIB_IFROW
+extern "C" void Win32_MIB_IFROW_t4215928996_marshal_pinvoke(const Win32_MIB_IFROW_t4215928996& unmarshaled, Win32_MIB_IFROW_t4215928996_marshaled_pinvoke& marshaled)
+{
+	if (unmarshaled.get_Name_3() != NULL)
+	{
+		if (512 > (unmarshaled.get_Name_3())->max_length)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_exception("", "Type could not be marshaled because the length of an embedded array instance does not match the declared length in the layout."));
+		}
+
+		for (int32_t i = 0; i < 512; i++)
+		{
+			(marshaled.___Name_3)[i] = static_cast<uint8_t>((unmarshaled.get_Name_3())->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)));
+		}
+	}
+	marshaled.___Index_4 = unmarshaled.get_Index_4();
+	marshaled.___Type_5 = unmarshaled.get_Type_5();
+	marshaled.___Mtu_6 = unmarshaled.get_Mtu_6();
+	marshaled.___Speed_7 = unmarshaled.get_Speed_7();
+	marshaled.___PhysAddrLen_8 = unmarshaled.get_PhysAddrLen_8();
+	if (unmarshaled.get_PhysAddr_9() != NULL)
+	{
+		if (8 > (unmarshaled.get_PhysAddr_9())->max_length)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_exception("", "Type could not be marshaled because the length of an embedded array instance does not match the declared length in the layout."));
+		}
+
+		for (int32_t i = 0; i < 8; i++)
+		{
+			(marshaled.___PhysAddr_9)[i] = (unmarshaled.get_PhysAddr_9())->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i));
+		}
+	}
+	marshaled.___AdminStatus_10 = unmarshaled.get_AdminStatus_10();
+	marshaled.___OperStatus_11 = unmarshaled.get_OperStatus_11();
+	marshaled.___LastChange_12 = unmarshaled.get_LastChange_12();
+	marshaled.___InOctets_13 = unmarshaled.get_InOctets_13();
+	marshaled.___InUcastPkts_14 = unmarshaled.get_InUcastPkts_14();
+	marshaled.___InNUcastPkts_15 = unmarshaled.get_InNUcastPkts_15();
+	marshaled.___InDiscards_16 = unmarshaled.get_InDiscards_16();
+	marshaled.___InErrors_17 = unmarshaled.get_InErrors_17();
+	marshaled.___InUnknownProtos_18 = unmarshaled.get_InUnknownProtos_18();
+	marshaled.___OutOctets_19 = unmarshaled.get_OutOctets_19();
+	marshaled.___OutUcastPkts_20 = unmarshaled.get_OutUcastPkts_20();
+	marshaled.___OutNUcastPkts_21 = unmarshaled.get_OutNUcastPkts_21();
+	marshaled.___OutDiscards_22 = unmarshaled.get_OutDiscards_22();
+	marshaled.___OutErrors_23 = unmarshaled.get_OutErrors_23();
+	marshaled.___OutQLen_24 = unmarshaled.get_OutQLen_24();
+	marshaled.___DescrLen_25 = unmarshaled.get_DescrLen_25();
+	if (unmarshaled.get_Descr_26() != NULL)
+	{
+		if (256 > (unmarshaled.get_Descr_26())->max_length)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_exception("", "Type could not be marshaled because the length of an embedded array instance does not match the declared length in the layout."));
+		}
+
+		for (int32_t i = 0; i < 256; i++)
+		{
+			(marshaled.___Descr_26)[i] = (unmarshaled.get_Descr_26())->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i));
+		}
+	}
+}
+extern "C" void Win32_MIB_IFROW_t4215928996_marshal_pinvoke_back(const Win32_MIB_IFROW_t4215928996_marshaled_pinvoke& marshaled, Win32_MIB_IFROW_t4215928996& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32_MIB_IFROW_t4215928996_pinvoke_FromNativeMethodDefinition_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	unmarshaled.set_Name_3(reinterpret_cast<CharU5BU5D_t1328083999*>(SZArrayNew(CharU5BU5D_t1328083999_il2cpp_TypeInfo_var, 512)));
+	for (int32_t i = 0; i < 512; i++)
+	{
+		(unmarshaled.get_Name_3())->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), static_cast<Il2CppChar>((marshaled.___Name_3)[i]));
+	}
+	int32_t unmarshaled_Index_temp_1 = 0;
+	unmarshaled_Index_temp_1 = marshaled.___Index_4;
+	unmarshaled.set_Index_4(unmarshaled_Index_temp_1);
+	int32_t unmarshaled_Type_temp_2 = 0;
+	unmarshaled_Type_temp_2 = marshaled.___Type_5;
+	unmarshaled.set_Type_5(unmarshaled_Type_temp_2);
+	int32_t unmarshaled_Mtu_temp_3 = 0;
+	unmarshaled_Mtu_temp_3 = marshaled.___Mtu_6;
+	unmarshaled.set_Mtu_6(unmarshaled_Mtu_temp_3);
+	uint32_t unmarshaled_Speed_temp_4 = 0;
+	unmarshaled_Speed_temp_4 = marshaled.___Speed_7;
+	unmarshaled.set_Speed_7(unmarshaled_Speed_temp_4);
+	int32_t unmarshaled_PhysAddrLen_temp_5 = 0;
+	unmarshaled_PhysAddrLen_temp_5 = marshaled.___PhysAddrLen_8;
+	unmarshaled.set_PhysAddrLen_8(unmarshaled_PhysAddrLen_temp_5);
+	unmarshaled.set_PhysAddr_9(reinterpret_cast<ByteU5BU5D_t3397334013*>(SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, 8)));
+	for (int32_t i = 0; i < 8; i++)
+	{
+		(unmarshaled.get_PhysAddr_9())->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), (marshaled.___PhysAddr_9)[i]);
+	}
+	uint32_t unmarshaled_AdminStatus_temp_7 = 0;
+	unmarshaled_AdminStatus_temp_7 = marshaled.___AdminStatus_10;
+	unmarshaled.set_AdminStatus_10(unmarshaled_AdminStatus_temp_7);
+	uint32_t unmarshaled_OperStatus_temp_8 = 0;
+	unmarshaled_OperStatus_temp_8 = marshaled.___OperStatus_11;
+	unmarshaled.set_OperStatus_11(unmarshaled_OperStatus_temp_8);
+	uint32_t unmarshaled_LastChange_temp_9 = 0;
+	unmarshaled_LastChange_temp_9 = marshaled.___LastChange_12;
+	unmarshaled.set_LastChange_12(unmarshaled_LastChange_temp_9);
+	int32_t unmarshaled_InOctets_temp_10 = 0;
+	unmarshaled_InOctets_temp_10 = marshaled.___InOctets_13;
+	unmarshaled.set_InOctets_13(unmarshaled_InOctets_temp_10);
+	int32_t unmarshaled_InUcastPkts_temp_11 = 0;
+	unmarshaled_InUcastPkts_temp_11 = marshaled.___InUcastPkts_14;
+	unmarshaled.set_InUcastPkts_14(unmarshaled_InUcastPkts_temp_11);
+	int32_t unmarshaled_InNUcastPkts_temp_12 = 0;
+	unmarshaled_InNUcastPkts_temp_12 = marshaled.___InNUcastPkts_15;
+	unmarshaled.set_InNUcastPkts_15(unmarshaled_InNUcastPkts_temp_12);
+	int32_t unmarshaled_InDiscards_temp_13 = 0;
+	unmarshaled_InDiscards_temp_13 = marshaled.___InDiscards_16;
+	unmarshaled.set_InDiscards_16(unmarshaled_InDiscards_temp_13);
+	int32_t unmarshaled_InErrors_temp_14 = 0;
+	unmarshaled_InErrors_temp_14 = marshaled.___InErrors_17;
+	unmarshaled.set_InErrors_17(unmarshaled_InErrors_temp_14);
+	int32_t unmarshaled_InUnknownProtos_temp_15 = 0;
+	unmarshaled_InUnknownProtos_temp_15 = marshaled.___InUnknownProtos_18;
+	unmarshaled.set_InUnknownProtos_18(unmarshaled_InUnknownProtos_temp_15);
+	int32_t unmarshaled_OutOctets_temp_16 = 0;
+	unmarshaled_OutOctets_temp_16 = marshaled.___OutOctets_19;
+	unmarshaled.set_OutOctets_19(unmarshaled_OutOctets_temp_16);
+	int32_t unmarshaled_OutUcastPkts_temp_17 = 0;
+	unmarshaled_OutUcastPkts_temp_17 = marshaled.___OutUcastPkts_20;
+	unmarshaled.set_OutUcastPkts_20(unmarshaled_OutUcastPkts_temp_17);
+	int32_t unmarshaled_OutNUcastPkts_temp_18 = 0;
+	unmarshaled_OutNUcastPkts_temp_18 = marshaled.___OutNUcastPkts_21;
+	unmarshaled.set_OutNUcastPkts_21(unmarshaled_OutNUcastPkts_temp_18);
+	int32_t unmarshaled_OutDiscards_temp_19 = 0;
+	unmarshaled_OutDiscards_temp_19 = marshaled.___OutDiscards_22;
+	unmarshaled.set_OutDiscards_22(unmarshaled_OutDiscards_temp_19);
+	int32_t unmarshaled_OutErrors_temp_20 = 0;
+	unmarshaled_OutErrors_temp_20 = marshaled.___OutErrors_23;
+	unmarshaled.set_OutErrors_23(unmarshaled_OutErrors_temp_20);
+	int32_t unmarshaled_OutQLen_temp_21 = 0;
+	unmarshaled_OutQLen_temp_21 = marshaled.___OutQLen_24;
+	unmarshaled.set_OutQLen_24(unmarshaled_OutQLen_temp_21);
+	int32_t unmarshaled_DescrLen_temp_22 = 0;
+	unmarshaled_DescrLen_temp_22 = marshaled.___DescrLen_25;
+	unmarshaled.set_DescrLen_25(unmarshaled_DescrLen_temp_22);
+	unmarshaled.set_Descr_26(reinterpret_cast<ByteU5BU5D_t3397334013*>(SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, 256)));
+	for (int32_t i = 0; i < 256; i++)
+	{
+		(unmarshaled.get_Descr_26())->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), (marshaled.___Descr_26)[i]);
+	}
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.Win32_MIB_IFROW
+extern "C" void Win32_MIB_IFROW_t4215928996_marshal_pinvoke_cleanup(Win32_MIB_IFROW_t4215928996_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: System.Net.NetworkInformation.Win32_MIB_IFROW
+extern "C" void Win32_MIB_IFROW_t4215928996_marshal_com(const Win32_MIB_IFROW_t4215928996& unmarshaled, Win32_MIB_IFROW_t4215928996_marshaled_com& marshaled)
+{
+	if (unmarshaled.get_Name_3() != NULL)
+	{
+		if (512 > (unmarshaled.get_Name_3())->max_length)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_exception("", "Type could not be marshaled because the length of an embedded array instance does not match the declared length in the layout."));
+		}
+
+		for (int32_t i = 0; i < 512; i++)
+		{
+			(marshaled.___Name_3)[i] = static_cast<uint8_t>((unmarshaled.get_Name_3())->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)));
+		}
+	}
+	marshaled.___Index_4 = unmarshaled.get_Index_4();
+	marshaled.___Type_5 = unmarshaled.get_Type_5();
+	marshaled.___Mtu_6 = unmarshaled.get_Mtu_6();
+	marshaled.___Speed_7 = unmarshaled.get_Speed_7();
+	marshaled.___PhysAddrLen_8 = unmarshaled.get_PhysAddrLen_8();
+	if (unmarshaled.get_PhysAddr_9() != NULL)
+	{
+		if (8 > (unmarshaled.get_PhysAddr_9())->max_length)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_exception("", "Type could not be marshaled because the length of an embedded array instance does not match the declared length in the layout."));
+		}
+
+		for (int32_t i = 0; i < 8; i++)
+		{
+			(marshaled.___PhysAddr_9)[i] = (unmarshaled.get_PhysAddr_9())->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i));
+		}
+	}
+	marshaled.___AdminStatus_10 = unmarshaled.get_AdminStatus_10();
+	marshaled.___OperStatus_11 = unmarshaled.get_OperStatus_11();
+	marshaled.___LastChange_12 = unmarshaled.get_LastChange_12();
+	marshaled.___InOctets_13 = unmarshaled.get_InOctets_13();
+	marshaled.___InUcastPkts_14 = unmarshaled.get_InUcastPkts_14();
+	marshaled.___InNUcastPkts_15 = unmarshaled.get_InNUcastPkts_15();
+	marshaled.___InDiscards_16 = unmarshaled.get_InDiscards_16();
+	marshaled.___InErrors_17 = unmarshaled.get_InErrors_17();
+	marshaled.___InUnknownProtos_18 = unmarshaled.get_InUnknownProtos_18();
+	marshaled.___OutOctets_19 = unmarshaled.get_OutOctets_19();
+	marshaled.___OutUcastPkts_20 = unmarshaled.get_OutUcastPkts_20();
+	marshaled.___OutNUcastPkts_21 = unmarshaled.get_OutNUcastPkts_21();
+	marshaled.___OutDiscards_22 = unmarshaled.get_OutDiscards_22();
+	marshaled.___OutErrors_23 = unmarshaled.get_OutErrors_23();
+	marshaled.___OutQLen_24 = unmarshaled.get_OutQLen_24();
+	marshaled.___DescrLen_25 = unmarshaled.get_DescrLen_25();
+	if (unmarshaled.get_Descr_26() != NULL)
+	{
+		if (256 > (unmarshaled.get_Descr_26())->max_length)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_exception("", "Type could not be marshaled because the length of an embedded array instance does not match the declared length in the layout."));
+		}
+
+		for (int32_t i = 0; i < 256; i++)
+		{
+			(marshaled.___Descr_26)[i] = (unmarshaled.get_Descr_26())->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i));
+		}
+	}
+}
+extern "C" void Win32_MIB_IFROW_t4215928996_marshal_com_back(const Win32_MIB_IFROW_t4215928996_marshaled_com& marshaled, Win32_MIB_IFROW_t4215928996& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32_MIB_IFROW_t4215928996_com_FromNativeMethodDefinition_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	unmarshaled.set_Name_3(reinterpret_cast<CharU5BU5D_t1328083999*>(SZArrayNew(CharU5BU5D_t1328083999_il2cpp_TypeInfo_var, 512)));
+	for (int32_t i = 0; i < 512; i++)
+	{
+		(unmarshaled.get_Name_3())->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), static_cast<Il2CppChar>((marshaled.___Name_3)[i]));
+	}
+	int32_t unmarshaled_Index_temp_1 = 0;
+	unmarshaled_Index_temp_1 = marshaled.___Index_4;
+	unmarshaled.set_Index_4(unmarshaled_Index_temp_1);
+	int32_t unmarshaled_Type_temp_2 = 0;
+	unmarshaled_Type_temp_2 = marshaled.___Type_5;
+	unmarshaled.set_Type_5(unmarshaled_Type_temp_2);
+	int32_t unmarshaled_Mtu_temp_3 = 0;
+	unmarshaled_Mtu_temp_3 = marshaled.___Mtu_6;
+	unmarshaled.set_Mtu_6(unmarshaled_Mtu_temp_3);
+	uint32_t unmarshaled_Speed_temp_4 = 0;
+	unmarshaled_Speed_temp_4 = marshaled.___Speed_7;
+	unmarshaled.set_Speed_7(unmarshaled_Speed_temp_4);
+	int32_t unmarshaled_PhysAddrLen_temp_5 = 0;
+	unmarshaled_PhysAddrLen_temp_5 = marshaled.___PhysAddrLen_8;
+	unmarshaled.set_PhysAddrLen_8(unmarshaled_PhysAddrLen_temp_5);
+	unmarshaled.set_PhysAddr_9(reinterpret_cast<ByteU5BU5D_t3397334013*>(SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, 8)));
+	for (int32_t i = 0; i < 8; i++)
+	{
+		(unmarshaled.get_PhysAddr_9())->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), (marshaled.___PhysAddr_9)[i]);
+	}
+	uint32_t unmarshaled_AdminStatus_temp_7 = 0;
+	unmarshaled_AdminStatus_temp_7 = marshaled.___AdminStatus_10;
+	unmarshaled.set_AdminStatus_10(unmarshaled_AdminStatus_temp_7);
+	uint32_t unmarshaled_OperStatus_temp_8 = 0;
+	unmarshaled_OperStatus_temp_8 = marshaled.___OperStatus_11;
+	unmarshaled.set_OperStatus_11(unmarshaled_OperStatus_temp_8);
+	uint32_t unmarshaled_LastChange_temp_9 = 0;
+	unmarshaled_LastChange_temp_9 = marshaled.___LastChange_12;
+	unmarshaled.set_LastChange_12(unmarshaled_LastChange_temp_9);
+	int32_t unmarshaled_InOctets_temp_10 = 0;
+	unmarshaled_InOctets_temp_10 = marshaled.___InOctets_13;
+	unmarshaled.set_InOctets_13(unmarshaled_InOctets_temp_10);
+	int32_t unmarshaled_InUcastPkts_temp_11 = 0;
+	unmarshaled_InUcastPkts_temp_11 = marshaled.___InUcastPkts_14;
+	unmarshaled.set_InUcastPkts_14(unmarshaled_InUcastPkts_temp_11);
+	int32_t unmarshaled_InNUcastPkts_temp_12 = 0;
+	unmarshaled_InNUcastPkts_temp_12 = marshaled.___InNUcastPkts_15;
+	unmarshaled.set_InNUcastPkts_15(unmarshaled_InNUcastPkts_temp_12);
+	int32_t unmarshaled_InDiscards_temp_13 = 0;
+	unmarshaled_InDiscards_temp_13 = marshaled.___InDiscards_16;
+	unmarshaled.set_InDiscards_16(unmarshaled_InDiscards_temp_13);
+	int32_t unmarshaled_InErrors_temp_14 = 0;
+	unmarshaled_InErrors_temp_14 = marshaled.___InErrors_17;
+	unmarshaled.set_InErrors_17(unmarshaled_InErrors_temp_14);
+	int32_t unmarshaled_InUnknownProtos_temp_15 = 0;
+	unmarshaled_InUnknownProtos_temp_15 = marshaled.___InUnknownProtos_18;
+	unmarshaled.set_InUnknownProtos_18(unmarshaled_InUnknownProtos_temp_15);
+	int32_t unmarshaled_OutOctets_temp_16 = 0;
+	unmarshaled_OutOctets_temp_16 = marshaled.___OutOctets_19;
+	unmarshaled.set_OutOctets_19(unmarshaled_OutOctets_temp_16);
+	int32_t unmarshaled_OutUcastPkts_temp_17 = 0;
+	unmarshaled_OutUcastPkts_temp_17 = marshaled.___OutUcastPkts_20;
+	unmarshaled.set_OutUcastPkts_20(unmarshaled_OutUcastPkts_temp_17);
+	int32_t unmarshaled_OutNUcastPkts_temp_18 = 0;
+	unmarshaled_OutNUcastPkts_temp_18 = marshaled.___OutNUcastPkts_21;
+	unmarshaled.set_OutNUcastPkts_21(unmarshaled_OutNUcastPkts_temp_18);
+	int32_t unmarshaled_OutDiscards_temp_19 = 0;
+	unmarshaled_OutDiscards_temp_19 = marshaled.___OutDiscards_22;
+	unmarshaled.set_OutDiscards_22(unmarshaled_OutDiscards_temp_19);
+	int32_t unmarshaled_OutErrors_temp_20 = 0;
+	unmarshaled_OutErrors_temp_20 = marshaled.___OutErrors_23;
+	unmarshaled.set_OutErrors_23(unmarshaled_OutErrors_temp_20);
+	int32_t unmarshaled_OutQLen_temp_21 = 0;
+	unmarshaled_OutQLen_temp_21 = marshaled.___OutQLen_24;
+	unmarshaled.set_OutQLen_24(unmarshaled_OutQLen_temp_21);
+	int32_t unmarshaled_DescrLen_temp_22 = 0;
+	unmarshaled_DescrLen_temp_22 = marshaled.___DescrLen_25;
+	unmarshaled.set_DescrLen_25(unmarshaled_DescrLen_temp_22);
+	unmarshaled.set_Descr_26(reinterpret_cast<ByteU5BU5D_t3397334013*>(SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, 256)));
+	for (int32_t i = 0; i < 256; i++)
+	{
+		(unmarshaled.get_Descr_26())->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), (marshaled.___Descr_26)[i]);
+	}
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.Win32_MIB_IFROW
+extern "C" void Win32_MIB_IFROW_t4215928996_marshal_com_cleanup(Win32_MIB_IFROW_t4215928996_marshaled_com& marshaled)
+{
+}
+// Conversion methods for marshalling of: System.Net.NetworkInformation.Win32_MIBICMPSTATS_EX
+extern "C" void Win32_MIBICMPSTATS_EX_t3893422550_marshal_pinvoke(const Win32_MIBICMPSTATS_EX_t3893422550& unmarshaled, Win32_MIBICMPSTATS_EX_t3893422550_marshaled_pinvoke& marshaled)
+{
+	marshaled.___Msgs_0 = unmarshaled.get_Msgs_0();
+	marshaled.___Errors_1 = unmarshaled.get_Errors_1();
+	if (unmarshaled.get_Counts_2() != NULL)
+	{
+		if (256 > (unmarshaled.get_Counts_2())->max_length)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_exception("", "Type could not be marshaled because the length of an embedded array instance does not match the declared length in the layout."));
+		}
+
+		for (int32_t i = 0; i < 256; i++)
+		{
+			(marshaled.___Counts_2)[i] = (unmarshaled.get_Counts_2())->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i));
+		}
+	}
+}
+extern "C" void Win32_MIBICMPSTATS_EX_t3893422550_marshal_pinvoke_back(const Win32_MIBICMPSTATS_EX_t3893422550_marshaled_pinvoke& marshaled, Win32_MIBICMPSTATS_EX_t3893422550& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32_MIBICMPSTATS_EX_t3893422550_pinvoke_FromNativeMethodDefinition_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t unmarshaled_Msgs_temp_0 = 0;
+	unmarshaled_Msgs_temp_0 = marshaled.___Msgs_0;
+	unmarshaled.set_Msgs_0(unmarshaled_Msgs_temp_0);
+	uint32_t unmarshaled_Errors_temp_1 = 0;
+	unmarshaled_Errors_temp_1 = marshaled.___Errors_1;
+	unmarshaled.set_Errors_1(unmarshaled_Errors_temp_1);
+	unmarshaled.set_Counts_2(reinterpret_cast<UInt32U5BU5D_t59386216*>(SZArrayNew(UInt32U5BU5D_t59386216_il2cpp_TypeInfo_var, 256)));
+	for (int32_t i = 0; i < 256; i++)
+	{
+		(unmarshaled.get_Counts_2())->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), (marshaled.___Counts_2)[i]);
+	}
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.Win32_MIBICMPSTATS_EX
+extern "C" void Win32_MIBICMPSTATS_EX_t3893422550_marshal_pinvoke_cleanup(Win32_MIBICMPSTATS_EX_t3893422550_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: System.Net.NetworkInformation.Win32_MIBICMPSTATS_EX
+extern "C" void Win32_MIBICMPSTATS_EX_t3893422550_marshal_com(const Win32_MIBICMPSTATS_EX_t3893422550& unmarshaled, Win32_MIBICMPSTATS_EX_t3893422550_marshaled_com& marshaled)
+{
+	marshaled.___Msgs_0 = unmarshaled.get_Msgs_0();
+	marshaled.___Errors_1 = unmarshaled.get_Errors_1();
+	if (unmarshaled.get_Counts_2() != NULL)
+	{
+		if (256 > (unmarshaled.get_Counts_2())->max_length)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_exception("", "Type could not be marshaled because the length of an embedded array instance does not match the declared length in the layout."));
+		}
+
+		for (int32_t i = 0; i < 256; i++)
+		{
+			(marshaled.___Counts_2)[i] = (unmarshaled.get_Counts_2())->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i));
+		}
+	}
+}
+extern "C" void Win32_MIBICMPSTATS_EX_t3893422550_marshal_com_back(const Win32_MIBICMPSTATS_EX_t3893422550_marshaled_com& marshaled, Win32_MIBICMPSTATS_EX_t3893422550& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32_MIBICMPSTATS_EX_t3893422550_com_FromNativeMethodDefinition_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t unmarshaled_Msgs_temp_0 = 0;
+	unmarshaled_Msgs_temp_0 = marshaled.___Msgs_0;
+	unmarshaled.set_Msgs_0(unmarshaled_Msgs_temp_0);
+	uint32_t unmarshaled_Errors_temp_1 = 0;
+	unmarshaled_Errors_temp_1 = marshaled.___Errors_1;
+	unmarshaled.set_Errors_1(unmarshaled_Errors_temp_1);
+	unmarshaled.set_Counts_2(reinterpret_cast<UInt32U5BU5D_t59386216*>(SZArrayNew(UInt32U5BU5D_t59386216_il2cpp_TypeInfo_var, 256)));
+	for (int32_t i = 0; i < 256; i++)
+	{
+		(unmarshaled.get_Counts_2())->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), (marshaled.___Counts_2)[i]);
+	}
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.Win32_MIBICMPSTATS_EX
+extern "C" void Win32_MIBICMPSTATS_EX_t3893422550_marshal_com_cleanup(Win32_MIBICMPSTATS_EX_t3893422550_marshaled_com& marshaled)
+{
+}
+// Conversion methods for marshalling of: System.Net.NetworkInformation.Win32_SOCKADDR
+extern "C" void Win32_SOCKADDR_t1606057231_marshal_pinvoke(const Win32_SOCKADDR_t1606057231& unmarshaled, Win32_SOCKADDR_t1606057231_marshaled_pinvoke& marshaled)
+{
+	marshaled.___AddressFamily_0 = unmarshaled.get_AddressFamily_0();
+	if (unmarshaled.get_AddressData_1() != NULL)
+	{
+		if (28 > (unmarshaled.get_AddressData_1())->max_length)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_exception("", "Type could not be marshaled because the length of an embedded array instance does not match the declared length in the layout."));
+		}
+
+		for (int32_t i = 0; i < 28; i++)
+		{
+			(marshaled.___AddressData_1)[i] = (unmarshaled.get_AddressData_1())->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i));
+		}
+	}
+}
+extern "C" void Win32_SOCKADDR_t1606057231_marshal_pinvoke_back(const Win32_SOCKADDR_t1606057231_marshaled_pinvoke& marshaled, Win32_SOCKADDR_t1606057231& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32_SOCKADDR_t1606057231_pinvoke_FromNativeMethodDefinition_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint16_t unmarshaled_AddressFamily_temp_0 = 0;
+	unmarshaled_AddressFamily_temp_0 = marshaled.___AddressFamily_0;
+	unmarshaled.set_AddressFamily_0(unmarshaled_AddressFamily_temp_0);
+	unmarshaled.set_AddressData_1(reinterpret_cast<ByteU5BU5D_t3397334013*>(SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, 28)));
+	for (int32_t i = 0; i < 28; i++)
+	{
+		(unmarshaled.get_AddressData_1())->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), (marshaled.___AddressData_1)[i]);
+	}
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.Win32_SOCKADDR
+extern "C" void Win32_SOCKADDR_t1606057231_marshal_pinvoke_cleanup(Win32_SOCKADDR_t1606057231_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: System.Net.NetworkInformation.Win32_SOCKADDR
+extern "C" void Win32_SOCKADDR_t1606057231_marshal_com(const Win32_SOCKADDR_t1606057231& unmarshaled, Win32_SOCKADDR_t1606057231_marshaled_com& marshaled)
+{
+	marshaled.___AddressFamily_0 = unmarshaled.get_AddressFamily_0();
+	if (unmarshaled.get_AddressData_1() != NULL)
+	{
+		if (28 > (unmarshaled.get_AddressData_1())->max_length)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_exception("", "Type could not be marshaled because the length of an embedded array instance does not match the declared length in the layout."));
+		}
+
+		for (int32_t i = 0; i < 28; i++)
+		{
+			(marshaled.___AddressData_1)[i] = (unmarshaled.get_AddressData_1())->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i));
+		}
+	}
+}
+extern "C" void Win32_SOCKADDR_t1606057231_marshal_com_back(const Win32_SOCKADDR_t1606057231_marshaled_com& marshaled, Win32_SOCKADDR_t1606057231& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32_SOCKADDR_t1606057231_com_FromNativeMethodDefinition_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint16_t unmarshaled_AddressFamily_temp_0 = 0;
+	unmarshaled_AddressFamily_temp_0 = marshaled.___AddressFamily_0;
+	unmarshaled.set_AddressFamily_0(unmarshaled_AddressFamily_temp_0);
+	unmarshaled.set_AddressData_1(reinterpret_cast<ByteU5BU5D_t3397334013*>(SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, 28)));
+	for (int32_t i = 0; i < 28; i++)
+	{
+		(unmarshaled.get_AddressData_1())->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), (marshaled.___AddressData_1)[i]);
+	}
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.Win32_SOCKADDR
+extern "C" void Win32_SOCKADDR_t1606057231_marshal_com_cleanup(Win32_SOCKADDR_t1606057231_marshaled_com& marshaled)
+{
+}
+// System.Net.IPAddress System.Net.NetworkInformation.Win32_SOCKET_ADDRESS::GetIPAddress()
+extern "C"  IPAddress_t1399971723 * Win32_SOCKET_ADDRESS_GetIPAddress_m3946757953 (Win32_SOCKET_ADDRESS_t1093973396 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32_SOCKET_ADDRESS_GetIPAddress_m3946757953_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Win32_SOCKADDR_t1606057231  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	ByteU5BU5D_t3397334013* V_1 = NULL;
+	{
+		IntPtr_t L_0 = __this->get_Sockaddr_1();
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_1 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Win32_SOCKADDR_t1606057231_0_0_0_var), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		Il2CppObject * L_2 = Marshal_PtrToStructure_m673412918(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		V_0 = ((*(Win32_SOCKADDR_t1606057231 *)((Win32_SOCKADDR_t1606057231 *)UnBox(L_2, Win32_SOCKADDR_t1606057231_il2cpp_TypeInfo_var))));
+		uint16_t L_3 = (&V_0)->get_AddressFamily_0();
+		if ((!(((uint32_t)L_3) == ((uint32_t)((int32_t)23)))))
+		{
+			goto IL_0047;
+		}
+	}
+	{
+		V_1 = ((ByteU5BU5D_t3397334013*)SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, (uint32_t)((int32_t)16)));
+		ByteU5BU5D_t3397334013* L_4 = (&V_0)->get_AddressData_1();
+		ByteU5BU5D_t3397334013* L_5 = V_1;
+		Array_Copy_m3808317496(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_4, 6, (Il2CppArray *)(Il2CppArray *)L_5, 0, ((int32_t)16), /*hidden argument*/NULL);
+		goto IL_005e;
+	}
+
+IL_0047:
+	{
+		V_1 = ((ByteU5BU5D_t3397334013*)SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, (uint32_t)4));
+		ByteU5BU5D_t3397334013* L_6 = (&V_0)->get_AddressData_1();
+		ByteU5BU5D_t3397334013* L_7 = V_1;
+		Array_Copy_m3808317496(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_6, 2, (Il2CppArray *)(Il2CppArray *)L_7, 0, 4, /*hidden argument*/NULL);
+	}
+
+IL_005e:
+	{
+		ByteU5BU5D_t3397334013* L_8 = V_1;
+		IPAddress_t1399971723 * L_9 = (IPAddress_t1399971723 *)il2cpp_codegen_object_new(IPAddress_t1399971723_il2cpp_TypeInfo_var);
+		IPAddress__ctor_m1440892504(L_9, L_8, /*hidden argument*/NULL);
+		return L_9;
+	}
+}
+extern "C"  IPAddress_t1399971723 * Win32_SOCKET_ADDRESS_GetIPAddress_m3946757953_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	Win32_SOCKET_ADDRESS_t1093973396 * _thisAdjusted = reinterpret_cast<Win32_SOCKET_ADDRESS_t1093973396 *>(__this + 1);
+	return Win32_SOCKET_ADDRESS_GetIPAddress_m3946757953(_thisAdjusted, method);
+}
+// System.Void System.Net.NetworkInformation.Win32GatewayIPAddressInformationCollection::.ctor(System.Boolean)
+extern "C"  void Win32GatewayIPAddressInformationCollection__ctor_m3221980759 (Win32GatewayIPAddressInformationCollection_t710370590 * __this, bool ___isReadOnly0, const MethodInfo* method)
+{
+	{
+		GatewayIPAddressInformationCollection__ctor_m3427578889(__this, /*hidden argument*/NULL);
+		bool L_0 = ___isReadOnly0;
+		__this->set_is_readonly_2(L_0);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.Win32GatewayIPAddressInformationCollection::.ctor(System.Net.NetworkInformation.Win32_IP_ADDR_STRING[])
+extern "C"  void Win32GatewayIPAddressInformationCollection__ctor_m6106881 (Win32GatewayIPAddressInformationCollection_t710370590 * __this, Win32_IP_ADDR_STRINGU5BU5D_t945341030* ___al0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32GatewayIPAddressInformationCollection__ctor_m6106881_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Win32_IP_ADDR_STRING_t2646152127  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Win32_IP_ADDR_STRINGU5BU5D_t945341030* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		GatewayIPAddressInformationCollection__ctor_m3427578889(__this, /*hidden argument*/NULL);
+		Win32_IP_ADDR_STRINGU5BU5D_t945341030* L_0 = ___al0;
+		V_1 = L_0;
+		V_2 = 0;
+		goto IL_005a;
+	}
+
+IL_000f:
+	{
+		Win32_IP_ADDR_STRINGU5BU5D_t945341030* L_1 = V_1;
+		int32_t L_2 = V_2;
+		NullCheck(L_1);
+		V_0 = (*(Win32_IP_ADDR_STRING_t2646152127 *)((L_1)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2))));
+		String_t* L_3 = (&V_0)->get_IpAddress_1();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_4 = String_IsNullOrEmpty_m2802126737(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		goto IL_0056;
+	}
+
+IL_0032:
+	{
+		String_t* L_5 = (&V_0)->get_IpAddress_1();
+		IL2CPP_RUNTIME_CLASS_INIT(IPAddress_t1399971723_il2cpp_TypeInfo_var);
+		IPAddress_t1399971723 * L_6 = IPAddress_Parse_m3374241274(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		GatewayIPAddressInformationImpl_t565141533 * L_7 = (GatewayIPAddressInformationImpl_t565141533 *)il2cpp_codegen_object_new(GatewayIPAddressInformationImpl_t565141533_il2cpp_TypeInfo_var);
+		GatewayIPAddressInformationImpl__ctor_m1701918754(L_7, L_6, /*hidden argument*/NULL);
+		VirtActionInvoker1< GatewayIPAddressInformation_t153474369 * >::Invoke(13 /* System.Void System.Net.NetworkInformation.GatewayIPAddressInformationCollection::Add(System.Net.NetworkInformation.GatewayIPAddressInformation) */, __this, L_7);
+		IntPtr_t L_8 = (&V_0)->get_Next_0();
+		Win32GatewayIPAddressInformationCollection_AddSubsequently_m2327122963(__this, L_8, /*hidden argument*/NULL);
+	}
+
+IL_0056:
+	{
+		int32_t L_9 = V_2;
+		V_2 = ((int32_t)((int32_t)L_9+(int32_t)1));
+	}
+
+IL_005a:
+	{
+		int32_t L_10 = V_2;
+		Win32_IP_ADDR_STRINGU5BU5D_t945341030* L_11 = V_1;
+		NullCheck(L_11);
+		if ((((int32_t)L_10) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_11)->max_length)))))))
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		__this->set_is_readonly_2((bool)1);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.Win32GatewayIPAddressInformationCollection::.cctor()
+extern "C"  void Win32GatewayIPAddressInformationCollection__cctor_m3298758315 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32GatewayIPAddressInformationCollection__cctor_m3298758315_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Win32GatewayIPAddressInformationCollection_t710370590 * L_0 = (Win32GatewayIPAddressInformationCollection_t710370590 *)il2cpp_codegen_object_new(Win32GatewayIPAddressInformationCollection_t710370590_il2cpp_TypeInfo_var);
+		Win32GatewayIPAddressInformationCollection__ctor_m3221980759(L_0, (bool)1, /*hidden argument*/NULL);
+		((Win32GatewayIPAddressInformationCollection_t710370590_StaticFields*)Win32GatewayIPAddressInformationCollection_t710370590_il2cpp_TypeInfo_var->static_fields)->set_Empty_1(L_0);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.Win32GatewayIPAddressInformationCollection::AddSubsequently(System.IntPtr)
+extern "C"  void Win32GatewayIPAddressInformationCollection_AddSubsequently_m2327122963 (Win32GatewayIPAddressInformationCollection_t710370590 * __this, IntPtr_t ___head0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32GatewayIPAddressInformationCollection_AddSubsequently_m2327122963_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Win32_IP_ADDR_STRING_t2646152127  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	IntPtr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		IntPtr_t L_0 = ___head0;
+		V_1 = L_0;
+		goto IL_003c;
+	}
+
+IL_0007:
+	{
+		IntPtr_t L_1 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_2 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Win32_IP_ADDR_STRING_t2646152127_0_0_0_var), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		Il2CppObject * L_3 = Marshal_PtrToStructure_m673412918(NULL /*static, unused*/, L_1, L_2, /*hidden argument*/NULL);
+		V_0 = ((*(Win32_IP_ADDR_STRING_t2646152127 *)((Win32_IP_ADDR_STRING_t2646152127 *)UnBox(L_3, Win32_IP_ADDR_STRING_t2646152127_il2cpp_TypeInfo_var))));
+		String_t* L_4 = (&V_0)->get_IpAddress_1();
+		IL2CPP_RUNTIME_CLASS_INIT(IPAddress_t1399971723_il2cpp_TypeInfo_var);
+		IPAddress_t1399971723 * L_5 = IPAddress_Parse_m3374241274(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		GatewayIPAddressInformationImpl_t565141533 * L_6 = (GatewayIPAddressInformationImpl_t565141533 *)il2cpp_codegen_object_new(GatewayIPAddressInformationImpl_t565141533_il2cpp_TypeInfo_var);
+		GatewayIPAddressInformationImpl__ctor_m1701918754(L_6, L_5, /*hidden argument*/NULL);
+		VirtActionInvoker1< GatewayIPAddressInformation_t153474369 * >::Invoke(13 /* System.Void System.Net.NetworkInformation.GatewayIPAddressInformationCollection::Add(System.Net.NetworkInformation.GatewayIPAddressInformation) */, __this, L_6);
+		IntPtr_t L_7 = (&V_0)->get_Next_0();
+		V_1 = L_7;
+	}
+
+IL_003c:
+	{
+		IntPtr_t L_8 = V_1;
+		IntPtr_t L_9 = ((IntPtr_t_StaticFields*)IntPtr_t_il2cpp_TypeInfo_var->static_fields)->get_Zero_1();
+		bool L_10 = IntPtr_op_Inequality_m3044532593(NULL /*static, unused*/, L_8, L_9, /*hidden argument*/NULL);
+		if (L_10)
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Boolean System.Net.NetworkInformation.Win32GatewayIPAddressInformationCollection::get_IsReadOnly()
+extern "C"  bool Win32GatewayIPAddressInformationCollection_get_IsReadOnly_m2427296337 (Win32GatewayIPAddressInformationCollection_t710370590 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_is_readonly_2();
+		return L_0;
+	}
+}
+// System.Void System.Net.NetworkInformation.Win32IcmpV4Statistics::.ctor(System.Net.NetworkInformation.Win32_MIBICMPINFO)
+extern "C"  void Win32IcmpV4Statistics__ctor_m3807461210 (Win32IcmpV4Statistics_t1426867275 * __this, Win32_MIBICMPINFO_t3825151335  ___info0, const MethodInfo* method)
+{
+	{
+		IcmpV4Statistics__ctor_m695427374(__this, /*hidden argument*/NULL);
+		Win32_MIBICMPSTATS_t683952994  L_0 = (&___info0)->get_InStats_0();
+		__this->set_iin_0(L_0);
+		Win32_MIBICMPSTATS_t683952994  L_1 = (&___info0)->get_OutStats_1();
+		__this->set_iout_1(L_1);
+		return;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV4Statistics::get_AddressMaskRepliesReceived()
+extern "C"  int64_t Win32IcmpV4Statistics_get_AddressMaskRepliesReceived_m159832856 (Win32IcmpV4Statistics_t1426867275 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_t683952994 * L_0 = __this->get_address_of_iin_0();
+		uint32_t L_1 = L_0->get_AddrMaskReps_12();
+		return (((int64_t)((uint64_t)L_1)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV4Statistics::get_AddressMaskRepliesSent()
+extern "C"  int64_t Win32IcmpV4Statistics_get_AddressMaskRepliesSent_m3740289527 (Win32IcmpV4Statistics_t1426867275 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_t683952994 * L_0 = __this->get_address_of_iout_1();
+		uint32_t L_1 = L_0->get_AddrMaskReps_12();
+		return (((int64_t)((uint64_t)L_1)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV4Statistics::get_AddressMaskRequestsReceived()
+extern "C"  int64_t Win32IcmpV4Statistics_get_AddressMaskRequestsReceived_m593747170 (Win32IcmpV4Statistics_t1426867275 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_t683952994 * L_0 = __this->get_address_of_iin_0();
+		uint32_t L_1 = L_0->get_AddrMasks_11();
+		return (((int64_t)((uint64_t)L_1)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV4Statistics::get_AddressMaskRequestsSent()
+extern "C"  int64_t Win32IcmpV4Statistics_get_AddressMaskRequestsSent_m1676477809 (Win32IcmpV4Statistics_t1426867275 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_t683952994 * L_0 = __this->get_address_of_iout_1();
+		uint32_t L_1 = L_0->get_AddrMasks_11();
+		return (((int64_t)((uint64_t)L_1)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV4Statistics::get_DestinationUnreachableMessagesReceived()
+extern "C"  int64_t Win32IcmpV4Statistics_get_DestinationUnreachableMessagesReceived_m87215594 (Win32IcmpV4Statistics_t1426867275 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_t683952994 * L_0 = __this->get_address_of_iin_0();
+		uint32_t L_1 = L_0->get_DestUnreachs_2();
+		return (((int64_t)((uint64_t)L_1)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV4Statistics::get_DestinationUnreachableMessagesSent()
+extern "C"  int64_t Win32IcmpV4Statistics_get_DestinationUnreachableMessagesSent_m2784196169 (Win32IcmpV4Statistics_t1426867275 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_t683952994 * L_0 = __this->get_address_of_iout_1();
+		uint32_t L_1 = L_0->get_DestUnreachs_2();
+		return (((int64_t)((uint64_t)L_1)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV4Statistics::get_EchoRepliesReceived()
+extern "C"  int64_t Win32IcmpV4Statistics_get_EchoRepliesReceived_m4142573471 (Win32IcmpV4Statistics_t1426867275 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_t683952994 * L_0 = __this->get_address_of_iin_0();
+		uint32_t L_1 = L_0->get_EchoReps_8();
+		return (((int64_t)((uint64_t)L_1)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV4Statistics::get_EchoRepliesSent()
+extern "C"  int64_t Win32IcmpV4Statistics_get_EchoRepliesSent_m2504215214 (Win32IcmpV4Statistics_t1426867275 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_t683952994 * L_0 = __this->get_address_of_iout_1();
+		uint32_t L_1 = L_0->get_EchoReps_8();
+		return (((int64_t)((uint64_t)L_1)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV4Statistics::get_EchoRequestsReceived()
+extern "C"  int64_t Win32IcmpV4Statistics_get_EchoRequestsReceived_m2126030401 (Win32IcmpV4Statistics_t1426867275 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_t683952994 * L_0 = __this->get_address_of_iin_0();
+		uint32_t L_1 = L_0->get_Echos_7();
+		return (((int64_t)((uint64_t)L_1)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV4Statistics::get_EchoRequestsSent()
+extern "C"  int64_t Win32IcmpV4Statistics_get_EchoRequestsSent_m1496380130 (Win32IcmpV4Statistics_t1426867275 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_t683952994 * L_0 = __this->get_address_of_iout_1();
+		uint32_t L_1 = L_0->get_Echos_7();
+		return (((int64_t)((uint64_t)L_1)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV4Statistics::get_ErrorsReceived()
+extern "C"  int64_t Win32IcmpV4Statistics_get_ErrorsReceived_m833415477 (Win32IcmpV4Statistics_t1426867275 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_t683952994 * L_0 = __this->get_address_of_iin_0();
+		uint32_t L_1 = L_0->get_Errors_1();
+		return (((int64_t)((uint64_t)L_1)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV4Statistics::get_ErrorsSent()
+extern "C"  int64_t Win32IcmpV4Statistics_get_ErrorsSent_m1299599698 (Win32IcmpV4Statistics_t1426867275 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_t683952994 * L_0 = __this->get_address_of_iout_1();
+		uint32_t L_1 = L_0->get_Errors_1();
+		return (((int64_t)((uint64_t)L_1)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV4Statistics::get_MessagesReceived()
+extern "C"  int64_t Win32IcmpV4Statistics_get_MessagesReceived_m163024888 (Win32IcmpV4Statistics_t1426867275 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_t683952994 * L_0 = __this->get_address_of_iin_0();
+		uint32_t L_1 = L_0->get_Msgs_0();
+		return (((int64_t)((uint64_t)L_1)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV4Statistics::get_MessagesSent()
+extern "C"  int64_t Win32IcmpV4Statistics_get_MessagesSent_m1980740757 (Win32IcmpV4Statistics_t1426867275 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_t683952994 * L_0 = __this->get_address_of_iout_1();
+		uint32_t L_1 = L_0->get_Msgs_0();
+		return (((int64_t)((uint64_t)L_1)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV4Statistics::get_ParameterProblemsReceived()
+extern "C"  int64_t Win32IcmpV4Statistics_get_ParameterProblemsReceived_m312213315 (Win32IcmpV4Statistics_t1426867275 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_t683952994 * L_0 = __this->get_address_of_iin_0();
+		uint32_t L_1 = L_0->get_ParmProbs_4();
+		return (((int64_t)((uint64_t)L_1)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV4Statistics::get_ParameterProblemsSent()
+extern "C"  int64_t Win32IcmpV4Statistics_get_ParameterProblemsSent_m2610854718 (Win32IcmpV4Statistics_t1426867275 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_t683952994 * L_0 = __this->get_address_of_iout_1();
+		uint32_t L_1 = L_0->get_ParmProbs_4();
+		return (((int64_t)((uint64_t)L_1)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV4Statistics::get_RedirectsReceived()
+extern "C"  int64_t Win32IcmpV4Statistics_get_RedirectsReceived_m935643079 (Win32IcmpV4Statistics_t1426867275 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_t683952994 * L_0 = __this->get_address_of_iin_0();
+		uint32_t L_1 = L_0->get_Redirects_6();
+		return (((int64_t)((uint64_t)L_1)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV4Statistics::get_RedirectsSent()
+extern "C"  int64_t Win32IcmpV4Statistics_get_RedirectsSent_m2550888140 (Win32IcmpV4Statistics_t1426867275 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_t683952994 * L_0 = __this->get_address_of_iout_1();
+		uint32_t L_1 = L_0->get_Redirects_6();
+		return (((int64_t)((uint64_t)L_1)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV4Statistics::get_SourceQuenchesReceived()
+extern "C"  int64_t Win32IcmpV4Statistics_get_SourceQuenchesReceived_m1247306949 (Win32IcmpV4Statistics_t1426867275 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_t683952994 * L_0 = __this->get_address_of_iin_0();
+		uint32_t L_1 = L_0->get_SrcQuenchs_5();
+		return (((int64_t)((uint64_t)L_1)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV4Statistics::get_SourceQuenchesSent()
+extern "C"  int64_t Win32IcmpV4Statistics_get_SourceQuenchesSent_m2454741478 (Win32IcmpV4Statistics_t1426867275 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_t683952994 * L_0 = __this->get_address_of_iout_1();
+		uint32_t L_1 = L_0->get_SrcQuenchs_5();
+		return (((int64_t)((uint64_t)L_1)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV4Statistics::get_TimeExceededMessagesReceived()
+extern "C"  int64_t Win32IcmpV4Statistics_get_TimeExceededMessagesReceived_m2960623160 (Win32IcmpV4Statistics_t1426867275 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_t683952994 * L_0 = __this->get_address_of_iin_0();
+		uint32_t L_1 = L_0->get_TimeExcds_3();
+		return (((int64_t)((uint64_t)L_1)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV4Statistics::get_TimeExceededMessagesSent()
+extern "C"  int64_t Win32IcmpV4Statistics_get_TimeExceededMessagesSent_m699811095 (Win32IcmpV4Statistics_t1426867275 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_t683952994 * L_0 = __this->get_address_of_iout_1();
+		uint32_t L_1 = L_0->get_TimeExcds_3();
+		return (((int64_t)((uint64_t)L_1)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV4Statistics::get_TimestampRepliesReceived()
+extern "C"  int64_t Win32IcmpV4Statistics_get_TimestampRepliesReceived_m3603561496 (Win32IcmpV4Statistics_t1426867275 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_t683952994 * L_0 = __this->get_address_of_iin_0();
+		uint32_t L_1 = L_0->get_TimestampReps_10();
+		return (((int64_t)((uint64_t)L_1)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV4Statistics::get_TimestampRepliesSent()
+extern "C"  int64_t Win32IcmpV4Statistics_get_TimestampRepliesSent_m4263383547 (Win32IcmpV4Statistics_t1426867275 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_t683952994 * L_0 = __this->get_address_of_iout_1();
+		uint32_t L_1 = L_0->get_TimestampReps_10();
+		return (((int64_t)((uint64_t)L_1)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV4Statistics::get_TimestampRequestsReceived()
+extern "C"  int64_t Win32IcmpV4Statistics_get_TimestampRequestsReceived_m2367424430 (Win32IcmpV4Statistics_t1426867275 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_t683952994 * L_0 = __this->get_address_of_iin_0();
+		uint32_t L_1 = L_0->get_Timestamps_9();
+		return (((int64_t)((uint64_t)L_1)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV4Statistics::get_TimestampRequestsSent()
+extern "C"  int64_t Win32IcmpV4Statistics_get_TimestampRequestsSent_m555871401 (Win32IcmpV4Statistics_t1426867275 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_t683952994 * L_0 = __this->get_address_of_iout_1();
+		uint32_t L_1 = L_0->get_Timestamps_9();
+		return (((int64_t)((uint64_t)L_1)));
+	}
+}
+// System.Void System.Net.NetworkInformation.Win32IcmpV6Statistics::.ctor(System.Net.NetworkInformation.Win32_MIB_ICMP_EX)
+extern "C"  void Win32IcmpV6Statistics__ctor_m1681651691 (Win32IcmpV6Statistics_t1196663689 * __this, Win32_MIB_ICMP_EX_t2748725486  ___info0, const MethodInfo* method)
+{
+	{
+		IcmpV6Statistics__ctor_m2955825516(__this, /*hidden argument*/NULL);
+		Win32_MIBICMPSTATS_EX_t3893422550  L_0 = (&___info0)->get_InStats_0();
+		__this->set_iin_0(L_0);
+		Win32_MIBICMPSTATS_EX_t3893422550  L_1 = (&___info0)->get_OutStats_1();
+		__this->set_iout_1(L_1);
+		return;
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV6Statistics::get_DestinationUnreachableMessagesReceived()
+extern "C"  int64_t Win32IcmpV6Statistics_get_DestinationUnreachableMessagesReceived_m1229884776 (Win32IcmpV6Statistics_t1196663689 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_EX_t3893422550 * L_0 = __this->get_address_of_iin_0();
+		UInt32U5BU5D_t59386216* L_1 = L_0->get_Counts_2();
+		NullCheck(L_1);
+		int32_t L_2 = 1;
+		uint32_t L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		return (((int64_t)((uint64_t)L_3)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV6Statistics::get_DestinationUnreachableMessagesSent()
+extern "C"  int64_t Win32IcmpV6Statistics_get_DestinationUnreachableMessagesSent_m414928331 (Win32IcmpV6Statistics_t1196663689 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_EX_t3893422550 * L_0 = __this->get_address_of_iout_1();
+		UInt32U5BU5D_t59386216* L_1 = L_0->get_Counts_2();
+		NullCheck(L_1);
+		int32_t L_2 = 1;
+		uint32_t L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		return (((int64_t)((uint64_t)L_3)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV6Statistics::get_EchoRepliesReceived()
+extern "C"  int64_t Win32IcmpV6Statistics_get_EchoRepliesReceived_m2218409885 (Win32IcmpV6Statistics_t1196663689 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_EX_t3893422550 * L_0 = __this->get_address_of_iin_0();
+		UInt32U5BU5D_t59386216* L_1 = L_0->get_Counts_2();
+		NullCheck(L_1);
+		int32_t L_2 = ((int32_t)129);
+		uint32_t L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		return (((int64_t)((uint64_t)L_3)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV6Statistics::get_EchoRepliesSent()
+extern "C"  int64_t Win32IcmpV6Statistics_get_EchoRepliesSent_m1768872620 (Win32IcmpV6Statistics_t1196663689 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_EX_t3893422550 * L_0 = __this->get_address_of_iout_1();
+		UInt32U5BU5D_t59386216* L_1 = L_0->get_Counts_2();
+		NullCheck(L_1);
+		int32_t L_2 = ((int32_t)129);
+		uint32_t L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		return (((int64_t)((uint64_t)L_3)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV6Statistics::get_EchoRequestsReceived()
+extern "C"  int64_t Win32IcmpV6Statistics_get_EchoRequestsReceived_m3919306755 (Win32IcmpV6Statistics_t1196663689 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_EX_t3893422550 * L_0 = __this->get_address_of_iin_0();
+		UInt32U5BU5D_t59386216* L_1 = L_0->get_Counts_2();
+		NullCheck(L_1);
+		int32_t L_2 = ((int32_t)128);
+		uint32_t L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		return (((int64_t)((uint64_t)L_3)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV6Statistics::get_EchoRequestsSent()
+extern "C"  int64_t Win32IcmpV6Statistics_get_EchoRequestsSent_m3004617632 (Win32IcmpV6Statistics_t1196663689 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_EX_t3893422550 * L_0 = __this->get_address_of_iout_1();
+		UInt32U5BU5D_t59386216* L_1 = L_0->get_Counts_2();
+		NullCheck(L_1);
+		int32_t L_2 = ((int32_t)128);
+		uint32_t L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		return (((int64_t)((uint64_t)L_3)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV6Statistics::get_ErrorsReceived()
+extern "C"  int64_t Win32IcmpV6Statistics_get_ErrorsReceived_m3120847155 (Win32IcmpV6Statistics_t1196663689 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_EX_t3893422550 * L_0 = __this->get_address_of_iin_0();
+		uint32_t L_1 = L_0->get_Errors_1();
+		return (((int64_t)((uint64_t)L_1)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV6Statistics::get_ErrorsSent()
+extern "C"  int64_t Win32IcmpV6Statistics_get_ErrorsSent_m2555877972 (Win32IcmpV6Statistics_t1196663689 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_EX_t3893422550 * L_0 = __this->get_address_of_iout_1();
+		uint32_t L_1 = L_0->get_Errors_1();
+		return (((int64_t)((uint64_t)L_1)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV6Statistics::get_MembershipQueriesReceived()
+extern "C"  int64_t Win32IcmpV6Statistics_get_MembershipQueriesReceived_m4015341574 (Win32IcmpV6Statistics_t1196663689 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_EX_t3893422550 * L_0 = __this->get_address_of_iin_0();
+		UInt32U5BU5D_t59386216* L_1 = L_0->get_Counts_2();
+		NullCheck(L_1);
+		int32_t L_2 = ((int32_t)130);
+		uint32_t L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		return (((int64_t)((uint64_t)L_3)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV6Statistics::get_MembershipQueriesSent()
+extern "C"  int64_t Win32IcmpV6Statistics_get_MembershipQueriesSent_m3475551765 (Win32IcmpV6Statistics_t1196663689 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_EX_t3893422550 * L_0 = __this->get_address_of_iout_1();
+		UInt32U5BU5D_t59386216* L_1 = L_0->get_Counts_2();
+		NullCheck(L_1);
+		int32_t L_2 = ((int32_t)130);
+		uint32_t L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		return (((int64_t)((uint64_t)L_3)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV6Statistics::get_MembershipReductionsReceived()
+extern "C"  int64_t Win32IcmpV6Statistics_get_MembershipReductionsReceived_m978431092 (Win32IcmpV6Statistics_t1196663689 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_EX_t3893422550 * L_0 = __this->get_address_of_iin_0();
+		UInt32U5BU5D_t59386216* L_1 = L_0->get_Counts_2();
+		NullCheck(L_1);
+		int32_t L_2 = ((int32_t)132);
+		uint32_t L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		return (((int64_t)((uint64_t)L_3)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV6Statistics::get_MembershipReductionsSent()
+extern "C"  int64_t Win32IcmpV6Statistics_get_MembershipReductionsSent_m1685452371 (Win32IcmpV6Statistics_t1196663689 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_EX_t3893422550 * L_0 = __this->get_address_of_iout_1();
+		UInt32U5BU5D_t59386216* L_1 = L_0->get_Counts_2();
+		NullCheck(L_1);
+		int32_t L_2 = ((int32_t)132);
+		uint32_t L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		return (((int64_t)((uint64_t)L_3)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV6Statistics::get_MembershipReportsReceived()
+extern "C"  int64_t Win32IcmpV6Statistics_get_MembershipReportsReceived_m987593467 (Win32IcmpV6Statistics_t1196663689 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_EX_t3893422550 * L_0 = __this->get_address_of_iin_0();
+		UInt32U5BU5D_t59386216* L_1 = L_0->get_Counts_2();
+		NullCheck(L_1);
+		int32_t L_2 = ((int32_t)131);
+		uint32_t L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		return (((int64_t)((uint64_t)L_3)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV6Statistics::get_MembershipReportsSent()
+extern "C"  int64_t Win32IcmpV6Statistics_get_MembershipReportsSent_m521848064 (Win32IcmpV6Statistics_t1196663689 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_EX_t3893422550 * L_0 = __this->get_address_of_iout_1();
+		UInt32U5BU5D_t59386216* L_1 = L_0->get_Counts_2();
+		NullCheck(L_1);
+		int32_t L_2 = ((int32_t)131);
+		uint32_t L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		return (((int64_t)((uint64_t)L_3)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV6Statistics::get_MessagesReceived()
+extern "C"  int64_t Win32IcmpV6Statistics_get_MessagesReceived_m3066511542 (Win32IcmpV6Statistics_t1196663689 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_EX_t3893422550 * L_0 = __this->get_address_of_iin_0();
+		uint32_t L_1 = L_0->get_Msgs_0();
+		return (((int64_t)((uint64_t)L_1)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV6Statistics::get_MessagesSent()
+extern "C"  int64_t Win32IcmpV6Statistics_get_MessagesSent_m224402775 (Win32IcmpV6Statistics_t1196663689 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_EX_t3893422550 * L_0 = __this->get_address_of_iout_1();
+		uint32_t L_1 = L_0->get_Msgs_0();
+		return (((int64_t)((uint64_t)L_1)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV6Statistics::get_NeighborAdvertisementsReceived()
+extern "C"  int64_t Win32IcmpV6Statistics_get_NeighborAdvertisementsReceived_m3538303750 (Win32IcmpV6Statistics_t1196663689 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_EX_t3893422550 * L_0 = __this->get_address_of_iin_0();
+		UInt32U5BU5D_t59386216* L_1 = L_0->get_Counts_2();
+		NullCheck(L_1);
+		int32_t L_2 = ((int32_t)136);
+		uint32_t L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		return (((int64_t)((uint64_t)L_3)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV6Statistics::get_NeighborAdvertisementsSent()
+extern "C"  int64_t Win32IcmpV6Statistics_get_NeighborAdvertisementsSent_m2098885283 (Win32IcmpV6Statistics_t1196663689 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_EX_t3893422550 * L_0 = __this->get_address_of_iout_1();
+		UInt32U5BU5D_t59386216* L_1 = L_0->get_Counts_2();
+		NullCheck(L_1);
+		int32_t L_2 = ((int32_t)136);
+		uint32_t L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		return (((int64_t)((uint64_t)L_3)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV6Statistics::get_NeighborSolicitsReceived()
+extern "C"  int64_t Win32IcmpV6Statistics_get_NeighborSolicitsReceived_m3492672156 (Win32IcmpV6Statistics_t1196663689 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_EX_t3893422550 * L_0 = __this->get_address_of_iin_0();
+		UInt32U5BU5D_t59386216* L_1 = L_0->get_Counts_2();
+		NullCheck(L_1);
+		int32_t L_2 = ((int32_t)135);
+		uint32_t L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		return (((int64_t)((uint64_t)L_3)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV6Statistics::get_NeighborSolicitsSent()
+extern "C"  int64_t Win32IcmpV6Statistics_get_NeighborSolicitsSent_m4134746557 (Win32IcmpV6Statistics_t1196663689 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_EX_t3893422550 * L_0 = __this->get_address_of_iout_1();
+		UInt32U5BU5D_t59386216* L_1 = L_0->get_Counts_2();
+		NullCheck(L_1);
+		int32_t L_2 = ((int32_t)135);
+		uint32_t L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		return (((int64_t)((uint64_t)L_3)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV6Statistics::get_PacketTooBigMessagesReceived()
+extern "C"  int64_t Win32IcmpV6Statistics_get_PacketTooBigMessagesReceived_m2048132606 (Win32IcmpV6Statistics_t1196663689 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_EX_t3893422550 * L_0 = __this->get_address_of_iin_0();
+		UInt32U5BU5D_t59386216* L_1 = L_0->get_Counts_2();
+		NullCheck(L_1);
+		int32_t L_2 = 2;
+		uint32_t L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		return (((int64_t)((uint64_t)L_3)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV6Statistics::get_PacketTooBigMessagesSent()
+extern "C"  int64_t Win32IcmpV6Statistics_get_PacketTooBigMessagesSent_m3307931551 (Win32IcmpV6Statistics_t1196663689 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_EX_t3893422550 * L_0 = __this->get_address_of_iout_1();
+		UInt32U5BU5D_t59386216* L_1 = L_0->get_Counts_2();
+		NullCheck(L_1);
+		int32_t L_2 = 2;
+		uint32_t L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		return (((int64_t)((uint64_t)L_3)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV6Statistics::get_ParameterProblemsReceived()
+extern "C"  int64_t Win32IcmpV6Statistics_get_ParameterProblemsReceived_m95366661 (Win32IcmpV6Statistics_t1196663689 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_EX_t3893422550 * L_0 = __this->get_address_of_iin_0();
+		UInt32U5BU5D_t59386216* L_1 = L_0->get_Counts_2();
+		NullCheck(L_1);
+		int32_t L_2 = 4;
+		uint32_t L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		return (((int64_t)((uint64_t)L_3)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV6Statistics::get_ParameterProblemsSent()
+extern "C"  int64_t Win32IcmpV6Statistics_get_ParameterProblemsSent_m1462964736 (Win32IcmpV6Statistics_t1196663689 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_EX_t3893422550 * L_0 = __this->get_address_of_iout_1();
+		UInt32U5BU5D_t59386216* L_1 = L_0->get_Counts_2();
+		NullCheck(L_1);
+		int32_t L_2 = 4;
+		uint32_t L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		return (((int64_t)((uint64_t)L_3)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV6Statistics::get_RedirectsReceived()
+extern "C"  int64_t Win32IcmpV6Statistics_get_RedirectsReceived_m1684452613 (Win32IcmpV6Statistics_t1196663689 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_EX_t3893422550 * L_0 = __this->get_address_of_iin_0();
+		UInt32U5BU5D_t59386216* L_1 = L_0->get_Counts_2();
+		NullCheck(L_1);
+		int32_t L_2 = ((int32_t)137);
+		uint32_t L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		return (((int64_t)((uint64_t)L_3)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV6Statistics::get_RedirectsSent()
+extern "C"  int64_t Win32IcmpV6Statistics_get_RedirectsSent_m339016970 (Win32IcmpV6Statistics_t1196663689 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_EX_t3893422550 * L_0 = __this->get_address_of_iout_1();
+		UInt32U5BU5D_t59386216* L_1 = L_0->get_Counts_2();
+		NullCheck(L_1);
+		int32_t L_2 = ((int32_t)137);
+		uint32_t L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		return (((int64_t)((uint64_t)L_3)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV6Statistics::get_RouterAdvertisementsReceived()
+extern "C"  int64_t Win32IcmpV6Statistics_get_RouterAdvertisementsReceived_m4095981681 (Win32IcmpV6Statistics_t1196663689 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_EX_t3893422550 * L_0 = __this->get_address_of_iin_0();
+		UInt32U5BU5D_t59386216* L_1 = L_0->get_Counts_2();
+		NullCheck(L_1);
+		int32_t L_2 = ((int32_t)134);
+		uint32_t L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		return (((int64_t)((uint64_t)L_3)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV6Statistics::get_RouterAdvertisementsSent()
+extern "C"  int64_t Win32IcmpV6Statistics_get_RouterAdvertisementsSent_m4019432148 (Win32IcmpV6Statistics_t1196663689 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_EX_t3893422550 * L_0 = __this->get_address_of_iout_1();
+		UInt32U5BU5D_t59386216* L_1 = L_0->get_Counts_2();
+		NullCheck(L_1);
+		int32_t L_2 = ((int32_t)134);
+		uint32_t L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		return (((int64_t)((uint64_t)L_3)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV6Statistics::get_RouterSolicitsReceived()
+extern "C"  int64_t Win32IcmpV6Statistics_get_RouterSolicitsReceived_m2773829211 (Win32IcmpV6Statistics_t1196663689 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_EX_t3893422550 * L_0 = __this->get_address_of_iin_0();
+		UInt32U5BU5D_t59386216* L_1 = L_0->get_Counts_2();
+		NullCheck(L_1);
+		int32_t L_2 = ((int32_t)133);
+		uint32_t L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		return (((int64_t)((uint64_t)L_3)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV6Statistics::get_RouterSolicitsSent()
+extern "C"  int64_t Win32IcmpV6Statistics_get_RouterSolicitsSent_m4157794746 (Win32IcmpV6Statistics_t1196663689 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_EX_t3893422550 * L_0 = __this->get_address_of_iout_1();
+		UInt32U5BU5D_t59386216* L_1 = L_0->get_Counts_2();
+		NullCheck(L_1);
+		int32_t L_2 = ((int32_t)133);
+		uint32_t L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		return (((int64_t)((uint64_t)L_3)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV6Statistics::get_TimeExceededMessagesReceived()
+extern "C"  int64_t Win32IcmpV6Statistics_get_TimeExceededMessagesReceived_m886426614 (Win32IcmpV6Statistics_t1196663689 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_EX_t3893422550 * L_0 = __this->get_address_of_iin_0();
+		UInt32U5BU5D_t59386216* L_1 = L_0->get_Counts_2();
+		NullCheck(L_1);
+		int32_t L_2 = 3;
+		uint32_t L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		return (((int64_t)((uint64_t)L_3)));
+	}
+}
+// System.Int64 System.Net.NetworkInformation.Win32IcmpV6Statistics::get_TimeExceededMessagesSent()
+extern "C"  int64_t Win32IcmpV6Statistics_get_TimeExceededMessagesSent_m3651929049 (Win32IcmpV6Statistics_t1196663689 * __this, const MethodInfo* method)
+{
+	{
+		Win32_MIBICMPSTATS_EX_t3893422550 * L_0 = __this->get_address_of_iout_1();
+		UInt32U5BU5D_t59386216* L_1 = L_0->get_Counts_2();
+		NullCheck(L_1);
+		int32_t L_2 = 3;
+		uint32_t L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		return (((int64_t)((uint64_t)L_3)));
+	}
+}
+// System.Void System.Net.NetworkInformation.Win32IPAddressCollection::.ctor()
+extern "C"  void Win32IPAddressCollection__ctor_m3056139024 (Win32IPAddressCollection_t2117998352 * __this, const MethodInfo* method)
+{
+	{
+		IPAddressCollection__ctor_m3768432617(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.Win32IPAddressCollection::.ctor(System.IntPtr[])
+extern "C"  void Win32IPAddressCollection__ctor_m3451302226 (Win32IPAddressCollection_t2117998352 * __this, IntPtrU5BU5D_t169632028* ___heads0, const MethodInfo* method)
+{
+	IntPtr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	IntPtrU5BU5D_t169632028* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		IPAddressCollection__ctor_m3768432617(__this, /*hidden argument*/NULL);
+		IntPtrU5BU5D_t169632028* L_0 = ___heads0;
+		V_1 = L_0;
+		V_2 = 0;
+		goto IL_001e;
+	}
+
+IL_000f:
+	{
+		IntPtrU5BU5D_t169632028* L_1 = V_1;
+		int32_t L_2 = V_2;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		IntPtr_t L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		V_0 = L_4;
+		IntPtr_t L_5 = V_0;
+		Win32IPAddressCollection_AddSubsequentlyString_m1145585782(__this, L_5, /*hidden argument*/NULL);
+		int32_t L_6 = V_2;
+		V_2 = ((int32_t)((int32_t)L_6+(int32_t)1));
+	}
+
+IL_001e:
+	{
+		int32_t L_7 = V_2;
+		IntPtrU5BU5D_t169632028* L_8 = V_1;
+		NullCheck(L_8);
+		if ((((int32_t)L_7) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_8)->max_length)))))))
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		__this->set_is_readonly_2((bool)1);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.Win32IPAddressCollection::.ctor(System.Net.NetworkInformation.Win32_IP_ADDR_STRING[])
+extern "C"  void Win32IPAddressCollection__ctor_m650508369 (Win32IPAddressCollection_t2117998352 * __this, Win32_IP_ADDR_STRINGU5BU5D_t945341030* ___al0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32IPAddressCollection__ctor_m650508369_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Win32_IP_ADDR_STRING_t2646152127  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Win32_IP_ADDR_STRINGU5BU5D_t945341030* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		IPAddressCollection__ctor_m3768432617(__this, /*hidden argument*/NULL);
+		Win32_IP_ADDR_STRINGU5BU5D_t945341030* L_0 = ___al0;
+		V_1 = L_0;
+		V_2 = 0;
+		goto IL_0055;
+	}
+
+IL_000f:
+	{
+		Win32_IP_ADDR_STRINGU5BU5D_t945341030* L_1 = V_1;
+		int32_t L_2 = V_2;
+		NullCheck(L_1);
+		V_0 = (*(Win32_IP_ADDR_STRING_t2646152127 *)((L_1)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2))));
+		String_t* L_3 = (&V_0)->get_IpAddress_1();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_4 = String_IsNullOrEmpty_m2802126737(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		goto IL_0051;
+	}
+
+IL_0032:
+	{
+		String_t* L_5 = (&V_0)->get_IpAddress_1();
+		IL2CPP_RUNTIME_CLASS_INIT(IPAddress_t1399971723_il2cpp_TypeInfo_var);
+		IPAddress_t1399971723 * L_6 = IPAddress_Parse_m3374241274(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		VirtActionInvoker1< IPAddress_t1399971723 * >::Invoke(13 /* System.Void System.Net.NetworkInformation.IPAddressCollection::Add(System.Net.IPAddress) */, __this, L_6);
+		IntPtr_t L_7 = (&V_0)->get_Next_0();
+		Win32IPAddressCollection_AddSubsequentlyString_m1145585782(__this, L_7, /*hidden argument*/NULL);
+	}
+
+IL_0051:
+	{
+		int32_t L_8 = V_2;
+		V_2 = ((int32_t)((int32_t)L_8+(int32_t)1));
+	}
+
+IL_0055:
+	{
+		int32_t L_9 = V_2;
+		Win32_IP_ADDR_STRINGU5BU5D_t945341030* L_10 = V_1;
+		NullCheck(L_10);
+		if ((((int32_t)L_9) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_10)->max_length)))))))
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		__this->set_is_readonly_2((bool)1);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.Win32IPAddressCollection::.cctor()
+extern "C"  void Win32IPAddressCollection__cctor_m3111236827 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32IPAddressCollection__cctor_m3111236827_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IntPtrU5BU5D_t169632028* L_0 = ((IntPtrU5BU5D_t169632028*)SZArrayNew(IntPtrU5BU5D_t169632028_il2cpp_TypeInfo_var, (uint32_t)1));
+		NullCheck(L_0);
+		IntPtr_t L_1 = ((IntPtr_t_StaticFields*)IntPtr_t_il2cpp_TypeInfo_var->static_fields)->get_Zero_1();
+		(*(IntPtr_t*)((L_0)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))) = L_1;
+		Win32IPAddressCollection_t2117998352 * L_2 = (Win32IPAddressCollection_t2117998352 *)il2cpp_codegen_object_new(Win32IPAddressCollection_t2117998352_il2cpp_TypeInfo_var);
+		Win32IPAddressCollection__ctor_m3451302226(L_2, L_0, /*hidden argument*/NULL);
+		((Win32IPAddressCollection_t2117998352_StaticFields*)Win32IPAddressCollection_t2117998352_il2cpp_TypeInfo_var->static_fields)->set_Empty_1(L_2);
+		return;
+	}
+}
+// System.Net.NetworkInformation.Win32IPAddressCollection System.Net.NetworkInformation.Win32IPAddressCollection::FromAnycast(System.IntPtr)
+extern "C"  Win32IPAddressCollection_t2117998352 * Win32IPAddressCollection_FromAnycast_m1524412602 (Il2CppObject * __this /* static, unused */, IntPtr_t ___ptr0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32IPAddressCollection_FromAnycast_m1524412602_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Win32IPAddressCollection_t2117998352 * V_0 = NULL;
+	Win32_IP_ADAPTER_ANYCAST_ADDRESS_t2340726006  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	IntPtr_t V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	{
+		Win32IPAddressCollection_t2117998352 * L_0 = (Win32IPAddressCollection_t2117998352 *)il2cpp_codegen_object_new(Win32IPAddressCollection_t2117998352_il2cpp_TypeInfo_var);
+		Win32IPAddressCollection__ctor_m3056139024(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		IntPtr_t L_1 = ___ptr0;
+		V_2 = L_1;
+		goto IL_003d;
+	}
+
+IL_000d:
+	{
+		IntPtr_t L_2 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_3 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Win32_IP_ADAPTER_ANYCAST_ADDRESS_t2340726006_0_0_0_var), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		Il2CppObject * L_4 = Marshal_PtrToStructure_m673412918(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		V_1 = ((*(Win32_IP_ADAPTER_ANYCAST_ADDRESS_t2340726006 *)((Win32_IP_ADAPTER_ANYCAST_ADDRESS_t2340726006 *)UnBox(L_4, Win32_IP_ADAPTER_ANYCAST_ADDRESS_t2340726006_il2cpp_TypeInfo_var))));
+		Win32IPAddressCollection_t2117998352 * L_5 = V_0;
+		Win32_SOCKET_ADDRESS_t1093973396 * L_6 = (&V_1)->get_address_of_Address_2();
+		IPAddress_t1399971723 * L_7 = Win32_SOCKET_ADDRESS_GetIPAddress_m3946757953(L_6, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		VirtActionInvoker1< IPAddress_t1399971723 * >::Invoke(13 /* System.Void System.Net.NetworkInformation.IPAddressCollection::Add(System.Net.IPAddress) */, L_5, L_7);
+		IntPtr_t L_8 = (&V_1)->get_Next_1();
+		V_2 = L_8;
+	}
+
+IL_003d:
+	{
+		IntPtr_t L_9 = V_2;
+		IntPtr_t L_10 = ((IntPtr_t_StaticFields*)IntPtr_t_il2cpp_TypeInfo_var->static_fields)->get_Zero_1();
+		bool L_11 = IntPtr_op_Inequality_m3044532593(NULL /*static, unused*/, L_9, L_10, /*hidden argument*/NULL);
+		if (L_11)
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		Win32IPAddressCollection_t2117998352 * L_12 = V_0;
+		NullCheck(L_12);
+		L_12->set_is_readonly_2((bool)1);
+		Win32IPAddressCollection_t2117998352 * L_13 = V_0;
+		return L_13;
+	}
+}
+// System.Net.NetworkInformation.Win32IPAddressCollection System.Net.NetworkInformation.Win32IPAddressCollection::FromDnsServer(System.IntPtr)
+extern "C"  Win32IPAddressCollection_t2117998352 * Win32IPAddressCollection_FromDnsServer_m2919194501 (Il2CppObject * __this /* static, unused */, IntPtr_t ___ptr0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32IPAddressCollection_FromDnsServer_m2919194501_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Win32IPAddressCollection_t2117998352 * V_0 = NULL;
+	Win32_IP_ADAPTER_DNS_SERVER_ADDRESS_t2512883708  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	IntPtr_t V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	{
+		Win32IPAddressCollection_t2117998352 * L_0 = (Win32IPAddressCollection_t2117998352 *)il2cpp_codegen_object_new(Win32IPAddressCollection_t2117998352_il2cpp_TypeInfo_var);
+		Win32IPAddressCollection__ctor_m3056139024(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		IntPtr_t L_1 = ___ptr0;
+		V_2 = L_1;
+		goto IL_003d;
+	}
+
+IL_000d:
+	{
+		IntPtr_t L_2 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_3 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Win32_IP_ADAPTER_DNS_SERVER_ADDRESS_t2512883708_0_0_0_var), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		Il2CppObject * L_4 = Marshal_PtrToStructure_m673412918(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		V_1 = ((*(Win32_IP_ADAPTER_DNS_SERVER_ADDRESS_t2512883708 *)((Win32_IP_ADAPTER_DNS_SERVER_ADDRESS_t2512883708 *)UnBox(L_4, Win32_IP_ADAPTER_DNS_SERVER_ADDRESS_t2512883708_il2cpp_TypeInfo_var))));
+		Win32IPAddressCollection_t2117998352 * L_5 = V_0;
+		Win32_SOCKET_ADDRESS_t1093973396 * L_6 = (&V_1)->get_address_of_Address_2();
+		IPAddress_t1399971723 * L_7 = Win32_SOCKET_ADDRESS_GetIPAddress_m3946757953(L_6, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		VirtActionInvoker1< IPAddress_t1399971723 * >::Invoke(13 /* System.Void System.Net.NetworkInformation.IPAddressCollection::Add(System.Net.IPAddress) */, L_5, L_7);
+		IntPtr_t L_8 = (&V_1)->get_Next_1();
+		V_2 = L_8;
+	}
+
+IL_003d:
+	{
+		IntPtr_t L_9 = V_2;
+		IntPtr_t L_10 = ((IntPtr_t_StaticFields*)IntPtr_t_il2cpp_TypeInfo_var->static_fields)->get_Zero_1();
+		bool L_11 = IntPtr_op_Inequality_m3044532593(NULL /*static, unused*/, L_9, L_10, /*hidden argument*/NULL);
+		if (L_11)
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		Win32IPAddressCollection_t2117998352 * L_12 = V_0;
+		NullCheck(L_12);
+		L_12->set_is_readonly_2((bool)1);
+		Win32IPAddressCollection_t2117998352 * L_13 = V_0;
+		return L_13;
+	}
+}
+// System.Void System.Net.NetworkInformation.Win32IPAddressCollection::AddSubsequentlyString(System.IntPtr)
+extern "C"  void Win32IPAddressCollection_AddSubsequentlyString_m1145585782 (Win32IPAddressCollection_t2117998352 * __this, IntPtr_t ___head0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32IPAddressCollection_AddSubsequentlyString_m1145585782_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Win32_IP_ADDR_STRING_t2646152127  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	IntPtr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		IntPtr_t L_0 = ___head0;
+		V_1 = L_0;
+		goto IL_0037;
+	}
+
+IL_0007:
+	{
+		IntPtr_t L_1 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_2 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Win32_IP_ADDR_STRING_t2646152127_0_0_0_var), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		Il2CppObject * L_3 = Marshal_PtrToStructure_m673412918(NULL /*static, unused*/, L_1, L_2, /*hidden argument*/NULL);
+		V_0 = ((*(Win32_IP_ADDR_STRING_t2646152127 *)((Win32_IP_ADDR_STRING_t2646152127 *)UnBox(L_3, Win32_IP_ADDR_STRING_t2646152127_il2cpp_TypeInfo_var))));
+		String_t* L_4 = (&V_0)->get_IpAddress_1();
+		IL2CPP_RUNTIME_CLASS_INIT(IPAddress_t1399971723_il2cpp_TypeInfo_var);
+		IPAddress_t1399971723 * L_5 = IPAddress_Parse_m3374241274(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		VirtActionInvoker1< IPAddress_t1399971723 * >::Invoke(13 /* System.Void System.Net.NetworkInformation.IPAddressCollection::Add(System.Net.IPAddress) */, __this, L_5);
+		IntPtr_t L_6 = (&V_0)->get_Next_0();
+		V_1 = L_6;
+	}
+
+IL_0037:
+	{
+		IntPtr_t L_7 = V_1;
+		IntPtr_t L_8 = ((IntPtr_t_StaticFields*)IntPtr_t_il2cpp_TypeInfo_var->static_fields)->get_Zero_1();
+		bool L_9 = IntPtr_op_Inequality_m3044532593(NULL /*static, unused*/, L_7, L_8, /*hidden argument*/NULL);
+		if (L_9)
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Boolean System.Net.NetworkInformation.Win32IPAddressCollection::get_IsReadOnly()
+extern "C"  bool Win32IPAddressCollection_get_IsReadOnly_m1498213265 (Win32IPAddressCollection_t2117998352 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_is_readonly_2();
+		return L_0;
+	}
+}
+// System.Void System.Net.NetworkInformation.Win32IPGlobalProperties::.ctor()
+extern "C"  void Win32IPGlobalProperties__ctor_m3857335196 (Win32IPGlobalProperties_t2393043454 * __this, const MethodInfo* method)
+{
+	{
+		IPGlobalProperties__ctor_m1928017271(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Net.NetworkInformation.Win32IPGlobalProperties::FillTcpTable(System.Collections.Generic.List`1<System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCPROW>&,System.Collections.Generic.List`1<System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCP6ROW>&)
+extern "C"  void Win32IPGlobalProperties_FillTcpTable_m2144837742 (Win32IPGlobalProperties_t2393043454 * __this, List_1_t2724853207 ** ___tab40, List_1_t3376276681 ** ___tab61, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32IPGlobalProperties_FillTcpTable_m2144837742_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	ByteU5BU5D_t3397334013* V_1 = NULL;
+	int32_t V_2 = 0;
+	uint8_t* V_3 = NULL;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	Win32_MIB_TCPROW_t3355732075 * V_6 = NULL;
+	int32_t V_7 = 0;
+	ByteU5BU5D_t3397334013* V_8 = NULL;
+	int32_t V_9 = 0;
+	uint8_t* V_10 = NULL;
+	int32_t V_11 = 0;
+	int32_t V_12 = 0;
+	Win32_MIB_TCP6ROW_t4007155549 * V_13 = NULL;
+	uintptr_t G_B4_0 = 0;
+	uintptr_t G_B12_0 = 0;
+	{
+		List_1_t2724853207 ** L_0 = ___tab40;
+		List_1_t2724853207 * L_1 = (List_1_t2724853207 *)il2cpp_codegen_object_new(List_1_t2724853207_il2cpp_TypeInfo_var);
+		List_1__ctor_m4288364965(L_1, /*hidden argument*/List_1__ctor_m4288364965_MethodInfo_var);
+		*((Il2CppObject **)(L_0)) = (Il2CppObject *)L_1;
+		Il2CppCodeGenWriteBarrier((Il2CppObject **)(L_0), (Il2CppObject *)L_1);
+		V_0 = 0;
+		Win32IPGlobalProperties_GetTcpTable_m418932388(NULL /*static, unused*/, (ByteU5BU5D_t3397334013*)(ByteU5BU5D_t3397334013*)NULL, (&V_0), (bool)1, /*hidden argument*/NULL);
+		int32_t L_2 = V_0;
+		V_1 = ((ByteU5BU5D_t3397334013*)SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, (uint32_t)L_2));
+		ByteU5BU5D_t3397334013* L_3 = V_1;
+		Win32IPGlobalProperties_GetTcpTable_m418932388(NULL /*static, unused*/, L_3, (&V_0), (bool)1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_4 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Win32_MIB_TCPROW_t3355732075_0_0_0_var), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		int32_t L_5 = Marshal_SizeOf_m2982427619(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		V_2 = L_5;
+		ByteU5BU5D_t3397334013* L_6 = V_1;
+		if (!L_6)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		ByteU5BU5D_t3397334013* L_7 = V_1;
+		NullCheck(L_7);
+		if ((((int32_t)((int32_t)(((Il2CppArray *)L_7)->max_length)))))
+		{
+			goto IL_0049;
+		}
+	}
+
+IL_0042:
+	{
+		G_B4_0 = (((uintptr_t)0));
+		goto IL_0050;
+	}
+
+IL_0049:
+	{
+		ByteU5BU5D_t3397334013* L_8 = V_1;
+		NullCheck(L_8);
+		G_B4_0 = ((uintptr_t)(((L_8)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))));
+	}
+
+IL_0050:
+	{
+		V_3 = (uint8_t*)G_B4_0;
+		uint8_t* L_9 = V_3;
+		IntPtr_t L_10 = IntPtr_op_Explicit_m1401226878(NULL /*static, unused*/, (void*)(void*)L_9, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		int32_t L_11 = Marshal_ReadInt32_m1563614062(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		V_4 = L_11;
+		V_5 = 0;
+		goto IL_0090;
+	}
+
+IL_0066:
+	{
+		Win32_MIB_TCPROW_t3355732075 * L_12 = (Win32_MIB_TCPROW_t3355732075 *)il2cpp_codegen_object_new(Win32_MIB_TCPROW_t3355732075_il2cpp_TypeInfo_var);
+		Win32_MIB_TCPROW__ctor_m631498175(L_12, /*hidden argument*/NULL);
+		V_6 = L_12;
+		uint8_t* L_13 = V_3;
+		int32_t L_14 = V_5;
+		int32_t L_15 = V_2;
+		IntPtr_t L_16 = IntPtr_op_Explicit_m1401226878(NULL /*static, unused*/, (void*)(void*)((uint8_t*)((intptr_t)((uint8_t*)((intptr_t)L_13+(int32_t)((int32_t)((int32_t)L_14*(int32_t)L_15))))+(int32_t)4)), /*hidden argument*/NULL);
+		Win32_MIB_TCPROW_t3355732075 * L_17 = V_6;
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		Marshal_PtrToStructure_m2894472674(NULL /*static, unused*/, L_16, L_17, /*hidden argument*/NULL);
+		List_1_t2724853207 ** L_18 = ___tab40;
+		Win32_MIB_TCPROW_t3355732075 * L_19 = V_6;
+		NullCheck((*((List_1_t2724853207 **)L_18)));
+		List_1_Add_m1555671329((*((List_1_t2724853207 **)L_18)), L_19, /*hidden argument*/List_1_Add_m1555671329_MethodInfo_var);
+		int32_t L_20 = V_5;
+		V_5 = ((int32_t)((int32_t)L_20+(int32_t)1));
+	}
+
+IL_0090:
+	{
+		int32_t L_21 = V_5;
+		int32_t L_22 = V_4;
+		if ((((int32_t)L_21) < ((int32_t)L_22)))
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		V_3 = (uint8_t*)(((uintptr_t)0));
+		List_1_t3376276681 ** L_23 = ___tab61;
+		List_1_t3376276681 * L_24 = (List_1_t3376276681 *)il2cpp_codegen_object_new(List_1_t3376276681_il2cpp_TypeInfo_var);
+		List_1__ctor_m1467367531(L_24, /*hidden argument*/List_1__ctor_m1467367531_MethodInfo_var);
+		*((Il2CppObject **)(L_23)) = (Il2CppObject *)L_24;
+		Il2CppCodeGenWriteBarrier((Il2CppObject **)(L_23), (Il2CppObject *)L_24);
+		OperatingSystem_t290860502 * L_25 = Environment_get_OSVersion_m1247315981(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_25);
+		Version_t1755874712 * L_26 = OperatingSystem_get_Version_m2896234424(L_25, /*hidden argument*/NULL);
+		NullCheck(L_26);
+		int32_t L_27 = Version_get_Major_m3385239713(L_26, /*hidden argument*/NULL);
+		if ((((int32_t)L_27) < ((int32_t)6)))
+		{
+			goto IL_015a;
+		}
+	}
+	{
+		V_7 = 0;
+		Win32IPGlobalProperties_GetTcp6Table_m2836257914(NULL /*static, unused*/, (ByteU5BU5D_t3397334013*)(ByteU5BU5D_t3397334013*)NULL, (&V_7), (bool)1, /*hidden argument*/NULL);
+		int32_t L_28 = V_7;
+		V_8 = ((ByteU5BU5D_t3397334013*)SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, (uint32_t)L_28));
+		ByteU5BU5D_t3397334013* L_29 = V_8;
+		Win32IPGlobalProperties_GetTcp6Table_m2836257914(NULL /*static, unused*/, L_29, (&V_7), (bool)1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_30 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Win32_MIB_TCP6ROW_t4007155549_0_0_0_var), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		int32_t L_31 = Marshal_SizeOf_m2982427619(NULL /*static, unused*/, L_30, /*hidden argument*/NULL);
+		V_9 = L_31;
+		ByteU5BU5D_t3397334013* L_32 = V_8;
+		if (!L_32)
+		{
+			goto IL_00fa;
+		}
+	}
+	{
+		ByteU5BU5D_t3397334013* L_33 = V_8;
+		NullCheck(L_33);
+		if ((((int32_t)((int32_t)(((Il2CppArray *)L_33)->max_length)))))
+		{
+			goto IL_0101;
+		}
+	}
+
+IL_00fa:
+	{
+		G_B12_0 = (((uintptr_t)0));
+		goto IL_0109;
+	}
+
+IL_0101:
+	{
+		ByteU5BU5D_t3397334013* L_34 = V_8;
+		NullCheck(L_34);
+		G_B12_0 = ((uintptr_t)(((L_34)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))));
+	}
+
+IL_0109:
+	{
+		V_10 = (uint8_t*)G_B12_0;
+		uint8_t* L_35 = V_10;
+		IntPtr_t L_36 = IntPtr_op_Explicit_m1401226878(NULL /*static, unused*/, (void*)(void*)L_35, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		int32_t L_37 = Marshal_ReadInt32_m1563614062(NULL /*static, unused*/, L_36, /*hidden argument*/NULL);
+		V_11 = L_37;
+		V_12 = 0;
+		goto IL_014d;
+	}
+
+IL_0121:
+	{
+		Win32_MIB_TCP6ROW_t4007155549 * L_38 = (Win32_MIB_TCP6ROW_t4007155549 *)il2cpp_codegen_object_new(Win32_MIB_TCP6ROW_t4007155549_il2cpp_TypeInfo_var);
+		Win32_MIB_TCP6ROW__ctor_m1089573993(L_38, /*hidden argument*/NULL);
+		V_13 = L_38;
+		uint8_t* L_39 = V_10;
+		int32_t L_40 = V_12;
+		int32_t L_41 = V_9;
+		IntPtr_t L_42 = IntPtr_op_Explicit_m1401226878(NULL /*static, unused*/, (void*)(void*)((uint8_t*)((intptr_t)((uint8_t*)((intptr_t)L_39+(int32_t)((int32_t)((int32_t)L_40*(int32_t)L_41))))+(int32_t)4)), /*hidden argument*/NULL);
+		Win32_MIB_TCP6ROW_t4007155549 * L_43 = V_13;
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		Marshal_PtrToStructure_m2894472674(NULL /*static, unused*/, L_42, L_43, /*hidden argument*/NULL);
+		List_1_t3376276681 ** L_44 = ___tab61;
+		Win32_MIB_TCP6ROW_t4007155549 * L_45 = V_13;
+		NullCheck((*((List_1_t3376276681 **)L_44)));
+		List_1_Add_m3965016095((*((List_1_t3376276681 **)L_44)), L_45, /*hidden argument*/List_1_Add_m3965016095_MethodInfo_var);
+		int32_t L_46 = V_12;
+		V_12 = ((int32_t)((int32_t)L_46+(int32_t)1));
+	}
+
+IL_014d:
+	{
+		int32_t L_47 = V_12;
+		int32_t L_48 = V_11;
+		if ((((int32_t)L_47) < ((int32_t)L_48)))
+		{
+			goto IL_0121;
+		}
+	}
+	{
+		V_10 = (uint8_t*)(((uintptr_t)0));
+	}
+
+IL_015a:
+	{
+		return;
+	}
+}
+// System.Boolean System.Net.NetworkInformation.Win32IPGlobalProperties::IsListenerState(System.Net.NetworkInformation.TcpState)
+extern "C"  bool Win32IPGlobalProperties_IsListenerState_m3653644019 (Win32IPGlobalProperties_t2393043454 * __this, int32_t ___state0, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = ___state0;
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		switch (((int32_t)((int32_t)L_1-(int32_t)2)))
+		{
+			case 0:
+			{
+				goto IL_002b;
+			}
+			case 1:
+			{
+				goto IL_002b;
+			}
+			case 2:
+			{
+				goto IL_002d;
+			}
+			case 3:
+			{
+				goto IL_002d;
+			}
+			case 4:
+			{
+				goto IL_002b;
+			}
+			case 5:
+			{
+				goto IL_002b;
+			}
+			case 6:
+			{
+				goto IL_002b;
+			}
+		}
+	}
+	{
+		goto IL_002d;
+	}
+
+IL_002b:
+	{
+		return (bool)1;
+	}
+
+IL_002d:
+	{
+		return (bool)0;
+	}
+}
+// System.Net.NetworkInformation.TcpConnectionInformation[] System.Net.NetworkInformation.Win32IPGlobalProperties::GetActiveTcpConnections()
+extern "C"  TcpConnectionInformationU5BU5D_t910531434* Win32IPGlobalProperties_GetActiveTcpConnections_m221955250 (Win32IPGlobalProperties_t2393043454 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32IPGlobalProperties_GetActiveTcpConnections_m221955250_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t2724853207 * V_0 = NULL;
+	List_1_t3376276681 * V_1 = NULL;
+	int32_t V_2 = 0;
+	TcpConnectionInformationU5BU5D_t910531434* V_3 = NULL;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	{
+		V_0 = (List_1_t2724853207 *)NULL;
+		V_1 = (List_1_t3376276681 *)NULL;
+		Win32IPGlobalProperties_FillTcpTable_m2144837742(__this, (&V_0), (&V_1), /*hidden argument*/NULL);
+		List_1_t2724853207 * L_0 = V_0;
+		NullCheck(L_0);
+		int32_t L_1 = List_1_get_Count_m2442351193(L_0, /*hidden argument*/List_1_get_Count_m2442351193_MethodInfo_var);
+		V_2 = L_1;
+		int32_t L_2 = V_2;
+		List_1_t3376276681 * L_3 = V_1;
+		NullCheck(L_3);
+		int32_t L_4 = List_1_get_Count_m463442927(L_3, /*hidden argument*/List_1_get_Count_m463442927_MethodInfo_var);
+		V_3 = ((TcpConnectionInformationU5BU5D_t910531434*)SZArrayNew(TcpConnectionInformationU5BU5D_t910531434_il2cpp_TypeInfo_var, (uint32_t)((int32_t)((int32_t)L_2+(int32_t)L_4))));
+		V_4 = 0;
+		goto IL_0042;
+	}
+
+IL_002b:
+	{
+		TcpConnectionInformationU5BU5D_t910531434* L_5 = V_3;
+		int32_t L_6 = V_4;
+		List_1_t2724853207 * L_7 = V_0;
+		int32_t L_8 = V_4;
+		NullCheck(L_7);
+		Win32_MIB_TCPROW_t3355732075 * L_9 = List_1_get_Item_m2292054464(L_7, L_8, /*hidden argument*/List_1_get_Item_m2292054464_MethodInfo_var);
+		NullCheck(L_9);
+		TcpConnectionInformation_t3392050187 * L_10 = Win32_MIB_TCPROW_get_TcpInfo_m3741336739(L_9, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		ArrayElementTypeCheck (L_5, L_10);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(L_6), (TcpConnectionInformation_t3392050187 *)L_10);
+		int32_t L_11 = V_4;
+		V_4 = ((int32_t)((int32_t)L_11+(int32_t)1));
+	}
+
+IL_0042:
+	{
+		int32_t L_12 = V_4;
+		int32_t L_13 = V_2;
+		if ((((int32_t)L_12) < ((int32_t)L_13)))
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		V_5 = 0;
+		goto IL_006b;
+	}
+
+IL_0052:
+	{
+		TcpConnectionInformationU5BU5D_t910531434* L_14 = V_3;
+		int32_t L_15 = V_2;
+		int32_t L_16 = V_5;
+		List_1_t3376276681 * L_17 = V_1;
+		int32_t L_18 = V_5;
+		NullCheck(L_17);
+		Win32_MIB_TCP6ROW_t4007155549 * L_19 = List_1_get_Item_m2611997358(L_17, L_18, /*hidden argument*/List_1_get_Item_m2611997358_MethodInfo_var);
+		NullCheck(L_19);
+		TcpConnectionInformation_t3392050187 * L_20 = Win32_MIB_TCP6ROW_get_TcpInfo_m3318259821(L_19, /*hidden argument*/NULL);
+		NullCheck(L_14);
+		ArrayElementTypeCheck (L_14, L_20);
+		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_15+(int32_t)L_16))), (TcpConnectionInformation_t3392050187 *)L_20);
+		int32_t L_21 = V_5;
+		V_5 = ((int32_t)((int32_t)L_21+(int32_t)1));
+	}
+
+IL_006b:
+	{
+		int32_t L_22 = V_5;
+		List_1_t3376276681 * L_23 = V_1;
+		NullCheck(L_23);
+		int32_t L_24 = List_1_get_Count_m463442927(L_23, /*hidden argument*/List_1_get_Count_m463442927_MethodInfo_var);
+		if ((((int32_t)L_22) < ((int32_t)L_24)))
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		TcpConnectionInformationU5BU5D_t910531434* L_25 = V_3;
+		return L_25;
+	}
+}
+// System.Net.IPEndPoint[] System.Net.NetworkInformation.Win32IPGlobalProperties::GetActiveTcpListeners()
+extern "C"  IPEndPointU5BU5D_t294524195* Win32IPGlobalProperties_GetActiveTcpListeners_m809282811 (Win32IPGlobalProperties_t2393043454 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32IPGlobalProperties_GetActiveTcpListeners_m809282811_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t2724853207 * V_0 = NULL;
+	List_1_t3376276681 * V_1 = NULL;
+	List_1_t1984534898 * V_2 = NULL;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	{
+		V_0 = (List_1_t2724853207 *)NULL;
+		V_1 = (List_1_t3376276681 *)NULL;
+		Win32IPGlobalProperties_FillTcpTable_m2144837742(__this, (&V_0), (&V_1), /*hidden argument*/NULL);
+		List_1_t1984534898 * L_0 = (List_1_t1984534898 *)il2cpp_codegen_object_new(List_1_t1984534898_il2cpp_TypeInfo_var);
+		List_1__ctor_m162370532(L_0, /*hidden argument*/List_1__ctor_m162370532_MethodInfo_var);
+		V_2 = L_0;
+		V_3 = 0;
+		List_1_t2724853207 * L_1 = V_0;
+		NullCheck(L_1);
+		int32_t L_2 = List_1_get_Count_m2442351193(L_1, /*hidden argument*/List_1_get_Count_m2442351193_MethodInfo_var);
+		V_4 = L_2;
+		goto IL_0050;
+	}
+
+IL_0023:
+	{
+		List_1_t2724853207 * L_3 = V_0;
+		int32_t L_4 = V_3;
+		NullCheck(L_3);
+		Win32_MIB_TCPROW_t3355732075 * L_5 = List_1_get_Item_m2292054464(L_3, L_4, /*hidden argument*/List_1_get_Item_m2292054464_MethodInfo_var);
+		NullCheck(L_5);
+		int32_t L_6 = L_5->get_State_0();
+		bool L_7 = Win32IPGlobalProperties_IsListenerState_m3653644019(__this, L_6, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		List_1_t1984534898 * L_8 = V_2;
+		List_1_t2724853207 * L_9 = V_0;
+		int32_t L_10 = V_3;
+		NullCheck(L_9);
+		Win32_MIB_TCPROW_t3355732075 * L_11 = List_1_get_Item_m2292054464(L_9, L_10, /*hidden argument*/List_1_get_Item_m2292054464_MethodInfo_var);
+		NullCheck(L_11);
+		IPEndPoint_t2615413766 * L_12 = Win32_MIB_TCPROW_get_LocalEndPoint_m719139803(L_11, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		List_1_Add_m2203530992(L_8, L_12, /*hidden argument*/List_1_Add_m2203530992_MethodInfo_var);
+	}
+
+IL_004c:
+	{
+		int32_t L_13 = V_3;
+		V_3 = ((int32_t)((int32_t)L_13+(int32_t)1));
+	}
+
+IL_0050:
+	{
+		int32_t L_14 = V_3;
+		int32_t L_15 = V_4;
+		if ((((int32_t)L_14) < ((int32_t)L_15)))
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		V_5 = 0;
+		List_1_t3376276681 * L_16 = V_1;
+		NullCheck(L_16);
+		int32_t L_17 = List_1_get_Count_m463442927(L_16, /*hidden argument*/List_1_get_Count_m463442927_MethodInfo_var);
+		V_6 = L_17;
+		goto IL_0099;
+	}
+
+IL_0068:
+	{
+		List_1_t3376276681 * L_18 = V_1;
+		int32_t L_19 = V_5;
+		NullCheck(L_18);
+		Win32_MIB_TCP6ROW_t4007155549 * L_20 = List_1_get_Item_m2611997358(L_18, L_19, /*hidden argument*/List_1_get_Item_m2611997358_MethodInfo_var);
+		NullCheck(L_20);
+		int32_t L_21 = L_20->get_State_0();
+		bool L_22 = Win32IPGlobalProperties_IsListenerState_m3653644019(__this, L_21, /*hidden argument*/NULL);
+		if (!L_22)
+		{
+			goto IL_0093;
+		}
+	}
+	{
+		List_1_t1984534898 * L_23 = V_2;
+		List_1_t3376276681 * L_24 = V_1;
+		int32_t L_25 = V_5;
+		NullCheck(L_24);
+		Win32_MIB_TCP6ROW_t4007155549 * L_26 = List_1_get_Item_m2611997358(L_24, L_25, /*hidden argument*/List_1_get_Item_m2611997358_MethodInfo_var);
+		NullCheck(L_26);
+		IPEndPoint_t2615413766 * L_27 = Win32_MIB_TCP6ROW_get_LocalEndPoint_m1499831341(L_26, /*hidden argument*/NULL);
+		NullCheck(L_23);
+		List_1_Add_m2203530992(L_23, L_27, /*hidden argument*/List_1_Add_m2203530992_MethodInfo_var);
+	}
+
+IL_0093:
+	{
+		int32_t L_28 = V_5;
+		V_5 = ((int32_t)((int32_t)L_28+(int32_t)1));
+	}
+
+IL_0099:
+	{
+		int32_t L_29 = V_5;
+		int32_t L_30 = V_6;
+		if ((((int32_t)L_29) < ((int32_t)L_30)))
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		List_1_t1984534898 * L_31 = V_2;
+		NullCheck(L_31);
+		IPEndPointU5BU5D_t294524195* L_32 = List_1_ToArray_m3968493512(L_31, /*hidden argument*/List_1_ToArray_m3968493512_MethodInfo_var);
+		return L_32;
+	}
+}
+// System.Net.IPEndPoint[] System.Net.NetworkInformation.Win32IPGlobalProperties::GetActiveUdpListeners()
+extern "C"  IPEndPointU5BU5D_t294524195* Win32IPGlobalProperties_GetActiveUdpListeners_m1370130597 (Win32IPGlobalProperties_t2393043454 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32IPGlobalProperties_GetActiveUdpListeners_m1370130597_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t1984534898 * V_0 = NULL;
+	ByteU5BU5D_t3397334013* V_1 = NULL;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	uint8_t* V_4 = NULL;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	Win32_MIB_UDPROW_t3234258897 * V_7 = NULL;
+	ByteU5BU5D_t3397334013* V_8 = NULL;
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	uint8_t* V_11 = NULL;
+	int32_t V_12 = 0;
+	int32_t V_13 = 0;
+	Win32_MIB_UDP6ROW_t2989424443 * V_14 = NULL;
+	uintptr_t G_B4_0 = 0;
+	uintptr_t G_B12_0 = 0;
+	{
+		List_1_t1984534898 * L_0 = (List_1_t1984534898 *)il2cpp_codegen_object_new(List_1_t1984534898_il2cpp_TypeInfo_var);
+		List_1__ctor_m162370532(L_0, /*hidden argument*/List_1__ctor_m162370532_MethodInfo_var);
+		V_0 = L_0;
+		V_1 = (ByteU5BU5D_t3397334013*)NULL;
+		V_2 = 0;
+		Win32IPGlobalProperties_GetUdpTable_m2180292672(NULL /*static, unused*/, (ByteU5BU5D_t3397334013*)(ByteU5BU5D_t3397334013*)NULL, (&V_2), (bool)1, /*hidden argument*/NULL);
+		int32_t L_1 = V_2;
+		V_1 = ((ByteU5BU5D_t3397334013*)SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, (uint32_t)L_1));
+		ByteU5BU5D_t3397334013* L_2 = V_1;
+		Win32IPGlobalProperties_GetUdpTable_m2180292672(NULL /*static, unused*/, L_2, (&V_2), (bool)1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_3 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Win32_MIB_UDPROW_t3234258897_0_0_0_var), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		int32_t L_4 = Marshal_SizeOf_m2982427619(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_3 = L_4;
+		ByteU5BU5D_t3397334013* L_5 = V_1;
+		if (!L_5)
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		ByteU5BU5D_t3397334013* L_6 = V_1;
+		NullCheck(L_6);
+		if ((((int32_t)((int32_t)(((Il2CppArray *)L_6)->max_length)))))
+		{
+			goto IL_004a;
+		}
+	}
+
+IL_0043:
+	{
+		G_B4_0 = (((uintptr_t)0));
+		goto IL_0051;
+	}
+
+IL_004a:
+	{
+		ByteU5BU5D_t3397334013* L_7 = V_1;
+		NullCheck(L_7);
+		G_B4_0 = ((uintptr_t)(((L_7)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))));
+	}
+
+IL_0051:
+	{
+		V_4 = (uint8_t*)G_B4_0;
+		uint8_t* L_8 = V_4;
+		IntPtr_t L_9 = IntPtr_op_Explicit_m1401226878(NULL /*static, unused*/, (void*)(void*)L_8, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		int32_t L_10 = Marshal_ReadInt32_m1563614062(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		V_5 = L_10;
+		V_6 = 0;
+		goto IL_0098;
+	}
+
+IL_0069:
+	{
+		Win32_MIB_UDPROW_t3234258897 * L_11 = (Win32_MIB_UDPROW_t3234258897 *)il2cpp_codegen_object_new(Win32_MIB_UDPROW_t3234258897_il2cpp_TypeInfo_var);
+		Win32_MIB_UDPROW__ctor_m595340541(L_11, /*hidden argument*/NULL);
+		V_7 = L_11;
+		uint8_t* L_12 = V_4;
+		int32_t L_13 = V_6;
+		int32_t L_14 = V_3;
+		IntPtr_t L_15 = IntPtr_op_Explicit_m1401226878(NULL /*static, unused*/, (void*)(void*)((uint8_t*)((intptr_t)((uint8_t*)((intptr_t)L_12+(int32_t)((int32_t)((int32_t)L_13*(int32_t)L_14))))+(int32_t)4)), /*hidden argument*/NULL);
+		Win32_MIB_UDPROW_t3234258897 * L_16 = V_7;
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		Marshal_PtrToStructure_m2894472674(NULL /*static, unused*/, L_15, L_16, /*hidden argument*/NULL);
+		List_1_t1984534898 * L_17 = V_0;
+		Win32_MIB_UDPROW_t3234258897 * L_18 = V_7;
+		NullCheck(L_18);
+		IPEndPoint_t2615413766 * L_19 = Win32_MIB_UDPROW_get_LocalEndPoint_m3018648849(L_18, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		List_1_Add_m2203530992(L_17, L_19, /*hidden argument*/List_1_Add_m2203530992_MethodInfo_var);
+		int32_t L_20 = V_6;
+		V_6 = ((int32_t)((int32_t)L_20+(int32_t)1));
+	}
+
+IL_0098:
+	{
+		int32_t L_21 = V_6;
+		int32_t L_22 = V_5;
+		if ((((int32_t)L_21) < ((int32_t)L_22)))
+		{
+			goto IL_0069;
+		}
+	}
+	{
+		V_4 = (uint8_t*)(((uintptr_t)0));
+		OperatingSystem_t290860502 * L_23 = Environment_get_OSVersion_m1247315981(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_23);
+		Version_t1755874712 * L_24 = OperatingSystem_get_Version_m2896234424(L_23, /*hidden argument*/NULL);
+		NullCheck(L_24);
+		int32_t L_25 = Version_get_Major_m3385239713(L_24, /*hidden argument*/NULL);
+		if ((((int32_t)L_25) < ((int32_t)6)))
+		{
+			goto IL_0163;
+		}
+	}
+	{
+		V_8 = (ByteU5BU5D_t3397334013*)NULL;
+		V_9 = 0;
+		Win32IPGlobalProperties_GetUdp6Table_m3789461194(NULL /*static, unused*/, (ByteU5BU5D_t3397334013*)(ByteU5BU5D_t3397334013*)NULL, (&V_9), (bool)1, /*hidden argument*/NULL);
+		int32_t L_26 = V_9;
+		V_8 = ((ByteU5BU5D_t3397334013*)SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, (uint32_t)L_26));
+		ByteU5BU5D_t3397334013* L_27 = V_8;
+		Win32IPGlobalProperties_GetUdp6Table_m3789461194(NULL /*static, unused*/, L_27, (&V_9), (bool)1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_28 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Win32_MIB_UDP6ROW_t2989424443_0_0_0_var), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		int32_t L_29 = Marshal_SizeOf_m2982427619(NULL /*static, unused*/, L_28, /*hidden argument*/NULL);
+		V_10 = L_29;
+		ByteU5BU5D_t3397334013* L_30 = V_8;
+		if (!L_30)
+		{
+			goto IL_00ff;
+		}
+	}
+	{
+		ByteU5BU5D_t3397334013* L_31 = V_8;
+		NullCheck(L_31);
+		if ((((int32_t)((int32_t)(((Il2CppArray *)L_31)->max_length)))))
+		{
+			goto IL_0106;
+		}
+	}
+
+IL_00ff:
+	{
+		G_B12_0 = (((uintptr_t)0));
+		goto IL_010e;
+	}
+
+IL_0106:
+	{
+		ByteU5BU5D_t3397334013* L_32 = V_8;
+		NullCheck(L_32);
+		G_B12_0 = ((uintptr_t)(((L_32)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))));
+	}
+
+IL_010e:
+	{
+		V_11 = (uint8_t*)G_B12_0;
+		uint8_t* L_33 = V_11;
+		IntPtr_t L_34 = IntPtr_op_Explicit_m1401226878(NULL /*static, unused*/, (void*)(void*)L_33, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		int32_t L_35 = Marshal_ReadInt32_m1563614062(NULL /*static, unused*/, L_34, /*hidden argument*/NULL);
+		V_12 = L_35;
+		V_13 = 0;
+		goto IL_0156;
+	}
+
+IL_0126:
+	{
+		Win32_MIB_UDP6ROW_t2989424443 * L_36 = (Win32_MIB_UDP6ROW_t2989424443 *)il2cpp_codegen_object_new(Win32_MIB_UDP6ROW_t2989424443_il2cpp_TypeInfo_var);
+		Win32_MIB_UDP6ROW__ctor_m2302086095(L_36, /*hidden argument*/NULL);
+		V_14 = L_36;
+		uint8_t* L_37 = V_11;
+		int32_t L_38 = V_13;
+		int32_t L_39 = V_10;
+		IntPtr_t L_40 = IntPtr_op_Explicit_m1401226878(NULL /*static, unused*/, (void*)(void*)((uint8_t*)((intptr_t)((uint8_t*)((intptr_t)L_37+(int32_t)((int32_t)((int32_t)L_38*(int32_t)L_39))))+(int32_t)4)), /*hidden argument*/NULL);
+		Win32_MIB_UDP6ROW_t2989424443 * L_41 = V_14;
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		Marshal_PtrToStructure_m2894472674(NULL /*static, unused*/, L_40, L_41, /*hidden argument*/NULL);
+		List_1_t1984534898 * L_42 = V_0;
+		Win32_MIB_UDP6ROW_t2989424443 * L_43 = V_14;
+		NullCheck(L_43);
+		IPEndPoint_t2615413766 * L_44 = Win32_MIB_UDP6ROW_get_LocalEndPoint_m18977863(L_43, /*hidden argument*/NULL);
+		NullCheck(L_42);
+		List_1_Add_m2203530992(L_42, L_44, /*hidden argument*/List_1_Add_m2203530992_MethodInfo_var);
+		int32_t L_45 = V_13;
+		V_13 = ((int32_t)((int32_t)L_45+(int32_t)1));
+	}
+
+IL_0156:
+	{
+		int32_t L_46 = V_13;
+		int32_t L_47 = V_12;
+		if ((((int32_t)L_46) < ((int32_t)L_47)))
+		{
+			goto IL_0126;
+		}
+	}
+	{
+		V_11 = (uint8_t*)(((uintptr_t)0));
+	}
+
+IL_0163:
+	{
+		List_1_t1984534898 * L_48 = V_0;
+		NullCheck(L_48);
+		IPEndPointU5BU5D_t294524195* L_49 = List_1_ToArray_m3968493512(L_48, /*hidden argument*/List_1_ToArray_m3968493512_MethodInfo_var);
+		return L_49;
+	}
+}
+// System.Net.NetworkInformation.IcmpV4Statistics System.Net.NetworkInformation.Win32IPGlobalProperties::GetIcmpV4Statistics()
+extern "C"  IcmpV4Statistics_t1794928690 * Win32IPGlobalProperties_GetIcmpV4Statistics_m3731117025 (Win32IPGlobalProperties_t2393043454 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32IPGlobalProperties_GetIcmpV4Statistics_m3731117025_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Win32_MIBICMPINFO_t3825151335  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Socket_t3821512045_il2cpp_TypeInfo_var);
+		bool L_0 = Socket_get_SupportsIPv4_m3333122259(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		NetworkInformationException_t1863186723 * L_1 = (NetworkInformationException_t1863186723 *)il2cpp_codegen_object_new(NetworkInformationException_t1863186723_il2cpp_TypeInfo_var);
+		NetworkInformationException__ctor_m3720732489(L_1, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0010:
+	{
+		Win32IPGlobalProperties_GetIcmpStatistics_m923731096(NULL /*static, unused*/, (&V_0), 2, /*hidden argument*/NULL);
+		Win32_MIBICMPINFO_t3825151335  L_2 = V_0;
+		Win32IcmpV4Statistics_t1426867275 * L_3 = (Win32IcmpV4Statistics_t1426867275 *)il2cpp_codegen_object_new(Win32IcmpV4Statistics_t1426867275_il2cpp_TypeInfo_var);
+		Win32IcmpV4Statistics__ctor_m3807461210(L_3, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.Net.NetworkInformation.IcmpV6Statistics System.Net.NetworkInformation.Win32IPGlobalProperties::GetIcmpV6Statistics()
+extern "C"  IcmpV6Statistics_t86748584 * Win32IPGlobalProperties_GetIcmpV6Statistics_m4275780693 (Win32IPGlobalProperties_t2393043454 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32IPGlobalProperties_GetIcmpV6Statistics_m4275780693_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Win32_MIB_ICMP_EX_t2748725486  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Socket_t3821512045_il2cpp_TypeInfo_var);
+		bool L_0 = Socket_get_OSSupportsIPv6_m1505031137(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		NetworkInformationException_t1863186723 * L_1 = (NetworkInformationException_t1863186723 *)il2cpp_codegen_object_new(NetworkInformationException_t1863186723_il2cpp_TypeInfo_var);
+		NetworkInformationException__ctor_m3720732489(L_1, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0010:
+	{
+		Win32IPGlobalProperties_GetIcmpStatisticsEx_m2691449968(NULL /*static, unused*/, (&V_0), ((int32_t)23), /*hidden argument*/NULL);
+		Win32_MIB_ICMP_EX_t2748725486  L_2 = V_0;
+		Win32IcmpV6Statistics_t1196663689 * L_3 = (Win32IcmpV6Statistics_t1196663689 *)il2cpp_codegen_object_new(Win32IcmpV6Statistics_t1196663689_il2cpp_TypeInfo_var);
+		Win32IcmpV6Statistics__ctor_m1681651691(L_3, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.Net.NetworkInformation.IPGlobalStatistics System.Net.NetworkInformation.Win32IPGlobalProperties::GetIPv4GlobalStatistics()
+extern "C"  IPGlobalStatistics_t106289253 * Win32IPGlobalProperties_GetIPv4GlobalStatistics_m3603207259 (Win32IPGlobalProperties_t2393043454 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32IPGlobalProperties_GetIPv4GlobalStatistics_m3603207259_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Win32_MIB_IPSTATS_t1777025181  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Socket_t3821512045_il2cpp_TypeInfo_var);
+		bool L_0 = Socket_get_SupportsIPv4_m3333122259(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		NetworkInformationException_t1863186723 * L_1 = (NetworkInformationException_t1863186723 *)il2cpp_codegen_object_new(NetworkInformationException_t1863186723_il2cpp_TypeInfo_var);
+		NetworkInformationException__ctor_m3720732489(L_1, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0010:
+	{
+		Win32IPGlobalProperties_GetIPStatisticsEx_m3796920609(NULL /*static, unused*/, (&V_0), 2, /*hidden argument*/NULL);
+		Win32_MIB_IPSTATS_t1777025181  L_2 = V_0;
+		Win32IPGlobalStatistics_t3349972664 * L_3 = (Win32IPGlobalStatistics_t3349972664 *)il2cpp_codegen_object_new(Win32IPGlobalStatistics_t3349972664_il2cpp_TypeInfo_var);
+		Win32IPGlobalStatistics__ctor_m980078935(L_3, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.Net.NetworkInformation.IPGlobalStatistics System.Net.NetworkInformation.Win32IPGlobalProperties::GetIPv6GlobalStatistics()
+extern "C"  IPGlobalStatistics_t106289253 * Win32IPGlobalProperties_GetIPv6GlobalStatistics_m955328869 (Win32IPGlobalProperties_t2393043454 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32IPGlobalProperties_GetIPv6GlobalStatistics_m955328869_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Win32_MIB_IPSTATS_t1777025181  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Socket_t3821512045_il2cpp_TypeInfo_var);
+		bool L_0 = Socket_get_OSSupportsIPv6_m1505031137(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		NetworkInformationException_t1863186723 * L_1 = (NetworkInformationException_t1863186723 *)il2cpp_codegen_object_new(NetworkInformationException_t1863186723_il2cpp_TypeInfo_var);
+		NetworkInformationException__ctor_m3720732489(L_1, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0010:
+	{
+		Win32IPGlobalProperties_GetIPStatisticsEx_m3796920609(NULL /*static, unused*/, (&V_0), ((int32_t)23), /*hidden argument*/NULL);
+		Win32_MIB_IPSTATS_t1777025181  L_2 = V_0;
+		Win32IPGlobalStatistics_t3349972664 * L_3 = (Win32IPGlobalStatistics_t3349972664 *)il2cpp_codegen_object_new(Win32IPGlobalStatistics_t3349972664_il2cpp_TypeInfo_var);
+		Win32IPGlobalStatistics__ctor_m980078935(L_3, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.Net.NetworkInformation.TcpStatistics System.Net.NetworkInformation.Win32IPGlobalProperties::GetTcpIPv4Statistics()
+extern "C"  TcpStatistics_t2119642186 * Win32IPGlobalProperties_GetTcpIPv4Statistics_m189676462 (Win32IPGlobalProperties_t2393043454 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32IPGlobalProperties_GetTcpIPv4Statistics_m189676462_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Win32_MIB_TCPSTATS_t1219941615  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Socket_t3821512045_il2cpp_TypeInfo_var);
+		bool L_0 = Socket_get_SupportsIPv4_m3333122259(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		NetworkInformationException_t1863186723 * L_1 = (NetworkInformationException_t1863186723 *)il2cpp_codegen_object_new(NetworkInformationException_t1863186723_il2cpp_TypeInfo_var);
+		NetworkInformationException__ctor_m3720732489(L_1, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0010:
+	{
+		Win32IPGlobalProperties_GetTcpStatisticsEx_m4139963057(NULL /*static, unused*/, (&V_0), 2, /*hidden argument*/NULL);
+		Win32_MIB_TCPSTATS_t1219941615  L_2 = V_0;
+		Win32TcpStatistics_t3798324233 * L_3 = (Win32TcpStatistics_t3798324233 *)il2cpp_codegen_object_new(Win32TcpStatistics_t3798324233_il2cpp_TypeInfo_var);
+		Win32TcpStatistics__ctor_m3362329620(L_3, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.Net.NetworkInformation.TcpStatistics System.Net.NetworkInformation.Win32IPGlobalProperties::GetTcpIPv6Statistics()
+extern "C"  TcpStatistics_t2119642186 * Win32IPGlobalProperties_GetTcpIPv6Statistics_m1656194424 (Win32IPGlobalProperties_t2393043454 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32IPGlobalProperties_GetTcpIPv6Statistics_m1656194424_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Win32_MIB_TCPSTATS_t1219941615  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Socket_t3821512045_il2cpp_TypeInfo_var);
+		bool L_0 = Socket_get_OSSupportsIPv6_m1505031137(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		NetworkInformationException_t1863186723 * L_1 = (NetworkInformationException_t1863186723 *)il2cpp_codegen_object_new(NetworkInformationException_t1863186723_il2cpp_TypeInfo_var);
+		NetworkInformationException__ctor_m3720732489(L_1, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0010:
+	{
+		Win32IPGlobalProperties_GetTcpStatisticsEx_m4139963057(NULL /*static, unused*/, (&V_0), ((int32_t)23), /*hidden argument*/NULL);
+		Win32_MIB_TCPSTATS_t1219941615  L_2 = V_0;
+		Win32TcpStatistics_t3798324233 * L_3 = (Win32TcpStatistics_t3798324233 *)il2cpp_codegen_object_new(Win32TcpStatistics_t3798324233_il2cpp_TypeInfo_var);
+		Win32TcpStatistics__ctor_m3362329620(L_3, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.Net.NetworkInformation.UdpStatistics System.Net.NetworkInformation.Win32IPGlobalProperties::GetUdpIPv4Statistics()
+extern "C"  UdpStatistics_t3170871206 * Win32IPGlobalProperties_GetUdpIPv4Statistics_m3671362926 (Win32IPGlobalProperties_t2393043454 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32IPGlobalProperties_GetUdpIPv4Statistics_m3671362926_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Win32_MIB_UDPSTATS_t4063826601  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Socket_t3821512045_il2cpp_TypeInfo_var);
+		bool L_0 = Socket_get_SupportsIPv4_m3333122259(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		NetworkInformationException_t1863186723 * L_1 = (NetworkInformationException_t1863186723 *)il2cpp_codegen_object_new(NetworkInformationException_t1863186723_il2cpp_TypeInfo_var);
+		NetworkInformationException__ctor_m3720732489(L_1, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0010:
+	{
+		Win32IPGlobalProperties_GetUdpStatisticsEx_m1115867121(NULL /*static, unused*/, (&V_0), 2, /*hidden argument*/NULL);
+		Win32_MIB_UDPSTATS_t4063826601  L_2 = V_0;
+		Win32UdpStatistics_t477239559 * L_3 = (Win32UdpStatistics_t477239559 *)il2cpp_codegen_object_new(Win32UdpStatistics_t477239559_il2cpp_TypeInfo_var);
+		Win32UdpStatistics__ctor_m3687885696(L_3, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.Net.NetworkInformation.UdpStatistics System.Net.NetworkInformation.Win32IPGlobalProperties::GetUdpIPv6Statistics()
+extern "C"  UdpStatistics_t3170871206 * Win32IPGlobalProperties_GetUdpIPv6Statistics_m842913592 (Win32IPGlobalProperties_t2393043454 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32IPGlobalProperties_GetUdpIPv6Statistics_m842913592_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Win32_MIB_UDPSTATS_t4063826601  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Socket_t3821512045_il2cpp_TypeInfo_var);
+		bool L_0 = Socket_get_OSSupportsIPv6_m1505031137(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		NetworkInformationException_t1863186723 * L_1 = (NetworkInformationException_t1863186723 *)il2cpp_codegen_object_new(NetworkInformationException_t1863186723_il2cpp_TypeInfo_var);
+		NetworkInformationException__ctor_m3720732489(L_1, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0010:
+	{
+		Win32IPGlobalProperties_GetUdpStatisticsEx_m1115867121(NULL /*static, unused*/, (&V_0), ((int32_t)23), /*hidden argument*/NULL);
+		Win32_MIB_UDPSTATS_t4063826601  L_2 = V_0;
+		Win32UdpStatistics_t477239559 * L_3 = (Win32UdpStatistics_t477239559 *)il2cpp_codegen_object_new(Win32UdpStatistics_t477239559_il2cpp_TypeInfo_var);
+		Win32UdpStatistics__ctor_m3687885696(L_3, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.String System.Net.NetworkInformation.Win32IPGlobalProperties::get_DhcpScopeName()
+extern "C"  String_t* Win32IPGlobalProperties_get_DhcpScopeName_m801423400 (Win32IPGlobalProperties_t2393043454 * __this, const MethodInfo* method)
+{
+	{
+		Win32_FIXED_INFO_t1371335919 * L_0 = Win32_FIXED_INFO_get_Instance_m1048441613(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		String_t* L_1 = L_0->get_ScopeId_9();
+		return L_1;
+	}
+}
+// System.String System.Net.NetworkInformation.Win32IPGlobalProperties::get_DomainName()
+extern "C"  String_t* Win32IPGlobalProperties_get_DomainName_m4138942905 (Win32IPGlobalProperties_t2393043454 * __this, const MethodInfo* method)
+{
+	{
+		Win32_FIXED_INFO_t1371335919 * L_0 = Win32_FIXED_INFO_get_Instance_m1048441613(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		String_t* L_1 = L_0->get_DomainName_5();
+		return L_1;
+	}
+}
+// System.String System.Net.NetworkInformation.Win32IPGlobalProperties::get_HostName()
+extern "C"  String_t* Win32IPGlobalProperties_get_HostName_m2494347729 (Win32IPGlobalProperties_t2393043454 * __this, const MethodInfo* method)
+{
+	{
+		Win32_FIXED_INFO_t1371335919 * L_0 = Win32_FIXED_INFO_get_Instance_m1048441613(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		String_t* L_1 = L_0->get_HostName_4();
+		return L_1;
+	}
+}
+// System.Boolean System.Net.NetworkInformation.Win32IPGlobalProperties::get_IsWinsProxy()
+extern "C"  bool Win32IPGlobalProperties_get_IsWinsProxy_m320553614 (Win32IPGlobalProperties_t2393043454 * __this, const MethodInfo* method)
+{
+	{
+		Win32_FIXED_INFO_t1371335919 * L_0 = Win32_FIXED_INFO_get_Instance_m1048441613(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		uint32_t L_1 = L_0->get_EnableProxy_11();
+		return (bool)((((int32_t)((((int32_t)L_1) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+	}
+}
+// System.Net.NetworkInformation.NetBiosNodeType System.Net.NetworkInformation.Win32IPGlobalProperties::get_NodeType()
+extern "C"  int32_t Win32IPGlobalProperties_get_NodeType_m1503957400 (Win32IPGlobalProperties_t2393043454 * __this, const MethodInfo* method)
+{
+	{
+		Win32_FIXED_INFO_t1371335919 * L_0 = Win32_FIXED_INFO_get_Instance_m1048441613(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		int32_t L_1 = L_0->get_NodeType_8();
+		return L_1;
+	}
+}
+// System.Int32 System.Net.NetworkInformation.Win32IPGlobalProperties::GetTcpTable(System.Byte[],System.Int32&,System.Boolean)
+extern "C"  int32_t Win32IPGlobalProperties_GetTcpTable_m418932388 (Il2CppObject * __this /* static, unused */, ByteU5BU5D_t3397334013* ___pTcpTable0, int32_t* ___pdwSize1, bool ___bOrder2, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint8_t*, int32_t*, int32_t);
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*) + sizeof(int32_t*) + 4;
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("Iphlpapi.dll"), "GetTcpTable", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+
+		if (il2cppPInvokeFunc == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'GetTcpTable'"));
+		}
+	}
+
+	// Marshaling of parameter '___pTcpTable0' to native representation
+	uint8_t* ____pTcpTable0_marshaled = NULL;
+	if (___pTcpTable0 != NULL)
+	{
+		____pTcpTable0_marshaled = reinterpret_cast<uint8_t*>((___pTcpTable0)->GetAddressAtUnchecked(0));
+	}
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(____pTcpTable0_marshaled, ___pdwSize1, static_cast<int32_t>(___bOrder2));
+
+	return returnValue;
+}
+// System.Int32 System.Net.NetworkInformation.Win32IPGlobalProperties::GetTcp6Table(System.Byte[],System.Int32&,System.Boolean)
+extern "C"  int32_t Win32IPGlobalProperties_GetTcp6Table_m2836257914 (Il2CppObject * __this /* static, unused */, ByteU5BU5D_t3397334013* ___TcpTable0, int32_t* ___SizePointer1, bool ___Order2, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint8_t*, int32_t*, int32_t);
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*) + sizeof(int32_t*) + 4;
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("Iphlpapi.dll"), "GetTcp6Table", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+
+		if (il2cppPInvokeFunc == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'GetTcp6Table'"));
+		}
+	}
+
+	// Marshaling of parameter '___TcpTable0' to native representation
+	uint8_t* ____TcpTable0_marshaled = NULL;
+	if (___TcpTable0 != NULL)
+	{
+		____TcpTable0_marshaled = reinterpret_cast<uint8_t*>((___TcpTable0)->GetAddressAtUnchecked(0));
+	}
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(____TcpTable0_marshaled, ___SizePointer1, static_cast<int32_t>(___Order2));
+
+	return returnValue;
+}
+// System.Int32 System.Net.NetworkInformation.Win32IPGlobalProperties::GetUdpTable(System.Byte[],System.Int32&,System.Boolean)
+extern "C"  int32_t Win32IPGlobalProperties_GetUdpTable_m2180292672 (Il2CppObject * __this /* static, unused */, ByteU5BU5D_t3397334013* ___pUdpTable0, int32_t* ___pdwSize1, bool ___bOrder2, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint8_t*, int32_t*, int32_t);
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*) + sizeof(int32_t*) + 4;
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("Iphlpapi.dll"), "GetUdpTable", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+
+		if (il2cppPInvokeFunc == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'GetUdpTable'"));
+		}
+	}
+
+	// Marshaling of parameter '___pUdpTable0' to native representation
+	uint8_t* ____pUdpTable0_marshaled = NULL;
+	if (___pUdpTable0 != NULL)
+	{
+		____pUdpTable0_marshaled = reinterpret_cast<uint8_t*>((___pUdpTable0)->GetAddressAtUnchecked(0));
+	}
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(____pUdpTable0_marshaled, ___pdwSize1, static_cast<int32_t>(___bOrder2));
+
+	return returnValue;
+}
+// System.Int32 System.Net.NetworkInformation.Win32IPGlobalProperties::GetUdp6Table(System.Byte[],System.Int32&,System.Boolean)
+extern "C"  int32_t Win32IPGlobalProperties_GetUdp6Table_m3789461194 (Il2CppObject * __this /* static, unused */, ByteU5BU5D_t3397334013* ___Udp6Table0, int32_t* ___SizePointer1, bool ___Order2, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint8_t*, int32_t*, int32_t);
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*) + sizeof(int32_t*) + 4;
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("Iphlpapi.dll"), "GetUdp6Table", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+
+		if (il2cppPInvokeFunc == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'GetUdp6Table'"));
+		}
+	}
+
+	// Marshaling of parameter '___Udp6Table0' to native representation
+	uint8_t* ____Udp6Table0_marshaled = NULL;
+	if (___Udp6Table0 != NULL)
+	{
+		____Udp6Table0_marshaled = reinterpret_cast<uint8_t*>((___Udp6Table0)->GetAddressAtUnchecked(0));
+	}
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(____Udp6Table0_marshaled, ___SizePointer1, static_cast<int32_t>(___Order2));
+
+	return returnValue;
+}
+// System.Int32 System.Net.NetworkInformation.Win32IPGlobalProperties::GetTcpStatisticsEx(System.Net.NetworkInformation.Win32_MIB_TCPSTATS&,System.Int32)
+extern "C"  int32_t Win32IPGlobalProperties_GetTcpStatisticsEx_m4139963057 (Il2CppObject * __this /* static, unused */, Win32_MIB_TCPSTATS_t1219941615 * ___pStats0, int32_t ___dwFamily1, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (Win32_MIB_TCPSTATS_t1219941615 *, int32_t);
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(Win32_MIB_TCPSTATS_t1219941615 *) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("Iphlpapi.dll"), "GetTcpStatisticsEx", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+
+		if (il2cppPInvokeFunc == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'GetTcpStatisticsEx'"));
+		}
+	}
+
+	// Marshaling of parameter '___pStats0' to native representation
+	Win32_MIB_TCPSTATS_t1219941615  ____pStats0_empty = {};
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(&____pStats0_empty, ___dwFamily1);
+
+	// Marshaling of parameter '___pStats0' back from native representation
+	*___pStats0 = ____pStats0_empty;
+
+	return returnValue;
+}
+// System.Int32 System.Net.NetworkInformation.Win32IPGlobalProperties::GetUdpStatisticsEx(System.Net.NetworkInformation.Win32_MIB_UDPSTATS&,System.Int32)
+extern "C"  int32_t Win32IPGlobalProperties_GetUdpStatisticsEx_m1115867121 (Il2CppObject * __this /* static, unused */, Win32_MIB_UDPSTATS_t4063826601 * ___pStats0, int32_t ___dwFamily1, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (Win32_MIB_UDPSTATS_t4063826601 *, int32_t);
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(Win32_MIB_UDPSTATS_t4063826601 *) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("Iphlpapi.dll"), "GetUdpStatisticsEx", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+
+		if (il2cppPInvokeFunc == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'GetUdpStatisticsEx'"));
+		}
+	}
+
+	// Marshaling of parameter '___pStats0' to native representation
+	Win32_MIB_UDPSTATS_t4063826601  ____pStats0_empty = {};
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(&____pStats0_empty, ___dwFamily1);
+
+	// Marshaling of parameter '___pStats0' back from native representation
+	*___pStats0 = ____pStats0_empty;
+
+	return returnValue;
+}
+// System.Int32 System.Net.NetworkInformation.Win32IPGlobalProperties::GetIcmpStatistics(System.Net.NetworkInformation.Win32_MIBICMPINFO&,System.Int32)
+extern "C"  int32_t Win32IPGlobalProperties_GetIcmpStatistics_m923731096 (Il2CppObject * __this /* static, unused */, Win32_MIBICMPINFO_t3825151335 * ___pStats0, int32_t ___dwFamily1, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (Win32_MIBICMPINFO_t3825151335 *, int32_t);
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(Win32_MIBICMPINFO_t3825151335 *) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("Iphlpapi.dll"), "GetIcmpStatistics", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+
+		if (il2cppPInvokeFunc == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'GetIcmpStatistics'"));
+		}
+	}
+
+	// Marshaling of parameter '___pStats0' to native representation
+	Win32_MIBICMPINFO_t3825151335  ____pStats0_empty = {};
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(&____pStats0_empty, ___dwFamily1);
+
+	// Marshaling of parameter '___pStats0' back from native representation
+	*___pStats0 = ____pStats0_empty;
+
+	return returnValue;
+}
+// System.Int32 System.Net.NetworkInformation.Win32IPGlobalProperties::GetIcmpStatisticsEx(System.Net.NetworkInformation.Win32_MIB_ICMP_EX&,System.Int32)
+extern "C"  int32_t Win32IPGlobalProperties_GetIcmpStatisticsEx_m2691449968 (Il2CppObject * __this /* static, unused */, Win32_MIB_ICMP_EX_t2748725486 * ___pStats0, int32_t ___dwFamily1, const MethodInfo* method)
+{
+
+
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (Win32_MIB_ICMP_EX_t2748725486_marshaled_pinvoke*, int32_t);
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(Win32_MIB_ICMP_EX_t2748725486_marshaled_pinvoke*) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("Iphlpapi.dll"), "GetIcmpStatisticsEx", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+
+		if (il2cppPInvokeFunc == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'GetIcmpStatisticsEx'"));
+		}
+	}
+
+	// Marshaling of parameter '___pStats0' to native representation
+	Win32_MIB_ICMP_EX_t2748725486_marshaled_pinvoke ____pStats0_empty = {};
+	Win32_MIB_ICMP_EX_t2748725486_marshaled_pinvoke* ____pStats0_marshaled = &____pStats0_empty;
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(____pStats0_marshaled, ___dwFamily1);
+
+	// Marshaling of parameter '___pStats0' back from native representation
+	Win32_MIB_ICMP_EX_t2748725486  _____pStats0_marshaled_unmarshaled_dereferenced;
+	memset(&_____pStats0_marshaled_unmarshaled_dereferenced, 0, sizeof(_____pStats0_marshaled_unmarshaled_dereferenced));
+	Win32_MIB_ICMP_EX_t2748725486_marshal_pinvoke_back(*____pStats0_marshaled, _____pStats0_marshaled_unmarshaled_dereferenced);
+	*___pStats0 = _____pStats0_marshaled_unmarshaled_dereferenced;
+
+	// Marshaling cleanup of parameter '___pStats0' native representation
+	Win32_MIB_ICMP_EX_t2748725486_marshal_pinvoke_cleanup(*____pStats0_marshaled);
+
+	return returnValue;
+}
+// System.Int32 System.Net.NetworkInformation.Win32IPGlobalProperties::GetIPStatisticsEx(System.Net.NetworkInformation.Win32_MIB_IPSTATS&,System.Int32)
+extern "C"  int32_t Win32IPGlobalProperties_GetIPStatisticsEx_m3796920609 (Il2CppObject * __this /* static, unused */, Win32_MIB_IPSTATS_t1777025181 * ___pStats0, int32_t ___dwFamily1, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (Win32_MIB_IPSTATS_t1777025181 *, int32_t);
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(Win32_MIB_IPSTATS_t1777025181 *) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("Iphlpapi.dll"), "GetIPStatisticsEx", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+
+		if (il2cppPInvokeFunc == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'GetIPStatisticsEx'"));
+		}
+	}
+
+	// Marshaling of parameter '___pStats0' to native representation
+	Win32_MIB_IPSTATS_t1777025181  ____pStats0_empty = {};
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(&____pStats0_empty, ___dwFamily1);
+
+	// Marshaling of parameter '___pStats0' back from native representation
+	*___pStats0 = ____pStats0_empty;
+
+	return returnValue;
+}
+// Conversion methods for marshalling of: System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_IN6_ADDR
+extern "C" void Win32_IN6_ADDR_t3054921274_marshal_pinvoke(const Win32_IN6_ADDR_t3054921274& unmarshaled, Win32_IN6_ADDR_t3054921274_marshaled_pinvoke& marshaled)
+{
+	if (unmarshaled.get_Bytes_0() != NULL)
+	{
+		if (16 > (unmarshaled.get_Bytes_0())->max_length)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_exception("", "Type could not be marshaled because the length of an embedded array instance does not match the declared length in the layout."));
+		}
+
+		for (int32_t i = 0; i < 16; i++)
+		{
+			(marshaled.___Bytes_0)[i] = (unmarshaled.get_Bytes_0())->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i));
+		}
+	}
+}
+extern "C" void Win32_IN6_ADDR_t3054921274_marshal_pinvoke_back(const Win32_IN6_ADDR_t3054921274_marshaled_pinvoke& marshaled, Win32_IN6_ADDR_t3054921274& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32_IN6_ADDR_t3054921274_pinvoke_FromNativeMethodDefinition_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	unmarshaled.set_Bytes_0(reinterpret_cast<ByteU5BU5D_t3397334013*>(SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, 16)));
+	for (int32_t i = 0; i < 16; i++)
+	{
+		(unmarshaled.get_Bytes_0())->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), (marshaled.___Bytes_0)[i]);
+	}
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_IN6_ADDR
+extern "C" void Win32_IN6_ADDR_t3054921274_marshal_pinvoke_cleanup(Win32_IN6_ADDR_t3054921274_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_IN6_ADDR
+extern "C" void Win32_IN6_ADDR_t3054921274_marshal_com(const Win32_IN6_ADDR_t3054921274& unmarshaled, Win32_IN6_ADDR_t3054921274_marshaled_com& marshaled)
+{
+	if (unmarshaled.get_Bytes_0() != NULL)
+	{
+		if (16 > (unmarshaled.get_Bytes_0())->max_length)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_exception("", "Type could not be marshaled because the length of an embedded array instance does not match the declared length in the layout."));
+		}
+
+		for (int32_t i = 0; i < 16; i++)
+		{
+			(marshaled.___Bytes_0)[i] = (unmarshaled.get_Bytes_0())->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i));
+		}
+	}
+}
+extern "C" void Win32_IN6_ADDR_t3054921274_marshal_com_back(const Win32_IN6_ADDR_t3054921274_marshaled_com& marshaled, Win32_IN6_ADDR_t3054921274& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32_IN6_ADDR_t3054921274_com_FromNativeMethodDefinition_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	unmarshaled.set_Bytes_0(reinterpret_cast<ByteU5BU5D_t3397334013*>(SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, 16)));
+	for (int32_t i = 0; i < 16; i++)
+	{
+		(unmarshaled.get_Bytes_0())->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), (marshaled.___Bytes_0)[i]);
+	}
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_IN6_ADDR
+extern "C" void Win32_IN6_ADDR_t3054921274_marshal_com_cleanup(Win32_IN6_ADDR_t3054921274_marshaled_com& marshaled)
+{
+}
+
+
+
+
+// Conversion methods for marshalling of: System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCP6ROW
+extern "C" void Win32_MIB_TCP6ROW_t4007155549_marshal_pinvoke(const Win32_MIB_TCP6ROW_t4007155549& unmarshaled, Win32_MIB_TCP6ROW_t4007155549_marshaled_pinvoke& marshaled)
+{
+	marshaled.___State_0 = unmarshaled.get_State_0();
+	Win32_IN6_ADDR_t3054921274_marshal_pinvoke(unmarshaled.get_LocalAddr_1(), marshaled.___LocalAddr_1);
+	marshaled.___LocalScopeId_2 = unmarshaled.get_LocalScopeId_2();
+	marshaled.___LocalPort_3 = unmarshaled.get_LocalPort_3();
+	Win32_IN6_ADDR_t3054921274_marshal_pinvoke(unmarshaled.get_RemoteAddr_4(), marshaled.___RemoteAddr_4);
+	marshaled.___RemoteScopeId_5 = unmarshaled.get_RemoteScopeId_5();
+	marshaled.___RemotePort_6 = unmarshaled.get_RemotePort_6();
+}
+extern "C" void Win32_MIB_TCP6ROW_t4007155549_marshal_pinvoke_back(const Win32_MIB_TCP6ROW_t4007155549_marshaled_pinvoke& marshaled, Win32_MIB_TCP6ROW_t4007155549& unmarshaled)
+{
+	int32_t unmarshaled_State_temp_0 = 0;
+	unmarshaled_State_temp_0 = marshaled.___State_0;
+	unmarshaled.set_State_0(unmarshaled_State_temp_0);
+	Win32_IN6_ADDR_t3054921274  unmarshaled_LocalAddr_temp_1;
+	memset(&unmarshaled_LocalAddr_temp_1, 0, sizeof(unmarshaled_LocalAddr_temp_1));
+	Win32_IN6_ADDR_t3054921274_marshal_pinvoke_back(marshaled.___LocalAddr_1, unmarshaled_LocalAddr_temp_1);
+	unmarshaled.set_LocalAddr_1(unmarshaled_LocalAddr_temp_1);
+	uint32_t unmarshaled_LocalScopeId_temp_2 = 0;
+	unmarshaled_LocalScopeId_temp_2 = marshaled.___LocalScopeId_2;
+	unmarshaled.set_LocalScopeId_2(unmarshaled_LocalScopeId_temp_2);
+	int32_t unmarshaled_LocalPort_temp_3 = 0;
+	unmarshaled_LocalPort_temp_3 = marshaled.___LocalPort_3;
+	unmarshaled.set_LocalPort_3(unmarshaled_LocalPort_temp_3);
+	Win32_IN6_ADDR_t3054921274  unmarshaled_RemoteAddr_temp_4;
+	memset(&unmarshaled_RemoteAddr_temp_4, 0, sizeof(unmarshaled_RemoteAddr_temp_4));
+	Win32_IN6_ADDR_t3054921274_marshal_pinvoke_back(marshaled.___RemoteAddr_4, unmarshaled_RemoteAddr_temp_4);
+	unmarshaled.set_RemoteAddr_4(unmarshaled_RemoteAddr_temp_4);
+	uint32_t unmarshaled_RemoteScopeId_temp_5 = 0;
+	unmarshaled_RemoteScopeId_temp_5 = marshaled.___RemoteScopeId_5;
+	unmarshaled.set_RemoteScopeId_5(unmarshaled_RemoteScopeId_temp_5);
+	int32_t unmarshaled_RemotePort_temp_6 = 0;
+	unmarshaled_RemotePort_temp_6 = marshaled.___RemotePort_6;
+	unmarshaled.set_RemotePort_6(unmarshaled_RemotePort_temp_6);
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCP6ROW
+extern "C" void Win32_MIB_TCP6ROW_t4007155549_marshal_pinvoke_cleanup(Win32_MIB_TCP6ROW_t4007155549_marshaled_pinvoke& marshaled)
+{
+	Win32_IN6_ADDR_t3054921274_marshal_pinvoke_cleanup(marshaled.___LocalAddr_1);
+	Win32_IN6_ADDR_t3054921274_marshal_pinvoke_cleanup(marshaled.___RemoteAddr_4);
+}
+
+
+
+
+// Conversion methods for marshalling of: System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCP6ROW
+extern "C" void Win32_MIB_TCP6ROW_t4007155549_marshal_com(const Win32_MIB_TCP6ROW_t4007155549& unmarshaled, Win32_MIB_TCP6ROW_t4007155549_marshaled_com& marshaled)
+{
+	marshaled.___State_0 = unmarshaled.get_State_0();
+	Win32_IN6_ADDR_t3054921274_marshal_com(unmarshaled.get_LocalAddr_1(), marshaled.___LocalAddr_1);
+	marshaled.___LocalScopeId_2 = unmarshaled.get_LocalScopeId_2();
+	marshaled.___LocalPort_3 = unmarshaled.get_LocalPort_3();
+	Win32_IN6_ADDR_t3054921274_marshal_com(unmarshaled.get_RemoteAddr_4(), marshaled.___RemoteAddr_4);
+	marshaled.___RemoteScopeId_5 = unmarshaled.get_RemoteScopeId_5();
+	marshaled.___RemotePort_6 = unmarshaled.get_RemotePort_6();
+}
+extern "C" void Win32_MIB_TCP6ROW_t4007155549_marshal_com_back(const Win32_MIB_TCP6ROW_t4007155549_marshaled_com& marshaled, Win32_MIB_TCP6ROW_t4007155549& unmarshaled)
+{
+	int32_t unmarshaled_State_temp_0 = 0;
+	unmarshaled_State_temp_0 = marshaled.___State_0;
+	unmarshaled.set_State_0(unmarshaled_State_temp_0);
+	Win32_IN6_ADDR_t3054921274  unmarshaled_LocalAddr_temp_1;
+	memset(&unmarshaled_LocalAddr_temp_1, 0, sizeof(unmarshaled_LocalAddr_temp_1));
+	Win32_IN6_ADDR_t3054921274_marshal_com_back(marshaled.___LocalAddr_1, unmarshaled_LocalAddr_temp_1);
+	unmarshaled.set_LocalAddr_1(unmarshaled_LocalAddr_temp_1);
+	uint32_t unmarshaled_LocalScopeId_temp_2 = 0;
+	unmarshaled_LocalScopeId_temp_2 = marshaled.___LocalScopeId_2;
+	unmarshaled.set_LocalScopeId_2(unmarshaled_LocalScopeId_temp_2);
+	int32_t unmarshaled_LocalPort_temp_3 = 0;
+	unmarshaled_LocalPort_temp_3 = marshaled.___LocalPort_3;
+	unmarshaled.set_LocalPort_3(unmarshaled_LocalPort_temp_3);
+	Win32_IN6_ADDR_t3054921274  unmarshaled_RemoteAddr_temp_4;
+	memset(&unmarshaled_RemoteAddr_temp_4, 0, sizeof(unmarshaled_RemoteAddr_temp_4));
+	Win32_IN6_ADDR_t3054921274_marshal_com_back(marshaled.___RemoteAddr_4, unmarshaled_RemoteAddr_temp_4);
+	unmarshaled.set_RemoteAddr_4(unmarshaled_RemoteAddr_temp_4);
+	uint32_t unmarshaled_RemoteScopeId_temp_5 = 0;
+	unmarshaled_RemoteScopeId_temp_5 = marshaled.___RemoteScopeId_5;
+	unmarshaled.set_RemoteScopeId_5(unmarshaled_RemoteScopeId_temp_5);
+	int32_t unmarshaled_RemotePort_temp_6 = 0;
+	unmarshaled_RemotePort_temp_6 = marshaled.___RemotePort_6;
+	unmarshaled.set_RemotePort_6(unmarshaled_RemotePort_temp_6);
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCP6ROW
+extern "C" void Win32_MIB_TCP6ROW_t4007155549_marshal_com_cleanup(Win32_MIB_TCP6ROW_t4007155549_marshaled_com& marshaled)
+{
+	Win32_IN6_ADDR_t3054921274_marshal_com_cleanup(marshaled.___LocalAddr_1);
+	Win32_IN6_ADDR_t3054921274_marshal_com_cleanup(marshaled.___RemoteAddr_4);
+}
+// System.Void System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCP6ROW::.ctor()
+extern "C"  void Win32_MIB_TCP6ROW__ctor_m1089573993 (Win32_MIB_TCP6ROW_t4007155549 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Net.IPEndPoint System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCP6ROW::get_LocalEndPoint()
+extern "C"  IPEndPoint_t2615413766 * Win32_MIB_TCP6ROW_get_LocalEndPoint_m1499831341 (Win32_MIB_TCP6ROW_t4007155549 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32_MIB_TCP6ROW_get_LocalEndPoint_m1499831341_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Win32_IN6_ADDR_t3054921274 * L_0 = __this->get_address_of_LocalAddr_1();
+		ByteU5BU5D_t3397334013* L_1 = L_0->get_Bytes_0();
+		uint32_t L_2 = __this->get_LocalScopeId_2();
+		IPAddress_t1399971723 * L_3 = (IPAddress_t1399971723 *)il2cpp_codegen_object_new(IPAddress_t1399971723_il2cpp_TypeInfo_var);
+		IPAddress__ctor_m3025538646(L_3, L_1, (((int64_t)((uint64_t)L_2))), /*hidden argument*/NULL);
+		int32_t L_4 = __this->get_LocalPort_3();
+		IPEndPoint_t2615413766 * L_5 = (IPEndPoint_t2615413766 *)il2cpp_codegen_object_new(IPEndPoint_t2615413766_il2cpp_TypeInfo_var);
+		IPEndPoint__ctor_m3477723888(L_5, L_3, L_4, /*hidden argument*/NULL);
+		return L_5;
+	}
+}
+// System.Net.IPEndPoint System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCP6ROW::get_RemoteEndPoint()
+extern "C"  IPEndPoint_t2615413766 * Win32_MIB_TCP6ROW_get_RemoteEndPoint_m1504756156 (Win32_MIB_TCP6ROW_t4007155549 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32_MIB_TCP6ROW_get_RemoteEndPoint_m1504756156_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Win32_IN6_ADDR_t3054921274 * L_0 = __this->get_address_of_RemoteAddr_4();
+		ByteU5BU5D_t3397334013* L_1 = L_0->get_Bytes_0();
+		uint32_t L_2 = __this->get_RemoteScopeId_5();
+		IPAddress_t1399971723 * L_3 = (IPAddress_t1399971723 *)il2cpp_codegen_object_new(IPAddress_t1399971723_il2cpp_TypeInfo_var);
+		IPAddress__ctor_m3025538646(L_3, L_1, (((int64_t)((uint64_t)L_2))), /*hidden argument*/NULL);
+		int32_t L_4 = __this->get_RemotePort_6();
+		IPEndPoint_t2615413766 * L_5 = (IPEndPoint_t2615413766 *)il2cpp_codegen_object_new(IPEndPoint_t2615413766_il2cpp_TypeInfo_var);
+		IPEndPoint__ctor_m3477723888(L_5, L_3, L_4, /*hidden argument*/NULL);
+		return L_5;
+	}
+}
+// System.Net.NetworkInformation.TcpConnectionInformation System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCP6ROW::get_TcpInfo()
+extern "C"  TcpConnectionInformation_t3392050187 * Win32_MIB_TCP6ROW_get_TcpInfo_m3318259821 (Win32_MIB_TCP6ROW_t4007155549 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32_MIB_TCP6ROW_get_TcpInfo_m3318259821_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IPEndPoint_t2615413766 * L_0 = Win32_MIB_TCP6ROW_get_LocalEndPoint_m1499831341(__this, /*hidden argument*/NULL);
+		IPEndPoint_t2615413766 * L_1 = Win32_MIB_TCP6ROW_get_RemoteEndPoint_m1504756156(__this, /*hidden argument*/NULL);
+		int32_t L_2 = __this->get_State_0();
+		TcpConnectionInformationImpl_t1274605263 * L_3 = (TcpConnectionInformationImpl_t1274605263 *)il2cpp_codegen_object_new(TcpConnectionInformationImpl_t1274605263_il2cpp_TypeInfo_var);
+		TcpConnectionInformationImpl__ctor_m3967055251(L_3, L_0, L_1, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// Conversion methods for marshalling of: System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCPROW
+extern "C" void Win32_MIB_TCPROW_t3355732075_marshal_pinvoke(const Win32_MIB_TCPROW_t3355732075& unmarshaled, Win32_MIB_TCPROW_t3355732075_marshaled_pinvoke& marshaled)
+{
+	marshaled.___State_0 = unmarshaled.get_State_0();
+	marshaled.___LocalAddr_1 = unmarshaled.get_LocalAddr_1();
+	marshaled.___LocalPort_2 = unmarshaled.get_LocalPort_2();
+	marshaled.___RemoteAddr_3 = unmarshaled.get_RemoteAddr_3();
+	marshaled.___RemotePort_4 = unmarshaled.get_RemotePort_4();
+}
+extern "C" void Win32_MIB_TCPROW_t3355732075_marshal_pinvoke_back(const Win32_MIB_TCPROW_t3355732075_marshaled_pinvoke& marshaled, Win32_MIB_TCPROW_t3355732075& unmarshaled)
+{
+	int32_t unmarshaled_State_temp_0 = 0;
+	unmarshaled_State_temp_0 = marshaled.___State_0;
+	unmarshaled.set_State_0(unmarshaled_State_temp_0);
+	uint32_t unmarshaled_LocalAddr_temp_1 = 0;
+	unmarshaled_LocalAddr_temp_1 = marshaled.___LocalAddr_1;
+	unmarshaled.set_LocalAddr_1(unmarshaled_LocalAddr_temp_1);
+	int32_t unmarshaled_LocalPort_temp_2 = 0;
+	unmarshaled_LocalPort_temp_2 = marshaled.___LocalPort_2;
+	unmarshaled.set_LocalPort_2(unmarshaled_LocalPort_temp_2);
+	uint32_t unmarshaled_RemoteAddr_temp_3 = 0;
+	unmarshaled_RemoteAddr_temp_3 = marshaled.___RemoteAddr_3;
+	unmarshaled.set_RemoteAddr_3(unmarshaled_RemoteAddr_temp_3);
+	int32_t unmarshaled_RemotePort_temp_4 = 0;
+	unmarshaled_RemotePort_temp_4 = marshaled.___RemotePort_4;
+	unmarshaled.set_RemotePort_4(unmarshaled_RemotePort_temp_4);
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCPROW
+extern "C" void Win32_MIB_TCPROW_t3355732075_marshal_pinvoke_cleanup(Win32_MIB_TCPROW_t3355732075_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCPROW
+extern "C" void Win32_MIB_TCPROW_t3355732075_marshal_com(const Win32_MIB_TCPROW_t3355732075& unmarshaled, Win32_MIB_TCPROW_t3355732075_marshaled_com& marshaled)
+{
+	marshaled.___State_0 = unmarshaled.get_State_0();
+	marshaled.___LocalAddr_1 = unmarshaled.get_LocalAddr_1();
+	marshaled.___LocalPort_2 = unmarshaled.get_LocalPort_2();
+	marshaled.___RemoteAddr_3 = unmarshaled.get_RemoteAddr_3();
+	marshaled.___RemotePort_4 = unmarshaled.get_RemotePort_4();
+}
+extern "C" void Win32_MIB_TCPROW_t3355732075_marshal_com_back(const Win32_MIB_TCPROW_t3355732075_marshaled_com& marshaled, Win32_MIB_TCPROW_t3355732075& unmarshaled)
+{
+	int32_t unmarshaled_State_temp_0 = 0;
+	unmarshaled_State_temp_0 = marshaled.___State_0;
+	unmarshaled.set_State_0(unmarshaled_State_temp_0);
+	uint32_t unmarshaled_LocalAddr_temp_1 = 0;
+	unmarshaled_LocalAddr_temp_1 = marshaled.___LocalAddr_1;
+	unmarshaled.set_LocalAddr_1(unmarshaled_LocalAddr_temp_1);
+	int32_t unmarshaled_LocalPort_temp_2 = 0;
+	unmarshaled_LocalPort_temp_2 = marshaled.___LocalPort_2;
+	unmarshaled.set_LocalPort_2(unmarshaled_LocalPort_temp_2);
+	uint32_t unmarshaled_RemoteAddr_temp_3 = 0;
+	unmarshaled_RemoteAddr_temp_3 = marshaled.___RemoteAddr_3;
+	unmarshaled.set_RemoteAddr_3(unmarshaled_RemoteAddr_temp_3);
+	int32_t unmarshaled_RemotePort_temp_4 = 0;
+	unmarshaled_RemotePort_temp_4 = marshaled.___RemotePort_4;
+	unmarshaled.set_RemotePort_4(unmarshaled_RemotePort_temp_4);
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCPROW
+extern "C" void Win32_MIB_TCPROW_t3355732075_marshal_com_cleanup(Win32_MIB_TCPROW_t3355732075_marshaled_com& marshaled)
+{
+}
+// System.Void System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCPROW::.ctor()
+extern "C"  void Win32_MIB_TCPROW__ctor_m631498175 (Win32_MIB_TCPROW_t3355732075 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Net.IPEndPoint System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCPROW::get_LocalEndPoint()
+extern "C"  IPEndPoint_t2615413766 * Win32_MIB_TCPROW_get_LocalEndPoint_m719139803 (Win32_MIB_TCPROW_t3355732075 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32_MIB_TCPROW_get_LocalEndPoint_m719139803_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		uint32_t L_0 = __this->get_LocalAddr_1();
+		int32_t L_1 = __this->get_LocalPort_2();
+		IPEndPoint_t2615413766 * L_2 = (IPEndPoint_t2615413766 *)il2cpp_codegen_object_new(IPEndPoint_t2615413766_il2cpp_TypeInfo_var);
+		IPEndPoint__ctor_m403419585(L_2, (((int64_t)((uint64_t)L_0))), L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// System.Net.IPEndPoint System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCPROW::get_RemoteEndPoint()
+extern "C"  IPEndPoint_t2615413766 * Win32_MIB_TCPROW_get_RemoteEndPoint_m2700283260 (Win32_MIB_TCPROW_t3355732075 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32_MIB_TCPROW_get_RemoteEndPoint_m2700283260_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		uint32_t L_0 = __this->get_RemoteAddr_3();
+		int32_t L_1 = __this->get_RemotePort_4();
+		IPEndPoint_t2615413766 * L_2 = (IPEndPoint_t2615413766 *)il2cpp_codegen_object_new(IPEndPoint_t2615413766_il2cpp_TypeInfo_var);
+		IPEndPoint__ctor_m403419585(L_2, (((int64_t)((uint64_t)L_0))), L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// System.Net.NetworkInformation.TcpConnectionInformation System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCPROW::get_TcpInfo()
+extern "C"  TcpConnectionInformation_t3392050187 * Win32_MIB_TCPROW_get_TcpInfo_m3741336739 (Win32_MIB_TCPROW_t3355732075 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32_MIB_TCPROW_get_TcpInfo_m3741336739_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IPEndPoint_t2615413766 * L_0 = Win32_MIB_TCPROW_get_LocalEndPoint_m719139803(__this, /*hidden argument*/NULL);
+		IPEndPoint_t2615413766 * L_1 = Win32_MIB_TCPROW_get_RemoteEndPoint_m2700283260(__this, /*hidden argument*/NULL);
+		int32_t L_2 = __this->get_State_0();
+		TcpConnectionInformationImpl_t1274605263 * L_3 = (TcpConnectionInformationImpl_t1274605263 *)il2cpp_codegen_object_new(TcpConnectionInformationImpl_t1274605263_il2cpp_TypeInfo_var);
+		TcpConnectionInformationImpl__ctor_m3967055251(L_3, L_0, L_1, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+
+
+// Conversion methods for marshalling of: System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_UDP6ROW
+extern "C" void Win32_MIB_UDP6ROW_t2989424443_marshal_pinvoke(const Win32_MIB_UDP6ROW_t2989424443& unmarshaled, Win32_MIB_UDP6ROW_t2989424443_marshaled_pinvoke& marshaled)
+{
+	Win32_IN6_ADDR_t3054921274_marshal_pinvoke(unmarshaled.get_LocalAddr_0(), marshaled.___LocalAddr_0);
+	marshaled.___LocalScopeId_1 = unmarshaled.get_LocalScopeId_1();
+	marshaled.___LocalPort_2 = unmarshaled.get_LocalPort_2();
+}
+extern "C" void Win32_MIB_UDP6ROW_t2989424443_marshal_pinvoke_back(const Win32_MIB_UDP6ROW_t2989424443_marshaled_pinvoke& marshaled, Win32_MIB_UDP6ROW_t2989424443& unmarshaled)
+{
+	Win32_IN6_ADDR_t3054921274  unmarshaled_LocalAddr_temp_0;
+	memset(&unmarshaled_LocalAddr_temp_0, 0, sizeof(unmarshaled_LocalAddr_temp_0));
+	Win32_IN6_ADDR_t3054921274_marshal_pinvoke_back(marshaled.___LocalAddr_0, unmarshaled_LocalAddr_temp_0);
+	unmarshaled.set_LocalAddr_0(unmarshaled_LocalAddr_temp_0);
+	uint32_t unmarshaled_LocalScopeId_temp_1 = 0;
+	unmarshaled_LocalScopeId_temp_1 = marshaled.___LocalScopeId_1;
+	unmarshaled.set_LocalScopeId_1(unmarshaled_LocalScopeId_temp_1);
+	int32_t unmarshaled_LocalPort_temp_2 = 0;
+	unmarshaled_LocalPort_temp_2 = marshaled.___LocalPort_2;
+	unmarshaled.set_LocalPort_2(unmarshaled_LocalPort_temp_2);
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_UDP6ROW
+extern "C" void Win32_MIB_UDP6ROW_t2989424443_marshal_pinvoke_cleanup(Win32_MIB_UDP6ROW_t2989424443_marshaled_pinvoke& marshaled)
+{
+	Win32_IN6_ADDR_t3054921274_marshal_pinvoke_cleanup(marshaled.___LocalAddr_0);
+}
+
+
+// Conversion methods for marshalling of: System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_UDP6ROW
+extern "C" void Win32_MIB_UDP6ROW_t2989424443_marshal_com(const Win32_MIB_UDP6ROW_t2989424443& unmarshaled, Win32_MIB_UDP6ROW_t2989424443_marshaled_com& marshaled)
+{
+	Win32_IN6_ADDR_t3054921274_marshal_com(unmarshaled.get_LocalAddr_0(), marshaled.___LocalAddr_0);
+	marshaled.___LocalScopeId_1 = unmarshaled.get_LocalScopeId_1();
+	marshaled.___LocalPort_2 = unmarshaled.get_LocalPort_2();
+}
+extern "C" void Win32_MIB_UDP6ROW_t2989424443_marshal_com_back(const Win32_MIB_UDP6ROW_t2989424443_marshaled_com& marshaled, Win32_MIB_UDP6ROW_t2989424443& unmarshaled)
+{
+	Win32_IN6_ADDR_t3054921274  unmarshaled_LocalAddr_temp_0;
+	memset(&unmarshaled_LocalAddr_temp_0, 0, sizeof(unmarshaled_LocalAddr_temp_0));
+	Win32_IN6_ADDR_t3054921274_marshal_com_back(marshaled.___LocalAddr_0, unmarshaled_LocalAddr_temp_0);
+	unmarshaled.set_LocalAddr_0(unmarshaled_LocalAddr_temp_0);
+	uint32_t unmarshaled_LocalScopeId_temp_1 = 0;
+	unmarshaled_LocalScopeId_temp_1 = marshaled.___LocalScopeId_1;
+	unmarshaled.set_LocalScopeId_1(unmarshaled_LocalScopeId_temp_1);
+	int32_t unmarshaled_LocalPort_temp_2 = 0;
+	unmarshaled_LocalPort_temp_2 = marshaled.___LocalPort_2;
+	unmarshaled.set_LocalPort_2(unmarshaled_LocalPort_temp_2);
+}
+// Conversion method for clean up from marshalling of: System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_UDP6ROW
+extern "C" void Win32_MIB_UDP6ROW_t2989424443_marshal_com_cleanup(Win32_MIB_UDP6ROW_t2989424443_marshaled_com& marshaled)
+{
+	Win32_IN6_ADDR_t3054921274_marshal_com_cleanup(marshaled.___LocalAddr_0);
+}
+// System.Void System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_UDP6ROW::.ctor()
+extern "C"  void Win32_MIB_UDP6ROW__ctor_m2302086095 (Win32_MIB_UDP6ROW_t2989424443 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Net.IPEndPoint System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_UDP6ROW::get_LocalEndPoint()
+extern "C"  IPEndPoint_t2615413766 * Win32_MIB_UDP6ROW_get_LocalEndPoint_m18977863 (Win32_MIB_UDP6ROW_t2989424443 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Win32_MIB_UDP6ROW_get_LocalEndPoint_m18977863_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Win32_IN6_ADDR_t3054921274 * L_0 = __this->get_address_of_LocalAddr_0();
+		ByteU5BU5D_t3397334013* L_1 = L_0->get_Bytes_0();
+		uint32_t L_2 = __this->get_LocalScopeId_1();
+		IPAddress_t1399971723 * L_3 = (IPAddress_t1399971723 *)il2cpp_codegen_object_new(IPAddress_t1399971723_il2cpp_TypeInfo_var);
+		IPAddress__ctor_m3025538646(L_3, L_1, (((int64_t)((uint64_t)L_2))), /*hidden argument*/NULL);
+		int32_t L_4 = __this->get_LocalPort_2();
+		IPEndPoint_t2615413766 * L_5 = (IPEndPoint_t2615413766 *)il2cpp_codegen_object_new(IPEndPoint_t2615413766_il2cpp_TypeInfo_var);
+		IPEndPoint__ctor_m3477723888(L_5, L_3, L_4, /*hidden argument*/NULL);
+		return L_5;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
