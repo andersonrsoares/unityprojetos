@@ -27,11 +27,14 @@ public class EmailPassword : MonoBehaviour
         PasswordInput.text = "abcdefgh";
 
         SignupButton.onClick.AddListener(() => Signup(UserNameInput.text, PasswordInput.text));
-        LoginButton.onClick.AddListener(() => Login(UserNameInput.text, PasswordInput.text));
+		LoginButton.onClick.AddListener(() => {
+			//SceneManager.LoadScene("LoginResults");
+			Login(UserNameInput.text, PasswordInput.text)
+		});
 
 
 
-		dependencyStatus = FirebaseApp.CheckDependencies();
+		/*dependencyStatus = FirebaseApp.CheckDependencies();
 		if (dependencyStatus != DependencyStatus.Available) {
 			FirebaseApp.FixDependenciesAsync().ContinueWith(task => {
 				dependencyStatus = FirebaseApp.CheckDependencies();
@@ -44,7 +47,7 @@ public class EmailPassword : MonoBehaviour
 			});
 		} else {
 			 //InitializeFirebase(null);
-		}
+		}*/
     }
 
 	// Initialize the Firebase database:

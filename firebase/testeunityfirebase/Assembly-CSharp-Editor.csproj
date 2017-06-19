@@ -59,6 +59,7 @@
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
      <None Include="Assets\Firebase\Editor\FirebaseDatabase_v4.0.0_manifest.txt" />
      <None Include="Assets\Firebase\Plugins\Http\link.xml" />
+     <None Include="Assets\Plugins\Android\firebase-common-11.0.0\AndroidManifest.xml" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
