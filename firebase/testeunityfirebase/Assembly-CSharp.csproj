@@ -46,6 +46,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Model\Peca.cs" />
+     <Compile Include="Assets\Model\Posicao.cs" />
+     <Compile Include="Assets\Model\Tabuleiro.cs" />
      <Compile Include="Assets\Scrips\EmailPassword.cs" />
      <Compile Include="Assets\Scrips\LoginResult.cs" />
      <Compile Include="Assets\Scrips\UIHandler.cs" />
