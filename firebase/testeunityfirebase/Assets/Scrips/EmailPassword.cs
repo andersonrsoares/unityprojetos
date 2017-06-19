@@ -29,7 +29,7 @@ public class EmailPassword : MonoBehaviour
         SignupButton.onClick.AddListener(() => Signup(UserNameInput.text, PasswordInput.text));
 		LoginButton.onClick.AddListener(() => {
 			//SceneManager.LoadScene("LoginResults");
-			Login(UserNameInput.text, PasswordInput.text)
+			Login(UserNameInput.text, PasswordInput.text);
 		});
 
 
@@ -198,7 +198,7 @@ public class EmailPassword : MonoBehaviour
                 user.DisplayName, user.UserId);
 
             PlayerPrefs.SetString("LoginUser", user != null ? user.Email : "Unknown");
-            //SceneManager.LoadScene("LoginResults");
+            SceneManager.LoadScene("LoginResults");
         });
     }
 }
