@@ -447,7 +447,6 @@ UnityEngine.RenderTexture::Internal_GetHeight
 UnityEngine.RenderTexture::Internal_GetWidth
 UnityEngine.Resources::GetBuiltinResource
 UnityEngine.Resources::Load
-UnityEngine.SceneManagement.SceneManager::LoadSceneAsyncNameIndexInternal
 UnityEngine.Screen::get_height
 UnityEngine.Screen::get_width
 UnityEngine.Screen::get_dpi

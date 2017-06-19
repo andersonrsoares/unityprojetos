@@ -23,6 +23,8 @@ struct Button_t2872111280;
 struct Text_t356221433;
 // System.Collections.ArrayList
 struct ArrayList_t4252133567;
+// System.EventHandler`1<Firebase.Database.ValueChangedEventArgs>
+struct EventHandler_1_t3816151702;
 
 
 
@@ -124,6 +126,23 @@ public:
 	{
 		___leaderBoard_9 = value;
 		Il2CppCodeGenWriteBarrier(&___leaderBoard_9, value);
+	}
+};
+
+struct EmailPassword_t1050852289_StaticFields
+{
+public:
+	// System.EventHandler`1<Firebase.Database.ValueChangedEventArgs> EmailPassword::<>f__am$cache0
+	EventHandler_1_t3816151702 * ___U3CU3Ef__amU24cache0_10;
+
+public:
+	inline static int32_t get_offset_of_U3CU3Ef__amU24cache0_10() { return static_cast<int32_t>(offsetof(EmailPassword_t1050852289_StaticFields, ___U3CU3Ef__amU24cache0_10)); }
+	inline EventHandler_1_t3816151702 * get_U3CU3Ef__amU24cache0_10() const { return ___U3CU3Ef__amU24cache0_10; }
+	inline EventHandler_1_t3816151702 ** get_address_of_U3CU3Ef__amU24cache0_10() { return &___U3CU3Ef__amU24cache0_10; }
+	inline void set_U3CU3Ef__amU24cache0_10(EventHandler_1_t3816151702 * value)
+	{
+		___U3CU3Ef__amU24cache0_10 = value;
+		Il2CppCodeGenWriteBarrier(&___U3CU3Ef__amU24cache0_10, value);
 	}
 };
 

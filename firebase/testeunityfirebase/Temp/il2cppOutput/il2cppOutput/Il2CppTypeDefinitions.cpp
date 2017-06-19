@@ -75,6 +75,7 @@ extern const Il2CppType Int32_t2071877448_0_0_54 = { (void*)5, 54, IL2CPP_TYPE_I
 extern const Il2CppType Int32_t2071877448_0_0_51 = { (void*)5, 51, IL2CPP_TYPE_I4, 0, 0, 0 };
 extern const Il2CppType Int32_t2071877448_0_0_20 = { (void*)5, 20, IL2CPP_TYPE_I4, 0, 0, 0 };
 extern const Il2CppType Int32_t2071877448_0_0_4112 = { (void*)5, 4112, IL2CPP_TYPE_I4, 0, 0, 0 };
+extern const Il2CppType Int32_t2071877448_0_0_32851 = { (void*)5, 32851, IL2CPP_TYPE_I4, 0, 0, 0 };
 extern const Il2CppType Int32_t2071877448_0_0_32852 = { (void*)5, 32852, IL2CPP_TYPE_I4, 0, 0, 0 };
 extern const Il2CppType Int32_t2071877448_0_0_132 = { (void*)5, 132, IL2CPP_TYPE_I4, 0, 0, 0 };
 
@@ -125,6 +126,7 @@ extern const Il2CppType IComparable_1_t2740917260_0_0_3 = { &IComparable_1_t2740
 extern const Il2CppType Int64_t909078037_0_0_0 = { (void*)14, 0, IL2CPP_TYPE_I8, 0, 0, 0 };
 extern const Il2CppType Int64_t909078037_1_0_0 = { (void*)14, 0, IL2CPP_TYPE_I8, 0, 1, 0 };
 extern const Il2CppType Int64_t909078037_1_0_2 = { (void*)14, 2, IL2CPP_TYPE_I8, 0, 1, 0 };
+extern const Il2CppType Int64_t909078037_0_0_32854 = { (void*)14, 32854, IL2CPP_TYPE_I8, 0, 0, 0 };
 extern const Il2CppType Int64_t909078037_0_0_3 = { (void*)14, 3, IL2CPP_TYPE_I8, 0, 0, 0 };
 extern const Il2CppType Int64_t909078037_0_0_17 = { (void*)14, 17, IL2CPP_TYPE_I8, 0, 0, 0 };
 extern const Il2CppType Int64_t909078037_0_0_1 = { (void*)14, 1, IL2CPP_TYPE_I8, 0, 0, 0 };
@@ -135,6 +137,7 @@ extern const Il2CppType Int64_t909078037_0_0_33 = { (void*)14, 33, IL2CPP_TYPE_I
 extern const Il2CppType Int64_t909078037_0_0_32851 = { (void*)14, 32851, IL2CPP_TYPE_I8, 0, 0, 0 };
 extern const Il2CppType Int64_t909078037_0_0_1542 = { (void*)14, 1542, IL2CPP_TYPE_I8, 0, 0, 0 };
 extern const Il2CppType Int64_t909078037_0_0_49 = { (void*)14, 49, IL2CPP_TYPE_I8, 0, 0, 0 };
+extern const Il2CppType Int64_t909078037_0_0_32849 = { (void*)14, 32849, IL2CPP_TYPE_I8, 0, 0, 0 };
 
 Il2CppGenericClass IEquatable_1_t3113060206_GenericClass = { 13, { &GenInst_Int64_t909078037_0_0_0, NULL }, NULL };
 extern const Il2CppType IEquatable_1_t3113060206_0_0_0 = { &IEquatable_1_t3113060206_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -27403,6 +27406,11 @@ extern const Il2CppType Query_t2792659010_0_0_0 = { (void*)3348, 0, IL2CPP_TYPE_
 extern const Il2CppType Query_t2792659010_1_0_0 = { (void*)3348, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 extern const Il2CppType Query_t2792659010_0_0_33 = { (void*)3348, 33, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
+extern const Il2CppType DatabaseConfig_t3004044241_0_0_17 = { (void*)3429, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const Il2CppType DatabaseConfig_t3004044241_0_0_0 = { (void*)3429, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const Il2CppType DatabaseConfig_t3004044241_1_0_0 = { (void*)3429, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const Il2CppType DatabaseConfig_t3004044241_0_0_33 = { (void*)3429, 33, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+
 extern const Il2CppType TransactionHandlerImpl_t3397811095_0_0_0 = { (void*)3338, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const Il2CppType TransactionHandlerImpl_t3397811095_1_0_0 = { (void*)3338, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
@@ -28379,10 +28387,6 @@ extern const Il2CppType ConnectionAuthTokenProvider258_t2291877717_1_0_0 = { (vo
 
 extern const Il2CppType GetTokenCompletionListener261_t1468635474_0_0_0 = { (void*)3428, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const Il2CppType GetTokenCompletionListener261_t1468635474_1_0_0 = { (void*)3428, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-
-extern const Il2CppType DatabaseConfig_t3004044241_0_0_0 = { (void*)3429, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const Il2CppType DatabaseConfig_t3004044241_1_0_0 = { (void*)3429, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const Il2CppType DatabaseConfig_t3004044241_0_0_33 = { (void*)3429, 33, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 extern const Il2CppType EventType_t1195404398_0_0_0 = { (void*)3524, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 extern const Il2CppType EventType_t1195404398_0_0_33 = { (void*)3524, 33, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
@@ -29822,7 +29826,7 @@ extern const Il2CppType EventRegistrationU5BU5D_t3314468790_0_0_0 = { (void*)&Ev
 
 extern const Il2CppType XmlIncludeAttribute_t3199808027_0_0_0;
 extern const Il2CppType XmlIncludeAttributeU5BU5D_t1015083802_0_0_0 = { (void*)&XmlIncludeAttribute_t3199808027_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
-extern const Il2CppType* const  g_Il2CppTypeTable[15677] = 
+extern const Il2CppType* const  g_Il2CppTypeTable[15681] = 
 {
 	&IEnumerator_1_t164973122_0_0_0,
 	&Il2CppObject_0_0_0,
@@ -33971,6 +33975,7 @@ extern const Il2CppType* const  g_Il2CppTypeTable[15677] =
 	&IEquatable_1_t2913394932_gp_0_0_0_0,
 	&Int64_t909078037_1_0_0,
 	&Int64_t909078037_1_0_2,
+	&Int64_t909078037_0_0_32854,
 	&Int64_t909078037_0_0_3,
 	&IComparable_1_t2740917260_0_0_3,
 	&IEquatable_1_t3113060206_0_0_4,
@@ -43599,12 +43604,14 @@ extern const Il2CppType* const  g_Il2CppTypeTable[15677] =
 	&U3CModuleU3E_t3783534229_1_0_0,
 	&DatabaseError_t1067746743_1_0_0,
 	&DatabaseException_t1509032028_0_0_0,
+	&Int32_t2071877448_0_0_32851,
 	&IDictionary_2_t3331096585_0_0_49,
 	&IDictionary_2_t248806446_0_0_49,
 	&DatabaseException_t1509032028_1_0_0,
 	&DatabaseReference_t1167676104_0_0_0,
 	&DatabaseReference_t1167676104_1_0_0,
 	&Query_t2792659010_0_0_0,
+	&DatabaseConfig_t3004044241_0_0_17,
 	&TransactionHandlerImpl_t3397811095_0_0_0,
 	&TransactionHandlerImpl_t3397811095_1_0_0,
 	&Func_2_t3583558628_0_0_33,
@@ -44087,6 +44094,7 @@ extern const Il2CppType* const  g_Il2CppTypeTable[15677] =
 	&IEventTarget_t170421798_0_0_0,
 	&IRunLoop_t1947166426_0_0_0,
 	&AuthTokenProvider_t3681374264_0_0_0,
+	&Int64_t909078037_0_0_32849,
 	&IPersistenceManager_t636124941_0_0_1,
 	&DatabasePlatform_t1459671864_0_0_1,
 	&AuthTokenProvider_t3681374264_0_0_3,

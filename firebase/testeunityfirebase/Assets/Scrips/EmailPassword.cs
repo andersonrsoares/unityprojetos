@@ -57,12 +57,36 @@ public class EmailPassword : MonoBehaviour
 		app.SetEditorAuthUserId (user.UserId);
 		//app.SetEditorServiceAccountEmail (user.Email);
 	
-
+		FirebaseDatabase.DefaultInstance.GoOnline();
+	
 		Debug.Log(app.Options.DatabaseUrl);
 //		FirebaseDatabase.GetInstance ("https://fir-functions-6e6b0.firebaseio.com/").RootReference.SetRawJsonValueAsync ("{ body=\"teste\",title=\"teste titulo\"}");
 		Debug.Log("before save database: ");
 		DatabaseReference reference = FirebaseDatabase.DefaultInstance.RootReference;
-		reference.Child("posts").SetRawJsonValueAsync("{\"body\": \"teste\",\"title\": \"teste titulo\"}").ContinueWith(task => 
+		//.SetRawJsonValueAsync("{\"body\": \"teste\",\"title\": \"teste titulo\"}")
+
+
+		reference.Child("posts").ValueChanged += (object sender, ValueChangedEventArgs e) => {
+			if (e.DatabaseError != null) {
+				Debug.LogError(e.DatabaseError.Message);
+				return;
+			}
+
+			if (e.Snapshot != null && e.Snapshot.ChildrenCount > 0) {
+				foreach (var childSnapshot in e.Snapshot.Children) {
+					if (childSnapshot.Child("body") == null
+						|| childSnapshot.Child("body").Value == null) {
+							Debug.LogError("Bad data in sample.  Did you forget to call SetEditorDatabaseUrl with your project id?");
+							break;
+					} else {
+						Debug.Log("body: " + childSnapshot.Child("body").Value.ToString());
+					}
+				}
+			}
+		};
+
+		reference.Child("posts").Child(Guid.NewGuid().ToString())
+			.SetRawJsonValueAsync("{\"body\": \"teste\",\"title\": \"teste titulo\"}").ContinueWith(task => 
 			{
 				Debug.Log("after save database: ");
 				if (task.IsCanceled)
@@ -77,7 +101,8 @@ public class EmailPassword : MonoBehaviour
 						UpdateErrorMessage(task.Exception.InnerExceptions[0].Message);
 					return;
 				}
-			
+
+				Debug.LogError("SetRawJsonValueAsync error: " + task.Exception);
 			});
 
 		/*leaderBoard = new ArrayList();
@@ -128,7 +153,7 @@ public class EmailPassword : MonoBehaviour
                     UpdateErrorMessage(task.Exception.InnerExceptions[0].Message);
                 return;
             }
-
+					
             FirebaseUser newUser = task.Result; // Firebase user has been created.
             Debug.LogFormat("Firebase user created successfully: {0} ({1})",
                 newUser.DisplayName, newUser.UserId);
@@ -170,7 +195,7 @@ public class EmailPassword : MonoBehaviour
                 user.DisplayName, user.UserId);
 
             PlayerPrefs.SetString("LoginUser", user != null ? user.Email : "Unknown");
-            SceneManager.LoadScene("LoginResults");
+            //SceneManager.LoadScene("LoginResults");
         });
     }
 }

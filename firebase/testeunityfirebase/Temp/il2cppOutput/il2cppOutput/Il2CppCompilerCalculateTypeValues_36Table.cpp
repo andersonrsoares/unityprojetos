@@ -184,15 +184,17 @@ extern const int32_t g_FieldOffsetTable3618[1] =
 	DefaultRunLoop40_t4147568072::get_offset_of__logger_1(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3619 = { sizeof (FirebaseDatabase_t1318758358), -1, sizeof(FirebaseDatabase_t1318758358_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable3619[7] = 
+extern const int32_t g_FieldOffsetTable3619[9] = 
 {
-	FirebaseDatabase_t1318758358_StaticFields::get_offset_of_DatabaseInstances_0(),
-	FirebaseDatabase_t1318758358_StaticFields::get_offset_of_SSync_1(),
-	FirebaseDatabase_t1318758358::get_offset_of__config_2(),
-	FirebaseDatabase_t1318758358::get_offset_of__repoInfo_3(),
-	FirebaseDatabase_t1318758358::get_offset_of__sync_4(),
-	FirebaseDatabase_t1318758358::get_offset_of__repo_5(),
-	FirebaseDatabase_t1318758358::get_offset_of_U3CAppU3Ek__BackingField_6(),
+	0,
+	0,
+	FirebaseDatabase_t1318758358_StaticFields::get_offset_of_DatabaseInstances_2(),
+	FirebaseDatabase_t1318758358_StaticFields::get_offset_of_SSync_3(),
+	FirebaseDatabase_t1318758358::get_offset_of__config_4(),
+	FirebaseDatabase_t1318758358::get_offset_of__repoInfo_5(),
+	FirebaseDatabase_t1318758358::get_offset_of__sync_6(),
+	FirebaseDatabase_t1318758358::get_offset_of__repo_7(),
+	FirebaseDatabase_t1318758358::get_offset_of_U3CAppU3Ek__BackingField_8(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3620 = { sizeof (Base64_t124663375), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3621 = { sizeof (Coder_t4255634182), -1, 0, 0 };

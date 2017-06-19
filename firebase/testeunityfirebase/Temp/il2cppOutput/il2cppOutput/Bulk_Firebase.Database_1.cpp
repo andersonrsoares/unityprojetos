@@ -2653,7 +2653,7 @@ extern "C"  String_t* RepoInfo_ToString_m2079388828 (RepoInfo_t4079583710 * __th
 	String_t* G_B3_0 = NULL;
 	String_t* G_B3_1 = NULL;
 	{
-		bool L_0 = __this->get_Secure_3();
+		bool L_0 = __this->get_Secure_5();
 		G_B1_0 = _stringLiteral3833952254;
 		if (!L_0)
 		{
@@ -2677,7 +2677,7 @@ IL_001a:
 
 IL_001f:
 	{
-		String_t* L_2 = __this->get_Host_0();
+		String_t* L_2 = __this->get_Host_2();
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_3 = String_Concat_m1561703559(NULL /*static, unused*/, G_B3_1, G_B3_0, _stringLiteral57472706, L_2, /*hidden argument*/NULL);
 		return L_3;
@@ -2706,8 +2706,8 @@ extern "C"  bool RepoInfo_Equals_m1482427782 (RepoInfo_t4079583710 * __this, Il2
 	{
 		RepoInfo_t4079583710 * L_2 = V_0;
 		NullCheck(L_2);
-		String_t* L_3 = L_2->get_Host_0();
-		String_t* L_4 = __this->get_Host_0();
+		String_t* L_3 = L_2->get_Host_2();
+		String_t* L_4 = __this->get_Host_2();
 		bool L_5 = Object_Equals_m969736273(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
 		if (!L_5)
 		{
@@ -2717,8 +2717,8 @@ extern "C"  bool RepoInfo_Equals_m1482427782 (RepoInfo_t4079583710 * __this, Il2
 	{
 		RepoInfo_t4079583710 * L_6 = V_0;
 		NullCheck(L_6);
-		bool L_7 = L_6->get_Secure_3();
-		bool L_8 = __this->get_Secure_3();
+		bool L_7 = L_6->get_Secure_5();
+		bool L_8 = __this->get_Secure_5();
 		if ((!(((uint32_t)L_7) == ((uint32_t)L_8))))
 		{
 			goto IL_0047;
@@ -2727,8 +2727,8 @@ extern "C"  bool RepoInfo_Equals_m1482427782 (RepoInfo_t4079583710 * __this, Il2
 	{
 		RepoInfo_t4079583710 * L_9 = V_0;
 		NullCheck(L_9);
-		String_t* L_10 = L_9->get_Namespace_2();
-		String_t* L_11 = __this->get_Namespace_2();
+		String_t* L_10 = L_9->get_Namespace_4();
+		String_t* L_11 = __this->get_Namespace_4();
 		bool L_12 = Object_Equals_m969736273(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
 		G_B5_0 = ((int32_t)(L_12));
 		goto IL_0048;
@@ -2753,12 +2753,12 @@ extern "C"  int32_t RepoInfo_GetHashCode_m1371675342 (RepoInfo_t4079583710 * __t
 	int32_t G_B3_0 = 0;
 	int32_t G_B3_1 = 0;
 	{
-		String_t* L_0 = __this->get_Host_0();
+		String_t* L_0 = __this->get_Host_2();
 		NullCheck(L_0);
 		int32_t L_1 = VirtFuncInvoker0< int32_t >::Invoke(2 /* System.Int32 System.Object::GetHashCode() */, L_0);
 		V_0 = L_1;
 		int32_t L_2 = V_0;
-		bool L_3 = __this->get_Secure_3();
+		bool L_3 = __this->get_Secure_5();
 		G_B1_0 = ((int32_t)((int32_t)((int32_t)31)*(int32_t)L_2));
 		if (!L_3)
 		{
@@ -2782,7 +2782,7 @@ IL_0022:
 	{
 		V_0 = ((int32_t)((int32_t)G_B3_1+(int32_t)G_B3_0));
 		int32_t L_4 = V_0;
-		String_t* L_5 = __this->get_Namespace_2();
+		String_t* L_5 = __this->get_Namespace_4();
 		NullCheck(L_5);
 		int32_t L_6 = VirtFuncInvoker0< int32_t >::Invoke(2 /* System.Int32 System.Object::GetHashCode() */, L_5);
 		V_0 = ((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)31)*(int32_t)L_4))+(int32_t)L_6));
@@ -2908,10 +2908,10 @@ extern "C"  Repo_t1244308462 * RepoManager_CreateLocalRepo_m1054909109 (RepoMana
 		VirtActionInvoker0::Invoke(4 /* System.Void Firebase.Database.Internal.Core.Context::Freeze() */, L_0);
 		RepoInfo_t4079583710 * L_1 = ___info1;
 		NullCheck(L_1);
-		String_t* L_2 = L_1->get_Host_0();
+		String_t* L_2 = L_1->get_Host_2();
 		RepoInfo_t4079583710 * L_3 = ___info1;
 		NullCheck(L_3);
-		String_t* L_4 = L_3->get_Namespace_2();
+		String_t* L_4 = L_3->get_Namespace_4();
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_5 = String_Concat_m1561703559(NULL /*static, unused*/, _stringLiteral2966054217, L_2, _stringLiteral372029315, L_4, /*hidden argument*/NULL);
 		V_0 = L_5;
@@ -5235,31 +5235,31 @@ extern "C"  void SyncTree__ctor_m1235861134 (SyncTree_t528142079 * __this, Conte
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		__this->set__nextQueryTag_7((((int64_t)((int64_t)1))));
+		__this->set__nextQueryTag_8((((int64_t)((int64_t)1))));
 		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(ImmutableTree_1_t1000466367_il2cpp_TypeInfo_var);
 		ImmutableTree_1_t1000466367 * L_0 = ImmutableTree_1_EmptyInstance_m204585065(NULL /*static, unused*/, /*hidden argument*/ImmutableTree_1_EmptyInstance_m204585065_MethodInfo_var);
-		__this->set__syncPointTree_8(L_0);
+		__this->set__syncPointTree_9(L_0);
 		WriteTree_t736318673 * L_1 = (WriteTree_t736318673 *)il2cpp_codegen_object_new(WriteTree_t736318673_il2cpp_TypeInfo_var);
 		WriteTree__ctor_m3410222132(L_1, /*hidden argument*/NULL);
-		__this->set__pendingWriteTree_3(L_1);
+		__this->set__pendingWriteTree_4(L_1);
 		Dictionary_2_t154525960 * L_2 = (Dictionary_2_t154525960 *)il2cpp_codegen_object_new(Dictionary_2_t154525960_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m1132665020(L_2, /*hidden argument*/Dictionary_2__ctor_m1132665020_MethodInfo_var);
-		__this->set__tagToQueryMap_6(L_2);
+		__this->set__tagToQueryMap_7(L_2);
 		Dictionary_2_t3308186314 * L_3 = (Dictionary_2_t3308186314 *)il2cpp_codegen_object_new(Dictionary_2_t3308186314_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m1142817704(L_3, /*hidden argument*/Dictionary_2__ctor_m1142817704_MethodInfo_var);
-		__this->set__queryToTagMap_5(L_3);
+		__this->set__queryToTagMap_6(L_3);
 		HashSet_1_t3005986861 * L_4 = (HashSet_1_t3005986861 *)il2cpp_codegen_object_new(HashSet_1_t3005986861_il2cpp_TypeInfo_var);
 		HashSet_1__ctor_m3377110669(L_4, /*hidden argument*/HashSet_1__ctor_m3377110669_MethodInfo_var);
-		__this->set__keepSyncedQueries_0(L_4);
+		__this->set__keepSyncedQueries_1(L_4);
 		Il2CppObject * L_5 = ___listenProvider2;
-		__this->set__listenProvider_1(L_5);
+		__this->set__listenProvider_2(L_5);
 		Il2CppObject * L_6 = ___persistenceManager1;
-		__this->set__persistenceManager_4(L_6);
+		__this->set__persistenceManager_5(L_6);
 		Context_t3486154757 * L_7 = ___context0;
 		NullCheck(L_7);
 		LogWrapper_t438307305 * L_8 = VirtFuncInvoker1< LogWrapper_t438307305 *, String_t* >::Invoke(7 /* Firebase.Database.Internal.Logging.LogWrapper Firebase.Database.Internal.Core.Context::GetLogger(System.String) */, L_7, _stringLiteral2533369201);
-		__this->set__logger_2(L_8);
+		__this->set__logger_3(L_8);
 		return;
 	}
 }
@@ -5295,7 +5295,7 @@ IL_000f:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Utilities_t2243316744_il2cpp_TypeInfo_var);
 		Utilities_HardAssert_m2510818994(NULL /*static, unused*/, (bool)G_B3_0, _stringLiteral653301767, /*hidden argument*/NULL);
-		Il2CppObject * L_2 = __this->get__persistenceManager_4();
+		Il2CppObject * L_2 = __this->get__persistenceManager_5();
 		bool L_3 = ___persist5;
 		Path_t2568473163 * L_4 = ___path0;
 		Node_t2640059010 * L_5 = ___newDataUnresolved1;
@@ -5319,7 +5319,7 @@ extern "C"  Il2CppObject* SyncTree_ApplyUserMerge_m3611795216 (SyncTree_t5281420
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		Il2CppObject * L_0 = __this->get__persistenceManager_4();
+		Il2CppObject * L_0 = __this->get__persistenceManager_5();
 		bool L_1 = ___persist4;
 		Path_t2568473163 * L_2 = ___path0;
 		CompoundWrite_t496419158 * L_3 = ___unresolvedChildren1;
@@ -5342,7 +5342,7 @@ extern "C"  Il2CppObject* SyncTree_AckUserWrite_m2262897522 (SyncTree_t528142079
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		Il2CppObject * L_0 = __this->get__persistenceManager_4();
+		Il2CppObject * L_0 = __this->get__persistenceManager_5();
 		bool L_1 = ___persist2;
 		int64_t L_2 = ___writeId0;
 		bool L_3 = ___revert1;
@@ -5364,7 +5364,7 @@ extern "C"  Il2CppObject* SyncTree_ApplyServerOverwrite_m3457500615 (SyncTree_t5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		Il2CppObject * L_0 = __this->get__persistenceManager_4();
+		Il2CppObject * L_0 = __this->get__persistenceManager_5();
 		Path_t2568473163 * L_1 = ___path0;
 		Node_t2640059010 * L_2 = ___newData1;
 		Callable247_t1262884541 * L_3 = (Callable247_t1262884541 *)il2cpp_codegen_object_new(Callable247_t1262884541_il2cpp_TypeInfo_var);
@@ -5384,7 +5384,7 @@ extern "C"  Il2CppObject* SyncTree_ApplyServerMerge_m3840884567 (SyncTree_t52814
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		Il2CppObject * L_0 = __this->get__persistenceManager_4();
+		Il2CppObject * L_0 = __this->get__persistenceManager_5();
 		Il2CppObject* L_1 = ___changedChildren1;
 		Path_t2568473163 * L_2 = ___path0;
 		Callable259_t812545846 * L_3 = (Callable259_t812545846 *)il2cpp_codegen_object_new(Callable259_t812545846_il2cpp_TypeInfo_var);
@@ -5415,7 +5415,7 @@ extern "C"  Il2CppObject* SyncTree_ApplyServerRangeMerges_m2687620346 (SyncTree_
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		ImmutableTree_1_t1000466367 * L_0 = __this->get__syncPointTree_8();
+		ImmutableTree_1_t1000466367 * L_0 = __this->get__syncPointTree_9();
 		Path_t2568473163 * L_1 = ___path0;
 		NullCheck(L_0);
 		SyncPoint_t2720557329 * L_2 = VirtFuncInvoker1< SyncPoint_t2720557329 *, Path_t2568473163 * >::Invoke(15 /* T Firebase.Database.Internal.Core.Utilities.ImmutableTree`1<Firebase.Database.Internal.Core.SyncPoint>::Get(Firebase.Database.Internal.Core.Path) */, L_0, L_1);
@@ -5572,7 +5572,7 @@ extern "C"  Il2CppObject* SyncTree_ApplyTaggedRangeMerges_m3630750795 (SyncTree_
 		}
 	}
 	{
-		ImmutableTree_1_t1000466367 * L_3 = __this->get__syncPointTree_8();
+		ImmutableTree_1_t1000466367 * L_3 = __this->get__syncPointTree_9();
 		QuerySpec_t377558711 * L_4 = V_0;
 		NullCheck(L_4);
 		Path_t2568473163 * L_5 = VirtFuncInvoker0< Path_t2568473163 * >::Invoke(4 /* Firebase.Database.Internal.Core.Path Firebase.Database.Internal.Core.View.QuerySpec::GetPath() */, L_4);
@@ -5690,7 +5690,7 @@ extern "C"  Il2CppObject* SyncTree_ApplyListenComplete_m144085892 (SyncTree_t528
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		Il2CppObject * L_0 = __this->get__persistenceManager_4();
+		Il2CppObject * L_0 = __this->get__persistenceManager_5();
 		Path_t2568473163 * L_1 = ___path0;
 		Callable318_t792342866 * L_2 = (Callable318_t792342866 *)il2cpp_codegen_object_new(Callable318_t792342866_il2cpp_TypeInfo_var);
 		Callable318__ctor_m506390437(L_2, __this, L_1, /*hidden argument*/NULL);
@@ -5709,7 +5709,7 @@ extern "C"  Il2CppObject* SyncTree_ApplyTaggedListenComplete_m401330253 (SyncTre
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		Il2CppObject * L_0 = __this->get__persistenceManager_4();
+		Il2CppObject * L_0 = __this->get__persistenceManager_5();
 		Tag_t2439924210 * L_1 = ___tag0;
 		Callable330_t436112508 * L_2 = (Callable330_t436112508 *)il2cpp_codegen_object_new(Callable330_t436112508_il2cpp_TypeInfo_var);
 		Callable330__ctor_m2953103958(L_2, __this, L_1, /*hidden argument*/NULL);
@@ -5745,12 +5745,12 @@ extern "C"  Il2CppObject* SyncTree_ApplyTaggedOperation_m735408264 (SyncTree_t52
 		NullCheck(L_0);
 		Path_t2568473163 * L_1 = VirtFuncInvoker0< Path_t2568473163 * >::Invoke(4 /* Firebase.Database.Internal.Core.Path Firebase.Database.Internal.Core.View.QuerySpec::GetPath() */, L_0);
 		V_0 = L_1;
-		ImmutableTree_1_t1000466367 * L_2 = __this->get__syncPointTree_8();
+		ImmutableTree_1_t1000466367 * L_2 = __this->get__syncPointTree_9();
 		Path_t2568473163 * L_3 = V_0;
 		NullCheck(L_2);
 		SyncPoint_t2720557329 * L_4 = VirtFuncInvoker1< SyncPoint_t2720557329 *, Path_t2568473163 * >::Invoke(15 /* T Firebase.Database.Internal.Core.Utilities.ImmutableTree`1<Firebase.Database.Internal.Core.SyncPoint>::Get(Firebase.Database.Internal.Core.Path) */, L_2, L_3);
 		V_1 = L_4;
-		WriteTree_t736318673 * L_5 = __this->get__pendingWriteTree_3();
+		WriteTree_t736318673 * L_5 = __this->get__pendingWriteTree_4();
 		Path_t2568473163 * L_6 = V_0;
 		NullCheck(L_5);
 		WriteTreeRef_t351426802 * L_7 = VirtFuncInvoker1< WriteTreeRef_t351426802 *, Path_t2568473163 * >::Invoke(4 /* Firebase.Database.Internal.Core.WriteTreeRef Firebase.Database.Internal.Core.WriteTree::ChildWrites(Firebase.Database.Internal.Core.Path) */, L_5, L_6);
@@ -5867,7 +5867,7 @@ extern "C"  Il2CppObject* SyncTree_ApplyTaggedQueryOverwrite_m14117278 (SyncTree
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		Il2CppObject * L_0 = __this->get__persistenceManager_4();
+		Il2CppObject * L_0 = __this->get__persistenceManager_5();
 		Tag_t2439924210 * L_1 = ___tag2;
 		Path_t2568473163 * L_2 = ___path0;
 		Node_t2640059010 * L_3 = ___snap1;
@@ -5888,7 +5888,7 @@ extern "C"  Il2CppObject* SyncTree_ApplyTaggedQueryMerge_m39901238 (SyncTree_t52
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		Il2CppObject * L_0 = __this->get__persistenceManager_4();
+		Il2CppObject * L_0 = __this->get__persistenceManager_5();
 		Tag_t2439924210 * L_1 = ___tag2;
 		Path_t2568473163 * L_2 = ___path0;
 		Il2CppObject* L_3 = ___changedChildren1;
@@ -5909,7 +5909,7 @@ extern "C"  Il2CppObject* SyncTree_AddEventRegistration_m2216496406 (SyncTree_t5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		Il2CppObject * L_0 = __this->get__persistenceManager_4();
+		Il2CppObject * L_0 = __this->get__persistenceManager_5();
 		EventRegistration_t4222917807 * L_1 = ___eventRegistration0;
 		Callable399_t2358426799 * L_2 = (Callable399_t2358426799 *)il2cpp_codegen_object_new(Callable399_t2358426799_il2cpp_TypeInfo_var);
 		Callable399__ctor_m2603645378(L_2, __this, L_1, /*hidden argument*/NULL);
@@ -5950,7 +5950,7 @@ extern "C"  Il2CppObject* SyncTree_RemoveEventRegistration_m3814103124 (SyncTree
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		Il2CppObject * L_0 = __this->get__persistenceManager_4();
+		Il2CppObject * L_0 = __this->get__persistenceManager_5();
 		QuerySpec_t377558711 * L_1 = ___query0;
 		EventRegistration_t4222917807 * L_2 = ___eventRegistration1;
 		DatabaseError_t1067746743 * L_3 = ___cancelError2;
@@ -6183,11 +6183,11 @@ IL_001e:
 			QuerySpec_t377558711 * L_6 = V_0;
 			Tag_t2439924210 * L_7 = SyncTree_TagForQuery_m1302058290(__this, L_6, /*hidden argument*/NULL);
 			V_2 = L_7;
-			Il2CppObject* L_8 = __this->get__queryToTagMap_5();
+			Il2CppObject* L_8 = __this->get__queryToTagMap_6();
 			QuerySpec_t377558711 * L_9 = V_0;
 			IL2CPP_RUNTIME_CLASS_INIT(Collections_t4125780067_il2cpp_TypeInfo_var);
 			Collections_Remove_TisQuerySpec_t377558711_TisTag_t2439924210_m1730400409(NULL /*static, unused*/, L_8, L_9, /*hidden argument*/Collections_Remove_TisQuerySpec_t377558711_TisTag_t2439924210_m1730400409_MethodInfo_var);
-			Il2CppObject* L_10 = __this->get__tagToQueryMap_6();
+			Il2CppObject* L_10 = __this->get__tagToQueryMap_7();
 			Tag_t2439924210 * L_11 = V_2;
 			Collections_Remove_TisTag_t2439924210_TisQuerySpec_t377558711_m2831792021(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/Collections_Remove_TisTag_t2439924210_TisQuerySpec_t377558711_m2831792021_MethodInfo_var);
 		}
@@ -6307,7 +6307,7 @@ extern "C"  void SyncTree_SetupListener_m4019969711 (SyncTree_t528142079 * __thi
 		ListenContainer_t1108302320 * L_5 = (ListenContainer_t1108302320 *)il2cpp_codegen_object_new(ListenContainer_t1108302320_il2cpp_TypeInfo_var);
 		ListenContainer__ctor_m2761384078(L_5, __this, L_4, /*hidden argument*/NULL);
 		V_2 = L_5;
-		Il2CppObject * L_6 = __this->get__listenProvider_1();
+		Il2CppObject * L_6 = __this->get__listenProvider_2();
 		QuerySpec_t377558711 * L_7 = ___query0;
 		QuerySpec_t377558711 * L_8 = SyncTree_QueryForListening_m1014793715(__this, L_7, /*hidden argument*/NULL);
 		Tag_t2439924210 * L_9 = V_1;
@@ -6315,7 +6315,7 @@ extern "C"  void SyncTree_SetupListener_m4019969711 (SyncTree_t528142079 * __thi
 		ListenContainer_t1108302320 * L_11 = V_2;
 		NullCheck(L_6);
 		InterfaceActionInvoker4< QuerySpec_t377558711 *, Tag_t2439924210 *, Il2CppObject *, Il2CppObject * >::Invoke(0 /* System.Void Firebase.Database.Internal.Core.SyncTree/IListenProvider::StartListening(Firebase.Database.Internal.Core.View.QuerySpec,Firebase.Database.Internal.Core.Tag,Firebase.Database.Internal.Connection.IListenHashProvider,Firebase.Database.Internal.Core.SyncTree/ICompletionListener) */, IListenProvider_t493868681_il2cpp_TypeInfo_var, L_6, L_8, L_9, L_10, L_11);
-		ImmutableTree_1_t1000466367 * L_12 = __this->get__syncPointTree_8();
+		ImmutableTree_1_t1000466367 * L_12 = __this->get__syncPointTree_9();
 		Path_t2568473163 * L_13 = V_0;
 		NullCheck(L_12);
 		ImmutableTree_1_t1000466367 * L_14 = VirtFuncInvoker1< ImmutableTree_1_t1000466367 *, Path_t2568473163 * >::Invoke(12 /* Firebase.Database.Internal.Core.Utilities.ImmutableTree`1<T> Firebase.Database.Internal.Core.Utilities.ImmutableTree`1<Firebase.Database.Internal.Core.SyncPoint>::Subtree(Firebase.Database.Internal.Core.Path) */, L_12, L_13);
@@ -6354,7 +6354,7 @@ extern "C"  QuerySpec_t377558711 * SyncTree_QueryForTag_m1833628658 (SyncTree_t5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		Il2CppObject* L_0 = __this->get__tagToQueryMap_6();
+		Il2CppObject* L_0 = __this->get__tagToQueryMap_7();
 		Tag_t2439924210 * L_1 = ___tag0;
 		IL2CPP_RUNTIME_CLASS_INIT(Extensions_t996338116_il2cpp_TypeInfo_var);
 		QuerySpec_t377558711 * L_2 = Extensions_Get_TisTag_t2439924210_TisQuerySpec_t377558711_m1267220800(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/Extensions_Get_TisTag_t2439924210_TisQuerySpec_t377558711_m1267220800_MethodInfo_var);
@@ -6371,7 +6371,7 @@ extern "C"  Tag_t2439924210 * SyncTree_TagForQuery_m1302058290 (SyncTree_t528142
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		Il2CppObject* L_0 = __this->get__queryToTagMap_5();
+		Il2CppObject* L_0 = __this->get__queryToTagMap_6();
 		QuerySpec_t377558711 * L_1 = ___query0;
 		IL2CPP_RUNTIME_CLASS_INIT(Extensions_t996338116_il2cpp_TypeInfo_var);
 		Tag_t2439924210 * L_2 = Extensions_Get_TisQuerySpec_t377558711_TisTag_t2439924210_m4147511208(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/Extensions_Get_TisQuerySpec_t377558711_TisTag_t2439924210_m4147511208_MethodInfo_var);
@@ -6396,7 +6396,7 @@ extern "C"  Node_t2640059010 * SyncTree_CalcCompleteEventCache_m1903446560 (Sync
 	SyncPoint_t2720557329 * V_6 = NULL;
 	ImmutableTree_1_t1000466367 * G_B4_0 = NULL;
 	{
-		ImmutableTree_1_t1000466367 * L_0 = __this->get__syncPointTree_8();
+		ImmutableTree_1_t1000466367 * L_0 = __this->get__syncPointTree_9();
 		V_0 = L_0;
 		V_1 = (Node_t2640059010 *)NULL;
 		Path_t2568473163 * L_1 = ___path0;
@@ -6489,7 +6489,7 @@ IL_0065:
 
 IL_0076:
 	{
-		WriteTree_t736318673 * L_27 = __this->get__pendingWriteTree_3();
+		WriteTree_t736318673 * L_27 = __this->get__pendingWriteTree_4();
 		Path_t2568473163 * L_28 = ___path0;
 		Node_t2640059010 * L_29 = V_1;
 		Il2CppObject* L_30 = ___writeIdsToExclude1;
@@ -6509,10 +6509,10 @@ extern "C"  Tag_t2439924210 * SyncTree_GetNextQueryTag_m2131112200 (SyncTree_t52
 	}
 	int64_t V_0 = 0;
 	{
-		int64_t L_0 = __this->get__nextQueryTag_7();
+		int64_t L_0 = __this->get__nextQueryTag_8();
 		int64_t L_1 = L_0;
 		V_0 = L_1;
-		__this->set__nextQueryTag_7(((int64_t)((int64_t)L_1+(int64_t)(((int64_t)((int64_t)1))))));
+		__this->set__nextQueryTag_8(((int64_t)((int64_t)L_1+(int64_t)(((int64_t)((int64_t)1))))));
 		int64_t L_2 = V_0;
 		Tag_t2439924210 * L_3 = (Tag_t2439924210 *)il2cpp_codegen_object_new(Tag_t2439924210_il2cpp_TypeInfo_var);
 		Tag__ctor_m3114662961(L_3, L_2, /*hidden argument*/NULL);
@@ -6541,8 +6541,8 @@ IL_0000:
 	try
 	{ // begin try (depth: 1)
 		Operation_t3598067969 * L_0 = ___operation0;
-		ImmutableTree_1_t1000466367 * L_1 = __this->get__syncPointTree_8();
-		WriteTree_t736318673 * L_2 = __this->get__pendingWriteTree_3();
+		ImmutableTree_1_t1000466367 * L_1 = __this->get__syncPointTree_9();
+		WriteTree_t736318673 * L_2 = __this->get__pendingWriteTree_4();
 		IL2CPP_RUNTIME_CLASS_INIT(Path_t2568473163_il2cpp_TypeInfo_var);
 		Path_t2568473163 * L_3 = Path_GetEmptyPath_m3969996076(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_2);
@@ -6562,7 +6562,7 @@ IL_0000:
 CATCH_0024:
 	{ // begin catch(System.Exception)
 		V_1 = ((Exception_t1927440687 *)__exception_local);
-		LogWrapper_t438307305 * L_6 = __this->get__logger_2();
+		LogWrapper_t438307305 * L_6 = __this->get__logger_3();
 		Exception_t1927440687 * L_7 = V_1;
 		NullCheck(L_7);
 		String_t* L_8 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_7);
@@ -6874,7 +6874,7 @@ extern "C"  Il2CppObject* Callable149_Call_m4136679968 (Callable149_t2640751814 
 	{
 		SyncTree_t528142079 * L_1 = __this->get__enclosing_0();
 		NullCheck(L_1);
-		Il2CppObject * L_2 = L_1->get__persistenceManager_4();
+		Il2CppObject * L_2 = L_1->get__persistenceManager_5();
 		Path_t2568473163 * L_3 = __this->get__path_3();
 		Node_t2640059010 * L_4 = __this->get__newDataUnresolved_2();
 		int64_t L_5 = __this->get__writeId_6();
@@ -6886,7 +6886,7 @@ IL_002d:
 	{
 		SyncTree_t528142079 * L_6 = __this->get__enclosing_0();
 		NullCheck(L_6);
-		WriteTree_t736318673 * L_7 = L_6->get__pendingWriteTree_3();
+		WriteTree_t736318673 * L_7 = L_6->get__pendingWriteTree_4();
 		Path_t2568473163 * L_8 = __this->get__path_3();
 		Node_t2640059010 * L_9 = __this->get__newData_1();
 		int64_t L_10 = __this->get__writeId_6();
@@ -6958,7 +6958,7 @@ extern "C"  Il2CppObject* Callable170_Call_m4180535308 (Callable170_t718437514 *
 	{
 		SyncTree_t528142079 * L_1 = __this->get__enclosing_1();
 		NullCheck(L_1);
-		Il2CppObject * L_2 = L_1->get__persistenceManager_4();
+		Il2CppObject * L_2 = L_1->get__persistenceManager_5();
 		Path_t2568473163 * L_3 = __this->get__path_2();
 		CompoundWrite_t496419158 * L_4 = __this->get__unresolvedChildren_4();
 		int64_t L_5 = __this->get__writeId_5();
@@ -6970,7 +6970,7 @@ IL_002d:
 	{
 		SyncTree_t528142079 * L_6 = __this->get__enclosing_1();
 		NullCheck(L_6);
-		WriteTree_t736318673 * L_7 = L_6->get__pendingWriteTree_3();
+		WriteTree_t736318673 * L_7 = L_6->get__pendingWriteTree_4();
 		Path_t2568473163 * L_8 = __this->get__path_2();
 		CompoundWrite_t496419158 * L_9 = __this->get__children_0();
 		int64_t L_10 = __this->get__writeId_5();
@@ -7040,7 +7040,7 @@ extern "C"  Il2CppObject* Callable188_Call_m529870003 (Callable188_t1074667861 *
 	{
 		SyncTree_t528142079 * L_1 = __this->get__enclosing_0();
 		NullCheck(L_1);
-		Il2CppObject * L_2 = L_1->get__persistenceManager_4();
+		Il2CppObject * L_2 = L_1->get__persistenceManager_5();
 		int64_t L_3 = __this->get__writeId_4();
 		NullCheck(L_2);
 		InterfaceActionInvoker1< int64_t >::Invoke(2 /* System.Void Firebase.Database.Internal.Core.Persistence.IPersistenceManager::RemoveUserWrite(System.Int64) */, IPersistenceManager_t636124941_il2cpp_TypeInfo_var, L_2, L_3);
@@ -7050,14 +7050,14 @@ IL_0021:
 	{
 		SyncTree_t528142079 * L_4 = __this->get__enclosing_0();
 		NullCheck(L_4);
-		WriteTree_t736318673 * L_5 = L_4->get__pendingWriteTree_3();
+		WriteTree_t736318673 * L_5 = L_4->get__pendingWriteTree_4();
 		int64_t L_6 = __this->get__writeId_4();
 		NullCheck(L_5);
 		UserWriteRecord_t388677579 * L_7 = VirtFuncInvoker1< UserWriteRecord_t388677579 *, int64_t >::Invoke(7 /* Firebase.Database.Internal.Core.UserWriteRecord Firebase.Database.Internal.Core.WriteTree::GetWrite(System.Int64) */, L_5, L_6);
 		V_0 = L_7;
 		SyncTree_t528142079 * L_8 = __this->get__enclosing_0();
 		NullCheck(L_8);
-		WriteTree_t736318673 * L_9 = L_8->get__pendingWriteTree_3();
+		WriteTree_t736318673 * L_9 = L_8->get__pendingWriteTree_4();
 		int64_t L_10 = __this->get__writeId_4();
 		NullCheck(L_9);
 		bool L_11 = VirtFuncInvoker1< bool, int64_t >::Invoke(8 /* System.Boolean Firebase.Database.Internal.Core.WriteTree::RemoveWrite(System.Int64) */, L_9, L_10);
@@ -7098,7 +7098,7 @@ IL_0021:
 		V_3 = L_22;
 		SyncTree_t528142079 * L_23 = __this->get__enclosing_0();
 		NullCheck(L_23);
-		Il2CppObject * L_24 = L_23->get__persistenceManager_4();
+		Il2CppObject * L_24 = L_23->get__persistenceManager_5();
 		UserWriteRecord_t388677579 * L_25 = V_0;
 		NullCheck(L_25);
 		Path_t2568473163 * L_26 = VirtFuncInvoker0< Path_t2568473163 * >::Invoke(5 /* Firebase.Database.Internal.Core.Path Firebase.Database.Internal.Core.UserWriteRecord::GetPath() */, L_25);
@@ -7118,7 +7118,7 @@ IL_00a5:
 		V_4 = L_31;
 		SyncTree_t528142079 * L_32 = __this->get__enclosing_0();
 		NullCheck(L_32);
-		Il2CppObject * L_33 = L_32->get__persistenceManager_4();
+		Il2CppObject * L_33 = L_32->get__persistenceManager_5();
 		UserWriteRecord_t388677579 * L_34 = V_0;
 		NullCheck(L_34);
 		Path_t2568473163 * L_35 = VirtFuncInvoker0< Path_t2568473163 * >::Invoke(5 /* Firebase.Database.Internal.Core.Path Firebase.Database.Internal.Core.UserWriteRecord::GetPath() */, L_34);
@@ -7291,7 +7291,7 @@ extern "C"  Il2CppObject* Callable247_Call_m26172355 (Callable247_t1262884541 * 
 	{
 		SyncTree_t528142079 * L_0 = __this->get__enclosing_0();
 		NullCheck(L_0);
-		Il2CppObject * L_1 = L_0->get__persistenceManager_4();
+		Il2CppObject * L_1 = L_0->get__persistenceManager_5();
 		Path_t2568473163 * L_2 = __this->get__path_2();
 		QuerySpec_t377558711 * L_3 = QuerySpec_DefaultQueryAtPath_m2620037562(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		Node_t2640059010 * L_4 = __this->get__newData_1();
@@ -7340,7 +7340,7 @@ extern "C"  Il2CppObject* Callable259_Call_m3337232856 (Callable259_t812545846 *
 		V_0 = L_1;
 		SyncTree_t528142079 * L_2 = __this->get__enclosing_1();
 		NullCheck(L_2);
-		Il2CppObject * L_3 = L_2->get__persistenceManager_4();
+		Il2CppObject * L_3 = L_2->get__persistenceManager_5();
 		Path_t2568473163 * L_4 = __this->get__path_2();
 		CompoundWrite_t496419158 * L_5 = V_0;
 		NullCheck(L_3);
@@ -7381,7 +7381,7 @@ extern "C"  Il2CppObject* Callable318_Call_m202893284 (Callable318_t792342866 * 
 	{
 		SyncTree_t528142079 * L_0 = __this->get__enclosing_0();
 		NullCheck(L_0);
-		Il2CppObject * L_1 = L_0->get__persistenceManager_4();
+		Il2CppObject * L_1 = L_0->get__persistenceManager_5();
 		Path_t2568473163 * L_2 = __this->get__path_1();
 		QuerySpec_t377558711 * L_3 = QuerySpec_DefaultQueryAtPath_m2620037562(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		NullCheck(L_1);
@@ -7435,7 +7435,7 @@ extern "C"  Il2CppObject* Callable330_Call_m1235943094 (Callable330_t436112508 *
 	{
 		SyncTree_t528142079 * L_4 = __this->get__enclosing_0();
 		NullCheck(L_4);
-		Il2CppObject * L_5 = L_4->get__persistenceManager_4();
+		Il2CppObject * L_5 = L_4->get__persistenceManager_5();
 		QuerySpec_t377558711 * L_6 = V_0;
 		NullCheck(L_5);
 		InterfaceActionInvoker1< QuerySpec_t377558711 * >::Invoke(11 /* System.Void Firebase.Database.Internal.Core.Persistence.IPersistenceManager::SetQueryComplete(Firebase.Database.Internal.Core.View.QuerySpec) */, IPersistenceManager_t636124941_il2cpp_TypeInfo_var, L_5, L_6);
@@ -7540,7 +7540,7 @@ IL_0046:
 		V_2 = G_B4_0;
 		SyncTree_t528142079 * L_13 = __this->get__enclosing_0();
 		NullCheck(L_13);
-		Il2CppObject * L_14 = L_13->get__persistenceManager_4();
+		Il2CppObject * L_14 = L_13->get__persistenceManager_5();
 		QuerySpec_t377558711 * L_15 = V_2;
 		Node_t2640059010 * L_16 = __this->get__snap_2();
 		NullCheck(L_14);
@@ -7625,7 +7625,7 @@ extern "C"  Il2CppObject* Callable378_Call_m4267435842 (Callable378_t792342872 *
 		V_2 = L_9;
 		SyncTree_t528142079 * L_10 = __this->get__enclosing_1();
 		NullCheck(L_10);
-		Il2CppObject * L_11 = L_10->get__persistenceManager_4();
+		Il2CppObject * L_11 = L_10->get__persistenceManager_5();
 		Path_t2568473163 * L_12 = __this->get__path_2();
 		CompoundWrite_t496419158 * L_13 = V_2;
 		NullCheck(L_11);
@@ -7724,7 +7724,7 @@ extern "C"  Il2CppObject* Callable399_Call_m1217683901 (Callable399_t2358426799 
 		V_3 = (bool)0;
 		SyncTree_t528142079 * L_4 = __this->get__enclosing_0();
 		NullCheck(L_4);
-		ImmutableTree_1_t1000466367 * L_5 = L_4->get__syncPointTree_8();
+		ImmutableTree_1_t1000466367 * L_5 = L_4->get__syncPointTree_9();
 		V_4 = L_5;
 		Path_t2568473163 * L_6 = V_1;
 		V_5 = L_6;
@@ -7846,7 +7846,7 @@ IL_009b:
 	{
 		SyncTree_t528142079 * L_31 = __this->get__enclosing_0();
 		NullCheck(L_31);
-		ImmutableTree_1_t1000466367 * L_32 = L_31->get__syncPointTree_8();
+		ImmutableTree_1_t1000466367 * L_32 = L_31->get__syncPointTree_9();
 		Path_t2568473163 * L_33 = V_1;
 		NullCheck(L_32);
 		SyncPoint_t2720557329 * L_34 = VirtFuncInvoker1< SyncPoint_t2720557329 *, Path_t2568473163 * >::Invoke(15 /* T Firebase.Database.Internal.Core.Utilities.ImmutableTree`1<Firebase.Database.Internal.Core.SyncPoint>::Get(Firebase.Database.Internal.Core.Path) */, L_32, L_33);
@@ -7860,20 +7860,20 @@ IL_009b:
 	{
 		SyncTree_t528142079 * L_36 = __this->get__enclosing_0();
 		NullCheck(L_36);
-		Il2CppObject * L_37 = L_36->get__persistenceManager_4();
+		Il2CppObject * L_37 = L_36->get__persistenceManager_5();
 		SyncPoint_t2720557329 * L_38 = (SyncPoint_t2720557329 *)il2cpp_codegen_object_new(SyncPoint_t2720557329_il2cpp_TypeInfo_var);
 		SyncPoint__ctor_m1436313748(L_38, L_37, /*hidden argument*/NULL);
 		V_8 = L_38;
 		SyncTree_t528142079 * L_39 = __this->get__enclosing_0();
 		SyncTree_t528142079 * L_40 = __this->get__enclosing_0();
 		NullCheck(L_40);
-		ImmutableTree_1_t1000466367 * L_41 = L_40->get__syncPointTree_8();
+		ImmutableTree_1_t1000466367 * L_41 = L_40->get__syncPointTree_9();
 		Path_t2568473163 * L_42 = V_1;
 		SyncPoint_t2720557329 * L_43 = V_8;
 		NullCheck(L_41);
 		ImmutableTree_1_t1000466367 * L_44 = VirtFuncInvoker2< ImmutableTree_1_t1000466367 *, Path_t2568473163 *, SyncPoint_t2720557329 * >::Invoke(13 /* Firebase.Database.Internal.Core.Utilities.ImmutableTree`1<T> Firebase.Database.Internal.Core.Utilities.ImmutableTree`1<Firebase.Database.Internal.Core.SyncPoint>::Set(Firebase.Database.Internal.Core.Path,T) */, L_41, L_42, L_43);
 		NullCheck(L_39);
-		L_39->set__syncPointTree_8(L_44);
+		L_39->set__syncPointTree_9(L_44);
 		goto IL_0120;
 	}
 
@@ -7932,7 +7932,7 @@ IL_0120:
 	{
 		SyncTree_t528142079 * L_53 = __this->get__enclosing_0();
 		NullCheck(L_53);
-		Il2CppObject * L_54 = L_53->get__persistenceManager_4();
+		Il2CppObject * L_54 = L_53->get__persistenceManager_5();
 		QuerySpec_t377558711 * L_55 = V_0;
 		NullCheck(L_54);
 		InterfaceActionInvoker1< QuerySpec_t377558711 * >::Invoke(9 /* System.Void Firebase.Database.Internal.Core.Persistence.IPersistenceManager::SetQueryActive(Firebase.Database.Internal.Core.View.QuerySpec) */, IPersistenceManager_t636124941_il2cpp_TypeInfo_var, L_54, L_55);
@@ -7959,7 +7959,7 @@ IL_0151:
 	{
 		SyncTree_t528142079 * L_62 = __this->get__enclosing_0();
 		NullCheck(L_62);
-		Il2CppObject * L_63 = L_62->get__persistenceManager_4();
+		Il2CppObject * L_63 = L_62->get__persistenceManager_5();
 		QuerySpec_t377558711 * L_64 = V_0;
 		NullCheck(L_63);
 		CacheNode_t994563358 * L_65 = InterfaceFuncInvoker1< CacheNode_t994563358 *, QuerySpec_t377558711 * >::Invoke(6 /* Firebase.Database.Internal.Core.View.CacheNode Firebase.Database.Internal.Core.Persistence.IPersistenceManager::ServerCache(Firebase.Database.Internal.Core.View.QuerySpec) */, IPersistenceManager_t636124941_il2cpp_TypeInfo_var, L_63, L_64);
@@ -7985,7 +7985,7 @@ IL_0179:
 		V_2 = L_69;
 		SyncTree_t528142079 * L_70 = __this->get__enclosing_0();
 		NullCheck(L_70);
-		ImmutableTree_1_t1000466367 * L_71 = L_70->get__syncPointTree_8();
+		ImmutableTree_1_t1000466367 * L_71 = L_70->get__syncPointTree_9();
 		Path_t2568473163 * L_72 = V_1;
 		NullCheck(L_71);
 		ImmutableTree_1_t1000466367 * L_73 = VirtFuncInvoker1< ImmutableTree_1_t1000466367 *, Path_t2568473163 * >::Invoke(12 /* Firebase.Database.Internal.Core.Utilities.ImmutableTree`1<T> Firebase.Database.Internal.Core.Utilities.ImmutableTree`1<Firebase.Database.Internal.Core.SyncPoint>::Subtree(Firebase.Database.Internal.Core.Path) */, L_71, L_72);
@@ -8238,14 +8238,14 @@ IL_0285:
 		V_19 = L_125;
 		SyncTree_t528142079 * L_126 = __this->get__enclosing_0();
 		NullCheck(L_126);
-		Il2CppObject* L_127 = L_126->get__queryToTagMap_5();
+		Il2CppObject* L_127 = L_126->get__queryToTagMap_6();
 		QuerySpec_t377558711 * L_128 = V_0;
 		Tag_t2439924210 * L_129 = V_19;
 		NullCheck(L_127);
 		InterfaceActionInvoker2< QuerySpec_t377558711 *, Tag_t2439924210 * >::Invoke(4 /* System.Void System.Collections.Generic.IDictionary`2<Firebase.Database.Internal.Core.View.QuerySpec,Firebase.Database.Internal.Core.Tag>::set_Item(!0,!1) */, IDictionary_2_t1307269735_il2cpp_TypeInfo_var, L_127, L_128, L_129);
 		SyncTree_t528142079 * L_130 = __this->get__enclosing_0();
 		NullCheck(L_130);
-		Il2CppObject* L_131 = L_130->get__tagToQueryMap_6();
+		Il2CppObject* L_131 = L_130->get__tagToQueryMap_7();
 		Tag_t2439924210 * L_132 = V_19;
 		QuerySpec_t377558711 * L_133 = V_0;
 		NullCheck(L_131);
@@ -8256,7 +8256,7 @@ IL_02d4:
 	{
 		SyncTree_t528142079 * L_134 = __this->get__enclosing_0();
 		NullCheck(L_134);
-		WriteTree_t736318673 * L_135 = L_134->get__pendingWriteTree_3();
+		WriteTree_t736318673 * L_135 = L_134->get__pendingWriteTree_4();
 		Path_t2568473163 * L_136 = V_1;
 		NullCheck(L_135);
 		WriteTreeRef_t351426802 * L_137 = VirtFuncInvoker1< WriteTreeRef_t351426802 *, Path_t2568473163 * >::Invoke(4 /* Firebase.Database.Internal.Core.WriteTreeRef Firebase.Database.Internal.Core.WriteTree::ChildWrites(Firebase.Database.Internal.Core.Path) */, L_135, L_136);
@@ -8363,7 +8363,7 @@ extern "C"  Il2CppObject* Callable506_Call_m1260323089 (Callable506_t476518459 *
 		V_0 = L_1;
 		SyncTree_t528142079 * L_2 = __this->get__enclosing_1();
 		NullCheck(L_2);
-		ImmutableTree_1_t1000466367 * L_3 = L_2->get__syncPointTree_8();
+		ImmutableTree_1_t1000466367 * L_3 = L_2->get__syncPointTree_9();
 		Path_t2568473163 * L_4 = V_0;
 		NullCheck(L_3);
 		SyncPoint_t2720557329 * L_5 = VirtFuncInvoker1< SyncPoint_t2720557329 *, Path_t2568473163 * >::Invoke(15 /* T Firebase.Database.Internal.Core.Utilities.ImmutableTree`1<Firebase.Database.Internal.Core.SyncPoint>::Get(Firebase.Database.Internal.Core.Path) */, L_3, L_4);
@@ -8418,12 +8418,12 @@ IL_004b:
 		SyncTree_t528142079 * L_20 = __this->get__enclosing_1();
 		SyncTree_t528142079 * L_21 = __this->get__enclosing_1();
 		NullCheck(L_21);
-		ImmutableTree_1_t1000466367 * L_22 = L_21->get__syncPointTree_8();
+		ImmutableTree_1_t1000466367 * L_22 = L_21->get__syncPointTree_9();
 		Path_t2568473163 * L_23 = V_0;
 		NullCheck(L_22);
 		ImmutableTree_1_t1000466367 * L_24 = VirtFuncInvoker1< ImmutableTree_1_t1000466367 *, Path_t2568473163 * >::Invoke(14 /* Firebase.Database.Internal.Core.Utilities.ImmutableTree`1<T> Firebase.Database.Internal.Core.Utilities.ImmutableTree`1<Firebase.Database.Internal.Core.SyncPoint>::Remove(Firebase.Database.Internal.Core.Path) */, L_22, L_23);
 		NullCheck(L_20);
-		L_20->set__syncPointTree_8(L_24);
+		L_20->set__syncPointTree_9(L_24);
 	}
 
 IL_008b:
@@ -8458,7 +8458,7 @@ IL_00ab:
 			V_6 = L_32;
 			SyncTree_t528142079 * L_33 = __this->get__enclosing_1();
 			NullCheck(L_33);
-			Il2CppObject * L_34 = L_33->get__persistenceManager_4();
+			Il2CppObject * L_34 = L_33->get__persistenceManager_5();
 			QuerySpec_t377558711 * L_35 = __this->get__query_3();
 			NullCheck(L_34);
 			InterfaceActionInvoker1< QuerySpec_t377558711 * >::Invoke(10 /* System.Void Firebase.Database.Internal.Core.Persistence.IPersistenceManager::SetQueryInactive(Firebase.Database.Internal.Core.View.QuerySpec) */, IPersistenceManager_t636124941_il2cpp_TypeInfo_var, L_34, L_35);
@@ -8542,7 +8542,7 @@ IL_00fd:
 	{
 		SyncTree_t528142079 * L_43 = __this->get__enclosing_1();
 		NullCheck(L_43);
-		ImmutableTree_1_t1000466367 * L_44 = L_43->get__syncPointTree_8();
+		ImmutableTree_1_t1000466367 * L_44 = L_43->get__syncPointTree_9();
 		V_8 = L_44;
 		ImmutableTree_1_t1000466367 * L_45 = V_8;
 		NullCheck(L_45);
@@ -8733,7 +8733,7 @@ IL_01a7:
 	{
 		SyncTree_t528142079 * L_72 = __this->get__enclosing_1();
 		NullCheck(L_72);
-		ImmutableTree_1_t1000466367 * L_73 = L_72->get__syncPointTree_8();
+		ImmutableTree_1_t1000466367 * L_73 = L_72->get__syncPointTree_9();
 		Path_t2568473163 * L_74 = V_0;
 		NullCheck(L_73);
 		ImmutableTree_1_t1000466367 * L_75 = VirtFuncInvoker1< ImmutableTree_1_t1000466367 *, Path_t2568473163 * >::Invoke(12 /* Firebase.Database.Internal.Core.Utilities.ImmutableTree`1<T> Firebase.Database.Internal.Core.Utilities.ImmutableTree`1<Firebase.Database.Internal.Core.SyncPoint>::Subtree(Firebase.Database.Internal.Core.Path) */, L_73, L_74);
@@ -8782,7 +8782,7 @@ IL_01f1:
 			V_17 = L_89;
 			SyncTree_t528142079 * L_90 = __this->get__enclosing_1();
 			NullCheck(L_90);
-			Il2CppObject * L_91 = L_90->get__listenProvider_1();
+			Il2CppObject * L_91 = L_90->get__listenProvider_2();
 			SyncTree_t528142079 * L_92 = __this->get__enclosing_1();
 			QuerySpec_t377558711 * L_93 = V_17;
 			NullCheck(L_92);
@@ -8880,7 +8880,7 @@ IL_025a:
 	{
 		SyncTree_t528142079 * L_108 = __this->get__enclosing_1();
 		NullCheck(L_108);
-		Il2CppObject * L_109 = L_108->get__listenProvider_1();
+		Il2CppObject * L_109 = L_108->get__listenProvider_2();
 		SyncTree_t528142079 * L_110 = __this->get__enclosing_1();
 		QuerySpec_t377558711 * L_111 = __this->get__query_3();
 		NullCheck(L_110);
@@ -8918,7 +8918,7 @@ IL_02b4:
 			V_20 = L_119;
 			SyncTree_t528142079 * L_120 = __this->get__enclosing_1();
 			NullCheck(L_120);
-			Il2CppObject * L_121 = L_120->get__listenProvider_1();
+			Il2CppObject * L_121 = L_120->get__listenProvider_2();
 			SyncTree_t528142079 * L_122 = __this->get__enclosing_1();
 			QuerySpec_t377558711 * L_123 = V_18;
 			NullCheck(L_122);
@@ -9062,7 +9062,7 @@ IL_0041:
 	{
 		SyncTree_t528142079 * L_11 = __this->get__enclosing_0();
 		NullCheck(L_11);
-		LogWrapper_t438307305 * L_12 = L_11->get__logger_2();
+		LogWrapper_t438307305 * L_12 = L_11->get__logger_3();
 		ObjectU5BU5D_t3614634134* L_13 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)4));
 		NullCheck(L_13);
 		ArrayElementTypeCheck (L_13, _stringLiteral680685054);
@@ -9390,7 +9390,7 @@ extern "C"  Il2CppObject * TreeVisitor688_OnNodeValue_m2540370422 (TreeVisitor68
 		V_0 = L_6;
 		SyncTree_t528142079 * L_7 = __this->get__enclosing_0();
 		NullCheck(L_7);
-		Il2CppObject * L_8 = L_7->get__listenProvider_1();
+		Il2CppObject * L_8 = L_7->get__listenProvider_2();
 		SyncTree_t528142079 * L_9 = __this->get__enclosing_0();
 		QuerySpec_t377558711 * L_10 = V_0;
 		NullCheck(L_9);
@@ -9433,7 +9433,7 @@ IL_0060:
 			V_3 = L_21;
 			SyncTree_t528142079 * L_22 = __this->get__enclosing_0();
 			NullCheck(L_22);
-			Il2CppObject * L_23 = L_22->get__listenProvider_1();
+			Il2CppObject * L_23 = L_22->get__listenProvider_2();
 			SyncTree_t528142079 * L_24 = __this->get__enclosing_0();
 			QuerySpec_t377558711 * L_25 = V_3;
 			NullCheck(L_24);
@@ -14415,7 +14415,7 @@ extern "C"  void QueryParams__ctor_m3958367438 (QueryParams_t526937568 * __this,
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(PriorityIndex_t3332049502_il2cpp_TypeInfo_var);
 		PriorityIndex_t3332049502 * L_0 = PriorityIndex_GetInstance_m2118838445(NULL /*static, unused*/, /*hidden argument*/NULL);
-		__this->set__index_1(L_0);
+		__this->set__index_8(L_0);
 		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
 		return;
 	}
@@ -14424,7 +14424,7 @@ extern "C"  void QueryParams__ctor_m3958367438 (QueryParams_t526937568 * __this,
 extern "C"  bool QueryParams_HasStart_m3693710262 (QueryParams_t526937568 * __this, const MethodInfo* method)
 {
 	{
-		Node_t2640059010 * L_0 = __this->get__indexStartValue_5();
+		Node_t2640059010 * L_0 = __this->get__indexStartValue_12();
 		return (bool)((((int32_t)((((Il2CppObject*)(Node_t2640059010 *)L_0) == ((Il2CppObject*)(Il2CppObject *)NULL))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
@@ -14452,7 +14452,7 @@ extern "C"  Node_t2640059010 * QueryParams_GetIndexStartValue_m2951531679 (Query
 
 IL_0016:
 	{
-		Node_t2640059010 * L_2 = __this->get__indexStartValue_5();
+		Node_t2640059010 * L_2 = __this->get__indexStartValue_12();
 		return L_2;
 	}
 }
@@ -14480,14 +14480,14 @@ extern "C"  ChildKey_t1197802383 * QueryParams_GetIndexStartName_m1282952898 (Qu
 
 IL_0016:
 	{
-		ChildKey_t1197802383 * L_2 = __this->get__indexStartName_4();
+		ChildKey_t1197802383 * L_2 = __this->get__indexStartName_11();
 		if (!L_2)
 		{
 			goto IL_0028;
 		}
 	}
 	{
-		ChildKey_t1197802383 * L_3 = __this->get__indexStartName_4();
+		ChildKey_t1197802383 * L_3 = __this->get__indexStartName_11();
 		return L_3;
 	}
 
@@ -14502,7 +14502,7 @@ IL_0028:
 extern "C"  bool QueryParams_HasEnd_m4276835785 (QueryParams_t526937568 * __this, const MethodInfo* method)
 {
 	{
-		Node_t2640059010 * L_0 = __this->get__indexEndValue_3();
+		Node_t2640059010 * L_0 = __this->get__indexEndValue_10();
 		return (bool)((((int32_t)((((Il2CppObject*)(Node_t2640059010 *)L_0) == ((Il2CppObject*)(Il2CppObject *)NULL))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
@@ -14530,7 +14530,7 @@ extern "C"  Node_t2640059010 * QueryParams_GetIndexEndValue_m2488520680 (QueryPa
 
 IL_0016:
 	{
-		Node_t2640059010 * L_2 = __this->get__indexEndValue_3();
+		Node_t2640059010 * L_2 = __this->get__indexEndValue_10();
 		return L_2;
 	}
 }
@@ -14558,14 +14558,14 @@ extern "C"  ChildKey_t1197802383 * QueryParams_GetIndexEndName_m3524424749 (Quer
 
 IL_0016:
 	{
-		ChildKey_t1197802383 * L_2 = __this->get__indexEndName_2();
+		ChildKey_t1197802383 * L_2 = __this->get__indexEndName_9();
 		if (!L_2)
 		{
 			goto IL_0028;
 		}
 	}
 	{
-		ChildKey_t1197802383 * L_3 = __this->get__indexEndName_2();
+		ChildKey_t1197802383 * L_3 = __this->get__indexEndName_9();
 		return L_3;
 	}
 
@@ -14586,7 +14586,7 @@ extern "C"  bool QueryParams_HasLimit_m3762130595 (QueryParams_t526937568 * __th
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		Nullable_1_t334943763 * L_0 = __this->get_address_of__limit_6();
+		Nullable_1_t334943763 * L_0 = __this->get_address_of__limit_14();
 		bool L_1 = Nullable_1_get_HasValue_m2611145621(L_0, /*hidden argument*/Nullable_1_get_HasValue_m2611145621_MethodInfo_var);
 		return L_1;
 	}
@@ -14609,7 +14609,7 @@ extern "C"  bool QueryParams_HasAnchoredLimit_m630490315 (QueryParams_t526937568
 		}
 	}
 	{
-		Nullable_1_t800577494 * L_1 = __this->get_address_of__viewFrom_7();
+		Nullable_1_t800577494 * L_1 = __this->get_address_of__viewFrom_15();
 		bool L_2 = Nullable_1_get_HasValue_m435651625(L_1, /*hidden argument*/Nullable_1_get_HasValue_m435651625_MethodInfo_var);
 		G_B3_0 = ((int32_t)(L_2));
 		goto IL_0019;
@@ -14649,7 +14649,7 @@ extern "C"  int32_t QueryParams_GetLimit_m2903752785 (QueryParams_t526937568 * _
 
 IL_0016:
 	{
-		Nullable_1_t334943763 * L_2 = __this->get_address_of__limit_6();
+		Nullable_1_t334943763 * L_2 = __this->get_address_of__limit_14();
 		int32_t L_3 = Nullable_1_GetValueOrDefault_m3547795842(L_2, /*hidden argument*/Nullable_1_GetValueOrDefault_m3547795842_MethodInfo_var);
 		return L_3;
 	}
@@ -14658,7 +14658,7 @@ IL_0016:
 extern "C"  Index_t2425062456 * QueryParams_GetIndex_m1904487486 (QueryParams_t526937568 * __this, const MethodInfo* method)
 {
 	{
-		Index_t2425062456 * L_0 = __this->get__index_1();
+		Index_t2425062456 * L_0 = __this->get__index_8();
 		return L_0;
 	}
 }
@@ -14677,33 +14677,33 @@ extern "C"  QueryParams_t526937568 * QueryParams_Copy_m552834043 (QueryParams_t5
 		QueryParams__ctor_m3958367438(L_0, /*hidden argument*/NULL);
 		V_0 = L_0;
 		QueryParams_t526937568 * L_1 = V_0;
-		Nullable_1_t334943763  L_2 = __this->get__limit_6();
+		Nullable_1_t334943763  L_2 = __this->get__limit_14();
 		NullCheck(L_1);
-		L_1->set__limit_6(L_2);
+		L_1->set__limit_14(L_2);
 		QueryParams_t526937568 * L_3 = V_0;
-		Node_t2640059010 * L_4 = __this->get__indexStartValue_5();
+		Node_t2640059010 * L_4 = __this->get__indexStartValue_12();
 		NullCheck(L_3);
-		L_3->set__indexStartValue_5(L_4);
+		L_3->set__indexStartValue_12(L_4);
 		QueryParams_t526937568 * L_5 = V_0;
-		ChildKey_t1197802383 * L_6 = __this->get__indexStartName_4();
+		ChildKey_t1197802383 * L_6 = __this->get__indexStartName_11();
 		NullCheck(L_5);
-		L_5->set__indexStartName_4(L_6);
+		L_5->set__indexStartName_11(L_6);
 		QueryParams_t526937568 * L_7 = V_0;
-		Node_t2640059010 * L_8 = __this->get__indexEndValue_3();
+		Node_t2640059010 * L_8 = __this->get__indexEndValue_10();
 		NullCheck(L_7);
-		L_7->set__indexEndValue_3(L_8);
+		L_7->set__indexEndValue_10(L_8);
 		QueryParams_t526937568 * L_9 = V_0;
-		ChildKey_t1197802383 * L_10 = __this->get__indexEndName_2();
+		ChildKey_t1197802383 * L_10 = __this->get__indexEndName_9();
 		NullCheck(L_9);
-		L_9->set__indexEndName_2(L_10);
+		L_9->set__indexEndName_9(L_10);
 		QueryParams_t526937568 * L_11 = V_0;
-		Nullable_1_t800577494  L_12 = __this->get__viewFrom_7();
+		Nullable_1_t800577494  L_12 = __this->get__viewFrom_15();
 		NullCheck(L_11);
-		L_11->set__viewFrom_7(L_12);
+		L_11->set__viewFrom_15(L_12);
 		QueryParams_t526937568 * L_13 = V_0;
-		Index_t2425062456 * L_14 = __this->get__index_1();
+		Index_t2425062456 * L_14 = __this->get__index_8();
 		NullCheck(L_13);
-		L_13->set__index_1(L_14);
+		L_13->set__index_8(L_14);
 		QueryParams_t526937568 * L_15 = V_0;
 		return L_15;
 	}
@@ -14718,7 +14718,7 @@ extern "C"  QueryParams_t526937568 * QueryParams_OrderBy_m2241784834 (QueryParam
 		QueryParams_t526937568 * L_1 = V_0;
 		Index_t2425062456 * L_2 = ___index0;
 		NullCheck(L_1);
-		L_1->set__index_1(L_2);
+		L_1->set__index_8(L_2);
 		QueryParams_t526937568 * L_3 = V_0;
 		return L_3;
 	}
@@ -14737,7 +14737,7 @@ extern "C"  bool QueryParams_IsViewFromLeft_m2005572134 (QueryParams_t526937568 
 	int32_t G_B4_0 = 0;
 	int32_t G_B6_0 = 0;
 	{
-		Nullable_1_t800577494 * L_0 = __this->get_address_of__viewFrom_7();
+		Nullable_1_t800577494 * L_0 = __this->get_address_of__viewFrom_15();
 		bool L_1 = Nullable_1_get_HasValue_m435651625(L_0, /*hidden argument*/Nullable_1_get_HasValue_m435651625_MethodInfo_var);
 		if (!L_1)
 		{
@@ -14745,7 +14745,7 @@ extern "C"  bool QueryParams_IsViewFromLeft_m2005572134 (QueryParams_t526937568 
 		}
 	}
 	{
-		Nullable_1_t800577494  L_2 = __this->get__viewFrom_7();
+		Nullable_1_t800577494  L_2 = __this->get__viewFrom_15();
 		V_0 = L_2;
 		int32_t L_3 = Nullable_1_GetValueOrDefault_m3686288486((&V_0), /*hidden argument*/Nullable_1_GetValueOrDefault_m3686288486_MethodInfo_var);
 		if ((!(((uint32_t)L_3) == ((uint32_t)0))))
@@ -14806,12 +14806,12 @@ extern "C"  Il2CppObject* QueryParams_GetWireProtocolParams_m2509266132 (QueryPa
 	}
 	{
 		Il2CppObject* L_2 = V_0;
-		Node_t2640059010 * L_3 = __this->get__indexStartValue_5();
+		Node_t2640059010 * L_3 = __this->get__indexStartValue_12();
 		NullCheck(L_3);
 		Il2CppObject * L_4 = VirtFuncInvoker0< Il2CppObject * >::Invoke(20 /* System.Object Firebase.Database.Internal.Snapshot.Node::GetValue() */, L_3);
 		NullCheck(L_2);
 		InterfaceActionInvoker2< String_t*, Il2CppObject * >::Invoke(4 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t2603311978_il2cpp_TypeInfo_var, L_2, _stringLiteral1543969247, L_4);
-		ChildKey_t1197802383 * L_5 = __this->get__indexStartName_4();
+		ChildKey_t1197802383 * L_5 = __this->get__indexStartName_11();
 		if (!L_5)
 		{
 			goto IL_0048;
@@ -14819,7 +14819,7 @@ extern "C"  Il2CppObject* QueryParams_GetWireProtocolParams_m2509266132 (QueryPa
 	}
 	{
 		Il2CppObject* L_6 = V_0;
-		ChildKey_t1197802383 * L_7 = __this->get__indexStartName_4();
+		ChildKey_t1197802383 * L_7 = __this->get__indexStartName_11();
 		NullCheck(L_7);
 		String_t* L_8 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Firebase.Database.Internal.Snapshot.ChildKey::AsString() */, L_7);
 		NullCheck(L_6);
@@ -14836,12 +14836,12 @@ IL_0048:
 	}
 	{
 		Il2CppObject* L_10 = V_0;
-		Node_t2640059010 * L_11 = __this->get__indexEndValue_3();
+		Node_t2640059010 * L_11 = __this->get__indexEndValue_10();
 		NullCheck(L_11);
 		Il2CppObject * L_12 = VirtFuncInvoker0< Il2CppObject * >::Invoke(20 /* System.Object Firebase.Database.Internal.Snapshot.Node::GetValue() */, L_11);
 		NullCheck(L_10);
 		InterfaceActionInvoker2< String_t*, Il2CppObject * >::Invoke(4 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t2603311978_il2cpp_TypeInfo_var, L_10, _stringLiteral1543969225, L_12);
-		ChildKey_t1197802383 * L_13 = __this->get__indexEndName_2();
+		ChildKey_t1197802383 * L_13 = __this->get__indexEndName_9();
 		if (!L_13)
 		{
 			goto IL_008a;
@@ -14849,7 +14849,7 @@ IL_0048:
 	}
 	{
 		Il2CppObject* L_14 = V_0;
-		ChildKey_t1197802383 * L_15 = __this->get__indexEndName_2();
+		ChildKey_t1197802383 * L_15 = __this->get__indexEndName_9();
 		NullCheck(L_15);
 		String_t* L_16 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Firebase.Database.Internal.Snapshot.ChildKey::AsString() */, L_15);
 		NullCheck(L_14);
@@ -14858,7 +14858,7 @@ IL_0048:
 
 IL_008a:
 	{
-		Nullable_1_t334943763 * L_17 = __this->get_address_of__limit_6();
+		Nullable_1_t334943763 * L_17 = __this->get_address_of__limit_14();
 		bool L_18 = Nullable_1_get_HasValue_m2611145621(L_17, /*hidden argument*/Nullable_1_get_HasValue_m2611145621_MethodInfo_var);
 		if (!L_18)
 		{
@@ -14867,13 +14867,13 @@ IL_008a:
 	}
 	{
 		Il2CppObject* L_19 = V_0;
-		Nullable_1_t334943763 * L_20 = __this->get_address_of__limit_6();
+		Nullable_1_t334943763 * L_20 = __this->get_address_of__limit_14();
 		int32_t L_21 = Nullable_1_GetValueOrDefault_m3547795842(L_20, /*hidden argument*/Nullable_1_GetValueOrDefault_m3547795842_MethodInfo_var);
 		int32_t L_22 = L_21;
 		Il2CppObject * L_23 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_22);
 		NullCheck(L_19);
 		InterfaceActionInvoker2< String_t*, Il2CppObject * >::Invoke(4 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t2603311978_il2cpp_TypeInfo_var, L_19, _stringLiteral372029378, L_23);
-		Nullable_1_t800577494  L_24 = __this->get__viewFrom_7();
+		Nullable_1_t800577494  L_24 = __this->get__viewFrom_15();
 		V_1 = L_24;
 		bool L_25 = Nullable_1_get_HasValue_m435651625((&V_1), /*hidden argument*/Nullable_1_get_HasValue_m435651625_MethodInfo_var);
 		if (L_25)
@@ -14943,7 +14943,7 @@ IL_0115:
 
 IL_012a:
 	{
-		Index_t2425062456 * L_34 = __this->get__index_1();
+		Index_t2425062456 * L_34 = __this->get__index_8();
 		IL2CPP_RUNTIME_CLASS_INIT(PriorityIndex_t3332049502_il2cpp_TypeInfo_var);
 		PriorityIndex_t3332049502 * L_35 = PriorityIndex_GetInstance_m2118838445(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_34);
@@ -14955,7 +14955,7 @@ IL_012a:
 	}
 	{
 		Il2CppObject* L_37 = V_0;
-		Index_t2425062456 * L_38 = __this->get__index_1();
+		Index_t2425062456 * L_38 = __this->get__index_8();
 		NullCheck(L_38);
 		String_t* L_39 = VirtFuncInvoker0< String_t* >::Invoke(11 /* System.String Firebase.Database.Internal.Snapshot.Index::GetQueryDefinition() */, L_38);
 		NullCheck(L_37);
@@ -15020,7 +15020,7 @@ extern "C"  bool QueryParams_IsDefault_m1217130985 (QueryParams_t526937568 * __t
 		}
 	}
 	{
-		Index_t2425062456 * L_1 = __this->get__index_1();
+		Index_t2425062456 * L_1 = __this->get__index_8();
 		IL2CPP_RUNTIME_CLASS_INIT(PriorityIndex_t3332049502_il2cpp_TypeInfo_var);
 		PriorityIndex_t3332049502 * L_2 = PriorityIndex_GetInstance_m2118838445(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_1);
@@ -15193,7 +15193,7 @@ IL_0022:
 	{
 		Il2CppObject * L_5 = ___o0;
 		V_0 = ((QueryParams_t526937568 *)CastclassClass(L_5, QueryParams_t526937568_il2cpp_TypeInfo_var));
-		Nullable_1_t334943763  L_6 = __this->get__limit_6();
+		Nullable_1_t334943763  L_6 = __this->get__limit_14();
 		V_1 = L_6;
 		bool L_7 = Nullable_1_get_HasValue_m2611145621((&V_1), /*hidden argument*/Nullable_1_get_HasValue_m2611145621_MethodInfo_var);
 		if (!L_7)
@@ -15202,10 +15202,10 @@ IL_0022:
 		}
 	}
 	{
-		Nullable_1_t334943763 * L_8 = __this->get_address_of__limit_6();
+		Nullable_1_t334943763 * L_8 = __this->get_address_of__limit_14();
 		QueryParams_t526937568 * L_9 = V_0;
 		NullCheck(L_9);
-		Nullable_1_t334943763  L_10 = L_9->get__limit_6();
+		Nullable_1_t334943763  L_10 = L_9->get__limit_14();
 		Nullable_1_t334943763  L_11 = L_10;
 		Il2CppObject * L_12 = Box(Nullable_1_t334943763_il2cpp_TypeInfo_var, &L_11);
 		bool L_13 = Nullable_1_Equals_m2848647165(L_8, L_12, /*hidden argument*/Nullable_1_Equals_m2848647165_MethodInfo_var);
@@ -15217,7 +15217,7 @@ IL_0060:
 	{
 		QueryParams_t526937568 * L_14 = V_0;
 		NullCheck(L_14);
-		Nullable_1_t334943763  L_15 = L_14->get__limit_6();
+		Nullable_1_t334943763  L_15 = L_14->get__limit_14();
 		V_2 = L_15;
 		bool L_16 = Nullable_1_get_HasValue_m2611145621((&V_2), /*hidden argument*/Nullable_1_get_HasValue_m2611145621_MethodInfo_var);
 		G_B8_0 = ((int32_t)(L_16));
@@ -15236,17 +15236,17 @@ IL_006e:
 
 IL_0075:
 	{
-		Index_t2425062456 * L_17 = __this->get__index_1();
+		Index_t2425062456 * L_17 = __this->get__index_8();
 		if (!L_17)
 		{
 			goto IL_0099;
 		}
 	}
 	{
-		Index_t2425062456 * L_18 = __this->get__index_1();
+		Index_t2425062456 * L_18 = __this->get__index_8();
 		QueryParams_t526937568 * L_19 = V_0;
 		NullCheck(L_19);
-		Index_t2425062456 * L_20 = L_19->get__index_1();
+		Index_t2425062456 * L_20 = L_19->get__index_8();
 		NullCheck(L_18);
 		bool L_21 = VirtFuncInvoker1< bool, Il2CppObject * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, L_18, L_20);
 		G_B13_0 = ((((int32_t)L_21) == ((int32_t)0))? 1 : 0);
@@ -15257,7 +15257,7 @@ IL_0099:
 	{
 		QueryParams_t526937568 * L_22 = V_0;
 		NullCheck(L_22);
-		Index_t2425062456 * L_23 = L_22->get__index_1();
+		Index_t2425062456 * L_23 = L_22->get__index_8();
 		G_B13_0 = ((((int32_t)((((Il2CppObject*)(Index_t2425062456 *)L_23) == ((Il2CppObject*)(Il2CppObject *)NULL))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 
@@ -15274,17 +15274,17 @@ IL_00a5:
 
 IL_00ac:
 	{
-		ChildKey_t1197802383 * L_24 = __this->get__indexEndName_2();
+		ChildKey_t1197802383 * L_24 = __this->get__indexEndName_9();
 		if (!L_24)
 		{
 			goto IL_00d0;
 		}
 	}
 	{
-		ChildKey_t1197802383 * L_25 = __this->get__indexEndName_2();
+		ChildKey_t1197802383 * L_25 = __this->get__indexEndName_9();
 		QueryParams_t526937568 * L_26 = V_0;
 		NullCheck(L_26);
-		ChildKey_t1197802383 * L_27 = L_26->get__indexEndName_2();
+		ChildKey_t1197802383 * L_27 = L_26->get__indexEndName_9();
 		NullCheck(L_25);
 		bool L_28 = VirtFuncInvoker1< bool, Il2CppObject * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, L_25, L_27);
 		G_B18_0 = ((((int32_t)L_28) == ((int32_t)0))? 1 : 0);
@@ -15295,7 +15295,7 @@ IL_00d0:
 	{
 		QueryParams_t526937568 * L_29 = V_0;
 		NullCheck(L_29);
-		ChildKey_t1197802383 * L_30 = L_29->get__indexEndName_2();
+		ChildKey_t1197802383 * L_30 = L_29->get__indexEndName_9();
 		G_B18_0 = ((((int32_t)((((Il2CppObject*)(ChildKey_t1197802383 *)L_30) == ((Il2CppObject*)(Il2CppObject *)NULL))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 
@@ -15312,17 +15312,17 @@ IL_00dc:
 
 IL_00e3:
 	{
-		Node_t2640059010 * L_31 = __this->get__indexEndValue_3();
+		Node_t2640059010 * L_31 = __this->get__indexEndValue_10();
 		if (!L_31)
 		{
 			goto IL_0107;
 		}
 	}
 	{
-		Node_t2640059010 * L_32 = __this->get__indexEndValue_3();
+		Node_t2640059010 * L_32 = __this->get__indexEndValue_10();
 		QueryParams_t526937568 * L_33 = V_0;
 		NullCheck(L_33);
-		Node_t2640059010 * L_34 = L_33->get__indexEndValue_3();
+		Node_t2640059010 * L_34 = L_33->get__indexEndValue_10();
 		NullCheck(L_32);
 		bool L_35 = VirtFuncInvoker1< bool, Il2CppObject * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, L_32, L_34);
 		G_B23_0 = ((((int32_t)L_35) == ((int32_t)0))? 1 : 0);
@@ -15333,7 +15333,7 @@ IL_0107:
 	{
 		QueryParams_t526937568 * L_36 = V_0;
 		NullCheck(L_36);
-		Node_t2640059010 * L_37 = L_36->get__indexEndValue_3();
+		Node_t2640059010 * L_37 = L_36->get__indexEndValue_10();
 		G_B23_0 = ((((int32_t)((((Il2CppObject*)(Node_t2640059010 *)L_37) == ((Il2CppObject*)(Il2CppObject *)NULL))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 
@@ -15350,17 +15350,17 @@ IL_0113:
 
 IL_011a:
 	{
-		ChildKey_t1197802383 * L_38 = __this->get__indexStartName_4();
+		ChildKey_t1197802383 * L_38 = __this->get__indexStartName_11();
 		if (!L_38)
 		{
 			goto IL_013e;
 		}
 	}
 	{
-		ChildKey_t1197802383 * L_39 = __this->get__indexStartName_4();
+		ChildKey_t1197802383 * L_39 = __this->get__indexStartName_11();
 		QueryParams_t526937568 * L_40 = V_0;
 		NullCheck(L_40);
-		ChildKey_t1197802383 * L_41 = L_40->get__indexStartName_4();
+		ChildKey_t1197802383 * L_41 = L_40->get__indexStartName_11();
 		NullCheck(L_39);
 		bool L_42 = VirtFuncInvoker1< bool, Il2CppObject * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, L_39, L_41);
 		G_B28_0 = ((((int32_t)L_42) == ((int32_t)0))? 1 : 0);
@@ -15371,7 +15371,7 @@ IL_013e:
 	{
 		QueryParams_t526937568 * L_43 = V_0;
 		NullCheck(L_43);
-		ChildKey_t1197802383 * L_44 = L_43->get__indexStartName_4();
+		ChildKey_t1197802383 * L_44 = L_43->get__indexStartName_11();
 		G_B28_0 = ((((int32_t)((((Il2CppObject*)(ChildKey_t1197802383 *)L_44) == ((Il2CppObject*)(Il2CppObject *)NULL))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 
@@ -15388,17 +15388,17 @@ IL_014a:
 
 IL_0151:
 	{
-		Node_t2640059010 * L_45 = __this->get__indexStartValue_5();
+		Node_t2640059010 * L_45 = __this->get__indexStartValue_12();
 		if (!L_45)
 		{
 			goto IL_0175;
 		}
 	}
 	{
-		Node_t2640059010 * L_46 = __this->get__indexStartValue_5();
+		Node_t2640059010 * L_46 = __this->get__indexStartValue_12();
 		QueryParams_t526937568 * L_47 = V_0;
 		NullCheck(L_47);
-		Node_t2640059010 * L_48 = L_47->get__indexStartValue_5();
+		Node_t2640059010 * L_48 = L_47->get__indexStartValue_12();
 		NullCheck(L_46);
 		bool L_49 = VirtFuncInvoker1< bool, Il2CppObject * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, L_46, L_48);
 		G_B33_0 = ((((int32_t)L_49) == ((int32_t)0))? 1 : 0);
@@ -15409,7 +15409,7 @@ IL_0175:
 	{
 		QueryParams_t526937568 * L_50 = V_0;
 		NullCheck(L_50);
-		Node_t2640059010 * L_51 = L_50->get__indexStartValue_5();
+		Node_t2640059010 * L_51 = L_50->get__indexStartValue_12();
 		G_B33_0 = ((((int32_t)((((Il2CppObject*)(Node_t2640059010 *)L_51) == ((Il2CppObject*)(Il2CppObject *)NULL))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 
@@ -15479,7 +15479,7 @@ extern "C"  int32_t QueryParams_GetHashCode_m1617863215 (QueryParams_t526937568 
 	int32_t G_B18_0 = 0;
 	int32_t G_B18_1 = 0;
 	{
-		Nullable_1_t334943763 * L_0 = __this->get_address_of__limit_6();
+		Nullable_1_t334943763 * L_0 = __this->get_address_of__limit_14();
 		int32_t L_1 = Nullable_1_GetValueOrDefault_m3547795842(L_0, /*hidden argument*/Nullable_1_GetValueOrDefault_m3547795842_MethodInfo_var);
 		V_0 = L_1;
 		int32_t L_2 = V_0;
@@ -15507,7 +15507,7 @@ IL_002a:
 	{
 		V_0 = ((int32_t)((int32_t)G_B3_1+(int32_t)G_B3_0));
 		int32_t L_4 = V_0;
-		Node_t2640059010 * L_5 = __this->get__indexStartValue_5();
+		Node_t2640059010 * L_5 = __this->get__indexStartValue_12();
 		G_B4_0 = ((int32_t)((int32_t)((int32_t)31)*(int32_t)L_4));
 		if (!L_5)
 		{
@@ -15516,7 +15516,7 @@ IL_002a:
 		}
 	}
 	{
-		Node_t2640059010 * L_6 = __this->get__indexStartValue_5();
+		Node_t2640059010 * L_6 = __this->get__indexStartValue_12();
 		NullCheck(L_6);
 		int32_t L_7 = VirtFuncInvoker0< int32_t >::Invoke(2 /* System.Int32 System.Object::GetHashCode() */, L_6);
 		G_B6_0 = L_7;
@@ -15534,7 +15534,7 @@ IL_004c:
 	{
 		V_0 = ((int32_t)((int32_t)G_B6_1+(int32_t)G_B6_0));
 		int32_t L_8 = V_0;
-		ChildKey_t1197802383 * L_9 = __this->get__indexStartName_4();
+		ChildKey_t1197802383 * L_9 = __this->get__indexStartName_11();
 		G_B7_0 = ((int32_t)((int32_t)((int32_t)31)*(int32_t)L_8));
 		if (!L_9)
 		{
@@ -15543,7 +15543,7 @@ IL_004c:
 		}
 	}
 	{
-		ChildKey_t1197802383 * L_10 = __this->get__indexStartName_4();
+		ChildKey_t1197802383 * L_10 = __this->get__indexStartName_11();
 		NullCheck(L_10);
 		int32_t L_11 = VirtFuncInvoker0< int32_t >::Invoke(2 /* System.Int32 System.Object::GetHashCode() */, L_10);
 		G_B9_0 = L_11;
@@ -15561,7 +15561,7 @@ IL_006e:
 	{
 		V_0 = ((int32_t)((int32_t)G_B9_1+(int32_t)G_B9_0));
 		int32_t L_12 = V_0;
-		Node_t2640059010 * L_13 = __this->get__indexEndValue_3();
+		Node_t2640059010 * L_13 = __this->get__indexEndValue_10();
 		G_B10_0 = ((int32_t)((int32_t)((int32_t)31)*(int32_t)L_12));
 		if (!L_13)
 		{
@@ -15570,7 +15570,7 @@ IL_006e:
 		}
 	}
 	{
-		Node_t2640059010 * L_14 = __this->get__indexEndValue_3();
+		Node_t2640059010 * L_14 = __this->get__indexEndValue_10();
 		NullCheck(L_14);
 		int32_t L_15 = VirtFuncInvoker0< int32_t >::Invoke(2 /* System.Int32 System.Object::GetHashCode() */, L_14);
 		G_B12_0 = L_15;
@@ -15588,7 +15588,7 @@ IL_0090:
 	{
 		V_0 = ((int32_t)((int32_t)G_B12_1+(int32_t)G_B12_0));
 		int32_t L_16 = V_0;
-		ChildKey_t1197802383 * L_17 = __this->get__indexEndName_2();
+		ChildKey_t1197802383 * L_17 = __this->get__indexEndName_9();
 		G_B13_0 = ((int32_t)((int32_t)((int32_t)31)*(int32_t)L_16));
 		if (!L_17)
 		{
@@ -15597,7 +15597,7 @@ IL_0090:
 		}
 	}
 	{
-		ChildKey_t1197802383 * L_18 = __this->get__indexEndName_2();
+		ChildKey_t1197802383 * L_18 = __this->get__indexEndName_9();
 		NullCheck(L_18);
 		int32_t L_19 = VirtFuncInvoker0< int32_t >::Invoke(2 /* System.Int32 System.Object::GetHashCode() */, L_18);
 		G_B15_0 = L_19;
@@ -15615,7 +15615,7 @@ IL_00b2:
 	{
 		V_0 = ((int32_t)((int32_t)G_B15_1+(int32_t)G_B15_0));
 		int32_t L_20 = V_0;
-		Index_t2425062456 * L_21 = __this->get__index_1();
+		Index_t2425062456 * L_21 = __this->get__index_8();
 		G_B16_0 = ((int32_t)((int32_t)((int32_t)31)*(int32_t)L_20));
 		if (!L_21)
 		{
@@ -15624,7 +15624,7 @@ IL_00b2:
 		}
 	}
 	{
-		Index_t2425062456 * L_22 = __this->get__index_1();
+		Index_t2425062456 * L_22 = __this->get__index_8();
 		NullCheck(L_22);
 		int32_t L_23 = VirtFuncInvoker0< int32_t >::Invoke(2 /* System.Int32 System.Object::GetHashCode() */, L_22);
 		G_B18_0 = L_23;
@@ -15657,7 +15657,7 @@ extern "C"  void QueryParams__cctor_m2269162639 (Il2CppObject * __this /* static
 	{
 		QueryParams_t526937568 * L_0 = (QueryParams_t526937568 *)il2cpp_codegen_object_new(QueryParams_t526937568_il2cpp_TypeInfo_var);
 		QueryParams__ctor_m3958367438(L_0, /*hidden argument*/NULL);
-		((QueryParams_t526937568_StaticFields*)QueryParams_t526937568_il2cpp_TypeInfo_var->static_fields)->set_DefaultParams_0(L_0);
+		((QueryParams_t526937568_StaticFields*)QueryParams_t526937568_il2cpp_TypeInfo_var->static_fields)->set_DefaultParams_7(L_0);
 		return;
 	}
 }
@@ -15685,7 +15685,7 @@ extern "C"  QuerySpec_t377558711 * QuerySpec_DefaultQueryAtPath_m2620037562 (Il2
 	{
 		Path_t2568473163 * L_0 = ___path0;
 		IL2CPP_RUNTIME_CLASS_INIT(QueryParams_t526937568_il2cpp_TypeInfo_var);
-		QueryParams_t526937568 * L_1 = ((QueryParams_t526937568_StaticFields*)QueryParams_t526937568_il2cpp_TypeInfo_var->static_fields)->get_DefaultParams_0();
+		QueryParams_t526937568 * L_1 = ((QueryParams_t526937568_StaticFields*)QueryParams_t526937568_il2cpp_TypeInfo_var->static_fields)->get_DefaultParams_7();
 		QuerySpec_t377558711 * L_2 = (QuerySpec_t377558711 *)il2cpp_codegen_object_new(QuerySpec_t377558711_il2cpp_TypeInfo_var);
 		QuerySpec__ctor_m3227348837(L_2, L_0, L_1, /*hidden argument*/NULL);
 		return L_2;

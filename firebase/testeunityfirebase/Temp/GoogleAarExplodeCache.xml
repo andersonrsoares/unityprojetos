@@ -1,131 +1,10 @@
 <aars>
   <explodeData>
-    <aar>support-v4-25.2.0</aar>
-    <modificationTime>2017-06-18T22:07:19.0000000-03:00</modificationTime>
+    <aar>firebase-app-unity-4.0.0</aar>
+    <modificationTime>2017-06-19T09:43:21.0000000-03:00</modificationTime>
     <explode>false</explode>
     <bundleId>br.com.firebaseunity</bundleId>
-    <path>Assets/Plugins/Android/support-v4-25.2.0.aar</path>
-    <targetAbi>universal</targetAbi>
-    <gradleBuildEnabled>true</gradleBuildEnabled>
-    <gradleExport>true</gradleExport>
-    <ignoredVersion />
-  </explodeData>
-  <explodeData>
-    <aar>support-media-compat-25.2.0</aar>
-    <modificationTime>2017-06-18T22:07:19.0000000-03:00</modificationTime>
-    <explode>false</explode>
-    <bundleId>br.com.firebaseunity</bundleId>
-    <path>Assets/Plugins/Android/support-media-compat-25.2.0.aar</path>
-    <targetAbi>universal</targetAbi>
-    <gradleBuildEnabled>true</gradleBuildEnabled>
-    <gradleExport>true</gradleExport>
-    <ignoredVersion />
-  </explodeData>
-  <explodeData>
-    <aar>support-fragment-25.2.0</aar>
-    <modificationTime>2017-06-18T22:07:19.0000000-03:00</modificationTime>
-    <explode>false</explode>
-    <bundleId>br.com.firebaseunity</bundleId>
-    <path>Assets/Plugins/Android/support-fragment-25.2.0.aar</path>
-    <targetAbi>universal</targetAbi>
-    <gradleBuildEnabled>true</gradleBuildEnabled>
-    <gradleExport>true</gradleExport>
-    <ignoredVersion />
-  </explodeData>
-  <explodeData>
-    <aar>support-core-utils-25.2.0</aar>
-    <modificationTime>2017-06-18T22:07:19.0000000-03:00</modificationTime>
-    <explode>false</explode>
-    <bundleId>br.com.firebaseunity</bundleId>
-    <path>Assets/Plugins/Android/support-core-utils-25.2.0.aar</path>
-    <targetAbi>universal</targetAbi>
-    <gradleBuildEnabled>true</gradleBuildEnabled>
-    <gradleExport>true</gradleExport>
-    <ignoredVersion />
-  </explodeData>
-  <explodeData>
-    <aar>support-core-ui-25.2.0</aar>
-    <modificationTime>2017-06-18T22:07:19.0000000-03:00</modificationTime>
-    <explode>false</explode>
-    <bundleId>br.com.firebaseunity</bundleId>
-    <path>Assets/Plugins/Android/support-core-ui-25.2.0.aar</path>
-    <targetAbi>universal</targetAbi>
-    <gradleBuildEnabled>true</gradleBuildEnabled>
-    <gradleExport>true</gradleExport>
-    <ignoredVersion />
-  </explodeData>
-  <explodeData>
-    <aar>support-compat-25.2.0</aar>
-    <modificationTime>2017-06-18T22:07:19.0000000-03:00</modificationTime>
-    <explode>false</explode>
-    <bundleId>br.com.firebaseunity</bundleId>
-    <path>Assets/Plugins/Android/support-compat-25.2.0.aar</path>
-    <targetAbi>universal</targetAbi>
-    <gradleBuildEnabled>true</gradleBuildEnabled>
-    <gradleExport>true</gradleExport>
-    <ignoredVersion />
-  </explodeData>
-  <explodeData>
-    <aar>support-annotations-25.2.0</aar>
-    <modificationTime>2017-06-18T22:07:19.0000000-03:00</modificationTime>
-    <explode>false</explode>
-    <bundleId>br.com.firebaseunity</bundleId>
-    <path>Assets/Plugins/Android/support-annotations-25.2.0.jar</path>
-    <targetAbi>universal</targetAbi>
-    <gradleBuildEnabled>true</gradleBuildEnabled>
-    <gradleExport>true</gradleExport>
-    <ignoredVersion />
-  </explodeData>
-  <explodeData>
-    <aar>play-services-tasks-11.0.0</aar>
-    <modificationTime>2017-06-18T22:07:19.0000000-03:00</modificationTime>
-    <explode>false</explode>
-    <bundleId>br.com.firebaseunity</bundleId>
-    <path>Assets/Plugins/Android/play-services-tasks-11.0.0.aar</path>
-    <targetAbi>universal</targetAbi>
-    <gradleBuildEnabled>true</gradleBuildEnabled>
-    <gradleExport>true</gradleExport>
-    <ignoredVersion />
-  </explodeData>
-  <explodeData>
-    <aar>play-services-basement-11.0.0</aar>
-    <modificationTime>2017-06-18T22:07:19.0000000-03:00</modificationTime>
-    <explode>false</explode>
-    <bundleId>br.com.firebaseunity</bundleId>
-    <path>Assets/Plugins/Android/play-services-basement-11.0.0.aar</path>
-    <targetAbi>universal</targetAbi>
-    <gradleBuildEnabled>true</gradleBuildEnabled>
-    <gradleExport>true</gradleExport>
-    <ignoredVersion />
-  </explodeData>
-  <explodeData>
-    <aar>play-services-base-11.0.0</aar>
-    <modificationTime>2017-06-18T22:07:19.0000000-03:00</modificationTime>
-    <explode>false</explode>
-    <bundleId>br.com.firebaseunity</bundleId>
-    <path>Assets/Plugins/Android/play-services-base-11.0.0.aar</path>
-    <targetAbi>universal</targetAbi>
-    <gradleBuildEnabled>true</gradleBuildEnabled>
-    <gradleExport>true</gradleExport>
-    <ignoredVersion />
-  </explodeData>
-  <explodeData>
-    <aar>firebase-common-11.0.0</aar>
-    <modificationTime>2017-06-18T22:07:19.0000000-03:00</modificationTime>
-    <explode>true</explode>
-    <bundleId>br.com.firebaseunity</bundleId>
-    <path>Assets/Plugins/Android/firebase-common-11.0.0.aar</path>
-    <targetAbi>universal</targetAbi>
-    <gradleBuildEnabled>true</gradleBuildEnabled>
-    <gradleExport>true</gradleExport>
-    <ignoredVersion />
-  </explodeData>
-  <explodeData>
-    <aar>firebase-auth-unity-4.0.0</aar>
-    <modificationTime>2017-06-18T22:07:19.0000000-03:00</modificationTime>
-    <explode>false</explode>
-    <bundleId>br.com.firebaseunity</bundleId>
-    <path>Assets/Plugins/Android/firebase-auth-unity-4.0.0.aar</path>
+    <path>Assets/Plugins/Android/firebase-app-unity-4.0.0.aar</path>
     <targetAbi>fat</targetAbi>
     <gradleBuildEnabled>true</gradleBuildEnabled>
     <gradleExport>true</gradleExport>
@@ -133,7 +12,7 @@
   </explodeData>
   <explodeData>
     <aar>firebase-auth-11.0.0</aar>
-    <modificationTime>2017-06-18T22:07:19.0000000-03:00</modificationTime>
+    <modificationTime>2017-06-19T09:43:21.0000000-03:00</modificationTime>
     <explode>false</explode>
     <bundleId>br.com.firebaseunity</bundleId>
     <path>Assets/Plugins/Android/firebase-auth-11.0.0.aar</path>
@@ -143,12 +22,133 @@
     <ignoredVersion />
   </explodeData>
   <explodeData>
-    <aar>firebase-app-unity-4.0.0</aar>
-    <modificationTime>2017-06-18T22:07:19.0000000-03:00</modificationTime>
+    <aar>firebase-auth-unity-4.0.0</aar>
+    <modificationTime>2017-06-19T09:43:21.0000000-03:00</modificationTime>
     <explode>false</explode>
     <bundleId>br.com.firebaseunity</bundleId>
-    <path>Assets/Plugins/Android/firebase-app-unity-4.0.0.aar</path>
+    <path>Assets/Plugins/Android/firebase-auth-unity-4.0.0.aar</path>
     <targetAbi>fat</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>firebase-common-11.0.0</aar>
+    <modificationTime>2017-06-19T09:43:21.0000000-03:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>br.com.firebaseunity</bundleId>
+    <path>Assets/Plugins/Android/firebase-common-11.0.0.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>play-services-base-11.0.0</aar>
+    <modificationTime>2017-06-19T09:43:21.0000000-03:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>br.com.firebaseunity</bundleId>
+    <path>Assets/Plugins/Android/play-services-base-11.0.0.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>play-services-basement-11.0.0</aar>
+    <modificationTime>2017-06-19T09:43:21.0000000-03:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>br.com.firebaseunity</bundleId>
+    <path>Assets/Plugins/Android/play-services-basement-11.0.0.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>play-services-tasks-11.0.0</aar>
+    <modificationTime>2017-06-19T09:43:21.0000000-03:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>br.com.firebaseunity</bundleId>
+    <path>Assets/Plugins/Android/play-services-tasks-11.0.0.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>support-annotations-25.2.0</aar>
+    <modificationTime>2017-06-19T09:43:21.0000000-03:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>br.com.firebaseunity</bundleId>
+    <path>Assets/Plugins/Android/support-annotations-25.2.0.jar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>support-compat-25.2.0</aar>
+    <modificationTime>2017-06-19T09:43:21.0000000-03:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>br.com.firebaseunity</bundleId>
+    <path>Assets/Plugins/Android/support-compat-25.2.0.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>support-core-ui-25.2.0</aar>
+    <modificationTime>2017-06-19T09:43:21.0000000-03:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>br.com.firebaseunity</bundleId>
+    <path>Assets/Plugins/Android/support-core-ui-25.2.0.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>support-core-utils-25.2.0</aar>
+    <modificationTime>2017-06-19T09:43:21.0000000-03:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>br.com.firebaseunity</bundleId>
+    <path>Assets/Plugins/Android/support-core-utils-25.2.0.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>support-fragment-25.2.0</aar>
+    <modificationTime>2017-06-19T09:43:21.0000000-03:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>br.com.firebaseunity</bundleId>
+    <path>Assets/Plugins/Android/support-fragment-25.2.0.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>support-media-compat-25.2.0</aar>
+    <modificationTime>2017-06-19T09:43:21.0000000-03:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>br.com.firebaseunity</bundleId>
+    <path>Assets/Plugins/Android/support-media-compat-25.2.0.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>support-v4-25.2.0</aar>
+    <modificationTime>2017-06-19T09:43:21.0000000-03:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>br.com.firebaseunity</bundleId>
+    <path>Assets/Plugins/Android/support-v4-25.2.0.aar</path>
+    <targetAbi>universal</targetAbi>
     <gradleBuildEnabled>true</gradleBuildEnabled>
     <gradleExport>true</gradleExport>
     <ignoredVersion />

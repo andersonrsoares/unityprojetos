@@ -22459,9 +22459,6 @@ extern "C" void RPC__ctor_m1432086380 ();
 extern "C" void Scene_get_handle_m1555912301_AdjustorThunk ();
 extern "C" void Scene_GetHashCode_m3223653899_AdjustorThunk ();
 extern "C" void Scene_Equals_m3588907349_AdjustorThunk ();
-extern "C" void SceneManager_LoadScene_m1619949821 ();
-extern "C" void SceneManager_LoadScene_m1386820036 ();
-extern "C" void SceneManager_LoadSceneAsyncNameIndexInternal_m3279056043 ();
 extern "C" void SceneManager_Internal_SceneLoaded_m4005732915 ();
 extern "C" void SceneManager_Internal_SceneUnloaded_m4108957131 ();
 extern "C" void SceneManager_Internal_ActiveSceneChanged_m1162592635 ();
@@ -26965,9 +26962,10 @@ extern "C" void EmailPassword_Login_m2383818071 ();
 extern "C" void EmailPassword_U3CStartU3Em__0_m2877506163 ();
 extern "C" void EmailPassword_U3CStartU3Em__1_m1331625198 ();
 extern "C" void EmailPassword_U3CStartU3Em__2_m2725668667 ();
-extern "C" void EmailPassword_U3CInitializeFirebaseU3Em__3_m226631299 ();
-extern "C" void EmailPassword_U3CSignupU3Em__4_m1269515385 ();
-extern "C" void EmailPassword_U3CLoginU3Em__5_m974205577 ();
+extern "C" void EmailPassword_U3CInitializeFirebaseU3Em__3_m2766054461 ();
+extern "C" void EmailPassword_U3CInitializeFirebaseU3Em__4_m904747070 ();
+extern "C" void EmailPassword_U3CSignupU3Em__5_m2139682970 ();
+extern "C" void EmailPassword_U3CLoginU3Em__6_m2375828366 ();
 extern "C" void LoginResult__ctor_m2644980445 ();
 extern "C" void LoginResult_Start_m433669029 ();
 extern "C" void UIHandler__ctor_m2547210855 ();
@@ -27020,7 +27018,7 @@ extern "C" void UIHandlerDatabase_OnGUI_m1784485022 ();
 extern "C" void UIHandlerDatabase_U3CStartU3Em__0_m2304740235 ();
 extern "C" void UIHandlerDatabase_U3CInitializeFirebaseU3Em__1_m2570583209 ();
 extern "C" void UIHandlerDatabase_U3CAddScoreU3Em__2_m502441319 ();
-extern const Il2CppMethodPointer g_MethodPointers[27006] = 
+extern const Il2CppMethodPointer g_MethodPointers[27004] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -49467,9 +49465,6 @@ extern const Il2CppMethodPointer g_MethodPointers[27006] =
 	Scene_get_handle_m1555912301_AdjustorThunk,
 	Scene_GetHashCode_m3223653899_AdjustorThunk,
 	Scene_Equals_m3588907349_AdjustorThunk,
-	SceneManager_LoadScene_m1619949821,
-	SceneManager_LoadScene_m1386820036,
-	SceneManager_LoadSceneAsyncNameIndexInternal_m3279056043,
 	SceneManager_Internal_SceneLoaded_m4005732915,
 	SceneManager_Internal_SceneUnloaded_m4108957131,
 	SceneManager_Internal_ActiveSceneChanged_m1162592635,
@@ -53973,9 +53968,10 @@ extern const Il2CppMethodPointer g_MethodPointers[27006] =
 	EmailPassword_U3CStartU3Em__0_m2877506163,
 	EmailPassword_U3CStartU3Em__1_m1331625198,
 	EmailPassword_U3CStartU3Em__2_m2725668667,
-	EmailPassword_U3CInitializeFirebaseU3Em__3_m226631299,
-	EmailPassword_U3CSignupU3Em__4_m1269515385,
-	EmailPassword_U3CLoginU3Em__5_m974205577,
+	EmailPassword_U3CInitializeFirebaseU3Em__3_m2766054461,
+	EmailPassword_U3CInitializeFirebaseU3Em__4_m904747070,
+	EmailPassword_U3CSignupU3Em__5_m2139682970,
+	EmailPassword_U3CLoginU3Em__6_m2375828366,
 	LoginResult__ctor_m2644980445,
 	LoginResult_Start_m433669029,
 	UIHandler__ctor_m2547210855,

@@ -6210,7 +6210,7 @@ IL_00bb:
 			NullCheck(L_52);
 			String_t* L_53 = String_ToLower_m2994460523(L_52, /*hidden argument*/NULL);
 			NullCheck(L_50);
-			L_50->set_Host_0(L_53);
+			L_50->set_Host_2(L_53);
 			Uri_t19570940 * L_54 = V_6;
 			NullCheck(L_54);
 			int32_t L_55 = Uri_get_Port_m834512465(L_54, /*hidden argument*/NULL);
@@ -6229,18 +6229,18 @@ IL_011f:
 			NullCheck(L_58);
 			bool L_59 = String_Equals_m2633592423(L_58, _stringLiteral4021508911, /*hidden argument*/NULL);
 			NullCheck(L_57);
-			L_57->set_Secure_3(L_59);
+			L_57->set_Secure_5(L_59);
 			RepoInfo_t4079583710 * L_60 = V_10;
 			RepoInfo_t4079583710 * L_61 = L_60;
 			NullCheck(L_61);
-			String_t* L_62 = L_61->get_Host_0();
+			String_t* L_62 = L_61->get_Host_2();
 			int32_t L_63 = V_11;
 			int32_t L_64 = L_63;
 			Il2CppObject * L_65 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_64);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 			String_t* L_66 = String_Concat_m2000667605(NULL /*static, unused*/, L_62, _stringLiteral372029336, L_65, /*hidden argument*/NULL);
 			NullCheck(L_61);
-			L_61->set_Host_0(L_66);
+			L_61->set_Host_2(L_66);
 			goto IL_015d;
 		}
 
@@ -6248,14 +6248,14 @@ IL_0155:
 		{
 			RepoInfo_t4079583710 * L_67 = V_10;
 			NullCheck(L_67);
-			L_67->set_Secure_3((bool)1);
+			L_67->set_Secure_5((bool)1);
 		}
 
 IL_015d:
 		{
 			RepoInfo_t4079583710 * L_68 = V_10;
 			NullCheck(L_68);
-			String_t* L_69 = L_68->get_Host_0();
+			String_t* L_69 = L_68->get_Host_2();
 			IL2CPP_RUNTIME_CLASS_INIT(Extensions_t996338116_il2cpp_TypeInfo_var);
 			StringU5BU5D_t1642385972* L_70 = Extensions_Split_m3989241300(NULL /*static, unused*/, L_69, _stringLiteral1617874640, /*hidden argument*/NULL);
 			V_12 = L_70;
@@ -6267,13 +6267,13 @@ IL_015d:
 			NullCheck(L_74);
 			String_t* L_75 = String_ToLower_m2994460523(L_74, /*hidden argument*/NULL);
 			NullCheck(L_71);
-			L_71->set_Namespace_2(L_75);
+			L_71->set_Namespace_4(L_75);
 			RepoInfo_t4079583710 * L_76 = V_10;
 			RepoInfo_t4079583710 * L_77 = V_10;
 			NullCheck(L_77);
-			String_t* L_78 = L_77->get_Host_0();
+			String_t* L_78 = L_77->get_Host_2();
 			NullCheck(L_76);
-			L_76->set_InternalHost_1(L_78);
+			L_76->set_InternalHost_3(L_78);
 			ParsedUrl_t1255537880 * L_79 = (ParsedUrl_t1255537880 *)il2cpp_codegen_object_new(ParsedUrl_t1255537880_il2cpp_TypeInfo_var);
 			ParsedUrl__ctor_m3182488512(L_79, /*hidden argument*/NULL);
 			V_13 = L_79;
@@ -7660,7 +7660,7 @@ extern "C"  void Query__ctor_m1215339448 (Query_t2792659010 * __this, Repo_t1244
 		Path_t2568473163 * L_1 = ___path1;
 		__this->set_Path_2(L_1);
 		IL2CPP_RUNTIME_CLASS_INIT(QueryParams_t526937568_il2cpp_TypeInfo_var);
-		QueryParams_t526937568 * L_2 = ((QueryParams_t526937568_StaticFields*)QueryParams_t526937568_il2cpp_TypeInfo_var->static_fields)->get_DefaultParams_0();
+		QueryParams_t526937568 * L_2 = ((QueryParams_t526937568_StaticFields*)QueryParams_t526937568_il2cpp_TypeInfo_var->static_fields)->get_DefaultParams_7();
 		__this->set_Params_1(L_2);
 		__this->set__orderByCalled_0((bool)0);
 		return;

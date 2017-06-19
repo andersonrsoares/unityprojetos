@@ -29,48 +29,48 @@ struct  RepoInfo_t4079583710  : public Il2CppObject
 {
 public:
 	// System.String Firebase.Database.Internal.Core.RepoInfo::Host
-	String_t* ___Host_0;
+	String_t* ___Host_2;
 	// System.String Firebase.Database.Internal.Core.RepoInfo::InternalHost
-	String_t* ___InternalHost_1;
+	String_t* ___InternalHost_3;
 	// System.String Firebase.Database.Internal.Core.RepoInfo::Namespace
-	String_t* ___Namespace_2;
+	String_t* ___Namespace_4;
 	// System.Boolean Firebase.Database.Internal.Core.RepoInfo::Secure
-	bool ___Secure_3;
+	bool ___Secure_5;
 
 public:
-	inline static int32_t get_offset_of_Host_0() { return static_cast<int32_t>(offsetof(RepoInfo_t4079583710, ___Host_0)); }
-	inline String_t* get_Host_0() const { return ___Host_0; }
-	inline String_t** get_address_of_Host_0() { return &___Host_0; }
-	inline void set_Host_0(String_t* value)
+	inline static int32_t get_offset_of_Host_2() { return static_cast<int32_t>(offsetof(RepoInfo_t4079583710, ___Host_2)); }
+	inline String_t* get_Host_2() const { return ___Host_2; }
+	inline String_t** get_address_of_Host_2() { return &___Host_2; }
+	inline void set_Host_2(String_t* value)
 	{
-		___Host_0 = value;
-		Il2CppCodeGenWriteBarrier(&___Host_0, value);
+		___Host_2 = value;
+		Il2CppCodeGenWriteBarrier(&___Host_2, value);
 	}
 
-	inline static int32_t get_offset_of_InternalHost_1() { return static_cast<int32_t>(offsetof(RepoInfo_t4079583710, ___InternalHost_1)); }
-	inline String_t* get_InternalHost_1() const { return ___InternalHost_1; }
-	inline String_t** get_address_of_InternalHost_1() { return &___InternalHost_1; }
-	inline void set_InternalHost_1(String_t* value)
+	inline static int32_t get_offset_of_InternalHost_3() { return static_cast<int32_t>(offsetof(RepoInfo_t4079583710, ___InternalHost_3)); }
+	inline String_t* get_InternalHost_3() const { return ___InternalHost_3; }
+	inline String_t** get_address_of_InternalHost_3() { return &___InternalHost_3; }
+	inline void set_InternalHost_3(String_t* value)
 	{
-		___InternalHost_1 = value;
-		Il2CppCodeGenWriteBarrier(&___InternalHost_1, value);
+		___InternalHost_3 = value;
+		Il2CppCodeGenWriteBarrier(&___InternalHost_3, value);
 	}
 
-	inline static int32_t get_offset_of_Namespace_2() { return static_cast<int32_t>(offsetof(RepoInfo_t4079583710, ___Namespace_2)); }
-	inline String_t* get_Namespace_2() const { return ___Namespace_2; }
-	inline String_t** get_address_of_Namespace_2() { return &___Namespace_2; }
-	inline void set_Namespace_2(String_t* value)
+	inline static int32_t get_offset_of_Namespace_4() { return static_cast<int32_t>(offsetof(RepoInfo_t4079583710, ___Namespace_4)); }
+	inline String_t* get_Namespace_4() const { return ___Namespace_4; }
+	inline String_t** get_address_of_Namespace_4() { return &___Namespace_4; }
+	inline void set_Namespace_4(String_t* value)
 	{
-		___Namespace_2 = value;
-		Il2CppCodeGenWriteBarrier(&___Namespace_2, value);
+		___Namespace_4 = value;
+		Il2CppCodeGenWriteBarrier(&___Namespace_4, value);
 	}
 
-	inline static int32_t get_offset_of_Secure_3() { return static_cast<int32_t>(offsetof(RepoInfo_t4079583710, ___Secure_3)); }
-	inline bool get_Secure_3() const { return ___Secure_3; }
-	inline bool* get_address_of_Secure_3() { return &___Secure_3; }
-	inline void set_Secure_3(bool value)
+	inline static int32_t get_offset_of_Secure_5() { return static_cast<int32_t>(offsetof(RepoInfo_t4079583710, ___Secure_5)); }
+	inline bool get_Secure_5() const { return ___Secure_5; }
+	inline bool* get_address_of_Secure_5() { return &___Secure_5; }
+	inline void set_Secure_5(bool value)
 	{
-		___Secure_3 = value;
+		___Secure_5 = value;
 	}
 };
 

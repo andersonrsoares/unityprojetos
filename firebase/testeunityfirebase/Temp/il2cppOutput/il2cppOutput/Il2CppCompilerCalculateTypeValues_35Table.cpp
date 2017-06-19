@@ -266,16 +266,24 @@ extern const int32_t g_FieldOffsetTable3528[2] =
 	Runnable30_t656865134::get_offset_of__eventsClone_1(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3529 = { sizeof (QueryParams_t526937568), -1, sizeof(QueryParams_t526937568_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable3529[8] = 
+extern const int32_t g_FieldOffsetTable3529[16] = 
 {
-	QueryParams_t526937568_StaticFields::get_offset_of_DefaultParams_0(),
-	QueryParams_t526937568::get_offset_of__index_1(),
-	QueryParams_t526937568::get_offset_of__indexEndName_2(),
-	QueryParams_t526937568::get_offset_of__indexEndValue_3(),
-	QueryParams_t526937568::get_offset_of__indexStartName_4(),
-	QueryParams_t526937568::get_offset_of__indexStartValue_5(),
-	QueryParams_t526937568::get_offset_of__limit_6(),
-	QueryParams_t526937568::get_offset_of__viewFrom_7(),
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	QueryParams_t526937568_StaticFields::get_offset_of_DefaultParams_7(),
+	QueryParams_t526937568::get_offset_of__index_8(),
+	QueryParams_t526937568::get_offset_of__indexEndName_9(),
+	QueryParams_t526937568::get_offset_of__indexEndValue_10(),
+	QueryParams_t526937568::get_offset_of__indexStartName_11(),
+	QueryParams_t526937568::get_offset_of__indexStartValue_12(),
+	QueryParams_t526937568::get_offset_of__jsonSerialization_13(),
+	QueryParams_t526937568::get_offset_of__limit_14(),
+	QueryParams_t526937568::get_offset_of__viewFrom_15(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3530 = { sizeof (ViewFrom_t2537511179)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
 extern const int32_t g_FieldOffsetTable3530[3] = 

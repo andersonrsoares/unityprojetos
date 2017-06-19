@@ -282,24 +282,25 @@ extern const int32_t g_FieldOffsetTable3425[4] =
 	Constants_t3626412043_StaticFields::get_offset_of_DotInfoConnected_3(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3426 = { sizeof (Context_t3486154757), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable3426[16] = 
+extern const int32_t g_FieldOffsetTable3426[17] = 
 {
-	Context_t3486154757::get_offset_of__sync_0(),
-	Context_t3486154757::get_offset_of__forcedPersistenceManager_1(),
-	Context_t3486154757::get_offset_of__frozen_2(),
-	Context_t3486154757::get_offset_of__platform_3(),
-	Context_t3486154757::get_offset_of__stopped_4(),
-	Context_t3486154757::get_offset_of_AuthTokenProvider_5(),
-	Context_t3486154757::get_offset_of_CacheSize_6(),
-	Context_t3486154757::get_offset_of_EventTarget_7(),
-	Context_t3486154757::get_offset_of_FirebaseApp_8(),
-	Context_t3486154757::get_offset_of_LoggedComponents_9(),
-	Context_t3486154757::get_offset_of_Logger_10(),
-	Context_t3486154757::get_offset_of_LogLevel_11(),
-	Context_t3486154757::get_offset_of_PersistenceEnabled_12(),
-	Context_t3486154757::get_offset_of_PersistenceKey_13(),
-	Context_t3486154757::get_offset_of_RunLoop_14(),
-	Context_t3486154757::get_offset_of_UserAgent_15(),
+	0,
+	Context_t3486154757::get_offset_of__sync_1(),
+	Context_t3486154757::get_offset_of__forcedPersistenceManager_2(),
+	Context_t3486154757::get_offset_of__frozen_3(),
+	Context_t3486154757::get_offset_of__platform_4(),
+	Context_t3486154757::get_offset_of__stopped_5(),
+	Context_t3486154757::get_offset_of_AuthTokenProvider_6(),
+	Context_t3486154757::get_offset_of_CacheSize_7(),
+	Context_t3486154757::get_offset_of_EventTarget_8(),
+	Context_t3486154757::get_offset_of_FirebaseApp_9(),
+	Context_t3486154757::get_offset_of_LoggedComponents_10(),
+	Context_t3486154757::get_offset_of_Logger_11(),
+	Context_t3486154757::get_offset_of_LogLevel_12(),
+	Context_t3486154757::get_offset_of_PersistenceEnabled_13(),
+	Context_t3486154757::get_offset_of_PersistenceKey_14(),
+	Context_t3486154757::get_offset_of_RunLoop_15(),
+	Context_t3486154757::get_offset_of_UserAgent_16(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3427 = { sizeof (ConnectionAuthTokenProvider258_t2291877717), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3427[1] = 
@@ -314,7 +315,7 @@ extern const int32_t g_FieldOffsetTable3428[1] =
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3429 = { sizeof (DatabaseConfig_t3004044241), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3429[1] = 
 {
-	DatabaseConfig_t3004044241::get_offset_of__sync_16(),
+	DatabaseConfig_t3004044241::get_offset_of__sync_17(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3430 = { sizeof (EventRegistration_t4222917807), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3430[3] = 
@@ -340,28 +341,32 @@ extern const int32_t g_FieldOffsetTable3433[3] =
 	Enumerator174_t1007998148::get_offset_of_U3CCurrentU3Ek__BackingField_2(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3434 = { sizeof (Repo_t1244308462), -1, sizeof(Repo_t1244308462_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable3434[20] = 
+extern const int32_t g_FieldOffsetTable3434[24] = 
 {
-	Repo_t1244308462::get_offset_of__connection_0(),
-	Repo_t1244308462::get_offset_of__ctx_1(),
-	Repo_t1244308462::get_offset_of__firebaseDatabase_2(),
-	Repo_t1244308462::get_offset_of__dataLogger_3(),
-	Repo_t1244308462::get_offset_of__eventRaiser_4(),
-	Repo_t1244308462::get_offset_of__operationLogger_5(),
-	Repo_t1244308462::get_offset_of__repoInfo_6(),
-	Repo_t1244308462::get_offset_of__serverClock_7(),
-	Repo_t1244308462::get_offset_of__transactionLogger_8(),
-	Repo_t1244308462::get_offset_of__hijackHash_9(),
-	Repo_t1244308462::get_offset_of__infoData_10(),
-	Repo_t1244308462::get_offset_of__infoSyncTree_11(),
-	Repo_t1244308462::get_offset_of__loggedTransactionPersistenceWarning_12(),
-	Repo_t1244308462::get_offset_of__nextWriteId_13(),
-	Repo_t1244308462::get_offset_of__onDisconnectTree_14(),
-	Repo_t1244308462::get_offset_of__serverSyncTree_15(),
-	Repo_t1244308462::get_offset_of__transactionOrder_16(),
-	Repo_t1244308462::get_offset_of__transactionQueueTree_17(),
-	Repo_t1244308462::get_offset_of_DataUpdateCount_18(),
-	Repo_t1244308462_StaticFields::get_offset_of_U3CU3Ef__amU24cache0_19(),
+	0,
+	0,
+	0,
+	0,
+	Repo_t1244308462::get_offset_of__connection_4(),
+	Repo_t1244308462::get_offset_of__ctx_5(),
+	Repo_t1244308462::get_offset_of__firebaseDatabase_6(),
+	Repo_t1244308462::get_offset_of__dataLogger_7(),
+	Repo_t1244308462::get_offset_of__eventRaiser_8(),
+	Repo_t1244308462::get_offset_of__operationLogger_9(),
+	Repo_t1244308462::get_offset_of__repoInfo_10(),
+	Repo_t1244308462::get_offset_of__serverClock_11(),
+	Repo_t1244308462::get_offset_of__transactionLogger_12(),
+	Repo_t1244308462::get_offset_of__hijackHash_13(),
+	Repo_t1244308462::get_offset_of__infoData_14(),
+	Repo_t1244308462::get_offset_of__infoSyncTree_15(),
+	Repo_t1244308462::get_offset_of__loggedTransactionPersistenceWarning_16(),
+	Repo_t1244308462::get_offset_of__nextWriteId_17(),
+	Repo_t1244308462::get_offset_of__onDisconnectTree_18(),
+	Repo_t1244308462::get_offset_of__serverSyncTree_19(),
+	Repo_t1244308462::get_offset_of__transactionOrder_20(),
+	Repo_t1244308462::get_offset_of__transactionQueueTree_21(),
+	Repo_t1244308462::get_offset_of_DataUpdateCount_22(),
+	Repo_t1244308462_StaticFields::get_offset_of_U3CU3Ef__amU24cache0_23(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3435 = { sizeof (Runnable67_t3371926541), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3435[1] = 
@@ -519,12 +524,14 @@ extern const int32_t g_FieldOffsetTable3457[2] =
 	Runnable1144_t3747052656::get_offset_of__transaction_1(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3458 = { sizeof (RepoInfo_t4079583710), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable3458[4] = 
+extern const int32_t g_FieldOffsetTable3458[6] = 
 {
-	RepoInfo_t4079583710::get_offset_of_Host_0(),
-	RepoInfo_t4079583710::get_offset_of_InternalHost_1(),
-	RepoInfo_t4079583710::get_offset_of_Namespace_2(),
-	RepoInfo_t4079583710::get_offset_of_Secure_3(),
+	0,
+	0,
+	RepoInfo_t4079583710::get_offset_of_Host_2(),
+	RepoInfo_t4079583710::get_offset_of_InternalHost_3(),
+	RepoInfo_t4079583710::get_offset_of_Namespace_4(),
+	RepoInfo_t4079583710::get_offset_of_Secure_5(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3459 = { sizeof (RepoManager_t2704469169), -1, sizeof(RepoManager_t2704469169_StaticFields), 0 };
 extern const int32_t g_FieldOffsetTable3459[2] = 
@@ -581,17 +588,18 @@ extern const int32_t g_FieldOffsetTable3470[2] =
 	SyncPoint_t2720557329::get_offset_of__views_1(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3471 = { sizeof (SyncTree_t528142079), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable3471[9] = 
+extern const int32_t g_FieldOffsetTable3471[10] = 
 {
-	SyncTree_t528142079::get_offset_of__keepSyncedQueries_0(),
-	SyncTree_t528142079::get_offset_of__listenProvider_1(),
-	SyncTree_t528142079::get_offset_of__logger_2(),
-	SyncTree_t528142079::get_offset_of__pendingWriteTree_3(),
-	SyncTree_t528142079::get_offset_of__persistenceManager_4(),
-	SyncTree_t528142079::get_offset_of__queryToTagMap_5(),
-	SyncTree_t528142079::get_offset_of__tagToQueryMap_6(),
-	SyncTree_t528142079::get_offset_of__nextQueryTag_7(),
-	SyncTree_t528142079::get_offset_of__syncPointTree_8(),
+	0,
+	SyncTree_t528142079::get_offset_of__keepSyncedQueries_1(),
+	SyncTree_t528142079::get_offset_of__listenProvider_2(),
+	SyncTree_t528142079::get_offset_of__logger_3(),
+	SyncTree_t528142079::get_offset_of__pendingWriteTree_4(),
+	SyncTree_t528142079::get_offset_of__persistenceManager_5(),
+	SyncTree_t528142079::get_offset_of__queryToTagMap_6(),
+	SyncTree_t528142079::get_offset_of__tagToQueryMap_7(),
+	SyncTree_t528142079::get_offset_of__nextQueryTag_8(),
+	SyncTree_t528142079::get_offset_of__syncPointTree_9(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3472 = { 0, -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3473 = { 0, -1, 0, 0 };

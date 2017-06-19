@@ -81,8 +81,8 @@ extern const int32_t g_FieldOffsetTable3808[1] =
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3809 = { sizeof (U24ArrayTypeU3D12_t1568637717)+ sizeof (Il2CppObject), sizeof(U24ArrayTypeU3D12_t1568637717 ), 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3810 = { sizeof (U3CModuleU3E_t3783534231), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3811 = { sizeof (EmailPassword_t1050852289), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable3811[8] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3811 = { sizeof (EmailPassword_t1050852289), -1, sizeof(EmailPassword_t1050852289_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable3811[9] = 
 {
 	EmailPassword_t1050852289::get_offset_of_auth_2(),
 	EmailPassword_t1050852289::get_offset_of_UserNameInput_3(),
@@ -92,6 +92,7 @@ extern const int32_t g_FieldOffsetTable3811[8] =
 	EmailPassword_t1050852289::get_offset_of_ErrorText_7(),
 	EmailPassword_t1050852289::get_offset_of_dependencyStatus_8(),
 	EmailPassword_t1050852289::get_offset_of_leaderBoard_9(),
+	EmailPassword_t1050852289_StaticFields::get_offset_of_U3CU3Ef__amU24cache0_10(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3812 = { sizeof (LoginResult_t4257484404), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3812[1] = 

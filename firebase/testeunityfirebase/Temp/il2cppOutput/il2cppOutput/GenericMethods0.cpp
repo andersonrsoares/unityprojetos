@@ -31294,7 +31294,7 @@ extern "C"  void Repo_PostEvents_TisIl2CppObject_m1234093585_gshared (Repo_t1244
 		}
 	}
 	{
-		EventRaiser_t2009560 * L_2 = (EventRaiser_t2009560 *)__this->get__eventRaiser_4();
+		EventRaiser_t2009560 * L_2 = (EventRaiser_t2009560 *)__this->get__eventRaiser_8();
 		Il2CppObject* L_3 = ___events0;
 		NullCheck((EventRaiser_t2009560 *)L_2);
 		GenericVirtActionInvoker1< Il2CppObject* >::Invoke(IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 1), (EventRaiser_t2009560 *)L_2, (Il2CppObject*)L_3);

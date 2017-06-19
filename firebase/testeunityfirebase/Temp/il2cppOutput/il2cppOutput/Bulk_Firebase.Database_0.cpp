@@ -2969,110 +2969,110 @@ extern "C"  void DatabaseError__cctor_m2501169279 (Il2CppObject * __this /* stat
 	{
 		Dictionary_2_t1037045868 * L_0 = (Dictionary_2_t1037045868 *)il2cpp_codegen_object_new(Dictionary_2_t1037045868_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m2455952261(L_0, /*hidden argument*/Dictionary_2__ctor_m2455952261_MethodInfo_var);
-		((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->set_ErrorReasons_0(L_0);
+		((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->set_ErrorReasons_13(L_0);
 		Dictionary_2_t2249723025 * L_1 = (Dictionary_2_t2249723025 *)il2cpp_codegen_object_new(Dictionary_2_t2249723025_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m3816980946(L_1, /*hidden argument*/Dictionary_2__ctor_m3816980946_MethodInfo_var);
-		((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->set_ErrorCodes_1(L_1);
-		Il2CppObject* L_2 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorReasons_0();
+		((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->set_ErrorCodes_14(L_1);
+		Il2CppObject* L_2 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorReasons_13();
 		NullCheck(L_2);
 		InterfaceActionInvoker2< int32_t, String_t* >::Invoke(4 /* System.Void System.Collections.Generic.IDictionary`2<System.Int32,System.String>::set_Item(!0,!1) */, IDictionary_2_t3331096585_il2cpp_TypeInfo_var, L_2, (-1), _stringLiteral3501860616);
-		Il2CppObject* L_3 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorReasons_0();
+		Il2CppObject* L_3 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorReasons_13();
 		NullCheck(L_3);
 		InterfaceActionInvoker2< int32_t, String_t* >::Invoke(4 /* System.Void System.Collections.Generic.IDictionary`2<System.Int32,System.String>::set_Item(!0,!1) */, IDictionary_2_t3331096585_il2cpp_TypeInfo_var, L_3, ((int32_t)-2), _stringLiteral3280882084);
-		Il2CppObject* L_4 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorReasons_0();
+		Il2CppObject* L_4 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorReasons_13();
 		NullCheck(L_4);
 		InterfaceActionInvoker2< int32_t, String_t* >::Invoke(4 /* System.Void System.Collections.Generic.IDictionary`2<System.Int32,System.String>::set_Item(!0,!1) */, IDictionary_2_t3331096585_il2cpp_TypeInfo_var, L_4, ((int32_t)-3), _stringLiteral905165647);
-		Il2CppObject* L_5 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorReasons_0();
+		Il2CppObject* L_5 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorReasons_13();
 		NullCheck(L_5);
 		InterfaceActionInvoker2< int32_t, String_t* >::Invoke(4 /* System.Void System.Collections.Generic.IDictionary`2<System.Int32,System.String>::set_Item(!0,!1) */, IDictionary_2_t3331096585_il2cpp_TypeInfo_var, L_5, ((int32_t)-4), _stringLiteral2699993900);
-		Il2CppObject* L_6 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorReasons_0();
+		Il2CppObject* L_6 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorReasons_13();
 		NullCheck(L_6);
 		InterfaceActionInvoker2< int32_t, String_t* >::Invoke(4 /* System.Void System.Collections.Generic.IDictionary`2<System.Int32,System.String>::set_Item(!0,!1) */, IDictionary_2_t3331096585_il2cpp_TypeInfo_var, L_6, ((int32_t)-6), _stringLiteral2125859445);
-		Il2CppObject* L_7 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorReasons_0();
+		Il2CppObject* L_7 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorReasons_13();
 		NullCheck(L_7);
 		InterfaceActionInvoker2< int32_t, String_t* >::Invoke(4 /* System.Void System.Collections.Generic.IDictionary`2<System.Int32,System.String>::set_Item(!0,!1) */, IDictionary_2_t3331096585_il2cpp_TypeInfo_var, L_7, ((int32_t)-7), _stringLiteral1105120402);
-		Il2CppObject* L_8 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorReasons_0();
+		Il2CppObject* L_8 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorReasons_13();
 		NullCheck(L_8);
 		InterfaceActionInvoker2< int32_t, String_t* >::Invoke(4 /* System.Void System.Collections.Generic.IDictionary`2<System.Int32,System.String>::set_Item(!0,!1) */, IDictionary_2_t3331096585_il2cpp_TypeInfo_var, L_8, ((int32_t)-8), _stringLiteral3338699957);
-		Il2CppObject* L_9 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorReasons_0();
+		Il2CppObject* L_9 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorReasons_13();
 		NullCheck(L_9);
 		InterfaceActionInvoker2< int32_t, String_t* >::Invoke(4 /* System.Void System.Collections.Generic.IDictionary`2<System.Int32,System.String>::set_Item(!0,!1) */, IDictionary_2_t3331096585_il2cpp_TypeInfo_var, L_9, ((int32_t)-9), _stringLiteral1662242495);
-		Il2CppObject* L_10 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorReasons_0();
+		Il2CppObject* L_10 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorReasons_13();
 		NullCheck(L_10);
 		InterfaceActionInvoker2< int32_t, String_t* >::Invoke(4 /* System.Void System.Collections.Generic.IDictionary`2<System.Int32,System.String>::set_Item(!0,!1) */, IDictionary_2_t3331096585_il2cpp_TypeInfo_var, L_10, ((int32_t)-10), _stringLiteral2780318108);
-		Il2CppObject* L_11 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorReasons_0();
+		Il2CppObject* L_11 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorReasons_13();
 		NullCheck(L_11);
 		InterfaceActionInvoker2< int32_t, String_t* >::Invoke(4 /* System.Void System.Collections.Generic.IDictionary`2<System.Int32,System.String>::set_Item(!0,!1) */, IDictionary_2_t3331096585_il2cpp_TypeInfo_var, L_11, ((int32_t)-11), _stringLiteral2232321265);
-		Il2CppObject* L_12 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorReasons_0();
+		Il2CppObject* L_12 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorReasons_13();
 		NullCheck(L_12);
 		InterfaceActionInvoker2< int32_t, String_t* >::Invoke(4 /* System.Void System.Collections.Generic.IDictionary`2<System.Int32,System.String>::set_Item(!0,!1) */, IDictionary_2_t3331096585_il2cpp_TypeInfo_var, L_12, ((int32_t)-24), _stringLiteral1726684859);
-		Il2CppObject* L_13 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorReasons_0();
+		Il2CppObject* L_13 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorReasons_13();
 		NullCheck(L_13);
 		InterfaceActionInvoker2< int32_t, String_t* >::Invoke(4 /* System.Void System.Collections.Generic.IDictionary`2<System.Int32,System.String>::set_Item(!0,!1) */, IDictionary_2_t3331096585_il2cpp_TypeInfo_var, L_13, ((int32_t)-25), _stringLiteral3597063239);
-		Il2CppObject* L_14 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorReasons_0();
+		Il2CppObject* L_14 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorReasons_13();
 		NullCheck(L_14);
 		InterfaceActionInvoker2< int32_t, String_t* >::Invoke(4 /* System.Void System.Collections.Generic.IDictionary`2<System.Int32,System.String>::set_Item(!0,!1) */, IDictionary_2_t3331096585_il2cpp_TypeInfo_var, L_14, ((int32_t)-999), _stringLiteral1716355744);
-		Il2CppObject* L_15 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorCodes_1();
+		Il2CppObject* L_15 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorCodes_14();
 		Nullable_1_t334943763  L_16;
 		memset(&L_16, 0, sizeof(L_16));
 		Nullable_1__ctor_m3479622056(&L_16, (-1), /*hidden argument*/Nullable_1__ctor_m3479622056_MethodInfo_var);
 		NullCheck(L_15);
 		InterfaceActionInvoker2< String_t*, Nullable_1_t334943763  >::Invoke(4 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Nullable`1<System.Int32>>::set_Item(!0,!1) */, IDictionary_2_t248806446_il2cpp_TypeInfo_var, L_15, _stringLiteral1144907699, L_16);
-		Il2CppObject* L_17 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorCodes_1();
+		Il2CppObject* L_17 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorCodes_14();
 		Nullable_1_t334943763  L_18;
 		memset(&L_18, 0, sizeof(L_18));
 		Nullable_1__ctor_m3479622056(&L_18, ((int32_t)-2), /*hidden argument*/Nullable_1__ctor_m3479622056_MethodInfo_var);
 		NullCheck(L_17);
 		InterfaceActionInvoker2< String_t*, Nullable_1_t334943763  >::Invoke(4 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Nullable`1<System.Int32>>::set_Item(!0,!1) */, IDictionary_2_t248806446_il2cpp_TypeInfo_var, L_17, _stringLiteral3398916156, L_18);
-		Il2CppObject* L_19 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorCodes_1();
+		Il2CppObject* L_19 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorCodes_14();
 		Nullable_1_t334943763  L_20;
 		memset(&L_20, 0, sizeof(L_20));
 		Nullable_1__ctor_m3479622056(&L_20, ((int32_t)-3), /*hidden argument*/Nullable_1__ctor_m3479622056_MethodInfo_var);
 		NullCheck(L_19);
 		InterfaceActionInvoker2< String_t*, Nullable_1_t334943763  >::Invoke(4 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Nullable`1<System.Int32>>::set_Item(!0,!1) */, IDictionary_2_t248806446_il2cpp_TypeInfo_var, L_19, _stringLiteral1397907507, L_20);
-		Il2CppObject* L_21 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorCodes_1();
+		Il2CppObject* L_21 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorCodes_14();
 		Nullable_1_t334943763  L_22;
 		memset(&L_22, 0, sizeof(L_22));
 		Nullable_1__ctor_m3479622056(&L_22, ((int32_t)-4), /*hidden argument*/Nullable_1__ctor_m3479622056_MethodInfo_var);
 		NullCheck(L_21);
 		InterfaceActionInvoker2< String_t*, Nullable_1_t334943763  >::Invoke(4 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Nullable`1<System.Int32>>::set_Item(!0,!1) */, IDictionary_2_t248806446_il2cpp_TypeInfo_var, L_21, _stringLiteral2421089625, L_22);
-		Il2CppObject* L_23 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorCodes_1();
+		Il2CppObject* L_23 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorCodes_14();
 		Nullable_1_t334943763  L_24;
 		memset(&L_24, 0, sizeof(L_24));
 		Nullable_1__ctor_m3479622056(&L_24, ((int32_t)-6), /*hidden argument*/Nullable_1__ctor_m3479622056_MethodInfo_var);
 		NullCheck(L_23);
 		InterfaceActionInvoker2< String_t*, Nullable_1_t334943763  >::Invoke(4 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Nullable`1<System.Int32>>::set_Item(!0,!1) */, IDictionary_2_t248806446_il2cpp_TypeInfo_var, L_23, _stringLiteral3078717803, L_24);
-		Il2CppObject* L_25 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorCodes_1();
+		Il2CppObject* L_25 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorCodes_14();
 		Nullable_1_t334943763  L_26;
 		memset(&L_26, 0, sizeof(L_26));
 		Nullable_1__ctor_m3479622056(&L_26, ((int32_t)-7), /*hidden argument*/Nullable_1__ctor_m3479622056_MethodInfo_var);
 		NullCheck(L_25);
 		InterfaceActionInvoker2< String_t*, Nullable_1_t334943763  >::Invoke(4 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Nullable`1<System.Int32>>::set_Item(!0,!1) */, IDictionary_2_t248806446_il2cpp_TypeInfo_var, L_25, _stringLiteral323944177, L_26);
-		Il2CppObject* L_27 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorCodes_1();
+		Il2CppObject* L_27 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorCodes_14();
 		Nullable_1_t334943763  L_28;
 		memset(&L_28, 0, sizeof(L_28));
 		Nullable_1__ctor_m3479622056(&L_28, ((int32_t)-8), /*hidden argument*/Nullable_1__ctor_m3479622056_MethodInfo_var);
 		NullCheck(L_27);
 		InterfaceActionInvoker2< String_t*, Nullable_1_t334943763  >::Invoke(4 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Nullable`1<System.Int32>>::set_Item(!0,!1) */, IDictionary_2_t248806446_il2cpp_TypeInfo_var, L_27, _stringLiteral2414647514, L_28);
-		Il2CppObject* L_29 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorCodes_1();
+		Il2CppObject* L_29 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorCodes_14();
 		Nullable_1_t334943763  L_30;
 		memset(&L_30, 0, sizeof(L_30));
 		Nullable_1__ctor_m3479622056(&L_30, ((int32_t)-9), /*hidden argument*/Nullable_1__ctor_m3479622056_MethodInfo_var);
 		NullCheck(L_29);
 		InterfaceActionInvoker2< String_t*, Nullable_1_t334943763  >::Invoke(4 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Nullable`1<System.Int32>>::set_Item(!0,!1) */, IDictionary_2_t248806446_il2cpp_TypeInfo_var, L_29, _stringLiteral1580453679, L_30);
-		Il2CppObject* L_31 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorCodes_1();
+		Il2CppObject* L_31 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorCodes_14();
 		Nullable_1_t334943763  L_32;
 		memset(&L_32, 0, sizeof(L_32));
 		Nullable_1__ctor_m3479622056(&L_32, ((int32_t)-10), /*hidden argument*/Nullable_1__ctor_m3479622056_MethodInfo_var);
 		NullCheck(L_31);
 		InterfaceActionInvoker2< String_t*, Nullable_1_t334943763  >::Invoke(4 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Nullable`1<System.Int32>>::set_Item(!0,!1) */, IDictionary_2_t248806446_il2cpp_TypeInfo_var, L_31, _stringLiteral868527448, L_32);
-		Il2CppObject* L_33 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorCodes_1();
+		Il2CppObject* L_33 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorCodes_14();
 		Nullable_1_t334943763  L_34;
 		memset(&L_34, 0, sizeof(L_34));
 		Nullable_1__ctor_m3479622056(&L_34, ((int32_t)-24), /*hidden argument*/Nullable_1__ctor_m3479622056_MethodInfo_var);
 		NullCheck(L_33);
 		InterfaceActionInvoker2< String_t*, Nullable_1_t334943763  >::Invoke(4 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Nullable`1<System.Int32>>::set_Item(!0,!1) */, IDictionary_2_t248806446_il2cpp_TypeInfo_var, L_33, _stringLiteral3412494337, L_34);
-		Il2CppObject* L_35 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorCodes_1();
+		Il2CppObject* L_35 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorCodes_14();
 		Nullable_1_t334943763  L_36;
 		memset(&L_36, 0, sizeof(L_36));
 		Nullable_1__ctor_m3479622056(&L_36, ((int32_t)-25), /*hidden argument*/Nullable_1__ctor_m3479622056_MethodInfo_var);
@@ -3144,7 +3144,7 @@ IL_0026:
 extern "C"  int32_t DatabaseError_get_Code_m4044853402 (DatabaseError_t1067746743 * __this, const MethodInfo* method)
 {
 	{
-		int32_t L_0 = __this->get_U3CCodeU3Ek__BackingField_2();
+		int32_t L_0 = __this->get_U3CCodeU3Ek__BackingField_15();
 		return L_0;
 	}
 }
@@ -3153,7 +3153,7 @@ extern "C"  void DatabaseError_set_Code_m4266301757 (DatabaseError_t1067746743 *
 {
 	{
 		int32_t L_0 = ___value0;
-		__this->set_U3CCodeU3Ek__BackingField_2(L_0);
+		__this->set_U3CCodeU3Ek__BackingField_15(L_0);
 		return;
 	}
 }
@@ -3161,7 +3161,7 @@ extern "C"  void DatabaseError_set_Code_m4266301757 (DatabaseError_t1067746743 *
 extern "C"  String_t* DatabaseError_get_Message_m4169681475 (DatabaseError_t1067746743 * __this, const MethodInfo* method)
 {
 	{
-		String_t* L_0 = __this->get_U3CMessageU3Ek__BackingField_3();
+		String_t* L_0 = __this->get_U3CMessageU3Ek__BackingField_16();
 		return L_0;
 	}
 }
@@ -3170,7 +3170,7 @@ extern "C"  void DatabaseError_set_Message_m1348273492 (DatabaseError_t106774674
 {
 	{
 		String_t* L_0 = ___value0;
-		__this->set_U3CMessageU3Ek__BackingField_3(L_0);
+		__this->set_U3CMessageU3Ek__BackingField_16(L_0);
 		return;
 	}
 }
@@ -3179,7 +3179,7 @@ extern "C"  void DatabaseError_set_Details_m1581701309 (DatabaseError_t106774674
 {
 	{
 		String_t* L_0 = ___value0;
-		__this->set_U3CDetailsU3Ek__BackingField_4(L_0);
+		__this->set_U3CDetailsU3Ek__BackingField_17(L_0);
 		return;
 	}
 }
@@ -3228,7 +3228,7 @@ extern "C"  DatabaseError_t1067746743 * DatabaseError_FromCode_m2653009500 (Il2C
 	String_t* V_0 = NULL;
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(DatabaseError_t1067746743_il2cpp_TypeInfo_var);
-		Il2CppObject* L_0 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorReasons_0();
+		Il2CppObject* L_0 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorReasons_13();
 		int32_t L_1 = ___code0;
 		IL2CPP_RUNTIME_CLASS_INIT(Extensions_t996338116_il2cpp_TypeInfo_var);
 		bool L_2 = Extensions_Contains_TisInt32_t2071877448_TisString_t_m4154058924(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/Extensions_Contains_TisInt32_t2071877448_TisString_t_m4154058924_MethodInfo_var);
@@ -3251,7 +3251,7 @@ extern "C"  DatabaseError_t1067746743 * DatabaseError_FromCode_m2653009500 (Il2C
 IL_0026:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(DatabaseError_t1067746743_il2cpp_TypeInfo_var);
-		Il2CppObject* L_8 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorReasons_0();
+		Il2CppObject* L_8 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorReasons_13();
 		int32_t L_9 = ___code0;
 		NullCheck(L_8);
 		String_t* L_10 = InterfaceFuncInvoker1< String_t*, int32_t >::Invoke(3 /* !1 System.Collections.Generic.IDictionary`2<System.Int32,System.String>::get_Item(!0) */, IDictionary_2_t3331096585_il2cpp_TypeInfo_var, L_8, L_9);
@@ -3278,7 +3278,7 @@ extern "C"  DatabaseError_t1067746743 * DatabaseError_FromStatus_m2895498716 (Il
 	String_t* G_B5_0 = NULL;
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(DatabaseError_t1067746743_il2cpp_TypeInfo_var);
-		Il2CppObject* L_0 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorCodes_1();
+		Il2CppObject* L_0 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorCodes_14();
 		String_t* L_1 = ___status0;
 		NullCheck(L_1);
 		String_t* L_2 = String_ToLower_m2994460523(L_1, /*hidden argument*/NULL);
@@ -3308,7 +3308,7 @@ IL_0028:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(DatabaseError_t1067746743_il2cpp_TypeInfo_var);
-		Il2CppObject* L_7 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorReasons_0();
+		Il2CppObject* L_7 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorReasons_13();
 		int32_t L_8 = Nullable_1_GetValueOrDefault_m3547795842((&V_0), /*hidden argument*/Nullable_1_GetValueOrDefault_m3547795842_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(Extensions_t996338116_il2cpp_TypeInfo_var);
 		String_t* L_9 = Extensions_Get_TisInt32_t2071877448_TisString_t_m2195117679(NULL /*static, unused*/, L_7, L_8, /*hidden argument*/Extensions_Get_TisInt32_t2071877448_TisString_t_m2195117679_MethodInfo_var);
@@ -3345,7 +3345,7 @@ extern "C"  DatabaseError_t1067746743 * DatabaseError_FromException_m4050455659 
 	String_t* V_0 = NULL;
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(DatabaseError_t1067746743_il2cpp_TypeInfo_var);
-		Il2CppObject* L_0 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorReasons_0();
+		Il2CppObject* L_0 = ((DatabaseError_t1067746743_StaticFields*)DatabaseError_t1067746743_il2cpp_TypeInfo_var->static_fields)->get_ErrorReasons_13();
 		NullCheck(L_0);
 		String_t* L_1 = InterfaceFuncInvoker1< String_t*, int32_t >::Invoke(3 /* !1 System.Collections.Generic.IDictionary`2<System.Int32,System.String>::get_Item(!0) */, IDictionary_2_t3331096585_il2cpp_TypeInfo_var, L_0, ((int32_t)-11));
 		Exception_t1927440687 * L_2 = ___e0;
@@ -3806,7 +3806,7 @@ extern "C"  void DatabaseReference__cctor_m3488023230 (Il2CppObject * __this /* 
 	{
 		Il2CppObject * L_0 = (Il2CppObject *)il2cpp_codegen_object_new(Il2CppObject_il2cpp_TypeInfo_var);
 		Object__ctor_m2551263788(L_0, /*hidden argument*/NULL);
-		((DatabaseReference_t1167676104_StaticFields*)DatabaseReference_t1167676104_il2cpp_TypeInfo_var->static_fields)->set_SSync_4(L_0);
+		((DatabaseReference_t1167676104_StaticFields*)DatabaseReference_t1167676104_il2cpp_TypeInfo_var->static_fields)->set_SSync_5(L_0);
 		return;
 	}
 }
@@ -4664,14 +4664,14 @@ extern "C"  void FirebaseDatabase__ctor_m3809580815 (FirebaseDatabase_t131875835
 	{
 		Il2CppObject * L_0 = (Il2CppObject *)il2cpp_codegen_object_new(Il2CppObject_il2cpp_TypeInfo_var);
 		Object__ctor_m2551263788(L_0, /*hidden argument*/NULL);
-		__this->set__sync_4(L_0);
+		__this->set__sync_6(L_0);
 		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
 		FirebaseApp_t210707726 * L_1 = ___app0;
 		FirebaseDatabase_set_App_m4026262500(__this, L_1, /*hidden argument*/NULL);
 		RepoInfo_t4079583710 * L_2 = ___repoInfo1;
-		__this->set__repoInfo_3(L_2);
+		__this->set__repoInfo_5(L_2);
 		DatabaseConfig_t3004044241 * L_3 = ___config2;
-		__this->set__config_2(L_3);
+		__this->set__config_4(L_3);
 		return;
 	}
 }
@@ -4680,7 +4680,7 @@ extern "C"  void FirebaseDatabase_set_App_m4026262500 (FirebaseDatabase_t1318758
 {
 	{
 		FirebaseApp_t210707726 * L_0 = ___value0;
-		__this->set_U3CAppU3Ek__BackingField_6(L_0);
+		__this->set_U3CAppU3Ek__BackingField_8(L_0);
 		return;
 	}
 }
@@ -4791,7 +4791,7 @@ extern "C"  FirebaseDatabase_t1318758358 * FirebaseDatabase_GetInstance_m7140918
 IL_0016:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(FirebaseDatabase_t1318758358_il2cpp_TypeInfo_var);
-		Il2CppObject * L_3 = ((FirebaseDatabase_t1318758358_StaticFields*)FirebaseDatabase_t1318758358_il2cpp_TypeInfo_var->static_fields)->get_SSync_1();
+		Il2CppObject * L_3 = ((FirebaseDatabase_t1318758358_StaticFields*)FirebaseDatabase_t1318758358_il2cpp_TypeInfo_var->static_fields)->get_SSync_3();
 		V_0 = L_3;
 		Il2CppObject * L_4 = V_0;
 		Monitor_Enter_m2136705809(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
@@ -4808,7 +4808,7 @@ IL_0022:
 			String_t* L_7 = FirebaseDatabase_GetSafeName_m2794018618(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
 			V_1 = L_7;
 			V_2 = (Il2CppObject*)NULL;
-			Il2CppObject* L_8 = ((FirebaseDatabase_t1318758358_StaticFields*)FirebaseDatabase_t1318758358_il2cpp_TypeInfo_var->static_fields)->get_DatabaseInstances_0();
+			Il2CppObject* L_8 = ((FirebaseDatabase_t1318758358_StaticFields*)FirebaseDatabase_t1318758358_il2cpp_TypeInfo_var->static_fields)->get_DatabaseInstances_2();
 			String_t* L_9 = V_1;
 			NullCheck(L_8);
 			bool L_10 = InterfaceFuncInvoker2< bool, String_t*, Il2CppObject** >::Invoke(2 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Collections.Generic.IDictionary`2<Firebase.Database.Internal.Core.RepoInfo,Firebase.Database.FirebaseDatabase>>::TryGetValue(!0,!1&) */, IDictionary_2_t1173206723_il2cpp_TypeInfo_var, L_8, L_9, (&V_2));
@@ -4824,7 +4824,7 @@ IL_0042:
 			Dictionary_2__ctor_m3381558082(L_11, /*hidden argument*/Dictionary_2__ctor_m3381558082_MethodInfo_var);
 			V_2 = (Il2CppObject*)L_11;
 			IL2CPP_RUNTIME_CLASS_INIT(FirebaseDatabase_t1318758358_il2cpp_TypeInfo_var);
-			Il2CppObject* L_12 = ((FirebaseDatabase_t1318758358_StaticFields*)FirebaseDatabase_t1318758358_il2cpp_TypeInfo_var->static_fields)->get_DatabaseInstances_0();
+			Il2CppObject* L_12 = ((FirebaseDatabase_t1318758358_StaticFields*)FirebaseDatabase_t1318758358_il2cpp_TypeInfo_var->static_fields)->get_DatabaseInstances_2();
 			String_t* L_13 = V_1;
 			Il2CppObject* L_14 = V_2;
 			NullCheck(L_12);
@@ -4960,7 +4960,7 @@ extern "C"  DatabaseReference_t1167676104 * FirebaseDatabase_get_RootReference_m
 	}
 	{
 		FirebaseDatabase_EnsureRepo_m3559883943(__this, /*hidden argument*/NULL);
-		Repo_t1244308462 * L_0 = __this->get__repo_5();
+		Repo_t1244308462 * L_0 = __this->get__repo_7();
 		IL2CPP_RUNTIME_CLASS_INIT(Path_t2568473163_il2cpp_TypeInfo_var);
 		Path_t2568473163 * L_1 = Path_GetEmptyPath_m3969996076(NULL /*static, unused*/, /*hidden argument*/NULL);
 		DatabaseReference_t1167676104 * L_2 = (DatabaseReference_t1167676104 *)il2cpp_codegen_object_new(DatabaseReference_t1167676104_il2cpp_TypeInfo_var);
@@ -5001,7 +5001,7 @@ IL_0017:
 		Path_t2568473163 * L_4 = (Path_t2568473163 *)il2cpp_codegen_object_new(Path_t2568473163_il2cpp_TypeInfo_var);
 		Path__ctor_m224792998(L_4, L_3, /*hidden argument*/NULL);
 		V_0 = L_4;
-		Repo_t1244308462 * L_5 = __this->get__repo_5();
+		Repo_t1244308462 * L_5 = __this->get__repo_7();
 		Path_t2568473163 * L_6 = V_0;
 		DatabaseReference_t1167676104 * L_7 = (DatabaseReference_t1167676104 *)il2cpp_codegen_object_new(DatabaseReference_t1167676104_il2cpp_TypeInfo_var);
 		DatabaseReference__ctor_m1782337854(L_7, L_5, L_6, /*hidden argument*/NULL);
@@ -5019,7 +5019,7 @@ extern "C"  void FirebaseDatabase_GoOnline_m1041006808 (FirebaseDatabase_t131875
 	}
 	{
 		FirebaseDatabase_EnsureRepo_m3559883943(__this, /*hidden argument*/NULL);
-		Repo_t1244308462 * L_0 = __this->get__repo_5();
+		Repo_t1244308462 * L_0 = __this->get__repo_7();
 		IL2CPP_RUNTIME_CLASS_INIT(RepoManager_t2704469169_il2cpp_TypeInfo_var);
 		RepoManager_Resume_m2683333563(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		return;
@@ -5036,7 +5036,7 @@ extern "C"  void FirebaseDatabase_GoOffline_m1196249284 (FirebaseDatabase_t13187
 	}
 	{
 		FirebaseDatabase_EnsureRepo_m3559883943(__this, /*hidden argument*/NULL);
-		Repo_t1244308462 * L_0 = __this->get__repo_5();
+		Repo_t1244308462 * L_0 = __this->get__repo_7();
 		IL2CPP_RUNTIME_CLASS_INIT(RepoManager_t2704469169_il2cpp_TypeInfo_var);
 		RepoManager_Interrupt_m3554819717(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		return;
@@ -5072,7 +5072,7 @@ extern "C"  void FirebaseDatabase_EnsureRepo_m3559883943 (FirebaseDatabase_t1318
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		Il2CppObject * L_0 = __this->get__sync_4();
+		Il2CppObject * L_0 = __this->get__sync_6();
 		V_0 = L_0;
 		Il2CppObject * L_1 = V_0;
 		Monitor_Enter_m2136705809(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
@@ -5082,7 +5082,7 @@ IL_000d:
 	try
 	{ // begin try (depth: 1)
 		{
-			Repo_t1244308462 * L_2 = __this->get__repo_5();
+			Repo_t1244308462 * L_2 = __this->get__repo_7();
 			if (L_2)
 			{
 				goto IL_0030;
@@ -5091,11 +5091,11 @@ IL_000d:
 
 IL_0018:
 		{
-			DatabaseConfig_t3004044241 * L_3 = __this->get__config_2();
-			RepoInfo_t4079583710 * L_4 = __this->get__repoInfo_3();
+			DatabaseConfig_t3004044241 * L_3 = __this->get__config_4();
+			RepoInfo_t4079583710 * L_4 = __this->get__repoInfo_5();
 			IL2CPP_RUNTIME_CLASS_INIT(RepoManager_t2704469169_il2cpp_TypeInfo_var);
 			Repo_t1244308462 * L_5 = RepoManager_CreateRepo_m1481853238(NULL /*static, unused*/, L_3, L_4, __this, /*hidden argument*/NULL);
-			__this->set__repo_5(L_5);
+			__this->set__repo_7(L_5);
 		}
 
 IL_0030:
@@ -5138,10 +5138,10 @@ extern "C"  void FirebaseDatabase__cctor_m3794382968 (Il2CppObject * __this /* s
 	{
 		Dictionary_2_t3174123302 * L_0 = (Dictionary_2_t3174123302 *)il2cpp_codegen_object_new(Dictionary_2_t3174123302_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m2389680834(L_0, /*hidden argument*/Dictionary_2__ctor_m2389680834_MethodInfo_var);
-		((FirebaseDatabase_t1318758358_StaticFields*)FirebaseDatabase_t1318758358_il2cpp_TypeInfo_var->static_fields)->set_DatabaseInstances_0(L_0);
+		((FirebaseDatabase_t1318758358_StaticFields*)FirebaseDatabase_t1318758358_il2cpp_TypeInfo_var->static_fields)->set_DatabaseInstances_2(L_0);
 		Il2CppObject * L_1 = (Il2CppObject *)il2cpp_codegen_object_new(Il2CppObject_il2cpp_TypeInfo_var);
 		Object__ctor_m2551263788(L_1, /*hidden argument*/NULL);
-		((FirebaseDatabase_t1318758358_StaticFields*)FirebaseDatabase_t1318758358_il2cpp_TypeInfo_var->static_fields)->set_SSync_1(L_1);
+		((FirebaseDatabase_t1318758358_StaticFields*)FirebaseDatabase_t1318758358_il2cpp_TypeInfo_var->static_fields)->set_SSync_3(L_1);
 		return;
 	}
 }
@@ -15854,9 +15854,9 @@ extern "C"  void Context__ctor_m1238023272 (Context_t3486154757 * __this, const 
 	{
 		Il2CppObject * L_0 = (Il2CppObject *)il2cpp_codegen_object_new(Il2CppObject_il2cpp_TypeInfo_var);
 		Object__ctor_m2551263788(L_0, /*hidden argument*/NULL);
-		__this->set__sync_0(L_0);
-		__this->set_CacheSize_6((((int64_t)((int64_t)((int32_t)10485760)))));
-		__this->set_LogLevel_11(1);
+		__this->set__sync_1(L_0);
+		__this->set_CacheSize_7((((int64_t)((int64_t)((int32_t)10485760)))));
+		__this->set_LogLevel_12(1);
 		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
 		return;
 	}
@@ -15871,22 +15871,22 @@ extern "C"  DatabasePlatform_t1459671864 * Context_GetPlatform_m3992815479 (Cont
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		DatabasePlatform_t1459671864 * L_0 = __this->get__platform_3();
+		DatabasePlatform_t1459671864 * L_0 = __this->get__platform_4();
 		if (L_0)
 		{
 			goto IL_001c;
 		}
 	}
 	{
-		FirebaseApp_t210707726 * L_1 = __this->get_FirebaseApp_8();
+		FirebaseApp_t210707726 * L_1 = __this->get_FirebaseApp_9();
 		DotNetPlatform_t2951135975 * L_2 = (DotNetPlatform_t2951135975 *)il2cpp_codegen_object_new(DotNetPlatform_t2951135975_il2cpp_TypeInfo_var);
 		DotNetPlatform__ctor_m3903981007(L_2, L_1, /*hidden argument*/NULL);
-		__this->set__platform_3(L_2);
+		__this->set__platform_4(L_2);
 	}
 
 IL_001c:
 	{
-		DatabasePlatform_t1459671864 * L_3 = __this->get__platform_3();
+		DatabasePlatform_t1459671864 * L_3 = __this->get__platform_4();
 		return L_3;
 	}
 }
@@ -15901,7 +15901,7 @@ extern "C"  void Context_Freeze_m3006637421 (Context_t3486154757 * __this, const
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		Il2CppObject * L_0 = __this->get__sync_0();
+		Il2CppObject * L_0 = __this->get__sync_1();
 		V_0 = L_0;
 		Il2CppObject * L_1 = V_0;
 		Monitor_Enter_m2136705809(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
@@ -15911,7 +15911,7 @@ IL_000d:
 	try
 	{ // begin try (depth: 1)
 		{
-			bool L_2 = __this->get__frozen_2();
+			bool L_2 = __this->get__frozen_3();
 			if (L_2)
 			{
 				goto IL_0025;
@@ -15920,7 +15920,7 @@ IL_000d:
 
 IL_0018:
 		{
-			__this->set__frozen_2((bool)1);
+			__this->set__frozen_3((bool)1);
 			Context_InitServices_m3690323840(__this, /*hidden argument*/NULL);
 		}
 
@@ -15956,7 +15956,7 @@ IL_0031:
 extern "C"  void Context_RequireStarted_m936833618 (Context_t3486154757 * __this, const MethodInfo* method)
 {
 	{
-		bool L_0 = __this->get__stopped_4();
+		bool L_0 = __this->get__stopped_5();
 		if (!L_0)
 		{
 			goto IL_0018;
@@ -15964,7 +15964,7 @@ extern "C"  void Context_RequireStarted_m936833618 (Context_t3486154757 * __this
 	}
 	{
 		Context_RestartServices_m271548895(__this, /*hidden argument*/NULL);
-		__this->set__stopped_4((bool)0);
+		__this->set__stopped_5((bool)0);
 	}
 
 IL_0018:
@@ -15996,10 +15996,10 @@ extern "C"  void Context_RestartServices_m271548895 (Context_t3486154757 * __thi
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		Il2CppObject * L_0 = __this->get_EventTarget_7();
+		Il2CppObject * L_0 = __this->get_EventTarget_8();
 		NullCheck(L_0);
 		InterfaceActionInvoker0::Invoke(1 /* System.Void Firebase.Database.Core.IEventTarget::Restart() */, IEventTarget_t170421798_il2cpp_TypeInfo_var, L_0);
-		Il2CppObject * L_1 = __this->get_RunLoop_14();
+		Il2CppObject * L_1 = __this->get_RunLoop_15();
 		NullCheck(L_1);
 		InterfaceActionInvoker0::Invoke(1 /* System.Void Firebase.Database.Core.IRunLoop::Restart() */, IRunLoop_t1947166426_il2cpp_TypeInfo_var, L_1);
 		return;
@@ -16009,7 +16009,7 @@ extern "C"  void Context_RestartServices_m271548895 (Context_t3486154757 * __thi
 extern "C"  Logger_t225270238 * Context_GetLogger_m3166416199 (Context_t3486154757 * __this, const MethodInfo* method)
 {
 	{
-		Logger_t225270238 * L_0 = __this->get_Logger_10();
+		Logger_t225270238 * L_0 = __this->get_Logger_11();
 		return L_0;
 	}
 }
@@ -16023,7 +16023,7 @@ extern "C"  LogWrapper_t438307305 * Context_GetLogger_m1201841366 (Context_t3486
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		Logger_t225270238 * L_0 = __this->get_Logger_10();
+		Logger_t225270238 * L_0 = __this->get_Logger_11();
 		String_t* L_1 = ___component0;
 		LogWrapper_t438307305 * L_2 = (LogWrapper_t438307305 *)il2cpp_codegen_object_new(LogWrapper_t438307305_il2cpp_TypeInfo_var);
 		LogWrapper__ctor_m1860845244(L_2, L_0, L_1, /*hidden argument*/NULL);
@@ -16064,27 +16064,27 @@ extern "C"  Il2CppObject * Context_GetPersistenceManager_m3656425637 (Context_t3
 	}
 	Il2CppObject * V_0 = NULL;
 	{
-		Il2CppObject * L_0 = __this->get__forcedPersistenceManager_1();
+		Il2CppObject * L_0 = __this->get__forcedPersistenceManager_2();
 		if (!L_0)
 		{
 			goto IL_0012;
 		}
 	}
 	{
-		Il2CppObject * L_1 = __this->get__forcedPersistenceManager_1();
+		Il2CppObject * L_1 = __this->get__forcedPersistenceManager_2();
 		return L_1;
 	}
 
 IL_0012:
 	{
-		bool L_2 = __this->get_PersistenceEnabled_12();
+		bool L_2 = __this->get_PersistenceEnabled_13();
 		if (!L_2)
 		{
 			goto IL_003e;
 		}
 	}
 	{
-		DatabasePlatform_t1459671864 * L_3 = __this->get__platform_3();
+		DatabasePlatform_t1459671864 * L_3 = __this->get__platform_4();
 		String_t* L_4 = ___firebaseId0;
 		NullCheck(L_3);
 		Il2CppObject * L_5 = DatabasePlatform_CreatePersistenceManager_m1749084252(L_3, __this, L_4, /*hidden argument*/NULL);
@@ -16118,7 +16118,7 @@ IL_003e:
 extern "C"  bool Context_IsPersistenceEnabled_m4264523972 (Context_t3486154757 * __this, const MethodInfo* method)
 {
 	{
-		bool L_0 = __this->get_PersistenceEnabled_12();
+		bool L_0 = __this->get_PersistenceEnabled_13();
 		return L_0;
 	}
 }
@@ -16126,7 +16126,7 @@ extern "C"  bool Context_IsPersistenceEnabled_m4264523972 (Context_t3486154757 *
 extern "C"  Il2CppObject * Context_GetEventTarget_m1407526971 (Context_t3486154757 * __this, const MethodInfo* method)
 {
 	{
-		Il2CppObject * L_0 = __this->get_EventTarget_7();
+		Il2CppObject * L_0 = __this->get_EventTarget_8();
 		return L_0;
 	}
 }
@@ -16134,7 +16134,7 @@ extern "C"  Il2CppObject * Context_GetEventTarget_m1407526971 (Context_t34861547
 extern "C"  Il2CppObject * Context_GetRunLoop_m280295803 (Context_t3486154757 * __this, const MethodInfo* method)
 {
 	{
-		Il2CppObject * L_0 = __this->get_RunLoop_14();
+		Il2CppObject * L_0 = __this->get_RunLoop_15();
 		return L_0;
 	}
 }
@@ -16142,7 +16142,7 @@ extern "C"  Il2CppObject * Context_GetRunLoop_m280295803 (Context_t3486154757 * 
 extern "C"  String_t* Context_GetUserAgent_m2349728853 (Context_t3486154757 * __this, const MethodInfo* method)
 {
 	{
-		String_t* L_0 = __this->get_UserAgent_15();
+		String_t* L_0 = __this->get_UserAgent_16();
 		return L_0;
 	}
 }
@@ -16150,7 +16150,7 @@ extern "C"  String_t* Context_GetUserAgent_m2349728853 (Context_t3486154757 * __
 extern "C"  AuthTokenProvider_t3681374264 * Context_GetAuthTokenProvider_m620759456 (Context_t3486154757 * __this, const MethodInfo* method)
 {
 	{
-		AuthTokenProvider_t3681374264 * L_0 = __this->get_AuthTokenProvider_5();
+		AuthTokenProvider_t3681374264 * L_0 = __this->get_AuthTokenProvider_6();
 		return L_0;
 	}
 }
@@ -16204,7 +16204,7 @@ IL_001d:
 extern "C"  void Context_EnsureLogger_m945269696 (Context_t3486154757 * __this, const MethodInfo* method)
 {
 	{
-		Logger_t225270238 * L_0 = __this->get_Logger_10();
+		Logger_t225270238 * L_0 = __this->get_Logger_11();
 		if (L_0)
 		{
 			goto IL_0029;
@@ -16212,11 +16212,11 @@ extern "C"  void Context_EnsureLogger_m945269696 (Context_t3486154757 * __this, 
 	}
 	{
 		DatabasePlatform_t1459671864 * L_1 = Context_GetPlatform_m3992815479(__this, /*hidden argument*/NULL);
-		int32_t L_2 = __this->get_LogLevel_11();
-		Il2CppObject* L_3 = __this->get_LoggedComponents_9();
+		int32_t L_2 = __this->get_LogLevel_12();
+		Il2CppObject* L_3 = __this->get_LoggedComponents_10();
 		NullCheck(L_1);
 		Logger_t225270238 * L_4 = DatabasePlatform_NewLogger_m3817807564(L_1, __this, L_2, L_3, /*hidden argument*/NULL);
-		__this->set_Logger_10(L_4);
+		__this->set_Logger_11(L_4);
 	}
 
 IL_0029:
@@ -16228,17 +16228,17 @@ IL_0029:
 extern "C"  void Context_EnsureRunLoop_m3085740873 (Context_t3486154757 * __this, const MethodInfo* method)
 {
 	{
-		Il2CppObject * L_0 = __this->get_RunLoop_14();
+		Il2CppObject * L_0 = __this->get_RunLoop_15();
 		if (L_0)
 		{
 			goto IL_001d;
 		}
 	}
 	{
-		DatabasePlatform_t1459671864 * L_1 = __this->get__platform_3();
+		DatabasePlatform_t1459671864 * L_1 = __this->get__platform_4();
 		NullCheck(L_1);
 		Il2CppObject * L_2 = VirtFuncInvoker1< Il2CppObject *, Context_t3486154757 * >::Invoke(6 /* Firebase.Database.Core.IRunLoop Firebase.Database.Core.DatabasePlatform::NewRunLoop(Firebase.Database.Internal.Core.Context) */, L_1, __this);
-		__this->set_RunLoop_14(L_2);
+		__this->set_RunLoop_15(L_2);
 	}
 
 IL_001d:
@@ -16250,7 +16250,7 @@ IL_001d:
 extern "C"  void Context_EnsureEventTarget_m3007328941 (Context_t3486154757 * __this, const MethodInfo* method)
 {
 	{
-		Il2CppObject * L_0 = __this->get_EventTarget_7();
+		Il2CppObject * L_0 = __this->get_EventTarget_8();
 		if (L_0)
 		{
 			goto IL_001d;
@@ -16260,7 +16260,7 @@ extern "C"  void Context_EnsureEventTarget_m3007328941 (Context_t3486154757 * __
 		DatabasePlatform_t1459671864 * L_1 = Context_GetPlatform_m3992815479(__this, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		Il2CppObject * L_2 = VirtFuncInvoker1< Il2CppObject *, Context_t3486154757 * >::Invoke(5 /* Firebase.Database.Core.IEventTarget Firebase.Database.Core.DatabasePlatform::NewEventTarget(Firebase.Database.Internal.Core.Context) */, L_1, __this);
-		__this->set_EventTarget_7(L_2);
+		__this->set_EventTarget_8(L_2);
 	}
 
 IL_001d:
@@ -16272,7 +16272,7 @@ IL_001d:
 extern "C"  void Context_EnsureUserAgent_m3801160374 (Context_t3486154757 * __this, const MethodInfo* method)
 {
 	{
-		String_t* L_0 = __this->get_UserAgent_15();
+		String_t* L_0 = __this->get_UserAgent_16();
 		if (L_0)
 		{
 			goto IL_0023;
@@ -16283,7 +16283,7 @@ extern "C"  void Context_EnsureUserAgent_m3801160374 (Context_t3486154757 * __th
 		NullCheck(L_1);
 		String_t* L_2 = DatabasePlatform_GetUserAgent_m1927548724(L_1, __this, /*hidden argument*/NULL);
 		String_t* L_3 = Context_BuildUserAgent_m550170195(__this, L_2, /*hidden argument*/NULL);
-		__this->set_UserAgent_15(L_3);
+		__this->set_UserAgent_16(L_3);
 	}
 
 IL_0023:
@@ -16295,7 +16295,7 @@ IL_0023:
 extern "C"  void Context_EnsureAuthTokenProvider_m2870045028 (Context_t3486154757 * __this, const MethodInfo* method)
 {
 	{
-		AuthTokenProvider_t3681374264 * L_0 = __this->get_AuthTokenProvider_5();
+		AuthTokenProvider_t3681374264 * L_0 = __this->get_AuthTokenProvider_6();
 		if (L_0)
 		{
 			goto IL_0022;
@@ -16306,7 +16306,7 @@ extern "C"  void Context_EnsureAuthTokenProvider_m2870045028 (Context_t348615475
 		ScheduledThreadPoolExecutor_t2537379786 * L_2 = Context_GetExecutorService_m3231229211(__this, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		AuthTokenProvider_t3681374264 * L_3 = DatabasePlatform_NewAuthTokenProvider_m152949128(L_1, L_2, /*hidden argument*/NULL);
-		__this->set_AuthTokenProvider_5(L_3);
+		__this->set_AuthTokenProvider_6(L_3);
 	}
 
 IL_0022:
@@ -16324,14 +16324,14 @@ extern "C"  void Context_EnsureSessionIdentifier_m3170012537 (Context_t348615475
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		String_t* L_0 = __this->get_PersistenceKey_13();
+		String_t* L_0 = __this->get_PersistenceKey_14();
 		if (L_0)
 		{
 			goto IL_0016;
 		}
 	}
 	{
-		__this->set_PersistenceKey_13(_stringLiteral3564902503);
+		__this->set_PersistenceKey_14(_stringLiteral3564902503);
 	}
 
 IL_0016:
@@ -16459,7 +16459,7 @@ extern "C"  void DatabaseConfig__ctor_m3792622928 (DatabaseConfig_t3004044241 * 
 	{
 		Il2CppObject * L_0 = (Il2CppObject *)il2cpp_codegen_object_new(Il2CppObject_il2cpp_TypeInfo_var);
 		Object__ctor_m2551263788(L_0, /*hidden argument*/NULL);
-		__this->set__sync_16(L_0);
+		__this->set__sync_17(L_0);
 		Context__ctor_m1238023272(__this, /*hidden argument*/NULL);
 		return;
 	}
@@ -16475,7 +16475,7 @@ extern "C"  void DatabaseConfig_SetFirebaseApp_m54784199 (DatabaseConfig_t300404
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		Il2CppObject * L_0 = __this->get__sync_16();
+		Il2CppObject * L_0 = __this->get__sync_17();
 		V_0 = L_0;
 		Il2CppObject * L_1 = V_0;
 		Monitor_Enter_m2136705809(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
@@ -16485,7 +16485,7 @@ IL_000d:
 	try
 	{ // begin try (depth: 1)
 		FirebaseApp_t210707726 * L_2 = ___app0;
-		((Context_t3486154757 *)__this)->set_FirebaseApp_8(L_2);
+		((Context_t3486154757 *)__this)->set_FirebaseApp_9(L_2);
 		IL2CPP_LEAVE(0x20, FINALLY_0019);
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -18715,40 +18715,40 @@ extern "C"  void Repo__ctor_m265108600 (Repo_t1244308462 * __this, RepoInfo_t407
 		DefaultClock__ctor_m276465299(L_0, /*hidden argument*/NULL);
 		OffsetClock_t3991894683 * L_1 = (OffsetClock_t3991894683 *)il2cpp_codegen_object_new(OffsetClock_t3991894683_il2cpp_TypeInfo_var);
 		OffsetClock__ctor_m1224031995(L_1, L_0, (((int64_t)((int64_t)0))), /*hidden argument*/NULL);
-		__this->set__serverClock_7(L_1);
-		__this->set__nextWriteId_13((((int64_t)((int64_t)1))));
+		__this->set__serverClock_11(L_1);
+		__this->set__nextWriteId_17((((int64_t)((int64_t)1))));
 		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
 		RepoInfo_t4079583710 * L_2 = ___repoInfo0;
-		__this->set__repoInfo_6(L_2);
+		__this->set__repoInfo_10(L_2);
 		Context_t3486154757 * L_3 = ___ctx1;
-		__this->set__ctx_1(L_3);
+		__this->set__ctx_5(L_3);
 		FirebaseDatabase_t1318758358 * L_4 = ___firebaseDatabase2;
-		__this->set__firebaseDatabase_2(L_4);
-		Context_t3486154757 * L_5 = __this->get__ctx_1();
+		__this->set__firebaseDatabase_6(L_4);
+		Context_t3486154757 * L_5 = __this->get__ctx_5();
 		NullCheck(L_5);
 		LogWrapper_t438307305 * L_6 = VirtFuncInvoker1< LogWrapper_t438307305 *, String_t* >::Invoke(7 /* Firebase.Database.Internal.Logging.LogWrapper Firebase.Database.Internal.Core.Context::GetLogger(System.String) */, L_5, _stringLiteral3884842329);
-		__this->set__operationLogger_5(L_6);
-		Context_t3486154757 * L_7 = __this->get__ctx_1();
+		__this->set__operationLogger_9(L_6);
+		Context_t3486154757 * L_7 = __this->get__ctx_5();
 		NullCheck(L_7);
 		LogWrapper_t438307305 * L_8 = VirtFuncInvoker1< LogWrapper_t438307305 *, String_t* >::Invoke(7 /* Firebase.Database.Internal.Logging.LogWrapper Firebase.Database.Internal.Core.Context::GetLogger(System.String) */, L_7, _stringLiteral174931478);
-		__this->set__transactionLogger_8(L_8);
-		Context_t3486154757 * L_9 = __this->get__ctx_1();
+		__this->set__transactionLogger_12(L_8);
+		Context_t3486154757 * L_9 = __this->get__ctx_5();
 		NullCheck(L_9);
 		LogWrapper_t438307305 * L_10 = VirtFuncInvoker1< LogWrapper_t438307305 *, String_t* >::Invoke(7 /* Firebase.Database.Internal.Logging.LogWrapper Firebase.Database.Internal.Core.Context::GetLogger(System.String) */, L_9, _stringLiteral3487756485);
-		__this->set__dataLogger_3(L_10);
-		Context_t3486154757 * L_11 = __this->get__ctx_1();
+		__this->set__dataLogger_7(L_10);
+		Context_t3486154757 * L_11 = __this->get__ctx_5();
 		EventRaiser_t2009560 * L_12 = (EventRaiser_t2009560 *)il2cpp_codegen_object_new(EventRaiser_t2009560_il2cpp_TypeInfo_var);
 		EventRaiser__ctor_m2170893191(L_12, L_11, /*hidden argument*/NULL);
-		__this->set__eventRaiser_4(L_12);
+		__this->set__eventRaiser_8(L_12);
 		RepoInfo_t4079583710 * L_13 = ___repoInfo0;
 		NullCheck(L_13);
-		String_t* L_14 = L_13->get_Host_0();
+		String_t* L_14 = L_13->get_Host_2();
 		RepoInfo_t4079583710 * L_15 = ___repoInfo0;
 		NullCheck(L_15);
-		String_t* L_16 = L_15->get_Namespace_2();
+		String_t* L_16 = L_15->get_Namespace_4();
 		RepoInfo_t4079583710 * L_17 = ___repoInfo0;
 		NullCheck(L_17);
-		bool L_18 = L_17->get_Secure_3();
+		bool L_18 = L_17->get_Secure_5();
 		HostInfo_t2292118836 * L_19 = (HostInfo_t2292118836 *)il2cpp_codegen_object_new(HostInfo_t2292118836_il2cpp_TypeInfo_var);
 		HostInfo__ctor_m4193734601(L_19, L_14, L_16, L_18, /*hidden argument*/NULL);
 		V_0 = L_19;
@@ -18756,7 +18756,7 @@ extern "C"  void Repo__ctor_m265108600 (Repo_t1244308462 * __this, RepoInfo_t407
 		HostInfo_t2292118836 * L_21 = V_0;
 		NullCheck(L_20);
 		PersistentConnection_t1904999661 * L_22 = VirtFuncInvoker2< PersistentConnection_t1904999661 *, HostInfo_t2292118836 *, Il2CppObject * >::Invoke(13 /* Firebase.Database.Internal.Connection.PersistentConnection Firebase.Database.Internal.Core.Context::NewPersistentConnection(Firebase.Database.Internal.Connection.HostInfo,Firebase.Database.Internal.Connection.PersistentConnection/IDelegate) */, L_20, L_21, __this);
-		__this->set__connection_0(L_22);
+		__this->set__connection_4(L_22);
 		Runnable67_t3371926541 * L_23 = (Runnable67_t3371926541 *)il2cpp_codegen_object_new(Runnable67_t3371926541_il2cpp_TypeInfo_var);
 		Runnable67__ctor_m1057893930(L_23, __this, /*hidden argument*/NULL);
 		Repo_ScheduleNow_m4057318837(__this, L_23, /*hidden argument*/NULL);
@@ -18801,7 +18801,7 @@ extern "C"  void Repo_OnDataUpdate_m1145147078 (Repo_t1244308462 * __this, Il2Cp
 		Path_t2568473163 * L_1 = (Path_t2568473163 *)il2cpp_codegen_object_new(Path_t2568473163_il2cpp_TypeInfo_var);
 		Path__ctor_m1074963505(L_1, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
-		LogWrapper_t438307305 * L_2 = __this->get__operationLogger_5();
+		LogWrapper_t438307305 * L_2 = __this->get__operationLogger_9();
 		NullCheck(L_2);
 		bool L_3 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean Firebase.Database.Internal.Logging.LogWrapper::LogsDebug() */, L_2);
 		if (!L_3)
@@ -18810,7 +18810,7 @@ extern "C"  void Repo_OnDataUpdate_m1145147078 (Repo_t1244308462 * __this, Il2Cp
 		}
 	}
 	{
-		LogWrapper_t438307305 * L_4 = __this->get__operationLogger_5();
+		LogWrapper_t438307305 * L_4 = __this->get__operationLogger_9();
 		Path_t2568473163 * L_5 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_6 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral2804849312, L_5, /*hidden argument*/NULL);
@@ -18820,7 +18820,7 @@ extern "C"  void Repo_OnDataUpdate_m1145147078 (Repo_t1244308462 * __this, Il2Cp
 
 IL_0033:
 	{
-		LogWrapper_t438307305 * L_7 = __this->get__dataLogger_3();
+		LogWrapper_t438307305 * L_7 = __this->get__dataLogger_7();
 		NullCheck(L_7);
 		bool L_8 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean Firebase.Database.Internal.Logging.LogWrapper::LogsDebug() */, L_7);
 		if (!L_8)
@@ -18829,7 +18829,7 @@ IL_0033:
 		}
 	}
 	{
-		LogWrapper_t438307305 * L_9 = __this->get__operationLogger_5();
+		LogWrapper_t438307305 * L_9 = __this->get__operationLogger_9();
 		ObjectU5BU5D_t3614634134* L_10 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)4));
 		NullCheck(L_10);
 		ArrayElementTypeCheck (L_10, _stringLiteral2804849312);
@@ -18856,8 +18856,8 @@ IL_0033:
 
 IL_0077:
 	{
-		int64_t L_17 = __this->get_DataUpdateCount_18();
-		__this->set_DataUpdateCount_18(((int64_t)((int64_t)L_17+(int64_t)(((int64_t)((int64_t)1))))));
+		int64_t L_17 = __this->get_DataUpdateCount_22();
+		__this->set_DataUpdateCount_22(((int64_t)((int64_t)L_17+(int64_t)(((int64_t)((int64_t)1))))));
 	}
 
 IL_0086:
@@ -18974,7 +18974,7 @@ IL_010b:
 
 IL_010c:
 		{
-			SyncTree_t528142079 * L_38 = __this->get__serverSyncTree_15();
+			SyncTree_t528142079 * L_38 = __this->get__serverSyncTree_19();
 			Path_t2568473163 * L_39 = V_0;
 			Il2CppObject* L_40 = V_3;
 			Tag_t2439924210 * L_41 = V_2;
@@ -18989,7 +18989,7 @@ IL_0120:
 			Il2CppObject * L_43 = ___message1;
 			Node_t2640059010 * L_44 = NodeUtilities_NodeFromJson_m1362701318(NULL /*static, unused*/, L_43, /*hidden argument*/NULL);
 			V_8 = L_44;
-			SyncTree_t528142079 * L_45 = __this->get__serverSyncTree_15();
+			SyncTree_t528142079 * L_45 = __this->get__serverSyncTree_19();
 			Path_t2568473163 * L_46 = V_0;
 			Node_t2640059010 * L_47 = V_8;
 			Tag_t2439924210 * L_48 = V_2;
@@ -19102,7 +19102,7 @@ IL_01ab:
 
 IL_01ac:
 		{
-			SyncTree_t528142079 * L_67 = __this->get__serverSyncTree_15();
+			SyncTree_t528142079 * L_67 = __this->get__serverSyncTree_19();
 			Path_t2568473163 * L_68 = V_0;
 			Il2CppObject* L_69 = V_9;
 			NullCheck(L_67);
@@ -19116,7 +19116,7 @@ IL_01c0:
 			Il2CppObject * L_71 = ___message1;
 			Node_t2640059010 * L_72 = NodeUtilities_NodeFromJson_m1362701318(NULL /*static, unused*/, L_71, /*hidden argument*/NULL);
 			V_14 = L_72;
-			SyncTree_t528142079 * L_73 = __this->get__serverSyncTree_15();
+			SyncTree_t528142079 * L_73 = __this->get__serverSyncTree_19();
 			Path_t2568473163 * L_74 = V_0;
 			Node_t2640059010 * L_75 = V_14;
 			NullCheck(L_73);
@@ -19159,7 +19159,7 @@ IL_01ea:
 CATCH_01f6:
 	{ // begin catch(Firebase.Database.DatabaseException)
 		V_15 = ((DatabaseException_t1509032028 *)__exception_local);
-		LogWrapper_t438307305 * L_81 = __this->get__operationLogger_5();
+		LogWrapper_t438307305 * L_81 = __this->get__operationLogger_9();
 		DatabaseException_t1509032028 * L_82 = V_15;
 		NullCheck(L_81);
 		VirtActionInvoker2< String_t*, Exception_t1927440687 * >::Invoke(4 /* System.Void Firebase.Database.Internal.Logging.LogWrapper::Error(System.String,System.Exception) */, L_81, _stringLiteral2669132674, L_82);
@@ -19196,7 +19196,7 @@ extern "C"  void Repo_OnRangeMergeUpdate_m427301445 (Repo_t1244308462 * __this, 
 		Path_t2568473163 * L_1 = (Path_t2568473163 *)il2cpp_codegen_object_new(Path_t2568473163_il2cpp_TypeInfo_var);
 		Path__ctor_m1074963505(L_1, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
-		LogWrapper_t438307305 * L_2 = __this->get__operationLogger_5();
+		LogWrapper_t438307305 * L_2 = __this->get__operationLogger_9();
 		NullCheck(L_2);
 		bool L_3 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean Firebase.Database.Internal.Logging.LogWrapper::LogsDebug() */, L_2);
 		if (!L_3)
@@ -19205,7 +19205,7 @@ extern "C"  void Repo_OnRangeMergeUpdate_m427301445 (Repo_t1244308462 * __this, 
 		}
 	}
 	{
-		LogWrapper_t438307305 * L_4 = __this->get__operationLogger_5();
+		LogWrapper_t438307305 * L_4 = __this->get__operationLogger_9();
 		Path_t2568473163 * L_5 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_6 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral4239619965, L_5, /*hidden argument*/NULL);
@@ -19215,7 +19215,7 @@ extern "C"  void Repo_OnRangeMergeUpdate_m427301445 (Repo_t1244308462 * __this, 
 
 IL_0033:
 	{
-		LogWrapper_t438307305 * L_7 = __this->get__dataLogger_3();
+		LogWrapper_t438307305 * L_7 = __this->get__dataLogger_7();
 		NullCheck(L_7);
 		bool L_8 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean Firebase.Database.Internal.Logging.LogWrapper::LogsDebug() */, L_7);
 		if (!L_8)
@@ -19224,7 +19224,7 @@ IL_0033:
 		}
 	}
 	{
-		LogWrapper_t438307305 * L_9 = __this->get__operationLogger_5();
+		LogWrapper_t438307305 * L_9 = __this->get__operationLogger_9();
 		ObjectU5BU5D_t3614634134* L_10 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)4));
 		NullCheck(L_10);
 		ArrayElementTypeCheck (L_10, _stringLiteral4239619965);
@@ -19251,8 +19251,8 @@ IL_0033:
 
 IL_0077:
 	{
-		int64_t L_17 = __this->get_DataUpdateCount_18();
-		__this->set_DataUpdateCount_18(((int64_t)((int64_t)L_17+(int64_t)(((int64_t)((int64_t)1))))));
+		int64_t L_17 = __this->get_DataUpdateCount_22();
+		__this->set_DataUpdateCount_22(((int64_t)((int64_t)L_17+(int64_t)(((int64_t)((int64_t)1))))));
 		Il2CppObject* L_18 = ___merges1;
 		NullCheck(L_18);
 		int32_t L_19 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<Firebase.Database.Internal.Connection.RangeMerge>::get_Count() */, ICollection_1_t1050100524_il2cpp_TypeInfo_var, L_18);
@@ -19345,7 +19345,7 @@ IL_00ce:
 		}
 	}
 	{
-		SyncTree_t528142079 * L_33 = __this->get__serverSyncTree_15();
+		SyncTree_t528142079 * L_33 = __this->get__serverSyncTree_19();
 		Path_t2568473163 * L_34 = V_0;
 		Il2CppObject* L_35 = V_1;
 		int64_t L_36 = Nullable_1_GetValueOrDefault_m192159331((&___tagNumber2), /*hidden argument*/Nullable_1_GetValueOrDefault_m192159331_MethodInfo_var);
@@ -19359,7 +19359,7 @@ IL_00ce:
 
 IL_00fa:
 	{
-		SyncTree_t528142079 * L_39 = __this->get__serverSyncTree_15();
+		SyncTree_t528142079 * L_39 = __this->get__serverSyncTree_19();
 		Path_t2568473163 * L_40 = V_0;
 		Il2CppObject* L_41 = V_1;
 		NullCheck(L_39);
@@ -19556,47 +19556,47 @@ extern "C"  void Repo_DeferredInitialization_m954833882 (Repo_t1244308462 * __th
 	}
 	Il2CppObject * V_0 = NULL;
 	{
-		Context_t3486154757 * L_0 = __this->get__ctx_1();
+		Context_t3486154757 * L_0 = __this->get__ctx_5();
 		NullCheck(L_0);
 		AuthTokenProvider_t3681374264 * L_1 = VirtFuncInvoker0< AuthTokenProvider_t3681374264 * >::Invoke(12 /* Firebase.Database.Core.AuthTokenProvider Firebase.Database.Internal.Core.Context::GetAuthTokenProvider() */, L_0);
 		TokenChangeListener79_t3977814488 * L_2 = (TokenChangeListener79_t3977814488 *)il2cpp_codegen_object_new(TokenChangeListener79_t3977814488_il2cpp_TypeInfo_var);
 		TokenChangeListener79__ctor_m3512283955(L_2, __this, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		AuthTokenProvider_AddTokenChangeListener_m623146206(L_1, L_2, /*hidden argument*/NULL);
-		PersistentConnection_t1904999661 * L_3 = __this->get__connection_0();
+		PersistentConnection_t1904999661 * L_3 = __this->get__connection_4();
 		NullCheck(L_3);
 		VirtActionInvoker0::Invoke(4 /* System.Void Firebase.Database.Internal.Connection.PersistentConnection::Initialize() */, L_3);
-		Context_t3486154757 * L_4 = __this->get__ctx_1();
-		RepoInfo_t4079583710 * L_5 = __this->get__repoInfo_6();
+		Context_t3486154757 * L_4 = __this->get__ctx_5();
+		RepoInfo_t4079583710 * L_5 = __this->get__repoInfo_10();
 		NullCheck(L_5);
-		String_t* L_6 = L_5->get_Host_0();
+		String_t* L_6 = L_5->get_Host_2();
 		NullCheck(L_4);
 		Il2CppObject * L_7 = VirtFuncInvoker1< Il2CppObject *, String_t* >::Invoke(8 /* Firebase.Database.Internal.Core.Persistence.IPersistenceManager Firebase.Database.Internal.Core.Context::GetPersistenceManager(System.String) */, L_4, L_6);
 		V_0 = L_7;
 		SnapshotHolder_t2504102480 * L_8 = (SnapshotHolder_t2504102480 *)il2cpp_codegen_object_new(SnapshotHolder_t2504102480_il2cpp_TypeInfo_var);
 		SnapshotHolder__ctor_m1249406741(L_8, /*hidden argument*/NULL);
-		__this->set__infoData_10(L_8);
+		__this->set__infoData_14(L_8);
 		SparseSnapshotTree_t504080338 * L_9 = (SparseSnapshotTree_t504080338 *)il2cpp_codegen_object_new(SparseSnapshotTree_t504080338_il2cpp_TypeInfo_var);
 		SparseSnapshotTree__ctor_m907600737(L_9, /*hidden argument*/NULL);
-		__this->set__onDisconnectTree_14(L_9);
+		__this->set__onDisconnectTree_18(L_9);
 		Tree_1_t3109747774 * L_10 = (Tree_1_t3109747774 *)il2cpp_codegen_object_new(Tree_1_t3109747774_il2cpp_TypeInfo_var);
 		Tree_1__ctor_m2336658886(L_10, /*hidden argument*/Tree_1__ctor_m2336658886_MethodInfo_var);
-		__this->set__transactionQueueTree_17(L_10);
-		Context_t3486154757 * L_11 = __this->get__ctx_1();
+		__this->set__transactionQueueTree_21(L_10);
+		Context_t3486154757 * L_11 = __this->get__ctx_5();
 		NoopPersistenceManager_t325790784 * L_12 = (NoopPersistenceManager_t325790784 *)il2cpp_codegen_object_new(NoopPersistenceManager_t325790784_il2cpp_TypeInfo_var);
 		NoopPersistenceManager__ctor_m3917659094(L_12, /*hidden argument*/NULL);
 		ListenProvider106_t3500234454 * L_13 = (ListenProvider106_t3500234454 *)il2cpp_codegen_object_new(ListenProvider106_t3500234454_il2cpp_TypeInfo_var);
 		ListenProvider106__ctor_m3444521405(L_13, __this, /*hidden argument*/NULL);
 		SyncTree_t528142079 * L_14 = (SyncTree_t528142079 *)il2cpp_codegen_object_new(SyncTree_t528142079_il2cpp_TypeInfo_var);
 		SyncTree__ctor_m1235861134(L_14, L_11, L_12, L_13, /*hidden argument*/NULL);
-		__this->set__infoSyncTree_11(L_14);
-		Context_t3486154757 * L_15 = __this->get__ctx_1();
+		__this->set__infoSyncTree_15(L_14);
+		Context_t3486154757 * L_15 = __this->get__ctx_5();
 		Il2CppObject * L_16 = V_0;
 		ListenProvider131_t1577920156 * L_17 = (ListenProvider131_t1577920156 *)il2cpp_codegen_object_new(ListenProvider131_t1577920156_il2cpp_TypeInfo_var);
 		ListenProvider131__ctor_m752978401(L_17, __this, /*hidden argument*/NULL);
 		SyncTree_t528142079 * L_18 = (SyncTree_t528142079 *)il2cpp_codegen_object_new(SyncTree_t528142079_il2cpp_TypeInfo_var);
 		SyncTree__ctor_m1235861134(L_18, L_15, L_16, L_17, /*hidden argument*/NULL);
-		__this->set__serverSyncTree_15(L_18);
+		__this->set__serverSyncTree_19(L_18);
 		Il2CppObject * L_19 = V_0;
 		Repo_RestoreWrites_m1089336723(__this, L_19, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Constants_t3626412043_il2cpp_TypeInfo_var);
@@ -19639,7 +19639,7 @@ extern "C"  void Repo_RestoreWrites_m1089336723 (Repo_t1244308462 * __this, Il2C
 		NullCheck(L_0);
 		Il2CppObject* L_1 = InterfaceFuncInvoker0< Il2CppObject* >::Invoke(5 /* System.Collections.Generic.IList`1<Firebase.Database.Internal.Core.UserWriteRecord> Firebase.Database.Internal.Core.Persistence.IPersistenceManager::LoadUserWrites() */, IPersistenceManager_t636124941_il2cpp_TypeInfo_var, L_0);
 		V_0 = L_1;
-		OffsetClock_t3991894683 * L_2 = __this->get__serverClock_7();
+		OffsetClock_t3991894683 * L_2 = __this->get__serverClock_11();
 		Il2CppObject* L_3 = ServerValues_GenerateServerValues_m4030311363(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		V_1 = L_3;
 		V_2 = ((int64_t)std::numeric_limits<int64_t>::min());
@@ -19692,7 +19692,7 @@ IL_0052:
 			UserWriteRecord_t388677579 * L_16 = V_3;
 			NullCheck(L_16);
 			int64_t L_17 = VirtFuncInvoker0< int64_t >::Invoke(4 /* System.Int64 Firebase.Database.Internal.Core.UserWriteRecord::GetWriteId() */, L_16);
-			__this->set__nextWriteId_13(((int64_t)((int64_t)L_17+(int64_t)(((int64_t)((int64_t)1))))));
+			__this->set__nextWriteId_17(((int64_t)((int64_t)L_17+(int64_t)(((int64_t)((int64_t)1))))));
 			UserWriteRecord_t388677579 * L_18 = V_3;
 			NullCheck(L_18);
 			bool L_19 = VirtFuncInvoker0< bool >::Invoke(8 /* System.Boolean Firebase.Database.Internal.Core.UserWriteRecord::IsOverwrite() */, L_18);
@@ -19704,7 +19704,7 @@ IL_0052:
 
 IL_0073:
 		{
-			LogWrapper_t438307305 * L_20 = __this->get__operationLogger_5();
+			LogWrapper_t438307305 * L_20 = __this->get__operationLogger_9();
 			NullCheck(L_20);
 			bool L_21 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean Firebase.Database.Internal.Logging.LogWrapper::LogsDebug() */, L_20);
 			if (!L_21)
@@ -19715,7 +19715,7 @@ IL_0073:
 
 IL_0083:
 		{
-			LogWrapper_t438307305 * L_22 = __this->get__operationLogger_5();
+			LogWrapper_t438307305 * L_22 = __this->get__operationLogger_9();
 			UserWriteRecord_t388677579 * L_23 = V_3;
 			NullCheck(L_23);
 			int64_t L_24 = VirtFuncInvoker0< int64_t >::Invoke(4 /* System.Int64 Firebase.Database.Internal.Core.UserWriteRecord::GetWriteId() */, L_23);
@@ -19729,7 +19729,7 @@ IL_0083:
 
 IL_00a9:
 		{
-			PersistentConnection_t1904999661 * L_28 = __this->get__connection_0();
+			PersistentConnection_t1904999661 * L_28 = __this->get__connection_4();
 			UserWriteRecord_t388677579 * L_29 = V_3;
 			NullCheck(L_29);
 			Path_t2568473163 * L_30 = VirtFuncInvoker0< Path_t2568473163 * >::Invoke(5 /* Firebase.Database.Internal.Core.Path Firebase.Database.Internal.Core.UserWriteRecord::GetPath() */, L_29);
@@ -19749,7 +19749,7 @@ IL_00a9:
 			Il2CppObject* L_38 = V_1;
 			Node_t2640059010 * L_39 = ServerValues_ResolveDeferredValueSnapshot_m3186508201(NULL /*static, unused*/, L_37, L_38, /*hidden argument*/NULL);
 			V_6 = L_39;
-			SyncTree_t528142079 * L_40 = __this->get__serverSyncTree_15();
+			SyncTree_t528142079 * L_40 = __this->get__serverSyncTree_19();
 			UserWriteRecord_t388677579 * L_41 = V_3;
 			NullCheck(L_41);
 			Path_t2568473163 * L_42 = VirtFuncInvoker0< Path_t2568473163 * >::Invoke(5 /* Firebase.Database.Internal.Core.Path Firebase.Database.Internal.Core.UserWriteRecord::GetPath() */, L_41);
@@ -19767,7 +19767,7 @@ IL_00a9:
 
 IL_0102:
 		{
-			LogWrapper_t438307305 * L_48 = __this->get__operationLogger_5();
+			LogWrapper_t438307305 * L_48 = __this->get__operationLogger_9();
 			NullCheck(L_48);
 			bool L_49 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean Firebase.Database.Internal.Logging.LogWrapper::LogsDebug() */, L_48);
 			if (!L_49)
@@ -19778,7 +19778,7 @@ IL_0102:
 
 IL_0112:
 		{
-			LogWrapper_t438307305 * L_50 = __this->get__operationLogger_5();
+			LogWrapper_t438307305 * L_50 = __this->get__operationLogger_9();
 			UserWriteRecord_t388677579 * L_51 = V_3;
 			NullCheck(L_51);
 			int64_t L_52 = VirtFuncInvoker0< int64_t >::Invoke(4 /* System.Int64 Firebase.Database.Internal.Core.UserWriteRecord::GetWriteId() */, L_51);
@@ -19792,7 +19792,7 @@ IL_0112:
 
 IL_0138:
 		{
-			PersistentConnection_t1904999661 * L_56 = __this->get__connection_0();
+			PersistentConnection_t1904999661 * L_56 = __this->get__connection_4();
 			UserWriteRecord_t388677579 * L_57 = V_3;
 			NullCheck(L_57);
 			Path_t2568473163 * L_58 = VirtFuncInvoker0< Path_t2568473163 * >::Invoke(5 /* Firebase.Database.Internal.Core.Path Firebase.Database.Internal.Core.UserWriteRecord::GetPath() */, L_57);
@@ -19812,7 +19812,7 @@ IL_0138:
 			Il2CppObject* L_66 = V_1;
 			CompoundWrite_t496419158 * L_67 = ServerValues_ResolveDeferredValueMerge_m3273262185(NULL /*static, unused*/, L_65, L_66, /*hidden argument*/NULL);
 			V_7 = L_67;
-			SyncTree_t528142079 * L_68 = __this->get__serverSyncTree_15();
+			SyncTree_t528142079 * L_68 = __this->get__serverSyncTree_19();
 			UserWriteRecord_t388677579 * L_69 = V_3;
 			NullCheck(L_69);
 			Path_t2568473163 * L_70 = VirtFuncInvoker0< Path_t2568473163 * >::Invoke(5 /* Firebase.Database.Internal.Core.Path Firebase.Database.Internal.Core.UserWriteRecord::GetPath() */, L_69);
@@ -19886,7 +19886,7 @@ IL_01ab:
 extern "C"  String_t* Repo_ToString_m2845966028 (Repo_t1244308462 * __this, const MethodInfo* method)
 {
 	{
-		RepoInfo_t4079583710 * L_0 = __this->get__repoInfo_6();
+		RepoInfo_t4079583710 * L_0 = __this->get__repoInfo_10();
 		NullCheck(L_0);
 		String_t* L_1 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_0);
 		return L_1;
@@ -19902,10 +19902,10 @@ extern "C"  void Repo_ScheduleNow_m4057318837 (Repo_t1244308462 * __this, Il2Cpp
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		Context_t3486154757 * L_0 = __this->get__ctx_1();
+		Context_t3486154757 * L_0 = __this->get__ctx_5();
 		NullCheck(L_0);
 		VirtActionInvoker0::Invoke(5 /* System.Void Firebase.Database.Internal.Core.Context::RequireStarted() */, L_0);
-		Context_t3486154757 * L_1 = __this->get__ctx_1();
+		Context_t3486154757 * L_1 = __this->get__ctx_5();
 		NullCheck(L_1);
 		Il2CppObject * L_2 = Context_GetRunLoop_m280295803(L_1, /*hidden argument*/NULL);
 		Il2CppObject * L_3 = ___r0;
@@ -19924,10 +19924,10 @@ extern "C"  void Repo_PostEvent_m1361361440 (Repo_t1244308462 * __this, Il2CppOb
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		Context_t3486154757 * L_0 = __this->get__ctx_1();
+		Context_t3486154757 * L_0 = __this->get__ctx_5();
 		NullCheck(L_0);
 		VirtActionInvoker0::Invoke(5 /* System.Void Firebase.Database.Internal.Core.Context::RequireStarted() */, L_0);
-		Context_t3486154757 * L_1 = __this->get__ctx_1();
+		Context_t3486154757 * L_1 = __this->get__ctx_5();
 		NullCheck(L_1);
 		Il2CppObject * L_2 = VirtFuncInvoker0< Il2CppObject * >::Invoke(10 /* Firebase.Database.Core.IEventTarget Firebase.Database.Internal.Core.Context::GetEventTarget() */, L_1);
 		Il2CppObject * L_3 = ___r0;
@@ -20040,10 +20040,10 @@ IL_0018:
 	{
 		DatabaseError_t1067746743 * L_3 = ___error2;
 		V_0 = (bool)((((Il2CppObject*)(DatabaseError_t1067746743 *)L_3) == ((Il2CppObject*)(Il2CppObject *)NULL))? 1 : 0);
-		SyncTree_t528142079 * L_4 = __this->get__serverSyncTree_15();
+		SyncTree_t528142079 * L_4 = __this->get__serverSyncTree_19();
 		int64_t L_5 = ___writeId0;
 		bool L_6 = V_0;
-		OffsetClock_t3991894683 * L_7 = __this->get__serverClock_7();
+		OffsetClock_t3991894683 * L_7 = __this->get__serverClock_11();
 		NullCheck(L_4);
 		Il2CppObject* L_8 = VirtFuncInvoker4< Il2CppObject*, int64_t, bool, bool, Il2CppObject * >::Invoke(6 /* System.Collections.Generic.IList`1<Firebase.Database.Internal.Core.View.Event> Firebase.Database.Internal.Core.SyncTree::AckUserWrite(System.Int64,System.Boolean,System.Boolean,Firebase.Database.Internal.Utilities.IClock) */, L_4, L_5, (bool)((((int32_t)L_6) == ((int32_t)0))? 1 : 0), (bool)1, L_7);
 		V_1 = L_8;
@@ -20086,7 +20086,7 @@ extern "C"  void Repo_SetValue_m2691611121 (Repo_t1244308462 * __this, Path_t256
 	Il2CppObject* V_3 = NULL;
 	Path_t2568473163 * V_4 = NULL;
 	{
-		LogWrapper_t438307305 * L_0 = __this->get__operationLogger_5();
+		LogWrapper_t438307305 * L_0 = __this->get__operationLogger_9();
 		NullCheck(L_0);
 		bool L_1 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean Firebase.Database.Internal.Logging.LogWrapper::LogsDebug() */, L_0);
 		if (!L_1)
@@ -20095,7 +20095,7 @@ extern "C"  void Repo_SetValue_m2691611121 (Repo_t1244308462 * __this, Path_t256
 		}
 	}
 	{
-		LogWrapper_t438307305 * L_2 = __this->get__operationLogger_5();
+		LogWrapper_t438307305 * L_2 = __this->get__operationLogger_9();
 		Path_t2568473163 * L_3 = ___path0;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_4 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral1568059044, L_3, /*hidden argument*/NULL);
@@ -20105,7 +20105,7 @@ extern "C"  void Repo_SetValue_m2691611121 (Repo_t1244308462 * __this, Path_t256
 
 IL_002c:
 	{
-		LogWrapper_t438307305 * L_5 = __this->get__dataLogger_3();
+		LogWrapper_t438307305 * L_5 = __this->get__dataLogger_7();
 		NullCheck(L_5);
 		bool L_6 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean Firebase.Database.Internal.Logging.LogWrapper::LogsDebug() */, L_5);
 		if (!L_6)
@@ -20114,7 +20114,7 @@ IL_002c:
 		}
 	}
 	{
-		LogWrapper_t438307305 * L_7 = __this->get__dataLogger_3();
+		LogWrapper_t438307305 * L_7 = __this->get__dataLogger_7();
 		ObjectU5BU5D_t3614634134* L_8 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)4));
 		NullCheck(L_8);
 		ArrayElementTypeCheck (L_8, _stringLiteral1568059044);
@@ -20141,7 +20141,7 @@ IL_002c:
 
 IL_0070:
 	{
-		OffsetClock_t3991894683 * L_15 = __this->get__serverClock_7();
+		OffsetClock_t3991894683 * L_15 = __this->get__serverClock_11();
 		Il2CppObject* L_16 = ServerValues_GenerateServerValues_m4030311363(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
 		V_0 = L_16;
 		Node_t2640059010 * L_17 = ___newValueUnresolved1;
@@ -20150,7 +20150,7 @@ IL_0070:
 		V_1 = L_19;
 		int64_t L_20 = Repo_GetNextWriteId_m4287936085(__this, /*hidden argument*/NULL);
 		V_2 = L_20;
-		SyncTree_t528142079 * L_21 = __this->get__serverSyncTree_15();
+		SyncTree_t528142079 * L_21 = __this->get__serverSyncTree_19();
 		Path_t2568473163 * L_22 = ___path0;
 		Node_t2640059010 * L_23 = ___newValueUnresolved1;
 		Node_t2640059010 * L_24 = V_1;
@@ -20160,7 +20160,7 @@ IL_0070:
 		V_3 = L_26;
 		Il2CppObject* L_27 = V_3;
 		Repo_PostEvents_TisEvent_t732806402_m1493994902(__this, L_27, /*hidden argument*/Repo_PostEvents_TisEvent_t732806402_m1493994902_MethodInfo_var);
-		PersistentConnection_t1904999661 * L_28 = __this->get__connection_0();
+		PersistentConnection_t1904999661 * L_28 = __this->get__connection_4();
 		Path_t2568473163 * L_29 = ___path0;
 		NullCheck(L_29);
 		Il2CppObject* L_30 = VirtFuncInvoker0< Il2CppObject* >::Invoke(12 /* System.Collections.Generic.IList`1<System.String> Firebase.Database.Internal.Core.Path::AsList() */, L_29);
@@ -20210,7 +20210,7 @@ extern "C"  void Repo_RemoveEventCallback_m3307745599 (Repo_t1244308462 * __this
 		}
 	}
 	{
-		SyncTree_t528142079 * L_6 = __this->get__infoSyncTree_11();
+		SyncTree_t528142079 * L_6 = __this->get__infoSyncTree_15();
 		EventRegistration_t4222917807 * L_7 = ___eventRegistration0;
 		NullCheck(L_6);
 		Il2CppObject* L_8 = VirtFuncInvoker1< Il2CppObject*, EventRegistration_t4222917807 * >::Invoke(16 /* System.Collections.Generic.IList`1<Firebase.Database.Internal.Core.View.Event> Firebase.Database.Internal.Core.SyncTree::RemoveEventRegistration(Firebase.Database.Internal.Core.EventRegistration) */, L_6, L_7);
@@ -20220,7 +20220,7 @@ extern "C"  void Repo_RemoveEventCallback_m3307745599 (Repo_t1244308462 * __this
 
 IL_0031:
 	{
-		SyncTree_t528142079 * L_9 = __this->get__serverSyncTree_15();
+		SyncTree_t528142079 * L_9 = __this->get__serverSyncTree_19();
 		EventRegistration_t4222917807 * L_10 = ___eventRegistration0;
 		NullCheck(L_9);
 		Il2CppObject* L_11 = VirtFuncInvoker1< Il2CppObject*, EventRegistration_t4222917807 * >::Invoke(16 /* System.Collections.Generic.IList`1<Firebase.Database.Internal.Core.View.Event> Firebase.Database.Internal.Core.SyncTree::RemoveEventRegistration(Firebase.Database.Internal.Core.EventRegistration) */, L_9, L_10);
@@ -20254,7 +20254,7 @@ extern "C"  void Repo_Interrupt_m432743614 (Repo_t1244308462 * __this, const Met
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		PersistentConnection_t1904999661 * L_0 = __this->get__connection_0();
+		PersistentConnection_t1904999661 * L_0 = __this->get__connection_4();
 		NullCheck(L_0);
 		VirtActionInvoker1< String_t* >::Invoke(11 /* System.Void Firebase.Database.Internal.Connection.PersistentConnection::Interrupt(System.String) */, L_0, _stringLiteral306782870);
 		return;
@@ -20270,7 +20270,7 @@ extern "C"  void Repo_Resume_m3387495130 (Repo_t1244308462 * __this, const Metho
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		PersistentConnection_t1904999661 * L_0 = __this->get__connection_0();
+		PersistentConnection_t1904999661 * L_0 = __this->get__connection_4();
 		NullCheck(L_0);
 		VirtActionInvoker1< String_t* >::Invoke(12 /* System.Void Firebase.Database.Internal.Connection.PersistentConnection::Resume(System.String) */, L_0, _stringLiteral306782870);
 		return;
@@ -20314,7 +20314,7 @@ extern "C"  void Repo_AddEventCallback_m3722866814 (Repo_t1244308462 * __this, E
 		}
 	}
 	{
-		SyncTree_t528142079 * L_8 = __this->get__infoSyncTree_11();
+		SyncTree_t528142079 * L_8 = __this->get__infoSyncTree_15();
 		EventRegistration_t4222917807 * L_9 = ___eventRegistration0;
 		NullCheck(L_8);
 		Il2CppObject* L_10 = VirtFuncInvoker1< Il2CppObject*, EventRegistration_t4222917807 * >::Invoke(15 /* System.Collections.Generic.IList`1<Firebase.Database.Internal.Core.View.DataEvent> Firebase.Database.Internal.Core.SyncTree::AddEventRegistration(Firebase.Database.Internal.Core.EventRegistration) */, L_8, L_9);
@@ -20324,7 +20324,7 @@ extern "C"  void Repo_AddEventCallback_m3722866814 (Repo_t1244308462 * __this, E
 
 IL_0039:
 	{
-		SyncTree_t528142079 * L_11 = __this->get__serverSyncTree_15();
+		SyncTree_t528142079 * L_11 = __this->get__serverSyncTree_19();
 		EventRegistration_t4222917807 * L_12 = ___eventRegistration0;
 		NullCheck(L_11);
 		Il2CppObject* L_13 = VirtFuncInvoker1< Il2CppObject*, EventRegistration_t4222917807 * >::Invoke(15 /* System.Collections.Generic.IList`1<Firebase.Database.Internal.Core.View.DataEvent> Firebase.Database.Internal.Core.SyncTree::AddEventRegistration(Firebase.Database.Internal.Core.EventRegistration) */, L_11, L_12);
@@ -20369,7 +20369,7 @@ extern "C"  void Repo_UpdateInfo_m804342616 (Repo_t1244308462 * __this, ChildKey
 		}
 	}
 	{
-		OffsetClock_t3991894683 * L_3 = __this->get__serverClock_7();
+		OffsetClock_t3991894683 * L_3 = __this->get__serverClock_11();
 		Il2CppObject * L_4 = ___value1;
 		NullCheck(L_3);
 		VirtActionInvoker1< int64_t >::Invoke(6 /* System.Void Firebase.Database.Internal.Utilities.OffsetClock::SetOffset(System.Int64) */, L_3, ((*(int64_t*)((int64_t*)UnBox(L_4, Int64_t909078037_il2cpp_TypeInfo_var)))));
@@ -20399,12 +20399,12 @@ IL_0039:
 		Il2CppObject * L_10 = ___value1;
 		Node_t2640059010 * L_11 = NodeUtilities_NodeFromJson_m1362701318(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
 		V_1 = L_11;
-		SnapshotHolder_t2504102480 * L_12 = __this->get__infoData_10();
+		SnapshotHolder_t2504102480 * L_12 = __this->get__infoData_14();
 		Path_t2568473163 * L_13 = V_0;
 		Node_t2640059010 * L_14 = V_1;
 		NullCheck(L_12);
 		VirtActionInvoker2< Path_t2568473163 *, Node_t2640059010 * >::Invoke(6 /* System.Void Firebase.Database.Internal.Core.SnapshotHolder::Update(Firebase.Database.Internal.Core.Path,Firebase.Database.Internal.Snapshot.Node) */, L_12, L_13, L_14);
-		SyncTree_t528142079 * L_15 = __this->get__infoSyncTree_11();
+		SyncTree_t528142079 * L_15 = __this->get__infoSyncTree_15();
 		Path_t2568473163 * L_16 = V_0;
 		Node_t2640059010 * L_17 = V_1;
 		NullCheck(L_15);
@@ -20425,7 +20425,7 @@ IL_0039:
 CATCH_0067:
 	{ // begin catch(Firebase.Database.DatabaseException)
 		V_3 = ((DatabaseException_t1509032028 *)__exception_local);
-		LogWrapper_t438307305 * L_20 = __this->get__operationLogger_5();
+		LogWrapper_t438307305 * L_20 = __this->get__operationLogger_9();
 		DatabaseException_t1509032028 * L_21 = V_3;
 		NullCheck(L_20);
 		VirtActionInvoker2< String_t*, Exception_t1927440687 * >::Invoke(4 /* System.Void Firebase.Database.Internal.Logging.LogWrapper::Error(System.String,System.Exception) */, L_20, _stringLiteral4067996290, L_21);
@@ -20442,10 +20442,10 @@ extern "C"  int64_t Repo_GetNextWriteId_m4287936085 (Repo_t1244308462 * __this, 
 {
 	int64_t V_0 = 0;
 	{
-		int64_t L_0 = __this->get__nextWriteId_13();
+		int64_t L_0 = __this->get__nextWriteId_17();
 		int64_t L_1 = L_0;
 		V_0 = L_1;
-		__this->set__nextWriteId_13(((int64_t)((int64_t)L_1+(int64_t)(((int64_t)((int64_t)1))))));
+		__this->set__nextWriteId_17(((int64_t)((int64_t)L_1+(int64_t)(((int64_t)((int64_t)1))))));
 		int64_t L_2 = V_0;
 		return L_2;
 	}
@@ -20463,10 +20463,10 @@ extern "C"  void Repo_RunOnDisconnectEvents_m4165443366 (Repo_t1244308462 * __th
 	SparseSnapshotTree_t504080338 * V_1 = NULL;
 	Il2CppObject* V_2 = NULL;
 	{
-		OffsetClock_t3991894683 * L_0 = __this->get__serverClock_7();
+		OffsetClock_t3991894683 * L_0 = __this->get__serverClock_11();
 		Il2CppObject* L_1 = ServerValues_GenerateServerValues_m4030311363(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
-		SparseSnapshotTree_t504080338 * L_2 = __this->get__onDisconnectTree_14();
+		SparseSnapshotTree_t504080338 * L_2 = __this->get__onDisconnectTree_18();
 		Il2CppObject* L_3 = V_0;
 		SparseSnapshotTree_t504080338 * L_4 = ServerValues_ResolveDeferredValueTree_m2032426391(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
 		V_1 = L_4;
@@ -20483,7 +20483,7 @@ extern "C"  void Repo_RunOnDisconnectEvents_m4165443366 (Repo_t1244308462 * __th
 		VirtActionInvoker2< Path_t2568473163 *, Il2CppObject * >::Invoke(5 /* System.Void Firebase.Database.Internal.Core.SparseSnapshotTree::ForEachTree(Firebase.Database.Internal.Core.Path,Firebase.Database.Internal.Core.SparseSnapshotTree/ISparseSnapshotTreeVisitor) */, L_6, L_7, L_9);
 		SparseSnapshotTree_t504080338 * L_10 = (SparseSnapshotTree_t504080338 *)il2cpp_codegen_object_new(SparseSnapshotTree_t504080338_il2cpp_TypeInfo_var);
 		SparseSnapshotTree__ctor_m907600737(L_10, /*hidden argument*/NULL);
-		__this->set__onDisconnectTree_14(L_10);
+		__this->set__onDisconnectTree_18(L_10);
 		Il2CppObject* L_11 = V_2;
 		Repo_PostEvents_TisEvent_t732806402_m1493994902(__this, L_11, /*hidden argument*/Repo_PostEvents_TisEvent_t732806402_m1493994902_MethodInfo_var);
 		return;
@@ -20524,7 +20524,7 @@ extern "C"  void Repo_WarnIfWriteFailed_m3187740324 (Repo_t1244308462 * __this, 
 		}
 	}
 	{
-		LogWrapper_t438307305 * L_5 = __this->get__operationLogger_5();
+		LogWrapper_t438307305 * L_5 = __this->get__operationLogger_9();
 		ObjectU5BU5D_t3614634134* L_6 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)5));
 		String_t* L_7 = ___writeType0;
 		NullCheck(L_6);
@@ -20591,7 +20591,7 @@ extern "C"  void Repo_StartTransaction_m2931825220 (Repo_t1244308462 * __this, P
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		LogWrapper_t438307305 * L_0 = __this->get__operationLogger_5();
+		LogWrapper_t438307305 * L_0 = __this->get__operationLogger_9();
 		NullCheck(L_0);
 		bool L_1 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean Firebase.Database.Internal.Logging.LogWrapper::LogsDebug() */, L_0);
 		if (!L_1)
@@ -20600,7 +20600,7 @@ extern "C"  void Repo_StartTransaction_m2931825220 (Repo_t1244308462 * __this, P
 		}
 	}
 	{
-		LogWrapper_t438307305 * L_2 = __this->get__operationLogger_5();
+		LogWrapper_t438307305 * L_2 = __this->get__operationLogger_9();
 		Path_t2568473163 * L_3 = ___path0;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_4 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral1630391780, L_3, /*hidden argument*/NULL);
@@ -20610,7 +20610,7 @@ extern "C"  void Repo_StartTransaction_m2931825220 (Repo_t1244308462 * __this, P
 
 IL_002c:
 	{
-		LogWrapper_t438307305 * L_5 = __this->get__dataLogger_3();
+		LogWrapper_t438307305 * L_5 = __this->get__dataLogger_7();
 		NullCheck(L_5);
 		bool L_6 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean Firebase.Database.Internal.Logging.LogWrapper::LogsDebug() */, L_5);
 		if (!L_6)
@@ -20619,7 +20619,7 @@ IL_002c:
 		}
 	}
 	{
-		LogWrapper_t438307305 * L_7 = __this->get__operationLogger_5();
+		LogWrapper_t438307305 * L_7 = __this->get__operationLogger_9();
 		Path_t2568473163 * L_8 = ___path0;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_9 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral1630391780, L_8, /*hidden argument*/NULL);
@@ -20629,7 +20629,7 @@ IL_002c:
 
 IL_0058:
 	{
-		Context_t3486154757 * L_10 = __this->get__ctx_1();
+		Context_t3486154757 * L_10 = __this->get__ctx_5();
 		NullCheck(L_10);
 		bool L_11 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean Firebase.Database.Internal.Core.Context::IsPersistenceEnabled() */, L_10);
 		if (!L_11)
@@ -20638,15 +20638,15 @@ IL_0058:
 		}
 	}
 	{
-		bool L_12 = __this->get__loggedTransactionPersistenceWarning_12();
+		bool L_12 = __this->get__loggedTransactionPersistenceWarning_16();
 		if (L_12)
 		{
 			goto IL_008a;
 		}
 	}
 	{
-		__this->set__loggedTransactionPersistenceWarning_12((bool)1);
-		LogWrapper_t438307305 * L_13 = __this->get__transactionLogger_8();
+		__this->set__loggedTransactionPersistenceWarning_16((bool)1);
+		LogWrapper_t438307305 * L_13 = __this->get__transactionLogger_12();
 		NullCheck(L_13);
 		VirtActionInvoker1< String_t* >::Invoke(7 /* System.Void Firebase.Database.Internal.Logging.LogWrapper::Info(System.String) */, L_13, _stringLiteral3461821002);
 	}
@@ -20656,7 +20656,7 @@ IL_008a:
 		Path_t2568473163 * L_14 = ___path0;
 		DatabaseReference_t1167676104 * L_15 = InternalHelpers_CreateReference_m2112627482(NULL /*static, unused*/, __this, L_14, /*hidden argument*/NULL);
 		V_0 = L_15;
-		EventHandler_1_t3816151702 * L_16 = ((Repo_t1244308462_StaticFields*)Repo_t1244308462_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_19();
+		EventHandler_1_t3816151702 * L_16 = ((Repo_t1244308462_StaticFields*)Repo_t1244308462_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_23();
 		if (L_16)
 		{
 			goto IL_00aa;
@@ -20667,12 +20667,12 @@ IL_008a:
 		L_17.set_m_value_0((void*)(void*)Repo_U3CStartTransactionU3Em__0_m3611178866_MethodInfo_var);
 		EventHandler_1_t3816151702 * L_18 = (EventHandler_1_t3816151702 *)il2cpp_codegen_object_new(EventHandler_1_t3816151702_il2cpp_TypeInfo_var);
 		EventHandler_1__ctor_m2538435635(L_18, NULL, L_17, /*hidden argument*/EventHandler_1__ctor_m2538435635_MethodInfo_var);
-		((Repo_t1244308462_StaticFields*)Repo_t1244308462_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache0_19(L_18);
+		((Repo_t1244308462_StaticFields*)Repo_t1244308462_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache0_23(L_18);
 	}
 
 IL_00aa:
 	{
-		EventHandler_1_t3816151702 * L_19 = ((Repo_t1244308462_StaticFields*)Repo_t1244308462_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_19();
+		EventHandler_1_t3816151702 * L_19 = ((Repo_t1244308462_StaticFields*)Repo_t1244308462_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_23();
 		V_1 = L_19;
 		EventHandler_1_t3816151702 * L_20 = V_1;
 		DatabaseReference_t1167676104 * L_21 = V_0;
@@ -20791,7 +20791,7 @@ IL_016c:
 		TransactionData_t2143512465 * L_58 = V_2;
 		NullCheck(L_58);
 		L_58->set_Status_11(1);
-		Tree_1_t3109747774 * L_59 = __this->get__transactionQueueTree_17();
+		Tree_1_t3109747774 * L_59 = __this->get__transactionQueueTree_21();
 		Path_t2568473163 * L_60 = ___path0;
 		NullCheck(L_59);
 		Tree_1_t3109747774 * L_61 = VirtFuncInvoker1< Tree_1_t3109747774 *, Path_t2568473163 * >::Invoke(4 /* Firebase.Database.Internal.Core.Utilities.Tree`1<T> Firebase.Database.Internal.Core.Utilities.Tree`1<System.Collections.Generic.IList`1<Firebase.Database.Internal.Core.Repo/TransactionData>>::SubTree(Firebase.Database.Internal.Core.Path) */, L_59, L_60);
@@ -20822,7 +20822,7 @@ IL_0198:
 		Il2CppObject* L_69 = V_11;
 		NullCheck(L_68);
 		VirtActionInvoker1< Il2CppObject* >::Invoke(6 /* System.Void Firebase.Database.Internal.Core.Utilities.Tree`1<System.Collections.Generic.IList`1<Firebase.Database.Internal.Core.Repo/TransactionData>>::SetValue(T) */, L_68, L_69);
-		OffsetClock_t3991894683 * L_70 = __this->get__serverClock_7();
+		OffsetClock_t3991894683 * L_70 = __this->get__serverClock_11();
 		Il2CppObject* L_71 = ServerValues_GenerateServerValues_m4030311363(NULL /*static, unused*/, L_70, /*hidden argument*/NULL);
 		V_12 = L_71;
 		TransactionResult_t3107513211 * L_72 = V_6;
@@ -20845,7 +20845,7 @@ IL_0198:
 		int64_t L_82 = Repo_GetNextWriteId_m4287936085(__this, /*hidden argument*/NULL);
 		NullCheck(L_81);
 		L_81->set_CurrentWriteId_5(L_82);
-		SyncTree_t528142079 * L_83 = __this->get__serverSyncTree_15();
+		SyncTree_t528142079 * L_83 = __this->get__serverSyncTree_19();
 		Path_t2568473163 * L_84 = ___path0;
 		Node_t2640059010 * L_85 = V_13;
 		Node_t2640059010 * L_86 = V_14;
@@ -20894,7 +20894,7 @@ extern "C"  Node_t2640059010 * Repo_GetLatestState_m1321842707 (Repo_t1244308462
 	}
 	Node_t2640059010 * V_0 = NULL;
 	{
-		SyncTree_t528142079 * L_0 = __this->get__serverSyncTree_15();
+		SyncTree_t528142079 * L_0 = __this->get__serverSyncTree_19();
 		Path_t2568473163 * L_1 = ___path0;
 		Il2CppObject* L_2 = ___excudeSets1;
 		NullCheck(L_0);
@@ -20923,7 +20923,7 @@ extern "C"  void Repo_SendAllReadyTransactions_m3443316520 (Repo_t1244308462 * _
 {
 	Tree_1_t3109747774 * V_0 = NULL;
 	{
-		Tree_1_t3109747774 * L_0 = __this->get__transactionQueueTree_17();
+		Tree_1_t3109747774 * L_0 = __this->get__transactionQueueTree_21();
 		V_0 = L_0;
 		Tree_1_t3109747774 * L_1 = V_0;
 		Repo_PruneCompletedTransactions_m1648473908(__this, L_1, /*hidden argument*/NULL);
@@ -21211,7 +21211,7 @@ IL_0042:
 		Node_t2640059010 * L_15 = V_3;
 		V_4 = L_15;
 		V_5 = _stringLiteral1234811877;
-		bool L_16 = __this->get__hijackHash_9();
+		bool L_16 = __this->get__hijackHash_13();
 		if (L_16)
 		{
 			goto IL_0068;
@@ -21329,7 +21329,7 @@ IL_00d6:
 		V_9 = L_41;
 		V_10 = __this;
 		Repo_GetNextWriteId_m4287936085(__this, /*hidden argument*/NULL);
-		PersistentConnection_t1904999661 * L_42 = __this->get__connection_0();
+		PersistentConnection_t1904999661 * L_42 = __this->get__connection_4();
 		Path_t2568473163 * L_43 = ___path1;
 		NullCheck(L_43);
 		Il2CppObject* L_44 = VirtFuncInvoker0< Il2CppObject* >::Invoke(12 /* System.Collections.Generic.IList`1<System.String> Firebase.Database.Internal.Core.Path::AsList() */, L_43);
@@ -21452,10 +21452,10 @@ extern "C"  int64_t Repo_NextTransactionOrder_m4245687997 (Repo_t1244308462 * __
 {
 	int64_t V_0 = 0;
 	{
-		int64_t L_0 = __this->get__transactionOrder_16();
+		int64_t L_0 = __this->get__transactionOrder_20();
 		int64_t L_1 = L_0;
 		V_0 = L_1;
-		__this->set__transactionOrder_16(((int64_t)((int64_t)L_1+(int64_t)(((int64_t)((int64_t)1))))));
+		__this->set__transactionOrder_20(((int64_t)((int64_t)L_1+(int64_t)(((int64_t)((int64_t)1))))));
 		int64_t L_2 = V_0;
 		return L_2;
 	}
@@ -21509,7 +21509,7 @@ IL_0000:
 CATCH_0024:
 	{ // begin catch(System.Exception)
 		V_3 = ((Exception_t1927440687 *)__exception_local);
-		LogWrapper_t438307305 * L_8 = __this->get__dataLogger_3();
+		LogWrapper_t438307305 * L_8 = __this->get__dataLogger_7();
 		Exception_t1927440687 * L_9 = V_3;
 		NullCheck(L_9);
 		String_t* L_10 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_9);
@@ -21721,11 +21721,11 @@ IL_0093:
 IL_00ad:
 		{
 			Il2CppObject* L_30 = V_9;
-			SyncTree_t528142079 * L_31 = __this->get__serverSyncTree_15();
+			SyncTree_t528142079 * L_31 = __this->get__serverSyncTree_19();
 			TransactionData_t2143512465 * L_32 = V_4;
 			NullCheck(L_32);
 			int64_t L_33 = L_32->get_CurrentWriteId_5();
-			OffsetClock_t3991894683 * L_34 = __this->get__serverClock_7();
+			OffsetClock_t3991894683 * L_34 = __this->get__serverClock_11();
 			NullCheck(L_31);
 			Il2CppObject* L_35 = VirtFuncInvoker4< Il2CppObject*, int64_t, bool, bool, Il2CppObject * >::Invoke(6 /* System.Collections.Generic.IList`1<Firebase.Database.Internal.Core.View.Event> Firebase.Database.Internal.Core.SyncTree::AckUserWrite(System.Int64,System.Boolean,System.Boolean,Firebase.Database.Internal.Utilities.IClock) */, L_31, L_33, (bool)1, (bool)0, L_34);
 			IL2CPP_RUNTIME_CLASS_INIT(Collections_t4125780067_il2cpp_TypeInfo_var);
@@ -21766,11 +21766,11 @@ IL_00ef:
 			DatabaseError_t1067746743 * L_40 = DatabaseError_FromStatus_m3837676316(NULL /*static, unused*/, _stringLiteral2414647514, /*hidden argument*/NULL);
 			V_8 = L_40;
 			Il2CppObject* L_41 = V_9;
-			SyncTree_t528142079 * L_42 = __this->get__serverSyncTree_15();
+			SyncTree_t528142079 * L_42 = __this->get__serverSyncTree_19();
 			TransactionData_t2143512465 * L_43 = V_4;
 			NullCheck(L_43);
 			int64_t L_44 = L_43->get_CurrentWriteId_5();
-			OffsetClock_t3991894683 * L_45 = __this->get__serverClock_7();
+			OffsetClock_t3991894683 * L_45 = __this->get__serverClock_11();
 			NullCheck(L_42);
 			Il2CppObject* L_46 = VirtFuncInvoker4< Il2CppObject*, int64_t, bool, bool, Il2CppObject * >::Invoke(6 /* System.Collections.Generic.IList`1<Firebase.Database.Internal.Core.View.Event> Firebase.Database.Internal.Core.SyncTree::AckUserWrite(System.Int64,System.Boolean,System.Boolean,Firebase.Database.Internal.Utilities.IClock) */, L_42, L_44, (bool)1, (bool)0, L_45);
 			IL2CPP_RUNTIME_CLASS_INIT(Collections_t4125780067_il2cpp_TypeInfo_var);
@@ -21845,7 +21845,7 @@ IL_0182:
 			NullCheck(L_64);
 			int64_t L_65 = L_64->get_CurrentWriteId_5();
 			V_15 = L_65;
-			OffsetClock_t3991894683 * L_66 = __this->get__serverClock_7();
+			OffsetClock_t3991894683 * L_66 = __this->get__serverClock_11();
 			Il2CppObject* L_67 = ServerValues_GenerateServerValues_m4030311363(NULL /*static, unused*/, L_66, /*hidden argument*/NULL);
 			V_16 = L_67;
 			TransactionResult_t3107513211 * L_68 = V_13;
@@ -21873,7 +21873,7 @@ IL_0182:
 			NullCheck(L_79);
 			InterfaceFuncInvoker1< bool, int64_t >::Invoke(6 /* System.Boolean System.Collections.Generic.ICollection`1<System.Int64>::Remove(!0) */, ICollection_1_t1861153342_il2cpp_TypeInfo_var, L_79, L_80);
 			Il2CppObject* L_81 = V_9;
-			SyncTree_t528142079 * L_82 = __this->get__serverSyncTree_15();
+			SyncTree_t528142079 * L_82 = __this->get__serverSyncTree_19();
 			TransactionData_t2143512465 * L_83 = V_4;
 			NullCheck(L_83);
 			Path_t2568473163 * L_84 = L_83->get_Path_9();
@@ -21890,9 +21890,9 @@ IL_0182:
 			IL2CPP_RUNTIME_CLASS_INIT(Collections_t4125780067_il2cpp_TypeInfo_var);
 			Collections_AddAll_TisEvent_t732806402_m1801710363(NULL /*static, unused*/, L_81, L_91, /*hidden argument*/Collections_AddAll_TisEvent_t732806402_m1801710363_MethodInfo_var);
 			Il2CppObject* L_92 = V_9;
-			SyncTree_t528142079 * L_93 = __this->get__serverSyncTree_15();
+			SyncTree_t528142079 * L_93 = __this->get__serverSyncTree_19();
 			int64_t L_94 = V_15;
-			OffsetClock_t3991894683 * L_95 = __this->get__serverClock_7();
+			OffsetClock_t3991894683 * L_95 = __this->get__serverClock_11();
 			NullCheck(L_93);
 			Il2CppObject* L_96 = VirtFuncInvoker4< Il2CppObject*, int64_t, bool, bool, Il2CppObject * >::Invoke(6 /* System.Collections.Generic.IList`1<Firebase.Database.Internal.Core.View.Event> Firebase.Database.Internal.Core.SyncTree::AckUserWrite(System.Int64,System.Boolean,System.Boolean,Firebase.Database.Internal.Utilities.IClock) */, L_93, L_94, (bool)1, (bool)0, L_95);
 			Collections_AddAll_TisEvent_t732806402_m1801710363(NULL /*static, unused*/, L_92, L_96, /*hidden argument*/Collections_AddAll_TisEvent_t732806402_m1801710363_MethodInfo_var);
@@ -21905,11 +21905,11 @@ IL_0223:
 			DatabaseError_t1067746743 * L_97 = V_12;
 			V_8 = L_97;
 			Il2CppObject* L_98 = V_9;
-			SyncTree_t528142079 * L_99 = __this->get__serverSyncTree_15();
+			SyncTree_t528142079 * L_99 = __this->get__serverSyncTree_19();
 			TransactionData_t2143512465 * L_100 = V_4;
 			NullCheck(L_100);
 			int64_t L_101 = L_100->get_CurrentWriteId_5();
-			OffsetClock_t3991894683 * L_102 = __this->get__serverClock_7();
+			OffsetClock_t3991894683 * L_102 = __this->get__serverClock_11();
 			NullCheck(L_99);
 			Il2CppObject* L_103 = VirtFuncInvoker4< Il2CppObject*, int64_t, bool, bool, Il2CppObject * >::Invoke(6 /* System.Collections.Generic.IList`1<Firebase.Database.Internal.Core.View.Event> Firebase.Database.Internal.Core.SyncTree::AckUserWrite(System.Int64,System.Boolean,System.Boolean,Firebase.Database.Internal.Utilities.IClock) */, L_99, L_101, (bool)1, (bool)0, L_102);
 			IL2CPP_RUNTIME_CLASS_INIT(Collections_t4125780067_il2cpp_TypeInfo_var);
@@ -22015,7 +22015,7 @@ IL_02cd:
 
 IL_02ce:
 	{
-		Tree_1_t3109747774 * L_128 = __this->get__transactionQueueTree_17();
+		Tree_1_t3109747774 * L_128 = __this->get__transactionQueueTree_21();
 		Repo_PruneCompletedTransactions_m1648473908(__this, L_128, /*hidden argument*/NULL);
 		V_23 = 0;
 		goto IL_02f6;
@@ -22059,7 +22059,7 @@ extern "C"  Tree_1_t3109747774 * Repo_GetAncestorTransactionNode_m4265962651 (Re
 	}
 	Tree_1_t3109747774 * V_0 = NULL;
 	{
-		Tree_1_t3109747774 * L_0 = __this->get__transactionQueueTree_17();
+		Tree_1_t3109747774 * L_0 = __this->get__transactionQueueTree_21();
 		V_0 = L_0;
 		goto IL_002f;
 	}
@@ -22191,7 +22191,7 @@ extern "C"  Path_t2568473163 * Repo_AbortTransactions_m1517130716 (Repo_t1244308
 		NullCheck(L_1);
 		Path_t2568473163 * L_2 = VirtFuncInvoker0< Path_t2568473163 * >::Invoke(7 /* Firebase.Database.Internal.Core.Path Firebase.Database.Internal.Core.Utilities.Tree`1<System.Collections.Generic.IList`1<Firebase.Database.Internal.Core.Repo/TransactionData>>::GetPath() */, L_1);
 		V_0 = L_2;
-		LogWrapper_t438307305 * L_3 = __this->get__transactionLogger_8();
+		LogWrapper_t438307305 * L_3 = __this->get__transactionLogger_12();
 		NullCheck(L_3);
 		bool L_4 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean Firebase.Database.Internal.Logging.LogWrapper::LogsDebug() */, L_3);
 		if (!L_4)
@@ -22200,7 +22200,7 @@ extern "C"  Path_t2568473163 * Repo_AbortTransactions_m1517130716 (Repo_t1244308
 		}
 	}
 	{
-		LogWrapper_t438307305 * L_5 = __this->get__operationLogger_5();
+		LogWrapper_t438307305 * L_5 = __this->get__operationLogger_9();
 		ObjectU5BU5D_t3614634134* L_6 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)4));
 		NullCheck(L_6);
 		ArrayElementTypeCheck (L_6, _stringLiteral218958921);
@@ -22227,7 +22227,7 @@ extern "C"  Path_t2568473163 * Repo_AbortTransactions_m1517130716 (Repo_t1244308
 
 IL_0051:
 	{
-		Tree_1_t3109747774 * L_13 = __this->get__transactionQueueTree_17();
+		Tree_1_t3109747774 * L_13 = __this->get__transactionQueueTree_21();
 		Path_t2568473163 * L_14 = ___path0;
 		NullCheck(L_13);
 		Tree_1_t3109747774 * L_15 = VirtFuncInvoker1< Tree_1_t3109747774 *, Path_t2568473163 * >::Invoke(4 /* Firebase.Database.Internal.Core.Utilities.Tree`1<T> Firebase.Database.Internal.Core.Utilities.Tree`1<System.Collections.Generic.IList`1<Firebase.Database.Internal.Core.Repo/TransactionData>>::SubTree(Firebase.Database.Internal.Core.Path) */, L_13, L_14);
@@ -22390,11 +22390,11 @@ IL_00a0:
 	}
 	{
 		Il2CppObject* L_31 = V_1;
-		SyncTree_t528142079 * L_32 = __this->get__serverSyncTree_15();
+		SyncTree_t528142079 * L_32 = __this->get__serverSyncTree_19();
 		TransactionData_t2143512465 * L_33 = V_6;
 		NullCheck(L_33);
 		int64_t L_34 = L_33->get_CurrentWriteId_5();
-		OffsetClock_t3991894683 * L_35 = __this->get__serverClock_7();
+		OffsetClock_t3991894683 * L_35 = __this->get__serverClock_11();
 		NullCheck(L_32);
 		Il2CppObject* L_36 = VirtFuncInvoker4< Il2CppObject*, int64_t, bool, bool, Il2CppObject * >::Invoke(6 /* System.Collections.Generic.IList`1<Firebase.Database.Internal.Core.View.Event> Firebase.Database.Internal.Core.SyncTree::AckUserWrite(System.Int64,System.Boolean,System.Boolean,Firebase.Database.Internal.Utilities.IClock) */, L_32, L_34, (bool)1, (bool)0, L_35);
 		IL2CPP_RUNTIME_CLASS_INIT(Collections_t4125780067_il2cpp_TypeInfo_var);
@@ -22652,7 +22652,7 @@ extern "C"  void Runnable111_Run_m2050681335 (Runnable111_t498336269 * __this, c
 		NullCheck(L_0);
 		Repo_t1244308462 * L_1 = L_0->get__enclosing_0();
 		NullCheck(L_1);
-		SnapshotHolder_t2504102480 * L_2 = L_1->get__infoData_10();
+		SnapshotHolder_t2504102480 * L_2 = L_1->get__infoData_14();
 		QuerySpec_t377558711 * L_3 = __this->get__query_2();
 		NullCheck(L_3);
 		Path_t2568473163 * L_4 = VirtFuncInvoker0< Path_t2568473163 * >::Invoke(4 /* Firebase.Database.Internal.Core.Path Firebase.Database.Internal.Core.View.QuerySpec::GetPath() */, L_3);
@@ -22672,7 +22672,7 @@ extern "C"  void Runnable111_Run_m2050681335 (Runnable111_t498336269 * __this, c
 		NullCheck(L_8);
 		Repo_t1244308462 * L_9 = L_8->get__enclosing_0();
 		NullCheck(L_9);
-		SyncTree_t528142079 * L_10 = L_9->get__infoSyncTree_11();
+		SyncTree_t528142079 * L_10 = L_9->get__infoSyncTree_15();
 		QuerySpec_t377558711 * L_11 = __this->get__query_2();
 		NullCheck(L_11);
 		Path_t2568473163 * L_12 = VirtFuncInvoker0< Path_t2568473163 * >::Invoke(4 /* Firebase.Database.Internal.Core.Path Firebase.Database.Internal.Core.View.QuerySpec::GetPath() */, L_11);
@@ -22734,7 +22734,7 @@ extern "C"  void ListenProvider131_StartListening_m2334057473 (ListenProvider131
 	{
 		Repo_t1244308462 * L_0 = __this->get__enclosing_0();
 		NullCheck(L_0);
-		PersistentConnection_t1904999661 * L_1 = L_0->get__connection_0();
+		PersistentConnection_t1904999661 * L_1 = L_0->get__connection_4();
 		QuerySpec_t377558711 * L_2 = ___query0;
 		NullCheck(L_2);
 		Path_t2568473163 * L_3 = VirtFuncInvoker0< Path_t2568473163 * >::Invoke(4 /* Firebase.Database.Internal.Core.Path Firebase.Database.Internal.Core.View.QuerySpec::GetPath() */, L_2);
@@ -22802,7 +22802,7 @@ extern "C"  void ListenProvider131_StopListening_m3244886566 (ListenProvider131_
 	{
 		Repo_t1244308462 * L_0 = __this->get__enclosing_0();
 		NullCheck(L_0);
-		PersistentConnection_t1904999661 * L_1 = L_0->get__connection_0();
+		PersistentConnection_t1904999661 * L_1 = L_0->get__connection_4();
 		QuerySpec_t377558711 * L_2 = ___query0;
 		NullCheck(L_2);
 		Path_t2568473163 * L_3 = VirtFuncInvoker0< Path_t2568473163 * >::Invoke(4 /* Firebase.Database.Internal.Core.Path Firebase.Database.Internal.Core.View.QuerySpec::GetPath() */, L_2);
@@ -23049,13 +23049,13 @@ IL_0043:
 			Il2CppObject* L_14 = V_1;
 			Repo_t1244308462 * L_15 = __this->get__enclosing_0();
 			NullCheck(L_15);
-			SyncTree_t528142079 * L_16 = L_15->get__serverSyncTree_15();
+			SyncTree_t528142079 * L_16 = L_15->get__serverSyncTree_19();
 			TransactionData_t2143512465 * L_17 = V_3;
 			NullCheck(L_17);
 			int64_t L_18 = L_17->get_CurrentWriteId_5();
 			Repo_t1244308462 * L_19 = __this->get__enclosing_0();
 			NullCheck(L_19);
-			OffsetClock_t3991894683 * L_20 = L_19->get__serverClock_7();
+			OffsetClock_t3991894683 * L_20 = L_19->get__serverClock_11();
 			NullCheck(L_16);
 			Il2CppObject* L_21 = VirtFuncInvoker4< Il2CppObject*, int64_t, bool, bool, Il2CppObject * >::Invoke(6 /* System.Collections.Generic.IList`1<Firebase.Database.Internal.Core.View.Event> Firebase.Database.Internal.Core.SyncTree::AckUserWrite(System.Int64,System.Boolean,System.Boolean,Firebase.Database.Internal.Utilities.IClock) */, L_16, L_18, (bool)0, (bool)0, L_20);
 			IL2CPP_RUNTIME_CLASS_INIT(Collections_t4125780067_il2cpp_TypeInfo_var);
@@ -23151,7 +23151,7 @@ IL_00f8:
 		Repo_t1244308462 * L_47 = __this->get__enclosing_0();
 		Repo_t1244308462 * L_48 = __this->get__enclosing_0();
 		NullCheck(L_48);
-		Tree_1_t3109747774 * L_49 = L_48->get__transactionQueueTree_17();
+		Tree_1_t3109747774 * L_49 = L_48->get__transactionQueueTree_21();
 		Path_t2568473163 * L_50 = __this->get__path_1();
 		NullCheck(L_49);
 		Tree_1_t3109747774 * L_51 = VirtFuncInvoker1< Tree_1_t3109747774 *, Path_t2568473163 * >::Invoke(4 /* Firebase.Database.Internal.Core.Utilities.Tree`1<T> Firebase.Database.Internal.Core.Utilities.Tree`1<System.Collections.Generic.IList`1<Firebase.Database.Internal.Core.Repo/TransactionData>>::SubTree(Firebase.Database.Internal.Core.Path) */, L_49, L_50);
@@ -23636,7 +23636,7 @@ extern "C"  void SparseSnapshotTreeVisitor559_VisitTree_m4240743894 (SparseSnaps
 		Il2CppObject* L_0 = __this->get__events_1();
 		Repo_t1244308462 * L_1 = __this->get__enclosing_0();
 		NullCheck(L_1);
-		SyncTree_t528142079 * L_2 = L_1->get__serverSyncTree_15();
+		SyncTree_t528142079 * L_2 = L_1->get__serverSyncTree_19();
 		Path_t2568473163 * L_3 = ___prefixPath0;
 		Node_t2640059010 * L_4 = ___node1;
 		NullCheck(L_2);
@@ -23677,12 +23677,12 @@ extern "C"  void TokenChangeListener79_OnTokenChange_m1252074463 (TokenChangeLis
 	{
 		Repo_t1244308462 * L_0 = __this->get__enclosing_0();
 		NullCheck(L_0);
-		LogWrapper_t438307305 * L_1 = L_0->get__operationLogger_5();
+		LogWrapper_t438307305 * L_1 = L_0->get__operationLogger_9();
 		NullCheck(L_1);
 		VirtActionInvoker2< String_t*, ObjectU5BU5D_t3614634134* >::Invoke(8 /* System.Void Firebase.Database.Internal.Logging.LogWrapper::Debug(System.String,System.Object[]) */, L_1, _stringLiteral2080503847, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)));
 		Repo_t1244308462 * L_2 = __this->get__enclosing_0();
 		NullCheck(L_2);
-		PersistentConnection_t1904999661 * L_3 = L_2->get__connection_0();
+		PersistentConnection_t1904999661 * L_3 = L_2->get__connection_4();
 		NullCheck(L_3);
 		VirtActionInvoker0::Invoke(5 /* System.Void Firebase.Database.Internal.Connection.PersistentConnection::RefreshAuthToken() */, L_3);
 		return;

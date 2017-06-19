@@ -266,19 +266,33 @@ extern const int32_t g_FieldOffsetTable3332[1] =
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3333 = { 0, -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3334 = { sizeof (U3CModuleU3E_t3783534229), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3335 = { sizeof (DatabaseError_t1067746743), -1, sizeof(DatabaseError_t1067746743_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable3335[5] = 
+extern const int32_t g_FieldOffsetTable3335[18] = 
 {
-	DatabaseError_t1067746743_StaticFields::get_offset_of_ErrorReasons_0(),
-	DatabaseError_t1067746743_StaticFields::get_offset_of_ErrorCodes_1(),
-	DatabaseError_t1067746743::get_offset_of_U3CCodeU3Ek__BackingField_2(),
-	DatabaseError_t1067746743::get_offset_of_U3CMessageU3Ek__BackingField_3(),
-	DatabaseError_t1067746743::get_offset_of_U3CDetailsU3Ek__BackingField_4(),
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	DatabaseError_t1067746743_StaticFields::get_offset_of_ErrorReasons_13(),
+	DatabaseError_t1067746743_StaticFields::get_offset_of_ErrorCodes_14(),
+	DatabaseError_t1067746743::get_offset_of_U3CCodeU3Ek__BackingField_15(),
+	DatabaseError_t1067746743::get_offset_of_U3CMessageU3Ek__BackingField_16(),
+	DatabaseError_t1067746743::get_offset_of_U3CDetailsU3Ek__BackingField_17(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3336 = { sizeof (DatabaseException_t1509032028), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3337 = { sizeof (DatabaseReference_t1167676104), -1, sizeof(DatabaseReference_t1167676104_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable3337[1] = 
+extern const int32_t g_FieldOffsetTable3337[2] = 
 {
-	DatabaseReference_t1167676104_StaticFields::get_offset_of_SSync_4(),
+	DatabaseReference_t1167676104_StaticFields::get_offset_of__defaultConfig_4(),
+	DatabaseReference_t1167676104_StaticFields::get_offset_of_SSync_5(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3338 = { sizeof (TransactionHandlerImpl_t3397811095), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3338[2] = 

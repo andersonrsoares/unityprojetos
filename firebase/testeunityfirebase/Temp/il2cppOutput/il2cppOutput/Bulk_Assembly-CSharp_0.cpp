@@ -35,14 +35,21 @@
 #include "Firebase_Auth_Firebase_Auth_FirebaseUser4046966602.h"
 #include "Firebase_App_Firebase_FirebaseApp210707726.h"
 #include "System_System_Uri19570940.h"
+#include "mscorlib_System_Guid2533601593.h"
 #include "Firebase_Database_Firebase_Database_DatabaseRefere1167676104.h"
 #include "Firebase_App_Firebase_AppOptions1641189195.h"
 #include "mscorlib_System_Boolean3825574718.h"
 #include "Firebase_Database_Firebase_Database_FirebaseDataba1318758358.h"
+#include "mscorlib_System_EventHandler_1_gen3816151702.h"
+#include "Firebase_Database_Firebase_Database_ValueChangedEve929877234.h"
+#include "Firebase_Database_Firebase_Database_Query2792659010.h"
 #include "Unity_Tasks_System_Threading_Tasks_Task_1_gen3166995609.h"
 #include "mscorlib_System_Action_1_gen2968794991.h"
 #include "UnityEngine_UI_UnityEngine_UI_Text356221433.h"
 #include "mscorlib_System_Single2076509932.h"
+#include "Firebase_Database_Firebase_Database_DataSnapshot1287895350.h"
+#include "Firebase_Database_Firebase_Database_DatabaseError1067746743.h"
+#include "mscorlib_System_Int64909078037.h"
 #include "Unity_Tasks_System_AggregateException420812976.h"
 #include "mscorlib_System_Collections_ObjectModel_ReadOnlyCo2113226379.h"
 #include "mscorlib_System_Int322071877448.h"
@@ -72,21 +79,15 @@
 #include "UnityEngine_UnityEngine_Rect3681755626.h"
 #include "AssemblyU2DCSharp_UIHandlerDatabase1454484439.h"
 #include "mscorlib_System_Collections_ArrayList4252133567.h"
-#include "Firebase_Database_Firebase_Database_Query2792659010.h"
-#include "Firebase_Database_Firebase_Database_ValueChangedEve929877234.h"
-#include "mscorlib_System_EventHandler_1_gen3816151702.h"
 #include "Firebase_Database_Firebase_Database_MutableData1171022152.h"
 #include "Firebase_Database_Firebase_Database_TransactionRes3107513211.h"
 #include "mscorlib_System_Collections_Generic_List_1_Enumera1593300101.h"
 #include "mscorlib_System_Collections_Generic_List_1_gen2058570427.h"
-#include "mscorlib_System_Int64909078037.h"
 #include "mscorlib_System_Collections_Generic_Dictionary_2_ge309261261.h"
 #include "System_Core_System_Func_2_gen3583558628.h"
 #include "Unity_Tasks_System_Threading_Tasks_Task_1_gen407924357.h"
 #include "mscorlib_System_Action_1_gen209723739.h"
 #include "UnityEngine_UnityEngine_GUIStyle1799908754.h"
-#include "Firebase_Database_Firebase_Database_DataSnapshot1287895350.h"
-#include "Firebase_Database_Firebase_Database_DatabaseError1067746743.h"
 
 // EmailPassword
 struct EmailPassword_t1050852289;
@@ -126,6 +127,12 @@ struct Uri_t19570940;
 struct FirebaseDatabase_t1318758358;
 // Firebase.Database.DatabaseReference
 struct DatabaseReference_t1167676104;
+// System.EventHandler`1<Firebase.Database.ValueChangedEventArgs>
+struct EventHandler_1_t3816151702;
+// System.EventHandler`1<System.Object>
+struct EventHandler_1_t1280756467;
+// Firebase.Database.Query
+struct Query_t2792659010;
 // System.Threading.Tasks.Task`1<Firebase.Auth.FirebaseUser>
 struct Task_1_t3166995609;
 // System.Action`1<System.Threading.Tasks.Task`1<Firebase.Auth.FirebaseUser>>
@@ -134,6 +141,14 @@ struct Action_1_t2968794991;
 struct Task_1_t1809478302;
 // System.Action`1<System.Threading.Tasks.Task`1<System.Object>>
 struct Action_1_t1611277684;
+// Firebase.Database.ValueChangedEventArgs
+struct ValueChangedEventArgs_t929877234;
+// Firebase.Database.DatabaseError
+struct DatabaseError_t1067746743;
+// Firebase.Database.DataSnapshot
+struct DataSnapshot_t1287895350;
+// System.Collections.Generic.IEnumerable`1<Firebase.Database.DataSnapshot>
+struct IEnumerable_1_t1580022395;
 // System.AggregateException
 struct AggregateException_t420812976;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Exception>
@@ -192,12 +207,6 @@ struct IEnumerable_1_t2321347278;
 struct UIHandlerDatabase_t1454484439;
 // System.Collections.ArrayList
 struct ArrayList_t4252133567;
-// Firebase.Database.Query
-struct Query_t2792659010;
-// System.EventHandler`1<Firebase.Database.ValueChangedEventArgs>
-struct EventHandler_1_t3816151702;
-// System.EventHandler`1<System.Object>
-struct EventHandler_1_t1280756467;
 // Firebase.Database.TransactionResult
 struct TransactionResult_t3107513211;
 // Firebase.Database.MutableData
@@ -214,14 +223,6 @@ struct Task_1_t407924357;
 struct Action_1_t209723739;
 // UnityEngine.GUIStyle
 struct GUIStyle_t1799908754;
-// Firebase.Database.ValueChangedEventArgs
-struct ValueChangedEventArgs_t929877234;
-// Firebase.Database.DatabaseError
-struct DatabaseError_t1067746743;
-// Firebase.Database.DataSnapshot
-struct DataSnapshot_t1287895350;
-// System.Collections.Generic.IEnumerable`1<Firebase.Database.DataSnapshot>
-struct IEnumerable_1_t1580022395;
 extern Il2CppClass* FirebaseAuth_t3105883899_il2cpp_TypeInfo_var;
 extern Il2CppClass* UnityAction_t4025899511_il2cpp_TypeInfo_var;
 extern Il2CppClass* FirebaseApp_t210707726_il2cpp_TypeInfo_var;
@@ -234,9 +235,14 @@ extern Il2CppCodeGenString* _stringLiteral2823196955;
 extern Il2CppCodeGenString* _stringLiteral268038502;
 extern const uint32_t EmailPassword_Start_m3331845256_MetadataUsageId;
 extern Il2CppClass* Uri_t19570940_il2cpp_TypeInfo_var;
-extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
 extern Il2CppClass* FirebaseDatabase_t1318758358_il2cpp_TypeInfo_var;
-extern const MethodInfo* EmailPassword_U3CInitializeFirebaseU3Em__3_m226631299_MethodInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppClass* EmailPassword_t1050852289_il2cpp_TypeInfo_var;
+extern Il2CppClass* EventHandler_1_t3816151702_il2cpp_TypeInfo_var;
+extern Il2CppClass* Guid_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* EmailPassword_U3CInitializeFirebaseU3Em__3_m2766054461_MethodInfo_var;
+extern const MethodInfo* EventHandler_1__ctor_m2538435635_MethodInfo_var;
+extern const MethodInfo* EmailPassword_U3CInitializeFirebaseU3Em__4_m904747070_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral3863994335;
 extern Il2CppCodeGenString* _stringLiteral3055632355;
 extern Il2CppCodeGenString* _stringLiteral3618232171;
@@ -244,38 +250,45 @@ extern Il2CppCodeGenString* _stringLiteral3177231509;
 extern const uint32_t EmailPassword_InitializeFirebase_m321574590_MetadataUsageId;
 extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
 extern Il2CppClass* Action_1_t2968794991_il2cpp_TypeInfo_var;
-extern const MethodInfo* EmailPassword_U3CSignupU3Em__4_m1269515385_MethodInfo_var;
+extern const MethodInfo* EmailPassword_U3CSignupU3Em__5_m2139682970_MethodInfo_var;
 extern const MethodInfo* Action_1__ctor_m2766368593_MethodInfo_var;
 extern const MethodInfo* Task_1_ContinueWith_m386333399_MethodInfo_var;
 extern const uint32_t EmailPassword_Signup_m1440075216_MetadataUsageId;
 extern Il2CppCodeGenString* _stringLiteral228508898;
 extern const uint32_t EmailPassword_UpdateErrorMessage_m3329346748_MetadataUsageId;
 extern const uint32_t EmailPassword_ClearErrorMessage_m1244779168_MetadataUsageId;
-extern const MethodInfo* EmailPassword_U3CLoginU3Em__5_m974205577_MethodInfo_var;
+extern const MethodInfo* EmailPassword_U3CLoginU3Em__6_m2375828366_MethodInfo_var;
 extern const uint32_t EmailPassword_Login_m2383818071_MetadataUsageId;
 extern Il2CppClass* DependencyStatus_t2752419415_il2cpp_TypeInfo_var;
 extern Il2CppCodeGenString* _stringLiteral2130216311;
 extern const uint32_t EmailPassword_U3CStartU3Em__2_m2725668667_MetadataUsageId;
+extern Il2CppClass* IEnumerable_1_t1580022395_il2cpp_TypeInfo_var;
+extern Il2CppClass* IEnumerator_1_t3058386473_il2cpp_TypeInfo_var;
+extern Il2CppClass* IEnumerator_t1466026749_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3383613474;
+extern Il2CppCodeGenString* _stringLiteral3728635759;
+extern Il2CppCodeGenString* _stringLiteral2860140792;
+extern const uint32_t EmailPassword_U3CInitializeFirebaseU3Em__3_m2766054461_MetadataUsageId;
 extern const MethodInfo* ReadOnlyCollection_1_get_Count_m163393604_MethodInfo_var;
 extern const MethodInfo* ReadOnlyCollection_1_get_Item_m497388779_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral3265237248;
 extern Il2CppCodeGenString* _stringLiteral2507547442;
 extern Il2CppCodeGenString* _stringLiteral1649673533;
-extern const uint32_t EmailPassword_U3CInitializeFirebaseU3Em__3_m226631299_MetadataUsageId;
+extern const uint32_t EmailPassword_U3CInitializeFirebaseU3Em__4_m904747070_MetadataUsageId;
 extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
 extern const MethodInfo* Task_1_get_Result_m2363781941_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral3749973865;
 extern Il2CppCodeGenString* _stringLiteral337668623;
 extern Il2CppCodeGenString* _stringLiteral1660759515;
 extern Il2CppCodeGenString* _stringLiteral1223251109;
-extern const uint32_t EmailPassword_U3CSignupU3Em__4_m1269515385_MetadataUsageId;
+extern const uint32_t EmailPassword_U3CSignupU3Em__5_m2139682970_MetadataUsageId;
 extern Il2CppCodeGenString* _stringLiteral423674509;
 extern Il2CppCodeGenString* _stringLiteral2577760112;
 extern Il2CppCodeGenString* _stringLiteral129371911;
 extern Il2CppCodeGenString* _stringLiteral3838720768;
 extern Il2CppCodeGenString* _stringLiteral2846264340;
-extern Il2CppCodeGenString* _stringLiteral3158551413;
-extern const uint32_t EmailPassword_U3CLoginU3Em__5_m974205577_MetadataUsageId;
+extern const uint32_t EmailPassword_U3CLoginU3Em__6_m2375828366_MetadataUsageId;
 extern Il2CppCodeGenString* _stringLiteral163775908;
 extern Il2CppCodeGenString* _stringLiteral3772511958;
 extern const uint32_t LoginResult_Start_m433669029_MetadataUsageId;
@@ -312,8 +325,6 @@ extern Il2CppClass* Boolean_t3825574718_il2cpp_TypeInfo_var;
 extern Il2CppClass* List_1_t892973468_il2cpp_TypeInfo_var;
 extern Il2CppClass* IEnumerable_1_t1815979381_il2cpp_TypeInfo_var;
 extern Il2CppClass* IEnumerator_1_t3294343459_il2cpp_TypeInfo_var;
-extern Il2CppClass* IEnumerator_t1466026749_il2cpp_TypeInfo_var;
-extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
 extern const MethodInfo* List_1__ctor_m3271427054_MethodInfo_var;
 extern const MethodInfo* List_1_get_Count_m1850074456_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral4076187986;
@@ -414,9 +425,7 @@ extern const uint32_t UIHandlerDatabase__ctor_m3975140678_MetadataUsageId;
 extern const MethodInfo* UIHandlerDatabase_U3CStartU3Em__0_m2304740235_MethodInfo_var;
 extern const uint32_t UIHandlerDatabase_Start_m1543841650_MetadataUsageId;
 extern Il2CppClass* ArrayList_t4252133567_il2cpp_TypeInfo_var;
-extern Il2CppClass* EventHandler_1_t3816151702_il2cpp_TypeInfo_var;
 extern const MethodInfo* UIHandlerDatabase_U3CInitializeFirebaseU3Em__1_m2570583209_MethodInfo_var;
-extern const MethodInfo* EventHandler_1__ctor_m2538435635_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral2981325660;
 extern Il2CppCodeGenString* _stringLiteral4078172691;
 extern Il2CppCodeGenString* _stringLiteral1946755020;
@@ -460,9 +469,6 @@ extern const uint32_t UIHandlerDatabase_GUIDisplayControls_m3043555479_MetadataU
 extern const uint32_t UIHandlerDatabase_GUIDisplayLeaders_m3951214919_MetadataUsageId;
 extern const uint32_t UIHandlerDatabase_OnGUI_m1784485022_MetadataUsageId;
 extern const uint32_t UIHandlerDatabase_U3CStartU3Em__0_m2304740235_MetadataUsageId;
-extern Il2CppClass* IEnumerable_1_t1580022395_il2cpp_TypeInfo_var;
-extern Il2CppClass* IEnumerator_1_t3058386473_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral3728635759;
 extern Il2CppCodeGenString* _stringLiteral811305470;
 extern const uint32_t UIHandlerDatabase_U3CInitializeFirebaseU3Em__1_m2570583209_MetadataUsageId;
 extern Il2CppCodeGenString* _stringLiteral409540203;
@@ -546,6 +552,8 @@ public:
 
 // System.Void System.Action`1<System.Object>::.ctor(System.Object,System.IntPtr)
 extern "C"  void Action_1__ctor_m584977596_gshared (Action_1_t2491248677 * __this, Il2CppObject * p0, IntPtr_t p1, const MethodInfo* method);
+// System.Void System.EventHandler`1<System.Object>::.ctor(System.Object,System.IntPtr)
+extern "C"  void EventHandler_1__ctor_m805401670_gshared (EventHandler_1_t1280756467 * __this, Il2CppObject * p0, IntPtr_t p1, const MethodInfo* method);
 // System.Threading.Tasks.Task System.Threading.Tasks.Task`1<System.Object>::ContinueWith(System.Action`1<System.Threading.Tasks.Task`1<!0>>)
 extern "C"  Task_t1843236107 * Task_1_ContinueWith_m1701549383_gshared (Task_1_t1809478302 * __this, Action_1_t1611277684 * p0, const MethodInfo* method);
 // System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Object>::get_Count()
@@ -574,8 +582,6 @@ extern "C"  void Enumerator_Dispose_m1905011127_gshared (Enumerator_t3601534125 
 extern "C"  void List_1__ctor_m2848015482_gshared (List_1_t2058570427 * __this, Il2CppObject* p0, const MethodInfo* method);
 // System.Int32 System.Collections.Generic.List`1<System.Object>::get_Count()
 extern "C"  int32_t List_1_get_Count_m2375293942_gshared (List_1_t2058570427 * __this, const MethodInfo* method);
-// System.Void System.EventHandler`1<System.Object>::.ctor(System.Object,System.IntPtr)
-extern "C"  void EventHandler_1__ctor_m805401670_gshared (EventHandler_1_t1280756467 * __this, Il2CppObject * p0, IntPtr_t p1, const MethodInfo* method);
 // System.Void System.Collections.Generic.List`1<System.Object>::.ctor()
 extern "C"  void List_1__ctor_m310736118_gshared (List_1_t2058570427 * __this, const MethodInfo* method);
 // System.Collections.Generic.List`1/Enumerator<!0> System.Collections.Generic.List`1<System.Object>::GetEnumerator()
@@ -633,14 +639,24 @@ extern "C"  void FirebaseEditorExtensions_SetEditorDatabaseUrl_m100115813 (Il2Cp
 extern "C"  String_t* FirebaseUser_get_UserId_m3056192957 (FirebaseUser_t4046966602 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Firebase.Unity.Editor.FirebaseEditorExtensions::SetEditorAuthUserId(Firebase.FirebaseApp,System.String)
 extern "C"  void FirebaseEditorExtensions_SetEditorAuthUserId_m3947746910 (Il2CppObject * __this /* static, unused */, FirebaseApp_t210707726 * p0, String_t* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Debug::Log(System.Object)
-extern "C"  void Debug_Log_m920475918 (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Firebase.Database.FirebaseDatabase Firebase.Database.FirebaseDatabase::get_DefaultInstance()
 extern "C"  FirebaseDatabase_t1318758358 * FirebaseDatabase_get_DefaultInstance_m2521248777 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Firebase.Database.FirebaseDatabase::GoOnline()
+extern "C"  void FirebaseDatabase_GoOnline_m1041006808 (FirebaseDatabase_t1318758358 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Debug::Log(System.Object)
+extern "C"  void Debug_Log_m920475918 (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Firebase.Database.DatabaseReference Firebase.Database.FirebaseDatabase::get_RootReference()
 extern "C"  DatabaseReference_t1167676104 * FirebaseDatabase_get_RootReference_m3750281036 (FirebaseDatabase_t1318758358 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Firebase.Database.DatabaseReference Firebase.Database.DatabaseReference::Child(System.String)
 extern "C"  DatabaseReference_t1167676104 * DatabaseReference_Child_m662767510 (DatabaseReference_t1167676104 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.EventHandler`1<Firebase.Database.ValueChangedEventArgs>::.ctor(System.Object,System.IntPtr)
+#define EventHandler_1__ctor_m2538435635(__this, p0, p1, method) ((  void (*) (EventHandler_1_t3816151702 *, Il2CppObject *, IntPtr_t, const MethodInfo*))EventHandler_1__ctor_m805401670_gshared)(__this, p0, p1, method)
+// System.Void Firebase.Database.Query::add_ValueChanged(System.EventHandler`1<Firebase.Database.ValueChangedEventArgs>)
+extern "C"  void Query_add_ValueChanged_m1934804924 (Query_t2792659010 * __this, EventHandler_1_t3816151702 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Guid System.Guid::NewGuid()
+extern "C"  Guid_t  Guid_NewGuid_m3493657620 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.Guid::ToString()
+extern "C"  String_t* Guid_ToString_m3927110175 (Guid_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Firebase.Database.DatabaseReference::SetRawJsonValueAsync(System.String)
 extern "C"  Task_t1843236107 * DatabaseReference_SetRawJsonValueAsync_m454025307 (DatabaseReference_t1167676104 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.String::IsNullOrEmpty(System.String)
@@ -665,6 +681,22 @@ extern "C"  void EmailPassword_Login_m2383818071 (EmailPassword_t1050852289 * __
 extern "C"  String_t* String_Concat_m56707527 (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, Il2CppObject * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Debug::LogError(System.Object)
 extern "C"  void Debug_LogError_m3715728798 (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// Firebase.Database.DatabaseError Firebase.Database.ValueChangedEventArgs::get_DatabaseError()
+extern "C"  DatabaseError_t1067746743 * ValueChangedEventArgs_get_DatabaseError_m3460624193 (ValueChangedEventArgs_t929877234 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String Firebase.Database.DatabaseError::get_Message()
+extern "C"  String_t* DatabaseError_get_Message_m4169681475 (DatabaseError_t1067746743 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// Firebase.Database.DataSnapshot Firebase.Database.ValueChangedEventArgs::get_Snapshot()
+extern "C"  DataSnapshot_t1287895350 * ValueChangedEventArgs_get_Snapshot_m3919753613 (ValueChangedEventArgs_t929877234 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int64 Firebase.Database.DataSnapshot::get_ChildrenCount()
+extern "C"  int64_t DataSnapshot_get_ChildrenCount_m4200760517 (DataSnapshot_t1287895350 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Collections.Generic.IEnumerable`1<Firebase.Database.DataSnapshot> Firebase.Database.DataSnapshot::get_Children()
+extern "C"  Il2CppObject* DataSnapshot_get_Children_m1718839175 (DataSnapshot_t1287895350 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// Firebase.Database.DataSnapshot Firebase.Database.DataSnapshot::Child(System.String)
+extern "C"  DataSnapshot_t1287895350 * DataSnapshot_Child_m1976182182 (DataSnapshot_t1287895350 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Object Firebase.Database.DataSnapshot::get_Value()
+extern "C"  Il2CppObject * DataSnapshot_get_Value_m2448007898 (DataSnapshot_t1287895350 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.String::Concat(System.String,System.String)
+extern "C"  String_t* String_Concat_m2596409543 (Il2CppObject * __this /* static, unused */, String_t* p0, String_t* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Threading.Tasks.Task::get_IsCanceled()
 extern "C"  bool Task_get_IsCanceled_m2175387222 (Task_t1843236107 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Threading.Tasks.Task::get_IsFaulted()
@@ -691,12 +723,8 @@ extern "C"  void EmailPassword_InitializeFirebase_m321574590 (EmailPassword_t105
 extern "C"  String_t* FirebaseUser_get_Email_m428247821 (FirebaseUser_t4046966602 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.PlayerPrefs::SetString(System.String,System.String)
 extern "C"  void PlayerPrefs_SetString_m2547809843 (Il2CppObject * __this /* static, unused */, String_t* p0, String_t* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.SceneManagement.SceneManager::LoadScene(System.String)
-extern "C"  void SceneManager_LoadScene_m1619949821 (Il2CppObject * __this /* static, unused */, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.PlayerPrefs::GetString(System.String,System.String)
 extern "C"  String_t* PlayerPrefs_GetString_m1246323344 (Il2CppObject * __this /* static, unused */, String_t* p0, String_t* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.String System.String::Concat(System.String,System.String)
-extern "C"  String_t* String_Concat_m2596409543 (Il2CppObject * __this /* static, unused */, String_t* p0, String_t* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.Vector2::get_zero()
 extern "C"  Vector2_t2243707579  Vector2_get_zero_m3966848876 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UIHandler::InitializeFirebase()
@@ -889,10 +917,6 @@ extern "C"  String_t* Int32_ToString_m2960866144 (int32_t* __this, const MethodI
 extern "C"  DatabaseReference_t1167676104 * FirebaseDatabase_GetReference_m1440353143 (FirebaseDatabase_t1318758358 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Firebase.Database.Query Firebase.Database.Query::OrderByChild(System.String)
 extern "C"  Query_t2792659010 * Query_OrderByChild_m1948123447 (Query_t2792659010 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void System.EventHandler`1<Firebase.Database.ValueChangedEventArgs>::.ctor(System.Object,System.IntPtr)
-#define EventHandler_1__ctor_m2538435635(__this, p0, p1, method) ((  void (*) (EventHandler_1_t3816151702 *, Il2CppObject *, IntPtr_t, const MethodInfo*))EventHandler_1__ctor_m805401670_gshared)(__this, p0, p1, method)
-// System.Void Firebase.Database.Query::add_ValueChanged(System.EventHandler`1<Firebase.Database.ValueChangedEventArgs>)
-extern "C"  void Query_add_ValueChanged_m1934804924 (Query_t2792659010 * __this, EventHandler_1_t3816151702 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object Firebase.Database.MutableData::get_Value()
 extern "C"  Il2CppObject * MutableData_get_Value_m469405018 (MutableData_t1171022152 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Generic.List`1<System.Object>::.ctor()
@@ -939,8 +963,6 @@ extern "C"  bool Int32_TryParse_m656840904 (Il2CppObject * __this /* static, unu
 extern "C"  void UIHandlerDatabase_AddScore_m722486887 (UIHandlerDatabase_t1454484439 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Firebase.Database.FirebaseDatabase::GoOffline()
 extern "C"  void FirebaseDatabase_GoOffline_m1196249284 (FirebaseDatabase_t1318758358 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void Firebase.Database.FirebaseDatabase::GoOnline()
-extern "C"  void FirebaseDatabase_GoOnline_m1041006808 (FirebaseDatabase_t1318758358 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GUISkin UnityEngine.GUI::get_skin()
 extern "C"  GUISkin_t1436893342 * GUI_get_skin_m2309570990 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GUIStyle UnityEngine.GUISkin::get_box()
@@ -961,20 +983,6 @@ extern "C"  void UIHandlerDatabase_GUIDisplayLeaders_m3951214919 (UIHandlerDatab
 extern "C"  void UIHandlerDatabase_GUIDisplayLog_m1839976827 (UIHandlerDatabase_t1454484439 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UIHandlerDatabase::GUIDisplayControls()
 extern "C"  void UIHandlerDatabase_GUIDisplayControls_m3043555479 (UIHandlerDatabase_t1454484439 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// Firebase.Database.DatabaseError Firebase.Database.ValueChangedEventArgs::get_DatabaseError()
-extern "C"  DatabaseError_t1067746743 * ValueChangedEventArgs_get_DatabaseError_m3460624193 (ValueChangedEventArgs_t929877234 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.String Firebase.Database.DatabaseError::get_Message()
-extern "C"  String_t* DatabaseError_get_Message_m4169681475 (DatabaseError_t1067746743 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// Firebase.Database.DataSnapshot Firebase.Database.ValueChangedEventArgs::get_Snapshot()
-extern "C"  DataSnapshot_t1287895350 * ValueChangedEventArgs_get_Snapshot_m3919753613 (ValueChangedEventArgs_t929877234 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Int64 Firebase.Database.DataSnapshot::get_ChildrenCount()
-extern "C"  int64_t DataSnapshot_get_ChildrenCount_m4200760517 (DataSnapshot_t1287895350 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Collections.Generic.IEnumerable`1<Firebase.Database.DataSnapshot> Firebase.Database.DataSnapshot::get_Children()
-extern "C"  Il2CppObject* DataSnapshot_get_Children_m1718839175 (DataSnapshot_t1287895350 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// Firebase.Database.DataSnapshot Firebase.Database.DataSnapshot::Child(System.String)
-extern "C"  DataSnapshot_t1287895350 * DataSnapshot_Child_m1976182182 (DataSnapshot_t1287895350 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Object Firebase.Database.DataSnapshot::get_Value()
-extern "C"  Il2CppObject * DataSnapshot_get_Value_m2448007898 (DataSnapshot_t1287895350 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -1063,6 +1071,10 @@ extern "C"  void EmailPassword_InitializeFirebase_m321574590 (EmailPassword_t105
 	}
 	FirebaseApp_t210707726 * V_0 = NULL;
 	DatabaseReference_t1167676104 * V_1 = NULL;
+	Guid_t  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	DatabaseReference_t1167676104 * G_B4_0 = NULL;
+	DatabaseReference_t1167676104 * G_B3_0 = NULL;
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(FirebaseApp_t210707726_il2cpp_TypeInfo_var);
 		FirebaseApp_t210707726 * L_0 = FirebaseApp_get_DefaultInstance_m465202029(NULL /*static, unused*/, /*hidden argument*/NULL);
@@ -1098,30 +1110,64 @@ IL_0038:
 		NullCheck(L_11);
 		String_t* L_12 = FirebaseUser_get_UserId_m3056192957(L_11, /*hidden argument*/NULL);
 		FirebaseEditorExtensions_SetEditorAuthUserId_m3947746910(NULL /*static, unused*/, L_10, L_12, /*hidden argument*/NULL);
-		FirebaseApp_t210707726 * L_13 = V_0;
-		NullCheck(L_13);
-		AppOptions_t1641189195 * L_14 = FirebaseApp_get_Options_m763126714(L_13, /*hidden argument*/NULL);
-		NullCheck(L_14);
-		Uri_t19570940 * L_15 = AppOptions_get_DatabaseUrl_m241783396(L_14, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
-		Debug_Log_m920475918(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
-		Debug_Log_m920475918(NULL /*static, unused*/, _stringLiteral3055632355, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(FirebaseDatabase_t1318758358_il2cpp_TypeInfo_var);
-		FirebaseDatabase_t1318758358 * L_16 = FirebaseDatabase_get_DefaultInstance_m2521248777(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_16);
-		DatabaseReference_t1167676104 * L_17 = FirebaseDatabase_get_RootReference_m3750281036(L_16, /*hidden argument*/NULL);
-		V_1 = L_17;
-		DatabaseReference_t1167676104 * L_18 = V_1;
-		NullCheck(L_18);
-		DatabaseReference_t1167676104 * L_19 = DatabaseReference_Child_m662767510(L_18, _stringLiteral3618232171, /*hidden argument*/NULL);
+		FirebaseDatabase_t1318758358 * L_13 = FirebaseDatabase_get_DefaultInstance_m2521248777(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		FirebaseDatabase_GoOnline_m1041006808(L_13, /*hidden argument*/NULL);
+		FirebaseApp_t210707726 * L_14 = V_0;
+		NullCheck(L_14);
+		AppOptions_t1641189195 * L_15 = FirebaseApp_get_Options_m763126714(L_14, /*hidden argument*/NULL);
+		NullCheck(L_15);
+		Uri_t19570940 * L_16 = AppOptions_get_DatabaseUrl_m241783396(L_15, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
+		Debug_Log_m920475918(NULL /*static, unused*/, _stringLiteral3055632355, /*hidden argument*/NULL);
+		FirebaseDatabase_t1318758358 * L_17 = FirebaseDatabase_get_DefaultInstance_m2521248777(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		DatabaseReference_t1167676104 * L_18 = FirebaseDatabase_get_RootReference_m3750281036(L_17, /*hidden argument*/NULL);
+		V_1 = L_18;
+		DatabaseReference_t1167676104 * L_19 = V_1;
 		NullCheck(L_19);
-		Task_t1843236107 * L_20 = DatabaseReference_SetRawJsonValueAsync_m454025307(L_19, _stringLiteral3177231509, /*hidden argument*/NULL);
-		IntPtr_t L_21;
-		L_21.set_m_value_0((void*)(void*)EmailPassword_U3CInitializeFirebaseU3Em__3_m226631299_MethodInfo_var);
-		Action_1_t1645035489 * L_22 = (Action_1_t1645035489 *)il2cpp_codegen_object_new(Action_1_t1645035489_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2416274689(L_22, __this, L_21, /*hidden argument*/Action_1__ctor_m2416274689_MethodInfo_var);
-		NullCheck(L_20);
-		Task_ContinueWith_m3415340768(L_20, L_22, /*hidden argument*/NULL);
+		DatabaseReference_t1167676104 * L_20 = DatabaseReference_Child_m662767510(L_19, _stringLiteral3618232171, /*hidden argument*/NULL);
+		EventHandler_1_t3816151702 * L_21 = ((EmailPassword_t1050852289_StaticFields*)EmailPassword_t1050852289_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_10();
+		G_B3_0 = L_20;
+		if (L_21)
+		{
+			G_B4_0 = L_20;
+			goto IL_0096;
+		}
+	}
+	{
+		IntPtr_t L_22;
+		L_22.set_m_value_0((void*)(void*)EmailPassword_U3CInitializeFirebaseU3Em__3_m2766054461_MethodInfo_var);
+		EventHandler_1_t3816151702 * L_23 = (EventHandler_1_t3816151702 *)il2cpp_codegen_object_new(EventHandler_1_t3816151702_il2cpp_TypeInfo_var);
+		EventHandler_1__ctor_m2538435635(L_23, NULL, L_22, /*hidden argument*/EventHandler_1__ctor_m2538435635_MethodInfo_var);
+		((EmailPassword_t1050852289_StaticFields*)EmailPassword_t1050852289_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache0_10(L_23);
+		G_B4_0 = G_B3_0;
+	}
+
+IL_0096:
+	{
+		EventHandler_1_t3816151702 * L_24 = ((EmailPassword_t1050852289_StaticFields*)EmailPassword_t1050852289_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_10();
+		NullCheck(G_B4_0);
+		Query_add_ValueChanged_m1934804924(G_B4_0, L_24, /*hidden argument*/NULL);
+		DatabaseReference_t1167676104 * L_25 = V_1;
+		NullCheck(L_25);
+		DatabaseReference_t1167676104 * L_26 = DatabaseReference_Child_m662767510(L_25, _stringLiteral3618232171, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Guid_t_il2cpp_TypeInfo_var);
+		Guid_t  L_27 = Guid_NewGuid_m3493657620(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_2 = L_27;
+		String_t* L_28 = Guid_ToString_m3927110175((&V_2), /*hidden argument*/NULL);
+		NullCheck(L_26);
+		DatabaseReference_t1167676104 * L_29 = DatabaseReference_Child_m662767510(L_26, L_28, /*hidden argument*/NULL);
+		NullCheck(L_29);
+		Task_t1843236107 * L_30 = DatabaseReference_SetRawJsonValueAsync_m454025307(L_29, _stringLiteral3177231509, /*hidden argument*/NULL);
+		IntPtr_t L_31;
+		L_31.set_m_value_0((void*)(void*)EmailPassword_U3CInitializeFirebaseU3Em__4_m904747070_MethodInfo_var);
+		Action_1_t1645035489 * L_32 = (Action_1_t1645035489 *)il2cpp_codegen_object_new(Action_1_t1645035489_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2416274689(L_32, __this, L_31, /*hidden argument*/Action_1__ctor_m2416274689_MethodInfo_var);
+		NullCheck(L_30);
+		Task_ContinueWith_m3415340768(L_30, L_32, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -1166,7 +1212,7 @@ IL_0017:
 		NullCheck(L_4);
 		Task_1_t3166995609 * L_7 = FirebaseAuth_CreateUserWithEmailAndPasswordAsync_m1849539524(L_4, L_5, L_6, /*hidden argument*/NULL);
 		IntPtr_t L_8;
-		L_8.set_m_value_0((void*)(void*)EmailPassword_U3CSignupU3Em__4_m1269515385_MethodInfo_var);
+		L_8.set_m_value_0((void*)(void*)EmailPassword_U3CSignupU3Em__5_m2139682970_MethodInfo_var);
 		Action_1_t2968794991 * L_9 = (Action_1_t2968794991 *)il2cpp_codegen_object_new(Action_1_t2968794991_il2cpp_TypeInfo_var);
 		Action_1__ctor_m2766368593(L_9, __this, L_8, /*hidden argument*/Action_1__ctor_m2766368593_MethodInfo_var);
 		NullCheck(L_7);
@@ -1226,7 +1272,7 @@ extern "C"  void EmailPassword_Login_m2383818071 (EmailPassword_t1050852289 * __
 		NullCheck(L_0);
 		Task_1_t3166995609 * L_3 = FirebaseAuth_SignInWithEmailAndPasswordAsync_m358762043(L_0, L_1, L_2, /*hidden argument*/NULL);
 		IntPtr_t L_4;
-		L_4.set_m_value_0((void*)(void*)EmailPassword_U3CLoginU3Em__5_m974205577_MethodInfo_var);
+		L_4.set_m_value_0((void*)(void*)EmailPassword_U3CLoginU3Em__6_m2375828366_MethodInfo_var);
 		Action_1_t2968794991 * L_5 = (Action_1_t2968794991 *)il2cpp_codegen_object_new(Action_1_t2968794991_il2cpp_TypeInfo_var);
 		Action_1__ctor_m2766368593(L_5, __this, L_4, /*hidden argument*/Action_1__ctor_m2766368593_MethodInfo_var);
 		NullCheck(L_3);
@@ -1301,13 +1347,194 @@ IL_0035:
 		return;
 	}
 }
-// System.Void EmailPassword::<InitializeFirebase>m__3(System.Threading.Tasks.Task)
-extern "C"  void EmailPassword_U3CInitializeFirebaseU3Em__3_m226631299 (EmailPassword_t1050852289 * __this, Task_t1843236107 * ___task0, const MethodInfo* method)
+// System.Void EmailPassword::<InitializeFirebase>m__3(System.Object,Firebase.Database.ValueChangedEventArgs)
+extern "C"  void EmailPassword_U3CInitializeFirebaseU3Em__3_m2766054461 (Il2CppObject * __this /* static, unused */, Il2CppObject * ___sender0, ValueChangedEventArgs_t929877234 * ___e1, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (EmailPassword_U3CInitializeFirebaseU3Em__3_m226631299_MetadataUsageId);
+		il2cpp_codegen_initialize_method (EmailPassword_U3CInitializeFirebaseU3Em__3_m2766054461_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DataSnapshot_t1287895350 * V_0 = NULL;
+	Il2CppObject* V_1 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		ValueChangedEventArgs_t929877234 * L_0 = ___e1;
+		NullCheck(L_0);
+		DatabaseError_t1067746743 * L_1 = ValueChangedEventArgs_get_DatabaseError_m3460624193(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		ValueChangedEventArgs_t929877234 * L_2 = ___e1;
+		NullCheck(L_2);
+		DatabaseError_t1067746743 * L_3 = ValueChangedEventArgs_get_DatabaseError_m3460624193(L_2, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		String_t* L_4 = DatabaseError_get_Message_m4169681475(L_3, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_001c:
+	{
+		ValueChangedEventArgs_t929877234 * L_5 = ___e1;
+		NullCheck(L_5);
+		DataSnapshot_t1287895350 * L_6 = ValueChangedEventArgs_get_Snapshot_m3919753613(L_5, /*hidden argument*/NULL);
+		if (!L_6)
+		{
+			goto IL_00cb;
+		}
+	}
+	{
+		ValueChangedEventArgs_t929877234 * L_7 = ___e1;
+		NullCheck(L_7);
+		DataSnapshot_t1287895350 * L_8 = ValueChangedEventArgs_get_Snapshot_m3919753613(L_7, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		int64_t L_9 = DataSnapshot_get_ChildrenCount_m4200760517(L_8, /*hidden argument*/NULL);
+		if ((((int64_t)L_9) <= ((int64_t)(((int64_t)((int64_t)0))))))
+		{
+			goto IL_00cb;
+		}
+	}
+	{
+		ValueChangedEventArgs_t929877234 * L_10 = ___e1;
+		NullCheck(L_10);
+		DataSnapshot_t1287895350 * L_11 = ValueChangedEventArgs_get_Snapshot_m3919753613(L_10, /*hidden argument*/NULL);
+		NullCheck(L_11);
+		Il2CppObject* L_12 = DataSnapshot_get_Children_m1718839175(L_11, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		Il2CppObject* L_13 = InterfaceFuncInvoker0< Il2CppObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<!0> System.Collections.Generic.IEnumerable`1<Firebase.Database.DataSnapshot>::GetEnumerator() */, IEnumerable_1_t1580022395_il2cpp_TypeInfo_var, L_12);
+		V_1 = L_13;
+	}
+
+IL_004a:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_00ae;
+		}
+
+IL_004f:
+		{
+			Il2CppObject* L_14 = V_1;
+			NullCheck(L_14);
+			DataSnapshot_t1287895350 * L_15 = InterfaceFuncInvoker0< DataSnapshot_t1287895350 * >::Invoke(0 /* !0 System.Collections.Generic.IEnumerator`1<Firebase.Database.DataSnapshot>::get_Current() */, IEnumerator_1_t3058386473_il2cpp_TypeInfo_var, L_14);
+			V_0 = L_15;
+			DataSnapshot_t1287895350 * L_16 = V_0;
+			NullCheck(L_16);
+			DataSnapshot_t1287895350 * L_17 = DataSnapshot_Child_m1976182182(L_16, _stringLiteral3383613474, /*hidden argument*/NULL);
+			if (!L_17)
+			{
+				goto IL_007b;
+			}
+		}
+
+IL_0066:
+		{
+			DataSnapshot_t1287895350 * L_18 = V_0;
+			NullCheck(L_18);
+			DataSnapshot_t1287895350 * L_19 = DataSnapshot_Child_m1976182182(L_18, _stringLiteral3383613474, /*hidden argument*/NULL);
+			NullCheck(L_19);
+			Il2CppObject * L_20 = DataSnapshot_get_Value_m2448007898(L_19, /*hidden argument*/NULL);
+			if (L_20)
+			{
+				goto IL_008a;
+			}
+		}
+
+IL_007b:
+		{
+			IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+			Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral3728635759, /*hidden argument*/NULL);
+			goto IL_00b9;
+		}
+
+IL_008a:
+		{
+			DataSnapshot_t1287895350 * L_21 = V_0;
+			NullCheck(L_21);
+			DataSnapshot_t1287895350 * L_22 = DataSnapshot_Child_m1976182182(L_21, _stringLiteral3383613474, /*hidden argument*/NULL);
+			NullCheck(L_22);
+			Il2CppObject * L_23 = DataSnapshot_get_Value_m2448007898(L_22, /*hidden argument*/NULL);
+			NullCheck(L_23);
+			String_t* L_24 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_23);
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_25 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral2860140792, L_24, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+			Debug_Log_m920475918(NULL /*static, unused*/, L_25, /*hidden argument*/NULL);
+		}
+
+IL_00ae:
+		{
+			Il2CppObject* L_26 = V_1;
+			NullCheck(L_26);
+			bool L_27 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_26);
+			if (L_27)
+			{
+				goto IL_004f;
+			}
+		}
+
+IL_00b9:
+		{
+			IL2CPP_LEAVE(0xCB, FINALLY_00be);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_00be;
+	}
+
+FINALLY_00be:
+	{ // begin finally (depth: 1)
+		{
+			Il2CppObject* L_28 = V_1;
+			if (!L_28)
+			{
+				goto IL_00ca;
+			}
+		}
+
+IL_00c4:
+		{
+			Il2CppObject* L_29 = V_1;
+			NullCheck(L_29);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_29);
+		}
+
+IL_00ca:
+		{
+			IL2CPP_END_FINALLY(190)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(190)
+	{
+		IL2CPP_JUMP_TBL(0xCB, IL_00cb)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_00cb:
+	{
+		return;
+	}
+}
+// System.Void EmailPassword::<InitializeFirebase>m__4(System.Threading.Tasks.Task)
+extern "C"  void EmailPassword_U3CInitializeFirebaseU3Em__4_m904747070 (EmailPassword_t1050852289 * __this, Task_t1843236107 * ___task0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmailPassword_U3CInitializeFirebaseU3Em__4_m904747070_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
@@ -1377,16 +1604,23 @@ IL_0072:
 
 IL_0073:
 	{
+		Task_t1843236107 * L_16 = ___task0;
+		NullCheck(L_16);
+		AggregateException_t420812976 * L_17 = Task_get_Exception_m4089864830(L_16, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_18 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral1649673533, L_17, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
 		return;
 	}
 }
-// System.Void EmailPassword::<Signup>m__4(System.Threading.Tasks.Task`1<Firebase.Auth.FirebaseUser>)
-extern "C"  void EmailPassword_U3CSignupU3Em__4_m1269515385 (EmailPassword_t1050852289 * __this, Task_1_t3166995609 * ___task0, const MethodInfo* method)
+// System.Void EmailPassword::<Signup>m__5(System.Threading.Tasks.Task`1<Firebase.Auth.FirebaseUser>)
+extern "C"  void EmailPassword_U3CSignupU3Em__5_m2139682970 (EmailPassword_t1050852289 * __this, Task_1_t3166995609 * ___task0, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (EmailPassword_U3CSignupU3Em__4_m1269515385_MetadataUsageId);
+		il2cpp_codegen_initialize_method (EmailPassword_U3CSignupU3Em__5_m2139682970_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	FirebaseUser_t4046966602 * V_0 = NULL;
@@ -1479,13 +1713,13 @@ IL_0069:
 		return;
 	}
 }
-// System.Void EmailPassword::<Login>m__5(System.Threading.Tasks.Task`1<Firebase.Auth.FirebaseUser>)
-extern "C"  void EmailPassword_U3CLoginU3Em__5_m974205577 (EmailPassword_t1050852289 * __this, Task_1_t3166995609 * ___task0, const MethodInfo* method)
+// System.Void EmailPassword::<Login>m__6(System.Threading.Tasks.Task`1<Firebase.Auth.FirebaseUser>)
+extern "C"  void EmailPassword_U3CLoginU3Em__6_m2375828366 (EmailPassword_t1050852289 * __this, Task_1_t3166995609 * ___task0, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (EmailPassword_U3CLoginU3Em__5_m974205577_MetadataUsageId);
+		il2cpp_codegen_initialize_method (EmailPassword_U3CLoginU3Em__6_m2375828366_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	FirebaseUser_t4046966602 * V_0 = NULL;
@@ -1606,7 +1840,6 @@ IL_00af:
 IL_00b4:
 	{
 		PlayerPrefs_SetString_m2547809843(NULL /*static, unused*/, G_B9_1, G_B9_0, /*hidden argument*/NULL);
-		SceneManager_LoadScene_m1619949821(NULL /*static, unused*/, _stringLiteral3158551413, /*hidden argument*/NULL);
 		return;
 	}
 }

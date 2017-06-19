@@ -130,9 +130,11 @@ extern const int32_t g_FieldOffsetTable12[1] =
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize13 = { 0, 0, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize14 = { sizeof (Int64_t909078037)+ sizeof (Il2CppObject), sizeof(int64_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable14[1] = 
+extern const int32_t g_FieldOffsetTable14[3] = 
 {
-	Int64_t909078037::get_offset_of_m_value_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
+	Int64_t909078037::get_offset_of_m_value_2() + static_cast<int32_t>(sizeof(Il2CppObject)),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize15 = { sizeof (UInt32_t2149682021)+ sizeof (Il2CppObject), sizeof(uint32_t), 0, 0 };
 extern const int32_t g_FieldOffsetTable15[1] = 
