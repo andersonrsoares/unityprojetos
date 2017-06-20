@@ -87,25 +87,25 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.App">
- <HintPath>/Users/andersonsoares/Documents/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
+ <HintPath>/Users/devmaker/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.Auth">
- <HintPath>/Users/andersonsoares/Documents/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
+ <HintPath>/Users/devmaker/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.Database">
- <HintPath>/Users/andersonsoares/Documents/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/Firebase/Plugins/Firebase.Database.dll</HintPath>
+ <HintPath>/Users/devmaker/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/Firebase/Plugins/Firebase.Database.dll</HintPath>
  </Reference>
  <Reference Include="Google.MiniJson">
- <HintPath>/Users/andersonsoares/Documents/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+ <HintPath>/Users/devmaker/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
  </Reference>
  <Reference Include="Google.Sharpen">
- <HintPath>/Users/andersonsoares/Documents/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/Firebase/Plugins/Google.Sharpen.dll</HintPath>
+ <HintPath>/Users/devmaker/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/Firebase/Plugins/Google.Sharpen.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Compat">
- <HintPath>/Users/andersonsoares/Documents/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/Firebase/Plugins/Unity.Compat.dll</HintPath>
+ <HintPath>/Users/devmaker/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/Firebase/Plugins/Unity.Compat.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Tasks">
- <HintPath>/Users/andersonsoares/Documents/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/Firebase/Plugins/Unity.Tasks.dll</HintPath>
+ <HintPath>/Users/devmaker/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/Firebase/Plugins/Unity.Tasks.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

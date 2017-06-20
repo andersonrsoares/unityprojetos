@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/EmailPassword.unity
+- path: Assets/Scenes/Tabuleiro.unity
   isLoaded: 1
   isActive: 1

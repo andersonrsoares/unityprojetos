@@ -117,44 +117,41 @@
  <Reference Include="UnityEditor.iOS.Extensions">
  <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="UnityEditor.WebGL.Extensions">
- <HintPath>/Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.Editor">
- <HintPath>/Users/andersonsoares/Documents/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+ <HintPath>/Users/devmaker/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.App">
- <HintPath>/Users/andersonsoares/Documents/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
+ <HintPath>/Users/devmaker/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.Auth">
- <HintPath>/Users/andersonsoares/Documents/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
+ <HintPath>/Users/devmaker/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.Database">
- <HintPath>/Users/andersonsoares/Documents/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/Firebase/Plugins/Firebase.Database.dll</HintPath>
+ <HintPath>/Users/devmaker/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/Firebase/Plugins/Firebase.Database.dll</HintPath>
  </Reference>
  <Reference Include="Google.MiniJson">
- <HintPath>/Users/andersonsoares/Documents/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+ <HintPath>/Users/devmaker/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
  </Reference>
  <Reference Include="Google.Sharpen">
- <HintPath>/Users/andersonsoares/Documents/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/Firebase/Plugins/Google.Sharpen.dll</HintPath>
+ <HintPath>/Users/devmaker/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/Firebase/Plugins/Google.Sharpen.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Compat">
- <HintPath>/Users/andersonsoares/Documents/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/Firebase/Plugins/Unity.Compat.dll</HintPath>
+ <HintPath>/Users/devmaker/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/Firebase/Plugins/Unity.Compat.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Tasks">
- <HintPath>/Users/andersonsoares/Documents/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/Firebase/Plugins/Unity.Tasks.dll</HintPath>
+ <HintPath>/Users/devmaker/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/Firebase/Plugins/Unity.Tasks.dll</HintPath>
  </Reference>
  <Reference Include="Google.IOSResolver_v1.2.28.0">
- <HintPath>/Users/andersonsoares/Documents/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.28.0.dll</HintPath>
+ <HintPath>/Users/devmaker/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.28.0.dll</HintPath>
  </Reference>
  <Reference Include="Google.JarResolver_v1.2.28.0">
- <HintPath>/Users/andersonsoares/Documents/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.28.0.dll</HintPath>
+ <HintPath>/Users/devmaker/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.28.0.dll</HintPath>
  </Reference>
  <Reference Include="Google.VersionHandler_v1.2.28.0">
- <HintPath>/Users/andersonsoares/Documents/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/PlayServicesResolver/Editor/Google.VersionHandler_v1.2.28.0.dll</HintPath>
+ <HintPath>/Users/devmaker/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/PlayServicesResolver/Editor/Google.VersionHandler_v1.2.28.0.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
