@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Tabuleiro  {
 
+	public string player1 { get; set;}
+	public string player2 { get; set;}
+
 	public List<Peca> pecasP1 { get; set;}
 	public List<Peca> pecasP2 { get; set;}
 	public List<Posicao> posicoes { get; set;}
