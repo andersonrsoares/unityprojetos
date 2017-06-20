@@ -1,4 +1,6 @@
 ﻿using System;
+using UnityEngine;
+
 
 [Serializable]
 public class Usuario
@@ -6,8 +8,14 @@ public class Usuario
 	public Usuario ()
 	{
 	}
+	private string nome;
 
-	public string nome { get; set;} 
+	public string Nome{
+		get { return nome; } 
+		set { nome = value; }
+	} 
 }
+
+
 
 

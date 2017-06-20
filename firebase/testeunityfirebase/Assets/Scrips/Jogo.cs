@@ -69,7 +69,7 @@ public class Jogo : MonoBehaviour {
 
 		tabuleiro.player1 = "1";
 		tabuleiro.player1 = "2";
-		var tab = JsonUtility.ToJson (new Usuario(){nome = "teste"});
+		var tab = JsonUtility.ToJson (new Usuario(){Nome = "teste"});
 		Debug.Log (tabuleiro);
 		Debug.Log (tab);
 		reference.Child ("jogo").Child(id)
