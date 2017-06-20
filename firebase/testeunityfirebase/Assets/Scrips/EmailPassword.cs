@@ -68,7 +68,6 @@ public class EmailPassword : MonoBehaviour
 		DatabaseReference reference = FirebaseDatabase.DefaultInstance.RootReference;
 		//.SetRawJsonValueAsync("{\"body\": \"teste\",\"title\": \"teste titulo\"}")
 
-
 		reference.Child("posts").ValueChanged += (object sender, ValueChangedEventArgs e) => {
 			if (e.DatabaseError != null) {
 				Debug.LogError(e.DatabaseError.Message);

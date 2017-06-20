@@ -1,7 +1,7 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{0FB4F6CF-1CE3-8C5E-7FE5-22E9366E6BE6}") = "TABULEIRO2", "Assembly-CSharp.csproj", "{4E0BF842-BCBA-5237-B81D-9271F760A0B7}"
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TABULEIRO2", "Assembly-CSharp.csproj", "{4E0BF842-BCBA-5237-B81D-9271F760A0B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,5 +35,4 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
-
 EndGlobal

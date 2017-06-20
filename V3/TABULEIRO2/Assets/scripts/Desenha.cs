@@ -20,7 +20,7 @@ public class Desenha : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		linePosition = transform.FindChild ("pontoLine").gameObject;
+		linePosition = transform.Find ("pontoLine").gameObject;
 		tabuleiro = GameObject.Find ("GameControl").GetComponent<Tabuleiro> ();
 	}
 
@@ -37,7 +37,7 @@ public class Desenha : MonoBehaviour {
 		}
 		
 		if (!linePosition) {
-			linePosition = transform.FindChild ("pontoLine").gameObject;
+			linePosition = transform.Find ("pontoLine").gameObject;
 		}
 
 		Linha linha = new Linha ();
@@ -89,7 +89,7 @@ public class Desenha : MonoBehaviour {
 			//linha.obj.GetComponent<LineRenderer> ().materials [0].color = linha.cor;
 			//linha.obj.renderer.material.color = linha.cor;
 
-			linha.obj.renderer.material = linha.material;
+			linha.obj.GetComponent<Renderer>().material = linha.material;
 		}
 	}
 
@@ -102,7 +102,7 @@ public class Desenha : MonoBehaviour {
 		line.GetComponent<LineRenderer> ().SetPosition (1,objLink.transform.position);
 		line.GetComponent<LineRenderer> ().enabled = true;
 		//line.GetComponent<LineRenderer> ().materials [0].color = linha.cor;
-		line.renderer.material = linha.material;
+		line.GetComponent<Renderer>().material = linha.material;
 	}
 
 	/*public void habilitaLineRender(){

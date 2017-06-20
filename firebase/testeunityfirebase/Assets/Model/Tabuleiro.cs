@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-
+using UnityEngine;
 
 public class Tabuleiro  {
 
@@ -8,7 +8,7 @@ public class Tabuleiro  {
 	List<Peca> pecasP2 = new List<Peca>();
 	List<Posicao> posicoes = new List<Posicao>();
 
-	public Tabuleiro(){
+	public Tabuleiro(List<GameObject> p){
 		int x = 0;
 		posicoes.Clear ();
 		for (int i = 1; i <= 8; i++) {
@@ -30,7 +30,7 @@ public class Tabuleiro  {
 					}
 				}
 
-				Posicao posicao = new Posicao (){ local = i.ToString() + "x" + j.ToString(), index = x,cor = cor };
+				Posicao posicao = new Posicao (){ local = i.ToString() + "x" + j.ToString(), index = x,cor = cor,pos=p[x]};
 				posicoes.Add (posicao);
 					
 				if (cor == 1) {

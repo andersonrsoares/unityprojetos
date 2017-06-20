@@ -50,6 +50,7 @@
      <Compile Include="Assets\Model\Posicao.cs" />
      <Compile Include="Assets\Model\Tabuleiro.cs" />
      <Compile Include="Assets\Scrips\EmailPassword.cs" />
+     <Compile Include="Assets\Scrips\Jogo.cs" />
      <Compile Include="Assets\Scrips\LoginResult.cs" />
      <Compile Include="Assets\Scrips\UIHandler.cs" />
      <Compile Include="Assets\Scrips\UIHandlerDatabase.cs" />
