@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class Tabuleiro  {
 
-	List<Peca> pecasP1 = new List<Peca>();
-	List<Peca> pecasP2 = new List<Peca>();
-	List<Posicao> posicoes = new List<Posicao>();
+	public List<Peca> pecasP1 { get; set;}
+	public List<Peca> pecasP2 { get; set;}
+	public List<Posicao> posicoes { get; set;}
 
 	public Tabuleiro(List<GameObject> p){
+		pecasP1 = new List<Peca>();
+		pecasP2 = new List<Peca>();
+		posicoes = new List<Posicao>();
 		int x = 0;
 		posicoes.Clear ();
 		for (int i = 1; i <= 8; i++) {
@@ -30,9 +33,20 @@ public class Tabuleiro  {
 					}
 				}
 
-				Posicao posicao = new Posicao (){ local = i.ToString() + "x" + j.ToString(), index = x,cor = cor,pos=p[x]};
+//				Posicao posicao = new Posicao (){ 
+//					local = i.ToString() + "x" + j.ToString(), 
+//					index = x,
+//					cor = cor,pos=p[x]};
+
+				var posicao = p [x].AddComponent<Posicao> ();
+				posicao.cor = cor;
+				posicao.local = i.ToString() + "x" + j.ToString();
+				posicao.index = x;
+				posicao.pos = p[x];
+
 				posicoes.Add (posicao);
-					
+
+
 				if (cor == 1) {
 					if (i <= 3) {
 						Peca peca = new Peca (){posicao = posicao, cor = 1 };
