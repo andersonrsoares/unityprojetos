@@ -192,12 +192,14 @@ public class EmailPassword : MonoBehaviour
 
             FirebaseUser user = task.Result;
 				//
-			InitializeFirebase(user);
+			//InitializeFirebase(user);
             Debug.LogFormat("User signed in successfully: {0} ({1})",
                 user.DisplayName, user.UserId);
 
             PlayerPrefs.SetString("LoginUser", user != null ? user.Email : "Unknown");
-            SceneManager.LoadScene("LoginResults");
+			PlayerPrefs.SetString("UserID", user != null ? user.UserId : "");
+			PlayerPrefs.SetString("UserEmail", user != null ? user.UserId : "");
+			SceneManager.LoadScene("Tabuleiro");
         });
     }
 }

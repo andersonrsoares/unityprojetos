@@ -15,10 +15,12 @@ public class Jogo : MonoBehaviour {
 	public GameObject pecabranca;
 	public GameObject pecapreta;
 	public Camera camera;
+	string useremail;
+	string userid;
 	void Start () {
 		tabuleiro = new Tabuleiro (posicoes);
-
-	
+		userid = PlayerPrefs.GetString("UserID", "");
+		useremail = PlayerPrefs.GetString("UserEmail","");
 		for (int i = 0; i < tabuleiro.pecasP1.Count; i++) {
 			tabuleiro.pecasP1[i].peca = Instantiate(pecapreta, 
 				new Vector3(tabuleiro.pecasP1[i].posicao.pos.transform.position.x, 
@@ -40,7 +42,7 @@ public class Jogo : MonoBehaviour {
 		if (app.Options.DatabaseUrl != null) 
 			app.SetEditorDatabaseUrl(app.Options.DatabaseUrl);
 
-		//app.SetEditorAuthUserId (user.UserId);
+		app.SetEditorAuthUserId (userid);
 		//app.SetEditorServiceAccountEmail (user.Email);
 
 		FirebaseDatabase.DefaultInstance.GoOnline();
@@ -61,14 +63,15 @@ public class Jogo : MonoBehaviour {
 
 
 		};
+
 			
 		reference.Child ("jogo").Child (id).ValueChanged += ValueChaged;
 
 		tabuleiro.player1 = "1";
 		tabuleiro.player1 = "2";
-
+		var tab = JsonUtility.ToJson (tabuleiro);
 		reference.Child ("jogo").Child(id)
-			.SetValueAsync (tabuleiro)
+			.SetRawJsonValueAsync (tab)
 			.ContinueWith (task => {
 				if (task.IsCanceled)
 				{
