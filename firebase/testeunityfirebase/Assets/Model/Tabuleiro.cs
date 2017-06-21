@@ -16,7 +16,6 @@ public class Tabuleiro  {
 	public List<Peca> pecasP1 { get; set;}
 	[SerializeField]
 	public List<Peca> pecasP2 { get; set;}
-	//[JsonIgnore]
 	public List<Posicao> posicoes { get; set;}
 
 	public Tabuleiro(List<GameObject> p){

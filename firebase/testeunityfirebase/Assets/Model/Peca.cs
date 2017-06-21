@@ -9,5 +9,6 @@ public class Peca  {
 
 	public int cor { get; set;}
 	public Posicao posicao { get; set;}
+	[JsonIgnore]
 	public GameObject peca { get; set;} 
 }
