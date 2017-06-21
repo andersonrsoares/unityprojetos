@@ -46,7 +46,7 @@ public class Tabuleiro  {
 				Posicao posicao = new Posicao (){ 
 					local = i.ToString() + "x" + j.ToString(), 
 					index = x,
-					cor = cor,pos=p[x]};
+					cor = cor,pos = p[x]};
 
 				var pos = p [x].AddComponent<PosicaoHandler> ();
 //				posicao.cor = cor;
@@ -57,18 +57,19 @@ public class Tabuleiro  {
 				pos.Posicao = posicao;
 				posicoes.Add (posicao);
 
-
 				if (cor == 1) {
 					if (i <= 3) {
 						Peca peca = new Peca (){posicao = posicao, cor = 1 };
+						pos.Peca = peca;
 						pecasP1.Add (peca);
-						pos.peca = peca;
 					}
 					else
 					if (i >= 6) {
 						Peca peca = new Peca (){posicao = posicao, cor = 0 };
+						pos.Peca = peca;
+						//var pospeca = peca.peca.GetComponent<PosicaoHandler> ();
+						//pospeca.Posicao = posicao;
 						pecasP2.Add (peca);
-						pos.peca = peca;
 					}
 				}
 

@@ -18,16 +18,23 @@ public class Jogo : MonoBehaviour {
 	public Camera camera;
 	string useremail;
 	string userid;
+	public GameObject pecaSelecionada { get; set;}
+	public GameObject posicaoSelecionada { get; set;}
 	void Start () {
 		tabuleiro = new Tabuleiro (posicoes);
 		userid = PlayerPrefs.GetString("UserID", "");
 		useremail = PlayerPrefs.GetString("UserEmail","");
+
 		for (int i = 0; i < tabuleiro.pecasP1.Count; i++) {
 			tabuleiro.pecasP1[i].peca = Instantiate(pecapreta, 
 				new Vector3(tabuleiro.pecasP1[i].posicao.pos.transform.position.x, 
 							tabuleiro.pecasP1[i].posicao.pos.transform.position.y,
 					tabuleiro.pecasP1[i].posicao.pos.transform.position.z-0.5f), 
-				Quaternion.identity) as GameObject;
+				Quaternion.Euler(90, 0, 0)) as GameObject;
+
+			var pospeca = tabuleiro.pecasP1[i].peca.GetComponent<PosicaoHandler> ();
+			pospeca.Posicao = tabuleiro.pecasP1[i].posicao;
+			pospeca.Peca = tabuleiro.pecasP1 [i];
 		}
 
 		for (int i = 0; i < tabuleiro.pecasP2.Count; i++) {
@@ -35,7 +42,11 @@ public class Jogo : MonoBehaviour {
 				new Vector3(tabuleiro.pecasP2[i].posicao.pos.transform.position.x, 
 					tabuleiro.pecasP2[i].posicao.pos.transform.position.y,
 					tabuleiro.pecasP2[i].posicao.pos.transform.position.z-0.5f), 
-				Quaternion.identity) as GameObject;
+				Quaternion.Euler(90, 0, 0)) as GameObject;
+
+			var pospeca = tabuleiro.pecasP1[i].peca.GetComponent<PosicaoHandler> ();
+			pospeca.Posicao = tabuleiro.pecasP1[i].posicao;
+			pospeca.Peca = tabuleiro.pecasP1 [i];
 		}
 
 		FirebaseApp app = FirebaseApp.DefaultInstance;
@@ -148,7 +159,8 @@ public class Jogo : MonoBehaviour {
 			if(hit.transform.gameObject.GetComponent<PosicaoHandler>()){
 				PosicaoHandler posicaoHandler = hit.transform.gameObject.GetComponent<PosicaoHandler> ();
 				//if(posicaoHandler.Posicao != null)
-				//	Debug.Log ("posicao " + posicaoHandler.Posicao.local);
+				//if(posicaoHandler.Peca != null)
+				//	Debug.Log ("peca " + posicaoHandler.Peca.posicao.local);
 			}
 		}
 	}
