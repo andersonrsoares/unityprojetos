@@ -53,6 +53,7 @@
      <Compile Include="Assets\Scrips\EmailPassword.cs" />
      <Compile Include="Assets\Scrips\Jogo.cs" />
      <Compile Include="Assets\Scrips\LoginResult.cs" />
+     <Compile Include="Assets\Scrips\PosicaoHandler.cs" />
      <Compile Include="Assets\Scrips\UIHandler.cs" />
      <Compile Include="Assets\Scrips\UIHandlerDatabase.cs" />
      <Compile Include="Assets\WanzyeeStudio\Scripts\Basic\Json\BoundsConverter.cs" />

@@ -145,9 +145,11 @@ public class Jogo : MonoBehaviour {
 		Ray ray = camera.ScreenPointToRay(Input.mousePosition);
 		RaycastHit hit;
 		if (Physics.Raycast (ray, out hit,100)) {
-			//if(hit.transform.gameObject.GetComponent<Posicoes>()){
-			//	Debug.Log ();
-			//}
+			if(hit.transform.gameObject.GetComponent<PosicaoHandler>()){
+				PosicaoHandler posicaoHandler = hit.transform.gameObject.GetComponent<PosicaoHandler> ();
+				//if(posicaoHandler.Posicao != null)
+				//	Debug.Log ("posicao " + posicaoHandler.Posicao.local);
+			}
 		}
 	}
 

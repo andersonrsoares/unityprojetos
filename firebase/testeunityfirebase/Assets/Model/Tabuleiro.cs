@@ -48,12 +48,13 @@ public class Tabuleiro  {
 					index = x,
 					cor = cor,pos=p[x]};
 
-//				var posicao = p [x].AddComponent<Posicao> ();
+				var pos = p [x].AddComponent<PosicaoHandler> ();
 //				posicao.cor = cor;
 //				posicao.local = i.ToString() + "x" + j.ToString();
 //				posicao.index = x;
 //				posicao.pos = p[x];
 
+				pos.Posicao = posicao;
 				posicoes.Add (posicao);
 
 
@@ -61,11 +62,13 @@ public class Tabuleiro  {
 					if (i <= 3) {
 						Peca peca = new Peca (){posicao = posicao, cor = 1 };
 						pecasP1.Add (peca);
+						pos.peca = peca;
 					}
 					else
 					if (i >= 6) {
 						Peca peca = new Peca (){posicao = posicao, cor = 0 };
 						pecasP2.Add (peca);
+						pos.peca = peca;
 					}
 				}
 
