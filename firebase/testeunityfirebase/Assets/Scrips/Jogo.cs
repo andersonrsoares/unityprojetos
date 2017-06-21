@@ -7,6 +7,7 @@ using Firebase.Auth;
 using Firebase.Database;
 using Firebase.Unity.Editor;
 using System;
+using Newtonsoft.Json;
 
 public class Jogo : MonoBehaviour {
 	public List<GameObject> posicoes = new List<GameObject>();
@@ -63,15 +64,21 @@ public class Jogo : MonoBehaviour {
 
 
 		};
+	
 
-			
 		reference.Child ("jogo").Child (id).ValueChanged += ValueChaged;
 
 		tabuleiro.player1 = "1";
 		tabuleiro.player1 = "2";
-		var tab = JsonUtility.ToJson (new Usuario(){Nome = "teste"});
-		Debug.Log (tabuleiro);
+		// JsonUtility.ToJson (new Usuario(){Nome = "teste"});
+
+	
+		var tab = JsonConvert.SerializeObject (tabuleiro);
+		//var tab = JsonUtility.ToJson (values);
 		Debug.Log (tab);
+		///Debug.Log (x);
+
+
 		reference.Child ("jogo").Child(id)
 			.SetRawJsonValueAsync (tab)
 			.ContinueWith (task => {
@@ -121,6 +128,7 @@ public class Jogo : MonoBehaviour {
 
 		if (e.Snapshot != null && e.Snapshot.ChildrenCount > 0) {
 			foreach (var childSnapshot in e.Snapshot.Children) {
+				Debug.Log(childSnapshot);
 				if (childSnapshot.Child("body") == null
 					|| childSnapshot.Child("body").Value == null) {
 					Debug.LogError("Bad data in sample.  Did you forget to call SetEditorDatabaseUrl with your project id?");
@@ -142,4 +150,42 @@ public class Jogo : MonoBehaviour {
 			//}
 		}
 	}
+
+
+//	public static KeyValuePair<object, object > Cast<K, V>(this KeyValuePair<K, V> kvp)
+//	{
+//		return new KeyValuePair<object, object>(kvp.Key, kvp.Value);
+//	}
+//
+//	public static KeyValuePair<T, V> CastFrom<T, V>(object obj)
+//	{
+//		return (KeyValuePair<T, V>) obj;
+//	}
+
+
+//	private static T DictionaryToObject<T>(Dictionary<string, string> dict) where T : new()
+//	{
+//		var t = new T();
+//		System.Reflection.PropertyInfo[] properties = t.GetType().GetProperties();
+//
+//		foreach ( System.Reflection.PropertyInfo property in properties)
+//		{
+//			if (!dict.ConAny(x => x.Key.Equals(property.Name, StringComparison.InvariantCultureIgnoreCase)))
+//				continue;
+//
+//			KeyValuePair<string, string> item = dict.First(x => x.Key.Equals(property.Name, StringComparison.InvariantCultureIgnoreCase));
+//
+//			// Find which property type (int, string, double? etc) the CURRENT property is...
+//			Type tPropertyType = t.GetType().GetProperty(property.Name).PropertyType;
+//
+//			// Fix nullables...
+//			Type newT = Nullable.GetUnderlyingType(tPropertyType) ?? tPropertyType;
+//
+//			// ...and change the type
+//			object newA = Convert.ChangeType(item.Value, newT);
+//			t.GetType().GetProperty(property.Name).SetValue(t, newA, null);
+//		}
+//		return t;
+//	}
+
 }

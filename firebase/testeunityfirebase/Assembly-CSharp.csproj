@@ -55,6 +55,18 @@
      <Compile Include="Assets\Scrips\LoginResult.cs" />
      <Compile Include="Assets\Scrips\UIHandler.cs" />
      <Compile Include="Assets\Scrips\UIHandlerDatabase.cs" />
+     <Compile Include="Assets\WanzyeeStudio\Scripts\Basic\Json\BoundsConverter.cs" />
+     <Compile Include="Assets\WanzyeeStudio\Scripts\Basic\Json\ColorConverter.cs" />
+     <Compile Include="Assets\WanzyeeStudio\Scripts\Basic\Json\DictionaryConverter.cs" />
+     <Compile Include="Assets\WanzyeeStudio\Scripts\Basic\Json\Matrix4x4Converter.cs" />
+     <Compile Include="Assets\WanzyeeStudio\Scripts\Basic\Json\QuaternionConverter.cs" />
+     <Compile Include="Assets\WanzyeeStudio\Scripts\Basic\Json\RectConverter.cs" />
+     <Compile Include="Assets\WanzyeeStudio\Scripts\Basic\Json\RectOffsetConverter.cs" />
+     <Compile Include="Assets\WanzyeeStudio\Scripts\Basic\Json\Vector2Converter.cs" />
+     <Compile Include="Assets\WanzyeeStudio\Scripts\Basic\Json\Vector3Converter.cs" />
+     <Compile Include="Assets\WanzyeeStudio\Scripts\Basic\Json\Vector4Converter.cs" />
+     <Compile Include="Assets\WanzyeeStudio\Scripts\Basic\Utility\JsonNetUtility.cs" />
+     <None Include="Assets\WanzyeeStudio\ThirdParty\Newtonsoft\Json.NET\readme.txt" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-auth-unity\maven-metadata.xml" />
      <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.28.0.txt" />
      <None Include="Assets\Firebase\Plugins\link.xml" />
@@ -64,7 +76,9 @@
      <None Include="Assets\PlayServicesResolver\proguard-unity.txt" />
      <None Include="Assets\Firebase\Editor\FirebaseAuth_v4.0.0_manifest.txt" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
+     <None Include="Assets\WanzyeeStudio\ThirdParty\Newtonsoft\Json.NET\Plugins\Newtonsoft.Json.xml" />
      <None Include="Assets\Firebase\Editor\FirebaseDatabase_v4.0.0_manifest.txt" />
+     <None Include="Assets\WanzyeeStudio\ThirdParty\Newtonsoft\Json.NET\license.txt" />
      <None Include="Assets\Firebase\Plugins\Http\link.xml" />
      <None Include="Assets\Plugins\Android\firebase-common-11.0.0\AndroidManifest.xml" />
  <Reference Include="UnityEngine.Analytics">
@@ -108,6 +122,9 @@
  </Reference>
  <Reference Include="Unity.Tasks">
  <HintPath>/Users/devmaker/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/Firebase/Plugins/Unity.Tasks.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>/Users/devmaker/GITHUB/unityprojetos/firebase/testeunityfirebase/Assets/WanzyeeStudio/ThirdParty/Newtonsoft/Json.NET/Plugins/Newtonsoft.Json.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

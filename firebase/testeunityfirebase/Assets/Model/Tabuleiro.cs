@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using Newtonsoft.Json;
 
 [Serializable]
 public class Tabuleiro  {
@@ -15,7 +16,7 @@ public class Tabuleiro  {
 	public List<Peca> pecasP1 { get; set;}
 	[SerializeField]
 	public List<Peca> pecasP2 { get; set;}
-	[SerializeField]
+	//[JsonIgnore]
 	public List<Posicao> posicoes { get; set;}
 
 	public Tabuleiro(List<GameObject> p){
@@ -43,16 +44,16 @@ public class Tabuleiro  {
 					}
 				}
 
-//				Posicao posicao = new Posicao (){ 
-//					local = i.ToString() + "x" + j.ToString(), 
-//					index = x,
-//					cor = cor,pos=p[x]};
+				Posicao posicao = new Posicao (){ 
+					local = i.ToString() + "x" + j.ToString(), 
+					index = x,
+					cor = cor,pos=p[x]};
 
-				var posicao = p [x].AddComponent<Posicao> ();
-				posicao.cor = cor;
-				posicao.local = i.ToString() + "x" + j.ToString();
-				posicao.index = x;
-				posicao.pos = p[x];
+//				var posicao = p [x].AddComponent<Posicao> ();
+//				posicao.cor = cor;
+//				posicao.local = i.ToString() + "x" + j.ToString();
+//				posicao.index = x;
+//				posicao.pos = p[x];
 
 				posicoes.Add (posicao);
 

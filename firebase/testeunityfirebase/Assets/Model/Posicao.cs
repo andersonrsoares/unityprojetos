@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using Newtonsoft.Json;
 
 [Serializable]
-public class Posicao : MonoBehaviour {
+public class Posicao  {
 
 	public string local { get; set;}
 	public int index { get; set;}
